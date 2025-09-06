@@ -1,10 +1,3 @@
-# NoMoreWalls
-
-[![Fetch Status](https://github.com/chengaopan/AutoMergePublicNodes/actions/workflows/fetch.yml/badge.svg)](https://github.com/chengaopan/AutoMergePublicNodes/actions/workflows/fetch.yml) [![Stars](https://img.shields.io/github/stars/chengaopan/AutoMergePublicNodes?style=flat)](https://github.com/chengaopan/AutoMergePublicNodes/stargazers) [![Watchers](https://img.shields.io/github/watchers/chengaopan/AutoMergePublicNodes?style=flat)](https://github.com/chengaopan/AutoMergePublicNodes/watchers) [![Forks](https://img.shields.io/github/forks/chengaopan/AutoMergePublicNodes?style=flat)](https://github.com/chengaopan/AutoMergePublicNodes/forks) [![Repo size](https://img.shields.io/github/repo-size/chengaopan/AutoMergePublicNodes)](https://github.com/chengaopan/AutoMergePublicNodes/commits) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/chengaopan/AutoMergePublicNodes/blob/master/LICENSE.md) [![暮光计划](https://img.shields.io/badge/link-暮光计划--向戒网瘾学校宣战-red.svg)](https://proj3ctaurora.tilda.ws/)
-
-自动抓取合并互联网上的公开节点。
-🚀 免费节点,🚀免费节点订阅,🚀v2ray免费节点,ssr免费节点订阅,clash免费节点订阅,免费梯子,免费翻墙,免费科学上网,免费ss/v2ray/trojan/clash节点,谷歌商店,翻墙梯子
-
 ## 公告
 * 本项目fork [NoMoreWalls](https://github.com/peasoft/NoMoreWalls) 请优先为该项目 点亮☆
 * 为防止失联，[peasoft](https://github.com/peasoft)建立了镜像：<https://peasoft.github.io/NWalls.html>
@@ -38,26 +31,26 @@
 注意：加速链接可能会失效，如果无法更新订阅，请把所有链接从上到下每个试一遍！你可以在电脑浏览器上安装油猴脚本 [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245)，在目录浏览点开 `list.txt`，然后在 `Raw` 按钮边上找到最新的加速链接。
 
 添加 Base64 订阅：
-- [原始链接](https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt)
-- [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt)
+- [原始链接](https://raw.githubusercontent.com/ileesen/PublicNodes/master/list.txt)
+- [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/ileesen/PublicNodes/master/list.txt)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
-- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
-- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
-- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
-- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.txt)
+- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/ileesen/PublicNodes@master/list.txt)
+- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/ileesen/PublicNodes@master/list.txt)
+- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/ileesen/PublicNodes@master/list.txt)
+- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/ileesen/PublicNodes@master/list.txt)
 
 或添加 Clash Meta 订阅：（如果使用的是原版 Clash，请将链接最后的 `.meta.yml` 替换成 `.yml`。如果 Meta 提示解析错误，请**更新 Meta 至最新版本**！）
-- [原始链接](https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml)
-- [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml)
+- [原始链接](https://raw.githubusercontent.com/ileesen/PublicNodes/master/list.meta.yml)
+- [GhProxy.cn](https://ghproxy.cn/https://raw.githubusercontent.com/ileesen/PublicNodes/master/list.meta.yml)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
-- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml)
-- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml)
-- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml)
-- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.meta.yml)
+- [JsDelivr 默认 (当前 Fastly)](https://cdn.jsdelivr.net/gh/ileesen/PublicNodes@master/list.meta.yml)
+- [JsDelivr Fastly CDN](https://fastly.jsdelivr.net/gh/ileesen/PublicNodes@master/list.meta.yml)
+- [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/ileesen/PublicNodes@master/list.meta.yml)
+- [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/ileesen/PublicNodes@master/list.meta.yml)
 
 或添加 Sing-Box 订阅：（第三方提供转换，不支持本项目的节点选择和分流规则）
 - [转换链接（第三方）](https://subapi.fxxk.dedyn.io/sub?target=singbox&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Fsnippets%2Fnodes.meta.yml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&tls13=true&emoji=true&list=false&xudp=true&udp=true&tfo=false&expand=true&scv=false&fdn=false&singbox.ipv6=1)
@@ -74,7 +67,7 @@
 
 1. 克隆本仓库，由于本仓库的完整 Commit 历史极大，请务必指定 `--depth=1`：
     ```bash
-    git clone https://github.com/chengaopan/AutoMergePublicNodes.git --depth=1
+    git clone https://github.com/ileesen/PublicNodes.git --depth=1
     ```
 2. 安装依赖库（此步骤需要 Git）
     ```bash
