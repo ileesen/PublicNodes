@@ -2,7 +2,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港|@ripaojiedian
+  name: 16,17|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 16|🇭🇰 香港2|@ripaojiedian
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -35,7 +35,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
+  name: 16,17|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -49,27 +49,9 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 203.218.174.80
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- client-fingerprint: chrome
-  name: 12,13|香港6|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 218.103.234.218
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|香港v2|@ripaojiedian
+  name: 17|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
   server: 47.239.183.87
