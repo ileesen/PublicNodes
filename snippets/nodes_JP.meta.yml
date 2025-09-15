@@ -1,5 +1,5 @@
 proxies:
-- name: '9|Channel id: @ShadowProxy66🇯🇵'
+- name: '8|Channel id: @ShadowProxy66🇯🇵'
   password: fabd2b79-693a-4a37-827c-6d299e8813b1
   port: 443
   server: 133.18.163.202
@@ -7,13 +7,33 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: 10|日期：09-14
+  network: grpc
+  port: 443
+  server: 167.68.42.168
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- flow: xtls-rprx-vision
+  name: 10|🇯🇵_日本
+  network: tcp
+  port: 27888
+  server: jp.1mao.me
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8e0cd6cf-f31e-48aa-ba6d-8399c4e1abaf
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-LUEpIR0Pwo.download.microsoft.com
+    host: 202509121565513-hgGUWL4a7n.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -39,8 +59,8 @@ proxies:
   name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 316
-  server: xingxing.jiasu123.org
+  port: 327
+  server: 36.156.102.77
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
@@ -48,8 +68,8 @@ proxies:
   name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4613
-  server: xingxing.jiasu123.org
+  port: 1924
+  server: 36.156.102.77
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
@@ -58,7 +78,7 @@ proxies:
   name: 12|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 35.77.6.3
+  server: 57.181.174.7
   tfo: false
   type: ss
 - alterId: 0
