@@ -1,22 +1,9 @@
-# Update: 2025-09-15 10:24
+port: 7890
+socks-port: 7891
 allow-lan: true
-dns:
-  enable: true
-  enhanced-mode: redir-host
-  fallback:
-  - 8.8.8.8
-  - 1.1.1.1
-  ipv6: true
-  listen: :1053
-  nameserver:
-  - 223.5.5.5
-  - 114.114.114.114
+mode: Rule
+log-level: info
 external-controller: 0.0.0.0:9090
-global-client-fingerprint: chrome
-ipv6: true
-log-level: warning
-mixed-port: 7890
-mode: rule
 proxies:
 - name: 1|电报群：https://t.me/vvkj11
   network: grpc
