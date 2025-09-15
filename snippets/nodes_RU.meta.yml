@@ -104,7 +104,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,15|GR_speednode_0003
+  name: 0,14|GR_speednode_0005
   network: tcp
   port: 443
   reality-opts:
@@ -158,7 +158,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0008
+  name: 14|RU_speednode_0016
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -171,20 +171,7 @@ proxies:
   uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0009
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: 91.219.23.102
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0010
+  name: 14|RU_speednode_0017
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -197,20 +184,7 @@ proxies:
   uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0011
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: 91.219.23.90
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0012
+  name: 14|RU_speednode_0018
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -223,7 +197,20 @@ proxies:
   uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0013
+  name: 14|RU_speednode_0019
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.90
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|RU_speednode_0020
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -235,3 +222,16 @@ proxies:
   type: vless
   udp: true
   uuid: 5475990d-e0ce-46ea-95e5-50f9e4879af9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|RU_speednode_0021
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.102
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
