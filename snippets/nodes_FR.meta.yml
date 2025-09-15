@@ -1,1 +1,80 @@
-proxies: []
+proxies:
+- name: 0|🇫🇷_法国
+  network: grpc
+  port: 443
+  server: 94.140.0.141
+  tls: true
+  type: vless
+  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- name: '0|🇫🇷_法国 #1'
+  network: tcp
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 14|FR_speednode_0032
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram@ShadowProxy66
+- name: 14|FR_speednode_0033
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /由零开始
+- name: 14|FR_speednode_0034
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.16.110.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 14|FR_speednode_0035
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- name: 14|FR_speednode_0036
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
