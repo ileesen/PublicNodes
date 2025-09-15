@@ -102,14 +102,20 @@ proxies:
   server: 194.76.18.87
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- flow: xtls-rprx-vision
-  name: '0|🇷🇺_俄罗斯 #14'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,15|GR_speednode_0003
   network: tcp
   port: 443
+  reality-opts:
+    public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
+    short-id: 0fa84b90
   server: 185.39.207.121
   servername: outlook.office.com
-  tls: false
+  skip-cert-verify: false
+  tls: true
   type: vless
+  udp: true
   uuid: 6035325d-399a-5148-9126-29cedfd5966a
 - name: '0|🇷🇺_俄罗斯 #15'
   network: tcp
@@ -150,159 +156,82 @@ proxies:
   server: 185.59.218.195
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 14|RU_speednode_0048
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.107.195
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.100
+  servername: www.bing.com
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: 14|RU_speednode_0049
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.107.195
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.102
+  servername: www.bing.com
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- name: 14|RU_speednode_0050
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.107.195
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.129
+  servername: www.bing.com
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram@ShadowProxy66
-- name: 14|RU_speednode_0051
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 188.42.145.195
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0011
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 91.219.23.90
+  servername: www.bing.com
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: 14|RU_speednode_0052
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.107.195
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0012
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: deu316.unlocknet.org
+  servername: www.bing.com
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /由零开始U0001F1E8U0001F1F3
-- name: 14|RU_speednode_0053
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 213.241.198.195
+  uuid: 77b3bda7-4ee3-4c99-bad1-a935f7e027c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0013
+  port: 443
+  reality-opts:
+    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+    short-id: 16895459a2c7768d
+  server: 94.26.228.68
+  servername: ru.sfasti.ru
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 14|RU_speednode_0054
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.174.138.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /由零开始
-- name: 14|RU_speednode_0055
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.59.218.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /由零开始
-- name: 14|RU_speednode_0056
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.176.24.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: 14|RU_speednode_0057
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.176.24.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 14|RU_speednode_0058
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.174.138.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- name: 14|RU_speednode_0059
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.176.24.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /由零开始
+  uuid: 5475990d-e0ce-46ea-95e5-50f9e4879af9
