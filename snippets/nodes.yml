@@ -1,81 +1,9 @@
 proxies:
-- name: 2|CF随机节点01
-  network: ws
-  password: qifei
-  port: 2087
-  server: 103.21.244.159
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点02
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.16.10.179
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点03
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.24.82.175
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点04
-  network: ws
-  password: qifei
-  port: 443
-  server: 172.64.165.167
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点05
-  network: ws
-  password: qifei
-  port: 443
-  server: 104.16.51.158
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点06
-  network: ws
-  password: qifei
-  port: 2096
-  server: 104.24.141.203
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点07
+- name: 3|CF随机节点01
   network: ws
   password: qifei
   port: 2083
-  server: 141.101.90.36
+  server: 103.21.244.31
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -83,11 +11,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点08
+- name: 3|CF随机节点02
   network: ws
   password: qifei
   port: 2053
-  server: 172.64.100.97
+  server: 104.16.151.147
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -95,59 +23,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点09
-  network: ws
-  password: qifei
-  port: 443
-  server: 188.114.98.78
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点10
-  network: ws
-  password: qifei
-  port: 8443
-  server: 190.93.242.69
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点11
-  network: ws
-  password: qifei
-  port: 443
-  server: 162.159.152.75
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点12
-  network: ws
-  password: qifei
-  port: 2087
-  server: 104.16.191.47
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点13
+- name: 3|CF随机节点03
   network: ws
   password: qifei
   port: 2083
-  server: 104.24.106.250
+  server: 104.24.242.59
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -155,83 +35,203 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点14
-  network: ws
-  password: qifei
-  port: 2053
-  server: 172.64.122.170
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点15
-  network: ws
-  password: qifei
-  port: 2096
-  server: 104.16.47.245
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点16
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.24.227.225
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点17
-  network: ws
-  password: qifei
-  port: 2087
-  server: 141.101.66.207
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点18
-  network: ws
-  password: qifei
-  port: 2096
-  server: 172.64.171.202
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点19
-  network: ws
-  password: qifei
-  port: 443
-  server: 188.114.103.90
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 2|CF随机节点20
+- name: 3|CF随机节点04
   network: ws
   password: qifei
   port: 8443
-  server: 190.93.245.131
+  server: 172.64.11.60
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点05
+  network: ws
+  password: qifei
+  port: 2087
+  server: 104.16.125.73
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点06
+  network: ws
+  password: qifei
+  port: 2083
+  server: 104.24.16.157
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点07
+  network: ws
+  password: qifei
+  port: 2096
+  server: 141.101.72.60
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点08
+  network: ws
+  password: qifei
+  port: 443
+  server: 172.64.46.212
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点09
+  network: ws
+  password: qifei
+  port: 2053
+  server: 188.114.103.123
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点10
+  network: ws
+  password: qifei
+  port: 8443
+  server: 190.93.242.95
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点11
+  network: ws
+  password: qifei
+  port: 8443
+  server: 162.159.153.134
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点12
+  network: ws
+  password: qifei
+  port: 2083
+  server: 104.16.141.5
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点13
+  network: ws
+  password: qifei
+  port: 2053
+  server: 104.24.27.110
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点14
+  network: ws
+  password: qifei
+  port: 443
+  server: 172.64.61.95
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点15
+  network: ws
+  password: qifei
+  port: 2083
+  server: 104.16.131.166
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点16
+  network: ws
+  password: qifei
+  port: 2096
+  server: 104.24.217.235
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点17
+  network: ws
+  password: qifei
+  port: 2053
+  server: 141.101.94.173
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点18
+  network: ws
+  password: qifei
+  port: 2083
+  server: 172.64.117.130
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点19
+  network: ws
+  password: qifei
+  port: 443
+  server: 188.114.103.184
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 3|CF随机节点20
+  network: ws
+  password: qifei
+  port: 2087
+  server: 190.93.240.146
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -240,15 +240,15 @@ proxies:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 51.21.249.115
+  server: 13.61.188.86
   tfo: false
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12,13|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -263,7 +263,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -279,7 +279,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   port: 21201
   server: 149.104.15.178
   skip-cert-verify: false
@@ -287,52 +287,66 @@ proxies:
   tls: false
   type: vmess
   uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 112.118.248.22
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 1.64.115.53
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 13|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
   server: 54.46.38.22
   tfo: false
   type: ss
-- name: 12,13|香港6|@ripaojiedian
+- name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 447
-  server: 160.16.63.16
-  skip-cert-verify: true
-  sni: www.baidu.com
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港7|@ripaojiedian
-  port: 52512
-  server: 183.240.180.47
+  name: 13,14|香港7|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-XAa9x2cfsM.download.microsoft.com
+    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 327
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: 8808e9f11454
   plugin: v2ray-plugin
   plugin-opts:
@@ -346,48 +360,40 @@ proxies:
   server: 137.220.142.139
   tfo: false
   type: ss
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 327
-  server: 153.121.45.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|日本4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1806
-  server: 36.151.251.6
+  port: 1924
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 13|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
   server: 3.115.88.171
   tfo: false
   type: ss
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4801
-  server: 36.151.251.6
+  port: 2045
+  server: 160.16.130.66
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 9160
-  server: 36.151.251.6
+  port: 4397
+  server: 160.16.117.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 12,13|新加坡3|@ripaojiedian
+  name: 13,14|新加坡3|@ripaojiedian
   network: ws
   port: '30839'
   server: v39.heduian.link
@@ -402,17 +408,17 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-XAa9x2cfsM.download.microsoft.com
+    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -420,7 +426,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国4|@ripaojiedian
+- name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -429,7 +435,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-cfb
-  name: 12|🇻🇳 越南|@ripaojiedian
+  name: 13|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.28
@@ -437,7 +443,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港3|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '21201'
   server: 149.104.15.178
@@ -445,19 +451,9 @@ proxies:
   tls: false
   type: vmess
   uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
-- alterId: 64
-  cipher: auto
-  name: 13|香港7|@ripaojiedian
-  network: tcp
-  port: '52512'
-  server: 183.240.180.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港v2|@ripaojiedian
+  name: 14|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -467,7 +463,7 @@ proxies:
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
 - alterId: 0
   cipher: auto
-  name: 13|日本v2|@ripaojiedian
+  name: 14|日本v2|@ripaojiedian
   network: kcp
   port: '40916'
   server: 8.209.200.91
@@ -475,7 +471,7 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: 14|CN_speednode_0006
+- name: 15|CN_speednode_0006
   password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
   port: 13028
   server: suningyunyou.judelvin.com
@@ -483,7 +479,7 @@ proxies:
   sni: 3t49hrhac.qqtoup81.top
   type: trojan
   udp: true
-- name: 14|CN_speednode_0008
+- name: 15|CN_speednode_0008
   password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
   port: 13033
   server: suningyunyou.judelvin.com
@@ -491,7 +487,7 @@ proxies:
   sni: hg2983hrfx.qqtoup81.top
   type: trojan
   udp: true
-- name: 14|HK_speednode_0014
+- name: 15|HK_speednode_0014
   password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
   port: 12000
   server: 165.154.112.107
@@ -499,7 +495,7 @@ proxies:
   sni: aliyun.com
   type: trojan
   udp: true
-- name: 14|JP_speednode_0019
+- name: 15|JP_speednode_0019
   network: ws
   password: juzi
   port: 22735
@@ -512,7 +508,7 @@ proxies:
     headers:
       Host: juzi8186-sr1.pages.dev
     path: /?ed=2560
-- name: 14|JP_speednode_0020
+- name: 15|JP_speednode_0020
   password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
   port: 443
   server: 160.16.104.143
@@ -520,7 +516,7 @@ proxies:
   sni: www.linemo.jp
   type: trojan
   udp: true
-- name: 14|NL_speednode_0022
+- name: 15|NL_speednode_0022
   password: installshield
   port: 8443
   server: 38.180.249.177
@@ -528,7 +524,7 @@ proxies:
   sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   type: trojan
   udp: true
-- name: 14|US_speednode_0029
+- name: 15|US_speednode_0029
   network: ws
   password: juzi
   port: 443
