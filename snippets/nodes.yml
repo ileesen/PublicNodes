@@ -1,9 +1,9 @@
 proxies:
-- name: 3|CF随机节点01
+- name: 2|CF随机节点01
   network: ws
   password: qifei
-  port: 2096
-  server: 103.21.244.181
+  port: 2053
+  server: 103.21.244.203
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -11,11 +11,71 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点02
+- name: 2|CF随机节点02
+  network: ws
+  password: qifei
+  port: 2096
+  server: 104.16.190.80
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点03
+  network: ws
+  password: qifei
+  port: 8443
+  server: 104.24.114.254
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点04
+  network: ws
+  password: qifei
+  port: 8443
+  server: 172.64.208.89
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点05
+  network: ws
+  password: qifei
+  port: 8443
+  server: 104.16.44.100
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点06
+  network: ws
+  password: qifei
+  port: 2096
+  server: 104.24.54.247
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点07
   network: ws
   password: qifei
   port: 2083
-  server: 104.16.255.165
+  server: 141.101.89.73
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -23,11 +83,35 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点03
+- name: 2|CF随机节点08
+  network: ws
+  password: qifei
+  port: 2087
+  server: 172.64.254.3
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点09
+  network: ws
+  password: qifei
+  port: 2053
+  server: 188.114.99.26
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点10
   network: ws
   password: qifei
   port: 2096
-  server: 104.24.96.240
+  server: 190.93.247.244
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -35,11 +119,35 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点04
+- name: 2|CF随机节点11
+  network: ws
+  password: qifei
+  port: 2087
+  server: 162.159.153.208
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点12
+  network: ws
+  password: qifei
+  port: 2087
+  server: 104.16.46.198
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点13
   network: ws
   password: qifei
   port: 2083
-  server: 172.64.76.133
+  server: 104.24.29.165
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -47,35 +155,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点05
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.16.218.126
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点06
-  network: ws
-  password: qifei
-  port: 8443
-  server: 104.24.169.178
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点07
+- name: 2|CF随机节点14
   network: ws
   password: qifei
   port: 2087
-  server: 141.101.93.241
+  server: 172.64.104.218
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -83,11 +167,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点08
+- name: 2|CF随机节点15
   network: ws
   password: qifei
-  port: 8443
-  server: 172.64.183.237
+  port: 2083
+  server: 104.16.65.181
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -95,47 +179,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点09
-  network: ws
-  password: qifei
-  port: 8443
-  server: 188.114.97.117
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点10
-  network: ws
-  password: qifei
-  port: 8443
-  server: 190.93.240.0
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点11
-  network: ws
-  password: qifei
-  port: 2087
-  server: 162.159.152.165
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点12
+- name: 2|CF随机节点16
   network: ws
   password: qifei
   port: 2053
-  server: 104.16.197.143
+  server: 104.24.134.62
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -143,95 +191,47 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点13
-  network: ws
-  password: qifei
-  port: 2087
-  server: 104.24.121.150
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点14
-  network: ws
-  password: qifei
-  port: 2053
-  server: 172.64.183.9
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点15
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.16.55.89
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点16
-  network: ws
-  password: qifei
-  port: 2087
-  server: 104.24.73.45
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点17
-  network: ws
-  password: qifei
-  port: 2053
-  server: 141.101.77.206
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点18
-  network: ws
-  password: qifei
-  port: 8443
-  server: 172.64.122.184
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点19
-  network: ws
-  password: qifei
-  port: 2053
-  server: 188.114.99.232
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点20
+- name: 2|CF随机节点17
   network: ws
   password: qifei
   port: 2096
-  server: 190.93.243.6
+  server: 141.101.70.102
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点18
+  network: ws
+  password: qifei
+  port: 443
+  server: 172.64.216.116
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点19
+  network: ws
+  password: qifei
+  port: 8443
+  server: 188.114.96.13
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点20
+  network: ws
+  password: qifei
+  port: 443
+  server: 190.93.241.207
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
