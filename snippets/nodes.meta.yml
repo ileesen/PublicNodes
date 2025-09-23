@@ -1,9 +1,9 @@
 proxies:
-- name: 3|CF随机节点01
+- name: 2|CF随机节点01
   network: ws
   password: qifei
-  port: 2053
-  server: 103.21.244.117
+  port: 2087
+  server: 103.21.244.131
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -11,11 +11,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点02
+- name: 2|CF随机节点02
   network: ws
   password: qifei
   port: 2053
-  server: 104.16.225.223
+  server: 104.16.226.200
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -23,11 +23,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点03
+- name: 2|CF随机节点03
   network: ws
   password: qifei
   port: 8443
-  server: 104.24.156.5
+  server: 104.24.138.179
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -35,11 +35,23 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点04
+- name: 2|CF随机节点04
+  network: ws
+  password: qifei
+  port: 2096
+  server: 172.64.104.67
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点05
   network: ws
   password: qifei
   port: 2083
-  server: 172.64.100.127
+  server: 104.16.250.26
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -47,11 +59,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点05
+- name: 2|CF随机节点06
   network: ws
   password: qifei
   port: 2087
-  server: 104.16.123.209
+  server: 104.24.155.55
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -59,11 +71,11 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点06
+- name: 2|CF随机节点07
   network: ws
   password: qifei
   port: 2083
-  server: 104.24.168.61
+  server: 141.101.79.236
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -71,11 +83,59 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点07
+- name: 2|CF随机节点08
+  network: ws
+  password: qifei
+  port: 443
+  server: 172.64.243.95
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点09
+  network: ws
+  password: qifei
+  port: 2053
+  server: 188.114.98.45
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点10
+  network: ws
+  password: qifei
+  port: 443
+  server: 190.93.246.248
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点11
+  network: ws
+  password: qifei
+  port: 2083
+  server: 162.159.153.167
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点12
   network: ws
   password: qifei
   port: 2087
-  server: 141.101.71.140
+  server: 104.16.224.14
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -83,11 +143,35 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点08
+- name: 2|CF随机节点13
+  network: ws
+  password: qifei
+  port: 2053
+  server: 104.24.63.91
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点14
+  network: ws
+  password: qifei
+  port: 2087
+  server: 172.64.126.225
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点15
   network: ws
   password: qifei
   port: 8443
-  server: 172.64.46.228
+  server: 104.16.94.33
   skip-cert-verify: true
   sni: leepages.pages.dev
   type: trojan
@@ -95,227 +179,849 @@ proxies:
     headers:
       Host: leepages.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点09
+- name: 2|CF随机节点16
   network: ws
   password: qifei
+  port: 2083
+  server: 104.24.184.54
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点17
+  network: ws
+  password: qifei
+  port: 2083
+  server: 141.101.89.179
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点18
+  network: ws
+  password: qifei
+  port: 2096
+  server: 172.64.83.21
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点19
+  network: ws
+  password: qifei
+  port: 2053
+  server: 188.114.101.68
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: 2|CF随机节点20
+  network: ws
+  password: qifei
+  port: 2083
+  server: 190.93.244.123
+  skip-cert-verify: true
+  sni: leepages.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: leepages.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  name: 9|裤佬求你了凿斯它
+  network: tcp
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  servername: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: null
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tfo: false
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 9|👖裤佬公益订阅Max版
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: http
+  udp: true
+  username: test
+- client-fingerprint: randomized
+  name: 9|FREE_US 00ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 443
+  server: 122.117.174.80
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 81
+  server: 118.163.37.32
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 81
+  server: 220.135.202.250
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_CF 01ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 443
+  server: ip.sb
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_CF 02ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 2053
+  server: icook.hk
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_CF 03ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 2083
+  server: icook.tw
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_CF 04ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
   port: 2087
-  server: 188.114.97.21
+  server: www.visa.cn
   skip-cert-verify: true
-  sni: leepages.pages.dev
+  sni: trojanfree.trevely.us.kg
   type: trojan
   ws-opts:
     headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点10
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_CF 05ᵀʳᵉᵛᵉˡʸ
   network: ws
-  password: qifei
+  password: Trevely
+  port: 2096
+  server: www.visa.com.tw
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 01ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 1.214.208.5
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 02ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 49.168.9.171
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 03ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 49.175.158.24
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 04ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 59.7.0.176
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 05ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 61.253.84.2
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 06ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 112.165.11.40
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 07ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 112.165.215.157
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 08ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 112.168.35.73
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 09ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 118.35.75.140
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 10ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 118.39.44.24
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 12ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 118.44.98.228
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 13ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 118.46.37.203
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 14ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 119.193.156.30
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 15ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 121.153.38.160
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 16ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 121.178.121.161
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 17ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 125.143.29.83
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 18ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50000
+  server: 203.243.54.42
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 19ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 211.184.116.84
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 9|FREE_KR 20ᵀʳᵉᵛᵉˡʸ
+  network: ws
+  password: Trevely
+  port: 50001
+  server: 211.209.211.83
+  skip-cert-verify: true
+  sni: trojanfree.trevely.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_US 00ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 443
+  server: 122.117.174.80
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 81
+  server: 118.163.37.32
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 81
+  server: 220.135.202.250
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_CF 01ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_CF 02ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 2053
+  server: icook.hk
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_CF 03ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 2083
+  server: icook.tw
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_CF 04ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
   port: 2087
-  server: 190.93.240.208
+  server: www.visa.cn
+  servername: vlessfree.trevely.us.kg
   skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点11
-  network: ws
-  password: qifei
-  port: 2053
-  server: 162.159.152.148
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点12
-  network: ws
-  password: qifei
-  port: 2096
-  server: 104.16.24.76
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点13
-  network: ws
-  password: qifei
-  port: 2096
-  server: 104.24.192.177
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点14
-  network: ws
-  password: qifei
-  port: 2053
-  server: 172.64.155.85
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点15
-  network: ws
-  password: qifei
-  port: 443
-  server: 104.16.243.118
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点16
-  network: ws
-  password: qifei
-  port: 2053
-  server: 104.24.135.169
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点17
-  network: ws
-  password: qifei
-  port: 2053
-  server: 141.101.77.102
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点18
-  network: ws
-  password: qifei
-  port: 2096
-  server: 172.64.169.230
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点19
-  network: ws
-  password: qifei
-  port: 2096
-  server: 188.114.97.154
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- name: 3|CF随机节点20
-  network: ws
-  password: qifei
-  port: 2053
-  server: 190.93.240.59
-  skip-cert-verify: true
-  sni: leepages.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: leepages.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 10|👖🇭🇰https://t.me/stymei1
-  network: ws
-  port: 443
-  server: 104.16.53.218
-  servername: xw0083.dpdns.org
-  skip-cert-verify: true
-  sni: xw0083.dpdns.org
   tfo: false
   tls: true
   type: vless
-  uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
   ws-opts:
     headers:
-      Host: xw0083.dpdns.org
+      Host: vlessfree.trevely.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 10|👖🇭🇰裤佬公益订阅
+- client-fingerprint: random
+  name: 9|FREE_CF 05ᵀʳᵉᵛᵉˡʸ_1
   network: ws
-  port: 443
-  server: 104.24.144.124
-  servername: xw0083.dpdns.org
+  port: 2096
+  server: www.visa.com.tw
+  servername: vlessfree.trevely.us.kg
   skip-cert-verify: true
-  sni: xw0083.dpdns.org
   tfo: false
   tls: true
   type: vless
-  uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
   ws-opts:
     headers:
-      Host: xw0083.dpdns.org
+      Host: vlessfree.trevely.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 10|👖🇭🇰一定要关注TG频道
+- client-fingerprint: random
+  name: 9|FREE_KR 01ᵀʳᵉᵛᵉˡʸ_1
   network: ws
-  port: 443
-  server: 104.16.227.193
-  servername: xw0083.dpdns.org
+  port: 50001
+  server: 1.214.208.5
+  servername: vlessfree.trevely.us.kg
   skip-cert-verify: true
-  sni: xw0083.dpdns.org
   tfo: false
   tls: true
   type: vless
-  uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
   ws-opts:
     headers:
-      Host: xw0083.dpdns.org
+      Host: vlessfree.trevely.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 10|👖🇭🇰2025.9.23
+- client-fingerprint: random
+  name: 9|FREE_KR 02ᵀʳᵉᵛᵉˡʸ_1
   network: ws
-  port: 443
-  server: 104.24.184.212
-  servername: xw0083.dpdns.org
+  port: 50001
+  server: 49.168.9.171
+  servername: vlessfree.trevely.us.kg
   skip-cert-verify: true
-  sni: xw0083.dpdns.org
   tfo: false
   tls: true
   type: vless
-  uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
   ws-opts:
     headers:
-      Host: xw0083.dpdns.org
+      Host: vlessfree.trevely.us.kg
     path: /?ed=2560
-- name: 12|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+- client-fingerprint: random
+  name: 9|FREE_KR 03ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 49.175.158.24
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 04ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 59.7.0.176
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 05ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 61.253.84.2
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 06ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 112.165.11.40
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 07ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 112.165.215.157
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 08ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 112.168.35.73
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 09ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 118.35.75.140
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 10ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 118.39.44.24
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 12ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 118.44.98.228
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 13ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 118.46.37.203
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 14ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 119.193.156.30
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 15ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 121.153.38.160
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 16ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 121.178.121.161
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 17ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 125.143.29.83
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 18ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50000
+  server: 203.243.54.42
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 19ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 211.184.116.84
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|FREE_KR 20ᵀʳᵉᵛᵉˡʸ_1
+  network: ws
+  port: 50001
+  server: 211.209.211.83
+  servername: vlessfree.trevely.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c
+  ws-opts:
+    headers:
+      Host: vlessfree.trevely.us.kg
+    path: /?ed=2560
+- name: 11|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
   password: 3QlSMKyqLp
   port: 443
   server: android.yas-nowin.ir
@@ -323,7 +1029,7 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: 12|All--@IRAN_V2RAY1
+- name: 11|All--@IRAN_V2RAY1
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: de.eyucdn.xyz
@@ -331,28 +1037,28 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 12|telegram-@ISVvpn
+- name: 11|telegram-@ISVvpn
   password: 6803bc9b-1157-431b-8f73-970a6deb741f
   port: 29854
   server: fra-nb-02.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '12|DE-telegram-@ISVvpn   :  '
+- name: '11|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 12|usa-telegram-@ISVvpn
+- name: 11|usa-telegram-@ISVvpn
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 25684
   server: us-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 12|کای ها یش ر ن ترا💎 Config_Raye...
+- name: 11|کای ها یش ر ن ترا💎 Config_Raye...
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -360,7 +1066,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '12|@IRAN_V2RAY1 #1'
+- name: '11|@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -370,7 +1076,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: 12|All-@IRAN_V2RAY1
+- name: 11|All-@IRAN_V2RAY1
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -380,7 +1086,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: '12|All-@IRAN_V2RAY1 #1'
+- name: '11|All-@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: qBbeISsJ8AK48fZW
   password: 8da7bd17-70ab-472d-a925-cc827857dc35
@@ -390,7 +1096,7 @@ proxies:
   sni: de.youyacloud.me
   tls: false
   type: hysteria2
-- name: 12|WI-FI--@IRAN_V2RAY1
+- name: 11|WI-FI--@IRAN_V2RAY1
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -400,7 +1106,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 12|@V2RAYNG_1378
+- name: 11|@V2RAYNG_1378
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -410,7 +1116,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 12|💎کانفیگ های بیشتر در چنل تلگرا...
+- name: 11|💎کانفیگ های بیشتر در چنل تلگرا...
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -420,7 +1126,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '12|All-@IRAN_V2RAY1 #3'
+- name: '11|All-@IRAN_V2RAY1 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -430,7 +1136,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '12|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+- name: '11|💎کانفیگ های بیشتر در چنل تلگرا... #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -440,7 +1146,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 12|@vpnserverrr
+- name: 11|@vpnserverrr
   password: c9edf5cb-67ef-4440-8684-b3d301df6488
   port: 21053
   server: yue-ru.yuetoto.net
@@ -448,7 +1154,7 @@ proxies:
   sni: yue-ru.yuetoto.net
   tls: false
   type: hysteria2
-- name: '12|WI-FI--@IRAN_V2RAY1 #1'
+- name: '11|WI-FI--@IRAN_V2RAY1 #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -456,7 +1162,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '12|telegram-@ISVvpn #1'
+- name: '11|telegram-@ISVvpn #1'
   password: f872db91-57c2-41c7-aad0-561b4cb674bf
   port: 25684
   server: us-nb-01.linlujs.pw
@@ -464,7 +1170,7 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 14|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.159.61.225
@@ -472,7 +1178,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 14,15|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -487,7 +1193,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -503,7 +1209,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   port: 57405
   server: 103.224.80.73
   skip-cert-verify: false
@@ -511,7 +1217,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -519,7 +1225,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港6|@ripaojiedian
+- name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -528,7 +1234,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: 14|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -539,7 +1245,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 14|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: 8808e9f11454
   plugin: v2ray-plugin
   plugin-opts:
@@ -553,7 +1259,7 @@ proxies:
   server: 137.220.142.139
   tfo: false
   type: ss
-- name: 14,15|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -561,7 +1267,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|日本4|@ripaojiedian
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -571,7 +1277,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14,15|日本5|@ripaojiedian
+  name: 13,14|日本5|@ripaojiedian
   network: ws
   port: '41315'
   server: a.lyazzz.online
@@ -585,7 +1291,7 @@ proxies:
     headers:
       Host: img14.360buyimg.com
     path: /obj
-- name: 14,15|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -593,7 +1299,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -603,7 +1309,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14,15|新加坡3|@ripaojiedian
+  name: 13,14|新加坡3|@ripaojiedian
   network: ws
   port: '30839'
   server: v39.heduian.link
@@ -619,7 +1325,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 14,15|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: ws
   port: '41317'
   server: a.lyazzz.online
@@ -634,7 +1340,7 @@ proxies:
       Host: img14.360buyimg.com
     path: /obj
 - cipher: rc4-md5
-  name: 14|🇺🇸 美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -644,7 +1350,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 14,15|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -652,7 +1358,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国4|@ripaojiedian
+- name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -661,7 +1367,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-cfb
-  name: 14|🇻🇳 越南|@ripaojiedian
+  name: 13|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.28
@@ -669,7 +1375,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 15|香港3|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '57405'
   server: 103.224.80.73
@@ -679,7 +1385,7 @@ proxies:
   uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
 - alterId: 0
   cipher: auto
-  name: 15|香港v2|@ripaojiedian
+  name: 14|香港v2|@ripaojiedian
   network: kcp
   port: '21523'
   server: 47.242.215.154
@@ -689,7 +1395,7 @@ proxies:
   uuid: f6c894a3-f326-4807-9270-f236da4120c1
 - alterId: 0
   cipher: auto
-  name: 15|日本v2|@ripaojiedian
+  name: 14|日本v2|@ripaojiedian
   network: kcp
   port: '40916'
   server: 8.209.200.91
@@ -698,7 +1404,7 @@ proxies:
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
 - flow: xtls-rprx-vision
-  name: 16|AE_speednode_0004
+  name: 15|AE_speednode_0004
   port: 443
   reality-opts:
     public-key: wimys8nxAefdZ0dEMJ8v7R8sMjQ2Y-hX6H_p7uQPPDo
@@ -709,7 +1415,7 @@ proxies:
   type: vless
   udp: true
   uuid: f47b5d3c-4051-476d-8280-89b1125b4467
-- name: 16|AU_speednode_0006
+- name: 15|AU_speednode_0006
   network: ws
   port: 2096
   server: 185.207.197.253
@@ -723,7 +1429,7 @@ proxies:
     headers:
       Host: vlesspro.llengcugit.sbs
     path: /Telegram@freecodes/?ed=2560
-- name: 16|AU_speednode_0007
+- name: 15|AU_speednode_0007
   network: ws
   port: 2052
   server: dl5-au4-cdn.fastfilecdn.org
@@ -737,7 +1443,7 @@ proxies:
     headers:
       Host: dl5-au4-cdn.fastfilecdn.org
     path: /
-- name: 16|AU_speednode_0008
+- name: 15|AU_speednode_0008
   network: ws
   port: 2096
   server: 185.207.197.253
@@ -753,7 +1459,7 @@ proxies:
     path: /Telegram@freecodes
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 16|BG_speednode_0009
+  name: 15|BG_speednode_0009
   port: 223
   reality-opts:
     public-key: JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o
@@ -765,7 +1471,7 @@ proxies:
   type: vless
   udp: true
   uuid: d358f512-5789-464e-b8ae-da6ee9543ff5
-- name: 16|BG_speednode_0010
+- name: 15|BG_speednode_0010
   network: ws
   port: 2052
   server: dl5-uae4-cdn.fastfilecdn.org
@@ -779,7 +1485,7 @@ proxies:
     headers:
       Host: dl5-uae4-cdn.fastfilecdn.org
     path: /
-- name: 16|CH_speednode_0014
+- name: 15|CH_speednode_0014
   port: 443
   reality-opts:
     public-key: b_hJSqrd_USUBlX5A9-iJTBd0qndoAH9DW3Ct-HpGxc
@@ -793,7 +1499,7 @@ proxies:
   uuid: 0b2b00c2-be56-4be6-abda-5e329afb7bce
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 16|DE_speednode_0015
+  name: 15|DE_speednode_0015
   port: 223
   reality-opts:
     public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
@@ -805,7 +1511,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
-- name: 16|DE_speednode_0016
+- name: 15|DE_speednode_0016
   port: 6666
   reality-opts:
     public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
@@ -817,7 +1523,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: 16|DE_speednode_0017
+- name: 15|DE_speednode_0017
   network: ws
   port: 2053
   server: 89.169.53.131
@@ -831,7 +1537,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|DE_speednode_0018
+- name: 15|DE_speednode_0018
   network: ws
   port: 443
   server: 91.149.223.242
@@ -845,7 +1551,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|DE_speednode_0019
+- name: 15|DE_speednode_0019
   port: 443
   reality-opts:
     public-key: AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw
@@ -856,7 +1562,7 @@ proxies:
   type: vless
   udp: true
   uuid: 387d6d9a-5594-4b2a-a60d-5b2cb1f57638
-- name: 16|FI_speednode_0020
+- name: 15|FI_speednode_0020
   network: ws
   port: 443
   server: 91.108.241.188
@@ -877,7 +1583,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 16|GB_speednode_0024
+  name: 15|GB_speednode_0024
   network: http
   port: 30849
   server: lii.bliscorp.org
@@ -887,7 +1593,7 @@ proxies:
   type: vless
   udp: true
   uuid: dca511f0-f98c-45d3-a0ff-1ba61c651374
-- name: 16|GB_speednode_0025
+- name: 15|GB_speednode_0025
   network: ws
   port: 9931
   server: 132.145.65.20
@@ -901,7 +1607,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
-- name: 16|GB_speednode_0026
+- name: 15|GB_speednode_0026
   network: ws
   port: 9931
   server: 132.145.65.20
@@ -915,7 +1621,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|HK_speednode_0028
+- name: 15|HK_speednode_0028
   network: ws
   port: 2096
   server: 154.211.8.220
@@ -929,7 +1635,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|HK_speednode_0030
+- name: 15|HK_speednode_0030
   network: ws
   port: 2083
   server: 154.211.8.18
@@ -944,7 +1650,7 @@ proxies:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
 - flow: xtls-rprx-vision
-  name: 16|IL_speednode_0032
+  name: 15|IL_speednode_0032
   port: 443
   reality-opts:
     public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
@@ -956,7 +1662,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- name: 16|IN_speednode_0033
+- name: 15|IN_speednode_0033
   network: ws
   port: 2053
   server: 65.20.74.136
@@ -971,7 +1677,7 @@ proxies:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - flow: xtls-rprx-vision
-  name: 16|IR_speednode_0036
+  name: 15|IR_speednode_0036
   port: 44443
   reality-opts:
     public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
@@ -983,7 +1689,7 @@ proxies:
   udp: true
   uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
 - flow: xtls-rprx-vision
-  name: 16|IR_speednode_0037
+  name: 15|IR_speednode_0037
   port: 44443
   reality-opts:
     public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
@@ -994,7 +1700,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- name: 16|IT_speednode_0038
+- name: 15|IT_speednode_0038
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
@@ -1005,7 +1711,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 16|JP_speednode_0039
+- name: 15|JP_speednode_0039
   network: ws
   port: 18650
   server: 152.70.82.101
@@ -1019,7 +1725,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|JP_speednode_0040
+- name: 15|JP_speednode_0040
   network: ws
   port: 15821
   server: 138.2.32.76
@@ -1033,7 +1739,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|JP_speednode_0041
+- name: 15|JP_speednode_0041
   network: ws
   port: 22735
   server: 140.83.57.183
@@ -1047,7 +1753,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|JP_speednode_0043
+- name: 15|JP_speednode_0043
   network: ws
   port: 1443
   server: 140.238.62.82
@@ -1061,7 +1767,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|JP_speednode_0044
+- name: 15|JP_speednode_0044
   network: ws
   port: 15821
   server: 138.2.32.76
@@ -1075,7 +1781,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|JP_speednode_0045
+- name: 15|JP_speednode_0045
   network: ws
   port: 45638
   server: 138.2.10.149
@@ -1089,7 +1795,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|KR_speednode_0046
+- name: 15|KR_speednode_0046
   network: ws
   port: 443
   server: 43.203.199.76
@@ -1103,7 +1809,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|KR_speednode_0047
+- name: 15|KR_speednode_0047
   network: ws
   port: 8443
   server: 158.180.82.203
@@ -1117,7 +1823,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|KR_speednode_0048
+- name: 15|KR_speednode_0048
   network: ws
   port: 30063
   server: 118.131.232.132
@@ -1131,7 +1837,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|LV_speednode_0049
+- name: 15|LV_speednode_0049
   network: ws
   port: 443
   server: 138.124.182.204
@@ -1145,7 +1851,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|NL_speednode_0051
+- name: 15|NL_speednode_0051
   network: ws
   port: 8000
   server: 176.222.53.140
@@ -1159,7 +1865,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|NL_speednode_0052
+- name: 15|NL_speednode_0052
   network: ws
   port: 8443
   server: 147.45.69.222
@@ -1173,7 +1879,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|NL_speednode_0053
+- name: 15|NL_speednode_0053
   network: ws
   port: 8000
   server: 176.222.53.140
@@ -1187,7 +1893,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|NL_speednode_0054
+- name: 15|NL_speednode_0054
   network: ws
   port: 8443
   server: 147.45.69.222
@@ -1202,7 +1908,7 @@ proxies:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - flow: xtls-rprx-vision
-  name: 16|RU_speednode_0055
+  name: 15|RU_speednode_0055
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -1214,7 +1920,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5475990d-e0ce-46ea-95e5-50f9e4879af9
-- name: 16|RU_speednode_0056
+- name: 15|RU_speednode_0056
   network: ws
   port: 2053
   server: 89.169.160.84
@@ -1228,7 +1934,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|RU_speednode_0057
+- name: 15|RU_speednode_0057
   network: ws
   port: 443
   server: 147.45.143.22
@@ -1242,7 +1948,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|SG_speednode_0060
+- name: 15|SG_speednode_0060
   network: ws
   port: 2083
   server: 27.50.48.186
@@ -1256,7 +1962,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|SG_speednode_0061
+- name: 15|SG_speednode_0061
   password: tunnel-astrovpn_official928
   port: 8441
   server: 206.206.126.109
@@ -1271,7 +1977,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 16|US_speednode_0073
+  name: 15|US_speednode_0073
   network: http
   port: 33801
   server: m24a.vip784.com
@@ -1281,7 +1987,7 @@ proxies:
   type: vless
   udp: true
   uuid: d36f457f-17a9-4891-a113-322ec6792917
-- name: 16|US_speednode_0074
+- name: 15|US_speednode_0074
   network: ws
   port: 52125
   server: 152.70.113.150
@@ -1295,7 +2001,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|US_speednode_0076
+- name: 15|US_speednode_0076
   network: ws
   port: 35398
   server: 107.173.147.41
@@ -1309,7 +2015,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|US_speednode_0077
+- name: 15|US_speednode_0077
   network: ws
   port: 35398
   server: 107.173.147.41
@@ -1323,7 +2029,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|US_speednode_0078
+- name: 15|US_speednode_0078
   network: ws
   port: 28034
   server: 142.171.85.230
@@ -1337,7 +2043,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|US_speednode_0079
+- name: 15|US_speednode_0079
   network: ws
   port: 8443
   server: 142.171.166.116
@@ -1353,7 +2059,7 @@ proxies:
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 16|US_speednode_0080
+  name: 15|US_speednode_0080
   port: 34074
   reality-opts:
     public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY
@@ -1367,7 +2073,7 @@ proxies:
   uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 16|US_speednode_0081
+  name: 15|US_speednode_0081
   port: 1443
   reality-opts:
     public-key: qkKpvWh6cAcduzQ8bRlIl6_CvOieLwoM11WnuOSug1w
@@ -1379,7 +2085,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7a169e43-ff85-4572-9843-ba7207d07319
-- name: 16|US_speednode_0082
+- name: 15|US_speednode_0082
   network: ws
   port: 2052
   server: dl5-us4-cdn.fastfilecdn.org
@@ -1393,7 +2099,7 @@ proxies:
     headers:
       Host: dl5-us4-cdn.fastfilecdn.org
     path: /
-- name: 16|US_speednode_0083
+- name: 15|US_speednode_0083
   network: ws
   port: 443
   server: pvt.moonop.tech
@@ -1407,7 +2113,7 @@ proxies:
     headers:
       Host: pvt.moonop.tech
     path: /aws5
-- name: 16|US_speednode_0084
+- name: 15|US_speednode_0084
   network: ws
   port: 2087
   server: snipaste4.speedip.eu.org
@@ -1421,7 +2127,7 @@ proxies:
     headers:
       Host: 00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
     path: /snippets
-- name: 16|US_speednode_0085
+- name: 15|US_speednode_0085
   network: ws
   port: 15801
   server: 142.171.156.182
@@ -1435,7 +2141,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|US_speednode_0086
+- name: 15|US_speednode_0086
   network: ws
   port: 52125
   server: 152.70.113.150
@@ -1449,7 +2155,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|US_speednode_0087
+- name: 15|US_speednode_0087
   network: ws
   port: 443
   server: 198.46.143.134
@@ -1463,7 +2169,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|US_speednode_0088
+- name: 15|US_speednode_0088
   network: ws
   port: 22731
   server: 138.2.235.230
