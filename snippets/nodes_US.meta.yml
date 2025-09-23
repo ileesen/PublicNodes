@@ -1,4 +1,63 @@
 proxies:
+- http-opts:
+    headers:
+      Host:
+      - varzesh3.ir
+    method: GET
+    path:
+    - /
+  name: '10,16|US_speednode_0033 #1'
+  network: http
+  port: 33801
+  server: m24a.vip784.com
+  servername: varzesh3.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d36f457f-17a9-4891-a113-322ec6792917
+- name: '10,16|US_speednode_0034 #1'
+  network: ws
+  port: 8443
+  server: 142.171.166.116
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '10,16|US_speednode_0035 #1'
+  port: 34074
+  reality-opts:
+    public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY
+    short-id: 061cca24
+  server: 500770.xyz
+  servername: www.ucla.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
+- name: '10,16|US_speednode_0036 #1'
+  network: ws
+  port: 2052
+  server: dl5-us4-cdn.fastfilecdn.org
+  servername: dl5-us4-cdn.fastfilecdn.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+  ws-opts:
+    headers:
+      Host: dl5-us4-cdn.fastfilecdn.org
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -46,62 +105,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- http-opts:
-    headers:
-      Host:
-      - varzesh3.ir
-    method: GET
-    path:
-    - /
-  name: 16|US_speednode_0033
-  network: http
-  port: 33801
-  server: m24a.vip784.com
-  servername: varzesh3.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d36f457f-17a9-4891-a113-322ec6792917
-- name: 16|US_speednode_0034
-  network: ws
-  port: 8443
-  server: 142.171.166.116
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 16|US_speednode_0035
-  port: 34074
-  reality-opts:
-    public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY
-    short-id: 061cca24
-  server: 500770.xyz
-  servername: www.ucla.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
-- name: 16|US_speednode_0036
-  network: ws
-  port: 2052
-  server: dl5-us4-cdn.fastfilecdn.org
-  servername: dl5-us4-cdn.fastfilecdn.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
-  ws-opts:
-    headers:
-      Host: dl5-us4-cdn.fastfilecdn.org
-    path: /

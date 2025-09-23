@@ -1,4 +1,45 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '10,16|DE_speednode_0003 #1'
+  port: 23386
+  reality-opts:
+    public-key: m6uJUaMJ3PHrcV2Rh92ACAcY0R04BNwoUVPcclfh8HY
+    short-id: ff
+  server: 45.13.226.115
+  servername: lit.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e562253-f6ac-4123-9648-3d7c944ec279
+- client-fingerprint: chrome
+  name: '10,16|DE_speednode_0004 #1'
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- name: '10,16|DE_speednode_0005 #1'
+  network: ws
+  port: 2053
+  server: 89.169.53.131
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - name: 12|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
   password: 3QlSMKyqLp
   port: 443
@@ -14,44 +55,3 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 16|DE_speednode_0003
-  port: 23386
-  reality-opts:
-    public-key: m6uJUaMJ3PHrcV2Rh92ACAcY0R04BNwoUVPcclfh8HY
-    short-id: ff
-  server: 45.13.226.115
-  servername: lit.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e562253-f6ac-4123-9648-3d7c944ec279
-- client-fingerprint: chrome
-  name: 16|DE_speednode_0004
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    short-id: b525ecd2fc
-  server: 188.68.53.100
-  servername: Tgju.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: 16|DE_speednode_0005
-  network: ws
-  port: 2053
-  server: 89.169.53.131
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
