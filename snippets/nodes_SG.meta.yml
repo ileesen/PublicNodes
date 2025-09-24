@@ -1,32 +1,17 @@
 proxies:
-- name: 10|SG_speednode_0030
-  network: ws
-  port: 43254
-  server: 138.2.89.238
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 10,16|SG_speednode_0050
-  network: ws
-  port: 2087
-  server: 92.243.75.49
-  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
-  ws-opts:
-    headers:
-      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-    path: /snippets
+- load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|MSK-SG-1(hysteria)
+  obfs: salamander
+  obfs-password: ebc80948-b76f-450f-9861-d7fae2043e13
+  password: dd247fc262:80c9752a41
+  port: 21443
+  server: msk-sg-14805.strongpipe.cloud
+  skip-cert-verify: true
+  tags:
+  - direct
+  - star
+  type: hysteria2
 - client-fingerprint: chrome
   name: 14,15|新加坡|@ripaojiedian
   network: tcp
@@ -62,6 +47,20 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 16|SG_speednode_0050
+  network: ws
+  port: 2087
+  server: 92.243.75.49
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    path: /snippets
 - name: 16|SG_speednode_0051
   network: ws
   port: 2087

@@ -1,4 +1,46 @@
 proxies:
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|AW-TW-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: aw-tw-28746.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|TK-TW-1(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: tk-tw-18273.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - tiktok
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|WIS-TW-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-tw-28764.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
 - client-fingerprint: chrome
   name: 14,15|台湾|@ripaojiedian
   network: tcp

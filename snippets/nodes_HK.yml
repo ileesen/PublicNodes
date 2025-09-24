@@ -1,4 +1,46 @@
 proxies:
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|HOME-HK-4(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: home-hkt-4.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - 0.1x
+  - netflix
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|NAT-HK-3(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: nat-hk-37465.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|WIS-HK-3(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-hk-38457.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,32 +1,60 @@
 proxies:
-- name: 10|JP_speednode_0014
-  network: ws
-  port: 22735
-  server: 140.83.57.183
-  servername: kejiland.freewarp.eu.org
+- load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|AW-JP-2(https)
+  password: 80c9752a41
+  port: 20443
+  server: aw-jp-28374.strongpipe.cloud
   skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
   tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 10|JP_speednode_0015
-  network: ws
-  port: 18650
-  server: 152.70.82.101
-  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-  skip-cert-verify: false
+  type: http
+  username: dd247fc262
+- load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|WIS-JP-2(https)
+  password: 80c9752a41
+  port: 20443
+  server: wis-jp-26154.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
   tls: true
-  type: vless
-  udp: true
-  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
-  ws-opts:
-    headers:
-      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-    path: /snippets
+  type: http
+  username: dd247fc262
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|AW-JP-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: aw-jp-28374.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 10|WIS-JP-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-jp-26154.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
 - name: '11|Channel id: @ShadowProxy66🇯🇵'
   password: fabd2b79-693a-4a37-827c-6d299e8813b1
   port: 443
