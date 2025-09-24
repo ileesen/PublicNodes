@@ -1,5 +1,5 @@
 proxies:
-- name: '10,16|JP_speednode_0014 #1'
+- name: 10|JP_speednode_0014
   network: ws
   port: 22735
   server: 140.83.57.183
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: '10,16|JP_speednode_0015 #1'
+- name: 10|JP_speednode_0015
   network: ws
   port: 18650
   server: 152.70.82.101
@@ -91,3 +91,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
+- client-fingerprint: chrome
+  name: 16|JP_speednode_0026
+  network: ws
+  port: 45681
+  server: 150.230.5.34
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- name: 16|JP_speednode_0027
+  network: ws
+  port: 1443
+  server: 140.238.62.82
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
