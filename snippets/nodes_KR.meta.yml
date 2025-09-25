@@ -1,84 +1,31 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇰🇷韩国01
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 44113
-  server: yy3.vyunyunnode.top
+- cipher: aes-256-cfb
+  name: 9|🇰🇷 韩国家宽 01-165
+  password: qwerREWQ@@
+  port: 2520
+  server: 121.170.203.147
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
-- mport: 35000-39000
-  name: 10|🇰🇷韩国 | 高速专线-hy2
-  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
-  port: 35000
-  ports: 35000-39000
-  server: 193.123.240.119
+- cipher: aes-256-gcm
+  name: 9|South Korea
+  password: 017c7384fc99638d
+  port: 20281
+  server: 167.17.183.59
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  tfo: false
+  type: ss
   udp: true
-- mport: 35000-39000
-  name: 10|🇰🇷韩国2 | 高速专线-hy2
-  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
-  port: 35000
-  ports: 35000-39000
-  server: 193.123.250.219
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- mport: 35000-39000
-  name: 10|🇰🇷韩国3 | 高速专线-hy2
-  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
-  port: 35000
-  ports: 35000-39000
-  server: 146.56.164.36
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-  udp: true
-- mport: 35000-39000
-  name: 10|🇰🇷韩国4 | 高速专线-hy2
-  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
-  port: 35000
-  ports: 35000-39000
-  server: 152.69.225.196
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- mport: 35000-39000
-  name: 10|🇰🇷韩国5 | 高速专线-hy2
-  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
-  port: 35000
-  ports: 35000-39000
-  server: 146.56.100.103
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷韩国首尔01
-  port: 443
-  reality-opts:
-    public-key: P--AseuV7sGvgy7YJ8iX58GxeP5-M2oq0Mq2YxPAXRs
-    short-id: f00d40f38482
-  server: 131.186.22.238
-  servername: buylite.music.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇰🇷 韩国|@ripaojiedian
+  name: 13|🇰🇷 韩国|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   tfo: false
   type: ss
-- name: 16|KR_speednode_0028
+- name: 15|KR_speednode_0028
   network: ws
   port: 8443
   server: 158.180.82.203
@@ -92,7 +39,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|KR_speednode_0029
+- name: 15|KR_speednode_0029
   network: ws
   port: 30067
   server: 112.156.154.95
@@ -106,7 +53,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|KR_speednode_0031
+- name: 15|KR_speednode_0031
   network: ws
   port: 18788
   server: 146.56.157.15
@@ -120,7 +67,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|KR_speednode_0032
+- name: 15|KR_speednode_0032
   network: ws
   port: 30063
   server: 118.131.232.132

@@ -1,105 +1,501 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇭🇰香港02
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 19006
-  server: yy3.vyunyunnode.top
+- name: 9|🇭🇰 香港 13-223
+  password: e0cc849a-3a46-4358-96ef-f7700984f7a7
+  port: 37771
+  server: hg1.xiaohuolongjc.top
+  skip-cert-verify: true
+  type: hysteria2
+- name: 9|🇭🇰 香港家宽 18-101
+  password: e0fbba03-454c-43d3-9946-24eaa599ec96
+  port: 37771
+  server: xg1.xiaohuolongjc.top
+  skip-cert-verify: true
+  type: hysteria2
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|01
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3600
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇭🇰香港04
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 19009
-  server: yy2.vyunyunnode.top
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|02
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3601
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
-- down: 1000
-  name: 10|香港1直连
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 49000
-  server: hkzl1.vyunyunnode.top
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|03
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3602
+  server: bs1.jymzffbquawl.com
   skip-cert-verify: true
-  sni: hkzl1.vyunyunnode.top
-  type: hysteria2
-  up: 1000
-- down: 1000
-  name: 10|香港2直连
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 50000
-  server: hkzl2.vyunyunnode.top
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|04
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3603
+  server: bs1.jymzffbquawl.com
   skip-cert-verify: true
-  sni: hkzl2.vyunyunnode.top
-  type: hysteria2
-  up: 1000
-- down: 1000
-  name: 10|香港3直连
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 44001
-  server: hkzl3.vyunyunnode.top
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|05
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3604
+  server: bs1.jymzffbquawl.com
   skip-cert-verify: true
-  sni: hkzl3.vyunyunnode.top
-  type: hysteria2
-  up: 1000
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰AWS香港01 | 高速专线推荐
-  port: 443
-  reality-opts:
-    public-key: E7siAVurojsISFT8AAx-QmWFlvgaifbJANnT4Xms4n0
-    short-id: 884e9b89
-  server: pq.aws11.yydjc.top
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  tfo: false
+  type: ss
   udp: true
-  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰AWS香港02 | 高速专线推荐
-  port: 443
-  reality-opts:
-    public-key: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE
-    short-id: 6a1faecb
-  server: pq.aws12.yydjc.top
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|06
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3605
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
   udp: true
-  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰AWS香港03 | 高速专线推荐
-  port: 443
-  reality-opts:
-    public-key: d0lNmb2Ao0UELGAQ037dgn_dtoOxHuPMEwo9Z4zhLzE
-    short-id: 4d84e084
-  server: pq.aws13.yydjc.top
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|07
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3606
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
   udp: true
-  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰AWS香港04 | 高速专线推荐
-  port: 443
-  reality-opts:
-    public-key: Rwqxz0M2DjcW39poMFeZzfjlYZf2PwxxQ0UEI4CSZik
-    short-id: 6891d99c
-  server: pq.aws14.yydjc.top
-  servername: www.mi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|08
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3607
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
   udp: true
-  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|09
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3608
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|10
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3609
+  server: bs1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|11
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3600
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|12
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3601
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|13
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3602
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|14
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3603
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|15
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3604
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|16
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3605
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|17
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3606
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|18
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3607
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|19
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3608
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广港|IEPL|20
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3609
+  server: bs2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|01
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3600
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|02
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3601
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|04
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3603
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|05
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3604
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|06
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3605
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|08
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3607
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|09
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3608
+  server: pr1.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|11
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3600
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|12
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3601
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|13
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3602
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|14
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3603
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|15
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3604
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|16
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3605
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|17
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3606
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|18
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3607
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|19
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3608
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Premium|广港|IEPL|20
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 3609
+  server: pr2.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -115,7 +511,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -132,7 +528,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   port: 44601
   server: 43.247.135.86
   skip-cert-verify: false
@@ -141,7 +537,7 @@ proxies:
   type: vmess
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - client-fingerprint: chrome
-  name: 14,15|香港4|@ripaojiedian
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -150,7 +546,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|香港6|@ripaojiedian
+  name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -160,7 +556,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|香港3|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '44601'
   server: 43.247.135.86
@@ -170,7 +566,7 @@ proxies:
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - alterId: 0
   cipher: auto
-  name: 15|香港v2|@ripaojiedian
+  name: 14|香港v2|@ripaojiedian
   network: kcp
   port: '5043'
   server: 47.242.186.1
@@ -178,7 +574,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
-- name: 16|HK_speednode_0016
+- name: 15|HK_speednode_0016
   network: ws
   port: 2083
   server: 45.207.158.29
@@ -192,7 +588,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippetssecurity=tls
-- name: 16|HK_speednode_0017
+- name: 15|HK_speednode_0017
   network: ws
   port: 2096
   server: 154.211.8.220
@@ -206,7 +602,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippetssecurity=tls
-- name: 16|HK_speednode_0018
+- name: 15|HK_speednode_0018
   network: ws
   port: 2096
   server: 154.211.8.220
@@ -220,7 +616,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets
-- name: 16|HK_speednode_0019
+- name: 15|HK_speednode_0019
   network: ws
   port: 2083
   server: 154.211.8.18
@@ -234,7 +630,7 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippetssecurity=tls
-- name: 16|HK_speednode_0020
+- name: 15|HK_speednode_0020
   network: ws
   port: 2083
   server: 154.211.8.18

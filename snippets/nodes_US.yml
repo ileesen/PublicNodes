@@ -1,28 +1,111 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸美国02纽约GTP
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 19005
-  server: yy1.vyunyunnode.top
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|01
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5600
+  server: bs3.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸美国03纽约GTP
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 19015
-  server: yy2.vyunyunnode.top
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|02
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5601
+  server: bs3.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸美国04纽约GTP
-  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
-  port: 19020
-  server: yy2.vyunyunnode.top
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|03
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5602
+  server: bs3.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|04
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5603
+  server: bs3.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|05
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5600
+  server: bs4.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|06
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5601
+  server: bs4.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|07
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5602
+  server: bs4.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 9|Standard|广美|IEPL|08
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 1a985193720.microsoft.com
+    mode: http
+  port: 5603
+  server: bs4.jymzffbquawl.com
+  skip-cert-verify: true
+  tfo: false
   type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 14|🇺🇸 美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -33,7 +116,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 14,15|美国3|@ripaojiedian
+  name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -42,7 +125,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|美国4|@ripaojiedian
+  name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
