@@ -1,17 +1,180 @@
 proxies:
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|MSK-SG-1(hysteria)
-  obfs: salamander
-  obfs-password: ebc80948-b76f-450f-9861-d7fae2043e13
-  password: dd247fc262:80c9752a41
-  port: 21443
-  server: msk-sg-14805.strongpipe.cloud
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬AWS新加坡01 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: T1qm-lWyGwT_sYy7KsoVsIH20qVR3W79wHmElqjdgz4
+    short-id: c5905f97
+  server: pq.aws58.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬AWS新加坡02 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
+    short-id: 436299c6
+  server: pq.aws59.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬AWS新加坡03 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+    short-id: e2e15173
+  server: pq.aws60.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬AWS新加坡04 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws61.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬AWS新加坡05 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: kzlqssyYFyVB-nGMDTQXITmiEZNUF4S_ygmuTJ2BEA8
+    short-id: 1f922969
+  server: pq.aws62.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- mport: 35000-39000
+  name: 9|🇸🇬新加坡 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 152.69.220.212
   skip-cert-verify: true
-  tags:
-  - direct
-  - star
+  sni: api.push.apple.com
   type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇸🇬新加坡2 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 158.178.236.104
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 60000-65530
+  name: 9|🇸🇬AWS新加坡 | 高速专线推荐-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 60000
+  ports: 60000-65530
+  server: pq.hy.aws41.yydjc.top
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 60000-65530
+  name: 9|🇸🇬AWS新加坡2 | 高速专线推荐-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 60000
+  ports: 60000-65530
+  server: pq.hy.aws42.yydjc.top
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 60000-65530
+  name: 9|🇸🇬AWS新加坡3 | 高速专线推荐-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 60000
+  ports: 60000-65530
+  server: pq.hy.aws43.yydjc.top
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬新加坡
+  port: 443
+  reality-opts:
+    public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
+    short-id: a86103965ac913f2
+  server: 140.245.43.199
+  servername: tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬新加坡2
+  port: 443
+  reality-opts:
+    public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
+    short-id: a86103965ac913f2
+  server: 140.245.58.56
+  servername: tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬新加坡3
+  port: 443
+  reality-opts:
+    public-key: IPno1w9GUxhRN2JY_yIka2DNlnuJHQeb3_0yOCM4pQg
+    short-id: 3ae54db4833c
+  server: 213.35.108.22
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 9|🇸🇬新加坡4
+  port: 443
+  reality-opts:
+    public-key: kR-_5J2EPiB9nrdgyXjgzfJQnxQodkGeV_jgKOEnlEM
+    short-id: fc814374abba
+  server: 168.138.165.109
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
 - client-fingerprint: chrome
   name: 13,14|新加坡|@ripaojiedian
   network: tcp

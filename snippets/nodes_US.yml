@@ -1,32 +1,25 @@
 proxies:
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|AW-US-1(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: aw-us-15204.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-US-1(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: wis-us-18934.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国02纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19005
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国03纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19015
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国04纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19020
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian

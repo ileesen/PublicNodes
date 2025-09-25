@@ -1,16 +1,24 @@
 proxies:
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|MSK-DE-1(hysteria)
-  obfs: salamander
-  obfs-password: ebc80948-b76f-450f-9861-d7fae2043e13
-  password: dd247fc262:80c9752a41
-  port: 21443
-  server: msk-de-9396.strongpipe.cloud
+- mport: 35000-39000
+  name: 9|🇩🇪德国 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 132.145.239.250
   skip-cert-verify: true
-  tags:
-  - direct
+  sni: api.push.apple.com
   type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇩🇪德国2 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 141.147.19.58
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
 - name: 11|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
   password: 3QlSMKyqLp
   port: 443

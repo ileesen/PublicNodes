@@ -1,4 +1,42 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇬🇧英国01
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19021
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇬🇧英国02
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19022
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵AWS日本东京01 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: 6T-kYBf65ERaEAhxIyHL1FCfu0QR6P2XQMtcvUgzSjM
+    short-id: 70ad150d
+  server: pq.aws48.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- mport: 35000-39000
+  name: 9|🇬🇧英国-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 85.159.92.99
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
 - http-opts:
     headers:
       Host:

@@ -1,4 +1,75 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇰🇷韩国01
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 44113
+  server: yy3.vyunyunnode.top
+  type: ss
+  udp: true
+- mport: 35000-39000
+  name: 9|🇰🇷韩国 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 193.123.240.119
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇰🇷韩国2 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 193.123.250.219
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇰🇷韩国3 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 146.56.164.36
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇰🇷韩国4 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 152.69.225.196
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇰🇷韩国5 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 146.56.100.103
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇰🇷韩国首尔01
+  port: 443
+  reality-opts:
+    public-key: P--AseuV7sGvgy7YJ8iX58GxeP5-M2oq0Mq2YxPAXRs
+    short-id: f00d40f38482
+  server: 131.186.22.238
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 13|🇰🇷 韩国|@ripaojiedian

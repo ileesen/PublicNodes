@@ -1,72 +1,373 @@
 proxies:
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|AW-US-1(https)
-  password: 80c9752a41
-  port: 20443
-  server: aw-us-15204.strongpipe.cloud
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国02纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19005
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国03纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19015
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸美国04纽约GTP
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19020
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国01-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us1.globals-download.com
   skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  tls: true
-  type: http
-  username: dd247fc262
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-US-1(https)
-  password: 80c9752a41
-  port: 20443
-  server: wis-us-18934.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  tls: true
-  type: http
-  username: dd247fc262
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|AW-US-1(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: aw-us-15204.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-US-1(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: wis-us-18934.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|MSK-US-1(hysteria)
-  obfs: salamander
-  obfs-password: ebc80948-b76f-450f-9861-d7fae2043e13
-  password: dd247fc262:80c9752a41
-  port: 21443
-  server: msk-us-11326.strongpipe.cloud
-  skip-cert-verify: true
-  tags:
-  - direct
+  sni: www.apple.com
   type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国02-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us2.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国03-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us3.globals-download.com
+  skip-cert-verify: true
+  sni: tv.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国04-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us4.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国05-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us5.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国06-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us6.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国07-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us7.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国08-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us8.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国09-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us9.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国10-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: pq.us10.globals-download.com
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国11-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 208.87.243.195
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国12-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 208.87.243.197
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国13-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 108.181.4.223
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国14-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 140.174.52.31
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国15-0.1倍 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 108.181.5.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国圣何塞02-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 146.235.201.189
+  skip-cert-verify: true
+  sni: tv.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国圣何塞03-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 167.234.210.122
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国圣何塞05-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 167.234.208.240
+  skip-cert-verify: true
+  sni: tv.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国圣何塞06-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 192.18.133.190
+  skip-cert-verify: true
+  sni: tv.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
+  name: 9|🇺🇸美国凤凰城 | 高速专线-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 35000
+  ports: 35000-39000
+  server: 129.146.95.165
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本01-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us1.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us1.globals-download.com
+    path: /pq/us1
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本02-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us2.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us2.globals-download.com
+    path: /pq/us2
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本03-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us3.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us3.globals-download.com
+    path: /pq/us3
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本04-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us4.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us4.globals-download.com
+    path: /pq/us4
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本05-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us5.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us5.globals-download.com
+    path: /pq/us5
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国阿什本06-0.1倍
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us6.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: pq-us6.globals-download.com
+    path: /pq/us6
+- client-fingerprint: chrome
+  flow: ''
+  name: 9|🇺🇸美国04 | 合适下载使用-0.01倍
+  network: ws
+  port: 443
+  server: 104.18.20.69
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: us4c.pqvip.top
+    path: /pq/us4
+- client-fingerprint: ios
+  flow: ''
+  name: 9|🇺🇸美国05 | 合适下载使用-0.01倍
+  network: ws
+  port: 443
+  server: 104.18.20.69
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  ws-opts:
+    headers:
+      Host: us5c.pqvip.top
+    path: /pq/us5
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 9|🇺🇸美国圣何塞01 | 三网推荐
+  port: 443
+  server: 146.235.208.162
+  servername: dcpqjs.yydjc.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 9|🇺🇸美国圣何塞05 | 三网推荐
+  port: 443
+  server: 146.235.228.34
+  servername: dcpqjs.yydjc.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian

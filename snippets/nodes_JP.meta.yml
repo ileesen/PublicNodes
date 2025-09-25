@@ -1,60 +1,94 @@
 proxies:
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|AW-JP-2(https)
-  password: 80c9752a41
-  port: 20443
-  server: aw-jp-28374.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - hop
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵AWS日本东京02 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: xOnY2ykLrcFMIhp7GBQu1mSH7yIW-yCc1ThJnVVtKDc
+    short-id: 5b6762be
+  server: pq.aws49.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: dd247fc262
-- load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-JP-2(https)
-  password: 80c9752a41
-  port: 20443
-  server: wis-jp-26154.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵AWS日本东京03 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: O5WC6waWDGR_ElOHmhqEQGUWDufcFxTuu7BPhwW1sE4
+    short-id: e1df2a15
+  server: pq.aws50.yydjc.top
+  servername: tv.apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: dd247fc262
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|AW-JP-2(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: aw-jp-28374.strongpipe.cloud
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵AWS日本东京04 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
+    short-id: 79fd451e
+  server: pq.aws51.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵AWS日本东京05 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
+    short-id: c174618d
+  server: pq.aws52.yydjc.top
+  servername: tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
+- mport: 60000-65530
+  name: 9|🇯🇵AWS日本东京3 | 高速专线推荐-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 60000
+  ports: 60000-65530
+  server: pq.hy.aws47.yydjc.top
   skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - hop
-  type: trojan
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-JP-2(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: wis-jp-26154.strongpipe.cloud
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 60000-65530
+  name: 9|🇯🇵AWS日本东京4 | 高速专线推荐-hy2
+  password: 068db2ce-5ca1-446b-863e-b239f95e79c2
+  port: 60000
+  ports: 60000-65530
+  server: pq.hy.aws48.yydjc.top
   skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|🇯🇵日本东京
+  port: 443
+  reality-opts:
+    public-key: IHJ7w7m13QsYPFq8eppdqyTyeLmXzTtOG9EGu_-ep2c
+    short-id: 49824283a241
+  server: 152.70.99.180
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 068db2ce-5ca1-446b-863e-b239f95e79c2
 - name: '10|Channel id: @ShadowProxy66🇯🇵'
   password: fabd2b79-693a-4a37-827c-6d299e8813b1
   port: 443

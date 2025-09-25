@@ -1,46 +1,18 @@
 proxies:
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|HOME-HK-4(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: home-hkt-4.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - 0.1x
-  - netflix
-  type: trojan
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|NAT-HK-3(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: nat-hk-37465.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
-- alpn:
-  - h2
-  load-password: 80c9752a41
-  load-username: dd247fc262
-  name: 9|WIS-HK-3(trojan)
-  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
-  port: 29444
-  server: wis-hk-38457.strongpipe.cloud
-  skip-cert-verify: true
-  sni: 106-110-192-225.d.cjjd20.com
-  tags:
-  - star
-  - iepl
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇭🇰香港02
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19006
+  server: yy3.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇭🇰香港04
+  password: 20b7421c-dab7-447d-8476-c52fd2a6d3ea
+  port: 19009
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
