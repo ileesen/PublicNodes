@@ -1,4 +1,19 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 10|CN_speednode_0006
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - name: 16|CN_speednode_0005
   password: 2fd0d127-266d-4d0b-b453-f94659a132fc
   port: 12000

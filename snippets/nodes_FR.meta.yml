@@ -1,12 +1,5 @@
 proxies:
-- name: 16|FR_speednode_0010
-  password: installshield
-  port: 8443
-  server: 23.162.152.30
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|FR_speednode_0011
+- name: '10,16|FR_speednode_0011 #1'
   network: ws
   port: 2053
   server: 89.168.43.31
@@ -20,7 +13,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|FR_speednode_0012
+- name: '10,16|FR_speednode_0012 #1'
   network: ws
   port: 2053
   server: 89.168.43.31
@@ -34,7 +27,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 16|FR_speednode_0013
+- name: '10,16|FR_speednode_0013 #1'
   network: ws
   port: 2096
   server: 141.11.203.32
@@ -48,3 +41,10 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets
+- name: 16|FR_speednode_0010
+  password: installshield
+  port: 8443
+  server: 23.162.152.30
+  skip-cert-verify: true
+  type: trojan
+  udp: true

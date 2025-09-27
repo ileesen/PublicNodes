@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '10,16|DE_speednode_0007 #1'
+  port: 223
+  reality-opts:
+    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
+    short-id: e41865e506628f44
+  server: swit-serv1.ip-venzo.com
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '10,16|DE_speednode_0008 #1'
+  port: 223
+  reality-opts:
+    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
+    short-id: e41865e506628f44
+  server: swit.amirconfigpaanelllll.com
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
 - name: 12|🇩🇪@FreakConfig
   password: 20050105zhu
   port: 51541
@@ -22,31 +50,3 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 16|DE_speednode_0007
-  port: 223
-  reality-opts:
-    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
-    short-id: e41865e506628f44
-  server: swit-serv1.ip-venzo.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 16|DE_speednode_0008
-  port: 223
-  reality-opts:
-    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
-    short-id: e41865e506628f44
-  server: swit.amirconfigpaanelllll.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa

@@ -1,4 +1,74 @@
 proxies:
+- name: '10,16|US_speednode_0035 #1'
+  network: ws
+  port: 443
+  server: 67.226.221.102
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- name: '10,16|US_speednode_0037 #1'
+  network: ws
+  port: 443
+  server: 67.226.221.102
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+- name: '10,16|US_speednode_0038 #1'
+  network: ws
+  port: 2096
+  server: 141.193.27.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
+- name: '10,16|US_speednode_0039 #1'
+  network: ws
+  port: 2096
+  server: 195.13.45.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
+- name: '10,16|US_speednode_0040 #1'
+  network: ws
+  port: 2096
+  server: 160.79.105.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
 - name: '12|Channel id: @vpnserverrr🇺🇸'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -25,20 +95,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 16|US_speednode_0035
-  network: ws
-  port: 443
-  server: 67.226.221.102
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
 - http-opts:
     headers:
       Host:
@@ -56,62 +112,6 @@ proxies:
   type: vless
   udp: true
   uuid: d36f457f-17a9-4891-a113-322ec6792917
-- name: 16|US_speednode_0037
-  network: ws
-  port: 443
-  server: 67.226.221.102
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 16|US_speednode_0038
-  network: ws
-  port: 2096
-  server: 141.193.27.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
-- name: 16|US_speednode_0039
-  network: ws
-  port: 2096
-  server: 195.13.45.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
-- name: 16|US_speednode_0040
-  network: ws
-  port: 2096
-  server: 160.79.105.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
 - name: 16|US_speednode_0041
   network: ws
   port: 2096
