@@ -1,20 +1,6 @@
 proxies:
-- name: 9,15|SG_speednode_0031
-  network: ws
-  port: 2096
-  server: 92.243.75.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -23,7 +9,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -34,7 +20,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
+  name: 14,15|新加坡3|@ripaojiedian
   network: ws
   port: '30839'
   server: v39.heduian.link
@@ -48,7 +34,7 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: 15|SG_speednode_0030
+- name: 16|SG_speednode_0030
   network: ws
   port: 2096
   server: 92.243.75.32
@@ -62,3 +48,17 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippetssecurity=tls
+- name: 16|SG_speednode_0031
+  network: ws
+  port: 2096
+  server: 92.243.75.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
