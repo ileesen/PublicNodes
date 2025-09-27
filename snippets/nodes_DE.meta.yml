@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '10,16|DE_speednode_0007 #1'
+  name: 10,16|DE_speednode_0005
   port: 223
   reality-opts:
     public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
@@ -15,7 +15,7 @@ proxies:
   uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '10,16|DE_speednode_0008 #1'
+  name: 10,16|DE_speednode_0004
   port: 223
   reality-opts:
     public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
@@ -50,3 +50,17 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 16|DE_speednode_0006
+  network: ws
+  port: 443
+  server: 109.107.181.38
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
