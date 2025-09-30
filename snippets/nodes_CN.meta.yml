@@ -1,5 +1,65 @@
 proxies:
-- name: 12|🇨🇳_中国
+- client-fingerprint: random
+  name: 12|🇨🇳 CN-1 | MIX
+  network: ws
+  port: 443
+  server: 49.234.34.223
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇨🇳 CN-2 | MIX
+  network: ws
+  port: 28154
+  server: 166.0.198.81
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇨🇳 CN-3 | MIX
+  network: ws
+  port: 28025
+  server: 166.0.198.81
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇨🇳 CN-4 | MIX
+  network: ws
+  port: 51010
+  server: 82.152.90.44
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- name: 13|🇨🇳_中国
   network: tcp
   password: 2fd0d127-266d-4d0b-b453-f94659a132fc
   port: 12000
@@ -7,7 +67,7 @@ proxies:
   sni: aliyun.com
   type: trojan
 - flow: xtls-rprx-vision
-  name: '12|🇨🇳_中国 #1'
+  name: '13|🇨🇳_中国 #1'
   network: tcp
   port: 28888
   server: hk01.youyacloud.me
@@ -15,7 +75,7 @@ proxies:
   tls: false
   type: vless
   uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
-- name: '12|🇨🇳_中国 #3'
+- name: '13|🇨🇳_中国 #3'
   network: tcp
   port: 8080
   server: 183.240.179.94

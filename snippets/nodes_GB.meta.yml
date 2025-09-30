@@ -1,26 +1,40 @@
 proxies:
-- name: '12|🇬🇧_英国 #10'
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇬🇧英国01
+  password: e63e32fc-c4d2-4cb5-9bbd-a5d51b1144bf
+  port: 19021
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇬🇧英国02
+  password: e63e32fc-c4d2-4cb5-9bbd-a5d51b1144bf
+  port: 19022
+  server: yy2.vyunyunnode.top
+  type: ss
+  udp: true
+- name: '13|🇬🇧_英国 #10'
   network: grpc
   port: 443
   server: 164.38.155.97
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: '12|🇬🇧_英国 #8'
+- name: '13|🇬🇧_英国 #8'
   network: grpc
   port: 443
   server: 45.8.211.71
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: '12|🇬🇧_英国 #9'
+- name: '13|🇬🇧_英国 #9'
   network: grpc
   port: 443
   server: 45.8.211.86
   tls: true
   type: vless
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 16|GB_speednode_0008
+- name: 17|GB_speednode_0008
   network: ws
   port: 2096
   server: 80.93.202.32
@@ -34,7 +48,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippetssecurity=tls
-- name: 16|GB_speednode_0009
+- name: 17|GB_speednode_0009
   network: ws
   port: 2096
   server: 80.93.202.32
