@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- name: 12|🇨🇳_中国
+  network: tcp
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
+  sni: aliyun.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: '12|🇨🇳_中国 #1'
+  network: tcp
+  port: 28888
+  server: hk01.youyacloud.me
+  servername: www.tvb.com
+  tls: false
+  type: vless
+  uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
+- name: '12|🇨🇳_中国 #3'
+  network: tcp
+  port: 8080
+  server: 183.240.179.94
+  tls: false
+  type: vless
+  uuid: b1e5c3d2-7a49-4f88-8c3d-5a1e9b7c4d20
