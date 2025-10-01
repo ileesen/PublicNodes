@@ -1,1 +1,172 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 9|👖🇯🇵官网https://kelayun.notepin.c...
+  password: 1ff066e9-0903-44ef-8374-16c18c007394
+  port: 443
+  server: 45.113.82.238
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 9|👖🇯🇵最低2块钱1000G流量
+  port: 8443
+  reality-opts:
+    public-key: KYK_5XL8HcO84pWfXomwnZpJeaggidenKjdCcWV2vXI
+    short-id: null
+  server: 167.71.209.4
+  servername: jumbulary.com
+  skip-cert-verify: true
+  sni: jumbulary.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ff066e9-0903-44ef-8374-16c18c007394
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|👖🇯🇵不限速不限设备
+  port: 8443
+  reality-opts:
+    public-key: tsCJnQZ-7hqgoNQ0AQYv7RLkezV8Ytlsm-R7AZdVnBc
+    short-id: null
+  server: 128.199.58.54
+  servername: www.python.org
+  skip-cert-verify: true
+  sni: www.python.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ff066e9-0903-44ef-8374-16c18c007394
+- auth: ''
+  down: null
+  fast-open: false
+  name: 9|👖🇯🇵终身永久无限流量仅200元
+  password: 1ff066e9-0903-44ef-8374-16c18c007394
+  port: 30000
+  server: 164.92.117.83
+  servername: us12.naichachong.top
+  skip-cert-verify: true
+  sni: us12.naichachong.top
+  type: hysteria2
+  up: null
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-1 | MIX
+  network: ws
+  port: 443
+  server: 35.78.229.176
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-2 | MIX
+  network: ws
+  port: 39998
+  server: 193.32.148.129
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-3 | MIX
+  network: ws
+  port: 20004
+  server: 210.129.11.81
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-4 | MIX
+  network: ws
+  port: 443
+  server: 154.31.114.136
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-5 | MIX
+  network: ws
+  port: 8080
+  server: 82.163.16.69
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-6 | MIX
+  network: ws
+  port: 443
+  server: 153.121.45.101
+  servername: snippet.danfeng.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 14,15|日本2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1331
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 14,15|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 409
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|日本v2|@ripaojiedian
+  network: kcp
+  port: '20932'
+  server: 43.207.83.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d

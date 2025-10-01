@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 9|👖🇯🇵官网https://kelayun.notepin.c...
+  password: 1ff066e9-0903-44ef-8374-16c18c007394
+  port: 443
+  server: 45.113.82.238
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 14,15|日本2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1331
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 14,15|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 409
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|日本v2|@ripaojiedian
+  network: kcp
+  port: '20932'
+  server: 43.207.83.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
