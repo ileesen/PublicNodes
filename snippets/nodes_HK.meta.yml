@@ -1,59 +1,194 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 9|👖🇭🇰最低2块钱1000G流量
-  password: f1fe266d-e2f7-4dcb-9597-5c2cb3788f63
-  port: 443
-  server: 45.113.82.238
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 9|👖🇭🇰不限速不限设备
-  port: 8443
-  reality-opts:
-    public-key: KYK_5XL8HcO84pWfXomwnZpJeaggidenKjdCcWV2vXI
-    short-id: null
-  server: 167.71.209.4
-  servername: jumbulary.com
+- alpn: null
+  flow: ''
+  name: 8|👖🇭🇰官网https://kelayun.notepin.c...
+  network: tcp
+  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  port: 30001
+  server: lazy.rsqpq.cn
+  servername: 'null'
   skip-cert-verify: true
-  sni: jumbulary.com
-  tls: true
-  type: vless
+  sni: 'null'
+  type: trojan
   udp: true
-  uuid: f1fe266d-e2f7-4dcb-9597-5c2cb3788f63
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 9|👖🇭🇰终身永久无限流量仅200元
-  port: 8443
-  reality-opts:
-    public-key: tsCJnQZ-7hqgoNQ0AQYv7RLkezV8Ytlsm-R7AZdVnBc
-    short-id: null
-  server: 128.199.58.54
-  servername: www.python.org
+- alpn: []
+  flow: ''
+  name: 8|01-HK02|香港
+  network: tcp
+  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  port: 30002
+  server: lazy.rsqpq.cn
   skip-cert-verify: true
-  sni: www.python.org
-  tls: true
-  type: vless
+  sni: ''
+  type: trojan
   udp: true
-  uuid: f1fe266d-e2f7-4dcb-9597-5c2cb3788f63
-- auth: ''
-  down: null
-  fast-open: false
-  name: 9|👖🇭🇰官网https://kelayun.notepin.c...
-  password: f1fe266d-e2f7-4dcb-9597-5c2cb3788f63
-  port: 30000
-  server: 164.92.117.83
-  servername: us12.naichachong.top
+- alpn: []
+  flow: ''
+  name: 8|02-HK02|香港
+  network: tcp
+  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  port: 30002
+  server: lazy.rsqpq.cn
   skip-cert-verify: true
-  sni: us12.naichachong.top
-  type: hysteria2
-  up: null
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|03-HK02|香港
+  network: tcp
+  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|04-HK02|香港
+  network: tcp
+  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|01-HK03|香港
+  network: tcp
+  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  port: 30003
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|02-HK03|香港
+  network: tcp
+  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  port: 30003
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|03-HK03|香港
+  network: tcp
+  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  port: 30003
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|04-HK03|香港
+  network: tcp
+  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  port: 30003
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|01-HK04|香港
+  network: tcp
+  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  port: 30004
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|02-HK04|香港
+  network: tcp
+  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  port: 30004
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|03-HK04|香港
+  network: tcp
+  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  port: 30004
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|04-HK04|香港
+  network: tcp
+  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  port: 30004
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|01-HK05|香港
+  network: tcp
+  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  port: 30005
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|02-HK05|香港
+  network: tcp
+  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  port: 30005
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|03-HK05|香港
+  network: tcp
+  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  port: 30005
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 8|04-HK05|香港
+  network: tcp
+  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  port: 30005
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
 - client-fingerprint: random
-  name: 12|🇭🇰 HK-1 | MIX
+  name: 11|🇭🇰 HK-1 | MIX
   network: ws
   port: 18016
   server: 45.39.199.204
@@ -68,7 +203,7 @@ proxies:
       Host: snippet.danfeng.site
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|🇭🇰 HK-2 | MIX
+  name: 11|🇭🇰 HK-2 | MIX
   network: ws
   port: 8878
   server: 205.189.160.230
@@ -83,7 +218,7 @@ proxies:
       Host: snippet.danfeng.site
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|🇭🇰 HK-3 | MIX
+  name: 11|🇭🇰 HK-3 | MIX
   network: ws
   port: 443
   server: 206.237.10.69
@@ -98,7 +233,7 @@ proxies:
       Host: snippet.danfeng.site
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|🇭🇰 HK-4 | MIX
+  name: 11|🇭🇰 HK-4 | MIX
   network: ws
   port: 34505
   server: 156.251.176.116
@@ -115,7 +250,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -131,7 +266,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -146,7 +281,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 14,15|香港4|@ripaojiedian
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 444
@@ -155,7 +290,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|香港6|@ripaojiedian
+  name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -165,7 +300,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|香港v2|@ripaojiedian
+  name: 14|香港v2|@ripaojiedian
   network: kcp
   port: '54483'
   server: 13.231.211.146
