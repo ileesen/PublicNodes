@@ -1,9 +1,9 @@
 proxies:
 - alpn: []
   flow: ''
-  name: 8|01-TW01|台湾|x0.8
+  name: 7|01-TW01台湾
   network: tcp
-  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  password: ef43453f-1eae-4501-8c9e-5c17e9f50758
   port: 38001
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -12,9 +12,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|02-TW01|台湾|x0.8
+  name: 7|03-TW01台湾
   network: tcp
-  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
   port: 38001
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -23,9 +23,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|03-TW01|台湾|x0.8
+  name: 7|04-TW01台湾
   network: tcp
-  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  password: 0ea82d15-8bb2-4223-9602-fd09698cea48
   port: 38001
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -34,9 +34,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|04-TW01|台湾|x0.8
+  name: 7|05-TW01台湾
   network: tcp
-  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  password: f34966cd-2c76-48cd-94d5-90293682e14c
   port: 38001
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -45,9 +45,42 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|01-TW02|台湾
+  name: 7|06-TW01台湾
   network: tcp
-  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+  port: 38001
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|07-TW01台湾
+  network: tcp
+  password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+  port: 38001
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|08-TW01台湾
+  network: tcp
+  password: 57e41491-08ec-4798-ab19-8398d921e0f7
+  port: 38001
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|01-TW02台湾
+  network: tcp
+  password: ef43453f-1eae-4501-8c9e-5c17e9f50758
   port: 38002
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -56,9 +89,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|02-TW02|台湾
+  name: 7|03-TW02台湾
   network: tcp
-  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
   port: 38002
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -67,9 +100,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|03-TW02|台湾
+  name: 7|04-TW02台湾
   network: tcp
-  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  password: 0ea82d15-8bb2-4223-9602-fd09698cea48
   port: 38002
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -78,9 +111,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|04-TW02|台湾
+  name: 7|05-TW02台湾
   network: tcp
-  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  password: f34966cd-2c76-48cd-94d5-90293682e14c
   port: 38002
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -89,9 +122,42 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|01-TW03|台湾|x3.0
+  name: 7|06-TW02台湾
   network: tcp
-  password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+  password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+  port: 38002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|07-TW02台湾
+  network: tcp
+  password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+  port: 38002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|08-TW02台湾
+  network: tcp
+  password: 57e41491-08ec-4798-ab19-8398d921e0f7
+  port: 38002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|01-TW03台湾
+  network: tcp
+  password: ef43453f-1eae-4501-8c9e-5c17e9f50758
   port: 38101
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -100,9 +166,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|02-TW03|台湾|x3.0
+  name: 7|03-TW03台湾
   network: tcp
-  password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+  password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
   port: 38101
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -111,9 +177,9 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|03-TW03|台湾|x3.0
+  name: 7|04-TW03台湾
   network: tcp
-  password: 41a6b54a-9797-41a2-b329-63c31c197db8
+  password: 0ea82d15-8bb2-4223-9602-fd09698cea48
   port: 38101
   server: lazy.rsqpq.cn
   skip-cert-verify: true
@@ -122,9 +188,42 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|04-TW03|台湾|x3.0
+  name: 7|05-TW03台湾
   network: tcp
-  password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+  password: f34966cd-2c76-48cd-94d5-90293682e14c
+  port: 38101
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|06-TW03台湾
+  network: tcp
+  password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+  port: 38101
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|07-TW03台湾
+  network: tcp
+  password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+  port: 38101
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alpn: []
+  flow: ''
+  name: 7|08-TW03台湾
+  network: tcp
+  password: 57e41491-08ec-4798-ab19-8398d921e0f7
   port: 38101
   server: lazy.rsqpq.cn
   skip-cert-verify: true
