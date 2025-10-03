@@ -1,4 +1,50 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🇷🇺 RU-1 | MIX
+  network: tcp
+  port: 51091
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  tls: false
+  type: vmess
+  uuid: 6f59f139-eb5d-4fc0-bece-a44bd39c9ebd
+- alterId: 0
+  cipher: auto
+  name: 12|🇷🇺 RU-2 | MIX
+  network: tcp
+  port: 51091
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  tls: false
+  type: vmess
+  uuid: b06c6329-912f-4951-b920-6ff30829e8dd
+- encryption: none
+  name: 12|🇷🇺 RU-3 | MIX
+  network: ws
+  port: 1488
+  server: 109.120.189.103
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇷🇺 RU-4 | MIX
+  network: ws
+  port: 443
+  server: 109.107.166.23
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
 - client-fingerprint: chrome
   name: 16|RU_speednode_0021
   port: 8080

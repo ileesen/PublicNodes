@@ -1,19 +1,199 @@
 proxies:
-- client-fingerprint: random
+- alterId: 0
+  cipher: auto
   name: 12|🇰🇷 KR-1 | MIX
+  network: tcp
+  port: 51061
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  tls: false
+  type: vmess
+  uuid: 6f59f139-eb5d-4fc0-bece-a44bd39c9ebd
+- alterId: 0
+  cipher: auto
+  name: 12|🇰🇷 KR-2 | MIX
+  network: tcp
+  port: 51061
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  tls: false
+  type: vmess
+  uuid: a04aae52-ed45-4ed9-8e7c-fb09b73b681f
+- alterId: 0
+  cipher: auto
+  name: 12|🇰🇷 KR-3 | MIX
+  network: tcp
+  port: 51061
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  tls: false
+  type: vmess
+  uuid: b06c6329-912f-4951-b920-6ff30829e8dd
+- encryption: none
+  name: 12|🇰🇷 KR-4 | MIX
   network: ws
   port: 50000
-  server: tp50000.kr.proxyip.fgfw.eu.org
-  servername: snippet.danfeng.site
+  server: 106.244.201.248
+  servername: abcd.freewarp.eu.org
   skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
   ws-opts:
     headers:
-      Host: snippet.danfeng.site
-    path: /?ed=2560
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-5 | MIX
+  network: ws
+  port: 54266
+  server: 146.56.182.217
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-6 | MIX
+  network: ws
+  port: 11413
+  server: 121.158.194.32
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-7 | MIX
+  network: ws
+  port: 50000
+  server: 121.167.15.173
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-8 | MIX
+  network: ws
+  port: 50000
+  server: 121.168.144.41
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-9 | MIX
+  network: ws
+  port: 15903
+  server: 14.35.29.177
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-10 | MIX
+  network: ws
+  port: 19413
+  server: 121.165.101.69
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-11 | MIX
+  network: ws
+  port: 13644
+  server: 140.238.5.75
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-12 | MIX
+  network: ws
+  port: 6056
+  server: 132.226.21.116
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-13 | MIX
+  network: ws
+  port: 14041
+  server: 123.143.9.5
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-14 | MIX
+  network: ws
+  port: 20280
+  server: 125.130.15.106
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- encryption: none
+  name: 12|🇰🇷 KR-15 | MIX
+  network: ws
+  port: 15211
+  server: 14.35.29.177
+  servername: abcd.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  ws-opts:
+    headers:
+      Host: abcd.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
 - name: 16|KR_speednode_0014
   password: test.+
   port: 30446
