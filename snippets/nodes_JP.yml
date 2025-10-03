@@ -1,7 +1,7 @@
 proxies:
 - alpn: []
   flow: ''
-  name: 8|01-JP01|日本
+  name: 9|01-JP01|日本
   network: tcp
   password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
   port: 32001
@@ -12,7 +12,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|02-JP01|日本
+  name: 9|02-JP01|日本
   network: tcp
   password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
   port: 32001
@@ -23,7 +23,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|03-JP01|日本
+  name: 9|03-JP01|日本
   network: tcp
   password: 41a6b54a-9797-41a2-b329-63c31c197db8
   port: 32001
@@ -34,7 +34,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|04-JP01|日本
+  name: 9|04-JP01|日本
   network: tcp
   password: 320e1c1d-2838-492c-95de-2edb29ba13d5
   port: 32001
@@ -45,7 +45,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|01-JP02|日本
+  name: 9|01-JP02|日本
   network: tcp
   password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
   port: 32002
@@ -56,7 +56,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|02-JP02|日本
+  name: 9|02-JP02|日本
   network: tcp
   password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
   port: 32002
@@ -67,7 +67,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|03-JP02|日本
+  name: 9|03-JP02|日本
   network: tcp
   password: 41a6b54a-9797-41a2-b329-63c31c197db8
   port: 32002
@@ -78,7 +78,7 @@ proxies:
   udp: true
 - alpn: []
   flow: ''
-  name: 8|04-JP02|日本
+  name: 9|04-JP02|日本
   network: tcp
   password: 320e1c1d-2838-492c-95de-2edb29ba13d5
   port: 32002
@@ -88,7 +88,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
+  name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1806
@@ -97,7 +97,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -105,13 +105,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|日本v2|@ripaojiedian
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
