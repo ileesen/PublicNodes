@@ -1,5 +1,5 @@
 proxies:
-- name: 11|🇩🇪@EXPRESSVPN_420   ارا
+- name: 10|🇩🇪@EXPRESSVPN_420   ارا
   password: 3QlSMKyqLp
   port: 443
   server: android.yas-nowin.ir
@@ -7,7 +7,7 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: '11|DE-telegram-@ISVvpn   : یا '
+- name: '10|DE-telegram-@ISVvpn   : یا '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
@@ -15,32 +15,45 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: 12|🇩🇪 DE-1 | MIX
+  grpc-opts:
+    grpc-service-name: mahdi_383ir
+  mode: gun
+  name: 11|🇩🇪 DE-1 | MIX
   network: grpc
   port: 64286
+  security: none
   server: direct-jde6zos4zet26b15zzd1.appcity-download.ir
-  tls: false
+  serviceName: mahdi_383ir
   type: vless
   uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95
 - encryption: none
-  name: 12|🇩🇪 DE-2 | MIX
+  headerType: none
+  name: 11|🇩🇪 DE-2 | MIX
   network: tcp
   port: 17337
+  security: none
   server: direct-jde6zos4zet26b15zzd1.appcity-download.ir
-  tls: false
   type: vless
   uuid: 21441ba7-8364-496c-d43b-39fc7f9cb8d7
 - encryption: none
   flow: xtls-rprx-vision
-  name: 12|🇩🇪 DE-3 | MIX
+  headerType: none
+  name: 11|🇩🇪 DE-3 | MIX
   network: tcp
+  pbk: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
   port: 44443
+  reality-opts:
+    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+    server-name: www.speedtest.net
+    short-id: ''
+  security: reality
   server: 193.151.135.21
-  tls: false
+  sni: www.speedtest.net
+  tls: true
   type: vless
   uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
 - client-fingerprint: chrome
-  name: 16|DE_speednode_0003
+  name: 15|DE_speednode_0003
   port: 49330
   reality-opts:
     public-key: Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8

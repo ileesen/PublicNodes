@@ -1,25 +1,43 @@
 proxies:
 - encryption: none
-  name: 12|🇫🇷 FR-1 | MIX
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 11|🇫🇷 FR-1 | MIX
   network: grpc
   port: 22808
+  security: none
   server: 51.178.253.133
-  tls: false
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
 - encryption: none
-  name: 12|🇫🇷 FR-2 | MIX
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 11|🇫🇷 FR-2 | MIX
   network: grpc
   port: 42817
+  security: none
   server: 141.227.132.199
-  tls: false
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - encryption: none
-  name: 12|🇫🇷 FR-3 | MIX
+  fp: chrome
+  headerType: none
+  name: 11|🇫🇷 FR-3 | MIX
   network: tcp
+  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
   port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    server-name: yandex.com
+    short-id: 27cfa05000c23cc4
+  security: reality
   server: 45.95.233.8
-  tls: false
+  sid: 27cfa05000c23cc4
+  sni: yandex.com
+  tls: true
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37

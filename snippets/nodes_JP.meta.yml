@@ -1,13 +1,24 @@
 proxies:
 - encryption: none
-  name: 12|🇯🇵 JP-1 | MIX
+  fp: chrome
+  headerType: none
+  name: 11|🇯🇵 JP-1 | MIX
   network: tcp
+  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
   port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    server-name: yandex.com
+    short-id: 27cfa05000c23cc4
+  security: reality
   server: 147.45.49.17
-  tls: false
+  sid: 27cfa05000c23cc4
+  sni: yandex.com
+  tls: true
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 12|🇯🇵 JP-2 | MIX
+- headerType: none
+  name: 11|🇯🇵 JP-2 | MIX
   network: tcp
   password: LRMqkbZsWmA1XA3K44
   port: 443
@@ -15,8 +26,10 @@ proxies:
   server: os-2.rise-fuji.com
   servername: os-2.rise-fuji.com
   skip-cert-verify: false
+  sni: os-2.rise-fuji.com
   type: trojan
-- name: 12|🇯🇵 JP-3 | MIX
+- headerType: none
+  name: 11|🇯🇵 JP-3 | MIX
   network: tcp
   password: GUGm7DHtpSx7SuPyUD
   port: 443
@@ -24,8 +37,10 @@ proxies:
   server: ty-1.rise-fuji.com
   servername: ty-1.rise-fuji.com
   skip-cert-verify: false
+  sni: ty-1.rise-fuji.com
   type: trojan
-- name: 12|🇯🇵 JP-4 | MIX
+- headerType: none
+  name: 11|🇯🇵 JP-4 | MIX
   network: tcp
   password: GUGm7DHtpSx7SuPyUD
   port: 443
@@ -33,8 +48,10 @@ proxies:
   server: os-2.rise-fuji.com
   servername: os-2.rise-fuji.com
   skip-cert-verify: false
+  sni: os-2.rise-fuji.com
   type: trojan
-- name: 12|🇯🇵 JP-5 | MIX
+- headerType: none
+  name: 11|🇯🇵 JP-5 | MIX
   network: tcp
   password: f530670e7174114dd77ab1951e3aed3d
   port: 1924
@@ -42,9 +59,10 @@ proxies:
   server: 36.156.102.88
   servername: www.nintendogames.net
   skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|日本2|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -53,7 +71,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924

@@ -1,44 +1,54 @@
 proxies:
-- name: 12|🇺🇸 US-3 | MIX
+- host: gamang.gpj2.dpdns.org
+  name: 11|🇺🇸 US-3 | MIX
   network: ws
   password: a50ea41d-10b1-4351-9ae2-6d92f501a3a0
+  path: /Free-VPN-Geo-Project/185.66.165.51-443
   port: 443
   security: tls
   server: 172.67.168.193
   servername: gamang.gpj2.dpdns.org
   skip-cert-verify: false
+  sni: gamang.gpj2.dpdns.org
   type: trojan
   ws-opts:
     headers:
       Host: gamang.gpj2.dpdns.org
     path: /Free-VPN-Geo-Project/185.66.165.51-443
-- name: 12|🇺🇸 US-6 | MIX
+- host: gamang.gpj2.dpdns.org
+  name: 11|🇺🇸 US-6 | MIX
   network: ws
   password: 9096805c-e6b8-4da9-9bdc-d76e392e6630
+  path: /Free-VPN-Geo-Project/181.214.208.46-8011
   port: 443
   security: tls
   server: 172.67.168.193
   servername: gamang.gpj2.dpdns.org
   skip-cert-verify: false
+  sni: gamang.gpj2.dpdns.org
   type: trojan
   ws-opts:
     headers:
       Host: gamang.gpj2.dpdns.org
     path: /Free-VPN-Geo-Project/181.214.208.46-8011
-- name: 12|🇺🇸 US-9 | MIX
+- host: gamang.gpj2.dpdns.org
+  name: 11|🇺🇸 US-9 | MIX
   network: ws
   password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
+  path: /Free-VPN-Geo-Project/92.178.109.187-443
   port: 443
   security: tls
   server: 104.21.70.241
   servername: gamang.gpj2.dpdns.org
   skip-cert-verify: false
+  sni: gamang.gpj2.dpdns.org
   type: trojan
   ws-opts:
     headers:
       Host: gamang.gpj2.dpdns.org
     path: /Free-VPN-Geo-Project/92.178.109.187-443
-- name: 12|🇺🇸 US-14 | MIX
+- headerType: none
+  name: 11|🇺🇸 US-14 | MIX
   network: tcp
   password: GUGm7DHtpSx7SuPyUD
   port: 5022
@@ -46,9 +56,10 @@ proxies:
   server: fw-us2.regentgrandvalley.com
   servername: fw-us2.regentgrandvalley.com
   skip-cert-verify: false
+  sni: fw-us2.regentgrandvalley.com
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -57,7 +68,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|美国2|@ripaojiedian
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 472
