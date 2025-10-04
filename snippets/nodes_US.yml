@@ -1,31 +1,52 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-1 | MIX
+- name: 12|🇺🇸 US-3 | MIX
+  network: ws
+  password: a50ea41d-10b1-4351-9ae2-6d92f501a3a0
+  port: 443
+  security: tls
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/185.66.165.51-443
+- name: 12|🇺🇸 US-6 | MIX
+  network: ws
+  password: 9096805c-e6b8-4da9-9bdc-d76e392e6630
+  port: 443
+  security: tls
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/181.214.208.46-8011
+- name: 12|🇺🇸 US-9 | MIX
+  network: ws
+  password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
+  port: 443
+  security: tls
+  server: 104.21.70.241
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/92.178.109.187-443
+- name: 12|🇺🇸 US-14 | MIX
   network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: 6f59f139-eb5d-4fc0-bece-a44bd39c9ebd
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-2 | MIX
-  network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: a04aae52-ed45-4ed9-8e7c-fb09b73b681f
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-3 | MIX
-  network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: b06c6329-912f-4951-b920-6ff30829e8dd
+  password: GUGm7DHtpSx7SuPyUD
+  port: 5022
+  security: tls
+  server: fw-us2.regentgrandvalley.com
+  servername: fw-us2.regentgrandvalley.com
+  skip-cert-verify: false
+  type: trojan
 - client-fingerprint: chrome
   name: 14,15|美国|@ripaojiedian
   network: tcp

@@ -7,467 +7,192 @@ proxies:
   sni: mg1.mangshe.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- encryption: none
   name: 12|🇺🇸 US-1 | MIX
-  network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: 6f59f139-eb5d-4fc0-bece-a44bd39c9ebd
-- alterId: 0
-  cipher: auto
+  network: ws
+  port: 443
+  server: 104.16.246.85
+  servername: juzi.634676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+  ws-opts:
+    headers:
+      Host: juzi.634676.xyz
+    path: /?ed=2560
+- encryption: none
   name: 12|🇺🇸 US-2 | MIX
-  network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: a04aae52-ed45-4ed9-8e7c-fb09b73b681f
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-3 | MIX
-  network: tcp
-  port: 51051
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  tls: false
-  type: vmess
-  uuid: b06c6329-912f-4951-b920-6ff30829e8dd
+  network: ws
+  port: 443
+  server: 162.159.43.92
+  servername: juzi.634676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+  ws-opts:
+    headers:
+      Host: juzi.634676.xyz
+    path: /?ed=2560
+- name: 12|🇺🇸 US-3 | MIX
+  network: ws
+  password: a50ea41d-10b1-4351-9ae2-6d92f501a3a0
+  port: 443
+  security: tls
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/185.66.165.51-443
 - encryption: none
   name: 12|🇺🇸 US-4 | MIX
   network: ws
-  port: 8443
-  server: 66.98.121.132
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 443
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: a50ea41d-10b1-4351-9ae2-6d92f501a3a0
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/185.66.165.51-443
 - encryption: none
   name: 12|🇺🇸 US-5 | MIX
   network: ws
-  port: 40864
-  server: 144.168.56.119
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 443
+  server: 104.20.30.132
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: 41b55c53-7776-4727-b05d-1ccf9cc409a5
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-6 | MIX
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/91.187.93.166-443
+- name: 12|🇺🇸 US-6 | MIX
   network: ws
-  port: 20274
-  server: 142.171.147.201
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  password: 9096805c-e6b8-4da9-9bdc-d76e392e6630
+  port: 443
+  security: tls
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-7 | MIX
-  network: ws
-  port: 41091
-  server: 64.69.34.244
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/181.214.208.46-8011
+- client-fingerprint: chrome
+  encryption: none
+  name: 12,16|LB_speednode_0015
+  network: tcp
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 77.110.114.1
+  servername: yandex.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - encryption: none
   name: 12|🇺🇸 US-8 | MIX
   network: ws
-  port: 13045
-  server: 142.171.136.53
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 443
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: 9096805c-e6b8-4da9-9bdc-d76e392e6630
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-9 | MIX
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/181.214.208.46-8011
+- name: 12|🇺🇸 US-9 | MIX
   network: ws
-  port: 929
-  server: 129.146.6.2
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
+  port: 443
+  security: tls
+  server: 104.21.70.241
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
+  type: trojan
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/92.178.109.187-443
 - encryption: none
   name: 12|🇺🇸 US-10 | MIX
   network: ws
-  port: 51042
-  server: 173.242.123.189
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 443
+  server: 172.67.168.193
+  servername: gamang.gpj2.dpdns.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: a284517f-486f-4e38-80b1-96b99030199a
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/70.34.223.217-8443
+- client-fingerprint: chrome
+  encryption: none
   name: 12|🇺🇸 US-11 | MIX
   network: ws
-  port: 3966
-  server: 129.153.112.108
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: smits.feronix.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: 44e16031-bde2-407a-b629-ae4b84e7e49f
   ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    path: /
 - encryption: none
   name: 12|🇺🇸 US-12 | MIX
   network: ws
-  port: 30488
-  server: 129.159.37.19
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 172.67.168.193
+  tls: false
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: 9096805c-e6b8-4da9-9bdc-d76e392e6630
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      Host: gamang.gpj2.dpdns.org
+    path: /Free-VPN-Geo-Project/181.214.208.46-8011
 - encryption: none
   name: 12|🇺🇸 US-13 | MIX
   network: ws
-  port: 9933
-  server: 142.171.52.104
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
+  port: 2096
+  server: 104.19.50.238
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-14 | MIX
-  network: ws
-  port: 38589
-  server: 141.148.1.34
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-15 | MIX
-  network: ws
-  port: 24264
-  server: 104.168.176.241
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-16 | MIX
-  network: ws
-  port: 43553
-  server: 142.171.36.3
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-17 | MIX
-  network: ws
-  port: 443
-  server: 104.168.58.31
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-18 | MIX
-  network: ws
-  port: 8443
-  server: 144.34.186.222
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-19 | MIX
-  network: ws
-  port: 443
-  server: 107.182.27.151
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-20 | MIX
-  network: ws
-  port: 8443
-  server: 104.224.177.224
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-21 | MIX
-  network: ws
-  port: 38945
-  server: 141.148.181.105
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-22 | MIX
-  network: ws
-  port: 3701
-  server: 129.153.91.86
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-23 | MIX
-  network: ws
-  port: 45638
-  server: 138.2.231.58
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-24 | MIX
-  network: ws
-  port: 34532
-  server: 141.148.164.136
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-25 | MIX
-  network: ws
-  port: 12138
-  server: 104.168.56.93
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-26 | MIX
-  network: ws
-  port: 57050
-  server: 107.182.187.11
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-27 | MIX
-  network: ws
-  port: 33388
-  server: 104.234.36.27
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-28 | MIX
-  network: ws
-  port: 33741
-  server: 144.34.184.181
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-29 | MIX
-  network: ws
-  port: 443
-  server: 172.245.111.20
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-30 | MIX
-  network: ws
-  port: 20756
-  server: 129.153.127.204
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-31 | MIX
-  network: ws
-  port: 443
-  server: 107.175.35.49
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-32 | MIX
-  network: ws
-  port: 11002
-  server: 132.145.217.215
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-33 | MIX
-  network: ws
-  port: 38631
-  server: 107.172.108.219
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- encryption: none
-  name: 12|🇺🇸 US-34 | MIX
-  network: ws
-  port: 443
-  server: 35.83.185.225
-  servername: abcd.freewarp.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 01999595-437b-439e-5046-dfe942ee2e36
-  ws-opts:
-    headers:
-      Host: abcd.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      Host: gaosir.unfeeling.sbs
+    path: /telegram🇨🇳@wangcai2/?ed=2560
+- name: 12|🇺🇸 US-14 | MIX
+  network: tcp
+  password: GUGm7DHtpSx7SuPyUD
+  port: 5022
+  security: tls
+  server: fw-us2.regentgrandvalley.com
+  servername: fw-us2.regentgrandvalley.com
+  skip-cert-verify: false
+  type: trojan
 - client-fingerprint: chrome
   name: 14,15|美国|@ripaojiedian
   network: tcp
