@@ -1,63 +1,20 @@
 proxies:
-- host: gamang.gpj2.dpdns.org
-  name: 12|🇺🇸 US-3 | MIX
-  network: ws
-  password: a50ea41d-10b1-4351-9ae2-6d92f501a3a0
-  path: /Free-VPN-Geo-Project/185.66.165.51-443
-  port: 443
-  security: tls
-  server: 172.67.168.193
-  servername: gamang.gpj2.dpdns.org
-  skip-cert-verify: false
-  sni: gamang.gpj2.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gamang.gpj2.dpdns.org
-    path: /Free-VPN-Geo-Project/185.66.165.51-443
-- host: gamang.gpj2.dpdns.org
-  name: 12|🇺🇸 US-6 | MIX
-  network: ws
-  password: 9096805c-e6b8-4da9-9bdc-d76e392e6630
-  path: /Free-VPN-Geo-Project/181.214.208.46-8011
-  port: 443
-  security: tls
-  server: 172.67.168.193
-  servername: gamang.gpj2.dpdns.org
-  skip-cert-verify: false
-  sni: gamang.gpj2.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gamang.gpj2.dpdns.org
-    path: /Free-VPN-Geo-Project/181.214.208.46-8011
-- host: gamang.gpj2.dpdns.org
-  name: 12|🇺🇸 US-9 | MIX
-  network: ws
-  password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
-  path: /Free-VPN-Geo-Project/92.178.109.187-443
-  port: 443
-  security: tls
-  server: 104.21.70.241
-  servername: gamang.gpj2.dpdns.org
-  skip-cert-verify: false
-  sni: gamang.gpj2.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gamang.gpj2.dpdns.org
-    path: /Free-VPN-Geo-Project/92.178.109.187-443
-- headerType: none
-  name: 12|🇺🇸 US-14 | MIX
+- add: 38.12.83.217
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 418048af-a293-4b99-9b0c-98ca3580dd24
+  name: 12|🇺🇸 US-7 | MIX
+  net: tcp
   network: tcp
-  password: GUGm7DHtpSx7SuPyUD
-  port: 5022
-  security: tls
-  server: fw-us2.regentgrandvalley.com
-  servername: fw-us2.regentgrandvalley.com
-  skip-cert-verify: false
-  sni: fw-us2.regentgrandvalley.com
-  type: trojan
+  port: 30002
+  ps: 🇺🇸 美国
+  scy: auto
+  server: 38.12.83.217
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  v: '2'
 - client-fingerprint: chrome
   name: 14,15|美国|@ripaojiedian
   network: tcp
