@@ -259,7 +259,7 @@ proxies:
   tls: false
   type: hysteria2
 - insecure: '1'
-  name: 11,12|🇺🇸 US-13 | MIX
+  name: 11,12|🇺🇸 US-3 | MIX
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -272,22 +272,18 @@ proxies:
     insecure: true
     server_name: gavazn.55994421.xyz
   type: hysteria2
-- insecure: '1'
-  name: 11,12|🇳🇿 NZ-6 | MIX
+- name: '11|All-@IRAN_V2RAY1 #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
   server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: YAPC-1.afshin.ir
-  tls:
-    enabled: true
-    insecure: true
-    server_name: YAPC-1.afshin.ir
+  tls: false
   type: hysteria2
 - insecure: '1'
-  name: 11,12|🇳🇿 NZ-3 | MIX
+  name: 11,12|🇳🇿 NZ-2 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -301,7 +297,7 @@ proxies:
     server_name: YAPC-1.afshin.ir
   type: hysteria2
 - insecure: '1'
-  name: 11,12|🇳🇿 NZ-8 | MIX
+  name: 11,12|🇳🇿 NZ-3 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -315,7 +311,7 @@ proxies:
     server_name: YAPC-1.afshin.ir
   type: hysteria2
 - insecure: '1'
-  name: 11,12|🇳🇿 NZ-7 | MIX
+  name: 11,12|🇳🇿 NZ-5 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -404,17 +400,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- insecure: '1'
-  name: 11,12|🇫🇷 FR-4 | MIX
+- name: '11|WI-FI--@IRAN_V2RAY1 #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
   skip-cert-verify: true
   sni: www.bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.bing.com
+  tls: false
   type: hysteria2
 - name: '11|telegram-@ISVvpn #2'
   password: f872db91-57c2-41c7-aad0-561b4cb674bf
@@ -433,17 +425,13 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- insecure: '1'
-  name: 11,12|🇺🇸 US-10 | MIX
+- name: '11|@Daily_Configs #15'
   password: miaoge110
   port: 40112
   server: 45.58.38.153
   skip-cert-verify: true
   sni: www.bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.bing.com
+  tls: false
   type: hysteria2
 - name: '11|@Daily_Configs #16'
   password: zanzendegiazadi
@@ -453,45 +441,23 @@ proxies:
   sni: ubuntu.com
   tls: false
   type: hysteria2
-- encryption: none
-  host: juzi.634676.xyz
-  name: 12|🇺🇸 US-1 | MIX
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 104.16.246.85
-  servername: juzi.634676.xyz
-  skip-cert-verify: false
-  sni: juzi.634676.xyz
-  tls: true
-  type: vless
-  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-  ws-opts:
-    headers:
-      Host: juzi.634676.xyz
-    path: /?ed=2560
-- encryption: none
-  host: juzi.634676.xyz
-  name: 12|🇨🇦 CA-2 | MIX
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.43.92
-  servername: juzi.634676.xyz
-  skip-cert-verify: false
-  sni: juzi.634676.xyz
-  tls: true
-  type: vless
-  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-  ws-opts:
-    headers:
-      Host: juzi.634676.xyz
-    path: /?ed=2560
+- insecure: '0'
+  name: 12|🇬🇧 GB-4 | MIX
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35200
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls:
+    enabled: true
+    insecure: false
+    server_name: YAPC-1.afshin.ir
+  type: hysteria2
 - encryption: none
   host: gaosir.unfeeling.sbs
-  name: 12|🇺🇸 US-3 | MIX
+  name: 12|🇺🇸 US-1 | MIX
   network: ws
   path: /telegram🇨🇳@wangcai2/?ed=2560
   port: 2096
@@ -507,68 +473,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram🇨🇳@wangcai2/?ed=2560
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 12|🇬🇧 GB-6 | MIX
-  network: grpc
-  port: 8880
-  security: none
-  server: 638947655359334556.birjand-drc-tusaas.info
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇫🇮 FI-4 | MIX
-  network: tcp
-  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    server-name: hls-svod.itunes.apple.com
-    short-id: 48720c
-  security: reality
-  server: fin01-vlr01.tcp-reset-club.net
-  sid: 48720c
-  sni: hls-svod.itunes.apple.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-- encryption: none
-  host: gamang.gpj2.dpdns.org
-  name: 12|🇺🇸 US-4 | MIX
-  network: ws
-  path: /Free-VPN-Geo-Project/181.214.208.46-8011
-  port: 80
-  security: none
-  server: 172.67.168.193
-  type: vless
-  uuid: 9096805c-e6b8-4da9-9bdc-d76e392e6630
-  ws-opts:
-    headers:
-      Host: gamang.gpj2.dpdns.org
-    path: /Free-VPN-Geo-Project/181.214.208.46-8011
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇨🇦 CA-3 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 81.19.140.20
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - authority: MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN
   encryption: none
   grpc-opts:
@@ -582,54 +486,6 @@ proxies:
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: b33105c5-e37d-4ad1-a3b9-102390b3e1b8
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇭🇷 HR-1 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 5.181.2.51
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 12|🇫🇷 FR-1 | MIX
-  network: grpc
-  port: 42817
-  security: none
-  server: 141.227.132.199
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇺🇸 US-5 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 77.110.114.1
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - encryption: none
   fp: chrome
   headerType: none
@@ -648,24 +504,12 @@ proxies:
   tls: true
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 12|🇬🇧 GB-2 | MIX
-  network: grpc
-  port: 47765
-  security: none
-  server: 141.227.174.234
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
 - authority: '@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz'
   encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇨🇿 CZ-3 | MIX
+  name: 12|🇨🇿 CZ-2 | MIX
   network: grpc
   port: 13905
   security: none
@@ -673,54 +517,6 @@ proxies:
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: 9eecee32-1abb-42db-b296-af0168c17412
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 12|🇨🇿 CZ-2 | MIX
-  network: grpc
-  port: 54983
-  security: none
-  server: 141.227.134.240
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: 6016845b-61d0-49c5-b20c-d61e860778d4
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇦🇹 AT-1 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 94.228.169.221
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇵🇱 PL-1 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 45.144.51.23
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - encryption: none
   fp: chrome
   headerType: none
@@ -740,41 +536,9 @@ proxies:
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - encryption: none
-  flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 12|🇹🇷 TR-1 | MIX
-  network: tcp
-  pbk: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-  port: 443
-  reality-opts:
-    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-    server-name: tr.eu-ffast.com
-    short-id: '50'
-  security: reality
-  server: 62.133.63.138
-  sid: '50'
-  sni: tr.eu-ffast.com
-  spx: /@vpnserverrr
-  tls: true
-  type: vless
-  uuid: 8377aac9-f3b3-42df-a5ea-9254f37e7b34
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 12|🇫🇮 FI-2 | MIX
-  network: grpc
-  port: 21232
-  security: none
-  server: 141.227.170.178
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇫🇮 FI-3 | MIX
+  name: 12|🇫🇮 FI-1 | MIX
   network: tcp
   pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
   port: 8080
@@ -789,24 +553,12 @@ proxies:
   tls: true
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 12|🇮🇪 IE-1 | MIX
-  network: grpc
-  port: 59995
-  security: none
-  server: 141.227.162.18
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
 - authority: '@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz'
   encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇫🇷 FR-5 | MIX
+  name: 12|🇷🇴 RO-2 | MIX
   network: grpc
   port: 43239
   security: none
@@ -854,7 +606,7 @@ proxies:
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇫🇷 FR-2 | MIX
+  name: 12|🇫🇷 FR-1 | MIX
   network: grpc
   port: 22808
   security: none
@@ -862,24 +614,6 @@ proxies:
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇯🇵 JP-2 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 147.45.49.17
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - encryption: none
   fp: chrome
   headerType: none
@@ -901,7 +635,7 @@ proxies:
 - encryption: none
   fp: chrome
   headerType: none
-  name: 12|🇱🇹 LT-2 | MIX
+  name: 12|🇺🇸 US-2 | MIX
   network: tcp
   pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
   port: 8080
@@ -910,242 +644,19 @@ proxies:
     server-name: yandex.com
     short-id: 27cfa05000c23cc4
   security: reality
-  server: 147.45.217.250
+  server: 77.110.114.1
   sid: 27cfa05000c23cc4
   sni: yandex.com
   tls: true
   type: vless
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- encryption: none
-  flow: xtls-rprx-vision
-  headerType: none
-  name: 12|🇩🇪 DE-1 | MIX
-  network: tcp
-  pbk: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-    server-name: www.speedtest.net
-    short-id: ''
-  security: reality
-  server: 193.151.135.21
-  sni: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- insecure: '1'
-  name: 12|🇸🇬 SG-1 | MIX
-  password: eb053b55-484d-4102-8056-bd7674d0e450
-  port: 32711
-  server: 92.112.22.221
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.bing.com
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇸🇬 SG-2 | MIX
-  network: tcp
-  pbk: kGb4d8KXEtQ3ayLLBMs5N2dz5__9aH7wdk0QEwl6f2Q
-  port: 25288
-  reality-opts:
-    public-key: kGb4d8KXEtQ3ayLLBMs5N2dz5__9aH7wdk0QEwl6f2Q
-    server-name: icloud.cdn-apple.com
-    short-id: ''
-  security: reality
-  server: 206.189.83.23
-  sni: icloud.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 34393e91-834d-4a3d-a901-bbfde643c4e0
-- insecure: '1'
-  name: 12|🇺🇸 US-6 | MIX
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.bing.com
-  type: hysteria2
-- add: 38.12.83.217
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 418048af-a293-4b99-9b0c-98ca3580dd24
-  name: 12|🇺🇸 US-7 | MIX
-  net: tcp
-  network: tcp
-  port: 30002
-  ps: 🇺🇸 美国
-  scy: auto
-  server: 38.12.83.217
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  v: '2'
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇨🇿 CZ-4 | MIX
-  network: tcp
-  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    server-name: hls-svod.itunes.apple.com
-    short-id: f79448a30d
-  security: reality
-  server: cze01-vlr01.tcp-reset-club.net
-  sid: f79448a30d
-  sni: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇩🇪 DE-2 | MIX
-  network: tcp
-  pbk: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    server-name: Tgju.org
-    short-id: b525ecd2fc
-  security: reality
-  server: 188.68.53.100
-  sid: b525ecd2fc
-  sni: Tgju.org
-  tls: true
-  type: vless
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- encryption: none
-  fp: chrome
-  headerType: none
-  host: /Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN
-  name: 12|🇬🇧 GB-3 | MIX
-  network: tcp
-  pbk: uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw
-  port: 3041
-  reality-opts:
-    public-key: uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw
-    server-name: www.refersion.com
-    short-id: 4c14
-  security: reality
-  server: 2margate.superip.ir
-  sid: 4c14
-  sni: www.refersion.com
-  spx: /TELEGRAM--BYA--KANAL--JKVPN
-  tls: true
-  type: vless
-  uuid: 9e728936-8015-41a1-a0ab-80997c084465
-- insecure: '1'
-  name: 12|🇺🇸 US-8 | MIX
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.bing.com
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
-  encryption: none
-  fp: randomized
-  host: pas-kale-agha.pages.dev
-  name: 12|🇺🇸 US-9 | MIX
-  network: ws
-  path: /Telegram@V2ray_Alpha/?ed=2560
-  port: 443
-  security: tls
-  server: 188.114.97.3
-  servername: paS-kaLE-AGhA.pageS.deV
-  skip-cert-verify: false
-  sni: paS-kaLE-AGhA.pageS.deV
-  tls: true
-  type: vless
-  uuid: f2e486f9-1697-4be6-be59-6c4fb42c7a24
-  ws-opts:
-    headers:
-      Host: pas-kale-agha.pages.dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- alpn:
-  - http/1.1
-  fp: chrome
-  host: kotlet.arshiacomplus.dpdns.org
-  name: 12|🇬🇧 GB-10 | MIX
-  network: ws
-  password: YwuvGJk36B
-  path: /yamtekodasayahhh
-  port: 2053
-  security: tls
-  server: creativecommons.org
-  servername: kotlet.arshiacomplus.dpdns.org
-  skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  fp: chrome
-  name: 12|🇩🇪 DE-3 | MIX
-  network: ws
-  path: /
-  port: 443
-  security: tls
-  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  servername: mooz.rtxiran.info
-  skip-cert-verify: false
-  sni: mooz.rtxiran.info
-  tls: true
-  type: vless
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  ws-opts:
-    path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇧🇬 BG-1 | MIX
-  network: tcp
-  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    server-name: hls-svod.itunes.apple.com
-    short-id: 8453e5fd9af927
-  security: reality
-  server: bgr01-vlr01.tcp-reset-club.net
-  sid: 8453e5fd9af927
-  sni: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
 - alpn:
   - h2
   - http/1.1
   encryption: none
   fp: chrome
   host: nareni.rtxiran.info
-  name: 12|🇩🇪 DE-4 | MIX
+  name: 12|🇩🇪 DE-1 | MIX
   network: ws
   path: /
   port: 443
@@ -1162,48 +673,36 @@ proxies:
       Host: nareni.rtxiran.info
     path: /
 - encryption: none
-  fp: chrome
-  host: configmr.pages.dev
-  name: 12|🇺🇸 US-11 | MIX
-  network: ws
-  path: /VrChX4o5oasIm4In?ed=2560
-  port: 443
-  security: tls
-  server: 172.66.44.118
-  servername: ConFIgmr.PaGeS.dEV
-  skip-cert-verify: false
-  sni: ConFIgmr.PaGeS.dEV
-  tls: true
-  type: vless
-  uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
-  ws-opts:
-    headers:
-      Host: configmr.pages.dev
-    path: /VrChX4o5oasIm4In?ed=2560
-- encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇫🇷 FR-3 | MIX
+  name: 12|🇫🇷 FR-2 | MIX
   network: grpc
-  port: 10298
+  port: 42817
   security: none
-  server: 91.134.100.4
+  server: 141.227.132.199
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
-  uuid: 1ebff68a-ad3f-4ba9-a682-fa618ed3cc10
-- encryption: none
-  grpc-opts:
-    grpc-service-name: EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420
-  mode: gun
-  name: 12|🇩🇪 DE-5 | MIX
-  network: grpc
-  port: 15349
-  security: none
-  server: 84.201.4.247
-  serviceName: EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420
+  uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  fp: chrome
+  name: 12|🇩🇪 DE-2 | MIX
+  network: ws
+  path: /
+  port: 443
+  security: tls
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: mooz.rtxiran.info
+  skip-cert-verify: false
+  sni: mooz.rtxiran.info
+  tls: true
   type: vless
-  uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    path: /
 - encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
@@ -1216,31 +715,23 @@ proxies:
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: 7fe2935c-0b1a-4bff-a392-79081b23d820
-- alpn:
-  - h2
-  - http/1.1
-  fp: firefox
-  host: ghasem.kotlet.org
-  name: 12|🇬🇧 GB-9 | MIX
-  network: ws
-  password: biOrJGlcfX
-  path: /kos-madaret-khamneii
-  port: 443
-  security: tls
-  server: creativecommons.org
-  servername: ghasem.kotlet.org
-  skip-cert-verify: false
-  sni: ghasem.kotlet.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ghasem.kotlet.org
-    path: /kos-madaret-khamneii
 - encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇬🇧 GB-7 | MIX
+  name: 12|🇬🇧 GB-1 | MIX
+  network: grpc
+  port: 47765
+  security: none
+  server: 141.227.174.234
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  type: vless
+  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 12|🇬🇧 GB-2 | MIX
   network: grpc
   port: 25365
   security: none
@@ -1263,43 +754,39 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 12|🇬🇧 GB-8 | MIX
+  name: 12|🇬🇧 GB-3 | MIX
   network: grpc
   port: 8880
   security: none
-  server: 638950280342845493.esfahan-drc-tusaas.info
+  server: 638947655359334556.birjand-drc-tusaas.info
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- insecure: '0'
-  name: 12|🇬🇧 GB-11 | MIX
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls:
-    enabled: true
-    insecure: false
-    server_name: YAPC-1.afshin.ir
-  type: hysteria2
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 12|🇨🇿 CZ-3 | MIX
+  network: grpc
+  port: 54983
+  security: none
+  server: 141.227.134.240
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  type: vless
+  uuid: 6016845b-61d0-49c5-b20c-d61e860778d4
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 12|🇮🇪 IE-1 | MIX
+  network: grpc
+  port: 59995
+  security: none
+  server: 141.227.162.18
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  type: vless
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
 - insecure: '1'
-  name: 12|🇳🇿 NZ-5 | MIX
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls:
-    enabled: true
-    insecure: true
-    server_name: YAPC-1.afshin.ir
-  type: hysteria2
-- insecure: '1'
-  name: 12|🇳🇿 NZ-4 | MIX
+  name: 12|🇳🇿 NZ-1 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1313,19 +800,21 @@ proxies:
     server_name: YAPC-1.afshin.ir
   type: hysteria2
 - insecure: '1'
-  name: 12|🇺🇸 US-12 | MIX
-  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  port: 47974
-  server: 75.127.13.83
+  name: 12|🇳🇿 NZ-4 | MIX
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35200
+  server: 206.71.158.37
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: YAPC-1.afshin.ir
   tls:
     enabled: true
     insecure: true
-    server_name: www.bing.com
+    server_name: YAPC-1.afshin.ir
   type: hysteria2
 - insecure: '1'
-  name: 12|🇺🇸 US-14 | MIX
+  name: 12|🇺🇸 US-4 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1339,40 +828,7 @@ proxies:
     server_name: YAPC-1.afshin.ir
   type: hysteria2
 - insecure: '1'
-  name: 12|🇳🇿 NZ-10 | MIX
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls:
-    enabled: true
-    insecure: true
-    server_name: YAPC-1.afshin.ir
-  type: hysteria2
-- alpn:
-  - http/1.1
-  fp: firefox
-  host: mooshali.arshiacomplus.dpdns.org
-  name: 12|🇳🇿 NZ-11 | MIX
-  network: ws
-  password: 02XtoczO7V
-  path: /hishhhh123
-  port: 443
-  security: tls
-  server: creativecommons.org
-  servername: mooshali.arshiacomplus.dpdns.org
-  skip-cert-verify: false
-  sni: mooshali.arshiacomplus.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mooshali.arshiacomplus.dpdns.org
-    path: /hishhhh123
-- insecure: '1'
-  name: 12|🇳🇿 NZ-12 | MIX
+  name: 12|🇳🇿 NZ-6 | MIX
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1385,33 +841,25 @@ proxies:
     insecure: true
     server_name: YAPC-1.afshin.ir
   type: hysteria2
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: miro.com
-  mode: gun
-  name: 12|🇩🇪 DE-6 | MIX
-  network: grpc
-  pbk: fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs
-  port: 33811
-  reality-opts:
-    public-key: fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs
-    server-name: miro.com
-    short-id: 63f811342e9c75
-  security: reality
-  server: 155.254.35.78
-  serviceName: miro.com
-  sid: 63f811342e9c75
-  sni: miro.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 3940e9ba-d0f6-4052-bd8e-f3c2a2a76599
+- insecure: '0'
+  name: 12|🇳🇿 NZ-7 | MIX
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls:
+    enabled: true
+    insecure: false
+    server_name: YAPC-1.afshin.ir
+  type: hysteria2
 - encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   mode: gun
-  name: 12|🇨🇦 CA-5 | MIX
+  name: 12|🇨🇦 CA-1 | MIX
   network: grpc
   port: 40853
   security: none
@@ -1425,7 +873,7 @@ proxies:
   encryption: none
   fp: random
   host: fei.634676.xyz
-  name: 12|🇺🇸 US-15 | MIX
+  name: 12|🇺🇸 US-5 | MIX
   network: ws
   path: /?ed=2560
   port: 2083
@@ -1441,43 +889,219 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560
-- alpn:
-  - http/1.1
-  encryption: none
+- encryption: none
   fp: chrome
-  host: vless-httpupgrade-tls-host-01-jplhzooymx0erhix4s9s.armin-website.com
-  name: 12|🇩🇪 DE-7 | MIX
-  network: httpupgrade
-  path: /mahdi_383ir
-  port: 2053
-  security: tls
-  server: ip.cloudflare.com.appcity-download.ir
-  servername: vless-httpupgrade-tls-sni-01-1fxqo9sp9e4iogh7vfjx.armin-website.com
-  skip-cert-verify: false
-  sni: vless-httpupgrade-tls-sni-01-1fxqo9sp9e4iogh7vfjx.armin-website.com
+  headerType: none
+  name: 12|🇯🇵 JP-1 | MIX
+  network: tcp
+  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    server-name: yandex.com
+    short-id: 27cfa05000c23cc4
+  security: reality
+  server: 147.45.49.17
+  sid: 27cfa05000c23cc4
+  sni: yandex.com
   tls: true
   type: vless
-  uuid: a83efd52-7d6b-453d-e22f-7303b759ffd0
-- client-fingerprint: randomized
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  mode: gun
+  name: 12|🇫🇮 FI-2 | MIX
+  network: grpc
+  port: 21232
+  security: none
+  server: 141.227.170.178
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  type: vless
+  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12,15|香港5|@ripaojiedian
+  net: tcp
+  network: tcp
+  port: '10002'
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-3 | MIX
+  net: tcp
+  network: tcp
+  port: 10003
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-4 | MIX
+  net: tcp
+  network: tcp
+  port: 10004
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-5 | MIX
+  net: tcp
+  network: tcp
+  port: 10005
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-6 | MIX
+  net: tcp
+  network: tcp
+  port: 10006
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-7 | MIX
+  net: tcp
+  network: tcp
+  port: 10007
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-8 | MIX
+  net: tcp
+  network: tcp
+  port: 10010
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-9 | MIX
+  net: tcp
+  network: tcp
+  port: 10008
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- add: 36.139.201.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  name: 12|🇭🇰 HK-10 | MIX
+  net: tcp
+  network: tcp
+  port: 10009
+  ps: 🇭🇰 香港
+  scy: auto
+  server: 36.139.201.35
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  v: '2'
+- allowInsecure: '1'
   encryption: none
-  fp: randomized
-  host: cdn-cf.zoom.us.kamis1.blowsoum.biz.id
-  name: 12|🇺🇸 US-16 | MIX
+  host: cloudflare-snippets.tgdaosheng.ggff.net
+  name: 12|🇰🇷 KR-1 | MIX
   network: ws
-  path: /sgamazon
-  port: 443
+  path: /snippets/socks5://123:123@117.52.17.19:5555
+  port: 666
   security: tls
-  server: cdn-cf.zoom.us.kamis1.blowsoum.biz.id
-  servername: cdn-cf.zoom.us.kamis1.blowsoum.biz.id
-  skip-cert-verify: false
-  sni: cdn-cf.zoom.us.kamis1.blowsoum.biz.id
+  server: 103.30.76.212
+  servername: cloudflare-snippets.tgdaosheng.ggff.net
+  skip-cert-verify: true
+  sni: cloudflare-snippets.tgdaosheng.ggff.net
   tls: true
   type: vless
-  uuid: 3b33bfab-f2da-4e79-b5dc-fc249397e2f9
+  uuid: 3c0eac6b-d2f1-4c3c-b39f-168c5d1a902a
   ws-opts:
     headers:
-      Host: cdn-cf.zoom.us.kamis1.blowsoum.biz.id
-    path: /sgamazon
+      Host: cloudflare-snippets.tgdaosheng.ggff.net
+    path: /snippets/socks5://123:123@117.52.17.19:5555
+- allowInsecure: '1'
+  encryption: none
+  host: cloudflare-snippets.tgdaosheng.ggff.net
+  name: 12|🇰🇵 KP-1 | MIX
+  network: ws
+  path: /snippets/socks5://123:123@117.52.17.19:5555
+  port: 443
+  security: tls
+  server: cloudflare-dns.bpbtgds.dpdns.org
+  servername: cloudflare-snippets.tgdaosheng.ggff.net
+  skip-cert-verify: true
+  sni: cloudflare-snippets.tgdaosheng.ggff.net
+  tls: true
+  type: vless
+  uuid: 3c0eac6b-d2f1-4c3c-b39f-168c5d1a902a
+  ws-opts:
+    headers:
+      Host: cloudflare-snippets.tgdaosheng.ggff.net
+    path: /snippets/socks5://123:123@117.52.17.19:5555
 - cipher: aes-256-cfb
   name: 14|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1638,16 +1262,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
-- alterId: 0
-  cipher: auto
-  name: 15|香港5|@ripaojiedian
-  network: tcp
-  port: '10002'
-  server: 36.139.201.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
 - name: 16|AE_speednode_0001
   network: ws
   port: 2096

@@ -6,61 +6,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  headerType: none
-  name: 12|🇩🇪 DE-1 | MIX
-  network: tcp
-  pbk: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-  port: 44443
-  reality-opts:
-    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-    server-name: www.speedtest.net
-    short-id: ''
-  security: reality
-  server: 193.151.135.21
-  sni: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇩🇪 DE-2 | MIX
-  network: tcp
-  pbk: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    server-name: Tgju.org
-    short-id: b525ecd2fc
-  security: reality
-  server: 188.68.53.100
-  sid: b525ecd2fc
-  sni: Tgju.org
-  tls: true
-  type: vless
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  name: 12|🇩🇪 DE-3 | MIX
-  network: ws
-  path: /
-  port: 443
-  security: tls
-  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  servername: mooz.rtxiran.info
-  skip-cert-verify: false
-  sni: mooz.rtxiran.info
-  tls: true
-  type: vless
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  ws-opts:
-    path: /
 - alpn:
   - h2
   - http/1.1
@@ -68,7 +13,7 @@ proxies:
   encryption: none
   fp: chrome
   host: nareni.rtxiran.info
-  name: 12|🇩🇪 DE-4 | MIX
+  name: 12|🇩🇪 DE-1 | MIX
   network: ws
   path: /
   port: 443
@@ -84,58 +29,26 @@ proxies:
     headers:
       Host: nareni.rtxiran.info
     path: /
-- encryption: none
-  grpc-opts:
-    grpc-service-name: EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420
-  mode: gun
-  name: 12|🇩🇪 DE-5 | MIX
-  network: grpc
-  port: 15349
-  security: none
-  server: 84.201.4.247
-  serviceName: EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420
-  type: vless
-  uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: miro.com
-  mode: gun
-  name: 12|🇩🇪 DE-6 | MIX
-  network: grpc
-  pbk: fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs
-  port: 33811
-  reality-opts:
-    public-key: fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs
-    server-name: miro.com
-    short-id: 63f811342e9c75
-  security: reality
-  server: 155.254.35.78
-  serviceName: miro.com
-  sid: 63f811342e9c75
-  sni: miro.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 3940e9ba-d0f6-4052-bd8e-f3c2a2a76599
 - alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
   fp: chrome
-  host: vless-httpupgrade-tls-host-01-jplhzooymx0erhix4s9s.armin-website.com
-  name: 12|🇩🇪 DE-7 | MIX
-  network: httpupgrade
-  path: /mahdi_383ir
-  port: 2053
+  name: 12|🇩🇪 DE-2 | MIX
+  network: ws
+  path: /
+  port: 443
   security: tls
-  server: ip.cloudflare.com.appcity-download.ir
-  servername: vless-httpupgrade-tls-sni-01-1fxqo9sp9e4iogh7vfjx.armin-website.com
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: mooz.rtxiran.info
   skip-cert-verify: false
-  sni: vless-httpupgrade-tls-sni-01-1fxqo9sp9e4iogh7vfjx.armin-website.com
+  sni: mooz.rtxiran.info
   tls: true
   type: vless
-  uuid: a83efd52-7d6b-453d-e22f-7303b759ffd0
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    path: /
 - name: 16|DE_speednode_0019
   network: ws
   port: 443
