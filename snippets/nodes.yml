@@ -121,7 +121,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
-- name: 14,15|香港4|@ripaojiedian
+- name: 14,15,16|JP_speednode_0032
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -129,6 +129,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 14|🇭🇰 香港5|@ripaojiedian
@@ -163,7 +164,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 14,15|日本2|@ripaojiedian
+- name: 14,15,16|JP_speednode_0034
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4451
@@ -171,6 +172,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -179,7 +181,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡|@ripaojiedian
+- name: 14,15,16|NL_speednode_0047
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -187,6 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -195,7 +198,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国|@ripaojiedian
+- name: 14,15,16|CN_speednode_0018
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 6752
@@ -203,7 +206,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国2|@ripaojiedian
+  udp: true
+- name: 14,15,16|CN_speednode_0017
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -211,6 +215,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 14|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -238,7 +243,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
-- name: 16|SG_speednode_0023
+- name: 16|SG_speednode_0050
   network: ws
   password: wb6368
   port: 2087
@@ -251,16 +256,29 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: 16|US_speednode_0037
+- name: 16|US_speednode_0072
   network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
+      Host: nodes.830901.xyz
+    path: /?ed=2560
+- name: 16|US_speednode_0074
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /
