@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 4|🇺🇸_美国_6
+  network: tcp
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 104.21.14.54
+  skip-cert-verify: true
+  sni: 6666YHjU.777159.xYz
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 4|🇺🇸_美国_5
+  network: tcp
+  port: 26113
+  server: 150.230.28.100
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
