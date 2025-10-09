@@ -1,21 +1,73 @@
 proxies:
-- name: 4|🇺🇸_美国_6
-  network: tcp
-  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-  port: 443
-  server: 104.21.14.54
-  skip-cert-verify: true
-  sni: 6666YHjU.777159.xYz
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 4|🇺🇸_美国_5
-  network: tcp
-  port: 26113
-  server: 150.230.28.100
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
+- encryption: none
+  host: gaosir.unfeeling.sbs
+  name: 4|🇺🇸 US-1 | MIX
+  network: ws
+  path: /telegram🇨🇳@wangcai2/?ed=2560
+  port: 2096
+  security: tls
+  server: 104.19.50.238
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  sni: gaosir.unfeeling.sbs
+  tls: true
   type: vless
-  udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegram🇨🇳@wangcai2/?ed=2560
+- encryption: none
+  fp: chrome
+  headerType: none
+  name: 4|🇺🇸 US-2 | MIX
+  network: tcp
+  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    server-name: yandex.com
+    short-id: 27cfa05000c23cc4
+  security: reality
+  server: 77.110.114.1
+  sid: 27cfa05000c23cc4
+  sni: yandex.com
+  tls: true
+  type: vless
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- insecure: '1'
+  name: 4|🇺🇸 US-4 | MIX
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls:
+    enabled: true
+    insecure: true
+    server_name: YAPC-1.afshin.ir
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  host: fei.634676.xyz
+  name: 4|🇺🇸 US-5 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 2083
+  security: tls
+  server: 162.159.142.252
+  servername: fei.634676.xyz
+  skip-cert-verify: false
+  sni: fei.634676.xyz
+  tls: true
+  type: vless
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      Host: fei.634676.xyz
+    path: /?ed=2560

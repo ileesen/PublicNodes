@@ -1,20 +1,44 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 4|🇩🇪_德国_1
-  network: tcp
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: nareni.rtxiran.info
+  name: 4|🇩🇪 DE-1 | MIX
+  network: ws
+  path: /
   port: 443
-  server: fin01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
+  security: tls
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: nareni.rtxiran.info
+  skip-cert-verify: false
+  sni: nareni.rtxiran.info
+  tls: true
   type: vless
-  udp: true
-  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
-- alterId: '0'
-  cipher: auto
-  name: 4|🇩🇪_德国_2
-  network: tcp
-  port: '8880'
-  server: 91.107.157.89
-  type: vmess
-  uuid: de336351-9bd5-4614-fdd6-38ab0d16d556
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    headers:
+      Host: nareni.rtxiran.info
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  name: 4|🇩🇪 DE-2 | MIX
+  network: ws
+  path: /
+  port: 443
+  security: tls
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: mooz.rtxiran.info
+  skip-cert-verify: false
+  sni: mooz.rtxiran.info
+  tls: true
+  type: vless
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    path: /

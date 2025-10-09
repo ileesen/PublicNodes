@@ -1,59 +1,25 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 4|🇫🇷_法国_8
-  network: tcp
-  port: 34510
-  server: 212.129.5.242
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
-- flow: xtls-rprx-vision
-  name: 4|🇫🇷_法国_5
-  network: tcp
-  port: 443
-  server: 178.20.215.2
-  servername: speed.cloudflare.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
-- grpc-opts:
+- encryption: none
+  grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 4|🇫🇷_法国_16
+  mode: gun
+  name: 4|🇫🇷 FR-1 | MIX
   network: grpc
-  port: 47765
-  server: 141.227.174.234
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
+  port: 22808
+  security: none
+  server: 51.178.253.133
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
-  udp: true
-  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-- grpc-opts:
+  uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+- encryption: none
+  grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 4|🇫🇷_法国_15
+  mode: gun
+  name: 4|🇫🇷 FR-2 | MIX
   network: grpc
-  port: 59995
-  server: 141.227.162.18
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
+  port: 42817
+  security: none
+  server: 141.227.132.199
+  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
-  udp: true
-  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 4|🇫🇷_法国_17
-  network: grpc
-  port: 21232
-  server: 141.227.170.178
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
+  uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
