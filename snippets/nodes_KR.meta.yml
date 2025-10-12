@@ -1,23 +1,18 @@
 proxies:
-- allowInsecure: '1'
-  encryption: none
-  host: cloudflare-snippets.tgdaosheng.ggff.net
+- encryption: none
+  host: floral-term-d21f.wafajax493.workers.dev
   name: 11|🇰🇷 KR-1 | MIX
   network: ws
-  path: /snippets/socks5://123:123@117.52.17.19:5555
-  port: 666
-  security: tls
-  server: 103.30.76.212
-  servername: cloudflare-snippets.tgdaosheng.ggff.net
-  skip-cert-verify: true
-  sni: cloudflare-snippets.tgdaosheng.ggff.net
-  tls: true
+  path: /
+  port: 80
+  security: none
+  server: ip.sb
   type: vless
-  uuid: 3c0eac6b-d2f1-4c3c-b39f-168c5d1a902a
+  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
   ws-opts:
     headers:
-      Host: cloudflare-snippets.tgdaosheng.ggff.net
-    path: /snippets/socks5://123:123@117.52.17.19:5555
+      Host: floral-term-d21f.wafajax493.workers.dev
+    path: /
 - name: 15|KR_speednode_0011
   password: test.+
   port: 30446

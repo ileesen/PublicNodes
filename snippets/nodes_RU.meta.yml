@@ -1,4 +1,23 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇷🇺 RU-1 | MIX
+  network: tcp
+  pbk: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
+  port: 443
+  reality-opts:
+    public-key: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
+    server-name: mirror.yandex.ru
+    short-id: 7e44612b079459
+  security: reality
+  server: us.nitroo-tech.ru
+  sid: 7e44612b079459
+  sni: mirror.yandex.ru
+  tls: true
+  type: vless
+  uuid: f31f5fe0-0a42-436a-be94-437330801388
 - name: 15|RU_speednode_0016
   network: ws
   port: 2096

@@ -1,4 +1,22 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇸🇬 SG-1 | MIX
+  network: tcp
+  pbk: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+  port: 59750
+  reality-opts:
+    public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+    server-name: www.amd.com
+    short-id: ''
+  security: reality
+  server: 185.194.54.6
+  sni: www.amd.com
+  tls: true
+  type: vless
+  uuid: 9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b
 - client-fingerprint: chrome
   name: 13,14|新加坡|@ripaojiedian
   network: tcp

@@ -5,21 +5,48 @@ proxies:
   mode: gun
   name: 11|🇫🇷 FR-1 | MIX
   network: grpc
-  port: 22808
-  security: none
-  server: 51.178.253.133
-  serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  type: vless
-  uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  mode: gun
-  name: 11|🇫🇷 FR-2 | MIX
-  network: grpc
   port: 42817
   security: none
   server: 141.227.132.199
   serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   type: vless
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: grpc-jd
+  mode: gun
+  name: 11|🇷🇺 RU-2 | MIX
+  network: grpc
+  pbk: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server-name: jd.com
+    short-id: 41a4cee2c50c4fc3
+  security: reality
+  server: fr.pixvpn.app
+  serviceName: grpc-jd
+  sid: 41a4cee2c50c4fc3
+  sni: jd.com
+  tls: true
+  type: vless
+  uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇫🇷 FR-3 | MIX
+  network: tcp
+  pbk: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+  port: 443
+  reality-opts:
+    public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 178.20.215.2
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
