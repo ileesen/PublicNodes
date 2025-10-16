@@ -1,26 +1,32 @@
 proxies:
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 10|🇭🇰 HK-1 | MIX
-  network: tcp
-  pbk: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    server-name: yandex.com
-    short-id: 27cfa05000c23cc4
-  security: reality
-  server: 62.60.232.40
-  sid: 27cfa05000c23cc4
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- insecure: '1'
+  name: 11|🇭🇰 HK-7 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 50001
+  server: hk1.jueduibupao.top
+  skip-cert-verify: true
+  sni: hk1.jueduibupao.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: hk1.jueduibupao.top
+  type: hysteria2
+- insecure: '1'
+  name: 11|🇭🇰 HK-8 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 42653
+  server: hk2.jueduibupao.top
+  skip-cert-verify: true
+  sni: hk2.jueduibupao.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: hk2.jueduibupao.top
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -36,7 +42,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -51,7 +57,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
+  name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
   port: 13007
@@ -60,7 +66,7 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
+  name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
@@ -69,7 +75,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|香港6|@ripaojiedian
+  name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443

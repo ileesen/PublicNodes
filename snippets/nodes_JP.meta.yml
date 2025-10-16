@@ -1,6 +1,30 @@
 proxies:
+- insecure: '1'
+  name: 11|🇯🇵 JP-5 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 30000
+  server: linjp2.jueduibupao.top
+  skip-cert-verify: true
+  sni: linjp2.jueduibupao.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: linjp2.jueduibupao.top
+  type: hysteria2
+- insecure: '1'
+  name: 11|🇯🇵 JP-6 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 40266
+  server: linjp1.jueduibupao.top
+  skip-cert-verify: true
+  sni: linjp1.jueduibupao.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: linjp1.jueduibupao.top
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 12,13|日本2|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 316
@@ -9,7 +33,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 1331

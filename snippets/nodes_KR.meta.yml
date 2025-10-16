@@ -1,19 +1,29 @@
 proxies:
-- encryption: none
-  host: floral-term-d21f.wafajax493.workers.dev
-  name: 10|🇰🇷 KR-1 | MIX
-  network: ws
-  path: /
-  port: 80
-  security: none
-  server: ip.sb
-  type: vless
-  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
-  ws-opts:
-    headers:
-      Host: floral-term-d21f.wafajax493.workers.dev
-    path: /
-- name: 14|KR_speednode_0005
+- insecure: '1'
+  name: 11|🇰🇷 KR-3 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 10100
+  server: 6bkr1.6bnw.top
+  skip-cert-verify: true
+  sni: 6bkr1.6bnw.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: 6bkr1.6bnw.top
+  type: hysteria2
+- insecure: '1'
+  name: 11|🇰🇷 KR-4 | MIX
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 30000
+  server: kr2.jueduibupao.top
+  skip-cert-verify: true
+  sni: kr2.jueduibupao.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: kr2.jueduibupao.top
+  type: hysteria2
+- name: 15|KR_speednode_0008
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
