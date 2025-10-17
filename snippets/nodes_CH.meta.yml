@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 10|🇨🇭 CH-1 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 23414
+  server: iplc.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 10|🇨🇭 CH-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 53414
+  server: 167.17.181.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- down: null
+  name: 10|🇨🇭 CH-3 | StarLink
+  obfs: salamander
+  obfs-password: nQeGkMf3UpOvoGfb
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 51261
+  server: 167.17.181.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 10|🇨🇭 CH-4 | StarLink
+  obfs: salamander
+  obfs-password: Tkyv7BlXrfdXs8Hz
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 18261
+  server: 167.17.181.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null

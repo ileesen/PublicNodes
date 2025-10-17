@@ -1,4 +1,52 @@
 proxies:
+- down: null
+  name: 10|🇯🇵 JP-1 | StarLink
+  obfs: salamander
+  obfs-password: 10avVdX0KoINIFbx
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 24153
+  server: 167.17.179.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 10|🇯🇵 JP-2 | StarLink
+  obfs: salamander
+  obfs-password: HQo4HfB1k1RGBM9u
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 64153
+  server: 167.17.179.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 10|🇯🇵 JP-3 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 31451
+  server: 167.17.179.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 10|🇯🇵 JP-4 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 52451
+  server: 167.17.179.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - insecure: '1'
   name: 11|🇯🇵 JP-5 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
