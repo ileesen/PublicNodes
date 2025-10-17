@@ -575,10 +575,11 @@ class Node:
         if 'cipher' in ret and not ret['cipher']:
             ret['cipher'] = 'auto'
         if self.type == 'vless' and 'flow' in ret:
-            if ret['flow'].endswith('-udp443'):
-                ret['flow'] = ret['flow'][:-7]
-            elif ret['flow'].endswith('!'):
-                ret['flow'] = ret['flow'][:-1]
+            if ret['flow'].endswith:
+                if ret['flow'].endswith('-udp443'):
+                    ret['flow'] = ret['flow'][:-7]
+                elif ret['flow'].endswith('!'):
+                    ret['flow'] = ret['flow'][:-1]
         if 'alpn' in ret and isinstance(ret['alpn'], str):
             # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
