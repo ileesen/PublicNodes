@@ -6,52 +6,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇩🇪 DE-1 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 443
-  server: startlinkdeguo.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: startlinkdeguo.vosniehcihwocc.cfd
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇩🇪 DE-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 8443
-  server: startlinkdeguo.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: startlinkdeguo.vosniehcihwocc.cfd
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- name: 11|🇩🇪 DE-3 | StarLink
-  network: tcp
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 61351
-  server: startlinkdeguo.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: startlinkdeguo.vosniehcihwocc.cfd
-  type: trojan
-  udp: true
-- down: null
-  name: 11|🇩🇪 DE-4 | StarLink
-  obfs: salamander
-  obfs-password: Fig86vO22MRKqsJ3
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 51341
-  server: startlinkdeguo.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: startlinkdeguo.vosniehcihwocc.cfd
-  type: hysteria2
-  up: null
 - insecure: '1'
   name: 12|🇩🇪 DE-3 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
