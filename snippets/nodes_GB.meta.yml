@@ -18,22 +18,16 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  flow: null
-  grpc-opts:
-    grpc-service-name: ddddddddddd
-  name: 11|🇺🇸 US-1 | StarLink
-  network: grpc
-  port: 44141
-  reality-opts:
-    public-key: eBk3eRHm9aUHRN5jtzhYAYPdF49ggSPtYb01YGLj3T0
-    short-id: 0c07a1ac8cf85a44
-  server: 166.88.164.204
-  servername: www.apple.com
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇸🇬 SG-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42634
+  server: 38.247.64.210
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: www.apple.com
+  type: tuic
   udp: true
+  udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
