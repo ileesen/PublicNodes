@@ -1,6 +1,19 @@
 proxies:
-- down: null
+- alpn:
+  - h3
+  congestion-controller: bbr
   name: 11|🇸🇬 SG-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42634
+  server: 38.247.64.210
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- down: null
+  name: 11|🇸🇬 SG-3 | StarLink
   obfs: salamander
   obfs-password: Us1D6sMDVWAGkJFl
   password: d1b2d150-f575-4252-bd46-3800f4756d89
@@ -11,7 +24,7 @@ proxies:
   type: hysteria2
   up: null
 - down: null
-  name: 11|🇸🇬 SG-3 | StarLink
+  name: 11|🇸🇬 SG-4 | StarLink
   obfs: salamander
   obfs-password: aVmRSRbUVjxf4o9O
   password: d1b2d150-f575-4252-bd46-3800f4756d89
