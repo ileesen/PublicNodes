@@ -1,51 +1,21 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 10|🇸🇮 SI-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 8083
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
-- name: 10|🇳🇱 NL-1 | StarLink
-  network: tcp
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 34264
-  server: amsterdam.xn--mes995ajya725k.com
-  skip-cert-verify: true
-  sni: amsterdam.xn--mes995ajya725k.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 10|🇸🇮 SI-3 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42083
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 10|🇸🇮 SI-4 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 56721
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-3 | StarLink
+  name: 9|🇺🇸 US-2 | StarLink
   network: ws
   port: 443
-  server: starlinkseattle.usdone.one
-  servername: starlinkseattle.usdone.one
+  server: deepseek.usdone.one
+  servername: deepseek.usdone.one
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
   ws-opts:
-    path: /ueococuehttps
+    path: /ssies
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-4 | StarLink
+  name: 9|🇺🇸 US-3 | StarLink
   network: ws
   port: 443
   server: csdn.usdone.one
@@ -59,28 +29,40 @@ proxies:
     path: /ddedddedddd
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-8 | StarLink
+  name: 9|🇺🇸 US-4 | StarLink
   network: ws
   port: 443
-  server: deepseek.usdone.one
-  servername: deepseek.usdone.one
+  server: starlinkseattle.usdone.one
+  servername: starlinkseattle.usdone.one
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
   ws-opts:
-    path: /ssies
-- name: 10|🇲🇩 MD-7 | StarLink
-  network: tcp
+    path: /ueococuehttps
+- cipher: aes-128-gcm
+  name: 9|🇸🇮 SI-1 | StarLink
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 62462
-  server: ielp.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: trojan
+  port: 8083
+  server: slovenia.vosniehcihwocc.cfd
+  type: ss
   udp: true
-- name: 10|🇺🇸 US-13 | StarLink
+- cipher: aes-128-gcm
+  name: 9|🇸🇮 SI-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 56721
+  server: slovenia.vosniehcihwocc.cfd
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 9|🇸🇮 SI-3 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42083
+  server: slovenia.vosniehcihwocc.cfd
+  type: ss
+  udp: true
+- name: 9|🇺🇸 US-6 | StarLink
   network: tcp
   password: d1b2d150-f575-4252-bd46-3800f4756d89
   port: 48417
@@ -89,8 +71,17 @@ proxies:
   sni: apple.com
   type: trojan
   udp: true
+- name: 9|🇲🇩 MD-6 | StarLink
+  network: tcp
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 62462
+  server: ielp.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 13|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.170.77.155
@@ -98,7 +89,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 13,14|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -113,7 +104,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -129,7 +120,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 14994
   server: 103.224.80.100
   skip-cert-verify: false
@@ -137,7 +128,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 13,14,15|HK_speednode_0012
+- name: 12,13,14|HK_speednode_0012
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -146,7 +137,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 13,14,15|CN_speednode_0002
+- name: 12,13,14|CN_speednode_0002
   network: tcp
   password: BxceQaOe
   port: 4451
@@ -154,14 +145,14 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 811
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 1331
@@ -169,7 +160,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 3161
@@ -177,7 +168,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13,14|日本4|@ripaojiedian
+- name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   port: 15013
@@ -185,7 +176,7 @@ proxies:
   skip-cert-verify: false
   sni: jp02.weyaf9sdoh2h.space
   type: trojan
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5321
@@ -193,7 +184,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5041
@@ -201,7 +192,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14,15|CN_speednode_0001
+- name: 12,13,14|CN_speednode_0001
   network: tcp
   password: BxceQaOe
   port: 24392
@@ -209,7 +200,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 13,14|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -217,7 +208,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
@@ -225,7 +216,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26876
@@ -234,7 +225,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '14994'
   server: 103.224.80.100
@@ -242,7 +233,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 15|US_speednode_0042
+- name: 14|US_speednode_0042
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
