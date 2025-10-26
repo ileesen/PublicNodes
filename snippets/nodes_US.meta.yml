@@ -64,18 +64,22 @@ proxies:
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
   ws-opts:
     path: /xdsfg
-- name: 11|🇺🇸 US-6 | StarLink
-  network: tcp
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇺🇸 US-6 | StarLink
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 48417
+  port: 62497
   server: iplc.vosniehcihwocc.cfd
   skip-cert-verify: true
-  sni: apple.com
-  type: trojan
+  sni: www.apple.com
+  type: tuic
   udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alterId: 0
   cipher: auto
-  client-fingerprint: safari
+  client-fingerprint: firefox
   flow: null
   grpc-opts:
     grpc-service-name: ddddddddddd
@@ -94,7 +98,7 @@ proxies:
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alterId: 0
   cipher: auto
-  client-fingerprint: ios
+  client-fingerprint: chrome
   flow: null
   grpc-opts:
     grpc-service-name: d24fsfg5
@@ -132,7 +136,7 @@ proxies:
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alterId: 0
   cipher: auto
-  client-fingerprint: qq
+  client-fingerprint: edge
   flow: null
   grpc-opts:
     grpc-service-name: d2fsfg5
@@ -178,7 +182,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 11|🇺🇸 US-14 | StarLink
+  name: 11|🇺🇸 US-13 | StarLink
   password: d1b2d150-f575-4252-bd46-3800f4756d89
   port: 61631
   server: 166.0.192.239
@@ -189,12 +193,12 @@ proxies:
   udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - down: null
-  name: 11|🇺🇸 US-16 | StarLink
+  name: 11|🇺🇸 US-15 | StarLink
   obfs: salamander
-  obfs-password: IGIanRJXA7UdAsad
+  obfs-password: EFDTlZGlCVWOuXCH
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 31532
-  server: 166.0.192.239
+  port: 51834
+  server: 38.45.89.44
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
@@ -202,10 +206,10 @@ proxies:
 - down: null
   name: 11|🇺🇸 US-17 | StarLink
   obfs: salamander
-  obfs-password: EFDTlZGlCVWOuXCH
+  obfs-password: IGIanRJXA7UdAsad
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 51834
-  server: 38.45.89.44
+  port: 31532
+  server: 166.0.192.239
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2

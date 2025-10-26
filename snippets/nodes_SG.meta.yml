@@ -1,24 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: edge
-  flow: null
-  name: 11|🇸🇬 SG-2 | StarLink
-  port: 37390
-  reality-opts:
-    public-key: tFpnFFN2nufzMOiqTblqe4FnD4u4XJM0azMrDykHgW4
-    short-id: 4a9d0939
-  server: iplc.vosniehcihwocc.cfd
-  servername: www.python.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 11|🇸🇬 SG-3 | StarLink
+  name: 11|🇸🇬 SG-2 | StarLink
   password: d1b2d150-f575-4252-bd46-3800f4756d89
   port: 42634
   server: 38.247.64.210
@@ -29,12 +13,23 @@ proxies:
   udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - down: null
-  name: 11|🇸🇬 SG-4 | StarLink
+  name: 11|🇸🇬 SG-3 | StarLink
   obfs: salamander
   obfs-password: Us1D6sMDVWAGkJFl
   password: d1b2d150-f575-4252-bd46-3800f4756d89
   port: 45171
   server: iplc.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇸🇬 SG-4 | StarLink
+  obfs: salamander
+  obfs-password: aVmRSRbUVjxf4o9O
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 26457
+  server: 38.247.64.210
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
