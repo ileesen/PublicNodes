@@ -639,6 +639,19 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇸🇬 SG-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42634
+  server: 38.247.64.210
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alterId: 0
   cipher: auto
   name: 11|🇺🇸 US-1 | StarLink
@@ -656,9 +669,95 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: null
+  name: 11|🇺🇸 US-2 | StarLink
+  network: ws
+  port: 443
+  server: houston2.usdone.one
+  servername: houston2.usdone.one
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  ws-opts:
+    path: /seejcr
+- down: null
+  name: 11|🇲🇩 MD-1 | StarLink
+  obfs: salamander
+  obfs-password: 43DcG8L2RByYtcRP
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 49751
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇲🇩 MD-2 | StarLink
+  obfs: salamander
+  obfs-password: qATHHa99E4ctuzTB
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 59751
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇲🇩 MD-3 | StarLink
+  obfs: salamander
+  obfs-password: 43DcG8L2RByYtcRP
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 59753
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇲🇩 MD-4 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 39316
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇲🇩 MD-5 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 49416
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- down: null
+  name: 11|🇲🇩 MD-6 | StarLink
+  obfs: salamander
+  obfs-password: TD4wGGAnJRkmBsvI
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 38751
+  server: moldova.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: null
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ios
+  flow: null
   grpc-opts:
     grpc-service-name: d2fsfg5
-  name: 11|🇺🇸 US-2 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   network: grpc
   port: 41849
   reality-opts:
@@ -671,111 +770,13 @@ proxies:
   type: vless
   udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇲🇩 MD-1 | StarLink
-  obfs: salamander
-  obfs-password: TD4wGGAnJRkmBsvI
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 38751
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇲🇩 MD-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 49416
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇲🇩 MD-3 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 39316
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇲🇩 MD-4 | StarLink
-  obfs: salamander
-  obfs-password: 43DcG8L2RByYtcRP
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 59753
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇲🇩 MD-5 | StarLink
-  obfs: salamander
-  obfs-password: qATHHa99E4ctuzTB
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 59751
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇲🇩 MD-6 | StarLink
-  obfs: salamander
-  obfs-password: 43DcG8L2RByYtcRP
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 49751
-  server: moldova.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 US-3 | StarLink
-  network: ws
-  port: 443
-  server: deepseek.usdone.one
-  servername: deepseek.usdone.one
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-  ws-opts:
-    path: /ssies
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-4 | StarLink
-  network: ws
-  port: 443
-  server: csdn.usdone.one
-  servername: csdn.usdone.one
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-  ws-opts:
-    path: /ddegddd2edddd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ios
+  client-fingerprint: safari
   flow: null
   grpc-opts:
     grpc-service-name: d2fsfg5
-  name: 11|🇺🇸 US-5 | StarLink
+  name: 11|🇺🇸 US-4 | StarLink
   network: grpc
   port: 63144
   reality-opts:
@@ -790,8 +791,68 @@ proxies:
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - alterId: 0
   cipher: auto
+  client-fingerprint: safari
   flow: null
+  grpc-opts:
+    grpc-service-name: d24fsfg5
+  name: 11|🇺🇸 US-5 | StarLink
+  network: grpc
+  port: 24144
+  reality-opts:
+    public-key: TXVzwrhJ5OWaCEFN3FuSjf_DSDbUtVbjg7jV2dh0rRM
+    short-id: a0
+  server: 166.88.164.204
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  flow: null
+  grpc-opts:
+    grpc-service-name: ddddddddddd
   name: 11|🇺🇸 US-6 | StarLink
+  network: grpc
+  port: 44141
+  reality-opts:
+    public-key: eBk3eRHm9aUHRN5jtzhYAYPdF49ggSPtYb01YGLj3T0
+    short-id: 0c07a1ac8cf85a44
+  server: 166.88.164.204
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- down: null
+  name: 11|🇸🇬 SG-3 | StarLink
+  obfs: salamander
+  obfs-password: aVmRSRbUVjxf4o9O
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 26457
+  server: 38.247.64.210
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇸🇬 SG-4 | StarLink
+  obfs: salamander
+  obfs-password: Us1D6sMDVWAGkJFl
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 45171
+  server: iplc.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- alterId: 0
+  cipher: auto
+  flow: null
+  name: 11|🇺🇸 US-7 | StarLink
   network: ws
   port: 443
   server: houston1.usdone.one
@@ -803,81 +864,41 @@ proxies:
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
   ws-opts:
     path: /xdsfg
-- alterId: 0
-  cipher: auto
-  flow: null
-  name: 11|🇺🇸 US-7 | StarLink
-  network: ws
-  port: 443
-  server: houston2.usdone.one
-  servername: houston2.usdone.one
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-  ws-opts:
-    path: /seejcr
-- cipher: aes-128-gcm
-  name: 11|🇸🇮 SI-1 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42083
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 11|🇸🇮 SI-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 56721
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇳🇱 NL-1 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42439
-  server: amsterdam.xn--mes995ajya725k.com
-  skip-cert-verify: true
-  sni: amsterdam.xn--mes995ajya725k.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇳🇱 NL-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 58443
-  server: amsterdam.xn--mes995ajya725k.com
-  skip-cert-verify: true
-  sni: amsterdam.xn--mes995ajya725k.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇳🇱 NL-3 | StarLink
-  obfs: salamander
-  obfs-password: XvwuJteSvP0S1AtG
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 52843
-  server: amsterdam.xn--mes995ajya725k.com
-  skip-cert-verify: true
-  sni: amsterdam.xn--mes995ajya725k.com
-  type: hysteria2
-  up: null
-- cipher: aes-128-gcm
-  name: 11|🇸🇮 SI-3 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 8083
-  server: slovenia.vosniehcihwocc.cfd
-  type: ss
-  udp: true
 - down: null
   name: 11|🇹🇷 TR-1 | StarLink
+  obfs: salamander
+  obfs-password: rMCuZzruaL1Da7Y9
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42516
+  server: 185.181.208.82
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇹🇷 TR-2 | StarLink
+  obfs: salamander
+  obfs-password: rMCuZzruaL1Da7Y9
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 45513
+  server: 185.181.208.82
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇹🇷 TR-3 | StarLink
+  obfs: salamander
+  obfs-password: vHf176N2ll7xfkoy
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 52516
+  server: 185.181.208.82
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇹🇷 TR-4 | StarLink
   obfs: salamander
   obfs-password: vHf176N2ll7xfkoy
   password: d1b2d150-f575-4252-bd46-3800f4756d89
@@ -890,81 +911,38 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 11|🇭🇺 HU-1 | StarLink
+  name: 11|🇺🇸 US-8 | StarLink
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42890
-  server: 87.229.95.173
+  port: 62497
+  server: iplc.vosniehcihwocc.cfd
   skip-cert-verify: true
   sni: www.apple.com
   type: tuic
   udp: true
   udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇺🇦 UA-1 | StarLink
-  obfs: salamander
-  obfs-password: H60z369AZYPNU7gB
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 44891
-  server: 87.229.95.173
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇭🇺 HU-2 | StarLink
-  obfs: salamander
-  obfs-password: pAzSOUzoVsOkEF2d
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 34894
-  server: 87.229.95.173
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ios
-  flow: null
-  grpc-opts:
-    grpc-service-name: adddd
-  name: 11|🇺🇸 US-8 | StarLink
-  network: grpc
-  port: 41468
-  reality-opts:
-    public-key: Buo2rRyJHTzdBVvFCBUNR8blOfvBhLjGB2w8TOjUhR0
-    short-id: bc59e03d37d03a
-  server: 193.233.205.189
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - down: null
   name: 11|🇺🇸 US-9 | StarLink
   obfs: salamander
-  obfs-password: 2TbLxAxOgDZHlLZH
+  obfs-password: Fu3sOqWu13Wk6bJq
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 39572
-  server: 193.233.205.189
+  port: 37831
+  server: 107.150.1.135
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
   up: null
-- alpn:
-  - h3
-  congestion-controller: bbr
+- down: null
   name: 11|🇺🇸 US-10 | StarLink
+  obfs: salamander
+  obfs-password: Fu3sOqWu13Wk6bJq
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 57135
-  server: 193.233.205.189
+  port: 57831
+  server: 107.150.1.135
   skip-cert-verify: true
   sni: www.apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  type: hysteria2
+  up: null
 - alpn:
   - h3
   congestion-controller: bbr
@@ -978,146 +956,112 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
+- alpn:
+  - h3
+  congestion-controller: bbr
   name: 11|🇺🇸 US-11 | StarLink
-  obfs: salamander
-  obfs-password: Fu3sOqWu13Wk6bJq
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 57831
-  server: 107.150.1.135
+  port: 57135
+  server: 193.233.205.189
   skip-cert-verify: true
   sni: www.apple.com
-  type: hysteria2
-  up: null
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - down: null
   name: 11|🇺🇸 US-12 | StarLink
   obfs: salamander
-  obfs-password: Fu3sOqWu13Wk6bJq
+  obfs-password: 2TbLxAxOgDZHlLZH
   password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 37831
-  server: 107.150.1.135
+  port: 39572
+  server: 193.233.205.189
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
   up: null
-- alpn:
-  - h3
-  congestion-controller: bbr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: qq
+  flow: null
+  grpc-opts:
+    grpc-service-name: adddd
   name: 11|🇺🇸 US-13 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 62497
-  server: iplc.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alterId: 0
-  cipher: auto
-  flow: null
-  grpc-opts:
-    grpc-service-name: d24fsfg5
-  name: 11|🇺🇸 US-14 | StarLink
   network: grpc
-  port: 24144
+  port: 41468
   reality-opts:
-    public-key: TXVzwrhJ5OWaCEFN3FuSjf_DSDbUtVbjg7jV2dh0rRM
-    short-id: a0
-  server: 166.88.164.204
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇹🇷 TR-2 | StarLink
-  obfs: salamander
-  obfs-password: vHf176N2ll7xfkoy
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 52516
-  server: 185.181.208.82
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇹🇷 TR-3 | StarLink
-  obfs: salamander
-  obfs-password: rMCuZzruaL1Da7Y9
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 45513
-  server: 185.181.208.82
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇹🇷 TR-4 | StarLink
-  obfs: salamander
-  obfs-password: rMCuZzruaL1Da7Y9
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42516
-  server: 185.181.208.82
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇸🇬 SG-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42634
-  server: 38.247.64.210
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- down: null
-  name: 11|🇸🇬 SG-3 | StarLink
-  obfs: salamander
-  obfs-password: Us1D6sMDVWAGkJFl
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 45171
-  server: iplc.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 11|🇸🇬 SG-4 | StarLink
-  obfs: salamander
-  obfs-password: aVmRSRbUVjxf4o9O
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 26457
-  server: 38.247.64.210
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- alterId: 0
-  cipher: auto
-  client-fingerprint: edge
-  flow: null
-  grpc-opts:
-    grpc-service-name: ddddddddddd
-  name: 11|🇺🇸 US-15 | StarLink
-  network: grpc
-  port: 44141
-  reality-opts:
-    public-key: eBk3eRHm9aUHRN5jtzhYAYPdF49ggSPtYb01YGLj3T0
-    short-id: 0c07a1ac8cf85a44
-  server: 166.88.164.204
+    public-key: Buo2rRyJHTzdBVvFCBUNR8blOfvBhLjGB2w8TOjUhR0
+    short-id: bc59e03d37d03a
+  server: 193.233.205.189
   servername: www.apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- down: null
+  name: 11|🇭🇺 HU-1 | StarLink
+  obfs: salamander
+  obfs-password: pAzSOUzoVsOkEF2d
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 34894
+  server: 87.229.95.173
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- down: null
+  name: 11|🇺🇦 UA-1 | StarLink
+  obfs: salamander
+  obfs-password: H60z369AZYPNU7gB
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 44891
+  server: 87.229.95.173
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  up: null
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇭🇺 HU-2 | StarLink
+  password: d1b2d150-f575-4252-bd46-3800f4756d89
+  port: 42890
+  server: 87.229.95.173
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-14 | StarLink
+  network: ws
+  port: 443
+  server: deepseek.usdone.one
+  servername: deepseek.usdone.one
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  ws-opts:
+    path: /ssies
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-15 | StarLink
+  network: ws
+  port: 443
+  server: csdn.usdone.one
+  servername: csdn.usdone.one
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  ws-opts:
+    path: /ddegddd2edddd
 - alpn:
   - h3
   congestion-controller: bbr
@@ -1158,7 +1102,7 @@ proxies:
   udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - down: null
-  name: 11|🇺🇸 US-20 | StarLink
+  name: 11|🇺🇸 US-21 | StarLink
   obfs: salamander
   obfs-password: EFDTlZGlCVWOuXCH
   password: d1b2d150-f575-4252-bd46-3800f4756d89
@@ -1462,38 +1406,6 @@ proxies:
   type: tuic
   udp: true
   udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ios
-  flow: null
-  name: 11|🇸🇮 SI-4 | StarLink
-  port: 51541
-  reality-opts:
-    public-key: DAp8mrKzf87XL06waRAOaMdZVuHDCA11OQVOksyp6zA
-    short-id: c97327c690
-  server: slovenia.vosniehcihwocc.cfd
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alterId: 0
-  cipher: auto
-  client-fingerprint: edge
-  flow: null
-  name: 11|🇸🇮 SI-5 | StarLink
-  port: 51510
-  reality-opts:
-    public-key: DAp8mrKzf87XL06waRAOaMdZVuHDCA11OQVOksyp6zA
-    short-id: c97327c690
-  server: slovenia.vosniehcihwocc.cfd
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
 - insecure: '1'
   name: 12|🇺🇸 US-7 | MIX
