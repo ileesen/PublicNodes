@@ -28,19 +28,20 @@ proxies:
   sni: 'kotlet.arshiacomplus.dpdns.org@V2rayNGVPN '
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 11|🇸🇬 SG-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 42634
-  server: 38.247.64.210
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-1 | StarLink
+  network: ws
+  port: 443
+  server: starlinkseattle.usdone.one
+  servername: starlinkseattle.usdone.one
   skip-cert-verify: true
-  sni: www.apple.com
-  type: tuic
+  tls: true
+  type: vmess
   udp: true
-  udp-relay-mode: native
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  ws-opts:
+    path: /ueococuehttps
 - alpn:
   - h3
   congestion-controller: bbr
