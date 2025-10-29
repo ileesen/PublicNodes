@@ -30,18 +30,23 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 US-1 | StarLink
-  network: ws
-  port: 443
-  server: starlinkseattle.usdone.one
-  servername: starlinkseattle.usdone.one
+  client-fingerprint: ios
+  flow: null
+  grpc-opts:
+    grpc-service-name: ddddddddddd
+  name: 11|🇺🇸 US-2 | StarLink
+  network: grpc
+  port: 44141
+  reality-opts:
+    public-key: eBk3eRHm9aUHRN5jtzhYAYPdF49ggSPtYb01YGLj3T0
+    short-id: 0c07a1ac8cf85a44
+  server: 166.88.164.204
+  servername: www.apple.com
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
   uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-  ws-opts:
-    path: /ueococuehttps
 - alpn:
   - h3
   congestion-controller: bbr
