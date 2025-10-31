@@ -1,46 +1,93 @@
 proxies:
-- name: '9|DE-telegram-@ISVvpn   : کا '
+- name: '10|DE-telegram-@ISVvpn   : کا '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- down: null
-  name: 10|🇩🇪 DE-1 | StarLink
-  obfs: salamander
-  obfs-password: rxYZ1jcVABSdSMwA
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 51711
-  server: 85.93.9.42
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇩🇪 DE-1 | StarLink
+  network: tcp
+  pbk: BkLraNl-jKNmC6kV302GBsr81RB4vP_ZKoAlFpqYTys
+  port: 443
+  reality-opts:
+    public-key: BkLraNl-jKNmC6kV302GBsr81RB4vP_ZKoAlFpqYTys
+    server-name: ger7.hipay.su
+    short-id: 8eb16bc6b2f0589c
+  security: reality
+  server: gerpanel7.hipay.su
+  sid: 8eb16bc6b2f0589c
+  sni: ger7.hipay.su
+  tls: true
+  type: vless
+  uuid: fa856c4c-b4c3-46e5-93ad-7b1bcf205fa3
+- allowInsecure: '1'
+  headerType: none
+  name: 11|🇩🇪 DE-2 | StarLink
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  security: tls
+  server: 52.28.43.123
+  servername: trojan.burgerip.co.uk
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 10|🇩🇪 DE-2 | StarLink
-  obfs: salamander
-  obfs-password: rxYZ1jcVABSdSMwA
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 54738
-  server: 85.93.9.42
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 10|🇩🇪 DE-3 | StarLink
-  obfs: salamander
-  obfs-password: rxYZ1jcVABSdSMwA
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 47538
-  server: 85.93.9.42
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  up: null
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- encryption: none
+  name: 11|🇩🇪 DE-3 | StarLink
+  network: ws
+  path: /
+  port: 2087
+  security: tls
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: DfVrMvWc3.SoLeRiOs.nEt
+  skip-cert-verify: false
+  sni: DfVrMvWc3.SoLeRiOs.nEt
+  tls: true
+  type: vless
+  uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
+  ws-opts:
+    path: /
+- encryption: none
+  name: 11|🇩🇪 DE-4 | StarLink
+  network: ws
+  path: /
+  port: 8443
+  security: tls
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: DfVrMvWc0.SoLeRiOs.nEt
+  skip-cert-verify: false
+  sni: DfVrMvWc0.SoLeRiOs.nEt
+  tls: true
+  type: vless
+  uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
+  ws-opts:
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇩🇪 DE-5 | StarLink
+  network: tcp
+  pbk: yV2d9wGJk4DYI_ubu3gUGOvG-6evWzsU85_xgFRMdCM
+  port: 443
+  reality-opts:
+    public-key: yV2d9wGJk4DYI_ubu3gUGOvG-6evWzsU85_xgFRMdCM
+    server-name: pressable.com
+    short-id: 4fed88d7ea37acd5
+  security: reality
+  server: 94.159.109.161
+  sid: 4fed88d7ea37acd5
+  sni: pressable.com
+  tls: true
+  type: vless
+  uuid: 87b4408d-f2ea-4142-8550-8e2851e91cd8
 - insecure: '1'
-  name: 11|🇩🇪 DE-3 | MIX
+  name: 12|🇩🇪 DE-3 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 45266
   server: de1.jueduibupao.top

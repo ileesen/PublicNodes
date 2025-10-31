@@ -1,33 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  flow: null
-  grpc-opts:
-    grpc-service-name: ddddddddddd
-  name: 10|🇺🇸 US-2 | StarLink
-  network: grpc
-  port: 44141
-  reality-opts:
-    public-key: eBk3eRHm9aUHRN5jtzhYAYPdF49ggSPtYb01YGLj3T0
-    short-id: 0c07a1ac8cf85a44
-  server: 166.88.164.204
-  servername: www.apple.com
+- insecure: '1'
+  name: 11|🇬🇧 GB-1 | StarLink
+  obfs: salamander
+  obfs-password: 1WHvwbb7lzCU3Vro
+  password: 7b7ca0da-c1d7-4716-9cd9-c298e0fa07a7
+  port: 50002
+  server: node-ipv4-de-001.nylz.dpdns.org
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 10|🇬🇧 GB-2 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 62462
-  server: 107.150.1.135
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  sni: www.cloudflare.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.cloudflare.com
+  type: hysteria2

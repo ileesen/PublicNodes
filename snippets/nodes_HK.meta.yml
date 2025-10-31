@@ -1,54 +1,44 @@
 proxies:
-- down: null
-  name: 10|🇭🇰 HK-1 | StarLink
-  obfs: salamander
-  obfs-password: Arm9v7OKqDcFdXJR
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 52563
-  server: hk1.vosniehcihwocc.cfd
+- encryption: none
+  fp: chrome
+  headerType: none
+  name: 11|🇭🇰 HK-1 | StarLink
+  network: tcp
+  pbk: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    server-name: prod.adobeccstatic.com
+    short-id: ''
+  security: reality
+  server: 47.239.150.118
+  sni: prod.adobeccstatic.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- allowInsecure: '1'
+  headerType: none
+  name: 11|🇭🇰 HK-2 | StarLink
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.46.98
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
-- down: null
-  name: 10|🇭🇰 HK-2 | StarLink
-  obfs: salamander
-  obfs-password: CDDQ1dntNm3j0K9i
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 44463
-  server: hk1.vosniehcihwocc.cfd
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: chrome
+  headerType: none
+  name: 11,14,15|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.53.3
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: null
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 10|🇭🇰 HK-3 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 51562
-  server: hk1.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 10|🇭🇰 HK-4 | StarLink
-  password: d1b2d150-f575-4252-bd46-3800f4756d89
-  port: 61532
-  server: hk1.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d1b2d150-f575-4252-bd46-3800f4756d89
+  type: trojan
 - insecure: '1'
-  name: 11|🇭🇰 HK-7 | MIX
+  name: 12|🇭🇰 HK-7 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 50001
   server: hk1.jueduibupao.top
@@ -60,7 +50,7 @@ proxies:
     server_name: hk1.jueduibupao.top
   type: hysteria2
 - insecure: '1'
-  name: 11|🇭🇰 HK-8 | MIX
+  name: 12|🇭🇰 HK-8 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 42653
   server: hk2.jueduibupao.top
@@ -74,7 +64,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港|@ripaojiedian
+  name: 14,15|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -90,7 +80,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 14|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -105,7 +95,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|香港3|@ripaojiedian
+  name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 5135
@@ -114,18 +104,10 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|香港4|@ripaojiedian
+  name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4451
   server: 36.156.102.72
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.3
   skip-cert-verify: true
   type: trojan
