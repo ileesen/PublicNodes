@@ -150,30 +150,25 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: /Telegram@freecodes/
-- insecure: '1'
-  name: 12|🇯🇵 JP-5 | MIX
+- down: 100
+  name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 30000
   server: linjp2.jueduibupao.top
   skip-cert-verify: true
   sni: linjp2.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: linjp2.jueduibupao.top
   type: hysteria2
-- insecure: '1'
-  name: 12|🇯🇵 JP-6 | MIX
+  up: 100
+- down: 100
+  name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40266
+  port: 49641
+  ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
   sni: linjp1.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: linjp1.jueduibupao.top
   type: hysteria2
+  up: 100
 - client-fingerprint: chrome
   name: 14,15|日本|@ripaojiedian
   network: tcp

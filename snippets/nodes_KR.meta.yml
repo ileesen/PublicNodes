@@ -48,27 +48,21 @@ proxies:
     insecure: true
     server_name: bing.com
   type: hysteria2
-- insecure: '1'
-  name: 12|🇰🇷 KR-3 | MIX
+- down: 100
+  name: 12|🇰🇷 KR-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 10100
   server: 6bkr1.6bnw.top
   skip-cert-verify: true
   sni: 6bkr1.6bnw.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: 6bkr1.6bnw.top
   type: hysteria2
-- insecure: '1'
-  name: 12|🇰🇷 KR-4 | MIX
+  up: 100
+- down: 100
+  name: 12|🇰🇷 KR-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 30000
   server: kr2.jueduibupao.top
   skip-cert-verify: true
   sni: kr2.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: kr2.jueduibupao.top
   type: hysteria2
+  up: 100

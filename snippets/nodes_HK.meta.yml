@@ -36,30 +36,25 @@ proxies:
   server: 58.152.53.3
   skip-cert-verify: true
   type: trojan
-- insecure: '1'
-  name: 12|🇭🇰 HK-7 | MIX
+- down: 100
+  name: 12|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 50001
   server: hk1.jueduibupao.top
   skip-cert-verify: true
   sni: hk1.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: hk1.jueduibupao.top
   type: hysteria2
-- insecure: '1'
-  name: 12|🇭🇰 HK-8 | MIX
+  up: 100
+- down: 100
+  name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42653
+  port: 48098
+  ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
   sni: hk2.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: hk2.jueduibupao.top
   type: hysteria2
+  up: 100
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

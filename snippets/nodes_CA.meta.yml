@@ -19,15 +19,13 @@ proxies:
     headers:
       Host: latte.gejeh683bm.ir
     path: /index.html?ed=2560
-- insecure: '1'
-  name: 12|🇨🇦 CA-3 | MIX
+- down: 100
+  name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42391
+  port: 43934
+  ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true
   sni: ca1.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: ca1.jueduibupao.top
   type: hysteria2
+  up: 100

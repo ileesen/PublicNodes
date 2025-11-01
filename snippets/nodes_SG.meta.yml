@@ -47,18 +47,16 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: /Telegram@freecodes/
-- insecure: '1'
-  name: 12|🇸🇬 SG-5 | MIX
+- down: 100
+  name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45942
+  port: 44861
+  ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
   sni: linsg1.jueduibupao.top
-  tls:
-    enabled: true
-    insecure: true
-    server_name: linsg1.jueduibupao.top
   type: hysteria2
+  up: 100
 - client-fingerprint: chrome
   name: 14,15,16|CN_speednode_0005
   network: tcp
