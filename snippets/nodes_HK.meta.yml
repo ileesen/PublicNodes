@@ -1,39 +1,12 @@
 proxies:
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 11|🇭🇰 HK-1 | StarLink
-  network: tcp
-  pbk: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    server-name: prod.adobeccstatic.com
-    short-id: ''
-  security: reality
-  server: 47.239.150.118
-  sni: prod.adobeccstatic.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - allowInsecure: '1'
   headerType: none
-  name: 11|🇭🇰 HK-2 | StarLink
+  name: 11|🇭🇰 HK-1 | StarLink
   network: tcp
   password: BxceQaOe
   port: 443
   security: tls
   server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 11|🇭🇰 HK-3 | StarLink
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.53.3
   skip-cert-verify: true
   type: trojan
 - down: 100

@@ -1,51 +1,9 @@
 proxies:
-- insecure: '1'
-  name: 11|🇯🇵 JP-1 | StarLink
-  password: MLcrUt8c4dPddBeG2KUvZa8
-  port: 14946
-  server: 54.65.141.24
-  skip-cert-verify: true
-  sni: bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: bing.com
-  type: hysteria2
-- insecure: '1'
-  name: 11|🇯🇵 JP-2 | StarLink
-  password: WefiJuuMalWeECB5Ve1Z5Ud9FIA
-  port: 35441
-  server: 18.177.123.205
-  skip-cert-verify: true
-  sni: bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: bing.com
-  type: hysteria2
-- encryption: none
-  host: snippet.danfeng.site
-  name: 11|🇯🇵 JP-3 | StarLink
-  network: ws
-  path: /?ed=2560
-  port: 10016
-  security: tls
-  server: 45.66.128.117
-  servername: snippet.danfeng.site
-  skip-cert-verify: false
-  sni: snippet.danfeng.site
-  tls: true
-  type: vless
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: /?ed=2560
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇯🇵 JP-4 | StarLink
+  name: 11|🇯🇵 JP-1 | StarLink
   network: tcp
   pbk: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
   port: 51623
@@ -60,96 +18,6 @@ proxies:
   tls: true
   type: vless
   uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇯🇵 JP-5 | StarLink
-  network: tcp
-  pbk: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
-  port: 25599
-  reality-opts:
-    public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
-    server-name: www.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 172.238.22.96
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
-- encryption: none
-  host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-6 | StarLink
-  network: ws
-  path: /Telegram@freecodes/
-  port: 21273
-  security: tls
-  server: 8.209.220.50
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: false
-  sni: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: /Telegram@freecodes/
-- encryption: none
-  host: snippet.danfeng.site
-  name: 11|🇯🇵 JP-7 | StarLink
-  network: ws
-  path: /
-  port: 10016
-  security: tls
-  server: 45.66.128.117
-  servername: snippet.danfeng.site
-  skip-cert-verify: false
-  sni: snippet.danfeng.site
-  tls: true
-  type: vless
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: /
-- encryption: none
-  host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-8 | StarLink
-  network: ws
-  path: /Telegram@freecodes/
-  port: 13118
-  security: tls
-  server: 140.83.57.20
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: false
-  sni: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: /Telegram@freecodes/
-- encryption: none
-  host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-9 | StarLink
-  network: ws
-  path: /Telegram@freecodes/
-  port: 443
-  security: tls
-  server: 139.162.108.5
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: false
-  sni: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: /Telegram@freecodes/
 - down: 100
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d

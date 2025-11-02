@@ -9,20 +9,60 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- insecure: '1'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 11|🇬🇧 GB-1 | StarLink
-  obfs: salamander
-  obfs-password: 1WHvwbb7lzCU3Vro
-  password: 7b7ca0da-c1d7-4716-9cd9-c298e0fa07a7
-  port: 50002
-  server: node-ipv4-de-001.nylz.dpdns.org
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.cloudflare.com
-  type: hysteria2
+  network: tcp
+  pbk: FkyaPwhmd80B_vHrzI_74WrhAcTHXMC6g83x61jL3Xs
+  port: 443
+  reality-opts:
+    public-key: FkyaPwhmd80B_vHrzI_74WrhAcTHXMC6g83x61jL3Xs
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 91.242.228.10
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇬🇧 GB-2 | StarLink
+  network: tcp
+  pbk: FkyaPwhmd80B_vHrzI_74WrhAcTHXMC6g83x61jL3Xs
+  port: 993
+  reality-opts:
+    public-key: FkyaPwhmd80B_vHrzI_74WrhAcTHXMC6g83x61jL3Xs
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 91.242.228.10
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇬🇧 GB-3 | StarLink
+  network: tcp
+  pbk: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+  port: 993
+  reality-opts:
+    public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 166.1.131.8
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 16|GB_speednode_0019
