@@ -1,6 +1,6 @@
 proxies:
 - insecure: '1'
-  name: 11|🇯🇵 JP-1 | StarLink
+  name: 10|🇯🇵 JP-1 | StarLink
   password: MLcrUt8c4dPddBeG2KUvZa8
   port: 14946
   server: 54.65.141.24
@@ -12,7 +12,7 @@ proxies:
     server_name: bing.com
   type: hysteria2
 - insecure: '1'
-  name: 11|🇯🇵 JP-2 | StarLink
+  name: 10|🇯🇵 JP-2 | StarLink
   password: WefiJuuMalWeECB5Ve1Z5Ud9FIA
   port: 35441
   server: 18.177.123.205
@@ -25,7 +25,7 @@ proxies:
   type: hysteria2
 - encryption: none
   host: snippet.danfeng.site
-  name: 11|🇯🇵 JP-3 | StarLink
+  name: 10|🇯🇵 JP-3 | StarLink
   network: ws
   path: /?ed=2560
   port: 10016
@@ -45,7 +45,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇯🇵 JP-4 | StarLink
+  name: 10|🇯🇵 JP-4 | StarLink
   network: tcp
   pbk: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
   port: 51623
@@ -64,7 +64,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇯🇵 JP-5 | StarLink
+  name: 10|🇯🇵 JP-5 | StarLink
   network: tcp
   pbk: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
   port: 25599
@@ -80,7 +80,7 @@ proxies:
   uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
 - encryption: none
   host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-6 | StarLink
+  name: 10|🇯🇵 JP-6 | StarLink
   network: ws
   path: /Telegram@freecodes/
   port: 21273
@@ -98,7 +98,7 @@ proxies:
     path: /Telegram@freecodes/
 - encryption: none
   host: snippet.danfeng.site
-  name: 11|🇯🇵 JP-7 | StarLink
+  name: 10|🇯🇵 JP-7 | StarLink
   network: ws
   path: /
   port: 10016
@@ -116,7 +116,7 @@ proxies:
     path: /
 - encryption: none
   host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-8 | StarLink
+  name: 10|🇯🇵 JP-8 | StarLink
   network: ws
   path: /Telegram@freecodes/
   port: 13118
@@ -134,7 +134,7 @@ proxies:
     path: /Telegram@freecodes/
 - encryption: none
   host: vless.pengjiajin.sbs
-  name: 11|🇯🇵 JP-9 | StarLink
+  name: 10|🇯🇵 JP-9 | StarLink
   network: ws
   path: /Telegram@freecodes/
   port: 443
@@ -151,7 +151,7 @@ proxies:
       Host: vless.pengjiajin.sbs
     path: /Telegram@freecodes/
 - down: 100
-  name: 12|🇯🇵 JP-1 | MIX
+  name: 11|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 30000
   server: linjp2.jueduibupao.top
@@ -160,9 +160,9 @@ proxies:
   type: hysteria2
   up: 100
 - down: 100
-  name: 12|🇯🇵 JP-2 | MIX
+  name: 11|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42504
+  port: 40175
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -170,28 +170,40 @@ proxies:
   type: hysteria2
   up: 100
 - client-fingerprint: chrome
-  name: 14,15|日本|@ripaojiedian
+  name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 487
+  port: 4492
   server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|日本2|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 4452
-  server: 160.16.236.32
-  skip-cert-verify: true
-  sni: www.baidu.com
+  port: 1332
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 3161
-  server: 160.16.236.32
-  skip-cert-verify: true
-  sni: www.baidu.com
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)e9e4816:99990
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  tfo: false
+  type: ss
