@@ -30,7 +30,7 @@ proxies:
 - down: 100
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 48092
+  port: 47657
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -41,8 +41,8 @@ proxies:
   name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4492
-  server: 36.150.215.236
+  port: 8112
+  server: 36.150.215.197
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
@@ -59,23 +59,11 @@ proxies:
   name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 3161
+  port: 316
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @ripaojiedian)e9e4816:99990
-    mode: tls
-  port: 2377
-  server: 54.64.148.82
-  tfo: false
-  type: ss
 - name: 16|JP_speednode_0020
   network: ws
   password: trojan
