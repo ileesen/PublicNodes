@@ -1,8 +1,27 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇨🇦 CA-1 | StarLink
+  network: tcp
+  pbk: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+  port: 42557
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    server-name: www.yahoo.com
+    short-id: f430927d
+  security: reality
+  server: 140.238.145.43
+  sid: f430927d
+  sni: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
 - down: 100
   name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 47441
+  port: 40354
   ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true

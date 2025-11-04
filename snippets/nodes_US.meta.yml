@@ -22,21 +22,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 11|🇺🇸 US-1 | StarLink
-  network: ws
-  path: /
-  port: 443
-  security: tls
-  server: ip.sb
-  servername: 1079ca08.turk-71y.pages.dev
-  skip-cert-verify: false
-  sni: 1079ca08.turk-71y.pages.dev
-  tls: true
-  type: vless
-  uuid: b15acbbd-a093-4269-a20d-d74dce4bff89
-  ws-opts:
-    path: /
 - alpn:
   - h3
   - h2
@@ -44,7 +29,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 11|🇺🇸 US-2 | StarLink
+  name: 11|🇺🇸 US-1 | StarLink
   network: ws
   path: /containers/de
   port: 2053
@@ -58,27 +43,8 @@ proxies:
   uuid: b27e35a7-51f4-468e-8921-56a4901dd923
   ws-opts:
     path: /containers/de
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-3 | StarLink
-  network: tcp
-  pbk: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
-  port: 443
-  reality-opts:
-    public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
-    server-name: yandex.com
-    short-id: bce24697c04e
-  security: reality
-  server: usa.savanet.pro
-  sid: bce24697c04e
-  sni: yandex.com
-  tls: true
-  type: vless
-  uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
 - insecure: '0'
-  name: 11|🇺🇸 US-4 | StarLink
+  name: 11|🇺🇸 US-2 | StarLink
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
@@ -93,16 +59,52 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇺🇸 US-5 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   network: tcp
-  pbk: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
+  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
   port: 443
   reality-opts:
-    public-key: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
+    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
     server-name: speed.cloudflare.com
     short-id: ''
   security: reality
-  server: 193.31.127.10
+  server: 185.77.221.10
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇺🇸 US-4 | StarLink
+  network: tcp
+  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+  port: 443
+  reality-opts:
+    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 193.56.20.10
+  sni: speed.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇺🇸 US-5 | StarLink
+  network: tcp
+  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+  port: 993
+  reality-opts:
+    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+    server-name: speed.cloudflare.com
+    short-id: ''
+  security: reality
+  server: 185.77.221.10
   sni: speed.cloudflare.com
   tls: true
   type: vless
@@ -113,162 +115,69 @@ proxies:
   headerType: none
   name: 11|🇺🇸 US-6 | StarLink
   network: tcp
-  pbk: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-  port: 443
+  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+  port: 993
   reality-opts:
-    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
+    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
     server-name: speed.cloudflare.com
     short-id: ''
   security: reality
-  server: 45.159.23.10
+  server: 193.56.20.10
   sni: speed.cloudflare.com
   tls: true
   type: vless
   uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  encryption: none
   fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-7 | StarLink
-  network: tcp
-  pbk: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
-  port: 443
-  reality-opts:
-    public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.202.12.10
-  sni: speed.cloudflare.com
+  host: om1.omidsuccess.uk
+  name: 11|🇩🇪 DE-2 | StarLink
+  network: ws
+  path: /containers/de
+  port: 2053
+  security: tls
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  skip-cert-verify: false
+  sni: om1.omidsuccess.uk
   tls: true
   type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
+- insecure: '0'
   name: 11|🇺🇸 US-8 | StarLink
-  network: tcp
-  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-  port: 443
-  reality-opts:
-    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 185.77.221.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  port: 1743
+  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  skip-cert-verify: true
+  sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  type: hysteria2
 - encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
+  fp: random
   headerType: none
   name: 11|🇺🇸 US-9 | StarLink
   network: tcp
-  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-  port: 443
+  pbk: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
+  port: 28901
   reality-opts:
-    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-    server-name: speed.cloudflare.com
-    short-id: ''
+    public-key: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
+    server-name: images.apple.com
+    short-id: '84'
   security: reality
-  server: 193.56.20.10
-  sni: speed.cloudflare.com
+  server: 148.135.83.173
+  sid: '84'
+  sni: images.apple.com
+  spx: /
   tls: true
   type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-10 | StarLink
-  network: tcp
-  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-  port: 993
-  reality-opts:
-    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 185.77.221.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-11 | StarLink
-  network: tcp
-  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-  port: 993
-  reality-opts:
-    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.56.20.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-12 | StarLink
-  network: tcp
-  pbk: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
-  port: 993
-  reality-opts:
-    public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.202.12.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-13 | StarLink
-  network: tcp
-  pbk: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
-  port: 993
-  reality-opts:
-    public-key: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.31.127.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-14 | StarLink
-  network: tcp
-  pbk: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-  port: 993
-  reality-opts:
-    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 45.159.23.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+  uuid: 15135ad9-eb14-4b1c-8ab0-6ca17b6f3301
 - down: 100
   name: 12|🇺🇸 US-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
