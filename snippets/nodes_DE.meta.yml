@@ -6,23 +6,28 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇱 - NL - @freeOnlineVPN #2'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: dir.cybsecguru.com
-  skip-cert-verify: true
-  sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43257
+  port: 43508
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
   sni: de1.jueduibupao.top
   type: hysteria2
   up: 100
+- client-fingerprint: chrome
+  name: 16|DE_speednode_0003
+  network: ws
+  port: 2096
+  server: 5.10.214.253
+  servername: vless.muzheng.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  ws-opts:
+    headers:
+      Host: vless.muzheng.top
+    path: /Telegram @freecodes /?ed=2560
