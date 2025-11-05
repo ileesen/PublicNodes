@@ -895,6 +895,36 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇩🇪 DE-1 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 95.164.45.27
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇫🇷 FR-11 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 94.232.247.208
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇮🇷 IR-1 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 95.164.45.119
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - allowInsecure: '1'
   headerType: none
   name: 11|🇭🇰 HK-1 | StarLink
@@ -908,7 +938,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-1 | StarLink
+  name: 11|🇫🇷 FR-4 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -918,7 +948,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-13 | StarLink
+  name: 11|🇫🇷 FR-16 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -938,7 +968,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-11 | StarLink
+  name: 11|🇫🇷 FR-14 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -948,7 +978,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-12 | StarLink
+  name: 11|🇫🇷 FR-15 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -968,27 +998,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇩🇪 DE-1 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 95.164.45.27
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇮🇷 IR-1 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 95.164.45.119
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇫🇷 FR-14 | StarLink
+  name: 11|🇫🇷 FR-17 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -998,7 +1008,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-10 | StarLink
+  name: 11|🇫🇷 FR-13 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1362,7 +1372,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇫🇷 FR-4 | StarLink
+  name: 11|🇫🇷 FR-7 | StarLink
   network: tcp
   pbk: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
   port: 443
@@ -1380,7 +1390,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇫🇷 FR-5 | StarLink
+  name: 11|🇫🇷 FR-8 | StarLink
   network: tcp
   pbk: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
   port: 993
@@ -1434,7 +1444,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇫🇷 FR-6 | StarLink
+  name: 11|🇫🇷 FR-9 | StarLink
   network: tcp
   pbk: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
   port: 443
@@ -1452,7 +1462,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇫🇷 FR-7 | StarLink
+  name: 11|🇫🇷 FR-10 | StarLink
   network: tcp
   pbk: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
   port: 993
@@ -1597,17 +1607,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-8 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 94.232.247.208
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇫🇷 FR-9 | StarLink
+  name: 11|🇫🇷 FR-12 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1626,6 +1626,44 @@ proxies:
     insecure: false
     server_name: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
   type: hysteria2
+- encryption: none
+  fp: random
+  headerType: none
+  name: 11|🇬🇧 GB-2 | StarLink
+  network: tcp
+  pbk: QoXF1U9XRPcdjuOzzSF6LWZsdE0Aj7WlOz1EFnuLYTo
+  port: 10099
+  reality-opts:
+    public-key: QoXF1U9XRPcdjuOzzSF6LWZsdE0Aj7WlOz1EFnuLYTo
+    server-name: images.apple.com
+    short-id: '324120'
+  security: reality
+  server: 154.62.183.37
+  sid: '324120'
+  sni: images.apple.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: dbefc3bd-b10a-4550-b3d2-3d5d692715cb
+- encryption: none
+  fp: random
+  headerType: none
+  name: 11|🇺🇸 US-9 | StarLink
+  network: tcp
+  pbk: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
+  port: 28901
+  reality-opts:
+    public-key: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
+    server-name: images.apple.com
+    short-id: '84'
+  security: reality
+  server: 148.135.83.173
+  sid: '84'
+  sni: images.apple.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 15135ad9-eb14-4b1c-8ab0-6ca17b6f3301
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
@@ -1688,7 +1726,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-15 | StarLink
+  name: 11|🇫🇷 FR-18 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1707,7 +1745,7 @@ proxies:
 - down: 100
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40593
+  port: 47853
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1717,7 +1755,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43396
+  port: 45982
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1745,7 +1783,7 @@ proxies:
 - down: 100
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43581
+  port: 46352
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -1809,7 +1847,7 @@ proxies:
 - down: 100
   name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45526
+  port: 44580
   ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true
@@ -1819,7 +1857,7 @@ proxies:
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41300
+  port: 49829
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
