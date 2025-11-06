@@ -2,7 +2,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43954
+  port: 43680
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -12,7 +12,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44095
+  port: 41901
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
@@ -20,10 +20,19 @@ proxies:
   type: hysteria2
   up: 100
 - client-fingerprint: chrome
-  name: 14,15|新加坡2|@ripaojiedian
+  name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
+  server: 117.172.176.23
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 14,15|新加坡2|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 2173
   server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
