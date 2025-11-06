@@ -21,24 +21,10 @@ proxies:
 - down: 100
   name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40721
+  port: 45057
   ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true
   sni: ca1.jueduibupao.top
   type: hysteria2
   up: 100
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 16|CA_speednode_0001
-  port: 40106
-  reality-opts:
-    public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
-    short-id: f44fd3dd
-  server: 132.145.99.18
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
