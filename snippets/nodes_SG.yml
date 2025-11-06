@@ -1,18 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: 14,15|新加坡|@ripaojiedian
+  headerType: none
+  name: 11,14,15|新加坡2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 2283
+  port: 2173
+  security: tls
   server: 117.172.176.23
+  servername: www.nintendogames.net
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14,15|新加坡2|@ripaojiedian
+  name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 2173
+  port: 2283
   server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net

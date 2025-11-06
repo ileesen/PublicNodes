@@ -22,27 +22,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
+- insecure: '0'
+  mport: 20000-50000
   name: 11|🇺🇸 US-1 | StarLink
-  network: ws
-  path: /containers/de
-  port: 2053
-  security: tls
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  skip-cert-verify: false
-  sni: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    path: /containers/de
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  skip-cert-verify: true
+  sni: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  type: hysteria2
 - insecure: '0'
   name: 11|🇺🇸 US-2 | StarLink
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
@@ -55,100 +47,8 @@ proxies:
     insecure: false
     server_name: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-3 | StarLink
-  network: tcp
-  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-  port: 443
-  reality-opts:
-    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 185.77.221.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-4 | StarLink
-  network: tcp
-  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-  port: 443
-  reality-opts:
-    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.56.20.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-5 | StarLink
-  network: tcp
-  pbk: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-  port: 993
-  reality-opts:
-    public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 185.77.221.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇺🇸 US-6 | StarLink
-  network: tcp
-  pbk: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-  port: 993
-  reality-opts:
-    public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 193.56.20.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  host: om1.omidsuccess.uk
-  name: 11|🇩🇪 DE-2 | StarLink
-  network: ws
-  path: /containers/de
-  port: 2053
-  security: tls
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  skip-cert-verify: false
-  sni: om1.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
 - insecure: '0'
-  name: 11|🇺🇸 US-8 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   password: 94931862-1484-11f0-9ab7-f23c95b6f51d
   port: 1743
   server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
@@ -160,24 +60,146 @@ proxies:
     server_name: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
   type: hysteria2
 - encryption: none
-  fp: random
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇺🇸 US-4 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 95.164.45.27
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   headerType: none
-  name: 11|🇺🇸 US-9 | StarLink
+  name: 11|🇺🇸 US-5 | StarLink
   network: tcp
-  pbk: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
-  port: 28901
+  pbk: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+  port: 443
   reality-opts:
-    public-key: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
-    server-name: images.apple.com
-    short-id: '84'
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    server-name: st.ozone.ru
+    short-id: 07e904766d29b958
   security: reality
-  server: 148.135.83.173
-  sid: '84'
-  sni: images.apple.com
-  spx: /
+  server: 77.110.119.225
+  sid: 07e904766d29b958
+  sni: st.ozone.ru
   tls: true
   type: vless
-  uuid: 15135ad9-eb14-4b1c-8ab0-6ca17b6f3301
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+- insecure: '0'
+  mport: 20000-50000
+  name: 11|🇺🇸 US-6 | StarLink
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  skip-cert-verify: true
+  sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  type: hysteria2
+- insecure: '0'
+  mport: 20000-50000
+  name: 11|🇺🇸 US-7 | StarLink
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  skip-cert-verify: true
+  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  type: hysteria2
+- insecure: '0'
+  mport: 20000-50000
+  name: 11|🇺🇸 US-8 | StarLink
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  skip-cert-verify: true
+  sni: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  type: hysteria2
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇺🇸 US-9 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 89.221.224.219
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  fp: safari
+  grpc-opts:
+    grpc-service-name: 8a5f7ad82cd0c35e0f464d72
+  mode: gun
+  name: 11|🇺🇸 US-10 | StarLink
+  network: grpc
+  pbk: qTY8hd7-sXoOqLRAL02QQMsCvdbLBEhPDB4RlGXCyhI
+  port: 443
+  reality-opts:
+    public-key: qTY8hd7-sXoOqLRAL02QQMsCvdbLBEhPDB4RlGXCyhI
+    server-name: www.microsoft.com
+    short-id: e0c4810a6d6c2d94
+  security: reality
+  server: 208.69.79.250
+  serviceName: 8a5f7ad82cd0c35e0f464d72
+  sid: e0c4810a6d6c2d94
+  sni: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 3e854511-e001-4410-bf5d-d5be54343331
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇺🇸 US-11 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 95.164.45.119
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇺🇸 US-12 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 89.221.224.180
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ''
+  name: 11|🇺🇸 US-13 | StarLink
+  network: grpc
+  port: 8880
+  security: none
+  server: 95.164.6.82
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  headerType: none
+  name: 11,14,15|美国|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 4553
+  security: tls
+  server: 117.172.176.23
+  servername: www.nintendogames.net
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - down: 100
   name: 12|🇺🇸 US-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -253,15 +275,6 @@ proxies:
       Host: buyvmus2.6bnw.top
     path: /?ed=2560
   ws-path: /?ed=2560
-- client-fingerprint: chrome
-  name: 14,15|美国|@ripaojiedian
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 4553
-  server: 117.172.176.23
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   name: 14,15|美国2|@ripaojiedian
   network: tcp

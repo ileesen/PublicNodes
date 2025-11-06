@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  headerType: none
+  name: 11,14,15|美国|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 4553
+  security: tls
+  server: 117.172.176.23
+  servername: www.nintendogames.net
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 US-10 | MIX
@@ -47,15 +59,6 @@ proxies:
       Host: buyvmus2.6bnw.top
     path: /?ed=2560
   ws-path: /?ed=2560
-- client-fingerprint: chrome
-  name: 14,15|美国|@ripaojiedian
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 4553
-  server: 117.172.176.23
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   name: 14,15|美国2|@ripaojiedian
   network: tcp

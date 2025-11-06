@@ -16,10 +16,37 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
+- encryption: none
+  fp: chrome
+  headerType: none
+  name: 11|🇩🇪 DE-1 | StarLink
+  network: tcp
+  pbk: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
+  port: 28813
+  reality-opts:
+    public-key: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
+    server-name: yandex.ru
+    short-id: daf1198a669f3b60
+  security: reality
+  server: 93.94.51.9
+  sid: daf1198a669f3b60
+  sni: yandex.ru
+  tls: true
+  type: vless
+  uuid: 3d71e4dd-5e4b-473c-8d1c-28aefa14cdb5
+- encryption: none
+  headerType: none
+  name: 11|🇩🇪 DE-2 | StarLink
+  network: tcp
+  port: 47387
+  security: none
+  server: 198.186.131.216
+  type: vless
+  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46451
+  port: 44214
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true

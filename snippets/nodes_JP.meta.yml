@@ -1,23 +1,4 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇯🇵 JP-1 | StarLink
-  network: tcp
-  pbk: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
-  port: 51623
-  reality-opts:
-    public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
-    server-name: itunes.apple.com
-    short-id: 6ba85179e30d4fc2
-  security: reality
-  server: softbank88.xzcloudnode.sbs
-  sid: 6ba85179e30d4fc2
-  sni: itunes.apple.com
-  tls: true
-  type: vless
-  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
 - down: 100
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -30,7 +11,7 @@ proxies:
 - down: 100
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42885
+  port: 45658
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true

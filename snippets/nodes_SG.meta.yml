@@ -1,8 +1,20 @@
 proxies:
+- client-fingerprint: chrome
+  headerType: none
+  name: 11,14,15|新加坡2|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 2173
+  security: tls
+  server: 117.172.176.23
+  servername: www.nintendogames.net
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - down: 100
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43402
+  port: 48047
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -12,7 +24,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46324
+  port: 49602
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
@@ -24,15 +36,6 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
-  server: 117.172.176.23
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 14,15|新加坡2|@ripaojiedian
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 2173
   server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net

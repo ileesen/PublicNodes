@@ -2,37 +2,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇩🇪 DE-1 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 95.164.45.27
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇫🇷 FR-11 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 94.232.247.208
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇮🇷 IR-1 | StarLink
-  network: grpc
-  port: 8880
-  security: none
-  server: 95.164.45.119
-  type: vless
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ''
-  name: 11|🇫🇷 FR-4 | StarLink
+  name: 11|🇫🇷 FR-1 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -40,94 +10,41 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇫🇷 FR-7 | StarLink
-  network: tcp
-  pbk: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-  port: 443
-  reality-opts:
-    public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 130.49.77.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇫🇷 FR-8 | StarLink
-  network: tcp
-  pbk: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-  port: 993
-  reality-opts:
-    public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 130.49.77.10
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇫🇷 FR-9 | StarLink
-  network: tcp
-  pbk: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-  port: 443
-  reality-opts:
-    public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 155.212.110.2
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇫🇷 FR-10 | StarLink
-  network: tcp
-  pbk: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-  port: 993
-  reality-opts:
-    public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-    server-name: speed.cloudflare.com
-    short-id: ''
-  security: reality
-  server: 155.212.110.2
-  sni: speed.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-12 | StarLink
+  name: 11|🇫🇷 FR-2 | StarLink
   network: grpc
   port: 8880
   security: none
-  server: 185.231.205.233
+  server: 95.164.6.244
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇫🇷 FR-18 | StarLink
+  name: 11|🇫🇷 FR-3 | StarLink
   network: grpc
   port: 8880
   security: none
   server: 185.234.64.12
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇫🇷 FR-4 | StarLink
+  network: tcp
+  pbk: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    server-name: st.ozone.ru
+    short-id: ee6f3e8f44b1f0b6
+  security: reality
+  server: 62.60.148.21
+  sid: ee6f3e8f44b1f0b6
+  sni: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
