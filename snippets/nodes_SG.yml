@@ -1,7 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  headerType: none
-  name: 11,14,15|新加坡2|@ripaojiedian
+- headerType: none
+  name: 11|🇸🇬 SG-1 | StarLink
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2173
@@ -14,8 +13,17 @@ proxies:
 - client-fingerprint: chrome
   name: 14,15|新加坡|@ripaojiedian
   network: tcp
-  password: e4e262d453466988575c397a30562337
+  password: 1b57001bd214304027025a740b6cf1ac
   port: 2283
+  server: 117.172.176.23
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 14,15|新加坡2|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2173
   server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
