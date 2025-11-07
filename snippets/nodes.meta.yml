@@ -654,51 +654,6 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '1'
-  fp: chrome
-  headerType: none
-  name: 11|🇨🇳 CN-2 | StarLink
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  security: tls
-  server: oss-cn-shanghai.letssepub.com
-  servername: dingding-doc.com
-  skip-cert-verify: true
-  sni: dingding-doc.com
-  type: trojan
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 11|🇷🇴 RO-1 | StarLink
-  network: tcp
-  pbk: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
-  port: 443
-  reality-opts:
-    public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
-    server-name: www.orange.ro
-    short-id: bc60d5de
-  security: reality
-  server: ro.otunnel.icu
-  sid: bc60d5de
-  sni: www.orange.ro
-  tls: true
-  type: vless
-  uuid: b41bfc57-24af-42c7-a791-89e7099958c5
-- insecure: '0'
-  mport: 20000-50000
-  name: 11|🇺🇸 US-1 | StarLink
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
-  skip-cert-verify: true
-  sni: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
-  tls:
-    enabled: true
-    insecure: false
-    server_name: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
-  type: hysteria2
-- allowInsecure: '1'
   headerType: none
   name: 11|🇭🇰 HK-1 | StarLink
   network: tcp
@@ -829,7 +784,7 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - insecure: '0'
-  name: 11|🇺🇸 US-2 | StarLink
+  name: 11|🇺🇸 US-1 | StarLink
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
@@ -841,7 +796,7 @@ proxies:
     server_name: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   type: hysteria2
 - insecure: '0'
-  name: 11|🇺🇸 US-3 | StarLink
+  name: 11|🇺🇸 US-2 | StarLink
   password: 94931862-1484-11f0-9ab7-f23c95b6f51d
   port: 1743
   server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
@@ -925,7 +880,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-4 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -983,7 +938,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇺🇸 US-5 | StarLink
+  name: 11|🇺🇸 US-4 | StarLink
   network: tcp
   pbk: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
   port: 443
@@ -1016,7 +971,7 @@ proxies:
   v: '2'
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-6 | StarLink
+  name: 11|🇺🇸 US-5 | StarLink
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 1743
   server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
@@ -1029,7 +984,7 @@ proxies:
   type: hysteria2
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-7 | StarLink
+  name: 11|🇺🇸 US-6 | StarLink
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -1042,7 +997,7 @@ proxies:
   type: hysteria2
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-8 | StarLink
+  name: 11|🇺🇸 US-7 | StarLink
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 1743
   server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
@@ -1075,7 +1030,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-9 | StarLink
+  name: 11|🇺🇸 US-8 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1087,7 +1042,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 8a5f7ad82cd0c35e0f464d72
   mode: gun
-  name: 11|🇺🇸 US-10 | StarLink
+  name: 11|🇺🇸 US-9 | StarLink
   network: grpc
   pbk: qTY8hd7-sXoOqLRAL02QQMsCvdbLBEhPDB4RlGXCyhI
   port: 443
@@ -1106,7 +1061,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-11 | StarLink
+  name: 11|🇺🇸 US-10 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1116,7 +1071,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-12 | StarLink
+  name: 11|🇺🇸 US-11 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1126,7 +1081,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-13 | StarLink
+  name: 11|🇺🇸 US-12 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1157,7 +1112,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - headerType: none
-  name: 11|🇺🇸 US-14 | StarLink
+  name: 11|🇺🇸 US-13 | StarLink
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
@@ -1196,7 +1151,7 @@ proxies:
 - down: 100
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 48867
+  port: 42432
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1206,7 +1161,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41556
+  port: 46358
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1216,7 +1171,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42306
+  port: 41970
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
@@ -1244,7 +1199,7 @@ proxies:
 - down: 100
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45351
+  port: 43394
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -1308,7 +1263,7 @@ proxies:
 - down: 100
   name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45089
+  port: 44751
   ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true
@@ -1318,7 +1273,7 @@ proxies:
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41058
+  port: 49387
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -1347,22 +1302,6 @@ proxies:
   network: ws
   port: 8080
   server: mugen33.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-12 | MIX
-  network: ws
-  port: 8080
-  server: mugen44.6bnw.top
   type: vmess
   udp: true
   uuid: 64333edd-018a-4d81-aca3-709de14ae66d
