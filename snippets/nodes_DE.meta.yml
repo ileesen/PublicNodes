@@ -46,17 +46,20 @@ proxies:
   uuid: 3d71e4dd-5e4b-473c-8d1c-28aefa14cdb5
 - encryption: none
   headerType: none
-  name: 11|🇩🇪 DE-2 | StarLink
+  name: 11,16|US_speednode_0018
   network: tcp
   port: 47387
   security: none
   server: 198.186.131.216
+  skip-cert-verify: false
+  tls: false
   type: vless
+  udp: true
   uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45881
+  port: 44268
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
