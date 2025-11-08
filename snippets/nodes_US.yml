@@ -1,6 +1,6 @@
 proxies:
 - headerType: none
-  name: 11|🇺🇸 US-13 | StarLink
+  name: 11|🇺🇸 US-14 | StarLink
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
@@ -42,12 +42,28 @@ proxies:
       Host: buyvmus2.6bnw.top
     path: /?ed=2560
   ws-path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 US-12 | MIX
+  network: ws
+  port: 8080
+  server: mugen44.6bnw.top
+  type: vmess
+  udp: true
+  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
+  ws-headers:
+    Host: buyvmus2.6bnw.top
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
+  ws-path: /?ed=2560
 - client-fingerprint: chrome
   name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 4553
-  server: 117.172.176.23
+  port: 373
+  server: 117.172.176.22
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -55,8 +71,8 @@ proxies:
   name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 3777
-  server: 160.16.231.103
+  port: 50974
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -64,8 +80,8 @@ proxies:
   name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
+  port: 25891
+  server: 36.151.251.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

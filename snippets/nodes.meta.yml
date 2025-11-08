@@ -654,6 +654,51 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  name: 11|🇨🇳 CN-2 | StarLink
+  network: tcp
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  security: tls
+  server: oss-cn-shanghai.letssepub.com
+  servername: dingding-doc.com
+  skip-cert-verify: true
+  sni: dingding-doc.com
+  type: trojan
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇷🇴 RO-1 | StarLink
+  network: tcp
+  pbk: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
+  port: 443
+  reality-opts:
+    public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
+    server-name: www.orange.ro
+    short-id: bc60d5de
+  security: reality
+  server: ro.otunnel.icu
+  sid: bc60d5de
+  sni: www.orange.ro
+  tls: true
+  type: vless
+  uuid: b41bfc57-24af-42c7-a791-89e7099958c5
+- insecure: '0'
+  mport: 20000-50000
+  name: 11|🇺🇸 US-1 | StarLink
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  skip-cert-verify: true
+  sni: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  tls:
+    enabled: true
+    insecure: false
+    server_name: 47cc555c-t55r40-tdtaxw-au6.la.shifen.uk
+  type: hysteria2
+- allowInsecure: '1'
   headerType: none
   name: 11|🇭🇰 HK-1 | StarLink
   network: tcp
@@ -784,7 +829,7 @@ proxies:
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - insecure: '0'
-  name: 11|🇺🇸 US-1 | StarLink
+  name: 11|🇺🇸 US-2 | StarLink
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
@@ -796,7 +841,7 @@ proxies:
     server_name: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   type: hysteria2
 - insecure: '0'
-  name: 11|🇺🇸 US-2 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   password: 94931862-1484-11f0-9ab7-f23c95b6f51d
   port: 1743
   server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
@@ -880,7 +925,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-3 | StarLink
+  name: 11|🇺🇸 US-4 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -938,7 +983,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇺🇸 US-4 | StarLink
+  name: 11|🇺🇸 US-5 | StarLink
   network: tcp
   pbk: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
   port: 443
@@ -971,7 +1016,7 @@ proxies:
   v: '2'
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-5 | StarLink
+  name: 11|🇺🇸 US-6 | StarLink
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 1743
   server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
@@ -984,7 +1029,7 @@ proxies:
   type: hysteria2
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-6 | StarLink
+  name: 11|🇺🇸 US-7 | StarLink
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -997,7 +1042,7 @@ proxies:
   type: hysteria2
 - insecure: '0'
   mport: 20000-50000
-  name: 11|🇺🇸 US-7 | StarLink
+  name: 11|🇺🇸 US-8 | StarLink
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 1743
   server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
@@ -1030,7 +1075,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-8 | StarLink
+  name: 11|🇺🇸 US-9 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1042,7 +1087,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 8a5f7ad82cd0c35e0f464d72
   mode: gun
-  name: 11|🇺🇸 US-9 | StarLink
+  name: 11|🇺🇸 US-10 | StarLink
   network: grpc
   pbk: qTY8hd7-sXoOqLRAL02QQMsCvdbLBEhPDB4RlGXCyhI
   port: 443
@@ -1061,7 +1106,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-10 | StarLink
+  name: 11|🇺🇸 US-11 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1071,7 +1116,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-11 | StarLink
+  name: 11|🇺🇸 US-12 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1081,7 +1126,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: ''
-  name: 11|🇺🇸 US-12 | StarLink
+  name: 11|🇺🇸 US-13 | StarLink
   network: grpc
   port: 8880
   security: none
@@ -1112,7 +1157,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - headerType: none
-  name: 11|🇺🇸 US-13 | StarLink
+  name: 11|🇺🇸 US-14 | StarLink
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
@@ -1127,14 +1172,13 @@ proxies:
   alterId: 0
   cipher: auto
   id: de32752c-0661-467e-82d3-35bc740a787f
-  name: 11,15|香港6|@ripaojiedian
+  name: 11|🇭🇰 HK-3 | StarLink
   net: tcp
   network: tcp
-  port: '11819'
+  port: 11819
   ps: ⚡香港
   scy: auto
   server: 36.133.73.36
-  servername: ''
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
@@ -1151,7 +1195,7 @@ proxies:
 - down: 100
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42432
+  port: 47653
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1161,7 +1205,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46358
+  port: 42486
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1171,7 +1215,7 @@ proxies:
 - down: 100
   name: 12|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41970
+  port: 49135
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
@@ -1199,7 +1243,7 @@ proxies:
 - down: 100
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43394
+  port: 47611
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -1263,7 +1307,7 @@ proxies:
 - down: 100
   name: 12|🇨🇦 CA-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44751
+  port: 40471
   ports: 40000-50000
   server: ca1.jueduibupao.top
   skip-cert-verify: true
@@ -1273,7 +1317,7 @@ proxies:
 - down: 100
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 49387
+  port: 48111
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -1302,6 +1346,22 @@ proxies:
   network: ws
   port: 8080
   server: mugen33.6bnw.top
+  type: vmess
+  udp: true
+  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
+  ws-headers:
+    Host: buyvmus2.6bnw.top
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
+  ws-path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 US-12 | MIX
+  network: ws
+  port: 8080
+  server: mugen44.6bnw.top
   type: vmess
   udp: true
   uuid: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -1361,8 +1421,8 @@ proxies:
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1655
-  server: 36.150.215.231
+  port: 443
+  server: 58.152.30.26
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1370,23 +1430,21 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 203.198.122.129
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 14,15|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4492
+  server: 36.150.215.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: 14|🇭🇰 香港6|@ripaojiedian
-  port: 11819
-  server: 36.133.73.36
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-- alterId: 0
-  cipher: auto
-  name: 14|🇭🇰 香港7|@ripaojiedian
   port: 49509
   server: 36.150.27.76
   skip-cert-verify: false
@@ -1394,19 +1452,11 @@ proxies:
   tls: false
   type: vmess
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- name: 14,15|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4041
-  server: 36.150.215.245
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 4452
-  server: 117.172.176.23
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1414,25 +1464,15 @@ proxies:
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1332
-  server: 117.172.176.23
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|🇰🇷 韩国|@ripaojiedian
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 2283
-  server: 117.172.176.23
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1440,55 +1480,52 @@ proxies:
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 2173
-  server: 117.172.176.23
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9713
-  server: 36.150.215.137
+  port: 2753
+  server: 36.150.215.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 4553
-  server: 117.172.176.23
+  port: 373
+  server: 117.172.176.22
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 3777
-  server: 160.16.231.103
+  port: 50974
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
+  port: 25891
+  server: 36.151.251.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   name: 14|🇻🇳 越南|@ripaojiedian
-  port: 23806
-  server: 103.197.185.149
-  skip-cert-verify: false
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.193
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 15|香港7|@ripaojiedian
+  name: 15|香港6|@ripaojiedian
   network: tcp
   port: '49509'
   server: 36.150.27.76
@@ -1496,23 +1533,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- alterId: 0
-  cipher: auto
-  name: 15|韩国|@ripaojiedian
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- alterId: 0
-  cipher: auto
-  name: 15|越南|@ripaojiedian
-  network: tcp
-  port: '23806'
-  server: 103.197.185.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
