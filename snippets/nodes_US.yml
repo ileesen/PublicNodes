@@ -1,6 +1,6 @@
 proxies:
 - headerType: none
-  name: 11|🇺🇸 US-14 | StarLink
+  name: 10|🇺🇸 US-14 | StarLink
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
@@ -12,7 +12,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 US-10 | MIX
+  name: 11|🇺🇸 US-10 | MIX
   network: ws
   port: 8080
   server: best.cdn.sqeven.cn
@@ -28,7 +28,7 @@ proxies:
   ws-path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 US-11 | MIX
+  name: 11|🇺🇸 US-11 | MIX
   network: ws
   port: 8080
   server: mugen33.6bnw.top
@@ -44,7 +44,7 @@ proxies:
   ws-path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 US-12 | MIX
+  name: 11|🇺🇸 US-12 | MIX
   network: ws
   port: 8080
   server: mugen44.6bnw.top
@@ -58,35 +58,31 @@ proxies:
       Host: buyvmus2.6bnw.top
     path: /?ed=2560
   ws-path: /?ed=2560
-- client-fingerprint: chrome
-  name: 14,15|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 5097
-  server: 153.121.44.99
+  port: 674
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 14,15|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 4173
-  server: 117.172.176.22
+  port: 674
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 14,15,16|CN_speednode_0012
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: 16|US_speednode_0028
+- name: 15|US_speednode_0028
   password: telegram-id-directvpn
   port: 22223
   server: 51.45.27.162
