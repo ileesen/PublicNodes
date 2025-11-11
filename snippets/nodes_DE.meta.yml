@@ -1,12 +1,12 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   :  '
+- name: '9|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 - DE - @freeOnlineVPN
+- name: 9|🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -16,7 +16,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '9|🇳🇱 - NL - @freeOnlineVPN #7'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -26,37 +26,85 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 11|🇩🇪 DE-1 | StarLink
-  network: tcp
-  pbk: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
-  port: 28813
-  reality-opts:
-    public-key: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
-    server-name: yandex.ru
-    short-id: daf1198a669f3b60
-  security: reality
-  server: 93.94.51.9
-  sid: daf1198a669f3b60
-  sni: yandex.ru
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-1 | StarLink
+  network: ws
+  port: 8443
+  server: 162.19.252.123
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: 3d71e4dd-5e4b-473c-8d1c-28aefa14cdb5
-- encryption: none
-  headerType: none
-  name: 11|🇩🇪 DE-2 | StarLink
-  network: tcp
-  port: 47387
-  security: none
-  server: 198.186.131.216
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-2 | StarLink
+  network: ws
+  port: 2053
+  server: 194.59.204.115
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vless
-  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-3 | StarLink
+  network: ws
+  port: 1111
+  server: 164.90.241.32
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-4 | StarLink
+  network: ws
+  port: 443
+  server: 92.119.90.51
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-5 | StarLink
+  network: ws
+  port: 2053
+  server: 135.125.234.160
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
 - down: 300
-  name: 12|🇩🇪 DE-1 | MIX
+  name: 11|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46859
+  port: 47784
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -65,7 +113,7 @@ proxies:
   up: 300
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|DE_speednode_0013
+  name: 15|DE_speednode_0013
   port: 39352
   reality-opts:
     public-key: bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns
@@ -79,7 +127,7 @@ proxies:
   uuid: 84ac6559-30a8-4c3e-bbcb-894edd4de743
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|DE_speednode_0014
+  name: 15|DE_speednode_0014
   port: 49406
   reality-opts:
     public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20

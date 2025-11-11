@@ -1,18 +1,20 @@
 proxies:
-- allowInsecure: '1'
-  fp: chrome
-  headerType: none
-  name: 11|🇨🇳 CN-2 | StarLink
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  security: tls
-  server: oss-cn-shanghai.letssepub.com
-  servername: dingding-doc.com
+- client-fingerprint: random
+  name: 10|🇨🇳 CN-1 | StarLink
+  network: ws
+  port: 2087
+  server: saas.sin.fan
+  servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
-  sni: dingding-doc.com
-  type: trojan
-- name: 16|CN_speednode_0009
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- name: 15|CN_speednode_0009
   password: BxceQaOe
   port: 38799
   server: 36.151.251.38
@@ -20,7 +22,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 16|CN_speednode_0010
+- name: 15|CN_speednode_0010
   password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
   port: 27235
   server: 20ba856c-t5gv40-te0r6o-1r7vv.cm5.oshuawei.com
@@ -28,7 +30,7 @@ proxies:
   type: http
   udp: true
   username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-- name: 16|CN_speednode_0011
+- name: 15|CN_speednode_0011
   password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
   port: 32233
   server: a9964e2f-t5gv40-te0r6o-1r7vv.id.oshuawei.com
@@ -36,7 +38,7 @@ proxies:
   type: http
   udp: true
   username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-- name: 16|CN_speednode_0012
+- name: 15|CN_speednode_0012
   password: BxceQaOe
   port: 38799
   server: 36.151.251.38
