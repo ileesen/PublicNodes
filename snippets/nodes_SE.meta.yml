@@ -19,3 +19,18 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  name: 11|🇸🇪 SE-1 | StarLink
+  network: ws
+  port: 443
+  server: 185.250.181.72
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560

@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: random
+  name: 11|🇭🇰 HK-1 | StarLink
+  network: ws
+  port: 39738
+  server: 47.76.71.237
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
 - down: 300
   name: 12|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -11,7 +26,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42510
+  port: 46367
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
