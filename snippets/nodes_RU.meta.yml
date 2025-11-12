@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-1 | StarLink
+  network: ws
+  port: 2053
+  server: 80.90.187.73
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0008
+  port: 10012
+  reality-opts:
+    public-key: X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk
+    short-id: abc82912
+  server: cdn.cloudconvert.top
+  servername: cdn.cloudconvert.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
+- name: 15|RU_speednode_0009
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053

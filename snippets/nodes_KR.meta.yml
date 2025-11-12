@@ -1,6 +1,21 @@
 proxies:
+- client-fingerprint: random
+  name: 10|🇰🇷 KR-1 | StarLink
+  network: ws
+  port: 20583
+  server: 175.208.202.41
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
 - down: 100
-  name: 12|🇰🇷 KR-1 | MIX
+  name: 11|🇰🇷 KR-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 10100
   server: 6bkr1.6bnw.top
@@ -9,7 +24,7 @@ proxies:
   type: hysteria2
   up: 100
 - down: 300
-  name: 12|🇰🇷 KR-2 | MIX
+  name: 11|🇰🇷 KR-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 30000
   server: kr2.jueduibupao.top
@@ -17,3 +32,12 @@ proxies:
   sni: kr2.jueduibupao.top
   type: hysteria2
   up: 200
+- name: 15|KR_speednode_0005
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
