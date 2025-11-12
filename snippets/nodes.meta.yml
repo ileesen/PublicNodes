@@ -837,8 +837,38 @@ proxies:
 - client-fingerprint: random
   name: 11|🇭🇰 HK-1 | StarLink
   network: ws
+  port: 39738
+  server: 47.243.60.131
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-1 | StarLink
+  network: ws
+  port: 9002
+  server: 132.145.81.119
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇸🇬 SG-2 | StarLink
+  network: ws
   port: 443
-  server: 47.239.8.172
+  server: 47.236.78.132
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -852,8 +882,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-8 | StarLink
   network: ws
-  port: 2096
-  server: 154.92.9.4
+  port: 8443
+  server: 156.238.19.191
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -868,7 +898,7 @@ proxies:
   name: 11|🇺🇸 US-9 | StarLink
   network: ws
   port: 8443
-  server: 142.171.18.112
+  server: 45.202.113.162
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -882,8 +912,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-10 | StarLink
   network: ws
-  port: 2096
-  server: 156.238.19.242
+  port: 443
+  server: 47.254.15.111
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -898,7 +928,22 @@ proxies:
   name: 11|🇺🇸 US-11 | StarLink
   network: ws
   port: 2083
-  server: 45.202.113.131
+  server: 45.202.113.255
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-12 | StarLink
+  network: ws
+  port: 2053
+  server: 94.183.184.239
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -912,8 +957,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇩🇪 DE-1 | StarLink
   network: ws
-  port: 443
-  server: 92.118.231.190
+  port: 20205
+  server: 139.162.155.147
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -927,53 +972,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇩🇪 DE-2 | StarLink
   network: ws
-  port: 20205
-  server: 172.104.144.88
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇩🇪 DE-3 | StarLink
-  network: ws
   port: 443
-  server: 157.90.123.229
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇪🇸 ES-1 | StarLink
-  network: ws
-  port: 81
-  server: 185.231.204.173
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇬🇧 GB-1 | StarLink
-  network: ws
-  port: 2053
-  server: 141.94.63.242
+  server: 91.107.136.146
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -988,7 +988,7 @@ proxies:
   name: 11|🇹🇬 TG-2 | StarLink
   network: ws
   port: 443
-  server: 195.96.156.240
+  server: 142.93.69.253
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1000,10 +1000,10 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 11|🇹🇬 TG-3 | StarLink
+  name: 11|🇫🇷 FR-1 | StarLink
   network: ws
-  port: 443
-  server: 151.241.229.124
+  port: 8443
+  server: 141.94.206.137
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1015,10 +1015,10 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 11|🇮🇹 IT-1 | StarLink
+  name: 11|🇬🇧 GB-1 | StarLink
   network: ws
   port: 443
-  server: 38.180.84.46
+  server: 213.165.88.177
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1032,8 +1032,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇳🇱 NL-1 | StarLink
   network: ws
-  port: 443
-  server: 91.84.112.36
+  port: 2053
+  server: 212.118.52.122
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1047,8 +1047,53 @@ proxies:
 - client-fingerprint: random
   name: 11|🇳🇱 NL-2 | StarLink
   network: ws
+  port: 8443
+  server: 185.245.107.97
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇳🇱 NL-3 | StarLink
+  network: ws
   port: 443
-  server: 45.159.188.249
+  server: 185.21.13.53
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇳🇱 NL-4 | StarLink
+  network: ws
+  port: 443
+  server: 212.34.134.37
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇵🇱 PL-1 | StarLink
+  network: ws
+  port: 2053
+  server: 45.144.48.55
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1063,37 +1108,7 @@ proxies:
   name: 11|🇷🇺 RU-1 | StarLink
   network: ws
   port: 443
-  server: 147.45.154.8
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇷🇺 RU-2 | StarLink
-  network: ws
-  port: 443
-  server: 5.129.245.161
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇷🇺 RU-3 | StarLink
-  network: ws
-  port: 8443
-  server: 51.250.15.177
+  server: 5.129.211.206
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1107,23 +1122,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇸🇪 SE-1 | StarLink
   network: ws
-  port: 443
-  server: 45.15.127.48
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇸🇪 SE-2 | StarLink
-  network: ws
-  port: 39738
-  server: 13.60.225.39
+  port: 51820
+  server: 185.128.106.14
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -1146,7 +1146,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40764
+  port: 44471
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1156,7 +1156,7 @@ proxies:
 - down: 300
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44357
+  port: 45812
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1166,7 +1166,7 @@ proxies:
 - down: 300
   name: 12|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42848
+  port: 40125
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
@@ -1185,7 +1185,7 @@ proxies:
 - down: 200
   name: 12|🇹🇼 TW-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44459
+  port: 42087
   ports: 40000-50000
   server: tw3.jueduibupao.top
   skip-cert-verify: true
@@ -1204,7 +1204,7 @@ proxies:
 - down: 300
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46548
+  port: 41009
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -1268,7 +1268,7 @@ proxies:
 - down: 300
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41510
+  port: 49769
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
