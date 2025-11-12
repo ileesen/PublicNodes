@@ -107,8 +107,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-8 | StarLink
   network: ws
-  port: 443
-  server: 154.218.15.30
+  port: 8443
+  server: 154.218.15.220
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -122,8 +122,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-9 | StarLink
   network: ws
-  port: 20205
-  server: 173.230.146.230
+  port: 2083
+  server: 45.202.113.131
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -137,8 +137,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-10 | StarLink
   network: ws
-  port: 2087
-  server: 45.202.113.102
+  port: 8443
+  server: 156.238.18.233
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -152,8 +152,68 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-11 | StarLink
   network: ws
-  port: 20205
-  server: 74.207.242.149
+  port: 2053
+  server: 95.164.89.124
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-12 | StarLink
+  network: ws
+  port: 2096
+  server: 156.238.19.243
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-13 | StarLink
+  network: ws
+  port: 443
+  server: 52.41.218.4
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-14 | StarLink
+  network: ws
+  port: 16478
+  server: 172.83.159.4
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-15 | StarLink
+  network: ws
+  port: 8443
+  server: 45.202.113.242
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
