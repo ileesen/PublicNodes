@@ -1,5 +1,5 @@
 proxies:
-- name: '10|🇸🇪 - SE - @freeOnlineVPN #1'
+- name: '8|🇸🇪 - SE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -9,7 +9,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: '10|All--@V2rayAlpha--5 #1'
+- name: '8|🇸🇪 - SE - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -20,10 +20,25 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
-  name: 11|🇸🇪 SE-1 | StarLink
+  name: 9|🇸🇪 SE-1 | StarLink
   network: ws
   port: 443
-  server: 185.250.181.72
+  server: 45.15.127.48
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|🇸🇪 SE-2 | StarLink
+  network: ws
+  port: 39738
+  server: 13.60.225.39
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇸🇬 SG-1 | StarLink
+  name: 9|🇸🇬 SG-1 | StarLink
   network: ws
   port: 2096
   server: cfsaas.080112.xyz
@@ -15,9 +15,9 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - down: 300
-  name: 12|🇸🇬 SG-1 | MIX
+  name: 10|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45659
+  port: 48720
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -25,36 +25,36 @@ proxies:
   type: hysteria2
   up: 300
 - down: 300
-  name: 12|🇸🇬 SG-2 | MIX
+  name: 10|🇸🇬 SG-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 41411
+  port: 46451
   ports: 40000-50000
   server: linsg2.jueduibupao.top
   skip-cert-verify: true
   sni: linsg2.jueduibupao.top
   type: hysteria2
   up: 300
-- name: 14,15|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 2283
-  server: 160.16.138.24
+  port: 2760
+  server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 2173
-  server: 160.16.138.24
+  port: 127
+  server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4666
-  server: 36.150.215.147
+  port: 518
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

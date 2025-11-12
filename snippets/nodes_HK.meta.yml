@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇭🇰 HK-1 | StarLink
+  name: 9|🇭🇰 HK-1 | StarLink
   network: ws
-  port: 39738
-  server: 47.76.71.237
+  port: 443
+  server: 47.239.8.172
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -15,7 +15,7 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - down: 300
-  name: 12|🇭🇰 HK-1 | MIX
+  name: 10|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 50001
   server: hk1.jueduibupao.top
@@ -24,9 +24,9 @@ proxies:
   type: hysteria2
   up: 100
 - down: 300
-  name: 12|🇭🇰 HK-2 | MIX
+  name: 10|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46367
+  port: 43734
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -35,7 +35,7 @@ proxies:
   up: 100
 - alterId: 2
   cipher: auto
-  name: 14,15|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -49,7 +49,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -62,15 +62,15 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 14,15|香港3|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 3841
-  server: 221.128.195.13
+  port: 443
+  server: 219.76.135.188
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -78,15 +78,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.53.186
+  server: 219.77.239.35
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 16|HK_speednode_0023
+- name: 14|HK_speednode_0023
   password: BxceQaOe
   port: 443
   server: 203.198.122.129

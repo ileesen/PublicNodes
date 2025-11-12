@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇷🇺 RU-1 | StarLink
+  name: 9|🇷🇺 RU-1 | StarLink
   network: ws
   port: 443
-  server: 5.129.246.157
+  server: 147.45.154.8
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -15,10 +15,25 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 11|🇷🇺 RU-2 | StarLink
+  name: 9|🇷🇺 RU-2 | StarLink
   network: ws
   port: 443
-  server: 5.129.202.204
+  server: 5.129.245.161
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 9|🇷🇺 RU-3 | StarLink
+  network: ws
+  port: 8443
+  server: 51.250.15.177
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
