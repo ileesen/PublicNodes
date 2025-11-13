@@ -1,6 +1,21 @@
 proxies:
+- client-fingerprint: random
+  name: 10|🇭🇰 HK-1 | StarLink
+  network: ws
+  port: 39738
+  server: 8.210.51.253
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
 - down: 300
-  name: 12|🇭🇰 HK-1 | MIX
+  name: 11|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 50001
   server: hk1.jueduibupao.top
@@ -9,9 +24,9 @@ proxies:
   type: hysteria2
   up: 100
 - down: 300
-  name: 12|🇭🇰 HK-2 | MIX
+  name: 11|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 47732
+  port: 45411
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -20,7 +35,7 @@ proxies:
   up: 100
 - alterId: 2
   cipher: auto
-  name: 14,15|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -34,7 +49,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -47,7 +62,7 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
@@ -55,7 +70,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -63,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -71,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港6|@ripaojiedian
+- name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 50a99183-2543-40bd-98a2-12bbc6ecf882
   port: 49213
@@ -80,7 +95,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf
-  name: 14|🇭🇰 香港7|@ripaojiedian
+  name: 13|🇭🇰 香港7|@ripaojiedian
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -89,7 +104,7 @@ proxies:
   port: 2000
   server: oshk02.mynode.me
   type: ss
-- name: 16|HK_speednode_0004
+- name: 15|HK_speednode_0004
   password: BxceQaOe
   port: 4569
   server: 116.49.237.130
