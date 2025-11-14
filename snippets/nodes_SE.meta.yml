@@ -23,7 +23,22 @@ proxies:
   name: 11|🇸🇪 SE-1 | StarLink
   network: ws
   port: 443
-  server: 5.144.179.234
+  server: 62.182.193.162
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇸🇪 SE-2 | StarLink
+  network: ws
+  port: 443
+  server: 185.22.173.79
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
