@@ -1,24 +1,9 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇫🇷 FR-1 | StarLink
-  network: ws
-  port: 8443
-  server: 141.94.205.201
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇫🇷 FR-2 | StarLink
+  name: 10|🇫🇷 FR-1 | StarLink
   network: ws
   port: 2053
-  server: 141.94.204.167
+  server: 141.94.220.64
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -29,17 +14,11 @@ proxies:
     headers:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 16|FR_speednode_0014
-  port: 33009
-  reality-opts:
-    public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
-    short-id: c0d304da0c4dcadc
-  server: 195.154.42.111
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 15|FR_speednode_0007
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.161.224
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  uuid: 77a33d77-7af9-4c33-9556-d6711becca04

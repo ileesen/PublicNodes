@@ -1,6 +1,6 @@
 proxies:
 - down: 300
-  name: 12|🇭🇰 HK-1 | MIX
+  name: 11|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 50001
   server: hk1.jueduibupao.top
@@ -9,9 +9,9 @@ proxies:
   type: hysteria2
   up: 100
 - down: 300
-  name: 12|🇭🇰 HK-2 | MIX
+  name: 11|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 48017
+  port: 48639
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -20,7 +20,7 @@ proxies:
   up: 100
 - alterId: 2
   cipher: auto
-  name: 14,15|香港|@ripaojiedian
+  name: 13,14|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -34,7 +34,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 14|🇭🇰 香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -47,7 +47,7 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
@@ -55,7 +55,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -63,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -72,16 +72,8 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf
-  name: 14|🇭🇰 香港6|@ripaojiedian
+  name: 13|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
   server: 103.149.183.80
   type: ss
-- name: 16|HK_speednode_0019
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.97
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true

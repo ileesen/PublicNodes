@@ -1,12 +1,12 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   :  '
+- name: '9|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #1'
+- name: '9|🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,10 +17,55 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
-  name: 11|🇩🇪 DE-1 | StarLink
+  name: 10|🇩🇪 DE-1 | StarLink
   network: ws
   port: 20205
-  server: 192.46.234.80
+  server: 139.162.135.146
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-2 | StarLink
+  network: ws
+  port: 8443
+  server: 85.209.195.61
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-3 | StarLink
+  network: ws
+  port: 20205
+  server: 172.105.249.107
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-4 | StarLink
+  network: ws
+  port: 8443
+  server: 57.129.63.143
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -32,20 +77,38 @@ proxies:
       Host: snippet.danfeng.netlib.re
     path: /?ed=2560
 - down: 300
-  name: 12|🇩🇪 DE-1 | MIX
+  name: 11|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 49772
+  port: 46587
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
   sni: de1.jueduibupao.top
   type: hysteria2
   up: 300
-- name: 16|DE_speednode_0010
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.178.207.130
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- client-fingerprint: firefox
+  name: 15|DE_speednode_0002
+  port: 9107
+  reality-opts:
+    public-key: Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI
+    short-id: e8ef8df79e4a6343
+  server: 195.254.165.152
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 774727ed-1e56-41bd-b55f-28549e21bcc8
+- client-fingerprint: chrome
+  name: 15|DE_speednode_0004
+  port: 29973
+  reality-opts:
+    public-key: QqNYhBZPJmHBGFF_4WsxNPcH8xve-4gma9--drcflHQ
+    short-id: cd6229f31e7180e6
+  server: 185.161.251.24
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1493ccd-d1a4-4087-9041-1b3500224003
