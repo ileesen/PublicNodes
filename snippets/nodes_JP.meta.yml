@@ -1,21 +1,6 @@
 proxies:
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-1 | StarLink
-  network: ws
-  port: 443
-  server: 207.148.99.230
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
 - down: 300
-  name: 11|🇯🇵 JP-1 | MIX
+  name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
   port: 30000
   server: linjp2.jueduibupao.top
@@ -24,61 +9,52 @@ proxies:
   type: hysteria2
   up: 100
 - down: 300
-  name: 11|🇯🇵 JP-2 | MIX
+  name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40639
+  port: 45749
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
   sni: linjp1.jueduibupao.top
   type: hysteria2
   up: 100
-- name: 13,14|日本|@ripaojiedian
+- name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4011
-  server: 36.150.215.246
+  port: 1924
+  server: 160.16.227.93
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
-  server: 160.16.132.158
+  server: 160.16.57.238
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
-  server: 160.16.196.59
+  server: 202.181.103.235
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  port: 47083
-  server: 114.98.183.61
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
-- alterId: 0
-  cipher: auto
-  name: 14|日本4|@ripaojiedian
-  network: tcp
-  port: '47083'
-  server: 114.98.183.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e221b75:110505
+    mode: tls
+  port: 2377
+  server: 172.105.217.136
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|JP_speednode_0032
+  name: 16|JP_speednode_0032
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
