@@ -1,52 +1,7 @@
 proxies:
-- client-fingerprint: random
-  name: 10|🇷🇺 RU-1 | StarLink
-  network: ws
-  port: 8443
-  server: 80.90.187.190
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 10|🇷🇺 RU-2 | StarLink
-  network: ws
-  port: 443
-  server: 195.80.51.114
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 10|🇷🇺 RU-3 | StarLink
-  network: ws
-  port: 2053
-  server: 87.228.25.176
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0015
+  name: 16|RU_speednode_0015
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
@@ -58,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: 15|RU_speednode_0016
+- name: 16|RU_speednode_0016
   network: ws
   password: -4146XJHYAzJ4K8Ov6_LBQ
   port: 11000
@@ -73,7 +28,7 @@ proxies:
     path: /tw
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0017
+  name: 16|RU_speednode_0017
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
