@@ -1,184 +1,34 @@
 proxies:
-- client-fingerprint: random
-  name: 11|🇺🇸 US-1 | StarLink
-  network: ws
-  port: 443
-  server: cf-cname.xingpingcn.top
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-2 | StarLink
-  network: ws
-  port: 2096
-  server: mfa.gov.ua
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-3 | StarLink
-  network: ws
-  port: 2083
-  server: store.ubi.com
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
+- mport: 35000-39000
   name: 11|🇺🇸 US-4 | StarLink
-  network: ws
-  port: 2096
-  server: www.shopify.com
-  servername: snippet.danfeng.netlib.re
+  password: 8175089f-9436-47dc-ab65-a525a529bced
+  port: 35000
+  ports: 35000-39000
+  server: 208.87.242.97
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-5 | StarLink
-  network: ws
-  port: 2083
-  server: staticdelivery.nexusmods.com
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
   name: 11|🇺🇸 US-6 | StarLink
-  network: ws
-  port: 2053
-  server: cloudflare-dl.byoip.top
-  servername: snippet.danfeng.netlib.re
+  password: 8175089f-9436-47dc-ab65-a525a529bced
+  port: 35000
+  ports: 35000-39000
+  server: 134.195.101.191
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- mport: 35000-39000
   name: 11|🇺🇸 US-7 | StarLink
-  network: ws
-  port: 2087
-  server: cloudflare-dl.cnae.top
-  servername: snippet.danfeng.netlib.re
+  password: 8175089f-9436-47dc-ab65-a525a529bced
+  port: 35000
+  ports: 35000-39000
+  server: 129.153.25.59
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-8 | StarLink
-  network: ws
-  port: 80
-  server: 67.226.221.102
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-9 | StarLink
-  network: ws
-  port: 2087
-  server: 45.202.113.241
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-10 | StarLink
-  network: ws
-  port: 39738
-  server: 38.244.5.167
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-11 | StarLink
-  network: ws
-  port: 2083
-  server: 156.238.19.84
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-12 | StarLink
-  network: ws
-  port: 8443
-  server: 156.238.19.124
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
+  sni: www.lamer.com.hk
+  type: hysteria2
+  udp: true
 - down: 300
   name: 12|🇺🇸 US-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d

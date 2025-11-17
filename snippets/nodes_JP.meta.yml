@@ -1,4 +1,28 @@
 proxies:
+- mport: 35000-39000
+  name: 11|🇯🇵 JP-2 | StarLink
+  password: 8175089f-9436-47dc-ab65-a525a529bced
+  port: 35000
+  ports: 35000-39000
+  server: 46.232.56.134
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-6 | StarLink
+  port: 443
+  reality-opts:
+    public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
+    short-id: bb9ab0d5242d53e9
+  server: kb.vmjp.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8175089f-9436-47dc-ab65-a525a529bced
 - down: 300
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -11,7 +35,7 @@ proxies:
 - down: 300
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46550
+  port: 40002
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true

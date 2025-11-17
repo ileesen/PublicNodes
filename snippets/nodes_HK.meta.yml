@@ -1,4 +1,14 @@
 proxies:
+- mport: 35000-39000
+  name: 11|🇭🇰 HK-2 | StarLink
+  password: 8175089f-9436-47dc-ab65-a525a529bced
+  port: 35000
+  ports: 35000-39000
+  server: 103.197.71.118
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: hysteria2
+  udp: true
 - down: 300
   name: 12|🇭🇰 HK-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
@@ -11,7 +21,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42297
+  port: 49704
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -55,7 +65,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15,16|HK_speednode_0003
+- name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -63,7 +73,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe

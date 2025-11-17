@@ -1,29 +1,15 @@
 proxies:
-- client-fingerprint: random
-  name: 11|🇷🇺 RU-1 | StarLink
+- name: 16|RU_speednode_0013
   network: ws
-  port: 2053
-  server: 85.193.90.131
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  tfo: false
+  port: 1443
+  server: 81.161.98.228
+  servername: cdn.filterai.ru
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- name: 16|RU_speednode_0005
-  network: ws
-  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-  port: 2053
-  server: 95.182.120.208
-  skip-cert-verify: false
-  sni: joss.gpj.web.id
-  type: trojan
   udp: true
+  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
   ws-opts:
     headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+      Host: cdn.filterai.ru
+    path: /websocketpl
