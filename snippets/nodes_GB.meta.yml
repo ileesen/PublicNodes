@@ -1,5 +1,14 @@
 proxies:
-- name: 10|🇬🇧 - GB - @freeOnlineVPN
+- name: '10|🇧 - GB - @freeOnlineVPN #1'
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|🇬🇧 - GB - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -13,7 +22,7 @@ proxies:
   name: 11|🇬🇧 GB-1 | StarLink
   network: ws
   port: 443
-  server: 192.0.54.165
+  server: 57.129.137.237
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
@@ -28,7 +37,37 @@ proxies:
   name: 11|🇬🇧 GB-2 | StarLink
   network: ws
   port: 443
-  server: 37.0.6.26
+  server: 192.0.54.5
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇬🇧 GB-3 | StarLink
+  network: ws
+  port: 443
+  server: 37.0.6.111
+  servername: snippet.danfeng.netlib.re
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 11|🇬🇧 GB-4 | StarLink
+  network: ws
+  port: 443
+  server: 192.0.54.60
   servername: snippet.danfeng.netlib.re
   skip-cert-verify: true
   tfo: false
