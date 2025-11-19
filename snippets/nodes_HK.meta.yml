@@ -21,7 +21,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46979
+  port: 46555
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -65,7 +65,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 14,15,16|HK_speednode_0012
   network: tcp
   password: BxceQaOe
   port: 443
@@ -73,6 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -87,3 +88,11 @@ proxies:
   port: 8388
   server: 103.149.183.191
   type: ss
+- name: 16|HK_speednode_0013
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
