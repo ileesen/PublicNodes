@@ -21,7 +21,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40808
+  port: 41579
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -73,27 +73,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 14,15,16|HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 16|HK_speednode_0012
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 16|HK_speednode_0013
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
   type: trojan
   udp: true

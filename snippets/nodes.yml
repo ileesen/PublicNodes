@@ -1,52 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-10 | MIX
-  network: ws
-  port: 8080
-  server: best.cdn.sqeven.cn
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: best.cdn.sqeven.cn
-  ws-opts:
-    headers:
-      Host: best.cdn.sqeven.cn
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-11 | MIX
-  network: ws
-  port: 8080
-  server: mugen33.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-12 | MIX
-  network: ws
-  port: 8080
-  server: mugen44.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
 - cipher: aes-256-cfb
   name: 14|tg频道:@ripaojiedian
   password: amazonskr05
@@ -98,7 +50,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 14,15,16|HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 443
@@ -106,6 +58,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -190,19 +143,94 @@ proxies:
   port: 23344
   server: 103.219.103.217
   type: ss
-- name: 16|HK_speednode_0012
-  password: BxceQaOe
+- name: 16|EE_speednode_0007
+  network: ws
+  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
   port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 37.252.5.75
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
   type: trojan
   udp: true
-- name: 16|HK_speednode_0013
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+- name: 16|ES_speednode_0008
+  network: ws
+  password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
+  port: 8443
+  server: 212.227.144.37
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
+- name: 16|FR_speednode_0011
+  network: ws
+  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+  port: 443
+  server: 51.15.210.1
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
+- name: 16|IL_speednode_0014
+  network: ws
+  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
+  port: 443
+  server: 77.91.74.6
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
+- name: 16|NL_speednode_0021
+  network: ws
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+- name: 16|PL_speednode_0022
+  network: ws
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  port: 8443
+  server: 217.30.10.31
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+- name: 16|PT_speednode_0023
+  network: ws
+  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+  port: 81
+  server: 45.159.251.8
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
