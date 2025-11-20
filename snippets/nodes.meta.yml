@@ -1285,7 +1285,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42828
+  port: 42048
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1295,7 +1295,7 @@ proxies:
 - down: 300
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42867
+  port: 42395
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1314,7 +1314,7 @@ proxies:
 - down: 200
   name: 12|🇹🇼 TW-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45405
+  port: 46502
   ports: 40000-50000
   server: tw3.jueduibupao.top
   skip-cert-verify: true
@@ -1324,20 +1324,20 @@ proxies:
 - down: 300
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 30000
-  server: linjp2.jueduibupao.top
+  port: 44653
+  ports: 40000-50000
+  server: linjp1.jueduibupao.top
   skip-cert-verify: true
-  sni: linjp2.jueduibupao.top
+  sni: linjp1.jueduibupao.top
   type: hysteria2
   up: 100
 - down: 300
   name: 12|🇯🇵 JP-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43624
-  ports: 40000-50000
-  server: linjp1.jueduibupao.top
+  port: 30000
+  server: linjp2.jueduibupao.top
   skip-cert-verify: true
-  sni: linjp1.jueduibupao.top
+  sni: linjp2.jueduibupao.top
   type: hysteria2
   up: 100
 - down: 100
@@ -1397,7 +1397,7 @@ proxies:
 - down: 300
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 48370
+  port: 44674
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -1407,7 +1407,7 @@ proxies:
 - down: 300
   name: 12|🇬🇧 GB-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43744
+  port: 40503
   ports: 40000-50000
   server: uk1.jueduibupao.top
   skip-cert-verify: true
