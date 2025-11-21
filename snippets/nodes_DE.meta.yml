@@ -203,7 +203,7 @@ proxies:
 - down: 300
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 47204
+  port: 46144
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -216,3 +216,11 @@ proxies:
   port: 12000
   server: 57.128.214.100
   type: ss
+- name: 16|DE_speednode_0012
+  password: Fn9TZuYXiFYhsyp65T
+  port: 443
+  server: os-2.rise-fuji.com
+  skip-cert-verify: true
+  sni: os-2.rise-fuji.com
+  type: trojan
+  udp: true
