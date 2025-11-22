@@ -1557,7 +1557,7 @@ proxies:
 - down: 300
   name: 12|🇭🇰 HK-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45775
+  port: 42142
   ports: 40000-50000
   server: hk2.jueduibupao.top
   skip-cert-verify: true
@@ -1567,7 +1567,7 @@ proxies:
 - down: 300
   name: 12|🇸🇬 SG-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 47888
+  port: 49236
   ports: 40000-50000
   server: linsg1.jueduibupao.top
   skip-cert-verify: true
@@ -1586,7 +1586,7 @@ proxies:
 - down: 200
   name: 12|🇹🇼 TW-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 45841
+  port: 47071
   ports: 40000-50000
   server: tw3.jueduibupao.top
   skip-cert-verify: true
@@ -1596,7 +1596,7 @@ proxies:
 - down: 300
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44536
+  port: 45431
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -1669,7 +1669,7 @@ proxies:
 - down: 300
   name: 12|🇩🇪 DE-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40062
+  port: 43768
   ports: 40000-50000
   server: de1.jueduibupao.top
   skip-cert-verify: true
@@ -1679,13 +1679,61 @@ proxies:
 - down: 300
   name: 12|🇬🇧 GB-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 49307
+  port: 43073
   ports: 40000-50000
   server: uk1.jueduibupao.top
   skip-cert-verify: true
   sni: uk1.jueduibupao.top
   type: hysteria2
   up: 300
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 US-10 | MIX
+  network: ws
+  port: 8080
+  server: best.cdn.sqeven.cn
+  type: vmess
+  udp: true
+  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
+  ws-headers:
+    Host: best.cdn.sqeven.cn
+  ws-opts:
+    headers:
+      Host: best.cdn.sqeven.cn
+    path: /?ed=2560
+  ws-path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 US-11 | MIX
+  network: ws
+  port: 8080
+  server: mugen33.6bnw.top
+  type: vmess
+  udp: true
+  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
+  ws-headers:
+    Host: buyvmus2.6bnw.top
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
+  ws-path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 US-12 | MIX
+  network: ws
+  port: 8080
+  server: mugen44.6bnw.top
+  type: vmess
+  udp: true
+  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
+  ws-headers:
+    Host: buyvmus2.6bnw.top
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
+  ws-path: /?ed=2560
 - cipher: aes-256-cfb
   name: 14|tg频道:@ripaojiedian
   password: amazonskr05
