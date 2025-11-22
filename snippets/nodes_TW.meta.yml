@@ -25,13 +25,19 @@ proxies:
 - down: 200
   name: 12|🇹🇼 TW-2 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 44502
+  port: 42560
   ports: 40000-50000
   server: tw3.jueduibupao.top
   skip-cert-verify: true
   sni: tw3.jueduibupao.top
   type: hysteria2
   up: 200
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾|@ripaojiedian
+  password: cb794089-728d-4171-9b69-846abb413309
+  port: 39695
+  server: 118.253.180.20
+  type: ss
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 16|TW_speednode_0103
