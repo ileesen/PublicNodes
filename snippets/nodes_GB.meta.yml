@@ -19,7 +19,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇺🇸 US-1 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   password: 8175089f-9436-47dc-ab65-a525a529bced
   port: 35000
   ports: 35000-39000
@@ -31,10 +31,23 @@ proxies:
 - down: 300
   name: 12|🇬🇧 GB-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 43174
+  port: 49307
   ports: 40000-50000
   server: uk1.jueduibupao.top
   skip-cert-verify: true
   sni: uk1.jueduibupao.top
   type: hysteria2
   up: 300
+- name: 16|GB_speednode_0020
+  network: ws
+  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
+  port: 443
+  server: 109.169.76.23
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443

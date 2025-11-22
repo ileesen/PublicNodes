@@ -26,7 +26,7 @@ proxies:
 - down: 300
   name: 12|🇯🇵 JP-1 | MIX
   password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40275
+  port: 44536
   ports: 40000-50000
   server: linjp1.jueduibupao.top
   skip-cert-verify: true
@@ -72,3 +72,17 @@ proxies:
   port: 39693
   server: 118.253.180.20
   type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 16|JP_speednode_0036
+  port: 443
+  reality-opts:
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: 73d3fec4
+  server: 188.253.21.106
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9936ae5c-91cd-4c8a-80e9-5118a209a7e4
