@@ -210,16 +210,71 @@ proxies:
   type: vless
   udp: true
   uuid: 8175089f-9436-47dc-ab65-a525a529bced
-- down: 300
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: packet-up
   name: 12|🇩🇪 DE-1 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 46268
-  ports: 40000-50000
-  server: de1.jueduibupao.top
+  network: xhttp
+  path: /gdsthjjjvfxsstyy؟ed=443
+  port: 443
+  security: tls
+  server: wangcai223.cloudflare.182682.xyz
+  servername: cho.chonon.sbs
+  skip-cert-verify: false
+  sni: cho.chonon.sbs
+  tls: true
+  type: vless
+  uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
+- insecure: '0'
+  mport: 50000-65535
+  name: 12|🇩🇪 DE-2 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: falankefu1.nezhasu.com
   skip-cert-verify: true
-  sni: de1.jueduibupao.top
+  sni: falankefu1.nezhasu.com
+  tls:
+    enabled: true
+    insecure: false
+    server_name: falankefu1.nezhasu.com
   type: hysteria2
-  up: 300
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇩🇪 DE-3 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 8443
+  security: tls
+  server: 95.182.97.125
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇩🇪 DE-4 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 89.169.8.105
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
 - name: 16|DE_speednode_0008
   network: ws
   port: 2053

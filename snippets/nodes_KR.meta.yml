@@ -13,24 +13,32 @@ proxies:
   type: vless
   udp: true
   uuid: 8175089f-9436-47dc-ab65-a525a529bced
-- down: 100
+- insecure: '0'
+  mport: 50000-65535
   name: 12|🇰🇷 KR-1 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 10100
-  server: 6bkr1.6bnw.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: chuncheon-1.nezhasu.com
   skip-cert-verify: true
-  sni: 6bkr1.6bnw.top
+  sni: chuncheon-1.nezhasu.com
+  tls:
+    enabled: true
+    insecure: false
+    server_name: chuncheon-1.nezhasu.com
   type: hysteria2
-  up: 100
-- down: 300
+- insecure: '0'
+  mport: 50000-65535
   name: 12|🇰🇷 KR-2 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 30000
-  server: kr2.jueduibupao.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: chuncheon-2.nezhasu.com
   skip-cert-verify: true
-  sni: kr2.jueduibupao.top
+  sni: chuncheon-2.nezhasu.com
+  tls:
+    enabled: true
+    insecure: false
+    server_name: chuncheon-2.nezhasu.com
   type: hysteria2
-  up: 200
 - alpn:
   - h3
   client-fingerprint: chrome

@@ -1,52 +1,77 @@
 proxies:
-- alterId: 0
+- add: bCE5-3ebfED0a18F2.008880888.Xyz
+  aid: '0'
+  alpn:
+  - http/1.1
+  alterId: 0
   cipher: auto
-  name: 12|🇺🇸 US-10 | MIX
-  network: ws
-  port: 8080
-  server: best.cdn.sqeven.cn
+  fp: chrome
+  host: bcE5-3EBFeD0A18F2.008880888.XYz
+  id: 55821780-6970-49df-8a23-800c2c9b7d3a
+  name: 12|🇺🇸 US-4 | MIX
+  net: xhttp
+  network: xhttp
+  path: /SGBvMNdpPDy2tqzi1U
+  port: 80
+  ps: ⚡美国
+  scy: auto
+  server: bCE5-3ebfED0a18F2.008880888.Xyz
+  sni: bce5-3eBFEd0A18f2.008880888.XyZ
+  tls: false
   type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: best.cdn.sqeven.cn
-  ws-opts:
-    headers:
-      Host: best.cdn.sqeven.cn
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-11 | MIX
+  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  v: '2'
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-24 | MIX
   network: ws
-  port: 8080
-  server: mugen33.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 162.159.42.58
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
   ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 US-12 | MIX
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-25 | MIX
   network: ws
-  port: 8080
-  server: mugen44.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
   ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-26 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 198.41.208.120
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a

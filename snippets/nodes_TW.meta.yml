@@ -13,22 +13,47 @@ proxies:
   type: vless
   udp: true
   uuid: 8175089f-9436-47dc-ab65-a525a529bced
-- down: 200
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  host: s3.sni565.netlib.re
   name: 12|🇹🇼 TW-1 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 30078
-  server: tw2.jueduibupao.top
-  skip-cert-verify: true
-  sni: tw2.jueduibupao.top
-  type: hysteria2
-  up: 200
-- down: 200
+  network: ws
+  path: /proxyip=tw.sni2025.netlib.re
+  port: 16443
+  security: tls
+  server: 114.32.9.249
+  servername: s3.sni565.netlib.re
+  skip-cert-verify: false
+  sni: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  host: s3.sni565.netlib.re
   name: 12|🇹🇼 TW-2 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 48096
-  ports: 40000-50000
-  server: tw3.jueduibupao.top
-  skip-cert-verify: true
-  sni: tw3.jueduibupao.top
-  type: hysteria2
-  up: 200
+  network: ws
+  path: /proxyip=tw.sni2025.netlib.re
+  port: 443
+  security: tls
+  server: 130.33.68.45
+  servername: s3.sni565.netlib.re
+  skip-cert-verify: false
+  sni: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re

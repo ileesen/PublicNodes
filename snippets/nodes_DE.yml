@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇩🇪 DE-3 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 8443
+  security: tls
+  server: 95.182.97.125
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇩🇪 DE-4 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 89.169.8.105
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /

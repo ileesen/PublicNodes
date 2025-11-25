@@ -1,14 +1,56 @@
 proxies:
-- down: 300
+- insecure: '1'
+  mport: 50000-65535
   name: 12|🇸🇬 SG-1 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 40262
-  ports: 40000-50000
-  server: linsg1.jueduibupao.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: singaporex-1.nezhasu.com
   skip-cert-verify: true
-  sni: linsg1.jueduibupao.top
+  sni: Singaporex-1.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: Singaporex-1.nezhasu.com
   type: hysteria2
-  up: 300
+- insecure: '1'
+  mport: 50000-65535
+  name: 12|🇸🇬 SG-2 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: singaporex-2.nezhasu.com
+  skip-cert-verify: true
+  sni: px4.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: px4.nezhasu.com
+  type: hysteria2
+- insecure: '0'
+  mport: 50000-65535
+  name: 12|🇸🇬 SG-3 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: singaporex-3.nezhasu.com
+  skip-cert-verify: true
+  sni: Singaporex-3.nezhasu.com
+  tls:
+    enabled: true
+    insecure: false
+    server_name: Singaporex-3.nezhasu.com
+  type: hysteria2
+- insecure: '0'
+  mport: 50000-65535
+  name: 12|🇸🇬 SG-4 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: singaporex-4.nezhasu.com
+  skip-cert-verify: true
+  sni: Singaporex-4.nezhasu.com
+  tls:
+    enabled: true
+    insecure: false
+    server_name: Singaporex-4.nezhasu.com
+  type: hysteria2
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a

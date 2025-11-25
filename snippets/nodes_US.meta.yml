@@ -69,81 +69,436 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- down: 300
+- insecure: '1'
+  mport: 50000-65535
   name: 12|🇺🇸 US-1 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 50001
-  server: lvs.jueduibupao.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: phoenix-1.nezhasu.com
   skip-cert-verify: true
-  sni: lvs.jueduibupao.top
+  sni: phoenix-1.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: phoenix-1.nezhasu.com
   type: hysteria2
-  up: 300
-- down: 300
+- insecure: '1'
+  mport: 50000-65535
   name: 12|🇺🇸 US-2 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 50001
-  server: ny.jueduibupao.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: phoenix-2.nezhasu.com
   skip-cert-verify: true
-  sni: ny.jueduibupao.top
+  sni: phoenix-2.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: phoenix-2.nezhasu.com
   type: hysteria2
-  up: 300
-- down: 300
+- insecure: '1'
+  mport: 50000-65535
   name: 12|🇺🇸 US-3 | MIX
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 20101
-  server: azcus1.jueduibupao.top
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: sanjose.nezhasu.com
   skip-cert-verify: true
-  sni: azcus1.jueduibupao.top
+  sni: SanJose.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: SanJose.nezhasu.com
   type: hysteria2
-  up: 300
-- alterId: 0
+- add: bCE5-3ebfED0a18F2.008880888.Xyz
+  aid: '0'
+  alpn:
+  - http/1.1
+  alterId: 0
   cipher: auto
+  fp: chrome
+  host: bcE5-3EBFeD0A18F2.008880888.XYz
+  id: 55821780-6970-49df-8a23-800c2c9b7d3a
+  name: 12|🇺🇸 US-4 | MIX
+  net: xhttp
+  network: xhttp
+  path: /SGBvMNdpPDy2tqzi1U
+  port: 80
+  ps: ⚡美国
+  scy: auto
+  server: bCE5-3ebfED0a18F2.008880888.Xyz
+  sni: bce5-3eBFEd0A18f2.008880888.XyZ
+  tls: false
+  type: vmess
+  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  v: '2'
+- insecure: '1'
+  mport: 50000-65535
+  name: 12|🇺🇸 US-5 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: phoenix-4.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-4.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: phoenix-4.nezhasu.com
+  type: hysteria2
+- insecure: '1'
+  mport: 50000-65535
+  name: 12|🇺🇸 US-6 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: ashburn.nezhasu.com
+  skip-cert-verify: true
+  sni: ashburn.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: ashburn.nezhasu.com
+  type: hysteria2
+- insecure: '1'
+  mport: 50000-65535
+  name: 12|🇺🇸 US-7 | MIX
+  password: 52d0cb21-56da-4f00-862f-be01b66446a8
+  port: 443
+  server: gy9.nezhasu.com
+  skip-cert-verify: true
+  sni: gy9.nezhasu.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: gy9.nezhasu.com
+  type: hysteria2
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-8 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 52.68.194.189
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-9 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 193.124.18.13
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
   name: 12|🇺🇸 US-10 | MIX
   network: ws
-  port: 8080
-  server: best.cdn.sqeven.cn
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: best.cdn.sqeven.cn
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 77.221.157.32
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: best.cdn.sqeven.cn
+      Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
   name: 12|🇺🇸 US-11 | MIX
   network: ws
-  port: 8080
-  server: mugen33.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 206.189.25.65
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: buyvmus2.6bnw.top
+      Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
-  cipher: auto
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
   name: 12|🇺🇸 US-12 | MIX
   network: ws
-  port: 8080
-  server: mugen44.6bnw.top
-  type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 167.99.86.115
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: buyvmus2.6bnw.top
+      Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
-  ws-path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-13 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 2053
+  security: tls
+  server: 194.35.119.135
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-14 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 8443
+  security: tls
+  server: 89.19.211.109
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-16 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 8443
+  security: tls
+  server: 85.193.95.23
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-17 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 2053
+  security: tls
+  server: 90.156.228.74
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-18 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 7000
+  security: tls
+  server: 202.85.53.160
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-19 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 5.34.222.200
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-20 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 54.95.79.44
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-21 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 2096
+  security: tls
+  server: 108.162.198.24
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  host: kuangbao.xiejiang.dpdns.org
+  name: 12|🇺🇸 US-22 | MIX
+  network: ws
+  path: /?ed=2560
+  port: 8443
+  security: tls
+  server: 95.140.157.183
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  sni: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 12|🇺🇸 US-23 | MIX
+  network: tcp
+  pbk: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
+  port: 10001
+  reality-opts:
+    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
+    server-name: www.icloud.com
+    short-id: 2afe4310
+  security: reality
+  server: 154.204.183.68
+  sid: 2afe4310
+  sni: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-24 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 162.159.42.58
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-25 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: random
+  name: 12|🇺🇸 US-26 | MIX
+  network: ws
+  password: '!!str 0'
+  path: /
+  port: 443
+  security: tls
+  server: 198.41.208.120
+  servername: c03237cb.ba73fe85.netlib.re
+  skip-cert-verify: true
+  sni: c03237cb.ba73fe85.netlib.re
+  type: trojan
+  ws-opts:
+    path: /
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
