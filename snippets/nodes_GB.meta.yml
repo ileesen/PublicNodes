@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇺🇸 US-1 | StarLink
+  name: 11|🇺🇸 US-3 | StarLink
   password: 8175089f-9436-47dc-ab65-a525a529bced
   port: 35000
   ports: 35000-39000
@@ -24,19 +24,6 @@ proxies:
   type: hysteria2
 - insecure: '1'
   mport: 50000-65535
-  name: 12|🇬🇧 GB-2 | MIX
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: lundun2.nezhasu.com
-  skip-cert-verify: true
-  sni: lundun2.nezhasu.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: lundun2.nezhasu.com
-  type: hysteria2
-- insecure: '1'
-  mport: 50000-65535
   name: 12|🇬🇧 GB-3 | MIX
   password: 52d0cb21-56da-4f00-862f-be01b66446a8
   port: 443
@@ -47,19 +34,6 @@ proxies:
     enabled: true
     insecure: true
     server_name: lundun3.nezhasu.com
-  type: hysteria2
-- insecure: '1'
-  mport: 50000-65535
-  name: 12|🇬🇧 GB-4 | MIX
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: lundun4.nezhasu.com
-  skip-cert-verify: true
-  sni: lundun4.nezhasu.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: lundun4.nezhasu.com
   type: hysteria2
 - name: 16|GB_speednode_0013
   network: ws
