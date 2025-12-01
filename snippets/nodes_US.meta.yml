@@ -74,32 +74,6 @@ proxies:
   name: 12|🇺🇸 US-1 | Mix
   password: 52d0cb21-56da-4f00-862f-be01b66446a8
   port: 443
-  server: phoenix-1.nezhasu.com
-  skip-cert-verify: true
-  sni: phoenix-1.nezhasu.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: phoenix-1.nezhasu.com
-  type: hysteria2
-- insecure: '1'
-  mport: 50000-65535
-  name: 12|🇺🇸 US-2 | Mix
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: phoenix-2.nezhasu.com
-  skip-cert-verify: true
-  sni: phoenix-2.nezhasu.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: phoenix-2.nezhasu.com
-  type: hysteria2
-- insecure: '1'
-  mport: 50000-65535
-  name: 12|🇺🇸 US-3 | Mix
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
   server: sanjose.nezhasu.com
   skip-cert-verify: true
   sni: SanJose.nezhasu.com
@@ -117,7 +91,7 @@ proxies:
   fp: chrome
   host: bcE5-3EBFeD0A18F2.008880888.XYz
   id: 55821780-6970-49df-8a23-800c2c9b7d3a
-  name: 12|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-2 | Mix
   net: xhttp
   network: xhttp
   path: /SGBvMNdpPDy2tqzi1U
@@ -132,7 +106,7 @@ proxies:
   v: '2'
 - insecure: '1'
   mport: 50000-65535
-  name: 12|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-3 | Mix
   password: 52d0cb21-56da-4f00-862f-be01b66446a8
   port: 443
   server: phoenix-4.nezhasu.com
@@ -145,7 +119,7 @@ proxies:
   type: hysteria2
 - insecure: '1'
   mport: 50000-65535
-  name: 12|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   password: 52d0cb21-56da-4f00-862f-be01b66446a8
   port: 443
   server: ashburn.nezhasu.com
@@ -156,22 +130,9 @@ proxies:
     insecure: true
     server_name: ashburn.nezhasu.com
   type: hysteria2
-- insecure: '1'
-  mport: 50000-65535
-  name: 12|🇺🇸 US-7 | Mix
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: gy9.nezhasu.com
-  skip-cert-verify: true
-  sni: gy9.nezhasu.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: gy9.nezhasu.com
-  type: hysteria2
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -189,7 +150,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -207,7 +168,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-10 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -225,7 +186,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-11 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -243,7 +204,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-12 | Mix
+  name: 12|🇺🇸 US-9 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -261,7 +222,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-13 | Mix
+  name: 12|🇺🇸 US-10 | Mix
   network: ws
   path: /?ed=2560
   port: 2053
@@ -279,7 +240,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-14 | Mix
+  name: 12|🇺🇸 US-11 | Mix
   network: ws
   path: /?ed=2560
   port: 8443
@@ -299,7 +260,7 @@ proxies:
   encryption: none
   fp: chrome
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-16 | Mix
+  name: 12|🇺🇸 US-13 | Mix
   network: ws
   path: /?ed=2560
   port: 8443
@@ -319,7 +280,7 @@ proxies:
   encryption: none
   fp: chrome
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-17 | Mix
+  name: 12|🇺🇸 US-14 | Mix
   network: ws
   path: /?ed=2560
   port: 2053
@@ -339,7 +300,7 @@ proxies:
   encryption: none
   fp: chrome
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-18 | Mix
+  name: 12|🇺🇸 US-15 | Mix
   network: ws
   path: /?ed=2560
   port: 7000
@@ -359,7 +320,7 @@ proxies:
   encryption: none
   fp: chrome
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-19 | Mix
+  name: 12|🇺🇸 US-16 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -377,7 +338,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-20 | Mix
+  name: 12|🇺🇸 US-17 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -395,7 +356,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-21 | Mix
+  name: 12|🇺🇸 US-18 | Mix
   network: ws
   path: /?ed=2560
   port: 2096
@@ -413,7 +374,7 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: kuangbao.xiejiang.dpdns.org
-  name: 12|🇺🇸 US-22 | Mix
+  name: 12|🇺🇸 US-19 | Mix
   network: ws
   path: /?ed=2560
   port: 8443
@@ -433,7 +394,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 12|🇺🇸 US-23 | Mix
+  name: 12|🇺🇸 US-20 | Mix
   network: tcp
   pbk: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
   port: 10001
@@ -452,7 +413,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-24 | Mix
+  name: 12|🇺🇸 US-21 | Mix
   network: ws
   password: '!!str 0'
   path: /
@@ -469,7 +430,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-25 | Mix
+  name: 12|🇺🇸 US-22 | Mix
   network: ws
   password: '!!str 0'
   path: /
@@ -486,7 +447,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-26 | Mix
+  name: 12|🇺🇸 US-23 | Mix
   network: ws
   password: '!!str 0'
   path: /
