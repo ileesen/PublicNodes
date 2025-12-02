@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: bcE5-3EBFeD0A18F2.008880888.XYz
   id: 55821780-6970-49df-8a23-800c2c9b7d3a
-  name: 12|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   net: xhttp
   network: xhttp
   path: /SGBvMNdpPDy2tqzi1U
@@ -22,13 +22,13 @@ proxies:
   uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
   v: '2'
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇳🇱 NL-2 | Mix
+  name: 12|🇳🇱 NL-3 | Mix
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇳🇱 NL-3 | Mix
+  name: 12|🇳🇱 NL-4 | Mix
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
@@ -70,7 +70,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-21 | Mix
+  name: 12|🇺🇸 US-24 | Mix
   network: ws
   password: '0'
   path: /
@@ -104,7 +104,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-22 | Mix
+  name: 12|🇺🇸 US-25 | Mix
   network: ws
   password: '0'
   path: /
@@ -121,7 +121,7 @@ proxies:
   alpn:
   - http/1.1
   fp: random
-  name: 12|🇺🇸 US-23 | Mix
+  name: 12|🇺🇸 US-26 | Mix
   network: ws
   password: '0'
   path: /
@@ -196,10 +196,35 @@ proxies:
   tls: false
   type: vmess
   uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
+- alterId: 2
+  cipher: auto
+  name: 14,15|香港7|@ripaojiedian
+  network: ws
+  port: '80'
+  server: a48b0e7b-t6ngg0-t8tsp0-1szmi.hk3.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇳 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: db5fe62:193531
+    mode: tls
+  port: 2377
+  server: 60.249.14.96
+  type: ss
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2145
+  port: 5156
   server: 52.195.176.26
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
@@ -207,8 +232,8 @@ proxies:
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 3169
-  server: 160.16.138.24
+  port: 3093
+  server: 160.16.236.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -216,15 +241,25 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 1331
-  server: 160.16.223.205
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e2322f9:87491
+    mode: tls
+  port: 2377
+  server: 172.237.6.53
+  type: ss
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2760
-  server: 160.16.214.6
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -232,15 +267,15 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2760
-  server: 153.121.73.102
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 95.40.76.44
+  port: 1196
+  server: 52.199.79.149
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -248,7 +283,7 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 18.162.142.242
+  server: 160.16.236.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -256,7 +291,7 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 160.16.214.6
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -268,12 +303,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 14|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.228
-  type: ss
 - alterId: 2
   cipher: auto
   name: 15|香港|@ripaojiedian
