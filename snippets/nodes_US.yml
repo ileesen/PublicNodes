@@ -1,77 +1,20 @@
 proxies:
-- add: bCE5-3ebfED0a18F2.008880888.Xyz
-  aid: '0'
-  alpn:
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  fp: chrome
-  host: bcE5-3EBFeD0A18F2.008880888.XYz
-  id: 55821780-6970-49df-8a23-800c2c9b7d3a
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
   name: 12|🇺🇸 US-4 | Mix
-  net: xhttp
-  network: xhttp
-  path: /SGBvMNdpPDy2tqzi1U
-  port: 80
-  ps: ⚡美国
-  scy: auto
-  server: bCE5-3ebfED0a18F2.008880888.Xyz
-  sni: bce5-3eBFEd0A18f2.008880888.XyZ
-  tls: false
-  type: vmess
-  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
-  v: '2'
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-24 | Mix
-  network: ws
-  password: '!!str 0'
-  path: /
-  port: 443
-  security: tls
-  server: 162.159.42.58
-  servername: c03237cb.ba73fe85.netlib.re
-  skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
+  network: grpc
+  password: FodSUXysuS
+  pbk: iX_s_-F07vtmJa8t81J6OBiVksCy0ZHRmXUMyw3l4Vw
+  port: 23274
+  security: reality
+  server: 180.131.145.161
+  servername: cloudflare.com
+  sid: '14'
+  skip-cert-verify: false
+  sni: cloudflare.com
+  spx: /
   type: trojan
-  ws-opts:
-    path: /
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-25 | Mix
-  network: ws
-  password: '!!str 0'
-  path: /
-  port: 443
-  security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: c03237cb.ba73fe85.netlib.re
-  skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
-  type: trojan
-  ws-opts:
-    path: /
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-26 | Mix
-  network: ws
-  password: '!!str 0'
-  path: /
-  port: 443
-  security: tls
-  server: 198.41.208.120
-  servername: c03237cb.ba73fe85.netlib.re
-  skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
-  type: trojan
-  ws-opts:
-    path: /
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
@@ -94,16 +37,6 @@ proxies:
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 15|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

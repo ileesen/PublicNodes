@@ -1,37 +1,35 @@
 proxies:
-- host: joss.gpj1.web.id
-  name: 12|🇨🇦 CA-1 | Mix
-  network: ws
-  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
-  path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-  port: 443
-  security: tls
-  server: 69.28.82.253
-  servername: joss.gpj1.web.id
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  host: joss.gpj1.web.id
-  name: 12|🇨🇦 CA-2 | Mix
-  network: ws
-  path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-  port: 443
-  security: tls
-  server: 69.28.82.253
-  servername: joss.gpj1.web.id
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
+  headerType: none
+  name: 12|🇨🇦 CA-1 | Mix
+  network: tcp
+  pbk: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+    server-name: apple.com
+    short-id: ''
+  security: reality
+  server: ca.griffon-guard.com
+  sni: apple.com
   tls: true
   type: vless
-  uuid: 0930fe32-e429-4f37-b8ec-92ac52b40f6e
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
+  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 12|🇨🇦 CA-2 | Mix
+  network: grpc
+  password: Fv7ogJ6vfz
+  pbk: QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU
+  port: 36774
+  security: reality
+  server: 209.200.246.53
+  servername: cloudflare.com
+  sid: 3e
+  skip-cert-verify: false
+  sni: cloudflare.com
+  spx: /
+  type: trojan

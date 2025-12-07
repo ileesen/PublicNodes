@@ -1,139 +1,165 @@
 proxies:
-- add: bCE5-3ebfED0a18F2.008880888.Xyz
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-1 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 219.79.186.107
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- add: 152.70.92.69
   aid: '0'
-  alpn:
-  - http/1.1
   alterId: 0
   cipher: auto
-  fp: chrome
-  host: bcE5-3EBFeD0A18F2.008880888.XYz
-  id: 55821780-6970-49df-8a23-800c2c9b7d3a
-  name: 12|🇺🇸 US-4 | Mix
-  net: xhttp
-  network: xhttp
-  path: /SGBvMNdpPDy2tqzi1U
+  host: 152.70.92.69
+  id: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  name: 12|🇰🇷 KR-2 | Mix
+  net: tcp
+  network: tcp
+  path: /
   port: 80
-  ps: ⚡美国
+  ps: ⚡韩国
   scy: auto
-  server: bCE5-3ebfED0a18F2.008880888.Xyz
-  sni: bce5-3eBFEd0A18f2.008880888.XyZ
+  server: 152.70.92.69
   tls: false
   type: vmess
-  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
   v: '2'
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇳🇱 NL-3 | Mix
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇳🇱 NL-4 | Mix
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- host: joss.gpj1.web.id
-  name: 12|🇨🇦 CA-1 | Mix
-  network: ws
-  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
-  path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-  port: 443
-  security: tls
-  server: 69.28.82.253
-  servername: joss.gpj1.web.id
+- add: 82.198.246.97
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  host: trojan.burgerip.co.uk
+  id: d13fc2f5-3e05-4795-81eb-44143a09e552
+  name: 12,15|美国4|@ripaojiedian
+  net: tcp
+  network: tcp
+  path: /
+  port: '180'
+  ps: ⚡英国
+  scy: auto
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  v: '2'
+- add: v12.hdacd.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  host: v12.hdacd.com
+  id: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  name: 12|🇨🇳 CN-1 | Mix
+  net: tcp
+  network: tcp
+  path: /
+  port: 30812
+  ps: ⚡中国
+  scy: auto
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  v: '2'
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 12|🇨🇦 CA-2 | Mix
+  network: grpc
+  password: Fv7ogJ6vfz
+  pbk: QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU
+  port: 36774
+  security: reality
+  server: 209.200.246.53
+  servername: cloudflare.com
+  sid: 3e
   skip-cert-verify: false
-  sni: joss.gpj1.web.id
+  sni: cloudflare.com
+  spx: /
   type: trojan
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
 - allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇩🇪 DE-3 | Mix
-  network: ws
-  password: '0'
-  path: /
-  port: 8443
-  security: tls
-  server: 95.182.97.125
-  servername: c03237cb.ba73fe85.netlib.re
-  skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
-  type: trojan
-  ws-opts:
-    path: /
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-24 | Mix
-  network: ws
-  password: '0'
-  path: /
+  headerType: none
+  name: 12|🇭🇰 HK-2 | Mix
+  network: tcp
+  password: BxceQaOe
   port: 443
   security: tls
-  server: 162.159.42.58
-  servername: c03237cb.ba73fe85.netlib.re
+  server: 58.152.25.242
   skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
   type: trojan
-  ws-opts:
-    path: /
 - allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇩🇪 DE-4 | Mix
-  network: ws
-  password: '0'
-  path: /
+  headerType: none
+  name: 12|🇭🇰 HK-3 | Mix
+  network: tcp
+  password: BxceQaOe
   port: 443
   security: tls
-  server: 89.169.8.105
-  servername: c03237cb.ba73fe85.netlib.re
+  server: 58.152.25.242
+  servername: t.me/ripaojiedian
   skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
+  sni: t.me/ripaojiedian
   type: trojan
-  ws-opts:
-    path: /
 - allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-25 | Mix
-  network: ws
-  password: '0'
-  path: /
+  headerType: none
+  name: 12|🇭🇰 HK-4 | Mix
+  network: tcp
+  password: BxceQaOe
   port: 443
   security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: c03237cb.ba73fe85.netlib.re
+  server: 58.152.25.20
+  servername: t.me/ripaojiedian
   skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
+  sni: t.me/ripaojiedian
   type: trojan
-  ws-opts:
-    path: /
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 12|🇺🇸 US-4 | Mix
+  network: grpc
+  password: FodSUXysuS
+  pbk: iX_s_-F07vtmJa8t81J6OBiVksCy0ZHRmXUMyw3l4Vw
+  port: 23274
+  security: reality
+  server: 180.131.145.161
+  servername: cloudflare.com
+  sid: '14'
+  skip-cert-verify: false
+  sni: cloudflare.com
+  spx: /
+  type: trojan
+- add: v30.hdacd.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  name: 12|🇨🇳 CN-2 | Mix
+  net: tcp
+  network: tcp
+  port: 30830
+  ps: ⚡中国
+  scy: auto
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  v: '2'
 - allowInsecure: '1'
-  alpn:
-  - http/1.1
-  fp: random
-  name: 12|🇺🇸 US-26 | Mix
-  network: ws
-  password: '0'
-  path: /
+  headerType: none
+  name: 12|🇭🇰 HK-5 | Mix
+  network: tcp
+  password: BxceQaOe
   port: 443
   security: tls
-  server: 198.41.208.120
-  servername: c03237cb.ba73fe85.netlib.re
+  server: 58.152.53.8
+  servername: t.me/ripaojiedian
   skip-cert-verify: true
-  sni: c03237cb.ba73fe85.netlib.re
+  sni: t.me/ripaojiedian
   type: trojan
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 14|tg频道:@ripaojiedian
   password: amazonskr05
@@ -292,16 +318,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 15|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 16|FR_speednode_0008
   password: telegram-id-privatevpns
   port: 22222

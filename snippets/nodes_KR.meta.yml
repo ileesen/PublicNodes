@@ -13,32 +13,24 @@ proxies:
   type: vless
   udp: true
   uuid: 8175089f-9436-47dc-ab65-a525a529bced
-- insecure: '0'
-  mport: 50000-65535
-  name: 12|🇰🇷 KR-1 | Mix
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: chuncheon-1.nezhasu.com
-  skip-cert-verify: true
-  sni: chuncheon-1.nezhasu.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: chuncheon-1.nezhasu.com
-  type: hysteria2
-- insecure: '0'
-  mport: 50000-65535
+- add: 152.70.92.69
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  host: 152.70.92.69
+  id: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
   name: 12|🇰🇷 KR-2 | Mix
-  password: 52d0cb21-56da-4f00-862f-be01b66446a8
-  port: 443
-  server: chuncheon-2.nezhasu.com
-  skip-cert-verify: true
-  sni: chuncheon-2.nezhasu.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: chuncheon-2.nezhasu.com
-  type: hysteria2
+  net: tcp
+  network: tcp
+  path: /
+  port: 80
+  ps: ⚡韩国
+  scy: auto
+  server: 152.70.92.69
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  v: '2'
 - cipher: aes-256-cfb
   name: 14|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@

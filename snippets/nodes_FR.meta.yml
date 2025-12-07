@@ -24,6 +24,25 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 12|🇫🇷 FR-1 | Mix
+  network: tcp
+  pbk: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    server-name: st.ozone.ru
+    short-id: ee6f3e8f44b1f0b6
+  security: reality
+  server: 62.60.148.21
+  sid: ee6f3e8f44b1f0b6
+  sni: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
 - name: 16|FR_speednode_0008
   password: telegram-id-privatevpns
   port: 22222
