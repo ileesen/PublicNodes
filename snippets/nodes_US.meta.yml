@@ -101,58 +101,33 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- encryption: none
-  fp: firefox
-  headerType: none
-  name: 12|🇺🇸 US-1 | Mix
-  network: tcp
-  pbk: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
-  port: 10001
-  reality-opts:
-    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
-    server-name: yahoo.com
-    short-id: 1a24af87
-  security: reality
-  server: 172.234.130.82
-  sid: 1a24af87
-  sni: yahoo.com
-  tls: true
-  type: vless
-  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇺🇸 US-2 | Mix
-  network: tcp
-  pbk: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-  port: 8443
-  reality-opts:
-    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-    server-name: apple.com
-    short-id: ''
-  security: reality
-  server: nl.griffon-guard.com
-  sni: apple.com
-  tls: true
-  type: vless
-  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
-- fp: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: 12|🇺🇸 US-4 | Mix
-  network: grpc
-  password: FodSUXysuS
-  pbk: iX_s_-F07vtmJa8t81J6OBiVksCy0ZHRmXUMyw3l4Vw
-  port: 23274
-  security: reality
-  server: 180.131.145.161
-  servername: cloudflare.com
-  sid: '14'
-  skip-cert-verify: false
-  sni: cloudflare.com
-  spx: /
-  type: trojan
+- down: 100
+  name: 12|🇺🇸拉斯维加斯-hy2
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 50001
+  server: lvs.jueduibupao.top
+  skip-cert-verify: true
+  sni: lvs.jueduibupao.top
+  type: hysteria2
+  up: 100
+- down: 100
+  name: 12|🇺🇸凤凰城-hy2
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 50001
+  server: ny.jueduibupao.top
+  skip-cert-verify: true
+  sni: ny.jueduibupao.top
+  type: hysteria2
+  up: 100
+- down: 100
+  name: 12|🇺🇸纽约-hy2
+  password: 64333edd-018a-4d81-aca3-709de14ae66d
+  port: 20101
+  server: azcus1.jueduibupao.top
+  skip-cert-verify: true
+  sni: azcus1.jueduibupao.top
+  type: hysteria2
+  up: 100
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
