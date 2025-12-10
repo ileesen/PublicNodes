@@ -1,68 +1,164 @@
 proxies:
-- alterId: 0
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-1 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 219.79.186.107
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- add: 152.70.92.69
+  aid: '0'
+  alterId: 0
   cipher: auto
-  name: 12|❗如果只显示此节点|0.1x
-  network: ws
-  port: 8080
-  server: best.cdn.sqeven.cn
+  host: 152.70.92.69
+  id: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  name: 12|🇰🇷 KR-2 | Mix
+  net: tcp
+  network: tcp
+  path: /
+  port: 80
+  ps: ⚡韩国
+  scy: auto
+  server: 152.70.92.69
+  tls: false
   type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: best.cdn.sqeven.cn
-  ws-opts:
-    headers:
-      Host: best.cdn.sqeven.cn
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  v: '2'
+- add: 82.198.246.97
+  aid: '0'
+  alterId: 0
   cipher: auto
-  name: 12|❗是客户端太旧导致|0.1x
-  network: ws
-  port: 8080
-  server: bestcf.top
+  host: trojan.burgerip.co.uk
+  id: d13fc2f5-3e05-4795-81eb-44143a09e552
+  name: 12|🇬🇧 GB-2 | Mix
+  net: tcp
+  network: tcp
+  path: /
+  port: 180
+  ps: ⚡英国
+  scy: auto
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  v: '2'
+- add: v12.hdacd.com
+  aid: '0'
+  alterId: 0
   cipher: auto
-  name: 12|❗请到网站使用教程|0.1x
-  network: ws
-  port: 8080
-  server: mugen33.6bnw.top
+  host: v12.hdacd.com
+  id: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  name: 12|🇨🇳 CN-1 | Mix
+  net: tcp
+  network: tcp
+  path: /
+  port: 30812
+  ps: ⚡中国
+  scy: auto
+  server: v12.hdacd.com
+  tls: false
   type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
-- alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  v: '2'
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 12|🇨🇦 CA-2 | Mix
+  network: grpc
+  password: Fv7ogJ6vfz
+  pbk: QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU
+  port: 36774
+  security: reality
+  server: 209.200.246.53
+  servername: cloudflare.com
+  sid: 3e
+  skip-cert-verify: false
+  sni: cloudflare.com
+  spx: /
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-2 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.25.242
+  skip-cert-verify: true
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-3 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.25.242
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-4 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.25.20
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- fp: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 12|🇺🇸 US-4 | Mix
+  network: grpc
+  password: FodSUXysuS
+  pbk: iX_s_-F07vtmJa8t81J6OBiVksCy0ZHRmXUMyw3l4Vw
+  port: 23274
+  security: reality
+  server: 180.131.145.161
+  servername: cloudflare.com
+  sid: '14'
+  skip-cert-verify: false
+  sni: cloudflare.com
+  spx: /
+  type: trojan
+- add: v30.hdacd.com
+  aid: '0'
+  alterId: 0
   cipher: auto
-  name: 12|❗更新一下客户端|0.1x
-  network: ws
-  port: 8080
-  server: mugen44.6bnw.top
+  id: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  name: 12|🇨🇳 CN-2 | Mix
+  net: tcp
+  network: tcp
+  port: 30830
+  ps: ⚡中国
+  scy: auto
+  server: v30.hdacd.com
+  tls: false
   type: vmess
-  udp: true
-  uuid: 64333edd-018a-4d81-aca3-709de14ae66d
-  ws-headers:
-    Host: buyvmus2.6bnw.top
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-  ws-path: /?ed=2560
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  v: '2'
+- allowInsecure: '1'
+  headerType: none
+  name: 12|🇭🇰 HK-5 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.53.8
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
 - cipher: aes-256-cfb
   name: 14|tg频道:@ripaojiedian
   password: amazonskr05

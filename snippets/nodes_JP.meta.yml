@@ -101,25 +101,6 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- down: 100
-  name: 12|🇯🇵日本1-hy2
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 42154
-  ports: 40000-50000
-  server: linjp1.jueduibupao.top
-  skip-cert-verify: true
-  sni: linjp1.jueduibupao.top
-  type: hysteria2
-  up: 100
-- down: 100
-  name: 12|🇯🇵日本2-hy2
-  password: 64333edd-018a-4d81-aca3-709de14ae66d
-  port: 30000
-  server: linjp2.jueduibupao.top
-  skip-cert-verify: true
-  sni: linjp2.jueduibupao.top
-  type: hysteria2
-  up: 100
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
