@@ -87,6 +87,54 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- allowInsecure: '1'
+  alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  host: snippet.gfw.hidns.co
+  insecure: '1'
+  name: 12|🇸🇬 SG-1 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 18470
+  security: tls
+  server: 82.23.177.51
+  servername: snippet.gfw.hidns.co
+  skip-cert-verify: true
+  sni: snippet.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.gfw.hidns.co
+    path: /?ed=2560
+- allowInsecure: '1'
+  alpn:
+  - h3
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  host: snippet.danfeng.us.ci
+  insecure: '1'
+  name: 12|🇸🇬 SG-2 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 18098
+  security: tls
+  server: 103.167.151.182
+  servername: snippet.danfeng.us.ci
+  skip-cert-verify: true
+  sni: snippet.danfeng.us.ci
+  tls: true
+  type: vless
+  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.us.ci
+    path: /?ed=2560
 - name: 14|🇸🇬 新加坡|@ripaojiedian
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3145
@@ -130,6 +178,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|新加坡4|@ripaojiedian
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 16|SG_speednode_0010
   port: 10808
   server: 213.35.126.34
