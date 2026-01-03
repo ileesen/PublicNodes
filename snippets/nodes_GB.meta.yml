@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇺🇸 US-1 | 8EB
+  name: 11|🇺🇸 US-3 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -8,4 +8,12 @@ proxies:
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
+  udp: true
+- name: 16|GB_speednode_0005
+  password: R8ufkVqwRZAgtwjyrA
+  port: 443
+  server: uk-1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: uk-1.fishchipsexpress.com
+  type: trojan
   udp: true
