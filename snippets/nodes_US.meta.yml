@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -10,7 +10,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 11|🇺🇸 US-6 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -20,7 +20,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 11|🇺🇸 US-7 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -37,7 +37,7 @@ proxies:
   fp: random
   host: snippet.danfeng.gleeze.com
   insecure: '1'
-  name: 11|🇺🇸 US-1 | Mix
+  name: 12|🇺🇸 US-1 | Mix
   network: ws
   path: /?ed=2560
   port: 27507
@@ -61,7 +61,7 @@ proxies:
   fp: random
   host: snippet.danfeng.site
   insecure: '1'
-  name: 11|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-2 | Mix
   network: ws
   path: /?ed=2560
   port: 17960
@@ -85,7 +85,7 @@ proxies:
   fp: random
   host: snippet.danfeng.cc.cd
   insecure: '1'
-  name: 11|🇺🇸 US-3 | Mix
+  name: 12|🇺🇸 US-3 | Mix
   network: ws
   path: /?ed=2560
   port: 20004
@@ -109,7 +109,7 @@ proxies:
   fp: random
   host: snippet.danfeng.mywire.org
   insecure: '1'
-  name: 11|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   network: ws
   path: /?ed=2560
   port: 34555
@@ -133,7 +133,7 @@ proxies:
   fp: random
   host: snippet.danfeng.dedyn.io
   insecure: '1'
-  name: 11|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   path: /?ed=2560
   port: 666
@@ -157,7 +157,7 @@ proxies:
   fp: random
   host: snippet.danfeng.frii.site
   insecure: '1'
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -181,7 +181,7 @@ proxies:
   fp: random
   host: snippet.danfeng.dedyn.io
   insecure: '1'
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -197,27 +197,27 @@ proxies:
     headers:
       Host: snippet.danfeng.dedyn.io
     path: /?ed=2560
-- name: 13,14|美国|@ripaojiedian
+- name: 14,15|美国|@ripaojiedian
   network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
+  password: 61d8077bfb174e171b8283f155a555ad
   port: 1281
-  server: 160.16.68.250
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|美国2|@ripaojiedian
-  network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 1281
-  server: 160.16.138.24
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 1281
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.162.123.56
+  port: 4569
+  server: 43.198.110.101
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
