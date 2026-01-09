@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 11|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -10,303 +10,126 @@ proxies:
   type: hysteria2
   udp: true
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.site
-  insecure: '1'
-  name: 11|🇭🇰 HK-1 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 2443
-  security: tls
-  server: 103.148.72.147
-  servername: snippet.danfeng.site
-  skip-cert-verify: true
-  sni: snippet.danfeng.site
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.ccwu.cc
-  insecure: '1'
-  name: 11|🇭🇰 HK-2 | Mix
-  network: ws
-  path: /?ed=2560
+  headerType: none
+  name: 12|🇭🇰 HK-1 | Mix
+  network: tcp
+  password: BxceQaOe
   port: 443
   security: tls
-  server: 14.102.228.22
-  servername: snippet.danfeng.ccwu.cc
+  server: 58.152.46.60
+  servername: t.me/ripaojiedian
   skip-cert-verify: true
-  sni: snippet.danfeng.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.ccwu.cc
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.eu.org
-  insecure: '1'
-  name: 11|🇭🇰 HK-3 | Mix
-  network: ws
-  path: /?ed=2560
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: 12|🇭🇰 HK-2 | Mix
+  password: BxceQaOe
   port: 443
   security: tls
-  server: 185.176.26.61
-  servername: snippet.danfeng.eu.org
-  skip-cert-verify: true
-  sni: snippet.danfeng.eu.org
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.eu.org
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.gfw.hidns.co
-  insecure: '1'
-  name: 11|🇭🇰 HK-4 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 31035
+  server: 58.152.46.60
+  servername: '       [By EbraSha] b2n.ir/v2ray-configs'
+  skip-cert-verify: false
+  sni: '       [By EbraSha] b2n.ir/v2ray-configs'
+  type: trojan
+- name: 12|🇭🇰 HK-3 | Mix
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 175.29.22.42
-  servername: snippet.gfw.hidns.co
-  skip-cert-verify: true
-  sni: snippet.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.gfw.hidns.co
-    path: /?ed=2560
+  server: 58.152.46.60
+  servername: ������ [By DukeMehdi] b2n.ir/v2ray-configs
+  skip-cert-verify: false
+  sni: ������ [By DukeMehdi] b2n.ir/v2ray-configs
+  type: trojan
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.gv.uy
-  insecure: '1'
-  name: 11|🇭🇰 HK-5 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 50013
+  headerType: none
+  name: 12|🇭🇰 HK-4 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 64.120.88.82
-  servername: snippet.danfeng.gv.uy
+  server: 58.152.46.60
+  servername: t.me%2Fripaojiedian
   skip-cert-verify: true
-  sni: snippet.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gv.uy
-    path: /?ed=2560
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.cc.cd
-  insecure: '1'
-  name: 11|🇭🇰 HK-6 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 56870
+  headerType: none
+  name: 12|🇭🇰 HK-5 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 38.207.172.203
-  servername: snippet.danfeng.cc.cd
+  server: 58.152.46.60
+  servername: ������
   skip-cert-verify: true
-  sni: snippet.danfeng.cc.cd
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.cc.cd
-    path: /?ed=2560
+  sni: ������
+  type: trojan
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.443888.xyz
-  insecure: '1'
-  name: 11|🇭🇰 HK-7 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 31030
+  headerType: none
+  name: 12|🇭🇰 HK-6 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 175.29.22.81
-  servername: snippet.443888.xyz
+  server: 58.152.46.60
+  servername: ' '
   skip-cert-verify: true
-  sni: snippet.443888.xyz
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.443888.xyz
-    path: /?ed=2560
+  sni: ' '
+  type: trojan
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.ccwu.cc
-  insecure: '1'
-  name: 11|🇭🇰 HK-8 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 7000
+  headerType: none
+  name: 12|🇭🇰 HK-7 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 202.85.53.160
-  servername: snippet.danfeng.ccwu.cc
+  server: 58.152.46.60
+  servername: '       [By EbraSha] trojan-HK '
   skip-cert-verify: true
-  sni: snippet.danfeng.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.ccwu.cc
-    path: /?ed=2560
+  sni: '       [By EbraSha] trojan-HK '
+  type: trojan
+- name: 12|🇭🇰 HK-8 | Mix
+  password: BxceQaOe
+  port: 443
+  security: tls
+  server: 58.152.46.60
+  servername: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
+  skip-cert-verify: false
+  sni: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
+  type: trojan
 - allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.de5.net
-  insecure: '1'
-  name: 11|🇭🇰 HK-9 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 31035
+  headerType: none
+  name: 12|🇭🇰 HK-9 | Mix
+  network: tcp
+  password: BxceQaOe
+  port: 443
   security: tls
-  server: 175.29.22.75
-  servername: snippet.danfeng.de5.net
+  server: 58.152.46.60
+  servername: '������ [By DukeMehdi] trojan-HK '
   skip-cert-verify: true
-  sni: snippet.danfeng.de5.net
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.de5.net
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.ccwu.cc
-  insecure: '1'
-  name: 11|🇭🇰 HK-10 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 39738
-  security: tls
-  server: 8.217.101.195
-  servername: snippet.danfeng.ccwu.cc
-  skip-cert-verify: true
-  sni: snippet.danfeng.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.ccwu.cc
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.gv.uy
-  insecure: '1'
-  name: 11|🇭🇰 HK-11 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 21034
-  security: tls
-  server: 175.29.22.42
-  servername: snippet.danfeng.gv.uy
-  skip-cert-verify: true
-  sni: snippet.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gv.uy
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.443888.xyz
-  insecure: '1'
-  name: 11|🇭🇰 HK-12 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 60002
-  security: tls
-  server: 45.136.12.68
-  servername: snippet.443888.xyz
-  skip-cert-verify: true
-  sni: snippet.443888.xyz
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.443888.xyz
-    path: /?ed=2560
+  sni: '������ [By DukeMehdi] trojan-HK '
+  type: trojan
+- cipher: aes-128-gcm
+  name: 12|🇭🇰 HK-10 | Mix
+  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  port: 15440
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇭🇰 HK-12 | Mix
+  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  port: 14443
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 14|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
+- name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 443
@@ -314,7 +137,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+- name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -324,7 +147,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 15|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

@@ -1,53 +1,11 @@
 proxies:
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.gfw.hidns.co
-  insecure: '1'
-  name: 11|🇸🇬 SG-1 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 18470
-  security: tls
-  server: 82.23.177.51
-  servername: snippet.gfw.hidns.co
-  skip-cert-verify: true
-  sni: snippet.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.gfw.hidns.co
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.us.ci
-  insecure: '1'
-  name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 18098
-  security: tls
-  server: 103.167.151.182
-  servername: snippet.danfeng.us.ci
-  skip-cert-verify: true
-  sni: snippet.danfeng.us.ci
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.us.ci
-    path: /?ed=2560
-- name: 13,14|新加坡|@ripaojiedian
+- cipher: aes-128-gcm
+  name: 12|🇸🇬 SG-1 | Mix
+  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  port: 11889
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 3901
@@ -55,7 +13,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 3076
@@ -63,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3127
@@ -72,22 +30,8 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  name: 14|🇸🇬 新加坡4|@ripaojiedian
   password: e611027a-7b55-4f64-b8df-258f2d7ef95c
   port: 18017
   server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
   type: ss
-- name: 15|SG_speednode_0012
-  network: ws
-  port: 443
-  server: 8.223.63.150
-  servername: gyhh2333.2288888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.2288888.xyz
-    path: /

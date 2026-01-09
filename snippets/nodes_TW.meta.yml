@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇹🇼 TW-1 | 8EB
+  name: 11|🇹🇼 TW-1 | 8EB
   port: 443
   reality-opts:
     public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
@@ -13,55 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.de5.net
-  insecure: '1'
-  name: 11|🇹🇼 TW-1 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 28010
-  security: tls
-  server: 166.0.198.81
-  servername: snippet.danfeng.de5.net
-  skip-cert-verify: true
-  sni: snippet.danfeng.de5.net
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.de5.net
-    path: /?ed=2560
-- allowInsecure: '1'
-  alpn:
-  - h3
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  host: snippet.danfeng.netlib.re
-  insecure: '1'
-  name: 11|🇹🇼 TW-2 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 28142
-  security: tls
-  server: 166.0.198.81
-  servername: snippet.danfeng.netlib.re
-  skip-cert-verify: true
-  sni: snippet.danfeng.netlib.re
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.netlib.re
-    path: /?ed=2560
-- name: 15|TW_speednode_0013
+- name: 16|TW_speednode_0025
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
