@@ -1,4 +1,12 @@
 proxies:
+- name: 9|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
@@ -123,7 +131,7 @@ proxies:
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
-  server: 160.16.81.84
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -138,8 +146,8 @@ proxies:
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.125.94
+  port: 2173
+  server: 18.163.194.227
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
