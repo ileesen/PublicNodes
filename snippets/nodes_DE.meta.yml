@@ -22,26 +22,8 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - encryption: none
-  host: GfV5t2331T.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-1 | Mix
-  network: ws
-  path: /
-  port: 443
-  security: tls
-  server: api.dark-coffe.com
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  skip-cert-verify: false
-  sni: GfV5t2331T.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-    path: /
-- encryption: none
   host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  name: 12|🇩🇪 DE-2 | Mix
+  name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /
   port: 2087
@@ -59,7 +41,7 @@ proxies:
     path: /
 - encryption: none
   host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-3 | Mix
+  name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /
   port: 8443
@@ -77,7 +59,7 @@ proxies:
     path: /
 - encryption: none
   host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-4 | Mix
+  name: 12|🇩🇪 DE-3 | Mix
   network: ws
   path: /
   port: 2096
@@ -93,6 +75,26 @@ proxies:
     headers:
       Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
+- encryption: none
+  host: oon.visaups.ir
+  name: 12|🇩🇪 DE-4 | Mix
+  network: ws
+  path: /
+  port: 80
+  security: none
+  server: oon.visaups.ir
+  type: vless
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+    path: /
+- cipher: aes-128-gcm
+  name: 12|🇩🇪 DE-6 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 29909
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
 - name: 16|DE_speednode_0008
   network: ws
   port: 2087

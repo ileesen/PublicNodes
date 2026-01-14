@@ -1,190 +1,163 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇦🇲 AM-1 | Mix
-  password: e716d7bbae4bdd14
-  port: 18792
-  server: 85.90.207.104
-  type: ss
-- allowInsecure: '1'
-  headerType: none
+- add: 8.222.247.20
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fd7ef23e-79a2-4c75-a13b-1dd75af8305e
+  name: 12|🇸🇬 SG-1 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 8.222.247.20
+  tls: false
+  type: vmess
+  uuid: fd7ef23e-79a2-4c75-a13b-1dd75af8305e
+  v: '2'
+- add: 47.84.99.151
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fbfada1e-dfed-4f33-8554-127527d71eb4
+  name: 12|🇸🇬 SG-2 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 47.84.99.151
+  tls: false
+  type: vmess
+  uuid: fbfada1e-dfed-4f33-8554-127527d71eb4
+  v: '2'
+- add: 47.84.126.140
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 413feda1-4908-4208-8f24-d732c558fbe9
+  name: 12|🇸🇬 SG-3 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 47.84.126.140
+  tls: false
+  type: vmess
+  uuid: 413feda1-4908-4208-8f24-d732c558fbe9
+  v: '2'
+- add: 8.211.129.248
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 502d0547-5c6d-4ad5-928c-80378e283317
+  name: 12|🇯🇵 JP-1 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.248
+  tls: false
+  type: vmess
+  uuid: 502d0547-5c6d-4ad5-928c-80378e283317
+  v: '2'
+- add: 8.211.129.90
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  name: 12|🇯🇵 JP-2 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.90
+  tls: false
+  type: vmess
+  uuid: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  v: '2'
+- add: oss-4.qqa678.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: e49b8721-f124-4999-814a-fc777c0ae190
   name: 12|🇭🇰 HK-1 | Mix
+  net: tcp
   network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: t.me/ripaojiedian
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 12|🇭🇰 HK-2 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '       [By EbraSha] b2n.ir/v2ray-configs'
-  skip-cert-verify: false
-  sni: '       [By EbraSha] b2n.ir/v2ray-configs'
-  type: trojan
-- name: 12|🇭🇰 HK-3 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ������ [By DukeMehdi] b2n.ir/v2ray-configs
-  skip-cert-verify: false
-  sni: ������ [By DukeMehdi] b2n.ir/v2ray-configs
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-4 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: t.me%2Fripaojiedian
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-5 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ������
-  skip-cert-verify: true
-  sni: ������
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇺🇸 US-3 | Mix
-  password: c8f11e2ba63181ea
-  port: 11201
-  server: 156.244.20.53
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-1 | Mix
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-2 | Mix
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-3 | Mix
-  password: e716d7bbae4bdd14
-  port: 18791
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇯🇴 JO-1 | Mix
-  password: be5ee3c62f0aae96
-  port: 11201
-  server: 91.106.109.73
-  type: ss
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-6 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ' '
-  skip-cert-verify: true
-  sni: ' '
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-7 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '       [By EbraSha] trojan-HK '
-  skip-cert-verify: true
-  sni: '       [By EbraSha] trojan-HK '
-  type: trojan
-- name: 12|🇭🇰 HK-8 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
-  skip-cert-verify: false
-  sni: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-9 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '������ [By DukeMehdi] trojan-HK '
-  skip-cert-verify: true
-  sni: '������ [By DukeMehdi] trojan-HK '
-  type: trojan
+  port: 47081
+  ps: ⚡香港
+  scy: auto
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
+  v: '2'
 - cipher: aes-128-gcm
-  name: 12|🇭🇰 HK-10 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
-  port: 15440
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 12|🇭🇰 HK-12 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇭🇰 HK-3 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 14443
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇺🇸 US-9 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇺🇸 US-14 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 10741
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇯🇵 JP-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇯🇵 JP-3 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 11482
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇸🇬 SG-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇹🇼 TW-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 15838
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇰🇷 KR-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 37748
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇩🇪 DE-6 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 29909
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇬🇧 GB-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 16303
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇲🇾 MY-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 11889
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
   name: 12|🇵🇭 PH-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 35541
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇰🇭 KH-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
-  port: 36432
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
-- cipher: aes-128-gcm
   name: 12|🇫🇷 FR-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 49212
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
   name: 12|🇹🇷 TR-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 47708
   server: shrimp-door-9527.gym0boy.com
   type: ss

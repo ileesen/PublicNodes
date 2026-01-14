@@ -39,7 +39,7 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -59,7 +59,7 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -75,17 +75,11 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇺🇸 US-3 | Mix
-  password: c8f11e2ba63181ea
-  port: 11201
-  server: 156.244.20.53
-  type: ss
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -105,7 +99,7 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -121,9 +115,99 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- cipher: aes-128-gcm
+- encryption: none
+  host: l.ayovo.netlib.re
   name: 12|🇺🇸 US-9 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-10 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-11 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.224.5
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.227.134
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- cipher: aes-128-gcm
+  name: 12|🇺🇸 US-14 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 10741
   server: shrimp-door-9527.gym0boy.com
   type: ss

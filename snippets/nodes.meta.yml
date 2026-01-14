@@ -436,53 +436,28 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇦🇲 AM-1 | Mix
-  password: e716d7bbae4bdd14
-  port: 18792
-  server: 85.90.207.104
-  type: ss
 - encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇷🇺 RU-1 | Mix
-  network: tcp
-  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+  host: GfV5t2331T.sMaRtTeChZaAl.InFo
+  name: 12|🇩🇪 DE-5 | Mix
+  network: ws
+  path: /
   port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    server-name: hls-svod.itunes.apple.com
-    short-id: 86e999a2cdc2
-  security: reality
-  server: us01-vlr01-gmn03.vpnvezdehod.net
-  sid: 86e999a2cdc2
-  sni: hls-svod.itunes.apple.com
+  security: tls
+  server: api.dark-coffe.com
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  skip-cert-verify: false
+  sni: GfV5t2331T.sMaRtTeChZaAl.InFo
   tls: true
   type: vless
-  uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇷🇺 RU-2 | Mix
-  network: tcp
-  pbk: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-  port: 443
-  reality-opts:
-    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-    server-name: eh.vk.com
-    short-id: 4d4421a0bac569
-  security: reality
-  server: 51.250.4.181
-  sid: 4d4421a0bac569
-  sni: eh.vk.com
-  tls: true
-  type: vless
-  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
 - encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -498,64 +473,10 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-1 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: t.me/ripaojiedian
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 12|🇭🇰 HK-2 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '       [By EbraSha] b2n.ir/v2ray-configs'
-  skip-cert-verify: false
-  sni: '       [By EbraSha] b2n.ir/v2ray-configs'
-  type: trojan
-- name: 12|🇭🇰 HK-3 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ������ [By DukeMehdi] b2n.ir/v2ray-configs
-  skip-cert-verify: false
-  sni: ������ [By DukeMehdi] b2n.ir/v2ray-configs
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-4 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: t.me%2Fripaojiedian
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-5 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ������
-  skip-cert-verify: true
-  sni: ������
-  type: trojan
 - encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -575,7 +496,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 12|🇷🇺 RU-3 | Mix
+  name: 12|🇷🇺 RU-1 | Mix
   network: tcp
   pbk: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
   port: 7443
@@ -590,70 +511,9 @@ proxies:
   tls: true
   type: vless
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇺🇸 US-3 | Mix
-  password: c8f11e2ba63181ea
-  port: 11201
-  server: 156.244.20.53
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-1 | Mix
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-2 | Mix
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇱🇺 LU-3 | Mix
-  password: e716d7bbae4bdd14
-  port: 18791
-  server: 85.90.207.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇯🇴 JO-1 | Mix
-  password: be5ee3c62f0aae96
-  port: 11201
-  server: 91.106.109.73
-  type: ss
-- encryption: none
-  headerType: none
-  name: 12|🇸🇮 SI-1 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: ficdn16.suio.me
-  servername: ficdn16.suio.me
-  skip-cert-verify: false
-  sni: ficdn16.suio.me
-  tls: true
-  type: vless
-  uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
-- encryption: none
-  host: GfV5t2331T.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-1 | Mix
-  network: ws
-  path: /
-  port: 443
-  security: tls
-  server: api.dark-coffe.com
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  skip-cert-verify: false
-  sni: GfV5t2331T.sMaRtTeChZaAl.InFo
-  tls: true
-  type: vless
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-    path: /
 - encryption: none
   host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  name: 12|🇩🇪 DE-2 | Mix
+  name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /
   port: 2087
@@ -671,7 +531,7 @@ proxies:
     path: /
 - encryption: none
   host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-3 | Mix
+  name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /
   port: 8443
@@ -689,7 +549,7 @@ proxies:
     path: /
 - encryption: none
   host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  name: 12|🇩🇪 DE-4 | Mix
+  name: 12|🇩🇪 DE-3 | Mix
   network: ws
   path: /
   port: 2096
@@ -705,74 +565,10 @@ proxies:
     headers:
       Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-6 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: ' '
-  skip-cert-verify: true
-  sni: ' '
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-7 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '       [By EbraSha] trojan-HK '
-  skip-cert-verify: true
-  sni: '       [By EbraSha] trojan-HK '
-  type: trojan
-- name: 12|🇭🇰 HK-8 | Mix
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
-  skip-cert-verify: false
-  sni: '������ [By DukeMehdi] b2n.ir/v2ray-configs '
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 12|🇭🇰 HK-9 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.46.60
-  servername: '������ [By DukeMehdi] trojan-HK '
-  skip-cert-verify: true
-  sni: '������ [By DukeMehdi] trojan-HK '
-  type: trojan
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇳🇱 NL-1 | Mix
-  network: tcp
-  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    server-name: hls-svod.itunes.apple.com
-    short-id: '31'
-  security: reality
-  server: nl02-vlr01.tcp-reset-club.net
-  sid: '31'
-  sni: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  uuid: b81c61f9-51d5-48a4-84a6-1715f41d89fb
 - encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -791,7 +587,7 @@ proxies:
 - encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 12|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -808,93 +604,298 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 12|🇲🇩 MD-1 | Mix
-  network: tcp
-  pbk: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-  port: 8443
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    server-name: m.vk.com
-    short-id: 8f222b3475800821
-  security: reality
-  server: 83.166.236.201
-  sid: 8f222b3475800821
-  sni: m.vk.com
-  tls: true
-  type: vless
-  uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 12|🇷🇺 RU-4 | Mix
-  network: tcp
-  pbk: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-9 | Mix
+  network: ws
+  path: /?ed=2560
   port: 443
-  reality-opts:
-    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-    server-name: eh.vk.com
-    short-id: 4d4421a0bac569
-  security: reality
-  server: vkll.takovpn.ru
-  sid: 4d4421a0bac569
-  sni: eh.vk.com
+  security: tls
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
   tls: true
   type: vless
-  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-10 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-11 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.224.5
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.227.134
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: oon.visaups.ir
+  name: 12|🇩🇪 DE-4 | Mix
+  network: ws
+  path: /
+  port: 80
+  security: none
+  server: oon.visaups.ir
+  type: vless
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+    path: /
+- add: 8.222.247.20
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fd7ef23e-79a2-4c75-a13b-1dd75af8305e
+  name: 12|🇸🇬 SG-1 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 8.222.247.20
+  tls: false
+  type: vmess
+  uuid: fd7ef23e-79a2-4c75-a13b-1dd75af8305e
+  v: '2'
+- add: 47.84.99.151
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fbfada1e-dfed-4f33-8554-127527d71eb4
+  name: 12|🇸🇬 SG-2 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 47.84.99.151
+  tls: false
+  type: vmess
+  uuid: fbfada1e-dfed-4f33-8554-127527d71eb4
+  v: '2'
+- add: 47.84.126.140
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 413feda1-4908-4208-8f24-d732c558fbe9
+  name: 12|🇸🇬 SG-3 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡新加坡
+  scy: auto
+  server: 47.84.126.140
+  tls: false
+  type: vmess
+  uuid: 413feda1-4908-4208-8f24-d732c558fbe9
+  v: '2'
+- add: 8.211.129.248
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 502d0547-5c6d-4ad5-928c-80378e283317
+  name: 12|🇯🇵 JP-1 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.248
+  tls: false
+  type: vmess
+  uuid: 502d0547-5c6d-4ad5-928c-80378e283317
+  v: '2'
+- add: 8.211.129.90
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  name: 12|🇯🇵 JP-2 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.90
+  tls: false
+  type: vmess
+  uuid: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  v: '2'
+- encryption: none
+  host: welcomtofreeboarders.com
+  name: 12|🇫🇮 FI-1 | Mix
+  network: ws
+  path: /ws/?ed=2048/@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz/?2048
+  port: 80
+  security: none
+  server: 146.75.119.82
+  sni: welcomtofreeboarders.com
+  type: vless
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+    path: /ws/?ed=2048/@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz@azadmarz/?2048
+- encryption: none
+  host: visvuev-272526281716252527717252.poshakhowdy.ir.
+  name: 12|🇫🇮 FI-2 | Mix
+  network: ws
+  path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
+  port: 80
+  security: none
+  server: bastion.h3.speed.cloudflare.com
+  sni: visvuev-272526281716252527717252.poshakhowdy.ir.
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
+    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
+- add: oss-4.qqa678.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: e49b8721-f124-4999-814a-fc777c0ae190
+  name: 12|🇭🇰 HK-1 | Mix
+  net: tcp
+  network: tcp
+  port: 47081
+  ps: ⚡香港
+  scy: auto
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
+  v: '2'
 - cipher: aes-128-gcm
-  name: 12|🇭🇰 HK-10 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
-  port: 15440
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 12|🇭🇰 HK-12 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇭🇰 HK-3 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 14443
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇺🇸 US-9 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇺🇸 US-14 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 10741
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇯🇵 JP-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇯🇵 JP-3 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 11482
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇸🇬 SG-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  name: 12|🇹🇼 TW-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 15838
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇰🇷 KR-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 37748
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇩🇪 DE-6 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 29909
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇬🇧 GB-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
+  port: 16303
+  server: shrimp-door-9527.gym0boy.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 12|🇲🇾 MY-1 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 11889
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
   name: 12|🇵🇭 PH-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 35541
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
-  name: 12|🇰🇭 KH-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
-  port: 36432
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
-- cipher: aes-128-gcm
   name: 12|🇫🇷 FR-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 49212
   server: shrimp-door-9527.gym0boy.com
   type: ss
 - cipher: aes-128-gcm
   name: 12|🇹🇷 TR-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 47708
   server: shrimp-door-9527.gym0boy.com
   type: ss

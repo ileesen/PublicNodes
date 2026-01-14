@@ -46,9 +46,41 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- cipher: aes-128-gcm
+- add: 8.211.129.248
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 502d0547-5c6d-4ad5-928c-80378e283317
   name: 12|🇯🇵 JP-1 | Mix
-  password: 97817c16-700b-4a2d-80e5-f4c24b6bbb2e
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.248
+  tls: false
+  type: vmess
+  uuid: 502d0547-5c6d-4ad5-928c-80378e283317
+  v: '2'
+- add: 8.211.129.90
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  name: 12|🇯🇵 JP-2 | Mix
+  net: tcp
+  network: tcp
+  port: 8080
+  ps: ⚡日本
+  scy: auto
+  server: 8.211.129.90
+  tls: false
+  type: vmess
+  uuid: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  v: '2'
+- cipher: aes-128-gcm
+  name: 12|🇯🇵 JP-3 | Mix
+  password: 65d1855d-bc51-4465-aa34-162a71cef891
   port: 11482
   server: shrimp-door-9527.gym0boy.com
   type: ss
