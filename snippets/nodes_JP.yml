@@ -1,42 +1,132 @@
 proxies:
-- add: 8.211.129.248
+- add: manga.jp01.bilibilicloud01.net
   aid: '0'
   alterId: 0
   cipher: auto
-  id: 502d0547-5c6d-4ad5-928c-80378e283317
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
   name: 12|🇯🇵 JP-1 | Mix
   net: tcp
   network: tcp
-  port: 8080
-  ps: ⚡日本
+  port: 50001
+  ps: 🇯🇵 Basic-日本-BGP-01
   scy: auto
-  server: 8.211.129.248
+  server: manga.jp01.bilibilicloud01.net
   tls: false
   type: vmess
-  uuid: 502d0547-5c6d-4ad5-928c-80378e283317
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
   v: '2'
-- add: 8.211.129.90
+- add: manga.jp02.bilibilicloud01.net
   aid: '0'
   alterId: 0
   cipher: auto
-  id: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
   name: 12|🇯🇵 JP-2 | Mix
   net: tcp
   network: tcp
-  port: 8080
-  ps: ⚡日本
+  port: 58417
+  ps: 🇯🇵 Basic-日本-BGP-02
   scy: auto
-  server: 8.211.129.90
+  server: manga.jp02.bilibilicloud01.net
   tls: false
   type: vmess
-  uuid: fff4b8ba-bb26-4dd1-adef-067bb17e11bd
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
   v: '2'
-- cipher: aes-128-gcm
+- add: game.jp01.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
   name: 12|🇯🇵 JP-3 | Mix
-  password: 65d1855d-bc51-4465-aa34-162a71cef891
-  port: 11482
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
+  net: tcp
+  network: tcp
+  port: 50187
+  ps: 🇯🇵 Pro-日本-BGP-01
+  scy: auto
+  server: game.jp01.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
+- add: game.jp02.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇯🇵 JP-4 | Mix
+  net: tcp
+  network: tcp
+  port: 50188
+  ps: 🇯🇵 Pro-日本-BGP-02
+  scy: auto
+  server: game.jp02.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
+- add: game.jp03.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇯🇵 JP-5 | Mix
+  net: tcp
+  network: tcp
+  port: 50189
+  ps: 🇯🇵 Pro-日本-BGP-03
+  scy: auto
+  server: game.jp03.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
+- add: game.jp04.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇯🇵 JP-6 | Mix
+  net: tcp
+  network: tcp
+  port: 50191
+  ps: 🇯🇵 Pro-日本-BGP-04
+  scy: auto
+  server: game.jp04.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
+- add: game.jp05.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇯🇵 JP-7 | Mix
+  net: tcp
+  network: tcp
+  port: 50192
+  ps: 🇯🇵 Pro-日本-BGP-05
+  scy: auto
+  server: game.jp05.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
+- add: game.jp06.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇯🇵 JP-8 | Mix
+  net: tcp
+  network: tcp
+  port: 50810
+  ps: 🇯🇵 Pro-日本-BGP-06
+  scy: auto
+  server: game.jp06.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

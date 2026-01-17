@@ -1,7 +1,28 @@
 proxies:
-- cipher: aes-128-gcm
+- headerType: none
   name: 12|🇩🇪 DE-6 | Mix
-  password: 65d1855d-bc51-4465-aa34-162a71cef891
-  port: 29909
-  server: shrimp-door-9527.gym0boy.com
-  type: ss
+  network: tcp
+  password: d51abb35-94a4-4529-9244-2808beaa4624
+  port: 35837
+  security: tls
+  server: de.yiciyuanquicken.online
+  servername: de.yiciyuanquicken.online
+  skip-cert-verify: false
+  sni: de.yiciyuanquicken.online
+  type: trojan
+- add: live.bilibilicloud01.com
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  name: 12|🇩🇪 DE-7 | Mix
+  net: tcp
+  network: tcp
+  port: 53943
+  ps: 🇩🇪 德国-Pro-01
+  scy: auto
+  server: live.bilibilicloud01.com
+  tls: false
+  type: vmess
+  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  v: '2'
