@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-1 | 8EB
+  name: 11|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -13,23 +13,43 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- add: show.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇰🇷 KR-1 | Mix
-  net: tcp
-  network: tcp
-  port: 50111
-  ps: 🇰🇷 Pro-韩国-03
-  scy: auto
-  server: show.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- name: 15|KR_speednode_0012
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇰🇷 KR-1 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: vip2.kaixincloud.top
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇰🇷 KR-2 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: vip1.kaixincloud.top
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- name: 16|KR_speednode_0012
   password: test.+
   port: 30446
   server: testkr3.ssv.vc

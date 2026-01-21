@@ -1,5 +1,5 @@
 proxies:
-- name: 8|美国2
+- name: 9|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 10|🇺🇸 US-5 | 8EB
+- name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
   server: 134.195.101.191
@@ -16,7 +16,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 11|🇺🇸 US-6 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -26,7 +26,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 11|🇺🇸 US-7 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -39,7 +39,27 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-27 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-30 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -59,27 +79,7 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-34 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -99,7 +99,7 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-31 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -117,12 +117,12 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
-  path: /?ed=2560
+  path: /x-aniu/?ed=2560
   port: 443
   security: tls
-  server: 104.17.25.173
+  server: 162.159.45.232
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -132,10 +132,46 @@ proxies:
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: newwk1.f1w.de5.net
+  name: 12|🇺🇸 US-6 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 2083
+  security: tls
+  server: test2.f1u.us.ci
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  sni: newwk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: newwk1.f1w.de5.net
     path: /?ed=2560
 - encryption: none
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-10 | Mix
+  name: 12|🇺🇸 US-7 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -152,10 +188,121 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-11 | Mix
+  host: snip.qqq.hidns.co
+  name: 12|🇺🇸 US-9 | Mix
   network: ws
   path: /?ed=2560
+  port: 443
+  security: tls
+  server: registry.cyou
+  servername: snip.qqq.hidns.co
+  skip-cert-verify: false
+  sni: snip.qqq.hidns.co
+  tls: true
+  type: vless
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.qqq.hidns.co
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-10 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇺🇸 US-11 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: store.ubi.com
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-12 | Mix
+  network: tcp
+  port: 443
+  security: tls
+  server: 144.31.0.64
+  servername: plcdn1.suio.me
+  skip-cert-verify: false
+  sni: plcdn1.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-14 | Mix
+  network: tcp
+  port: 443
+  security: tls
+  server: 144.31.2.127
+  servername: plcdn20.suio.me
+  skip-cert-verify: false
+  sni: plcdn20.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-15 | Mix
+  network: tcp
+  port: 443
+  security: tls
+  server: 144.31.0.228
+  servername: plcdn5.suio.me
+  skip-cert-verify: false
+  sni: plcdn5.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
   port: 443
   security: tls
   server: 104.21.224.5
@@ -168,10 +315,94 @@ proxies:
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-17 | Mix
+  network: tcp
+  port: 443
+  security: tls
+  server: plcdn5.suio.me
+  servername: plcdn5.suio.me
+  skip-cert-verify: false
+  sni: plcdn5.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-18 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇺🇸 US-19 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: v1.dabache.top
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
     path: /?ed=2560
 - encryption: none
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-12 | Mix
+  name: 12|🇺🇸 US-20 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.16.63
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: snip.qqq.hidns.co
+  name: 12|🇺🇸 US-21 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: icook.hk
+  servername: snip.qqq.hidns.co
+  skip-cert-verify: false
+  sni: snip.qqq.hidns.co
+  tls: true
+  type: vless
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.qqq.hidns.co
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-22 | Mix
   network: ws
   path: /?ed=2560
   port: 443
@@ -189,12 +420,12 @@ proxies:
     path: /?ed=2560
 - encryption: none
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-13 | Mix
+  name: 12|🇺🇸 US-23 | Mix
   network: ws
   path: /x-aniu/?ed=2560
   port: 443
   security: tls
-  server: 162.159.45.232
+  server: 162.159.16.63
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -205,183 +436,194 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /x-aniu/?ed=2560
-- add: game.us01.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-14 | Mix
-  net: tcp
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-24 | Mix
   network: tcp
-  port: 47602
-  ps: 🇺🇲 Basic-美国-BGP-01
-  scy: auto
-  server: game.us01.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us02.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-15 | Mix
-  net: tcp
+  port: 443
+  security: tls
+  server: plcdn1.suio.me
+  servername: plcdn1.suio.me
+  skip-cert-verify: false
+  sni: plcdn1.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  headerType: none
+  name: 12|🇺🇸 US-25 | Mix
   network: tcp
-  port: 49121
-  ps: 🇺🇲 Basic-美国-BGP-02
-  scy: auto
-  server: game.us02.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us03.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-16 | Mix
-  net: tcp
-  network: tcp
-  port: 49125
-  ps: 🇺🇲 Basic-美国-BGP-03
-  scy: auto
-  server: game.us03.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us04.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-17 | Mix
-  net: tcp
-  network: tcp
-  port: 49126
-  ps: 🇺🇲 Basic-美国-BGP-04
-  scy: auto
-  server: game.us04.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us05.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-18 | Mix
-  net: tcp
-  network: tcp
-  port: 49127
-  ps: 🇺🇲 Basic-美国-BGP-05
-  scy: auto
-  server: game.us05.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us06.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-19 | Mix
-  net: tcp
-  network: tcp
-  port: 53944
-  ps: 🇺🇲 Basic-美国-BGP-06
-  scy: auto
-  server: game.us06.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us07.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-20 | Mix
-  net: tcp
-  network: tcp
-  port: 60303
-  ps: 🇺🇲 Basic-美国-BGP-07
-  scy: auto
-  server: game.us07.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us01.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-21 | Mix
-  net: tcp
-  network: tcp
-  port: 36677
-  ps: 🇺🇲 Pro-美国-BGP-01
-  scy: auto
-  server: game.us01.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us02.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-22 | Mix
-  net: tcp
-  network: tcp
-  port: 23009
-  ps: 🇺🇲 Pro-美国-BGP-02
-  scy: auto
-  server: game.us02.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us03.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-23 | Mix
-  net: tcp
-  network: tcp
-  port: 58420
-  ps: 🇺🇲 Pro-美国-BGP-03
-  scy: auto
-  server: game.us03.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.us04.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇺🇸 US-24 | Mix
-  net: tcp
-  network: tcp
-  port: 48861
-  ps: 🇺🇲 Pro-美国-BGP-04
-  scy: auto
-  server: game.us04.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- name: 13,14|美国|@ripaojiedian
+  port: 443
+  security: tls
+  server: plcdn13.suio.me
+  servername: plcdn13.suio.me
+  skip-cert-verify: false
+  sni: plcdn13.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- encryption: none
+  host: snip.qqq.hidns.co
+  name: 12|🇺🇸 US-26 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: time.is
+  servername: snip.qqq.hidns.co
+  skip-cert-verify: false
+  sni: snip.qqq.hidns.co
+  tls: true
+  type: vless
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.qqq.hidns.co
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-28 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: cloudflare.182682.xyz
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: snip.qqq.hidns.co
+  name: 12|🇺🇸 US-29 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: cloudflare.182682.xyz
+  servername: snip.qqq.hidns.co
+  skip-cert-verify: false
+  sni: snip.qqq.hidns.co
+  tls: true
+  type: vless
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.qqq.hidns.co
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-32 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇺🇸 US-33 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: staticdelivery.nexusmods.com
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-35 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.227.134
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-36 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-37 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 443
+  security: tls
+  server: 104.21.224.5
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- encryption: none
+  host: l.ayovo.netlib.re
+  name: 12|🇺🇸 US-38 | Mix
+  network: ws
+  path: /x-aniu/?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  sni: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
@@ -389,7 +631,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
@@ -397,7 +639,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4569
@@ -407,7 +649,7 @@ proxies:
   type: trojan
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0020
+  name: 16|US_speednode_0020
   port: 8443
   reality-opts:
     public-key: UeBcV1nVO3N5d8Ng15MviC_hCnFO3zc0vrB5ykUaGRE

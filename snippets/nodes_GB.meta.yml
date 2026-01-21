@@ -1,21 +1,57 @@
 proxies:
-- add: live.bilibilicloud01.com
+- encryption: none
+  host: kb.as129394.me
+  name: 12|🇬🇧 GB-1 | Mix
+  network: ws
+  path: /?ed=2560
+  port: 8443
+  security: tls
+  server: 172.64.157.136
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  sni: kb.as129394.me
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- add: 82.198.246.97
   aid: '0'
   alterId: 0
   cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇬🇧 GB-1 | Mix
+  id: d13fc2f5-3e05-4795-81eb-44143a09e552
+  name: 12|🇬🇧 GB-2 | Mix
   net: tcp
   network: tcp
-  port: 53125
-  ps: 🇬🇧 英国-Pro-01
+  port: 180
+  ps: ⚡英国
   scy: auto
-  server: live.bilibilicloud01.com
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   v: '2'
-- name: 15|GB_speednode_0009
+- encryption: none
+  host: speed1.best-cloud.ir
+  name: 12|🇬🇧 GB-3 | Mix
+  network: ws
+  path: /?ed=2048
+  port: 2096
+  security: tls
+  server: 25.129.197.138
+  servername: speed1.best-cloud.ir
+  skip-cert-verify: false
+  sni: speed1.best-cloud.ir
+  tls: true
+  type: vless
+  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+  ws-opts:
+    headers:
+      Host: speed1.best-cloud.ir
+    path: /?ed=2048
+- name: 16|GB_speednode_0009
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -29,7 +65,7 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 15|GB_speednode_0006
+- name: 16|GB_speednode_0006
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -45,7 +81,7 @@ proxies:
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0007
+  name: 16|GB_speednode_0007
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -56,7 +92,7 @@ proxies:
   type: vless
   udp: true
   uuid: 94b14627-b624-4518-b9b6-9a3aae70f3ac
-- name: 15|GB_speednode_0008
+- name: 16|GB_speednode_0008
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -71,7 +107,7 @@ proxies:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - client-fingerprint: firefox
-  name: 15|GB_speednode_0010
+  name: 16|GB_speednode_0010
   port: 587
   reality-opts:
     public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc

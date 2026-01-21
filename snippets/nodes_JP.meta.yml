@@ -1,5 +1,5 @@
 proxies:
-- name: 8|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
@@ -7,7 +7,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 10|🇯🇵 JP-2 | 8EB
+  name: 11|🇯🇵 JP-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-4 | 8EB
+  name: 11|🇯🇵 JP-4 | 8EB
   port: 443
   reality-opts:
     public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
@@ -32,7 +32,7 @@ proxies:
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇯🇵 JP-6 | 8EB
+  name: 11|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
   server: 69.84.182.13
@@ -46,135 +46,7 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- add: manga.jp01.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-1 | Mix
-  net: tcp
-  network: tcp
-  port: 50001
-  ps: 🇯🇵 Basic-日本-BGP-01
-  scy: auto
-  server: manga.jp01.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: manga.jp02.bilibilicloud01.net
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-2 | Mix
-  net: tcp
-  network: tcp
-  port: 58417
-  ps: 🇯🇵 Basic-日本-BGP-02
-  scy: auto
-  server: manga.jp02.bilibilicloud01.net
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp01.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-3 | Mix
-  net: tcp
-  network: tcp
-  port: 50187
-  ps: 🇯🇵 Pro-日本-BGP-01
-  scy: auto
-  server: game.jp01.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp02.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-4 | Mix
-  net: tcp
-  network: tcp
-  port: 50188
-  ps: 🇯🇵 Pro-日本-BGP-02
-  scy: auto
-  server: game.jp02.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp03.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-5 | Mix
-  net: tcp
-  network: tcp
-  port: 50189
-  ps: 🇯🇵 Pro-日本-BGP-03
-  scy: auto
-  server: game.jp03.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp04.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-6 | Mix
-  net: tcp
-  network: tcp
-  port: 50191
-  ps: 🇯🇵 Pro-日本-BGP-04
-  scy: auto
-  server: game.jp04.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp05.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-7 | Mix
-  net: tcp
-  network: tcp
-  port: 50192
-  ps: 🇯🇵 Pro-日本-BGP-05
-  scy: auto
-  server: game.jp05.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- add: game.jp06.bilibilicloud01.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  name: 11|🇯🇵 JP-8 | Mix
-  net: tcp
-  network: tcp
-  port: 50810
-  ps: 🇯🇵 Pro-日本-BGP-06
-  scy: auto
-  server: game.jp06.bilibilicloud01.com
-  tls: false
-  type: vmess
-  uuid: 382b285d-ef4e-3eaf-bfa4-ebad17461de9
-  v: '2'
-- name: 13,14|日本|@ripaojiedian
+- name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -182,7 +54,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
@@ -190,7 +62,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
