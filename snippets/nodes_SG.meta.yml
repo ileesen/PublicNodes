@@ -61,13 +61,15 @@ proxies:
     headers:
       Host: snip.qqq.hidns.co
     path: /?ed=2560
-- name: 15|新加坡|@ripaojiedian
+- name: 15,16|JP_speednode_0010
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3076
   server: 160.16.89.176
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 15|新加坡2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
