@@ -46,7 +46,7 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- name: 15|日本|@ripaojiedian
+- name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -54,14 +54,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 15|日本2|@ripaojiedian
+- name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 2053
   server: 54.238.172.125
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 15,16|JP_speednode_0009
+- name: 14,15,16|JP_speednode_0009
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
