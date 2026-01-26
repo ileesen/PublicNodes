@@ -24,3 +24,62 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇨🇭 CH-1 | Mix
+  network: tcp
+  pbk: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server-name: sun6-21.userapi.com
+    short-id: 6ba85179e30d4fc2
+  security: reality
+  server: 138.124.79.3
+  sid: 6ba85179e30d4fc2
+  sni: sun6-21.userapi.com
+  tls: true
+  type: vless
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: ios
+  headerType: none
+  name: 11|🇫🇷 FR-2 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20601
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: 601.gp68knq.com
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 11|🇫🇷 FR-3 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20601
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: xiaoniu.niucdn.click
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927

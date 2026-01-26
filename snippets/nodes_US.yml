@@ -1,4 +1,24 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  fp: chrome
+  host: www.creationlong.org
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  password: humanity
+  path: /assignment
+  port: 443
+  security: tls
+  server: 208.103.161.110
+  servername: www.creationlong.org
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16

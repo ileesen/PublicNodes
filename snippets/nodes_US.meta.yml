@@ -35,16 +35,36 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  fp: chrome
+  host: www.creationlong.org
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  password: humanity
+  path: /assignment
+  port: 443
+  security: tls
+  server: 208.103.161.110
+  servername: www.creationlong.org
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-27 | Mix
+  name: 11|🇺🇸 US-3 | Mix
   network: ws
   path: /?ed=2560
   port: 443
   security: tls
-  server: 162.159.45.232
+  server: 198.62.62.241
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -59,12 +79,12 @@ proxies:
   encryption: none
   fp: chrome
   host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-30 | Mix
+  name: 11|🇺🇸 US-4 | Mix
   network: ws
   path: /?ed=2560
   port: 443
   security: tls
-  server: cloudflare.182682.xyz
+  server: 104.17.25.173
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -78,51 +98,13 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-34 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-31 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
   host: l.ayovo.netlib.re
   name: 11|🇺🇸 US-5 | Mix
   network: ws
-  path: /x-aniu/?ed=2560
+  path: /?ed=2560
   port: 443
   security: tls
-  server: 162.159.45.232
+  server: 104.21.227.134
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -132,33 +114,17 @@ proxies:
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  host: newwk1.f1w.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: l.ayovo.netlib.re
   name: 11|🇺🇸 US-6 | Mix
   network: ws
   path: /?ed=2560
-  port: 2083
-  security: tls
-  server: test2.f1u.us.ci
-  servername: newwk1.f1w.de5.net
-  skip-cert-verify: false
-  sni: newwk1.f1w.de5.net
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: newwk1.f1w.de5.net
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
   port: 443
   security: tls
-  server: 104.16.250.22
+  server: 104.18.185.26
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -168,15 +134,35 @@ proxies:
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
+    path: /?ed=2560
 - encryption: none
+  host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+  port: 443
+  security: tls
+  server: 162.159.152.4
+  servername: pages.dev
+  skip-cert-verify: false
+  sni: pages.dev
+  tls: true
+  type: vless
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  ws-opts:
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
   host: l.ayovo.netlib.re
   name: 11|🇺🇸 US-8 | Mix
   network: ws
   path: /?ed=2560
   port: 443
   security: tls
-  server: 104.16.250.22
+  server: 104.21.224.5
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   sni: l.ayovo.netlib.re
@@ -188,444 +174,64 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - encryption: none
-  host: snip.qqq.hidns.co
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 11|🇺🇸 US-9 | Mix
-  network: ws
-  path: /?ed=2560
+  network: tcp
+  pbk: Z_V0NAxK8Srw4gsBd3LvF53JCgvP3ihwH9yxKVu5Q0U
   port: 443
-  security: tls
-  server: registry.cyou
-  servername: snip.qqq.hidns.co
-  skip-cert-verify: false
-  sni: snip.qqq.hidns.co
+  reality-opts:
+    public-key: Z_V0NAxK8Srw4gsBd3LvF53JCgvP3ihwH9yxKVu5Q0U
+    server-name: www.microsoft.com
+    short-id: 2bab2c945dcd675f
+  security: reality
+  server: santa-clara-02.ptu.ink
+  sid: 2bab2c945dcd675f
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-  ws-opts:
-    headers:
-      Host: snip.qqq.hidns.co
-    path: /?ed=2560
+  uuid: e5041986-523e-4311-95ea-de6e667e67f4
 - encryption: none
-  host: l.ayovo.netlib.re
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
   name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20401
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: xiaoniu.niucdn.click
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - encryption: none
-  host: kb.as129394.me
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: store.ubi.com
-  servername: kb.as129394.me
-  skip-cert-verify: false
-  sni: kb.as129394.me
-  tls: true
-  type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    headers:
-      Host: kb.as129394.me
-    path: /?ed=2560
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-12 | Mix
   network: tcp
-  port: 443
-  security: tls
-  server: 144.31.0.64
-  servername: plcdn1.suio.me
-  skip-cert-verify: false
-  sni: plcdn1.suio.me
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20401
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: 401.gp68knq.com
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
   tls: true
   type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-14 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: 144.31.2.127
-  servername: plcdn20.suio.me
-  skip-cert-verify: false
-  sni: plcdn20.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-15 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: 144.31.0.228
-  servername: plcdn5.suio.me
-  skip-cert-verify: false
-  sni: plcdn5.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-16 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 104.21.224.5
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-17 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: plcdn5.suio.me
-  servername: plcdn5.suio.me
-  skip-cert-verify: false
-  sni: plcdn5.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-18 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 104.18.185.26
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  host: kb.as129394.me
-  name: 11|🇺🇸 US-19 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: v1.dabache.top
-  servername: kb.as129394.me
-  skip-cert-verify: false
-  sni: kb.as129394.me
-  tls: true
-  type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    headers:
-      Host: kb.as129394.me
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11,15|US_speednode_0031
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
-  host: snip.qqq.hidns.co
-  name: 11|🇺🇸 US-21 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: icook.hk
-  servername: snip.qqq.hidns.co
-  skip-cert-verify: false
-  sni: snip.qqq.hidns.co
-  tls: true
-  type: vless
-  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-  ws-opts:
-    headers:
-      Host: snip.qqq.hidns.co
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-22 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 104.21.227.134
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-23 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-24 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: plcdn1.suio.me
-  servername: plcdn1.suio.me
-  skip-cert-verify: false
-  sni: plcdn1.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  headerType: none
-  name: 11|🇺🇸 US-25 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: plcdn13.suio.me
-  servername: plcdn13.suio.me
-  skip-cert-verify: false
-  sni: plcdn13.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- encryption: none
-  host: snip.qqq.hidns.co
-  name: 11|🇺🇸 US-26 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: time.is
-  servername: snip.qqq.hidns.co
-  skip-cert-verify: false
-  sni: snip.qqq.hidns.co
-  tls: true
-  type: vless
-  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-  ws-opts:
-    headers:
-      Host: snip.qqq.hidns.co
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  host: l.ayovo.netlib.re
-  name: 11,15|US_speednode_0028
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
-  host: snip.qqq.hidns.co
-  name: 11|🇺🇸 US-29 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: cloudflare.182682.xyz
-  servername: snip.qqq.hidns.co
-  skip-cert-verify: false
-  sni: snip.qqq.hidns.co
-  tls: true
-  type: vless
-  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-  ws-opts:
-    headers:
-      Host: snip.qqq.hidns.co
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-32 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  host: kb.as129394.me
-  name: 11|🇺🇸 US-33 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: staticdelivery.nexusmods.com
-  servername: kb.as129394.me
-  skip-cert-verify: false
-  sni: kb.as129394.me
-  tls: true
-  type: vless
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    headers:
-      Host: kb.as129394.me
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-35 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 104.21.227.134
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-36 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 104.18.185.26
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-37 | Mix
-  network: ws
-  path: /?ed=2560
-  port: 443
-  security: tls
-  server: 104.21.224.5
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- encryption: none
-  host: l.ayovo.netlib.re
-  name: 11|🇺🇸 US-38 | Mix
-  network: ws
-  path: /x-aniu/?ed=2560
-  port: 443
-  security: tls
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  sni: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
@@ -749,6 +355,21 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0028
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
 - name: 15|US_speednode_0029
   network: ws
   port: 443
@@ -767,6 +388,20 @@ proxies:
   network: ws
   port: 443
   server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 15|US_speednode_0031
+  network: ws
+  port: 443
+  server: 162.159.16.63
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true

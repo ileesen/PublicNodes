@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇪🇪 EE-1 | Mix
+  network: tcp
+  pbk: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    server-name: hls-svod.itunes.apple.com
+    short-id: '31'
+  security: reality
+  server: 185.215.186.115
+  sid: '31'
+  sni: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+- alpn:
+  - h2
+  - http/1.1
+  authority: nodec.azurka.org
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: api
+  mode: multi
+  name: 11|🇪🇪 EE-2 | Mix
+  network: grpc
+  port: 443
+  security: tls
+  server: nodec.azurka.org
+  servername: nodec.azurka.org
+  serviceName: api
+  skip-cert-verify: false
+  sni: nodec.azurka.org
+  tls: true
+  type: vless
+  uuid: 0d12578e-50da-41b9-a913-6c1d8c0dd713

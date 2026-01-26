@@ -21,23 +21,127 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- http-opts:
-    headers:
-      Host:
-      - www.speedtest.net
-    method: GET
-    path:
-    - /
-  name: 15|DE_speednode_0008
-  network: http
-  port: 443
-  server: 152.53.33.43
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: false
+- encryption: none
+  fp: firefox
+  mode: auto
+  name: 11|🇩🇪 DE-1 | Mix
+  network: xhttp
+  path: /
+  pbk: -VZ3qK6joS4VOx3GkpDbaA9RzVUcrcivmA1RstOSHzY
+  port: 98
+  reality-opts:
+    public-key: -VZ3qK6joS4VOx3GkpDbaA9RzVUcrcivmA1RstOSHzY
+    server-name: www.latimes.com
+    short-id: cd59
+  security: reality
+  server: 45.145.41.181
+  sid: cd59
+  sni: www.latimes.com
+  spx: /
+  tls: true
   type: vless
-  udp: true
-  uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
+  uuid: 66247b1e-053a-44bf-ae3c-06437b87b3e6
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  encryption: none
+  host: page.anjue39.qzz.io
+  name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  path: /
+  port: 8443
+  security: tls
+  server: 80.66.85.115
+  servername: page.anjue39.qzz.io
+  skip-cert-verify: false
+  sni: page.anjue39.qzz.io
+  tls: true
+  type: vless
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  ws-opts:
+    headers:
+      Host: page.anjue39.qzz.io
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: mrx.xher0.de
+  name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  path: /IfUknowThenUKnow
+  port: 2053
+  security: tls
+  server: xhero.kharabetam.de
+  servername: mrx.xher0.de
+  skip-cert-verify: false
+  sni: mrx.xher0.de
+  tls: true
+  type: vless
+  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
+  ws-opts:
+    headers:
+      Host: mrx.xher0.de
+    path: /IfUknowThenUKnow
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 11|🇩🇪 DE-4 | Mix
+  network: tcp
+  pbk: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+  port: 443
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    server-name: al.cdn.stun.su
+    short-id: 3846b9259d66cc64
+  security: reality
+  server: 185.177.238.99
+  sid: 3846b9259d66cc64
+  sni: al.cdn.stun.su
+  tls: true
+  type: vless
+  uuid: c38e6142-9223-47ef-84ce-2a84a308cafb
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 11|🇧🇪 BE-1 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20501
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: 501.gp68knq.com
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 11|🇧🇪 BE-2 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20501
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: xiaoniu.niucdn.click
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - alpn:
   - h3
   - h2

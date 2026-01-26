@@ -46,6 +46,46 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20301
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: xiaoniu.niucdn.click
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 11|🇯🇵 JP-2 | Mix
+  network: tcp
+  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+  port: 20301
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    server-name: img14.360buyimg.com
+    short-id: '9153'
+  security: reality
+  server: 301.gp68knq.com
+  sid: '9153'
+  sni: img14.360buyimg.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
