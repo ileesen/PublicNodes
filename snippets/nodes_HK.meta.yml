@@ -1,5 +1,5 @@
 proxies:
-- name: 9| HK
+- name: 8| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -7,7 +7,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   udp: true
 - allowInsecure: '1'
   headerType: none
-  name: 12|🇭🇰 HK-5 | Mix
+  name: 11|🇭🇰 HK-5 | Mix
   network: tcp
   password: BxceQaOe
   port: 443
@@ -29,7 +29,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
 - headerType: none
-  name: 12,14,15|香港3|@ripaojiedian
+  name: 11,13,14|香港3|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
@@ -41,7 +41,7 @@ proxies:
   type: trojan
 - allowInsecure: '1'
   headerType: none
-  name: 12|🇭🇰 HK-9 | Mix
+  name: 11|🇭🇰 HK-9 | Mix
   network: tcp
   password: BxceQaOe
   port: 443
@@ -54,7 +54,7 @@ proxies:
 - fp: chrome
   grpc-opts:
     grpc-service-name: ''
-  name: 12|🇭🇰 HK-8 | Mix
+  name: 11|🇭🇰 HK-8 | Mix
   network: grpc
   password: q4oerwN2UA
   pbk: AxHqJCigFf4BzJlj4EeD6FloA-PYwr2rw2clWtCB4FU
@@ -68,7 +68,7 @@ proxies:
   type: trojan
 - allowInsecure: '1'
   headerType: none
-  name: 12|🇭🇰 HK-7 | Mix
+  name: 11|🇭🇰 HK-7 | Mix
   network: tcp
   password: BxceQaOe
   port: 443
@@ -83,7 +83,7 @@ proxies:
   alterId: 64
   cipher: auto
   id: 418048af-a293-4b99-9b0c-98ca3580dd24
-  name: 12|🇭🇰 HK-10 | Mix
+  name: 11|🇭🇰 HK-10 | Mix
   net: tcp
   network: tcp
   path: /
@@ -99,7 +99,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: safari
   headerType: none
-  name: 12|🇭🇰 HK-11 | Mix
+  name: 11|🇭🇰 HK-11 | Mix
   network: tcp
   pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
   port: 20101
@@ -117,14 +117,14 @@ proxies:
   uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -132,7 +132,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1867
@@ -142,7 +142,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
