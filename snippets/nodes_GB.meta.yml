@@ -8,7 +8,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 11|🇬🇧 GB-1 | Mix
+  name: 12|🇬🇧 GB-1 | Mix
   network: tcp
   port: 443
   security: tls
@@ -22,7 +22,7 @@ proxies:
 - encryption: none
   fp: chrome
   headerType: none
-  name: 11|🇬🇧 GB-2 | Mix
+  name: 12|🇬🇧 GB-2 | Mix
   network: tcp
   pbk: 4WqRiCOcMKx7ffnW2tQ_il4gSwuR58ReAjnwR5CfBX4
   port: 8443
@@ -42,7 +42,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: qq
   headerType: none
-  name: 11|🇬🇧 GB-3 | Mix
+  name: 12|🇬🇧 GB-3 | Mix
   network: tcp
   pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
   port: 20701
@@ -62,7 +62,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: firefox
   headerType: none
-  name: 11|🇬🇧 GB-4 | Mix
+  name: 12|🇬🇧 GB-4 | Mix
   network: tcp
   pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
   port: 20701
@@ -79,21 +79,22 @@ proxies:
   type: vless
   uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇬🇧 英国|@ripaojiedian
+  name: 14|🇬🇧 英国|@ripaojiedian
   password: kaQH3hGdcP80XEDI
   port: 443
   server: admin.c2.havij.co
   type: ss
-- name: 15|GB_speednode_0010
-  network: ws
-  password: 42bbf526-5530-470a-aeec-3b919b21c58d
-  port: 31687
-  server: 185.245.83.41
-  skip-cert-verify: true
-  sni: 0000.hkvip.ip-ddns.com
-  type: trojan
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 16|GB_speednode_0003
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: d923
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: 0000.hkvip.ip-ddns.com
-    path: /?ed=2560
+  uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
