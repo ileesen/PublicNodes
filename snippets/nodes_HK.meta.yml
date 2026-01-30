@@ -1,5 +1,5 @@
 proxies:
-- name: 7| HK
+- name: 9| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -7,7 +7,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 9|🇭🇰 HK-2 | 8EB
+  name: 11|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -16,108 +16,9 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- allowInsecure: '1'
-  headerType: none
-  name: 10|🇭🇰 HK-5 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.53.45
-  servername: t.me/ripaojiedian
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- headerType: none
-  name: 10|🇭🇰 HK-6 | Mix
-  network: tcp
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 443
-  security: tls
-  server: 58.152.110.210
-  servername: www.nintendogames.net
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 10|🇭🇰 HK-9 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 58.152.25.130
-  servername: 58.152.25.130
-  skip-cert-verify: true
-  sni: 58.152.25.130
-  type: trojan
-- fp: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: 10|🇭🇰 HK-8 | Mix
-  network: grpc
-  password: q4oerwN2UA
-  pbk: AxHqJCigFf4BzJlj4EeD6FloA-PYwr2rw2clWtCB4FU
-  port: 19066
-  security: reality
-  server: hk.scpnb.top
-  servername: www.amazon.com
-  sid: '803975'
-  skip-cert-verify: false
-  sni: www.amazon.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  name: 10|🇭🇰 HK-7 | Mix
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  security: tls
-  server: 219.76.135.98
-  servername: 219.76.135.98
-  skip-cert-verify: true
-  sni: 219.76.135.98
-  type: trojan
-- add: 103.181.165.237
-  aid: '64'
-  alterId: 64
-  cipher: auto
-  id: 418048af-a293-4b99-9b0c-98ca3580dd24
-  name: 10|🇭🇰 HK-10 | Mix
-  net: tcp
-  network: tcp
-  path: /
-  port: 31332
-  ps: 🇭🇰 香港 | HK-011 @pgkj0402
-  scy: auto
-  server: 103.181.165.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  v: '2'
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  name: 10|🇭🇰 HK-11 | Mix
-  network: tcp
-  pbk: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
-  port: 20101
-  reality-opts:
-    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
-    server-name: img14.360buyimg.com
-    short-id: '9153'
-  security: reality
-  server: xiaoniu.niucdn.click
-  sid: '9153'
-  sni: img14.360buyimg.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 962bffc1-16bb-4232-ae66-d366d3ea8927
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 14|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -126,14 +27,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 14|🇭🇰 香港2|@ripaojiedian
   port: 34659
   server: 47.242.192.233
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: 12,13|香港3|@ripaojiedian
+- name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
@@ -141,7 +42,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -149,7 +50,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1867
@@ -159,7 +60,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 15|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -169,7 +70,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13|香港2|@ripaojiedian
+  name: 15|香港2|@ripaojiedian
   network: tcp
   port: '34659'
   server: 47.242.192.233
@@ -177,7 +78,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: 14|HK_speednode_0007
+- name: 16|HK_speednode_0007
   network: ws
   port: 443
   server: 43.161.254.121
