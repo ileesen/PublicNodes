@@ -16,8 +16,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 12345
-  server: 183.104.233.94
+  port: 10250
+  server: 114.206.159.15
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -31,8 +31,23 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-2 | Mix
   network: ws
-  port: 25000
-  server: 116.123.6.19
+  port: 50001
+  server: 211.57.249.235
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-3 | Mix
+  network: ws
+  port: 33890
+  server: 119.206.37.103
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
