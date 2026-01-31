@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-1 | 8EB
   port: 443
   reality-opts:
     public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
@@ -22,40 +22,10 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: random
-  name: 12|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 8443
-  server: 185.103.252.108
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 8443
-  server: 193.42.63.254
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2053
-  server: 152.228.134.25
+  port: 443
+  server: 91.107.137.49
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -67,7 +37,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 16|DE_speednode_0005
+  name: 15|DE_speednode_0005
   port: 7008
   reality-opts:
     public-key: OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws
