@@ -173,8 +173,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 8443
-  server: 64.238.203.76
+  port: 40001
+  server: 192.69.94.7
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -188,8 +188,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.42
+  port: 8443
+  server: 64.238.203.119
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -203,8 +203,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 10090
-  server: 193.163.19.131
+  port: 50360
+  server: 45.146.82.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: 107.173.165.210
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  port: 29609
+  server: 154.17.12.15
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -239,101 +269,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 16|US_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: 1vMO86Bpz3FJNbtRPaGVOee9ZdEcXGY6WcQblDLpqWA
-    short-id: d46670db1e
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 16|US_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: HU0XwQRJ0oZh88krUesOhRt6HRdT4pmX2HDunaOS4To
-    short-id: bb76de71
-  server: hk6.miyazono-kaori.com
-  servername: www.maxims.com.hk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
 - client-fingerprint: chrome
-  name: 16|US_speednode_0024
+  name: 16|US_speednode_0012
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
+  server: 144.31.1.125
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fdf3bd07-b310-487e-ada8-538e19e835f5
-- client-fingerprint: chrome
-  name: 16|US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
-- name: 16|US_speednode_0026
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 16|US_speednode_0013
   port: 1080
   server: 174.138.61.184
   type: socks5
   udp: true
-- client-fingerprint: chrome
-  name: 16|US_speednode_0027
+- name: 16|US_speednode_0014
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  server: plcdn11.suio.me
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 16|US_speednode_0015
+  network: ws
+  port: 2053
+  server: 50.62.195.9
+  servername: vw.badomzamini.uk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 174711b1-013d-4ec6-9f69-485ff008d50f
-- client-fingerprint: chrome
-  name: 16|US_speednode_0028
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10155e8d-e052-4b50-b8b6-2ae2d418b311
-- client-fingerprint: chrome
-  name: 16|US_speednode_0029
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e12e60f8-f955-4b46-905d-fd99692e19d7
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: vw.badomzamini.uk
+    path: /latest?ed=2560
