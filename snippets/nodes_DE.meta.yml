@@ -24,8 +24,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
-  server: 157.245.27.205
+  port: 2053
+  server: 91.107.152.105
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -36,9 +36,23 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
+- name: 16|DE_speednode_0009
+  network: ws
+  port: 8881
+  server: dlc-nl1.persianpinggame.ir
+  servername: divarcdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 34dae96c-1a41-434f-94b6-5507c3a6d318
+  ws-opts:
+    headers:
+      Host: divarcdn.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|DE_speednode_0001
+  name: 16|DE_speednode_0010
   port: 350
   reality-opts:
     public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E

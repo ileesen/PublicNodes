@@ -173,8 +173,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 444
-  server: 92.118.231.77
+  port: 443
+  server: 148.153.157.141
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -188,8 +188,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 142.171.77.215
+  port: 2087
+  server: 154.81.141.191
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -203,8 +203,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 192.9.236.144
+  port: 39738
+  server: 38.22.237.130
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -218,8 +218,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-13 | Mix
   network: ws
-  port: 17197
-  server: 38.105.27.66
+  port: 2083
+  server: 45.202.113.248
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -233,8 +233,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-14 | Mix
   network: ws
-  port: 443
-  server: 154.92.9.124
+  port: 18888
+  server: 144.34.231.35
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -249,7 +249,7 @@ proxies:
   name: 12|🇺🇸 US-15 | Mix
   network: ws
   port: 443
-  server: 84.32.131.159
+  server: 3.82.153.90
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -263,8 +263,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-16 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.89
+  port: 8443
+  server: 64.238.203.102
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -279,7 +279,22 @@ proxies:
   name: 12|🇺🇸 US-17 | Mix
   network: ws
   port: 443
-  server: 107.173.165.210
+  server: 45.202.113.184
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-18 | Mix
+  network: ws
+  port: 2083
+  server: 154.92.9.95
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -314,41 +329,93 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 16|US_speednode_0012
-  port: 443
-  server: 144.31.1.125
-  servername: plcdn11.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: 16|US_speednode_0013
-  port: 1080
-  server: 174.138.61.184
-  type: socks5
-  udp: true
-- name: 16|US_speednode_0014
-  port: 443
-  server: plcdn11.suio.me
-  servername: plcdn11.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: 16|US_speednode_0015
+- client-fingerprint: randomized
+  name: 16|US_speednode_0036
   network: ws
-  port: 2053
-  server: 50.62.195.9
-  servername: vw.badomzamini.uk
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 16|US_speednode_0038
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 16|US_speednode_0039
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 16|US_speednode_0040
+  network: ws
+  port: 443
+  server: afrcloud4.c01.kr
+  servername: afrcloud4.c01.kr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  uuid: 2275e858-8aff-44fe-b816-d85c2ab372e5
   ws-opts:
     headers:
-      Host: vw.badomzamini.uk
-    path: /latest?ed=2560
+      Host: afrcloud4.c01.kr
+    path: /47.254.255.125=443
+- client-fingerprint: chrome
+  name: 16|US_speednode_0041
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: randomized
+  name: 16|US_speednode_0042
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /

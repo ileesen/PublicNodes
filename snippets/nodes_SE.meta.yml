@@ -2,8 +2,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇸🇪 SE-1 | Mix
   network: ws
-  port: 2053
-  server: 46.8.238.49
+  port: 8443
+  server: 94.183.190.229
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -14,21 +14,3 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 16|SE_speednode_0009
-  port: 443
-  server: secdn13.suio.me
-  servername: secdn13.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-- name: 16|SE_speednode_0010
-  port: 443
-  server: secdn11.suio.me
-  servername: secdn11.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
