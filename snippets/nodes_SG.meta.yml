@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 9|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,32 +7,62 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 13,14|新加坡|@ripaojiedian
+- client-fingerprint: random
+  name: 12|🇸🇬 SG-1 | Mix
+  network: ws
+  port: 52295
+  server: 140.245.51.172
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇸🇬 SG-2 | Mix
+  network: ws
+  port: 47124
+  server: 45.78.18.232
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 14,15|新加坡|@ripaojiedian
+  network: tcp
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 390
+  server: 160.16.87.174
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
   server: 152.42.254.150
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 178.128.114.70
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 57.181.26.149
+  port: 3579
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 15|SG_speednode_0035
+  name: 16|SG_speednode_0035
   port: 443
   reality-opts:
     public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
