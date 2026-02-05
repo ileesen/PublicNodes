@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | 8EB
+  name: 10|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -14,10 +14,10 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: random
-  name: 12|🇰🇷 KR-1 | Mix
+  name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 10003
-  server: 211.226.183.89
+  port: 37015
+  server: 221.159.78.220
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -29,10 +29,55 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 10002
-  server: 61.79.126.130
+  port: 50006
+  server: 221.162.120.94
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-3 | Mix
+  network: ws
+  port: 16478
+  server: 203.170.125.48
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-4 | Mix
+  network: ws
+  port: 16607
+  server: 203.170.125.48
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-5 | Mix
+  network: ws
+  port: 15074
+  server: 203.170.125.48
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
