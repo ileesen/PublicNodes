@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-1 | 8EB
   port: 443
   reality-opts:
     public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
@@ -22,10 +22,25 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: random
-  name: 12|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
+  network: ws
+  port: 3030
+  server: 65.109.211.85
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇩🇪 DE-2 | Mix
   network: ws
   port: 443
-  server: 94.125.101.247
+  server: 93.185.156.138
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -37,70 +52,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 443
-  server: 195.133.83.193
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 443
-  server: 23.88.88.105
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-4 | Mix
-  network: ws
-  port: 443
-  server: 91.107.183.182
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-5 | Mix
-  network: ws
-  port: 20205
-  server: 139.144.77.240
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-6 | Mix
-  network: ws
-  port: 2011
-  server: 89.58.27.36
+  port: 2053
+  server: 38.180.104.35
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -112,7 +67,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 16|DE_speednode_0008
+  name: 15|DE_speednode_0008
   network: ws
   port: 443
   server: 194.9.6.3
@@ -126,7 +81,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0009
+- name: 15|DE_speednode_0009
   network: ws
   port: 443
   server: 45.153.230.220
@@ -140,7 +95,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0010
+- name: 15|DE_speednode_0010
   network: ws
   port: 2096
   server: 5.10.214.238
@@ -154,7 +109,7 @@ proxies:
     headers:
       Host: sni.jpmj.dev
     path: /?ed=2560
-- name: 16|DE_speednode_0011
+- name: 15|DE_speednode_0011
   network: ws
   port: 443
   server: 195.245.239.195
@@ -168,7 +123,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0012
+- name: 15|DE_speednode_0012
   network: ws
   port: 2053
   server: 45.144.233.205
@@ -182,7 +137,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0013
+- name: 15|DE_speednode_0013
   network: ws
   port: 443
   server: 93.185.156.138
@@ -196,7 +151,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0014
+- name: 15|DE_speednode_0014
   network: ws
   port: 8443
   server: 5.39.249.10
@@ -210,7 +165,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|DE_speednode_0015
+- name: 15|DE_speednode_0015
   network: ws
   port: 443
   server: 92.246.136.62

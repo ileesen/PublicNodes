@@ -1,5 +1,5 @@
 proxies:
-- name: 9| HK
+- name: 8| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -7,7 +7,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -16,16 +16,31 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- client-fingerprint: random
+  name: 11|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 8007
+  server: 54.46.72.234
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
@@ -33,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4183
@@ -41,7 +56,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3292
@@ -51,7 +66,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -59,7 +74,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 16|HK_speednode_0030
+- name: 15|HK_speednode_0030
   password: BxceQaOe
   port: 443
   server: 112.120.31.36
@@ -67,7 +82,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 16|HK_speednode_0031
+- name: 15|HK_speednode_0031
   password: BxceQaOe
   port: 443
   server: 112.120.31.36
@@ -76,7 +91,7 @@ proxies:
   udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 16|HK_speednode_0032
+  name: 15|HK_speednode_0032
   port: 443
   reality-opts:
     public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
@@ -89,7 +104,7 @@ proxies:
   uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 16|HK_speednode_0033
+  name: 15|HK_speednode_0033
   port: 443
   reality-opts:
     public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
@@ -100,7 +115,7 @@ proxies:
   type: vless
   udp: true
   uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- name: 16|HK_speednode_0034
+- name: 15|HK_speednode_0034
   password: BxceQaOe
   port: 443
   server: 112.120.31.36
