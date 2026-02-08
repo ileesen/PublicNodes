@@ -1,5 +1,5 @@
 proxies:
-- name: 9|美国2
+- name: 7|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇺🇸 US-4 | 8EB
+  name: 9|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 11|🇺🇸 US-5 | 8EB
+  name: 9|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -29,7 +29,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 11|🇺🇸 US-7 | 8EB
+  name: 9|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -44,10 +44,10 @@ proxies:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
 - client-fingerprint: random
-  name: 12|🇺🇸 US-1 | Mix
+  name: 10|🇺🇸 US-1 | Mix
   network: ws
-  port: 8443
-  server: cf-cname.xingpingcn.top
+  port: 444
+  server: 92.118.231.72
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -59,10 +59,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-2 | Mix
+  name: 10|🇺🇸 US-2 | Mix
   network: ws
-  port: 8443
-  server: cmcmcm.cf.090227.xyz
+  port: 8080
+  server: 156.229.160.32
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -74,10 +74,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-3 | Mix
+  name: 10|🇺🇸 US-3 | Mix
   network: ws
-  port: 8443
-  server: mfa.gov.ua
+  port: 443
+  server: 148.153.157.175
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -89,10 +89,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-4 | Mix
+  name: 10|🇺🇸 US-4 | Mix
   network: ws
-  port: 8443
-  server: store.ubi.com
+  port: 12907
+  server: 154.9.241.42
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -103,112 +103,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-5 | Mix
-  network: ws
-  port: 8443
-  server: www.shopify.com
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-6 | Mix
-  network: ws
-  port: 8443
-  server: staticdelivery.nexusmods.com
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-7 | Mix
-  network: ws
-  port: 8443
-  server: openai.com
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-8 | Mix
-  network: ws
-  port: 8443
-  server: saas.sin.fan
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-9 | Mix
-  network: ws
-  port: 8443
-  server: cfsaas.080112.xyz
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-10 | Mix
-  network: ws
-  port: 2053
-  server: 45.202.113.199
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-11 | Mix
-  network: ws
-  port: 39738
-  server: 154.44.17.122
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- name: 14,15|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 276
@@ -216,7 +111,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 276
@@ -224,7 +119,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1221
@@ -232,7 +127,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 16|US_speednode_0074
+- name: 14|US_speednode_0074
   network: ws
   port: 2096
   server: 14.102.228.238
@@ -246,7 +141,7 @@ proxies:
     headers:
       Host: sni.jpmj.dev
     path: /?ed=2560
-- name: 16|US_speednode_0075
+- name: 14|US_speednode_0075
   network: ws
   port: 8443
   server: 143.20.213.128
@@ -260,7 +155,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|US_speednode_0076
+- name: 14|US_speednode_0076
   network: ws
   port: 8443
   server: 143.20.236.203
@@ -274,7 +169,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|US_speednode_0077
+- name: 14|US_speednode_0077
   network: ws
   port: 8443
   server: 143.20.213.235
@@ -288,7 +183,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|US_speednode_0078
+- name: 14|US_speednode_0078
   network: ws
   port: 443
   server: 147.75.237.72
@@ -302,7 +197,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|US_speednode_0079
+- name: 14|US_speednode_0079
   network: ws
   password: Aimer
   port: 2053
@@ -315,7 +210,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /
-- name: 16|US_speednode_0080
+- name: 14|US_speednode_0080
   network: ws
   port: 443
   server: 185.218.137.83
@@ -329,7 +224,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560
-- name: 16|US_speednode_0081
+- name: 14|US_speednode_0081
   network: ws
   port: 2053
   server: 199.119.137.95
