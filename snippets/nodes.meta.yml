@@ -37,6 +37,26 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
+- name: 9|☺️92@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.40
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '9,10|@V2rayNG3 #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
 - name: 9|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -63,16 +83,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.41
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -83,7 +93,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|Config 3 - @lebertad
+- name: 10|@icv2ray
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -432,10 +442,25 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
+  name: 12|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 443
+  server: 103.219.193.145
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 5443
-  server: 129.154.50.159
+  port: 12345
+  server: 121.174.43.148
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -449,8 +474,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-2 | Mix
   network: ws
-  port: 39637
-  server: 203.170.125.48
+  port: 12000
+  server: 118.41.27.62
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -464,38 +489,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-3 | Mix
   network: ws
-  port: 18264
-  server: 180.66.110.234
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇰🇷 KR-4 | Mix
-  network: ws
-  port: 10162
-  server: 121.129.33.208
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇰🇷 KR-5 | Mix
-  network: ws
-  port: 15000
-  server: 61.85.171.204
+  port: 27015
+  server: 122.43.47.245
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -509,8 +504,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇸🇬 SG-1 | Mix
   network: ws
-  port: 443
-  server: 124.156.202.172
+  port: 18291
+  server: 168.138.184.104
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -524,8 +519,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 80
-  server: 74.48.129.175
+  port: 11001
+  server: 132.145.217.215
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -539,8 +534,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.212
+  port: 443
+  server: 45.202.113.165
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -555,7 +550,7 @@ proxies:
   name: 12|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 69.63.216.84
+  server: 45.202.113.1
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -569,8 +564,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-13 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.121
+  port: 587
+  server: 38.69.247.31
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -582,10 +577,55 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇦🇺 AU-1 | Mix
+  name: 12|🇺🇸 US-14 | Mix
   network: ws
   port: 443
-  server: 192.9.175.224
+  server: 148.135.51.244
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 12388
+  server: 34.168.95.100
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  port: 39738
+  server: 38.244.5.214
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇨🇦 CA-1 | Mix
+  network: ws
+  port: 8443
+  server: 107.173.80.146
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -599,8 +639,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2053
-  server: 57.129.47.55
+  port: 443
+  server: 38.180.218.80
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -615,7 +655,22 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   port: 8443
-  server: 94.159.96.182
+  server: 51.91.100.9
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇫🇷 FR-1 | Mix
+  network: ws
+  port: 8443
+  server: 94.23.78.198
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -630,7 +685,7 @@ proxies:
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 37.0.6.68
+  server: 192.0.54.104
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -645,22 +700,7 @@ proxies:
   name: 12|🇹🇬 TG-1 | Mix
   network: ws
   port: 443
-  server: 185.42.163.251
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇹🇬 TG-2 | Mix
-  network: ws
-  port: 443
-  server: 185.250.148.240
+  server: 38.244.137.32
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -674,8 +714,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇳🇱 NL-1 | Mix
   network: ws
-  port: 443
-  server: 89.110.83.132
+  port: 2053
+  server: 80.85.246.195
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -687,40 +727,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇳🇱 NL-2 | Mix
+  name: 12|🇸🇪 SE-1 | Mix
   network: ws
-  port: 443
-  server: 164.92.152.170
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇳🇱 NL-3 | Mix
-  network: ws
-  port: 443
-  server: 109.107.167.104
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇵🇱 PL-1 | Mix
-  network: ws
-  port: 443
-  server: 103.231.72.4
+  port: 8443
+  server: 46.8.238.49
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -750,39 +760,39 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
-  server: 54.95.118.21
+  server: 52.195.8.127
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 13.231.5.152
+  port: 4183
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 52.196.168.206
+  port: 3292
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 13.231.5.152
+  port: 26378
+  server: 54.249.105.25
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 1933
-  server: 18.181.173.100
+  port: 4006
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -790,85 +800,58 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 4006
-  server: 54.168.105.60
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3076
-  server: 13.231.53.184
+  port: 3901
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 153.121.45.139
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8041
-  server: 43.199.59.14
+  port: 381
+  server: 43.198.233.56
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 153.121.38.213
+  port: 127
+  server: 54.250.24.198
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 3.112.14.249
+  port: 127
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 18.166.210.2
+  port: 2569
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 14|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 4469
-  server: 168.126.234.247
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
-  port: 32058
-  server: hk3.network-cdn-gw-yd.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14,15|日本4|@ripaojiedian
-  network: ws
-  port: '443'
-  server: tokyo01.zgjok.com
-  servername: tokyo01.zgjok.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
-  ws-opts:
-    headers:
-      Host: tokyo01.zgjok.com
-    path: /
 - alterId: 2
   cipher: auto
   name: 15|香港|@ripaojiedian

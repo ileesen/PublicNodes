@@ -16,6 +16,21 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- client-fingerprint: random
+  name: 12|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 443
+  server: 103.219.193.145
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
   name: 14|🇭🇰 香港|@ripaojiedian
@@ -29,32 +44,26 @@ proxies:
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
-  server: 54.95.118.21
+  server: 52.195.8.127
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 13.231.5.152
+  port: 4183
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 52.196.168.206
+  port: 3292
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
-  port: 32058
-  server: hk3.network-cdn-gw-yd.net
-  type: ss
 - alterId: 2
   cipher: auto
   name: 15|香港|@ripaojiedian

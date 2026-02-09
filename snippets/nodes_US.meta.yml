@@ -181,8 +181,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 80
-  server: 74.48.129.175
+  port: 11001
+  server: 132.145.217.215
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -196,8 +196,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.212
+  port: 443
+  server: 45.202.113.165
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -212,7 +212,7 @@ proxies:
   name: 12|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 69.63.216.84
+  server: 45.202.113.1
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -226,8 +226,53 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-13 | Mix
   network: ws
+  port: 587
+  server: 38.69.247.31
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  port: 443
+  server: 148.135.51.244
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 12388
+  server: 34.168.95.100
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
   port: 39738
-  server: 38.244.5.121
+  server: 38.244.5.214
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -241,24 +286,24 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 153.121.38.213
+  port: 127
+  server: 54.250.24.198
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 3.112.14.249
+  port: 127
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 18.166.210.2
+  port: 2569
+  server: 43.199.47.199
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
