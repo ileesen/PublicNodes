@@ -7,21 +7,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: 12|🇸🇬 SG-1 | Mix
-  network: ws
-  port: 8443
-  server: 43.160.248.66
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
@@ -46,3 +31,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 16|SG_speednode_0037
+  port: 44519
+  server: 43.173.125.15
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6b05ea27-051b-450b-965b-f6c5da11a1f0
