@@ -24,8 +24,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
-  server: 195.133.44.21
+  port: 8443
+  server: 51.75.69.169
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -40,7 +40,7 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   port: 443
-  server: 195.245.239.197
+  server: 94.159.103.41
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -54,8 +54,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
-  port: 2011
-  server: 89.58.27.36
+  port: 8443
+  server: 193.42.60.194
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -69,8 +69,53 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-4 | Mix
   network: ws
+  port: 443
+  server: 94.159.111.157
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-5 | Mix
+  network: ws
   port: 8443
+  server: 64.225.105.119
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-6 | Mix
+  network: ws
+  port: 2053
   server: 57.129.63.154
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-7 | Mix
+  network: ws
+  port: 443
+  server: 51.195.119.2
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
