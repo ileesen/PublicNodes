@@ -50,7 +50,7 @@ proxies:
   name: 12|🇯🇵 JP-1 | Mix
   network: ws
   port: 8443
-  server: cloudflare-dl.cnae.top
+  server: serviceshub.samsclub.com
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -64,23 +64,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇯🇵 JP-2 | Mix
   network: ws
-  port: 80
-  server: 158.101.158.212
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇯🇵 JP-3 | Mix
-  network: ws
-  port: 42550
-  server: 156.246.95.200
+  port: 10912
+  server: 202.122.225.114
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false

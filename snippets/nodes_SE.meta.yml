@@ -1,4 +1,34 @@
 proxies:
+- client-fingerprint: random
+  name: 12|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 2053
+  server: 46.8.70.178
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇸🇪 SE-2 | Mix
+  network: ws
+  port: 8443
+  server: 45.159.249.141
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   name: 16|SE_speednode_0035
   network: ws
