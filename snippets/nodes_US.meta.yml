@@ -1,12 +1,4 @@
 proxies:
-- name: 9|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - mport: 35000-39000
   name: 11|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
@@ -181,8 +173,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 2087
-  server: 154.218.15.9
+  port: 2083
+  server: 45.202.113.7
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -196,8 +188,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
+  port: 39738
+  server: 38.78.147.29
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  port: 449
+  server: 216.144.228.137
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
   port: 443
-  server: 107.175.228.77
+  server: 70.39.196.243
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
