@@ -20,7 +20,37 @@ proxies:
   name: 12|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 103.69.128.41
+  server: 47.76.218.163
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇭🇰 HK-2 | Mix
+  network: ws
+  port: 10001
+  server: 43.161.239.49
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 587
+  server: 8.217.113.62
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -42,9 +72,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 14,15|香港3|@ripaojiedian
   network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4486
-  server: 35.77.81.137
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3373
+  server: 153.121.65.107
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -52,15 +82,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2826
-  server: 18.183.242.254
+  server: 43.199.205.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38301
-  server: 13.114.141.67
+  port: 2826
+  server: 13.231.159.122
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
