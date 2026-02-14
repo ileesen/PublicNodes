@@ -1,14 +1,6 @@
 proxies:
-- name: 8|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - mport: 35000-39000
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 11|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +10,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -29,7 +21,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 11|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -44,7 +36,7 @@ proxies:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
 - client-fingerprint: random
-  name: 11|🇺🇸 US-1 | Mix
+  name: 12|🇺🇸 US-1 | Mix
   network: ws
   port: 8443
   server: cf-cname.xingpingcn.top
@@ -59,7 +51,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-2 | Mix
   network: ws
   port: 8443
   server: cmcmcm.cf.090227.xyz
@@ -74,7 +66,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-3 | Mix
+  name: 12|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
   server: mfa.gov.ua
@@ -89,7 +81,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   network: ws
   port: 8443
   server: store.ubi.com
@@ -104,7 +96,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   port: 8443
   server: www.shopify.com
@@ -119,7 +111,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   port: 8443
   server: staticdelivery.nexusmods.com
@@ -134,7 +126,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   port: 8443
   server: openai.com
@@ -149,7 +141,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   port: 8443
   server: saas.sin.fan
@@ -164,7 +156,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-9 | Mix
   network: ws
   port: 8443
   server: cfsaas.080112.xyz
@@ -179,25 +171,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 16666
-  server: 129.146.242.248
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-11 | Mix
+  name: 12|🇺🇸 US-10 | Mix
   network: ws
   port: 443
-  server: 94.131.109.56
+  server: 154.92.9.73
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -209,10 +186,10 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-12 | Mix
+  name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 34237
-  server: 172.245.133.148
+  port: 2053
+  server: 154.92.9.41
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -223,33 +200,93 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 40548
-  server: 160.16.57.238
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- client-fingerprint: random
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  port: 39738
+  server: 38.244.5.94
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: 103.149.145.117
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  port: 8800
+  server: 35.212.232.177
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 443
+  server: 104.168.87.172
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 2890
-  server: 57.180.14.50
+  server: 54.64.61.41
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
+  network: tcp
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 1281
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3159
-  server: 43.207.89.113
+  port: 28680
+  server: 18.162.45.213
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0013
+  name: 16|US_speednode_0013
   port: 443
   reality-opts:
     public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
@@ -262,7 +299,7 @@ proxies:
   udp: true
   uuid: c6977f74-e620-4748-a2d3-4351a588c659
 - client-fingerprint: chrome
-  name: 15|US_speednode_0014
+  name: 16|US_speednode_0014
   port: 443
   reality-opts:
     public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
@@ -276,7 +313,7 @@ proxies:
   uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0015
+  name: 16|US_speednode_0015
   port: 443
   reality-opts:
     public-key: C7H4Nh55F4B8iHaVHWY6VK562RI6p_t8H7lrX_O8SnQ
