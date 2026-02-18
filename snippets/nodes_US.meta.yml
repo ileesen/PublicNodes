@@ -173,8 +173,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 154.19.242.163
+  port: 8443
+  server: 64.238.203.121
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -188,8 +188,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 8443
-  server: 38.107.232.53
+  port: 7443
+  server: 23.94.100.111
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -203,8 +203,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 156.235.89.199
+  port: 8443
+  server: 31.57.118.168
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -218,8 +218,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-13 | Mix
   network: ws
-  port: 27791
-  server: 172.81.104.156
+  port: 39738
+  server: 38.244.5.49
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -233,8 +233,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-14 | Mix
   network: ws
-  port: 443
-  server: 107.175.235.222
+  port: 20187
+  server: 154.9.241.42
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -248,8 +248,23 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-15 | Mix
   network: ws
-  port: 443
-  server: 47.77.212.38
+  port: 20000
+  server: 198.11.177.97
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  port: 2053
+  server: 154.92.9.80
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -264,7 +279,7 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
-  server: 153.121.38.213
+  server: 43.207.73.82
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
