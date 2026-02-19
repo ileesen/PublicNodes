@@ -16,21 +16,6 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- client-fingerprint: random
-  name: 12|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 443
-  server: 221.139.87.28
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
   name: 14|🇭🇰 香港|@ripaojiedian
@@ -40,25 +25,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
-  port: 10015
-  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
-  type: ss
+  port: 10001
+  server: 27.44.141.89
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
 - name: 14,15|香港3|@ripaojiedian
   network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 3373
-  server: 46.51.224.113
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 443
+  server: 58.152.53.227
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54548
-  server: 95.40.2.208
+  port: 2399
+  server: 13.115.255.16
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -66,7 +54,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 54548
-  server: 57.180.245.83
+  server: 43.207.3.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -80,6 +68,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '10001'
+  server: 27.44.141.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 16|HK_speednode_0002
