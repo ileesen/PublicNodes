@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -11,7 +11,7 @@ proxies:
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-4 | 8EB
   port: 443
   reality-opts:
     public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
@@ -25,7 +25,7 @@ proxies:
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: chrome
   flow: ''
-  name: 11|🇯🇵 JP-6 | 8EB
+  name: 10|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
   server: 69.84.182.13
@@ -40,7 +40,7 @@ proxies:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
 - client-fingerprint: random
-  name: 12|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 4444
   server: 131.186.39.8
@@ -55,7 +55,7 @@ proxies:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 13666
   server: 14.44.32.251
@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 14,15|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 20539
@@ -77,7 +77,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 14,15|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3423
@@ -85,7 +85,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 193
@@ -93,7 +93,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|日本4|@ripaojiedian
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 2053
@@ -103,7 +103,7 @@ proxies:
   type: trojan
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 16|JP_speednode_0004
+  name: 15|JP_speednode_0004
   port: 48816
   reality-opts:
     public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
