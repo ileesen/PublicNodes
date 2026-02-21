@@ -39,36 +39,6 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- client-fingerprint: random
-  name: 11|🇯🇵 JP-1 | Mix
-  network: ws
-  port: 4444
-  server: 131.186.39.8
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  port: 13666
-  server: 14.44.32.251
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

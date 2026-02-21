@@ -3,7 +3,7 @@ proxies:
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 159.65.19.63
+  server: 192.0.63.166
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -18,7 +18,7 @@ proxies:
   name: 11|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 192.0.63.30
+  server: 37.0.6.152
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
@@ -33,7 +33,22 @@ proxies:
   name: 11|🇬🇧 GB-3 | Mix
   network: ws
   port: 443
-  server: 192.0.63.64
+  server: 192.0.54.128
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇬🇧 GB-4 | Mix
+  network: ws
+  port: 443
+  server: 192.0.63.224
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: true
   tfo: false
