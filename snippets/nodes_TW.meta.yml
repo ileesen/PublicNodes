@@ -21,11 +21,22 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- name: 14,15|台湾|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 14|🇹🇼 台湾|@ripaojiedian
+  port: 16811
+  server: ipv6-tw02.cnddns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 15|台湾|@ripaojiedian
   network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
-  skip-cert-verify: true
-  sni: 45.32.28.232
-  type: trojan
+  port: '16811'
+  server: ipv6-tw02.cnddns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
