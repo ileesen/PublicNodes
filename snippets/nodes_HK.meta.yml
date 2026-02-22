@@ -1,5 +1,5 @@
 proxies:
-- name: 9| HK
+- name: 8| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -7,7 +7,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -21,7 +21,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 12|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10126
@@ -42,7 +42,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 12|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10127
@@ -63,7 +63,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 12|🇭🇰 HK-3 | Mix
+  name: 11|🇭🇰 HK-3 | Mix
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10128
@@ -84,7 +84,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 12|🇭🇰 HK-4 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: grpc
   pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
   port: 10129
@@ -100,9 +100,9 @@ proxies:
   tls: true
   type: vless
   uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-- name: 12|🇭🇰 HK-5 | Mix
+- name: 11|🇭🇰 HK-5 | Mix
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20575
+  port: 20447
   server: hk3.dexlos.com
   skip-cert-verify: true
   sni: hk3.dexlos.com
@@ -110,9 +110,9 @@ proxies:
     enabled: true
     server_name: hk3.dexlos.com
   type: hysteria2
-- name: 12|🇭🇰 HK-6 | Mix
+- name: 11|🇭🇰 HK-6 | Mix
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20754
+  port: 20767
   server: hk4.dexlos.com
   skip-cert-verify: true
   sni: hk4.dexlos.com
@@ -120,9 +120,9 @@ proxies:
     enabled: true
     server_name: hk4.dexlos.com
   type: hysteria2
-- name: 12|🇭🇰 HK-7 | Mix
+- name: 11|🇭🇰 HK-7 | Mix
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20931
+  port: 20985
   server: hk5.dexlos.com
   skip-cert-verify: true
   sni: hk5.dexlos.com
@@ -132,14 +132,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4856
@@ -147,7 +147,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2826
@@ -155,7 +155,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 54548
@@ -165,7 +165,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -175,7 +175,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 16|HK_speednode_0002
+  name: 15|HK_speednode_0002
   port: 1314
   reality-opts:
     public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
