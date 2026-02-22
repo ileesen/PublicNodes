@@ -21,6 +21,61 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+- alpn:
+  - h3
+  congestion_control: bbr
+  insecure: '0'
+  name: 11|🇹🇼 TW-1 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 8080
+  server: tw1.dexlos.com
+  sni: tw1.dexlos.com
+  type: tuic
+  udp_relay_mode: native
+- alpn:
+  - h3
+  congestion_control: bbr
+  insecure: '0'
+  name: 11|🇹🇼 TW-2 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 8080
+  server: tw2.dexlos.com
+  sni: tw2.dexlos.com
+  type: tuic
+  udp_relay_mode: native
+- alpn:
+  - h3
+  congestion_control: bbr
+  insecure: '0'
+  name: 11|🇹🇼 TW-3 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 8080
+  server: tw3.dexlos.com
+  sni: tw3.dexlos.com
+  type: tuic
+  udp_relay_mode: native
+- alpn:
+  - h3
+  congestion_control: bbr
+  insecure: '0'
+  name: 11|🇹🇼 TW-4 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 8080
+  server: tw4.dexlos.com
+  sni: tw4.dexlos.com
+  type: tuic
+  udp_relay_mode: native
+- alpn:
+  - h3
+  congestion_control: bbr
+  insecure: '0'
+  name: 11|🇹🇼 TW-5 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 8080
+  server: tw5.dexlos.com
+  sni: tw5.dexlos.com
+  type: tuic
+  udp_relay_mode: native
 - alterId: 0
   cipher: auto
   name: 13|🇹🇼 台湾|@ripaojiedian

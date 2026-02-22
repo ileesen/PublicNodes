@@ -16,6 +16,120 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇭🇰 HK-1 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: hk1-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇭🇰 HK-2 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: hk2-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  mode: gun
+  name: 11|🇭🇰 HK-3 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: hk3-r.link-t7.com
+  serviceName: movie
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  mode: gun
+  name: 11|🇭🇰 HK-4 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10129
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: hk4-r.link-t7.com
+  serviceName: movie
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- name: 11|🇭🇰 HK-5 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20564
+  server: hk3.dexlos.com
+  skip-cert-verify: true
+  sni: hk3.dexlos.com
+  tls:
+    enabled: true
+    server_name: hk3.dexlos.com
+  type: hysteria2
+- name: 11|🇭🇰 HK-6 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20611
+  server: hk4.dexlos.com
+  skip-cert-verify: true
+  sni: hk4.dexlos.com
+  tls:
+    enabled: true
+    server_name: hk4.dexlos.com
+  type: hysteria2
+- name: 11|🇭🇰 HK-7 | Mix
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20808
+  server: hk5.dexlos.com
+  skip-cert-verify: true
+  sni: hk5.dexlos.com
+  tls:
+    enabled: true
+    server_name: hk5.dexlos.com
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

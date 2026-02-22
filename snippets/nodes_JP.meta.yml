@@ -1,4 +1,11 @@
 proxies:
+- name: 8|JP
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - mport: 35000-39000
   name: 10|🇯🇵 JP-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
@@ -39,6 +46,150 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-1 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10031
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: jp1-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-2 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: jp2-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-3 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10033
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: jp3-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-4 | Mix
+  network: grpc
+  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+  port: 10034
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    server-name: s0.awsstatic.com
+    short-id: 686c0ef0
+  security: reality
+  server: jp4-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- name: 11|🇯🇵 JP-5 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20141
+  server: jp1.dexlos.com
+  skip-cert-verify: true
+  sni: jp1.dexlos.com
+  tls:
+    enabled: true
+    server_name: jp1.dexlos.com
+  type: hysteria2
+- name: 11|🇯🇵 JP-6 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20357
+  server: jp2.dexlos.com
+  skip-cert-verify: true
+  sni: jp2.dexlos.com
+  tls:
+    enabled: true
+    server_name: jp2.dexlos.com
+  type: hysteria2
+- name: 11|🇯🇵 JP-7 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20511
+  server: jp3.dexlos.com
+  skip-cert-verify: true
+  sni: jp3.dexlos.com
+  tls:
+    enabled: true
+    server_name: jp3.dexlos.com
+  type: hysteria2
+- name: 11|🇯🇵 JP-8 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20668
+  server: jp4.dexlos.com
+  skip-cert-verify: true
+  sni: jp4.dexlos.com
+  tls:
+    enabled: true
+    server_name: jp4.dexlos.com
+  type: hysteria2
+- name: 11|🇯🇵 JP-9 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20850
+  server: jp5.dexlos.com
+  skip-cert-verify: true
+  sni: jp5.dexlos.com
+  tls:
+    enabled: true
+    server_name: jp5.dexlos.com
+  type: hysteria2
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

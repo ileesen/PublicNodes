@@ -35,276 +35,165 @@ proxies:
     headers:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
-- client-fingerprint: random
-  name: 11|🇺🇸 US-1 | Mix
-  network: ws
-  port: 2096
-  server: cf.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 11|🇺🇸 US-2 | Mix
-  network: ws
-  port: 2096
-  server: cf1.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
+  network: grpc
+  pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+  port: 10041
+  reality-opts:
+    public-key: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+    server-name: www.microsoft.com
+    short-id: 686c0ef0
+  security: reality
+  server: 155.117.87.197
+  serviceName: update
+  sid: 686c0ef0
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 2096
-  server: cf3.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
+  network: grpc
+  pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+  port: 10042
+  reality-opts:
+    public-key: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+    server-name: www.microsoft.com
+    short-id: 686c0ef0
+  security: reality
+  server: 154.3.59.94
+  serviceName: update
+  sid: 686c0ef0
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 2096
-  server: cf4.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
+  network: grpc
+  pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+  port: 10043
+  reality-opts:
+    public-key: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
+    server-name: www.microsoft.com
+    short-id: 686c0ef0
+  security: reality
+  server: us3-r.link-t7.com
+  serviceName: update
+  sid: 686c0ef0
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 2096
-  server: cf5.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
+  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+- name: 11|🇺🇸 US-5 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 21736
+  server: us9.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 2096
-  server: cf6.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
+  sni: us9.dexlos.com
+  tls:
+    enabled: true
+    server_name: us9.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-6 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20313
+  server: us2.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 2096
-  server: cf7.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
+  sni: us2.dexlos.com
+  tls:
+    enabled: true
+    server_name: us2.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-7 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20463
+  server: us3.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-8 | Mix
-  network: ws
-  port: 2096
-  server: cf8.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
+  sni: us3.dexlos.com
+  tls:
+    enabled: true
+    server_name: us3.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-8 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20679
+  server: us4.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-9 | Mix
-  network: ws
-  port: 2096
-  server: cf9.danfeng.eu.org
-  servername: snippet.danfeng.theworkpc.com
+  sni: us4.dexlos.com
+  tls:
+    enabled: true
+    server_name: us4.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-9 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 20861
+  server: us5.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 41082
-  server: 72.249.204.252
-  servername: snippet.danfeng.theworkpc.com
+  sni: us5.dexlos.com
+  tls:
+    enabled: true
+    server_name: us5.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-10 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 21040
+  server: us6.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  port: 39738
-  server: 38.244.5.125
-  servername: snippet.danfeng.theworkpc.com
+  sni: us6.dexlos.com
+  tls:
+    enabled: true
+    server_name: us6.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-11 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 21251
+  server: us7.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 22939
-  server: 69.63.207.43
-  servername: snippet.danfeng.theworkpc.com
+  sni: us7.dexlos.com
+  tls:
+    enabled: true
+    server_name: us7.dexlos.com
+  type: hysteria2
+- name: 11|🇺🇸 US-12 | Mix
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
+  port: 21449
+  server: us8.dexlos.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  port: 444
-  server: 45.43.31.156
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-14 | Mix
-  network: ws
-  port: 39738
-  server: 38.244.8.103
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-15 | Mix
-  network: ws
-  port: 2083
-  server: 45.202.113.7
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-16 | Mix
-  network: ws
-  port: 2096
-  server: 107.173.154.24
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-17 | Mix
-  network: ws
-  port: 8443
-  server: 143.20.213.43
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-18 | Mix
-  network: ws
-  port: 7523
-  server: 67.230.173.3
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
+  sni: us8.dexlos.com
+  tls:
+    enabled: true
+    server_name: us8.dexlos.com
+  type: hysteria2
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
