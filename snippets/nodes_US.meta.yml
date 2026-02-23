@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇺🇸 US-4 | 8EB
+  name: 10|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -10,7 +10,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 11|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -21,7 +21,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 11|🇺🇸 US-7 | 8EB
+  name: 10|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -40,7 +40,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 12|🇺🇸 US-2 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   network: grpc
   pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
   port: 10041
@@ -61,7 +61,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 12|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-3 | Mix
   network: grpc
   pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
   port: 10042
@@ -82,7 +82,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 12|🇺🇸 US-4 | Mix
+  name: 11|🇺🇸 US-4 | Mix
   network: grpc
   pbk: 4ubRpOGo1d0kaRjvob_x0t271IL1P6al2gM5slqf_Fc
   port: 10043
@@ -98,11 +98,11 @@ proxies:
   tls: true
   type: vless
   uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-- name: 12|🇺🇸 US-5 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 21686
+  port: 21641
   server: us9.dexlos.com
   skip-cert-verify: true
   sni: us9.dexlos.com
@@ -110,11 +110,11 @@ proxies:
     enabled: true
     server_name: us9.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-6 | Mix
+- name: 11|🇺🇸 US-6 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20247
+  port: 20388
   server: us2.dexlos.com
   skip-cert-verify: true
   sni: us2.dexlos.com
@@ -122,11 +122,11 @@ proxies:
     enabled: true
     server_name: us2.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-7 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20503
+  port: 20487
   server: us3.dexlos.com
   skip-cert-verify: true
   sni: us3.dexlos.com
@@ -134,11 +134,11 @@ proxies:
     enabled: true
     server_name: us3.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-8 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20744
+  port: 20778
   server: us4.dexlos.com
   skip-cert-verify: true
   sni: us4.dexlos.com
@@ -146,11 +146,11 @@ proxies:
     enabled: true
     server_name: us4.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-9 | Mix
+- name: 11|🇺🇸 US-9 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20862
+  port: 20930
   server: us5.dexlos.com
   skip-cert-verify: true
   sni: us5.dexlos.com
@@ -158,11 +158,11 @@ proxies:
     enabled: true
     server_name: us5.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-10 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 21023
+  port: 21028
   server: us6.dexlos.com
   skip-cert-verify: true
   sni: us6.dexlos.com
@@ -170,11 +170,11 @@ proxies:
     enabled: true
     server_name: us6.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-11 | Mix
+- name: 11|🇺🇸 US-11 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 21356
+  port: 21252
   server: us7.dexlos.com
   skip-cert-verify: true
   sni: us7.dexlos.com
@@ -182,11 +182,11 @@ proxies:
     enabled: true
     server_name: us7.dexlos.com
   type: hysteria2
-- name: 12|🇺🇸 US-12 | Mix
+- name: 11|🇺🇸 US-12 | Mix
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 21432
+  port: 21421
   server: us8.dexlos.com
   skip-cert-verify: true
   sni: us8.dexlos.com
@@ -194,7 +194,7 @@ proxies:
     enabled: true
     server_name: us8.dexlos.com
   type: hysteria2
-- name: 14,15|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
@@ -202,7 +202,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -210,7 +210,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 23287
@@ -218,7 +218,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 16|US_speednode_0015
+- name: 15|US_speednode_0015
   network: ws
   port: 80
   server: 104.18.32.47
@@ -232,7 +232,7 @@ proxies:
     headers:
       Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
     path: /
-- name: 16|US_speednode_0016
+- name: 15|US_speednode_0016
   network: ws
   port: 80
   server: 104.20.1.252
