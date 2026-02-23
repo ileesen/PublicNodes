@@ -7,93 +7,36 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
+- client-fingerprint: random
   name: 11|🇸🇬 SG-1 | Mix
-  network: grpc
-  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    server-name: s0.awsstatic.com
-    short-id: 686c0ef0
-  security: reality
-  server: sg1-r.link-t7.com
-  serviceName: update
-  sid: 686c0ef0
-  sni: s0.awsstatic.com
+  network: ws
+  port: 2096
+  server: cf2.danfeng.eu.org
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
   name: 11|🇸🇬 SG-2 | Mix
-  network: grpc
-  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    server-name: s0.awsstatic.com
-    short-id: 686c0ef0
-  security: reality
-  server: sg2-r.link-t7.com
-  serviceName: update
-  sid: 686c0ef0
-  sni: s0.awsstatic.com
+  network: ws
+  port: 443
+  server: 43.134.174.114
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 11|🇸🇬 SG-3 | Mix
-  network: grpc
-  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    server-name: d1.awsstatic.com
-    short-id: 686c0ef0
-  security: reality
-  server: sg3-r.link-t7.com
-  serviceName: update
-  sid: 686c0ef0
-  sni: d1.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-- name: 11|🇸🇬 SG-4 | Mix
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20755
-  server: sg4.dexlos.com
-  skip-cert-verify: true
-  sni: sg4.dexlos.com
-  tls:
-    enabled: true
-    server_name: sg4.dexlos.com
-  type: hysteria2
-- name: 11|🇸🇬 SG-5 | Mix
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 78EDEE8B-45E0-46EC-A87D-E5AEB292824D
-  port: 20804
-  server: sg5.dexlos.com
-  skip-cert-verify: true
-  sni: sg5.dexlos.com
-  tls:
-    enabled: true
-    server_name: sg5.dexlos.com
-  type: hysteria2
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
