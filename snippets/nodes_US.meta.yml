@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 10|🇺🇸 US-3 | 8EB
+  name: 11|🇺🇸 US-3 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -10,7 +10,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 11|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -21,7 +21,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 11|🇺🇸 US-6 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -36,7 +36,7 @@ proxies:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
 - client-fingerprint: random
-  name: 11|🇺🇸 US-1 | Mix
+  name: 12|🇺🇸 US-1 | Mix
   network: ws
   port: 2096
   server: cf.danfeng.eu.org
@@ -51,7 +51,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-2 | Mix
   network: ws
   port: 2096
   server: cf1.danfeng.eu.org
@@ -66,7 +66,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-3 | Mix
+  name: 12|🇺🇸 US-3 | Mix
   network: ws
   port: 2096
   server: cf3.danfeng.eu.org
@@ -81,7 +81,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   network: ws
   port: 2096
   server: cf4.danfeng.eu.org
@@ -96,7 +96,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   port: 2096
   server: cf5.danfeng.eu.org
@@ -111,7 +111,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   port: 2096
   server: cf6.danfeng.eu.org
@@ -126,7 +126,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   port: 2096
   server: cf7.danfeng.eu.org
@@ -141,7 +141,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   port: 2096
   server: cf8.danfeng.eu.org
@@ -156,7 +156,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-9 | Mix
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
@@ -171,55 +171,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 48611
-  server: 154.9.242.141
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  port: 8443
-  server: 143.20.213.112
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 8443
-  server: 107.174.253.219
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-13 | Mix
+  name: 12|🇺🇸 US-10 | Mix
   network: ws
   port: 443
-  server: 67.226.221.104
+  server: 69.63.198.100
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -231,10 +186,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-14 | Mix
+  name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 20205
-  server: 198.58.105.225
+  port: 3083
+  server: 104.129.11.6
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -245,7 +200,7 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 13,14|美国|@ripaojiedian
+- name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
@@ -253,7 +208,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -261,7 +216,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 23287
@@ -269,7 +224,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0015
+- name: 16|US_speednode_0015
   network: ws
   port: 80
   server: 104.18.32.47
@@ -283,7 +238,7 @@ proxies:
     headers:
       Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
     path: /
-- name: 15|US_speednode_0016
+- name: 16|US_speednode_0016
   network: ws
   port: 80
   server: 104.20.1.252
