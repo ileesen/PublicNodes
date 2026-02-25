@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-1 | 8EB
   port: 443
   reality-opts:
     public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
@@ -22,10 +22,10 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: random
-  name: 12|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2053
-  server: 212.113.101.250
+  port: 443
+  server: 94.159.97.247
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -36,17 +36,18 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 16|DE_speednode_0005
+- client-fingerprint: random
+  name: 11|🇩🇪 DE-2 | Mix
   network: ws
   port: 443
-  server: 185.219.84.221
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
+  server: 77.221.155.180
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
