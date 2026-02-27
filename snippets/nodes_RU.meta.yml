@@ -1,7 +1,22 @@
 proxies:
+- client-fingerprint: random
+  name: 12|🇷🇺 RU-1 | Mix
+  network: ws
+  port: 443
+  server: 94.250.251.225
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0016
+  name: 16|RU_speednode_0016
   port: 443
   reality-opts:
     public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
@@ -15,7 +30,7 @@ proxies:
   uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0017
+  name: 16|RU_speednode_0017
   port: 6443
   reality-opts:
     public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
@@ -29,7 +44,7 @@ proxies:
   uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0018
+  name: 16|RU_speednode_0018
   port: 443
   reality-opts:
     public-key: LCxSn-zcFxBKKztCytR-Wzjt3VwezZs2jN6FtZPQ3n0
@@ -42,7 +57,7 @@ proxies:
   uuid: 4b5fdaeb-518d-4411-b668-eaf4cb757ff2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0019
+  name: 16|RU_speednode_0019
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
@@ -55,7 +70,7 @@ proxies:
   udp: true
   uuid: 72adc5b8-146a-4bfe-921b-5c9e1df016e0
 - client-fingerprint: chrome
-  name: 15|RU_speednode_0020
+  name: 16|RU_speednode_0020
   port: 64527
   reality-opts:
     public-key: wAKyTOUr89tJU2pVUVrwt0dAsxmNfRHXhPQ3IvyGshc
