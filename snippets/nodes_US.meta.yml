@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 11|🇺🇸 US-4 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -10,7 +10,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -21,7 +21,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 11|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -36,7 +36,7 @@ proxies:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
 - client-fingerprint: random
-  name: 11|🇺🇸 US-1 | Mix
+  name: 12|🇺🇸 US-1 | Mix
   network: ws
   port: 443
   server: cf.danfeng.eu.org
@@ -51,7 +51,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-2 | Mix
   network: ws
   port: 443
   server: cf1.danfeng.eu.org
@@ -66,7 +66,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-3 | Mix
+  name: 12|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
   server: cf3.danfeng.eu.org
@@ -81,7 +81,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-4 | Mix
   network: ws
   port: 2053
   server: cf4.danfeng.eu.org
@@ -96,7 +96,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-5 | Mix
   network: ws
   port: 2053
   server: cf5.danfeng.eu.org
@@ -111,7 +111,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-6 | Mix
   network: ws
   port: 2087
   server: cf6.danfeng.eu.org
@@ -126,7 +126,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-7 | Mix
   network: ws
   port: 2087
   server: cf7.danfeng.eu.org
@@ -141,7 +141,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-8 | Mix
   network: ws
   port: 2096
   server: cf8.danfeng.eu.org
@@ -156,7 +156,7 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-9 | Mix
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
@@ -171,10 +171,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-10 | Mix
+  name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 77.110.127.36
+  port: 58161
+  server: 154.17.2.251
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -186,25 +186,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  port: 8443
-  server: 45.82.161.169
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-12 | Mix
+  name: 12|🇺🇸 US-11 | Mix
   network: ws
   port: 39738
-  server: 38.244.5.198
+  server: 38.76.149.60
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -216,25 +201,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  port: 8500
-  server: 173.254.249.52
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-14 | Mix
+  name: 12|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 45.56.84.124
+  server: 173.242.114.19
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -246,25 +216,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 11|🇺🇸 US-15 | Mix
-  network: ws
-  port: 2083
-  server: 45.202.113.233
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇺🇸 US-16 | Mix
+  name: 12|🇺🇸 US-13 | Mix
   network: ws
   port: 443
-  server: 129.146.174.117
+  server: 66.253.7.79
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -275,7 +230,7 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 13,14|美国|@ripaojiedian
+- name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 1281
@@ -283,7 +238,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
@@ -291,7 +246,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45285
@@ -301,7 +256,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0024
+  name: 16|US_speednode_0024
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -314,7 +269,7 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
-  name: 15|US_speednode_0025
+  name: 16|US_speednode_0025
   port: 443
   reality-opts:
     public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
@@ -327,7 +282,7 @@ proxies:
   udp: true
   uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
 - client-fingerprint: chrome
-  name: 15|US_speednode_0026
+  name: 16|US_speednode_0026
   network: ws
   port: 443
   server: 198.62.62.248
@@ -341,7 +296,7 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
-- name: 15|US_speednode_0027
+- name: 16|US_speednode_0027
   password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 443
   server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
@@ -351,7 +306,7 @@ proxies:
   username: bd515574-3b10-11ee-ac14-f23c9164ca5d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+  name: 16|US_speednode_0028
   port: 443
   reality-opts:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
@@ -365,7 +320,7 @@ proxies:
   uuid: e43dd231-7c75-4606-80ec-50fbb8335ce7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
+  name: 16|US_speednode_0029
   port: 23335
   reality-opts:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
