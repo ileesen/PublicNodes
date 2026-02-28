@@ -16,6 +16,21 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- client-fingerprint: random
+  name: 12|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 8443
+  server: 217.60.38.249
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
   name: 14|🇭🇰 香港|@ripaojiedian
@@ -28,24 +43,24 @@ proxies:
 - name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4856
-  server: 52.69.221.238
+  port: 2255
+  server: 3.113.29.187
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2399
-  server: 3.112.5.11
+  port: 388
+  server: 43.207.103.90
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54548
-  server: 95.40.65.207
+  port: 2399
+  server: 43.207.103.90
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
