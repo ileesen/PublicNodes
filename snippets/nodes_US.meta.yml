@@ -173,8 +173,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 23.94.25.70
+  port: 8443
+  server: 154.17.29.62
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -188,8 +188,53 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 142.171.243.241
+  port: 39738
+  server: 38.244.5.138
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  port: 12178
+  server: 121.150.28.21
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  port: 12388
+  server: 34.168.95.100
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  port: 33073
+  server: 104.194.72.66
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -203,24 +248,24 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.185.238
+  port: 4920
+  server: 175.41.195.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 160.16.72.33
+  port: 1281
+  server: 52.195.233.42
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45285
-  server: 18.162.51.53
+  port: 45947
+  server: 18.162.142.234
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
