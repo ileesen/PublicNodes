@@ -1,12 +1,4 @@
 proxies:
-- name: 10|🇺🇸/@en_vpn/کانفیگ های بیشتر
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 50000
-  server: 208.87.242.163
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
@@ -54,8 +46,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-1 | Mix
   network: ws
-  port: 2083
-  server: 154.92.9.6
+  port: 443
+  server: cf.danfeng.eu.org
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -70,7 +62,7 @@ proxies:
   name: 12|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: 129.146.36.178
+  server: cf1.danfeng.eu.org
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -85,7 +77,7 @@ proxies:
   name: 12|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
-  server: 45.202.113.109
+  server: cf3.danfeng.eu.org
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -99,8 +91,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-4 | Mix
   network: ws
-  port: 46268
-  server: 154.9.243.45
+  port: 2053
+  server: cf4.danfeng.eu.org
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -114,8 +106,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-5 | Mix
   network: ws
-  port: 2087
-  server: 45.202.113.150
+  port: 2053
+  server: cf5.danfeng.eu.org
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -129,8 +121,173 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-6 | Mix
   network: ws
-  port: 444
-  server: 45.150.164.94
+  port: 2087
+  server: cf6.danfeng.eu.org
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-7 | Mix
+  network: ws
+  port: 2087
+  server: cf7.danfeng.eu.org
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-8 | Mix
+  network: ws
+  port: 2096
+  server: cf8.danfeng.eu.org
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-9 | Mix
+  network: ws
+  port: 2096
+  server: cf9.danfeng.eu.org
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 107.150.25.185
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-11 | Mix
+  network: ws
+  port: 39738
+  server: 38.244.5.252
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-12 | Mix
+  network: ws
+  port: 443
+  server: 66.154.124.191
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  port: 8443
+  server: 154.92.9.51
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  port: 443
+  server: 3.82.153.90
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 8443
+  server: 52.52.166.93
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  port: 443
+  server: 45.202.113.114
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-17 | Mix
+  network: ws
+  port: 443
+  server: 166.88.159.178
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -145,23 +302,23 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 175.41.195.26
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.233.42
+  port: 4920
+  server: 54.65.39.157
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 18.162.142.234
+  port: 14636
+  server: 18.166.31.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
