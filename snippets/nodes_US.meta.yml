@@ -166,8 +166,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-9 | Mix
   network: ws
-  port: 8443
-  server: 143.20.213.154
+  port: 443
+  server: 128.203.252.97
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -182,7 +182,7 @@ proxies:
   name: 12|🇺🇸 US-10 | Mix
   network: ws
   port: 443
-  server: 172.235.61.7
+  server: 44.250.219.61
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -196,8 +196,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 2083
-  server: 154.198.173.58
+  port: 8443
+  server: 134.195.211.140
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -211,8 +211,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 23.239.3.247
+  port: 20000
+  server: 47.251.168.90
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -227,7 +227,7 @@ proxies:
   name: 12|🇺🇸 US-13 | Mix
   network: ws
   port: 443
-  server: 69.63.212.22
+  server: 146.235.196.203
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -241,8 +241,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-14 | Mix
   network: ws
-  port: 8443
-  server: 64.238.203.118
+  port: 443
+  server: 31.57.155.193
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 666
+  server: 144.24.30.50
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  port: 8888
+  server: 74.48.116.30
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
