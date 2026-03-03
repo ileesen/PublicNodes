@@ -166,8 +166,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-9 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.39
+  port: 443
+  server: 15.204.31.241
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -182,7 +182,7 @@ proxies:
   name: 12|🇺🇸 US-10 | Mix
   network: ws
   port: 443
-  server: 94.183.185.96
+  server: 107.172.16.110
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -196,8 +196,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 2087
-  server: 45.202.113.78
+  port: 777
+  server: 93.179.99.130
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -211,8 +211,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 20.171.153.118
+  port: 39738
+  server: 38.244.5.76
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -226,8 +226,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-13 | Mix
   network: ws
-  port: 443
-  server: 38.114.103.166
+  port: 34488
+  server: 155.248.198.56
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -241,8 +241,23 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-14 | Mix
   network: ws
-  port: 22291
-  server: 185.72.8.70
+  port: 2096
+  server: 45.202.113.10
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  port: 443
+  server: 100.22.77.114
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -255,25 +270,25 @@ proxies:
     path: /danfeng?ed=2560
 - name: 14,15|美国|@ripaojiedian
   network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 160.16.106.99
+  server: 52.68.27.2
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 54.65.39.157
+  server: 13.115.210.7
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14636
-  server: 18.166.31.170
+  port: 45947
+  server: 18.162.42.52
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
