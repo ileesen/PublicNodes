@@ -1,9 +1,24 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇬🇧 GB-1 | Mix
+  name: 12|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 192.0.63.157
+  server: 192.0.54.226
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇬🇧 GB-2 | Mix
+  network: ws
+  port: 20205
+  server: 178.79.149.5
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -16,7 +31,7 @@ proxies:
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0007
+  name: 16|GB_speednode_0007
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -29,7 +44,7 @@ proxies:
   uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0008
+  name: 16|GB_speednode_0008
   port: 443
   reality-opts:
     public-key: 1LHMePKT5PP9F9WQ1HhZUWZlrK2p9AW_sUwKNfO4ZC0
