@@ -16,8 +16,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 18979
-  server: 211.252.47.147
+  port: 20057
+  server: 131.186.26.191
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-2 | Mix
+  network: ws
+  port: 18810
+  server: 121.165.39.209
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-3 | Mix
+  network: ws
+  port: 50001
+  server: 121.133.66.15
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
