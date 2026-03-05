@@ -166,8 +166,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-9 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.47
+  port: 443
+  server: 194.156.66.174
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -182,7 +182,7 @@ proxies:
   name: 12|🇺🇸 US-10 | Mix
   network: ws
   port: 443
-  server: 45.202.113.95
+  server: 134.195.209.157
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -196,8 +196,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.248
+  port: 443
+  server: 31.40.214.164
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -211,8 +211,23 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 39738
-  server: 38.78.147.29
+  port: 443
+  server: 139.196.41.153
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  port: 8443
+  server: 104.207.157.238
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -226,29 +241,26 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4019
-  server: 54.178.70.68
+  port: 3057
+  server: 18.181.193.208
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 153.121.45.139
+  server: 13.230.112.99
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4864
-  server: 18.166.249.43
+  port: 50446
+  server: 54.250.253.77
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tfo: true
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
