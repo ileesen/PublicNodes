@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: random
-  name: 10|🇬🇧 GB-1 | Mix
+  name: 11|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 192.0.54.145
+  server: 132.145.29.208
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -15,10 +15,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 10|🇬🇧 GB-2 | Mix
+  name: 11|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 192.0.63.4
+  server: 192.0.63.248
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -29,30 +29,33 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|GB_speednode_0007
+- client-fingerprint: random
+  name: 11|🇬🇧 GB-3 | Mix
+  network: ws
   port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: 138.124.186.202
-  servername: www.fh-aachen.de
-  skip-cert-verify: false
+  server: 139.59.185.15
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|GB_speednode_0008
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇬🇧 GB-4 | Mix
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 1LHMePKT5PP9F9WQ1HhZUWZlrK2p9AW_sUwKNfO4ZC0
-    short-id: dd8ca121bb77dad9
-  server: 185.248.33.27
-  servername: finance.yahoo.com
-  skip-cert-verify: false
+  server: 192.0.54.1
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560

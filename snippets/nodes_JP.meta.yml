@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 9|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -11,7 +11,7 @@ proxies:
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 9|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-4 | 8EB
   port: 443
   reality-opts:
     public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
@@ -25,7 +25,7 @@ proxies:
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: chrome
   flow: ''
-  name: 9|🇯🇵 JP-6 | 8EB
+  name: 10|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
   server: 69.84.182.13
@@ -40,10 +40,10 @@ proxies:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
 - client-fingerprint: random
-  name: 10|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 176.97.73.82
+  port: 32498
+  server: 132.145.126.40
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 21508
@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
@@ -70,7 +70,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
