@@ -59,7 +59,7 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '9,10|کانال ا : Free_VPN_CH@'
+- name: '9,10|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -134,7 +134,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|کانال تلگرام : Free_VPN_CH@ #1'
+- name: '10|کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -146,7 +146,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '10|کانال تلگرام : Free_VPN_CH@'
+  name: '10|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -156,7 +156,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|کانال تلگرام : Free_VPN_CH@ #2'
+- name: '10|کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -498,25 +498,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 443
-  server: 219.76.13.166
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
   name: 12|🇯🇵 JP-1 | Mix
   network: ws
-  port: 3193
-  server: 45.120.157.18
+  port: 443
+  server: 176.97.73.82
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -530,8 +515,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 11371
-  server: 121.152.61.147
+  port: 4443
+  server: 144.24.83.227
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -545,8 +530,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-2 | Mix
   network: ws
-  port: 12345
-  server: 220.72.248.12
+  port: 50000
+  server: 1.221.122.2
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -560,8 +545,68 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-3 | Mix
   network: ws
-  port: 11065
-  server: 218.232.59.88
+  port: 11211
+  server: 211.199.65.186
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-4 | Mix
+  network: ws
+  port: 13720
+  server: 118.216.122.47
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-5 | Mix
+  network: ws
+  port: 10162
+  server: 220.124.58.130
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-6 | Mix
+  network: ws
+  port: 15672
+  server: 168.126.111.115
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇸🇬 SG-2 | Mix
+  network: ws
+  port: 443
+  server: 152.42.195.241
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -575,8 +620,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-9 | Mix
   network: ws
-  port: 443
-  server: 194.156.66.174
+  port: 44413
+  server: 38.95.126.208
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -590,8 +635,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 134.195.209.157
+  port: 2096
+  server: 45.202.113.157
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -605,8 +650,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 31.40.214.164
+  port: 2083
+  server: 154.92.9.197
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -618,25 +663,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 139.196.41.153
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-13 | Mix
+  name: 12|🇹🇬 TG-1 | Mix
   network: ws
   port: 8443
-  server: 104.207.157.238
+  server: 3.147.36.89
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -651,7 +681,7 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   port: 443
-  server: 109.122.197.5
+  server: 64.188.68.11
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -665,23 +695,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
-  port: 8443
-  server: 91.149.223.248
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 443
-  server: 46.101.250.44
+  port: 20205
+  server: 139.144.181.99
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -696,7 +711,7 @@ proxies:
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 57.129.137.67
+  server: 192.0.54.145
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -711,22 +726,7 @@ proxies:
   name: 12|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 192.0.63.164
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇮🇳 IN-1 | Mix
-  network: ws
-  port: 8443
-  server: 45.113.224.169
+  server: 192.0.63.4
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -740,8 +740,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇳🇱 NL-1 | Mix
   network: ws
-  port: 2061
-  server: 188.209.128.44
+  port: 8443
+  server: 188.253.24.215
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -755,8 +755,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇳🇱 NL-2 | Mix
   network: ws
-  port: 2053
-  server: 185.23.238.101
+  port: 444
+  server: 194.36.37.209
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -770,8 +770,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇸🇪 SE-1 | Mix
   network: ws
-  port: 2053
-  server: 46.8.21.114
+  port: 443
+  server: 164.215.97.18
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -783,10 +783,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇻🇳 VN-1 | Mix
+  name: 12|🇿🇦 ZA-1 | Mix
   network: ws
-  port: 443
-  server: 188.253.18.132
+  port: 4443
+  server: 139.84.227.118
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
