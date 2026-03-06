@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | 8EB
+  name: 10|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -14,10 +14,10 @@ proxies:
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
 - client-fingerprint: random
-  name: 12|🇰🇷 KR-1 | Mix
+  name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 16992
-  server: 220.93.106.4
+  port: 15800
+  server: 129.154.223.89
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -29,10 +29,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 11965
-  server: 61.83.8.8
+  port: 10312
+  server: 183.105.224.204
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -44,10 +44,10 @@ proxies:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇰🇷 KR-3 | Mix
+  name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 20002
-  server: 125.143.88.47
+  port: 14534
+  server: 59.12.232.18
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -58,7 +58,52 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 16|KR_speednode_0021
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-4 | Mix
+  network: ws
+  port: 30005
+  server: 121.175.182.146
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-5 | Mix
+  network: ws
+  port: 11300
+  server: 211.106.184.129
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-6 | Mix
+  network: ws
+  port: 50001
+  server: 121.131.42.144
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- name: 15|KR_speednode_0021
   network: ws
   port: 12126
   server: 116.44.53.251
@@ -72,7 +117,7 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560
-- name: 16|KR_speednode_0022
+- name: 15|KR_speednode_0022
   network: ws
   port: 18182
   server: 119.200.105.210
@@ -86,7 +131,7 @@ proxies:
     headers:
       Host: duil.f09.edueu.dpdns.org
     path: /
-- name: 16|KR_speednode_0023
+- name: 15|KR_speednode_0023
   network: ws
   port: 12321
   server: 59.29.177.90
