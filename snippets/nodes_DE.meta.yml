@@ -34,8 +34,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 8004
-  server: 45.145.42.170
+  port: 443
+  server: 172.104.251.55
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -46,33 +46,60 @@ proxies:
     headers:
       Host: kfaq8uz96.chinav.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-2 | Mix
+- name: 16|DE_speednode_0007
   network: ws
-  port: 444
-  server: 143.20.41.30
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  port: 2016
+  server: 45.145.42.211
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-3 | Mix
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+- name: 16|DE_speednode_0008
   network: ws
-  port: 8443
-  server: 152.53.139.243
-  servername: kfaq8uz96.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  port: 443
+  server: 185.110.189.174
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+- name: 16|DE_speednode_0009
+  network: ws
+  port: 2083
+  server: 89.58.26.175
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 16|DE_speednode_0010
+  network: ws
+  port: 1007
+  server: 89.58.15.243
+  servername: lirpeuijr.chinav.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: kfaq8uz96.chinav.eu.org
-    path: /danfeng?ed=2560
+      Host: lirpeuijr.chinav.indevs.in
+    path: /danfeng
