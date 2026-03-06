@@ -39,27 +39,42 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- client-fingerprint: random
+  name: 12|🇯🇵 JP-1 | Mix
+  network: ws
+  port: 443
+  server: 149.28.21.222
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 21508
-  server: 52.195.220.53
+  port: 3022
+  server: 13.192.170.234
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4937
-  server: 13.230.112.99
+  port: 34818
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 34818
-  server: 18.181.193.208
+  port: 4937
+  server: 13.114.100.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
