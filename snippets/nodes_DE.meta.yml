@@ -34,8 +34,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 8443
-  server: 179.61.132.245
+  port: 440
+  server: 143.20.41.30
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -49,8 +49,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
-  port: 20205
-  server: 172.104.251.167
+  port: 443
+  server: 103.7.55.188
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -64,8 +64,53 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
-  port: 8082
-  server: 77.223.214.166
+  port: 44322
+  server: 206.81.26.62
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 285
+  server: 143.20.41.10
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 20205
+  server: 139.144.77.183
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-6 | Mix
+  network: ws
+  port: 2053
+  server: 38.60.249.17
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
