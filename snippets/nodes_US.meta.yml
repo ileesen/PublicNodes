@@ -167,7 +167,7 @@ proxies:
   name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 39738
-  server: 38.76.149.2
+  server: 38.244.5.112
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -181,8 +181,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 587
-  server: 216.167.3.196
+  port: 8443
+  server: 64.238.203.114
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -196,8 +196,23 @@ proxies:
 - client-fingerprint: random
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 929
-  server: 129.146.6.2
+  port: 39738
+  server: 38.22.237.79
+  servername: kfaq8uz96.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: kfaq8uz96.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-12 | Mix
+  network: ws
+  port: 8443
+  server: 143.20.213.225
   servername: kfaq8uz96.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -211,8 +226,8 @@ proxies:
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4019
-  server: 13.114.100.13
+  port: 4920
+  server: 54.199.149.138
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -220,15 +235,15 @@ proxies:
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
-  server: 54.250.6.236
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 28680
-  server: 54.199.30.7
+  port: 2960
+  server: 43.198.86.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
