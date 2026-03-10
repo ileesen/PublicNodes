@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  name: 12|🇨🇦 CA-1 | Mix
+  network: ws
+  port: 443
+  server: 23.94.178.69
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇨🇦 CA-2 | Mix
+  network: ws
+  port: 443
+  server: 104.129.181.152
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
