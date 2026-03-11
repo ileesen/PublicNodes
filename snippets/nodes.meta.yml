@@ -176,23 +176,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|67@oneclickvpnkeys
-  password: hysteria2_fastlane_81uqqeagr
-  port: 443
-  server: 150.241.78.128
-  skip-cert-verify: true
-  sni: de3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 10|🌼66@oneclickvpnkeys
-  password: hysteria2_fastlane_e4139zxuu
-  port: 443
-  server: 144.31.63.58
-  skip-cert-verify: true
-  sni: de4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 10|🌼13@oneclickvpnkeys
+- name: 10|13@oneclickvpnkeys
   password: hysteria2_fastlane_qdx4o19um
   port: 443
   server: 150.241.79.106
@@ -524,8 +508,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇭🇰 HK-1 | Mix
   network: ws
-  port: 30012
-  server: 202.81.229.42
+  port: 30011
+  server: 202.81.229.61
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -539,8 +523,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 18086
-  server: 58.121.169.189
+  port: 11965
+  server: 211.218.65.212
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -554,7 +538,7 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-2 | Mix
   network: ws
-  port: 17543
+  port: 11896
   server: 203.170.125.48
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
@@ -569,8 +553,53 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-3 | Mix
   network: ws
-  port: 10645
-  server: 203.170.125.48
+  port: 19150
+  server: 211.108.166.193
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-4 | Mix
+  network: ws
+  port: 31671
+  server: 120.50.87.7
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-5 | Mix
+  network: ws
+  port: 15707
+  server: 120.50.87.7
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-6 | Mix
+  network: ws
+  port: 587
+  server: 152.69.227.97
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -584,8 +613,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-9 | Mix
   network: ws
-  port: 443
-  server: 172.236.224.193
+  port: 34237
+  server: 142.171.120.69
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -599,8 +628,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 8443
-  server: 143.20.213.135
+  port: 443
+  server: 198.144.179.82
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -614,128 +643,23 @@ proxies:
 - client-fingerprint: random
   name: 12|🇺🇸 US-11 | Mix
   network: ws
+  port: 443
+  server: 159.60.146.82
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇫🇷 FR-1 | Mix
+  network: ws
   port: 8443
-  server: 143.20.213.57
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-12 | Mix
-  network: ws
-  port: 8443
-  server: 45.202.113.225
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-13 | Mix
-  network: ws
-  port: 9527
-  server: 64.181.232.51
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-14 | Mix
-  network: ws
-  port: 443
-  server: 154.218.15.111
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-15 | Mix
-  network: ws
-  port: 40000
-  server: 23.27.245.214
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇨🇦 CA-1 | Mix
-  network: ws
-  port: 443
-  server: 23.94.178.69
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇨🇦 CA-2 | Mix
-  network: ws
-  port: 443
-  server: 104.129.181.152
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-1 | Mix
-  network: ws
-  port: 443
-  server: 18.159.105.97
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 443
-  server: 80.76.32.165
+  server: 31.59.121.223
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -750,7 +674,7 @@ proxies:
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 45.61.138.147
+  server: 192.0.63.8
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -764,8 +688,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇬🇧 GB-2 | Mix
   network: ws
+  port: 3939
+  server: 144.31.58.16
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇬🇧 GB-3 | Mix
+  network: ws
   port: 443
-  server: 192.0.63.44
+  server: 192.0.54.159
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇬🇧 GB-4 | Mix
+  network: ws
+  port: 443
+  server: 192.0.63.132
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -779,8 +733,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇹🇬 TG-1 | Mix
   network: ws
-  port: 2053
-  server: 95.216.143.5
+  port: 8082
+  server: 198.204.227.171
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -795,7 +749,7 @@ proxies:
   name: 12|🇳🇱 NL-1 | Mix
   network: ws
   port: 443
-  server: 89.110.68.158
+  server: 212.34.142.54
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -809,8 +763,38 @@ proxies:
 - client-fingerprint: random
   name: 12|🇳🇱 NL-2 | Mix
   network: ws
+  port: 8443
+  server: 38.180.160.199
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇳🇱 NL-3 | Mix
+  network: ws
   port: 443
-  server: 185.220.204.178
+  server: 89.110.83.132
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 443
+  server: 45.142.44.9
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
