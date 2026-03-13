@@ -16,8 +16,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 37810
-  server: 211.193.169.223
+  port: 18017
+  server: 221.160.66.220
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -31,8 +31,8 @@ proxies:
 - client-fingerprint: random
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 30759
-  server: 203.170.125.48
+  port: 11434
+  server: 121.159.68.210
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -46,8 +46,23 @@ proxies:
 - client-fingerprint: random
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 443
-  server: 13.125.114.39
+  port: 10003
+  server: 222.108.113.139
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-4 | Mix
+  network: ws
+  port: 18081
+  server: 222.104.182.54
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
