@@ -16,8 +16,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 19071
-  server: 121.160.21.194
+  port: 10101
+  server: 1.238.48.156
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -28,19 +28,45 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- name: 16|KR_speednode_0008
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-2 | Mix
+  network: ws
+  port: 16992
+  server: 203.236.109.80
+  servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
+  tfo: false
   tls: true
-  type: http
-  udp: true
-  username: test
-- name: 16|KR_speednode_0009
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 12|🇰🇷 KR-3 | Mix
   network: ws
-  port: 15284
-  server: 221.146.116.77
+  port: 10243
+  server: 121.152.46.7
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- name: 16|KR_speednode_0022
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: 16|KR_speednode_0023
+  network: ws
+  port: 10973
+  server: 119.195.168.105
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -51,39 +77,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 16|KR_speednode_0010
-  network: ws
-  port: 10840
-  server: 210.105.224.42
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 16|KR_speednode_0011
-  network: ws
-  port: 50001
-  server: 220.73.70.34
-  servername: snippet.fgfw.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.de5.net
-    path: /danfeng
-- name: 16|KR_speednode_0012
+- name: 16|KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -97,21 +91,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 16|KR_speednode_0013
-  network: ws
-  port: 12125
-  server: 183.97.71.221
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- name: 16|KR_speednode_0014
+- name: 16|KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -125,10 +105,10 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0015
+- name: 16|KR_speednode_0026
   network: ws
-  port: 11099
-  server: 220.88.3.5
+  port: 22410
+  server: 211.48.77.114
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
@@ -138,61 +118,4 @@ proxies:
   ws-opts:
     headers:
       Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0016
-  network: ws
-  port: 10448
-  server: 220.85.201.216
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0017
-  network: ws
-  port: 15347
-  server: 61.102.250.123
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0018
-  network: ws
-  port: 50000
-  server: 211.184.116.84
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  name: 16|KR_speednode_0019
-  network: ws
-  port: 50000
-  server: 211.184.116.84
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
+    path: /
