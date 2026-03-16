@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | 8EB
+  name: 10|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -13,12 +13,27 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- name: 16|KR_speednode_0022
+- client-fingerprint: random
+  name: 11|🇰🇷 KR-1 | Mix
+  network: ws
+  port: 10406
+  server: 203.170.125.48
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- name: 15|KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
-- name: 16|KR_speednode_0023
+- name: 15|KR_speednode_0023
   network: ws
   port: 10973
   server: 119.195.168.105
@@ -32,7 +47,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0024
+- name: 15|KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -46,7 +61,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: 16|KR_speednode_0025
+- name: 15|KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -60,7 +75,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 16|KR_speednode_0026
+- name: 15|KR_speednode_0026
   network: ws
   port: 22410
   server: 211.48.77.114
