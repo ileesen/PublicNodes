@@ -26,8 +26,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2053
-  server: 165.232.122.206
+  port: 443
+  server: 194.247.187.244
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -41,8 +41,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
-  port: 20202
-  server: 164.90.223.62
+  port: 8443
+  server: 46.101.156.38
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -57,7 +57,7 @@ proxies:
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
   port: 2053
-  server: 82.117.245.53
+  server: 64.225.110.247
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -71,8 +71,8 @@ proxies:
 - client-fingerprint: random
   name: 12|🇩🇪 DE-4 | Mix
   network: ws
-  port: 2053
-  server: 135.125.190.81
+  port: 2096
+  server: 167.172.166.247
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -83,7 +83,22 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- name: 16|DE_speednode_0012
+- client-fingerprint: random
+  name: 12|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 8443
+  server: 134.122.84.25
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- name: 16|DE_speednode_0004
   network: ws
   port: 8005
   server: 45.145.42.170
@@ -97,3 +112,17 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 16|DE_speednode_0005
+  port: 443
+  reality-opts:
+    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
+    short-id: ba34cbf836e99bf6
+  server: 89.185.85.107
+  servername: cdnv-img.perekrestok.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398

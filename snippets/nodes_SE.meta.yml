@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  name: 12|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 12000
+  server: 79.76.34.106
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
