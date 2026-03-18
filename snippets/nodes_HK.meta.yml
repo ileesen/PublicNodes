@@ -9,36 +9,6 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- client-fingerprint: random
-  name: 12|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 57564
-  server: 45.207.157.76
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇭🇰 HK-2 | Mix
-  network: ws
-  port: 16832
-  server: 223.122.95.207
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
   name: 14|🇭🇰 香港|@ripaojiedian
@@ -48,27 +18,36 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  port: 6001
+  server: cn01.365cloud8754.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 921
-  server: 13.112.59.34
+  port: 19256
+  server: 43.207.153.203
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 18.183.223.166
+  port: 443
+  server: 58.152.18.123
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 3.112.237.156
+  port: 921
+  server: 13.231.159.112
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -82,6 +61,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - alpn:
   - http/1.1
   client-fingerprint: random
