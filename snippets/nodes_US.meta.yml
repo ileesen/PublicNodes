@@ -1,5 +1,5 @@
 proxies:
-- name: 11|🇺🇸 US-5 | 8EB
+- name: 10|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
   server: 134.195.101.199
@@ -8,7 +8,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 11|🇺🇸 US-6 | 8EB
+  name: 10|🇺🇸 US-6 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 11|🇺🇸 US-7 | 8EB
+  name: 10|🇺🇸 US-7 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -29,7 +29,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 11|🇺🇸 US-9 | 8EB
+  name: 10|🇺🇸 US-9 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -44,40 +44,10 @@ proxies:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
 - client-fingerprint: random
-  name: 12|🇺🇸 US-1 | Mix
-  network: ws
-  port: 2083
-  server: 154.92.9.104
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-2 | Mix
-  network: ws
-  port: 1991
-  server: 176.122.132.65
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 443
-  server: 108.165.171.240
+  server: cf.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -89,7 +59,142 @@ proxies:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-4 | Mix
+  name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  server: cf1.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 8443
+  server: cf3.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2053
+  server: cf5.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 2087
+  server: cf6.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  port: 2087
+  server: cf7.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 2096
+  server: cf8.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 2096
+  server: cf9.danfeng.eu.org
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 69.63.216.109
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-11 | Mix
   network: ws
   port: 443
   server: 45.202.113.92
@@ -104,10 +209,10 @@ proxies:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇺🇸 US-5 | Mix
+  name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 69.63.193.113
+  server: 45.12.53.232
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -118,7 +223,52 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- name: 14,15|美国|@ripaojiedian
+- client-fingerprint: random
+  name: 11|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: 47.251.126.86
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-14 | Mix
+  network: ws
+  port: 443
+  server: 172.208.36.45
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: random
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
+  port: 18852
+  server: 148.135.70.158
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
@@ -126,7 +276,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4019
@@ -134,7 +284,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 8401
@@ -142,7 +292,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 16|US_speednode_0028
+- name: 15|US_speednode_0028
   network: ws
   port: 443
   server: 192.0.54.131
@@ -156,7 +306,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0029
+- name: 15|US_speednode_0029
   network: ws
   port: 443
   server: 192.0.63.56
@@ -170,7 +320,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0030
+- name: 15|US_speednode_0030
   network: ws
   port: 443
   server: 192.0.54.225
@@ -184,7 +334,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0031
+- name: 15|US_speednode_0031
   network: ws
   port: 443
   server: 192.0.63.134
@@ -198,7 +348,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0032
+- name: 15|US_speednode_0032
   network: ws
   port: 443
   server: 192.0.54.188
@@ -212,7 +362,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0033
+- name: 15|US_speednode_0033
   network: ws
   port: 443
   server: 192.0.63.230
@@ -226,7 +376,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 16|US_speednode_0034
+- name: 15|US_speednode_0034
   network: ws
   port: 443
   server: www.visa.cn
@@ -240,7 +390,7 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
-- name: 16|US_speednode_0035
+- name: 15|US_speednode_0035
   network: ws
   port: 443
   server: 192.0.63.56
@@ -254,7 +404,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 16|US_speednode_0036
+- name: 15|US_speednode_0036
   network: ws
   port: 443
   server: 192.0.54.131
@@ -268,7 +418,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 16|US_speednode_0037
+- name: 15|US_speednode_0037
   network: ws
   port: 443
   server: 192.0.54.188
@@ -282,7 +432,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 16|US_speednode_0038
+- name: 15|US_speednode_0038
   network: ws
   port: 443
   server: 192.0.63.230
@@ -296,7 +446,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 16|US_speednode_0039
+- name: 15|US_speednode_0039
   network: ws
   port: 443
   server: 192.0.63.134
@@ -311,7 +461,7 @@ proxies:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
 - client-fingerprint: chrome
-  name: 16|US_speednode_0040
+  name: 15|US_speednode_0040
   network: ws
   port: 443
   server: 172.64.156.0
@@ -326,7 +476,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: randomized
-  name: 16|US_speednode_0041
+  name: 15|US_speednode_0041
   network: ws
   port: 2095
   server: www.shopify.com
@@ -341,7 +491,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0042
+  name: 15|US_speednode_0042
   network: ws
   port: 2095
   server: docs.cloudflare.com
@@ -356,7 +506,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0043
+  name: 15|US_speednode_0043
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -371,7 +521,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0044
+  name: 15|US_speednode_0044
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -386,7 +536,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0045
+  name: 15|US_speednode_0045
   network: ws
   port: 2095
   server: blog.cloudflare.com
@@ -401,7 +551,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0046
+  name: 15|US_speednode_0046
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -416,7 +566,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0047
+  name: 15|US_speednode_0047
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -431,7 +581,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0048
+  name: 15|US_speednode_0048
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -446,7 +596,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0049
+  name: 15|US_speednode_0049
   network: ws
   port: 2095
   server: openai.com
@@ -461,7 +611,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0050
+  name: 15|US_speednode_0050
   network: ws
   port: 2095
   server: www.udemy.com
@@ -476,7 +626,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0051
+  name: 15|US_speednode_0051
   network: ws
   port: 2095
   server: www.wto.org
@@ -491,7 +641,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 16|US_speednode_0052
+  name: 15|US_speednode_0052
   network: ws
   port: 2053
   server: convera.com
@@ -506,7 +656,7 @@ proxies:
       Host: mzees9mh.danfeng.gv.uy
     path: /danfeng?ed=2560
 - client-fingerprint: randomized
-  name: 16|US_speednode_0053
+  name: 15|US_speednode_0053
   network: ws
   port: 2095
   server: cdnjs.com
@@ -521,7 +671,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 16|US_speednode_0054
+  name: 15|US_speednode_0054
   network: ws
   port: 443
   server: vip2.kaixincloud.top
@@ -536,7 +686,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: randomized
-  name: 16|US_speednode_0055
+  name: 15|US_speednode_0055
   network: ws
   port: 2095
   server: www.temu.com
@@ -551,7 +701,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0056
+  name: 15|US_speednode_0056
   network: ws
   port: 2095
   server: cloudflare-dns.com
@@ -566,7 +716,7 @@ proxies:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 16|US_speednode_0057
+  name: 15|US_speednode_0057
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -580,7 +730,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
     path: /
-- name: 16|US_speednode_0058
+- name: 15|US_speednode_0058
   network: ws
   port: 443
   server: alist.sm.uy
@@ -596,7 +746,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|US_speednode_0059
+  name: 15|US_speednode_0059
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -614,7 +764,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|US_speednode_0060
+  name: 15|US_speednode_0060
   port: 443
   server: pl202.mechvpn.online
   skip-cert-verify: false
@@ -623,7 +773,7 @@ proxies:
   udp: true
   uuid: 729764b1-149c-49f2-b170-322544df7b5b
 - client-fingerprint: chrome
-  name: 16|US_speednode_0061
+  name: 15|US_speednode_0061
   network: ws
   port: 2053
   server: 104.19.73.126
@@ -638,7 +788,7 @@ proxies:
       Host: d2wiyfbwnyf.danfeng.gv.uy
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 16|US_speednode_0062
+  name: 15|US_speednode_0062
   network: ws
   port: 2053
   server: convera.com
@@ -655,7 +805,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: random
-  name: 16|US_speednode_0063
+  name: 15|US_speednode_0063
   network: ws
   port: 443
   server: mfa.gov.ua
