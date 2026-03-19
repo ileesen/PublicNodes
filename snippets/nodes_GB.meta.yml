@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: random
-  name: 12|🇬🇧 GB-1 | Mix
+  name: 11|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 192.0.63.255
+  server: 192.0.63.248
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -15,10 +15,10 @@ proxies:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: random
-  name: 12|🇬🇧 GB-2 | Mix
+  name: 11|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 46.101.82.164
+  server: 159.65.82.25
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: true
   tfo: false
@@ -29,26 +29,3 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 12|🇬🇧 GB-3 | Mix
-  network: ws
-  port: 443
-  server: 161.35.161.60
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- name: 16|GB_speednode_0004
-  password: IL37892054
-  port: 443
-  server: upright-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
-  type: trojan
-  udp: true
