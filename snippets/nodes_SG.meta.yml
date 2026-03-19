@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: random
-  name: 11|🇸🇬 SG-1 | Mix
+  name: 12|🇸🇬 SG-1 | Mix
   network: ws
   port: 8443
   server: cf2.danfeng.eu.org
@@ -14,42 +14,27 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
-  name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  port: 8443
-  server: 116.251.216.23
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- name: 13,14|新加坡|@ripaojiedian
+- name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3419
-  server: 160.16.106.99
+  port: 4674
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 14,15|新加坡2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
-  server: 43.207.164.92
+  server: 160.16.214.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41973
-  server: 13.230.254.47
+  port: 29666
+  server: 57.180.246.216
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
