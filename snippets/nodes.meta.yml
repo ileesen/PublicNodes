@@ -622,10 +622,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-1 | Mix
+  name: 12|🇯🇵 JP-1 | Mix
   network: ws
-  port: 39738
-  server: 8.210.76.193
+  port: 443
+  server: 23.27.11.36
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -641,25 +641,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 18888
-  server: 222.102.234.186
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇰🇷 KR-2 | Mix
-  network: ws
-  port: 14265
-  server: 175.192.66.211
+  port: 37982
+  server: 222.113.144.175
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -675,8 +658,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 9003
-  server: 144.34.230.153
+  port: 39738
+  server: 38.95.118.32
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -690,10 +673,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 12|🇹🇬 TG-1 | Mix
+  name: 12|🇺🇸 US-11 | Mix
   network: ws
   port: 443
-  server: 18.222.50.18
+  server: 129.153.96.228
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -709,8 +692,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
-  server: 167.99.131.6
+  port: 8443
+  server: 5.61.42.254
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -726,8 +709,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
-  port: 2096
-  server: 46.101.156.111
+  port: 443
+  server: 159.89.103.201
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -743,8 +726,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
-  port: 8443
-  server: 143.20.213.146
+  port: 443
+  server: 65.108.83.128
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -758,10 +741,27 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 12|🇫🇷 FR-1 | Mix
+  name: 12|🇩🇪 DE-4 | Mix
   network: ws
-  port: 2053
-  server: 188.130.207.158
+  port: 314
+  server: 143.20.41.30
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 2096
+  server: 209.38.193.241
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -777,8 +777,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
-  port: 2053
-  server: 167.99.199.100
+  port: 8443
+  server: 165.232.39.212
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -795,7 +795,7 @@ proxies:
   name: 12|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 18.170.77.148
+  server: 192.0.54.105
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -809,10 +809,27 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 12|🇹🇬 TG-2 | Mix
+  name: 12|🇬🇧 GB-3 | Mix
   network: ws
-  port: 11532
-  server: 91.149.255.117
+  port: 443
+  server: 192.0.54.2
+  servername: c70ff3ar.chinam.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c70ff3ar.chinam.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇹🇬 TG-1 | Mix
+  network: ws
+  port: 1234
+  server: 206.245.133.82
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -829,7 +846,7 @@ proxies:
   name: 12|🇳🇱 NL-1 | Mix
   network: ws
   port: 443
-  server: 104.248.86.43
+  server: 95.85.25.154
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -846,7 +863,7 @@ proxies:
   name: 12|🇳🇱 NL-2 | Mix
   network: ws
   port: 443
-  server: 37.139.7.140
+  server: 82.196.3.249
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -862,8 +879,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇳🇱 NL-3 | Mix
   network: ws
-  port: 443
-  server: 188.226.160.219
+  port: 8443
+  server: 209.38.103.169
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -879,8 +896,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇳🇱 NL-4 | Mix
   network: ws
-  port: 2053
-  server: 167.71.78.145
+  port: 2087
+  server: 192.81.223.48
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -897,7 +914,7 @@ proxies:
   name: 12|🇳🇱 NL-5 | Mix
   network: ws
   port: 443
-  server: 164.92.211.71
+  server: 85.92.108.176
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -913,8 +930,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇳🇱 NL-6 | Mix
   network: ws
-  port: 2087
-  server: 146.185.160.185
+  port: 443
+  server: 83.138.53.29
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
@@ -928,27 +945,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 12|🇳🇱 NL-7 | Mix
-  network: ws
-  port: 8443
-  server: 167.71.12.228
-  servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c70ff3ar.chinam.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇻🇳 VN-1 | Mix
+  name: 12|🇹🇬 TG-2 | Mix
   network: ws
   port: 443
-  server: 212.192.23.158
+  server: 5.34.212.223
   servername: c70ff3ar.chinam.eu.org
   skip-cert-verify: false
   tls: true
