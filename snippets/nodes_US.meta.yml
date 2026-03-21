@@ -43,14 +43,16 @@ proxies:
     headers:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 443
   server: cf.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -58,14 +60,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
   server: cf1.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -73,14 +77,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
   server: cf3.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -88,14 +94,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 2053
   server: cf4.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -103,14 +111,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-5 | Mix
   network: ws
   port: 2053
   server: cf5.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -118,14 +128,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-6 | Mix
   network: ws
   port: 2087
   server: cf6.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -133,14 +145,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-7 | Mix
   network: ws
   port: 2087
   server: cf7.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -148,14 +162,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-8 | Mix
   network: ws
   port: 2096
   server: cf8.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -163,14 +179,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -178,14 +196,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 2053
-  server: 154.92.9.251
+  port: 8443
+  server: 23.95.34.158
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -193,14 +213,16 @@ proxies:
     headers:
       Host: c70ff3ar.chinam.eu.org
     path: /danfeng?ed=2560
-- client-fingerprint: random
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 12178
-  server: 121.150.28.21
+  port: 443
+  server: 107.172.82.90
   servername: c70ff3ar.chinam.eu.org
-  skip-cert-verify: true
-  tfo: false
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
