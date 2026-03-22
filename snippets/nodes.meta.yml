@@ -465,9 +465,9 @@ proxies:
   name: 12|🇭🇰 HK-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 587
+  port: 32200
   security: tls
-  server: 47.239.172.165
+  server: 154.36.162.246
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -486,9 +486,30 @@ proxies:
   name: 12|🇭🇰 HK-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 10001
+  port: 42911
   security: tls
-  server: 43.161.239.49
+  server: 154.36.162.246
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇯🇵 JP-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 3122
+  security: tls
+  server: 45.153.245.209
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -507,9 +528,9 @@ proxies:
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 23217
+  port: 30047
   security: tls
-  server: 220.82.179.74
+  server: 211.194.210.183
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -528,9 +549,9 @@ proxies:
   name: 12|🇸🇬 SG-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 34237
+  port: 443
   security: tls
-  server: 154.93.48.189
+  server: 45.76.146.145
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -549,9 +570,9 @@ proxies:
   name: 12|🇺🇸 US-11 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 10261
   security: tls
-  server: 74.48.136.102
+  server: 206.223.84.83
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -572,7 +593,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 192.241.207.118
+  server: 65.49.203.137
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -593,7 +614,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 77.110.124.132
+  server: 146.190.122.220
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -612,30 +633,9 @@ proxies:
   name: 12|🇺🇸 US-14 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 27015
-  security: tls
-  server: 38.175.98.36
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇺🇸 US-15 | Mix
-  network: ws
-  path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 139.196.41.153
+  server: 64.186.236.164
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -654,9 +654,9 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 8443
   security: tls
-  server: 178.17.51.57
+  server: 143.20.213.206
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -675,9 +675,9 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 453
   security: tls
-  server: 46.101.255.72
+  server: 143.20.175.30
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -696,9 +696,9 @@ proxies:
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 221
+  port: 443
   security: tls
-  server: 143.20.41.30
+  server: 193.23.210.38
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -714,12 +714,12 @@ proxies:
   encryption: none
   fp: firefox
   host: op6tju2a.gfw.hidns.co
-  name: 12|🇬🇧 GB-1 | Mix
+  name: 12|🇹🇬 TG-1 | Mix
   network: ws
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 146.70.30.18
+  server: 86.106.143.169
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -740,7 +740,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 82.196.10.33
+  server: 85.92.108.176
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -759,9 +759,9 @@ proxies:
   name: 12|🇳🇱 NL-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2053
+  port: 443
   security: tls
-  server: 146.185.160.185
+  server: 206.245.157.134
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -780,9 +780,9 @@ proxies:
   name: 12|🇳🇱 NL-3 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2087
+  port: 443
   security: tls
-  server: 146.185.175.200
+  server: 45.88.67.65
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -801,9 +801,9 @@ proxies:
   name: 12|🇳🇱 NL-4 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2053
+  port: 2087
   security: tls
-  server: 188.166.52.251
+  server: 159.65.197.125
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -822,9 +822,9 @@ proxies:
   name: 12|🇳🇱 NL-5 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 8443
+  port: 443
   security: tls
-  server: 188.166.43.158
+  server: 185.245.40.8
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -843,9 +843,9 @@ proxies:
   name: 12|🇳🇱 NL-6 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 82
+  port: 443
   security: tls
-  server: 136.244.105.89
+  server: 188.166.27.250
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -861,12 +861,12 @@ proxies:
   encryption: none
   fp: firefox
   host: op6tju2a.gfw.hidns.co
-  name: 12|🇵🇱 PL-1 | Mix
+  name: 12|🇹🇬 TG-2 | Mix
   network: ws
   path: /danfeng?ed=2560
   port: 8443
   security: tls
-  server: 45.144.51.79
+  server: 103.231.73.184
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
