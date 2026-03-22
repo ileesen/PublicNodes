@@ -10,21 +10,25 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 443
-  server: 141.11.90.55
-  servername: c70ff3ar.chinam.eu.org
+  path: /danfeng?ed=2560
+  port: 4433
+  security: tls
+  server: 103.121.95.252
+  servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c70ff3ar.chinam.eu.org
+      Host: op6tju2a.gfw.hidns.co
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto

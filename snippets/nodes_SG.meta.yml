@@ -1,37 +1,45 @@
 proxies:
 - client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 8443
-  server: cf2.danfeng.eu.org
-  servername: c70ff3ar.chinam.eu.org
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 64.120.95.194
+  servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c70ff3ar.chinam.eu.org
+      Host: op6tju2a.gfw.hidns.co
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 56138
-  server: 13.212.19.68
-  servername: c70ff3ar.chinam.eu.org
+  path: /danfeng?ed=2560
+  port: 8443
+  security: tls
+  server: 207.148.125.245
+  servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c70ff3ar.chinam.eu.org
+      Host: op6tju2a.gfw.hidns.co
     path: /danfeng?ed=2560
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
