@@ -261,9 +261,9 @@ proxies:
   name: 12|🇺🇸 US-11 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 10261
+  port: 443
   security: tls
-  server: 206.223.84.83
+  server: 31.40.214.221
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -282,51 +282,9 @@ proxies:
   name: 12|🇺🇸 US-12 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 39738
   security: tls
-  server: 65.49.203.137
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇺🇸 US-13 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 146.190.122.220
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇺🇸 US-14 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 64.186.236.164
+  server: 38.244.5.214
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -340,24 +298,24 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 52.195.220.124
+  port: 4920
+  server: 13.192.234.119
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3057
-  server: 160.16.85.33
+  port: 4019
+  server: 13.115.190.132
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15407
-  server: 18.167.37.12
+  port: 37223
+  server: 18.167.47.162
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
