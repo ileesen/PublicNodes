@@ -39,27 +39,48 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇯🇵 JP-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 38.47.126.125
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 52.196.95.41
+  port: 32536
+  server: 13.192.234.119
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4937
-  server: 13.115.190.132
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  port: 2001
+  server: 13.231.152.178
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|日本3|@ripaojiedian
   network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 34818
-  server: 160.16.132.38
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
