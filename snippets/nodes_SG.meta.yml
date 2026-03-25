@@ -9,7 +9,28 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 128.199.160.193
+  server: 172.236.154.50
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇸🇬 SG-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 165.22.246.115
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -24,7 +45,7 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 54.199.36.40
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -32,15 +53,15 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 160.16.124.17
+  server: 18.183.109.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 13.192.204.27
+  port: 12070
+  server: 16.162.188.92
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

@@ -61,14 +61,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: 10|12@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
@@ -473,30 +465,9 @@ proxies:
   name: 12|🇭🇰 HK-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 24443
-  security: tls
-  server: 103.219.195.22
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇭🇰 HK-2 | Mix
-  network: ws
-  path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 45.128.220.81
+  server: 38.55.104.160
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -517,7 +488,49 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 128.199.160.193
+  server: 172.236.154.50
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇸🇬 SG-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 165.22.246.115
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇹🇼 TW-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 151.242.188.44
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -538,7 +551,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 45.62.113.179
+  server: 192.9.157.76
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -554,12 +567,54 @@ proxies:
   encryption: none
   fp: firefox
   host: op6tju2a.gfw.hidns.co
-  name: 12|🇦🇪 AE-1 | Mix
+  name: 12|🇺🇸 US-12 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 10069
+  port: 39738
   security: tls
-  server: 193.123.84.196
+  server: 38.244.5.175
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇺🇸 US-13 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 20205
+  security: tls
+  server: 23.239.3.247
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇺🇸 US-14 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 45.202.113.229
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -578,9 +633,9 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2096
+  port: 443
   security: tls
-  server: 167.172.183.195
+  server: 142.93.102.148
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -599,93 +654,9 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2053
+  port: 8443
   security: tls
-  server: 138.68.70.30
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇩🇪 DE-3 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2087
-  security: tls
-  server: 104.248.142.217
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇩🇪 DE-4 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 91.149.223.242
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇩🇪 DE-5 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 587
-  security: tls
-  server: 92.114.54.105
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇫🇷 FR-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 84.247.166.22
+  server: 206.81.30.239
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -704,9 +675,9 @@ proxies:
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 10443
+  port: 443
   security: tls
-  server: 85.121.48.31
+  server: 192.0.63.150
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -725,9 +696,9 @@ proxies:
   name: 12|🇬🇧 GB-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20205
+  port: 443
   security: tls
-  server: 178.79.149.139
+  server: 192.0.63.1
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -746,9 +717,9 @@ proxies:
   name: 12|🇳🇱 NL-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20202
+  port: 443
   security: tls
-  server: 188.226.163.48
+  server: 185.31.200.36
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -767,9 +738,9 @@ proxies:
   name: 12|🇳🇱 NL-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 8443
+  port: 2083
   security: tls
-  server: 95.85.59.228
+  server: 146.190.234.20
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -790,7 +761,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 212.193.1.234
+  server: 103.146.119.209
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -809,9 +780,9 @@ proxies:
   name: 12|🇳🇱 NL-4 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2096
+  port: 2083
   security: tls
-  server: 95.85.54.102
+  server: 188.166.83.167
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -827,33 +798,12 @@ proxies:
   encryption: none
   fp: firefox
   host: op6tju2a.gfw.hidns.co
-  name: 12|🇵🇱 PL-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 45.144.48.58
-  servername: op6tju2a.gfw.hidns.co
-  skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: op6tju2a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 12|🇸🇪 SE-1 | Mix
+  name: 12|🇳🇱 NL-5 | Mix
   network: ws
   path: /danfeng?ed=2560
   port: 2053
   security: tls
-  server: 31.58.137.141
+  server: 159.65.199.247
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -869,12 +819,54 @@ proxies:
   encryption: none
   fp: firefox
   host: op6tju2a.gfw.hidns.co
-  name: 12|🇻🇳 VN-1 | Mix
+  name: 12|🇳🇱 NL-6 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 2096
   security: tls
-  server: 185.242.105.115
+  server: 95.85.55.131
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇳🇱 NL-7 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 2087
+  security: tls
+  server: 188.166.60.219
+  servername: op6tju2a.gfw.hidns.co
+  skip-cert-verify: false
+  sni: op6tju2a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: op6tju2a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: op6tju2a.gfw.hidns.co
+  name: 12|🇹🇬 TG-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 32117
+  security: tls
+  server: 188.64.142.13
   servername: op6tju2a.gfw.hidns.co
   skip-cert-verify: false
   sni: op6tju2a.gfw.hidns.co
@@ -904,7 +896,7 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 921
-  server: 3.112.44.25
+  server: 52.195.175.93
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -912,31 +904,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 54.199.36.40
+  server: 54.238.27.181
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 54.178.248.68
+  port: 5823
+  server: 18.162.133.44
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32536
-  server: 13.192.234.119
+  port: 4945
+  server: 18.183.109.144
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 2001
-  server: 13.231.152.178
+  port: 4937
+  server: 18.183.109.249
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -944,7 +936,7 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 34818
-  server: 160.16.124.17
+  server: 18.183.109.249
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -952,7 +944,7 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 54.199.36.40
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -960,39 +952,39 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 160.16.124.17
+  server: 18.183.109.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 13.192.204.27
+  port: 12070
+  server: 16.162.188.92
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4019
-  server: 54.199.36.40
+  port: 3700
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4019
-  server: 13.231.152.178
+  port: 29370
+  server: 18.183.109.249
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 13.192.204.27
+  port: 15407
+  server: 18.183.109.144
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
