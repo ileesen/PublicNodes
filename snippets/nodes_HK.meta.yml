@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 11|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -13,33 +13,33 @@ proxies:
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: firefox
-  host: op6tju2a.gfw.hidns.co
-  name: 11|🇭🇰 HK-1 | Mix
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇭🇰 HK-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 44520
   security: tls
-  server: 38.55.104.160
-  servername: op6tju2a.gfw.hidns.co
+  server: 62.72.163.180
+  servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
-  sni: op6tju2a.gfw.hidns.co
+  sni: gfllmphve.danfeng.gv.uy
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: op6tju2a.gfw.hidns.co
+      Host: gfllmphve.danfeng.gv.uy
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 14|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
+- name: 14,15|香港3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 921
@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
+- name: 14,15|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -55,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+- name: 14,15|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -65,7 +65,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 15|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -76,7 +76,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 15|HK_speednode_0010
+  name: 16|HK_speednode_0010
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -93,7 +93,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: 15|HK_speednode_0011
+  name: 16|HK_speednode_0011
   network: ws
   port: 3389
   server: 203.168.131.110
