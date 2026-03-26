@@ -31,9 +31,9 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 2053
   security: tls
-  server: 159.89.107.63
+  server: 138.68.78.45
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -52,9 +52,9 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2083
+  port: 443
   security: tls
-  server: 209.38.247.12
+  server: 165.22.74.162
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -73,9 +73,9 @@ proxies:
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20205
+  port: 443
   security: tls
-  server: 167.99.131.6
+  server: 134.209.224.221
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -96,7 +96,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 46.101.174.78
+  server: 169.40.154.18
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -115,9 +115,9 @@ proxies:
   name: 12|🇩🇪 DE-5 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2087
+  port: 443
   security: tls
-  server: 104.248.142.217
+  server: 192.248.185.180
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -136,9 +136,30 @@ proxies:
   name: 12|🇩🇪 DE-6 | Mix
   network: ws
   path: /danfeng?ed=2560
+  port: 2096
+  security: tls
+  server: 167.71.48.187
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇩🇪 DE-7 | Mix
+  network: ws
+  path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 209.38.238.229
+  server: 64.226.120.228
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy

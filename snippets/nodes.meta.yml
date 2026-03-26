@@ -496,7 +496,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 216.238.54.35
+  server: 82.40.46.177
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -512,12 +512,33 @@ proxies:
   encryption: none
   fp: firefox
   host: gfllmphve.danfeng.gv.uy
-  name: 12|🇰🇷 KR-1 | Mix
+  name: 12|🇯🇵 JP-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20024
+  port: 3389
   security: tls
-  server: 124.61.52.107
+  server: 203.168.131.106
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇯🇵 JP-3 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 38.47.104.110
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -536,9 +557,9 @@ proxies:
   name: 12|🇺🇸 US-11 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20205
+  port: 443
   security: tls
-  server: 173.230.146.235
+  server: 64.181.247.243
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -557,9 +578,9 @@ proxies:
   name: 12|🇺🇸 US-12 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 60001
+  port: 27015
   security: tls
-  server: 67.213.119.119
+  server: 38.175.98.128
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -578,9 +599,9 @@ proxies:
   name: 12|🇺🇸 US-13 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 39738
+  port: 8443
   security: tls
-  server: 38.244.5.48
+  server: 152.70.123.225
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -599,51 +620,9 @@ proxies:
   name: 12|🇺🇸 US-14 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 58691
+  port: 2083
   security: tls
-  server: 72.249.203.3
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-15 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 3060
-  security: tls
-  server: 38.107.236.218
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-16 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 20205
-  security: tls
-  server: 45.79.84.212
+  server: 154.92.9.112
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -662,9 +641,9 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
+  port: 2053
   security: tls
-  server: 159.89.107.63
+  server: 138.68.78.45
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -683,9 +662,9 @@ proxies:
   name: 12|🇩🇪 DE-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2083
+  port: 443
   security: tls
-  server: 209.38.247.12
+  server: 165.22.74.162
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -704,9 +683,9 @@ proxies:
   name: 12|🇩🇪 DE-3 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 20205
+  port: 443
   security: tls
-  server: 167.99.131.6
+  server: 134.209.224.221
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -727,7 +706,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 46.101.174.78
+  server: 169.40.154.18
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -746,9 +725,9 @@ proxies:
   name: 12|🇩🇪 DE-5 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 2087
+  port: 443
   security: tls
-  server: 104.248.142.217
+  server: 192.248.185.180
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -767,72 +746,9 @@ proxies:
   name: 12|🇩🇪 DE-6 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 209.38.238.229
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇫🇷 FR-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2082
-  security: tls
-  server: 199.247.11.185
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇳🇱 NL-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 8443
-  security: tls
-  server: 5.255.120.214
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇳🇱 NL-2 | Mix
-  network: ws
-  path: /danfeng?ed=2560
   port: 2096
   security: tls
-  server: 104.248.80.71
+  server: 167.71.48.187
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -848,33 +764,12 @@ proxies:
   encryption: none
   fp: firefox
   host: gfllmphve.danfeng.gv.uy
-  name: 12|🇳🇱 NL-3 | Mix
+  name: 12|🇩🇪 DE-7 | Mix
   network: ws
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 146.185.161.54
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇸🇪 SE-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 45.131.185.44
+  server: 64.226.120.228
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -893,9 +788,114 @@ proxies:
   name: 12|🇹🇬 TG-1 | Mix
   network: ws
   path: /danfeng?ed=2560
+  port: 59606
+  security: tls
+  server: 23.27.126.212
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇬🇧 GB-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 194.87.230.214
+  server: 79.72.91.32
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇬🇧 GB-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 192.0.54.89
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇬🇧 GB-3 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 192.0.63.22
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇳🇱 NL-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 80
+  security: tls
+  server: 194.87.17.230
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇳🇱 NL-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 2087
+  security: tls
+  server: 146.190.30.107
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
