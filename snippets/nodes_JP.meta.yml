@@ -39,69 +39,27 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇯🇵 JP-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 5450
-  security: tls
-  server: 43.133.166.232
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇯🇵 JP-2 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 28349
-  security: tls
-  server: 38.47.125.21
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4945
-  server: 18.183.109.144
+  port: 3022
+  server: 13.113.229.223
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 14,15|日本2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4937
-  server: 18.183.109.249
+  port: 2001
+  server: 52.195.4.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|日本3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 34818
-  server: 18.183.109.249
+  port: 4937
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
