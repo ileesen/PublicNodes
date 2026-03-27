@@ -263,7 +263,7 @@ proxies:
   path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 64.181.247.243
+  server: 79.110.54.226
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -282,9 +282,9 @@ proxies:
   name: 12|🇺🇸 US-12 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 27015
+  port: 39738
   security: tls
-  server: 38.175.98.128
+  server: 38.244.5.180
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -303,9 +303,9 @@ proxies:
   name: 12|🇺🇸 US-13 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 8443
+  port: 8444
   security: tls
-  server: 152.70.123.225
+  server: 173.214.160.36
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -324,9 +324,72 @@ proxies:
   name: 12|🇺🇸 US-14 | Mix
   network: ws
   path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 34.19.17.65
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇺🇸 US-15 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 35.212.216.171
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇺🇸 US-16 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 60030
+  security: tls
+  server: 69.63.214.151
+  servername: gfllmphve.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: gfllmphve.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: gfllmphve.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: gfllmphve.danfeng.gv.uy
+  name: 12|🇺🇸 US-17 | Mix
+  network: ws
+  path: /danfeng?ed=2560
   port: 2083
   security: tls
-  server: 154.92.9.112
+  server: 154.92.9.104
   servername: gfllmphve.danfeng.gv.uy
   skip-cert-verify: false
   sni: gfllmphve.danfeng.gv.uy
@@ -340,24 +403,24 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 3057
-  server: 13.230.200.237
+  port: 4019
+  server: 54.168.70.136
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4019
-  server: 52.192.225.14
+  port: 3057
+  server: 54.168.242.122
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 18.166.177.165
+  port: 37223
+  server: 95.40.26.214
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
