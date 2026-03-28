@@ -43,321 +43,463 @@ proxies:
     headers:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+- client-fingerprint: chrome
+  flow: ''
+  name: 11|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
+- client-fingerprint: chrome
+  flow: ''
+  name: 11|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-1 | Mix
   network: ws
-  path: /danfeng?ed=2560
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
   port: 443
   security: tls
-  server: cf.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: freeyx.cloudflare88.eu.org
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  sni: sni.111000.dynv6.net
+  type: trojan
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
   encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-2 | Mix
   network: ws
-  path: /danfeng?ed=2560
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
   port: 443
   security: tls
-  server: cf1.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: saas.sin.fan
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
+  sni: sni.111000.dynv6.net
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-3 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 8443
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
   security: tls
-  server: cf2.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: saas.sin.fan
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  sni: sni.111000.dynv6.net
+  type: trojan
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
   encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-4 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 8443
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
   security: tls
-  server: cf3.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: freeyx.cloudflare88.eu.org
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
+  sni: sni.111000.dynv6.net
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-5 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 2053
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
   security: tls
-  server: cf4.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: bestcf.030101.xyz
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  sni: sni.111000.dynv6.net
+  type: trojan
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
   encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
   name: 12|🇺🇸 US-6 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 2053
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
   security: tls
-  server: cf5.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
+  server: bestcf.030101.xyz
+  servername: sni.111000.dynv6.net
   skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
+  sni: sni.111000.dynv6.net
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-7 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2087
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '1'
+  insecure: '1'
+  name: 12|🇺🇸 US-13 | Mix
+  password: dongtaiwang.com
+  port: 59901
   security: tls
-  server: cf6.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  server: 45.221.98.14
+  servername: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  tls:
+    enabled: true
+    insecure: true
+    server_name: 45.221.98.14
+  type: anytls
+- add: 68.168.20.54
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: 1c69946b-07af-4996-ab00-3cc5886a5a01
+  insecure: '0'
   name: 12|🇺🇸 US-8 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2087
-  security: tls
-  server: cf7.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: FullSpeed VPN
+  scy: auto
+  server: 68.168.20.54
+  servername: 94nbfzo3.videocache.stream
+  sni: 94nbfzo3.videocache.stream
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-9 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2096
+  type: vmess
+  uuid: 1c69946b-07af-4996-ab00-3cc5886a5a01
+  v: '2'
+- allowInsecure: '1'
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '1'
+  name: 12|🇹🇷 TR-1 | Mix
+  password: dongtaiwang.com
+  port: 59901
   security: tls
-  server: cf8.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  server: 45.221.98.14
+  servername: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  tls:
+    enabled: true
+    insecure: true
+  type: anytls
+- allowInsecure: '1'
+  fp: chrome
+  host: nodes.830901.xyz
+  insecure: '1'
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 2096
+  password: iwangjie
+  path: /
+  port: 15805
   security: tls
-  server: cf9.danfeng.eu.org
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 158.101.11.204
+  servername: nodes.830901.xyz
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-11 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 172.245.18.136
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+      Host: nodes.830901.xyz
+    path: /
+- allowInsecure: '1'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '1'
   name: 12|🇺🇸 US-12 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
+  password: dongtaiwang.com
+  port: 59901
   security: tls
-  server: 107.173.127.36
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
-  name: 12|🇺🇸 US-13 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 23.27.163.15
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  server: 45.221.98.14
+  servername: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  tls:
+    enabled: true
+    insecure: true
+    server_name: 45.221.98.14
+  type: anytls
+- add: 185.150.138.84
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: d23e21f7-7bdc-4dcf-99a5-996d9e358fac
+  insecure: '0'
   name: 12|🇺🇸 US-14 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 20009
-  security: tls
-  server: 154.64.225.166
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: FullSpeed VPN
+  scy: auto
+  server: 185.150.138.84
+  servername: b76k6884.videocache.stream
+  sni: b76k6884.videocache.stream
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: gfllmphve.danfeng.gv.uy
+  type: vmess
+  uuid: d23e21f7-7bdc-4dcf-99a5-996d9e358fac
+  v: '2'
+- add: 15.204.50.250
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: f366dc06-32e0-4b1f-bd27-9e6339c11bfe
+  insecure: '0'
   name: 12|🇺🇸 US-15 | Mix
+  net: tcp
+  network: tcp
+  port: 443
+  ps: 美国-免费4
+  scy: auto
+  server: 15.204.50.250
+  tls: false
+  type: vmess
+  uuid: f366dc06-32e0-4b1f-bd27-9e6339c11bfe
+  v: '2'
+- add: 15.204.50.250
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 64c58857-f224-4011-aaf3-5f7915a526b6
+  insecure: '0'
+  name: 12|🇺🇸 US-16 | Mix
+  net: tcp
+  network: tcp
+  port: 443
+  ps: 美国-免费4
+  scy: auto
+  server: 15.204.50.250
+  tls: false
+  type: vmess
+  uuid: 64c58857-f224-4011-aaf3-5f7915a526b6
+  v: '2'
+- add: 15.204.50.250
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 739d937d-7d66-419d-a6d3-ec8ad831862d
+  insecure: '0'
+  name: 12|🇺🇸 US-17 | Mix
+  net: tcp
+  network: tcp
+  port: 443
+  ps: 美国-免费4
+  scy: auto
+  server: 15.204.50.250
+  tls: false
+  type: vmess
+  uuid: 739d937d-7d66-419d-a6d3-ec8ad831862d
+  v: '2'
+- allowInsecure: '1'
+  host: Koma-YT.PAGeS.Dev
+  insecure: '1'
+  name: 12|🇺🇸 US-18 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 10443
+  password: 8r<[9'l6hAO#8ZQi
+  path: /tro8sFW1S91B6sZrM1?ed=2560
+  port: 8443
   security: tls
-  server: 38.75.217.6
-  servername: gfllmphve.danfeng.gv.uy
-  skip-cert-verify: false
-  sni: gfllmphve.danfeng.gv.uy
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 172.66.44.230
+  servername: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: gfllmphve.danfeng.gv.uy
-    path: /danfeng?ed=2560
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- encryption: none
+  fp: random
+  mode: auto
+  name: 12|🇺🇸 US-19 | Mix
+  network: xhttp
+  path: /intl/zh-hk/
+  pbk: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
+  port: 9443
+  reality-opts:
+    public-key: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
+    server-name: www.slack.com
+    short-id: cdafb6ae
+  security: reality
+  server: 68.168.20.54
+  sid: cdafb6ae
+  sni: www.slack.com
+  spx: /intl/zh-hk/
+  tls: true
+  type: vless
+  uuid: d58a07b8-a15c-4682-a870-1d86f4facd36
+- encryption: none
+  fp: random
+  mode: auto
+  name: 12|🇺🇸 US-20 | Mix
+  network: xhttp
+  path: /intl/zh-hk/
+  pbk: AiJH905iWggryjRGy2ukssjxEPBNzRDQO58QFcAjhDM
+  port: 9443
+  reality-opts:
+    public-key: AiJH905iWggryjRGy2ukssjxEPBNzRDQO58QFcAjhDM
+    server-name: www.slack.com
+    short-id: d13918c4b9
+  security: reality
+  server: 185.150.138.84
+  sid: d13918c4b9
+  sni: www.slack.com
+  spx: /intl/zh-hk/
+  tls: true
+  type: vless
+  uuid: 694ecd5c-c203-4efb-98c8-1b67bd9ad032
+- add: 185.150.138.84
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: ed544565-e44b-45c0-8714-ac7b3c5ed0f9
+  insecure: '0'
+  name: 12|🇺🇸 US-21 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: 美国_移动优化⭐⭐@pgkj0402
+  scy: auto
+  server: 185.150.138.84
+  servername: nyandwv6.videocache.stream
+  sni: nyandwv6.videocache.stream
+  tls: true
+  type: vmess
+  uuid: ed544565-e44b-45c0-8714-ac7b3c5ed0f9
+  v: '2'
+- add: 68.168.20.54
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: 6a59cab6-8453-43cc-aa67-ef4a5c8f0803
+  insecure: '0'
+  name: 12|🇺🇸 US-22 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: 美国👍👍👍-05_洛杉矶_BGP@pgkj0402
+  scy: auto
+  server: 68.168.20.54
+  servername: pus1ewfu.videocache.stream
+  sni: pus1ewfu.videocache.stream
+  tls: true
+  type: vmess
+  uuid: 6a59cab6-8453-43cc-aa67-ef4a5c8f0803
+  v: '2'
+- encryption: none
+  fp: random
+  mode: auto
+  name: 12|🇺🇸 US-23 | Mix
+  network: xhttp
+  path: /intl/zh-hk/
+  pbk: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
+  port: 9443
+  reality-opts:
+    public-key: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
+    server-name: www.slack.com
+    short-id: cdafb6ae
+  security: reality
+  server: 68.168.20.54
+  sid: cdafb6ae
+  sni: www.slack.com
+  spx: /intl/zh-hk/
+  tls: true
+  type: vless
+  uuid: 6e161069-11ee-4f75-ad0c-0a3967eea264
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9

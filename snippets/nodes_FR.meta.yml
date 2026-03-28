@@ -9,18 +9,136 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  flow: ''
-  name: 11|🇫🇷 FR-2 | 8EB
-  network: ws
+- add: 51.68.240.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: f9913e8f-89bb-4721-b156-870bb6228921
+  insecure: '0'
+  name: 12|🇫🇷 FR-1 | Mix
+  net: tcp
+  network: tcp
   port: 443
-  server: 69.84.182.13
-  skip-cert-verify: false
+  ps: 法国-免费1
+  scy: auto
+  server: 51.68.240.35
+  tls: false
+  type: vmess
+  uuid: f9913e8f-89bb-4721-b156-870bb6228921
+  v: '2'
+- add: 51.68.240.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 39d42866-956d-412b-8f61-237f20536964
+  insecure: '0'
+  name: 12|🇫🇷 FR-2 | Mix
+  net: tcp
+  network: tcp
+  port: 443
+  ps: 法国-免费1
+  scy: auto
+  server: 51.68.240.35
+  tls: false
+  type: vmess
+  uuid: 39d42866-956d-412b-8f61-237f20536964
+  v: '2'
+- encryption: none
+  fp: random
+  mode: auto
+  name: 12|🇫🇷 FR-3 | Mix
+  network: xhttp
+  path: /intl/zh-hk/
+  pbk: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
+  port: 9443
+  reality-opts:
+    public-key: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
+    server-name: www.slack.com
+    short-id: 18188577ce
+  security: reality
+  server: 166.0.150.15
+  sid: 18188577ce
+  sni: www.slack.com
+  spx: /intl/zh-hk/
   tls: true
   type: vless
-  udp: true
-  uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
+  uuid: 0bb68a39-9643-4f72-b220-09e36f03df0f
+- add: 166.0.150.15
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: 45c14d4a-e23e-4005-9dc4-b251fbf16af8
+  insecure: '0'
+  name: 12|🇫🇷 FR-4 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: '@pgkj0402'
+  scy: auto
+  server: 166.0.150.15
+  servername: z99ciksk.videocache.stream
+  sni: z99ciksk.videocache.stream
+  tls: true
+  type: vmess
+  uuid: 45c14d4a-e23e-4005-9dc4-b251fbf16af8
+  v: '2'
+- add: 51.68.240.35
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  id: 491ce522-7923-41ad-869f-df74539af6e0
+  insecure: '0'
+  name: 12|🇫🇷 FR-5 | Mix
+  net: tcp
+  network: tcp
+  port: 443
+  ps: 法国-免费1
+  scy: auto
+  server: 51.68.240.35
+  tls: false
+  type: vmess
+  uuid: 491ce522-7923-41ad-869f-df74539af6e0
+  v: '2'
+- add: 166.0.150.15
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: f861422a-edcc-4174-95fa-c5c8ed9bff7a
+  insecure: '0'
+  name: 12|🇫🇷 FR-6 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: 法国-01_巴黎@pgkj0402
+  scy: auto
+  server: 166.0.150.15
+  servername: vjuogm8i.videocache.stream
+  sni: vjuogm8i.videocache.stream
+  tls: true
+  type: vmess
+  uuid: f861422a-edcc-4174-95fa-c5c8ed9bff7a
+  v: '2'
+- encryption: none
+  fp: random
+  mode: auto
+  name: 12|🇫🇷 FR-7 | Mix
+  network: xhttp
+  path: /intl/zh-hk/
+  pbk: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
+  port: 9443
+  reality-opts:
+    public-key: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
+    server-name: www.slack.com
+    short-id: 18188577ce
+  security: reality
+  server: 166.0.150.15
+  sid: 18188577ce
+  sni: www.slack.com
+  spx: /intl/zh-hk/
+  tls: true
+  type: vless
+  uuid: e3a0c5f3-03e0-4569-b4d8-6720f8af5dcd
