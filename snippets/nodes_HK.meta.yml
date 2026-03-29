@@ -9,101 +9,48 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: n44i0ani.gfw.hidns.co
   name: 12|🇭🇰 HK-1 | Mix
-  network: tcp
-  password: BxceQaOe
+  network: ws
+  path: /danfeng?ed=2560
+  port: 21949
+  security: tls
+  server: 212.192.12.80
+  servername: n44i0ani.gfw.hidns.co
+  skip-cert-verify: false
+  sni: n44i0ani.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: n44i0ani.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: n44i0ani.gfw.hidns.co
+  name: 12|🇭🇰 HK-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
   port: 443
   security: tls
-  server: 58.152.25.253
-  servername: t.me/ripaojiedian
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- add: 103.102.5.6
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  fp: random
-  id: d1fa66d5-6b6d-4c30-8935-62b6eb7fe9d3
-  insecure: '0'
-  name: 12|🇭🇰 HK-2 | Mix
-  net: xhttp
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 443
-  ps: 04_香港_全球优化⭐@pgkj0402
-  scy: auto
-  server: 103.102.5.6
-  servername: 8umtonj7.videocache.stream
-  sni: 8umtonj7.videocache.stream
-  tls: true
-  type: vmess
-  uuid: d1fa66d5-6b6d-4c30-8935-62b6eb7fe9d3
-  v: '2'
-- encryption: none
-  fp: random
-  mode: auto
-  name: 12|🇭🇰 HK-3 | Mix
-  network: xhttp
-  path: /intl/zh-hk/
-  pbk: wPzoW4dlsGlqwJuo1ZmtbSviVOfXiTJsU1vFd_JkQBA
-  port: 9443
-  reality-opts:
-    public-key: wPzoW4dlsGlqwJuo1ZmtbSviVOfXiTJsU1vFd_JkQBA
-    server-name: www.slack.com
-    short-id: 246ef3e4d626
-  security: reality
-  server: 103.219.192.105
-  sid: 246ef3e4d626
-  sni: www.slack.com
-  spx: /intl/zh-hk/
+  server: 103.117.100.105
+  servername: n44i0ani.gfw.hidns.co
+  skip-cert-verify: false
+  sni: n44i0ani.gfw.hidns.co
   tls: true
   type: vless
-  uuid: f4b0c068-b87a-4a09-87cb-2fe0d610e0b1
-- add: 103.219.192.105
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  fp: random
-  id: 3b929aca-d453-4a10-8ff6-3a86187fcca4
-  insecure: '0'
-  name: 12|🇭🇰 HK-4 | Mix
-  net: xhttp
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 443
-  ps: 香港_全球优化⭐@pgkj0402
-  scy: auto
-  server: 103.219.192.105
-  servername: wrf85dee.videocache.stream
-  sni: wrf85dee.videocache.stream
-  tls: true
-  type: vmess
-  uuid: 3b929aca-d453-4a10-8ff6-3a86187fcca4
-  v: '2'
-- encryption: none
-  fp: random
-  mode: auto
-  name: 12|🇭🇰 HK-5 | Mix
-  network: xhttp
-  path: /intl/zh-hk/
-  pbk: 4WvX7ciUS2Wis1Nqe3BoD2d0YtCpsrPmclo7PqzA0Uw
-  port: 9443
-  reality-opts:
-    public-key: 4WvX7ciUS2Wis1Nqe3BoD2d0YtCpsrPmclo7PqzA0Uw
-    server-name: www.slack.com
-    short-id: cfaf8f58
-  security: reality
-  server: 103.102.5.6
-  sid: cfaf8f58
-  sni: www.slack.com
-  spx: /intl/zh-hk/
-  tls: true
-  type: vless
-  uuid: 937d90f5-aabf-4908-b909-b2a34c8603f8
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: n44i0ani.gfw.hidns.co
+    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
   name: 14|🇭🇰 香港|@ripaojiedian

@@ -39,25 +39,48 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- encryption: none
-  fp: random
-  mode: auto
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: n44i0ani.gfw.hidns.co
   name: 12|🇯🇵 JP-1 | Mix
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 9443
-  reality-opts:
-    public-key: ''
-    server-name: www.slack.com
-    short-id: 3f7a18b13e
-  security: reality
-  server: 178.239.125.5
-  sid: 3f7a18b13e
-  sni: www.slack.com
-  spx: /intl/zh-hk/
+  network: ws
+  path: /danfeng?ed=2560
+  port: 20205
+  security: tls
+  server: 172.105.197.52
+  servername: n44i0ani.gfw.hidns.co
+  skip-cert-verify: false
+  sni: n44i0ani.gfw.hidns.co
   tls: true
   type: vless
-  uuid: 3b056118-3ae8-48df-b85f-39f879f83896
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: n44i0ani.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: firefox
+  host: n44i0ani.gfw.hidns.co
+  name: 12|🇯🇵 JP-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 191.96.29.86
+  servername: n44i0ani.gfw.hidns.co
+  skip-cert-verify: false
+  sni: n44i0ani.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: n44i0ani.gfw.hidns.co
+    path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

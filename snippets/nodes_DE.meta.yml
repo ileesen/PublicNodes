@@ -13,159 +13,27 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- add: 51.89.11.94
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: e5408561-3874-4d41-a744-0cd0dfdb86c8
-  insecure: '0'
-  name: 12|🇩🇪 DE-1 | Mix
-  net: tcp
-  network: tcp
-  port: 443
-  ps: 德国-免费3
-  scy: auto
-  server: 51.89.11.94
-  tls: false
-  type: vmess
-  uuid: e5408561-3874-4d41-a744-0cd0dfdb86c8
-  v: '2'
-- add: 95.169.166.202
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  fp: random
-  id: ddac2fdd-c377-48f3-8df2-88c070d6f2c6
-  insecure: '0'
-  name: 12|🇩🇪 DE-2 | Mix
-  net: xhttp
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 443
-  ps: FullSpeed VPN
-  scy: auto
-  server: 95.169.166.202
-  servername: f1jqwdve.videocache.stream
-  sni: f1jqwdve.videocache.stream
-  tls: true
-  type: vmess
-  uuid: ddac2fdd-c377-48f3-8df2-88c070d6f2c6
-  v: '2'
-- add: 51.89.11.94
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: f13abfec-1cc3-4f1b-bdc2-e2f11c38c8c9
-  insecure: '0'
-  name: 12|🇩🇪 DE-3 | Mix
-  net: tcp
-  network: tcp
-  port: 443
-  ps: 德国-免费1
-  scy: auto
-  server: 51.89.11.94
-  tls: false
-  type: vmess
-  uuid: f13abfec-1cc3-4f1b-bdc2-e2f11c38c8c9
-  v: '2'
-- allowInsecure: '0'
+- client-fingerprint: firefox
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
-  host: sub.mot.ip-ddns.com
-  insecure: '0'
-  name: 12|🇩🇪 DE-4 | Mix
+  fp: firefox
+  host: n44i0ani.gfw.hidns.co
+  name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  path: /
-  port: 4001
+  path: /danfeng?ed=2560
+  port: 2053
   security: tls
-  server: 185.94.29.156
-  servername: sub.mot.ip-ddns.com
+  server: 152.228.134.213
+  servername: n44i0ani.gfw.hidns.co
   skip-cert-verify: false
-  sni: sub.mot.ip-ddns.com
+  sni: n44i0ani.gfw.hidns.co
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
-- add: 51.89.11.94
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  id: bd7ba496-e654-4ece-83db-c434a8270ecf
-  insecure: '0'
-  name: 12|🇩🇪 DE-5 | Mix
-  net: tcp
-  network: tcp
-  port: 443
-  ps: 德国-免费1
-  scy: auto
-  server: 51.89.11.94
-  tls: false
-  type: vmess
-  uuid: bd7ba496-e654-4ece-83db-c434a8270ecf
-  v: '2'
-- encryption: none
-  fp: random
-  mode: auto
-  name: 12|🇩🇪 DE-6 | Mix
-  network: xhttp
-  path: /intl/zh-hk/
-  pbk: Ou8KquAS78wjjWJNipyQFu_CGJ4Lg-GrP4xJ6VtET1M
-  port: 9443
-  reality-opts:
-    public-key: Ou8KquAS78wjjWJNipyQFu_CGJ4Lg-GrP4xJ6VtET1M
-    server-name: www.slack.com
-    short-id: afbee355
-  security: reality
-  server: 95.169.166.202
-  sid: afbee355
-  sni: www.slack.com
-  spx: /intl/zh-hk/
-  tls: true
-  type: vless
-  uuid: 1a89128f-e608-462d-a435-4de856565d4d
-- add: 95.169.166.202
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  fp: random
-  id: 8caf56ce-cb1a-40da-8395-8aa333913ee5
-  insecure: '0'
-  name: 12|🇩🇪 DE-7 | Mix
-  net: xhttp
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 443
-  ps: 德国-01_法兰克福@pgkj0402
-  scy: auto
-  server: 95.169.166.202
-  servername: dixjae9j.videocache.stream
-  sni: dixjae9j.videocache.stream
-  tls: true
-  type: vmess
-  uuid: 8caf56ce-cb1a-40da-8395-8aa333913ee5
-  v: '2'
-- encryption: none
-  fp: random
-  mode: auto
-  name: 12|🇩🇪 DE-8 | Mix
-  network: xhttp
-  path: /intl/zh-hk/
-  pbk: Ou8KquAS78wjjWJNipyQFu_CGJ4Lg-GrP4xJ6VtET1M
-  port: 9443
-  reality-opts:
-    public-key: Ou8KquAS78wjjWJNipyQFu_CGJ4Lg-GrP4xJ6VtET1M
-    server-name: www.slack.com
-    short-id: afbee355
-  security: reality
-  server: 95.169.166.202
-  sid: afbee355
-  sni: www.slack.com
-  spx: /intl/zh-hk/
-  tls: true
-  type: vless
-  uuid: fbf0a0dc-ec9a-46de-ae0c-808804be6896
+      Host: n44i0ani.gfw.hidns.co
+    path: /danfeng?ed=2560
 - name: 16|DE_speednode_0006
   network: ws
   port: 4001
