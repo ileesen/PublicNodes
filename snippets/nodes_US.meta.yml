@@ -1,5 +1,5 @@
 proxies:
-- name: 10|🇺🇸 US-5 | 8EB
+- name: 11|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
   server: 134.195.101.199
@@ -8,7 +8,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 11|🇺🇸 US-6 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 11|🇺🇸 US-7 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -29,7 +29,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇺🇸 US-9 | 8EB
+  name: 11|🇺🇸 US-9 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -43,9 +43,150 @@ proxies:
     headers:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-1 | Mix
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  encryption: none
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-2 | Mix
+  network: ws
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: saas.sin.fan
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-3 | Mix
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: saas.sin.fan
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  encryption: none
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-4 | Mix
+  network: ws
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-5 | Mix
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: bestcf.030101.xyz
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+  encryption: none
+  fp: chrome
+  host: sni.111000.dynv6.net
+  insecure: '0'
+  name: 12|🇺🇸 US-6 | Mix
+  network: ws
+  path: /?ed=2560&proxyip=ip.111000.de5.net:443
+  port: 443
+  security: tls
+  server: bestcf.030101.xyz
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sni: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
 - allowInsecure: '1'
   insecure: '1'
-  name: 11|🇺🇸 US-3 | Mix
+  name: 12|🇺🇸 US-13 | Mix
   password: dongtaiwang.com
   port: 59901
   security: tls
@@ -58,11 +199,50 @@ proxies:
     insecure: true
     server_name: 45.221.98.14
   type: anytls
+- add: 68.168.20.54
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: 1c69946b-07af-4996-ab00-3cc5886a5a01
+  insecure: '0'
+  name: 12|🇺🇸 US-8 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: FullSpeed VPN
+  scy: auto
+  server: 68.168.20.54
+  servername: 94nbfzo3.videocache.stream
+  sni: 94nbfzo3.videocache.stream
+  tls: true
+  type: vmess
+  uuid: 1c69946b-07af-4996-ab00-3cc5886a5a01
+  v: '2'
+- allowInsecure: '1'
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '1'
+  name: 12|🇹🇷 TR-1 | Mix
+  password: dongtaiwang.com
+  port: 59901
+  security: tls
+  server: 45.221.98.14
+  servername: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  tls:
+    enabled: true
+    insecure: true
+  type: anytls
 - allowInsecure: '1'
   fp: chrome
   host: nodes.830901.xyz
   insecure: '1'
-  name: 11|🇺🇸 US-2 | Mix
+  name: 12|🇺🇸 US-10 | Mix
   network: ws
   password: iwangjie
   path: /
@@ -77,13 +257,54 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /
+- allowInsecure: '1'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '1'
+  name: 12|🇺🇸 US-12 | Mix
+  password: dongtaiwang.com
+  port: 59901
+  security: tls
+  server: 45.221.98.14
+  servername: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  tls:
+    enabled: true
+    insecure: true
+    server_name: 45.221.98.14
+  type: anytls
+- add: 185.150.138.84
+  aid: '0'
+  alterId: 0
+  cipher: auto
+  fp: random
+  id: d23e21f7-7bdc-4dcf-99a5-996d9e358fac
+  insecure: '0'
+  name: 12|🇺🇸 US-14 | Mix
+  net: xhttp
+  network: xhttp
+  path: /intl/zh-hk/
+  port: 443
+  ps: FullSpeed VPN
+  scy: auto
+  server: 185.150.138.84
+  servername: b76k6884.videocache.stream
+  sni: b76k6884.videocache.stream
+  tls: true
+  type: vmess
+  uuid: d23e21f7-7bdc-4dcf-99a5-996d9e358fac
+  v: '2'
 - add: 15.204.50.250
   aid: '0'
   alterId: 0
   cipher: auto
   id: f366dc06-32e0-4b1f-bd27-9e6339c11bfe
   insecure: '0'
-  name: 11|🇺🇸 US-4 | Mix
+  name: 12|🇺🇸 US-15 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -100,7 +321,7 @@ proxies:
   cipher: auto
   id: 64c58857-f224-4011-aaf3-5f7915a526b6
   insecure: '0'
-  name: 11|🇺🇸 US-5 | Mix
+  name: 12|🇺🇸 US-16 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -117,7 +338,7 @@ proxies:
   cipher: auto
   id: 739d937d-7d66-419d-a6d3-ec8ad831862d
   insecure: '0'
-  name: 11|🇺🇸 US-6 | Mix
+  name: 12|🇺🇸 US-17 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -128,10 +349,28 @@ proxies:
   type: vmess
   uuid: 739d937d-7d66-419d-a6d3-ec8ad831862d
   v: '2'
+- allowInsecure: '1'
+  host: Koma-YT.PAGeS.Dev
+  insecure: '1'
+  name: 12|🇺🇸 US-18 | Mix
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  path: /tro8sFW1S91B6sZrM1?ed=2560
+  port: 8443
+  security: tls
+  server: 172.66.44.230
+  servername: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
 - encryption: none
   fp: random
   mode: auto
-  name: 11|🇺🇸 US-7 | Mix
+  name: 12|🇺🇸 US-19 | Mix
   network: xhttp
   path: /intl/zh-hk/
   pbk: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
@@ -151,7 +390,7 @@ proxies:
 - encryption: none
   fp: random
   mode: auto
-  name: 11|🇺🇸 US-8 | Mix
+  name: 12|🇺🇸 US-20 | Mix
   network: xhttp
   path: /intl/zh-hk/
   pbk: AiJH905iWggryjRGy2ukssjxEPBNzRDQO58QFcAjhDM
@@ -175,7 +414,7 @@ proxies:
   fp: random
   id: ed544565-e44b-45c0-8714-ac7b3c5ed0f9
   insecure: '0'
-  name: 11|🇺🇸 US-9 | Mix
+  name: 12|🇺🇸 US-21 | Mix
   net: xhttp
   network: xhttp
   path: /intl/zh-hk/
@@ -196,7 +435,7 @@ proxies:
   fp: random
   id: 6a59cab6-8453-43cc-aa67-ef4a5c8f0803
   insecure: '0'
-  name: 11|🇺🇸 US-10 | Mix
+  name: 12|🇺🇸 US-22 | Mix
   net: xhttp
   network: xhttp
   path: /intl/zh-hk/
@@ -213,7 +452,7 @@ proxies:
 - encryption: none
   fp: random
   mode: auto
-  name: 11|🇺🇸 US-11 | Mix
+  name: 12|🇺🇸 US-23 | Mix
   network: xhttp
   path: /intl/zh-hk/
   pbk: n-nWSUu-HWlcDIqRs8fuA2K-buGsJzxXD1I5i-yYXC0
@@ -230,7 +469,7 @@ proxies:
   tls: true
   type: vless
   uuid: 6e161069-11ee-4f75-ad0c-0a3967eea264
-- name: 13,14|美国|@ripaojiedian
+- name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 3057
@@ -238,7 +477,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 29370
@@ -246,7 +485,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -254,7 +493,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0019
+- name: 16|US_speednode_0019
   network: ws
   password: trojan
   port: 8025
@@ -267,12 +506,12 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 15|US_speednode_0021
+- name: 16|US_speednode_0021
   port: 7070
   server: 20.83.154.79
   type: socks5
   udp: true
-- name: 15|US_speednode_0022
+- name: 16|US_speednode_0022
   network: ws
   port: 443
   server: 209.102.207.120
@@ -286,7 +525,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
-- name: 15|US_speednode_0023
+- name: 16|US_speednode_0023
   network: ws
   port: 443
   server: 135.84.74.43
@@ -300,7 +539,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
-- name: 15|US_speednode_0024
+- name: 16|US_speednode_0024
   password: c931310e-a5e7-11f0-bf66-f23c9164ca5d
   port: 443
   server: f755b173-tcb5s0-tcjoyq-2cg3.de.oshuawei.com
@@ -311,7 +550,7 @@ proxies:
   username: c931310e-a5e7-11f0-bf66-f23c9164ca5d
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0025
+  name: 16|US_speednode_0025
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
@@ -323,7 +562,7 @@ proxies:
   type: vless
   udp: true
   uuid: 96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0
-- name: 15|US_speednode_0026
+- name: 16|US_speednode_0026
   network: ws
   password: trojan
   port: 28080
@@ -336,7 +575,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 15|US_speednode_0027
+- name: 16|US_speednode_0027
   network: ws
   port: 443
   server: 135.84.74.155
@@ -352,7 +591,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+  name: 16|US_speednode_0028
   port: 8443
   reality-opts:
     public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
