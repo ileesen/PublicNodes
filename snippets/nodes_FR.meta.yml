@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇫🇷 FR-1 | 8EB
+  name: 10|🇫🇷 FR-1 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -9,13 +9,28 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  flow: ''
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
 - add: 51.68.240.35
   aid: '0'
   alterId: 0
   cipher: auto
   id: f9913e8f-89bb-4721-b156-870bb6228921
   insecure: '0'
-  name: 12|🇫🇷 FR-1 | Mix
+  name: 11|🇫🇷 FR-1 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -32,7 +47,7 @@ proxies:
   cipher: auto
   id: 39d42866-956d-412b-8f61-237f20536964
   insecure: '0'
-  name: 12|🇫🇷 FR-2 | Mix
+  name: 11|🇫🇷 FR-2 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -46,7 +61,7 @@ proxies:
 - encryption: none
   fp: random
   mode: auto
-  name: 12|🇫🇷 FR-3 | Mix
+  name: 11|🇫🇷 FR-3 | Mix
   network: xhttp
   path: /intl/zh-hk/
   pbk: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
@@ -63,34 +78,13 @@ proxies:
   tls: true
   type: vless
   uuid: 0bb68a39-9643-4f72-b220-09e36f03df0f
-- add: 166.0.150.15
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  fp: random
-  id: 45c14d4a-e23e-4005-9dc4-b251fbf16af8
-  insecure: '0'
-  name: 12|🇫🇷 FR-4 | Mix
-  net: xhttp
-  network: xhttp
-  path: /intl/zh-hk/
-  port: 443
-  ps: '@pgkj0402'
-  scy: auto
-  server: 166.0.150.15
-  servername: z99ciksk.videocache.stream
-  sni: z99ciksk.videocache.stream
-  tls: true
-  type: vmess
-  uuid: 45c14d4a-e23e-4005-9dc4-b251fbf16af8
-  v: '2'
 - add: 51.68.240.35
   aid: '0'
   alterId: 0
   cipher: auto
   id: 491ce522-7923-41ad-869f-df74539af6e0
   insecure: '0'
-  name: 12|🇫🇷 FR-5 | Mix
+  name: 11|🇫🇷 FR-4 | Mix
   net: tcp
   network: tcp
   port: 443
@@ -108,7 +102,7 @@ proxies:
   fp: random
   id: f861422a-edcc-4174-95fa-c5c8ed9bff7a
   insecure: '0'
-  name: 12|🇫🇷 FR-6 | Mix
+  name: 11|🇫🇷 FR-5 | Mix
   net: xhttp
   network: xhttp
   path: /intl/zh-hk/
@@ -125,7 +119,7 @@ proxies:
 - encryption: none
   fp: random
   mode: auto
-  name: 12|🇫🇷 FR-7 | Mix
+  name: 11|🇫🇷 FR-6 | Mix
   network: xhttp
   path: /intl/zh-hk/
   pbk: ys8JCBCz2BykxtTPEVYudT37JeooqVJtci22eZwN9iU
