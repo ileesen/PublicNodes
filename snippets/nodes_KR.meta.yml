@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | 8EB
+  name: 10|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -13,33 +13,12 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: n44i0ani.gfw.hidns.co
-  name: 12|🇰🇷 KR-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 10086
-  security: tls
-  server: 146.56.42.33
-  servername: n44i0ani.gfw.hidns.co
-  skip-cert-verify: false
-  sni: n44i0ani.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: n44i0ani.gfw.hidns.co
-    path: /danfeng?ed=2560
-- name: 16|KR_speednode_0009
+- name: 15|KR_speednode_0009
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
-- name: 16|KR_speednode_0010
+- name: 15|KR_speednode_0010
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -49,7 +28,7 @@ proxies:
   udp: true
   username: test
 - client-fingerprint: chrome
-  name: 16|KR_speednode_0011
+  name: 15|KR_speednode_0011
   network: ws
   port: 30035
   server: 106.255.89.151

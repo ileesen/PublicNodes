@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -9,58 +9,16 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: n44i0ani.gfw.hidns.co
-  name: 12|🇭🇰 HK-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 2083
-  security: tls
-  server: 103.255.208.5
-  servername: n44i0ani.gfw.hidns.co
-  skip-cert-verify: false
-  sni: n44i0ani.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: n44i0ani.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: firefox
-  host: n44i0ani.gfw.hidns.co
-  name: 12|🇭🇰 HK-2 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 103.219.193.106
-  servername: n44i0ani.gfw.hidns.co
-  skip-cert-verify: false
-  sni: n44i0ani.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: n44i0ani.gfw.hidns.co
-    path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 21413
@@ -68,7 +26,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 921
@@ -76,7 +34,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 921
@@ -86,7 +44,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
