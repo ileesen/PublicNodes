@@ -54,9 +54,9 @@ proxies:
   name: 12|🇺🇸 US-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 3084
+  port: 25745
   security: tls
-  server: 192.104.159.52
+  server: 192.207.129.107
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -78,9 +78,9 @@ proxies:
   name: 12|🇺🇸 US-2 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 64620
+  port: 30938
   security: tls
-  server: 164.226.79.189
+  server: 216.188.211.119
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -102,9 +102,9 @@ proxies:
   name: 12|🇺🇸 US-3 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 22639
+  port: 51475
   security: tls
-  server: 168.53.0.44
+  server: 104.18.220.105
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -126,9 +126,9 @@ proxies:
   name: 12|🇺🇸 US-4 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 37702
+  port: 44693
   security: tls
-  server: 163.12.178.76
+  server: 148.84.37.105
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -150,9 +150,9 @@ proxies:
   name: 12|🇺🇸 US-5 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 48761
+  port: 39297
   security: tls
-  server: 99.16.117.93
+  server: 9.26.30.26
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -174,9 +174,9 @@ proxies:
   name: 12|🇺🇸 US-6 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 31148
+  port: 65316
   security: tls
-  server: 208.185.220.246
+  server: 30.93.60.8
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -198,9 +198,9 @@ proxies:
   name: 12|🇺🇸 US-7 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 62424
+  port: 61468
   security: tls
-  server: 69.152.20.7
+  server: 128.231.94.150
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -222,9 +222,9 @@ proxies:
   name: 12|🇺🇸 US-8 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 50075
+  port: 36857
   security: tls
-  server: 64.215.112.43
+  server: 205.187.210.239
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -246,9 +246,9 @@ proxies:
   name: 12|🇺🇸 US-9 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 16964
+  port: 42722
   security: tls
-  server: 66.29.68.145
+  server: 22.17.107.111
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -270,9 +270,9 @@ proxies:
   name: 12|🇺🇸 US-10 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 62482
+  port: 11108
   security: tls
-  server: 67.224.33.132
+  server: 15.133.51.16
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -294,9 +294,9 @@ proxies:
   name: 12|🇺🇸 US-11 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 7285
+  port: 48284
   security: tls
-  server: 216.239.242.55
+  server: 21.15.254.111
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -331,80 +331,109 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 16|US_speednode_0019
+- name: 16|US_speednode_0020
   network: ws
-  password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
-    path: /
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
 - name: 16|US_speednode_0021
-  port: 7070
-  server: 20.83.154.79
-  type: socks5
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
 - name: 16|US_speednode_0022
   network: ws
   port: 443
-  server: 209.102.207.120
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-- name: 16|US_speednode_0023
-  network: ws
-  port: 443
-  server: 135.84.74.43
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-- name: 16|US_speednode_0024
-  password: c931310e-a5e7-11f0-bf66-f23c9164ca5d
-  port: 443
-  server: f755b173-tcb5s0-tcjoyq-2cg3.de.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: c931310e-a5e7-11f0-bf66-f23c9164ca5d
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 16|US_speednode_0025
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: f1071c148a5aefc4
-  server: 194.36.39.84
-  servername: rbc.ru
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0
-- name: 16|US_speednode_0026
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 16|US_speednode_0023
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 16|US_speednode_0024
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 16|US_speednode_0025
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 16|US_speednode_0027
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: 9c2a7d4e5f18b6a3
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- name: 16|US_speednode_0028
   network: ws
   password: trojan
-  port: 28080
-  server: 38.83.41.89
+  port: 7071
+  server: 154.17.234.78
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -413,31 +442,59 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 16|US_speednode_0027
-  network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16|US_speednode_0028
-  port: 8443
+  name: 16|US_speednode_0029
+  port: 43229
   reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: f1071c148a5aefc4
-  server: braskivo.ru
-  servername: rbc.ru
+    public-key: JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ
+    short-id: e0a48d60
+  server: 216.236.26.19
+  servername: apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0
+  uuid: bb7d8763-4afa-465f-b066-35786781ced2
+- name: 16|US_speednode_0030
+  network: ws
+  port: 443
+  server: 192.0.63.49
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 16|US_speednode_0031
+  network: ws
+  port: 443
+  server: 192.0.63.115
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 16|US_speednode_0032
+  network: ws
+  port: 443
+  server: 166.117.33.104
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560

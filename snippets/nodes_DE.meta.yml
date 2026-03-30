@@ -24,9 +24,9 @@ proxies:
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
   path: /danfeng?ed=2560
-  port: 63128
+  port: 16427
   security: tls
-  server: 51.28.12.95
+  server: 194.201.105.111
   servername: Mama.Just.Killed.A.Man
   skip-cert-verify: false
   sni: Mama.Just.Killed.A.Man
@@ -37,36 +37,26 @@ proxies:
     headers:
       Host: Mama.Just.Killed.A.Man
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
-  name: 12|🇩🇪 DE-2 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 16892
-  security: tls
-  server: 94.249.244.118
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: Mama.Just.Killed.A.Man
-    path: /danfeng?ed=2560
-- name: 16|DE_speednode_0006
+- name: 16|DE_speednode_0004
   network: ws
   port: 4001
   server: 185.94.29.156
   servername: sub.mot.ip-ddns.com
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 16|DE_speednode_0005
+  network: ws
+  port: 4002
+  server: 37.114.50.157
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
