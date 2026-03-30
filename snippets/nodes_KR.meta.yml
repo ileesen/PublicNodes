@@ -19,8 +19,26 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇰🇷 KR-1 | Mix
   network: ws
-  port: 26470
-  server: 118.38.245.243
+  port: 12380
+  server: 121.178.202.91
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇰🇷 KR-2 | Mix
+  network: ws
+  port: 11310
+  server: 211.106.184.129
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
