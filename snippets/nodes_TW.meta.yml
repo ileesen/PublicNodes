@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇹🇼 TW-1 | 8EB
+  name: 11|🇹🇼 TW-1 | 8EB
   port: 443
   reality-opts:
     public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
@@ -13,27 +13,3 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
-  name: 11|🇹🇼 TW-1 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 44235
-  security: tls
-  server: 180.176.116.155
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: Mama.Just.Killed.A.Man
-    path: /danfeng?ed=2560
