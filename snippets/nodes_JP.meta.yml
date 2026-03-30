@@ -39,6 +39,30 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  fragment: 1,40-60,30-50,tlshello
+  host: Mama.Just.Killed.A.Man
+  name: 12|🇯🇵 JP-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 23783
+  security: tls
+  server: 124.18.80.141
+  servername: Mama.Just.Killed.A.Man
+  skip-cert-verify: false
+  sni: Mama.Just.Killed.A.Man
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: Mama.Just.Killed.A.Man
+    path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

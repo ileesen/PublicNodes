@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  fragment: 1,40-60,30-50,tlshello
+  host: Mama.Just.Killed.A.Man
+  name: 12|🇬🇧 GB-1 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 59736
+  security: tls
+  server: 94.175.242.59
+  servername: Mama.Just.Killed.A.Man
+  skip-cert-verify: false
+  sni: Mama.Just.Killed.A.Man
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: Mama.Just.Killed.A.Man
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  fragment: 1,40-60,30-50,tlshello
+  host: Mama.Just.Killed.A.Man
+  name: 12|🇬🇧 GB-2 | Mix
+  network: ws
+  path: /danfeng?ed=2560
+  port: 26812
+  security: tls
+  server: 51.104.22.119
+  servername: Mama.Just.Killed.A.Man
+  skip-cert-verify: false
+  sni: Mama.Just.Killed.A.Man
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: Mama.Just.Killed.A.Man
+    path: /danfeng?ed=2560
