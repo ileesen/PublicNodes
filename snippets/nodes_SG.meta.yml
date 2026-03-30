@@ -1,4 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇸🇬 SG-1 | Mix
+  network: ws
+  port: 8443
+  server: cf2.danfeng.eu.org
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
 - name: 14,15|新加坡|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9

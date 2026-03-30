@@ -13,29 +13,77 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 16427
-  security: tls
-  server: 194.201.105.111
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
+  port: 8443
+  server: 5.61.42.254
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Mama.Just.Killed.A.Man
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 8443
+  server: 46.101.156.38
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇩🇪 DE-3 | Mix
+  network: ws
+  port: 443
+  server: 142.93.107.147
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 12|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 2053
+  server: 178.128.198.120
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
     path: /danfeng?ed=2560
 - name: 16|DE_speednode_0004
   network: ws

@@ -1,73 +1,37 @@
 proxies:
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 12|🇬🇧 GB-1 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 24052
-  security: tls
-  server: 90.240.138.220
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
+  port: 443
+  server: 134.209.23.34
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Mama.Just.Killed.A.Man
+      Host: p3lydb507umi.chinav.eu.org
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 12|🇬🇧 GB-2 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 5925
-  security: tls
-  server: 137.222.97.220
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
+  port: 444
+  server: 167.172.63.237
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Mama.Just.Killed.A.Man
-    path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
-  name: 12|🇬🇧 GB-3 | Mix
-  network: ws
-  path: /danfeng?ed=2560
-  port: 44883
-  security: tls
-  server: 25.7.119.85
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: Mama.Just.Killed.A.Man
+      Host: p3lydb507umi.chinav.eu.org
     path: /danfeng?ed=2560

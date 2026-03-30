@@ -39,29 +39,23 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  fragment: 1,40-60,30-50,tlshello
-  host: Mama.Just.Killed.A.Man
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
   name: 12|🇯🇵 JP-1 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 35992
-  security: tls
-  server: 163.59.97.55
-  servername: Mama.Just.Killed.A.Man
-  skip-cert-verify: false
-  sni: Mama.Just.Killed.A.Man
+  port: 443
+  server: 172.233.78.172
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Mama.Just.Killed.A.Man
+      Host: p3lydb507umi.chinav.eu.org
     path: /danfeng?ed=2560
 - name: 14,15|日本|@ripaojiedian
   network: tcp
