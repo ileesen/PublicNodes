@@ -211,8 +211,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 154.26.177.203
+  port: 8443
+  server: 154.211.8.252
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -229,62 +229,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 34.58.136.79
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 166.117.143.12
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇺🇸 US-13 | Mix
-  network: ws
-  port: 39738
-  server: 38.244.5.118
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇺🇸 US-14 | Mix
-  network: ws
-  port: 39738
-  server: 38.76.149.18
+  port: 27015
+  server: 23.236.67.144
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -297,25 +243,25 @@ proxies:
     path: /danfeng?ed=2560
 - name: 14,15|美国|@ripaojiedian
   network: tcp
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 29370
-  server: 3.112.241.30
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 3057
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 3057
-  server: 13.230.185.120
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 3700
+  server: 52.192.219.241
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14919
-  server: 95.40.107.15
+  port: 44386
+  server: 18.167.134.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
