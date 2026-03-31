@@ -376,8 +376,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 443
-  server: 118.107.4.184
+  port: 18827
+  server: 103.167.135.13
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -393,42 +393,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 8443
-  server: 119.246.150.50
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 11|🇯🇵 JP-1 | Mix
-  network: ws
-  port: 8443
-  server: 43.128.249.230
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  port: 443
-  server: 23.27.52.79
+  port: 10443
+  server: 154.3.38.140
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -444,8 +410,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 443
-  server: 158.247.222.57
+  port: 10389
+  server: 211.184.99.67
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -459,10 +425,10 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 11|🇸🇬 SG-2 | Mix
+  name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 443
-  server: 23.27.53.241
+  port: 10030
+  server: 118.37.92.151
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -478,8 +444,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 8443
-  server: 154.211.8.252
+  port: 443
+  server: 152.70.150.202
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -495,8 +461,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 27015
-  server: 23.236.67.144
+  port: 443
+  server: 64.186.234.170
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -510,10 +476,78 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 11|🇨🇦 CA-1 | Mix
+  name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 444
-  server: 172.105.101.88
+  port: 29999
+  server: 121.149.114.169
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 11|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: 167.253.97.133
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 11|🇺🇸 US-14 | Mix
+  network: ws
+  port: 443
+  server: 166.88.159.178
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
+  port: 39738
+  server: 38.244.5.188
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 11|🇺🇸 US-16 | Mix
+  network: ws
+  port: 443
+  server: 44.193.184.87
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -529,8 +563,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2096
-  server: 104.248.142.217
+  port: 4433
+  server: 64.188.106.174
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -546,8 +580,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 8443
-  server: 95.216.215.126
+  port: 2053
+  server: 138.197.176.152
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -563,8 +597,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 443
-  server: 68.183.212.184
+  port: 2083
+  server: 178.128.192.26
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -580,8 +614,25 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇩🇪 DE-4 | Mix
   network: ws
-  port: 443
-  server: 194.87.105.71
+  port: 2096
+  server: 161.35.217.79
+  servername: p3lydb507umi.chinav.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: p3lydb507umi.chinav.eu.org
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: crypto.cloudflare.com
+  name: 11|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 2087
+  server: 134.122.69.33
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -597,8 +648,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 443
-  server: 192.0.54.89
+  port: 8080
+  server: 159.65.94.176
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -615,7 +666,7 @@ proxies:
   name: 11|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 178.62.77.96
+  server: 192.0.63.160
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -631,8 +682,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 2083
-  server: 164.92.212.225
+  port: 20202
+  server: 95.85.2.207
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -648,59 +699,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
-  port: 2087
-  server: 159.65.196.52
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 11|🇳🇱 NL-3 | Mix
-  network: ws
-  port: 443
-  server: 95.85.63.202
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 11|🇳🇱 NL-4 | Mix
-  network: ws
-  port: 443
-  server: 146.185.164.169
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 11|🇷🇺 RU-1 | Mix
-  network: ws
-  port: 8443
-  server: 46.229.212.218
+  port: 2053
+  server: 185.14.184.90
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
