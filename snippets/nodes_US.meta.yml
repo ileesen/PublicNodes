@@ -211,8 +211,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 138.68.222.33
+  port: 1234
+  server: 35.208.55.122
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -229,8 +229,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-11 | Mix
   network: ws
-  port: 8443
-  server: 154.81.141.211
+  port: 443
+  server: 103.149.145.120
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -247,26 +247,8 @@ proxies:
     query-server-name: crypto.cloudflare.com
   name: 12|🇺🇸 US-12 | Mix
   network: ws
-  port: 8443
-  server: 70.39.192.230
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇺🇸 US-13 | Mix
-  network: ws
-  port: 443
-  server: 149.248.16.218
+  port: 9527
+  server: 172.245.54.165
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -280,24 +262,24 @@ proxies:
 - name: 14,15|美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.132.38
+  port: 29370
+  server: 52.195.170.179
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3700
-  server: 52.192.219.241
+  port: 29370
+  server: 13.231.153.129
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 14,15|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 18.167.134.238
+  port: 38692
+  server: 95.40.68.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
