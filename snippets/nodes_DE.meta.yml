@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 11|🇩🇪 DE-1 | 8EB
   port: 443
   reality-opts:
     public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
@@ -17,10 +17,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 12|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
-  server: 192.46.237.206
+  port: 20205
+  server: 139.144.77.162
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -35,10 +35,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: crypto.cloudflare.com
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 12|🇩🇪 DE-2 | Mix
   network: ws
   port: 443
-  server: 157.230.28.43
+  server: 167.172.189.43
   servername: p3lydb507umi.chinav.eu.org
   skip-cert-verify: true
   tfo: false
@@ -49,7 +49,7 @@ proxies:
     headers:
       Host: p3lydb507umi.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 15|DE_speednode_0005
+- name: 16|DE_speednode_0005
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -63,7 +63,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 15|DE_speednode_0006
+- name: 16|DE_speednode_0006
   network: ws
   port: 4002
   server: 37.114.50.157
