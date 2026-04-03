@@ -1,5 +1,5 @@
 proxies:
-- name: 9|🇭🇰HK_@WangCai_8
+- name: 8|🇭🇰HK_@WangCai_8
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
   server: wangcai.hk1.hyhuawei.com
@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: hysteria2
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -17,160 +17,86 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 30011
-  server: 202.81.229.40
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+- name: 11|🇭🇰 HK-1 | Mix
+  password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+  port: 5228
+  server: 90a6d0df-td1340-tfjz9x-1t5n1.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-2 | Mix
-  network: ws
-  port: 4411
-  server: 202.81.229.46
-  servername: p3lydb507umi.chinav.eu.org
+  type: http
+  username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+- name: 11|🇭🇰 HK-2 | Mix
+  password: 9a564888-cfcc-408f-b8bb-caed142cd2c6
+  port: 18443
+  server: hkt-ddns.baipiao0721-dns78655.eu
   skip-cert-verify: true
-  tfo: false
+  type: anytls
+  udp: true
+- name: 11|🇭🇰 HK-3 | Mix
+  password: <password>
+  port: 8443
+  server: 3c1d8e53-td1340-tvh2gy-1qzi1.hkt.cdnhuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-3 | Mix
-  network: ws
+  type: http
+  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
+- name: 11|🇭🇰 HK-4 | Mix
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  port: 8443
+  server: de3e04dd-tcz8g0-thzbn1-1gxvd.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 11|🇭🇰 HK-5 | Mix
+  password: <password>
+  port: 8443
+  server: 3721a065-tcxds0-tv7zgh-1ijh5.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: f7d95364-607b-11ee-93af-f23c91369f2d
+- name: 11|🇭🇰 HK-6 | Mix
+  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  port: 8443
+  server: 9a0afd21-td1340-tnnrly-g43g.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 11|🇭🇰 HK-7 | Mix
+  password: BxceQaOe
   port: 443
-  server: 103.20.223.218
-  servername: p3lydb507umi.chinav.eu.org
+  server: 58.152.25.253
   skip-cert-verify: true
-  tfo: false
+  type: trojan
+  udp: true
+- name: 11|🇭🇰 HK-8 | Mix
+  password: <password>
+  port: 8443
+  server: 9c63a0fa-td1340-thd0h1-1rz5s.hkt.cdnhuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-4 | Mix
-  network: ws
-  port: 28334
-  server: 156.224.79.89
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+- name: 11|🇭🇰 HK-9 | Mix
+  password: <password>
+  port: 8443
+  server: 7dc77980-td1340-tjsm26-6gn6.hkt.cdnhuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-5 | Mix
-  network: ws
-  port: 443
-  server: 87.83.110.99
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+- name: 11|🇭🇰 HK-10 | Mix
+  password: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  port: 5228
+  server: f8906920-tcz8g0-teivih-1rz31.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-6 | Mix
-  network: ws
-  port: 15247
-  server: 154.83.86.191
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-7 | Mix
-  network: ws
-  port: 443
-  server: 131.143.243.119
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇭🇰 HK-8 | Mix
-  network: ws
-  port: 2000
-  server: 183.87.132.82
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
+  type: http
+  username: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
@@ -178,7 +104,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9211
@@ -186,7 +112,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -196,7 +122,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -204,7 +130,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 16|HK_speednode_0034
+- name: 15|HK_speednode_0034
   password: <password>
   port: 8443
   server: 5e10aa15-t9zts0-toa9ad-4w8.hkt.cdnhuawei.com
@@ -212,7 +138,7 @@ proxies:
   type: http
   udp: true
   username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-- name: 16|HK_speednode_0035
+- name: 15|HK_speednode_0035
   password: <password>
   port: 8443
   server: bd00c917-ta1og0-tfpsin-1q3dm.hkt.cdnhuawei.com
@@ -220,7 +146,7 @@ proxies:
   type: http
   udp: true
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: 16|HK_speednode_0036
+- name: 15|HK_speednode_0036
   password: <password>
   port: 8443
   server: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
@@ -228,7 +154,7 @@ proxies:
   type: http
   udp: true
   username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-- name: 16|HK_speednode_0037
+- name: 15|HK_speednode_0037
   password: <password>
   port: 8443
   server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
@@ -236,7 +162,7 @@ proxies:
   type: http
   udp: true
   username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-- name: 16|HK_speednode_0038
+- name: 15|HK_speednode_0038
   password: 275728c9-07a2-4f21-807f-4e2189f02929
   port: 4440
   server: 4-nqc2turr.mix.dexiansheng.com
@@ -244,7 +170,7 @@ proxies:
   type: http
   udp: true
   username: walless
-- name: 16|HK_speednode_0039
+- name: 15|HK_speednode_0039
   network: ws
   port: 7443
   server: 222.167.202.52
@@ -258,7 +184,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
-- name: 16|HK_speednode_0040
+- name: 15|HK_speednode_0040
   network: ws
   port: 7443
   server: 222.167.202.23
@@ -272,21 +198,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.23:7443
-- name: 16|HK_speednode_0041
-  network: ws
-  port: 7443
-  server: 222.167.202.21
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /222.167.202.21:7443
-- name: 16|HK_speednode_0042
+- name: 15|HK_speednode_0042
   network: ws
   port: 7443
   server: 222.167.202.16
@@ -300,7 +212,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.16:7443
-- name: 16|HK_speednode_0043
+- name: 15|HK_speednode_0043
   network: ws
   port: 7443
   server: 222.167.202.6
@@ -314,7 +226,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.6:7443
-- name: 16|HK_speednode_0044
+- name: 15|HK_speednode_0044
   network: ws
   port: 7443
   server: 222.167.202.14
@@ -328,7 +240,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.14:7443
-- name: 16|HK_speednode_0045
+- name: 15|HK_speednode_0045
   network: ws
   port: 7443
   server: 222.167.202.2
@@ -342,7 +254,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.2:7443
-- name: 16|HK_speednode_0046
+- name: 15|HK_speednode_0046
   network: ws
   port: 7443
   server: 222.167.202.45
@@ -356,7 +268,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.45:7443
-- name: 16|HK_speednode_0047
+- name: 15|HK_speednode_0047
   network: ws
   port: 7443
   server: 222.167.202.70
@@ -370,7 +282,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.70:7443
-- name: 16|HK_speednode_0048
+- name: 15|HK_speednode_0048
   network: ws
   port: 7443
   server: 222.167.202.47
@@ -384,7 +296,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.47:7443
-- name: 16|HK_speednode_0049
+- name: 15|HK_speednode_0049
   network: ws
   port: 7443
   server: 222.167.202.31
@@ -398,7 +310,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.31:7443
-- name: 16|HK_speednode_0050
+- name: 15|HK_speednode_0050
   network: ws
   port: 7443
   server: 222.167.202.32
@@ -412,7 +324,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.32:7443
-- name: 16|HK_speednode_0051
+- name: 15|HK_speednode_0051
   network: ws
   port: 7443
   server: 222.167.202.35
@@ -426,7 +338,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.35:7443
-- name: 16|HK_speednode_0052
+- name: 15|HK_speednode_0052
   network: ws
   port: 7443
   server: 222.167.202.33
@@ -440,7 +352,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.33:7443
-- name: 16|HK_speednode_0053
+- name: 15|HK_speednode_0053
   network: ws
   port: 7443
   server: 222.167.202.10
@@ -454,7 +366,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.10:7443
-- name: 16|HK_speednode_0054
+- name: 15|HK_speednode_0054
   network: ws
   port: 7443
   server: 222.167.202.4
@@ -468,7 +380,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.4:7443
-- name: 16|HK_speednode_0055
+- name: 15|HK_speednode_0055
   network: ws
   port: 7443
   server: 222.167.202.22
@@ -482,7 +394,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.22:7443
-- name: 16|HK_speednode_0056
+- name: 15|HK_speednode_0056
   network: ws
   port: 7443
   server: 222.167.202.60
@@ -496,7 +408,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.60:7443
-- name: 16|HK_speednode_0057
+- name: 15|HK_speednode_0057
   network: ws
   port: 7443
   server: 222.167.202.50

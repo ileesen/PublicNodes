@@ -1,37 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 2083
-  server: 46.101.81.245
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+- name: 11|🇬🇧 GB-1 | Mix
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: 3b215616-td1340-tgl02u-1jr1u.uk.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇬🇧 GB-2 | Mix
-  network: ws
-  port: 2096
-  server: 138.68.130.235
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 11|🇬🇧 GB-2 | Mix
+  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  port: 443
+  server: d860cb0b-td1340-ttk5iz-i8ie.uk.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
+  type: http
+  username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9

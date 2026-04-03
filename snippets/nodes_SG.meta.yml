@@ -1,95 +1,40 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇸🇬 SG-1 | Mix
-  network: ws
-  port: 8443
-  server: cf2.danfeng.eu.org
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+- name: 11|🇸🇬 SG-1 | Mix
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  port: 17235
+  server: be51ea15-td1340-thzbn1-1gxvd.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇸🇬 SG-2 | Mix
-  network: ws
-  port: 443
-  server: 167.172.86.195
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
+- name: 11|🇸🇬 SG-2 | Mix
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 17235
+  server: 9c1dd7d8-tcxds0-tfi5fd-1imi4.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇸🇬 SG-3 | Mix
-  network: ws
-  port: 443
-  server: 38.211.230.48
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+- name: 11|🇸🇬 SG-3 | Mix
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 17235
+  server: e54c4b30-tcz8g0-te4dj8-1m0fq.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇸🇬 SG-4 | Mix
-  network: ws
-  port: 443
-  server: 174.138.18.114
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: 11|🇸🇬 SG-4 | Mix
+  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  port: 17235
+  server: 83f9ed07-td1340-thd0h1-1rz5s.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: crypto.cloudflare.com
-  name: 12|🇸🇬 SG-5 | Mix
-  network: ws
-  port: 8443
-  server: 54.255.174.120
-  servername: p3lydb507umi.chinav.eu.org
-  skip-cert-verify: true
-  tfo: false
+  type: http
+  username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+- name: 11|🇸🇬 SG-5 | Mix
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  port: 17235
+  server: a24ca167-td1340-tqruo0-1pqhp.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: p3lydb507umi.chinav.eu.org
-    path: /danfeng?ed=2560
-- name: 14,15|新加坡|@ripaojiedian
+  type: http
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
@@ -97,7 +42,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
@@ -105,7 +50,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 30726
