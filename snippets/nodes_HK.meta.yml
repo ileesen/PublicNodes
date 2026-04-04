@@ -1,6 +1,6 @@
 proxies:
 - mport: 35000-39000
-  name: 11|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -9,86 +9,556 @@ proxies:
   sni: www.lamer.com.hk
   type: hysteria2
   udp: true
-- name: 12|🇭🇰 HK-1 | Mix
-  password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-  port: 5228
-  server: 90a6d0df-td1340-tfjz9x-1t5n1.cm4.oshuawei.com
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-1 | Mix
+  network: ws
+  path: /47.90.8.168:8443
+  port: 8443
+  security: tls
+  server: 47.90.8.168
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-- name: 12|🇭🇰 HK-2 | Mix
-  password: 9a564888-cfcc-408f-b8bb-caed142cd2c6
-  port: 18443
-  server: hkt-ddns.baipiao0721-dns78655.eu
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 12|🇭🇰 HK-3 | Mix
-  password: <password>
-  port: 8443
-  server: 3c1d8e53-td1340-tvh2gy-1qzi1.hkt.cdnhuawei.com
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /47.90.8.168:8443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-2 | Mix
+  network: ws
+  path: /31.58.152.45:3443
+  port: 3443
+  security: tls
+  server: 31.58.152.45
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
-- name: 12|🇭🇰 HK-4 | Mix
-  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  port: 8443
-  server: de3e04dd-tcz8g0-thzbn1-1gxvd.hkt2.cdnhuawei.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 12|🇭🇰 HK-5 | Mix
-  password: <password>
-  port: 8443
-  server: 3721a065-tcxds0-tv7zgh-1ijh5.hkt.cdnhuawei.com
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /31.58.152.45:3443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  path: /101.32.15.176:26257
+  port: 26257
+  security: tls
+  server: 101.32.15.176
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: f7d95364-607b-11ee-93af-f23c91369f2d
-- name: 12|🇭🇰 HK-6 | Mix
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  port: 8443
-  server: 9a0afd21-td1340-tnnrly-g43g.hkt2.cdnhuawei.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 12|🇭🇰 HK-7 | Mix
-  password: BxceQaOe
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /101.32.15.176:26257
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  path: /38.207.174.104:39351
+  port: 39351
+  security: tls
+  server: 38.207.174.104
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.207.174.104:39351
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
+  path: /47.76.61.218:5483
+  port: 5483
+  security: tls
+  server: 47.76.61.218
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /47.76.61.218:5483
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-6 | Mix
+  network: ws
+  path: /47.239.172.165:587
+  port: 587
+  security: tls
+  server: 47.239.172.165
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /47.239.172.165:587
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-7 | Mix
+  network: ws
+  path: /8.210.126.84:22222
+  port: 22222
+  security: tls
+  server: 8.210.126.84
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /8.210.126.84:22222
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-8 | Mix
+  network: ws
+  path: /222.167.202.60:7443
+  port: 7443
+  security: tls
+  server: 222.167.202.60
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.60:7443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-9 | Mix
+  network: ws
+  path: /103.244.91.194:40400
+  port: 40400
+  security: tls
+  server: 103.244.91.194
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /103.244.91.194:40400
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-10 | Mix
+  network: ws
+  path: /222.167.202.52:7443
+  port: 7443
+  security: tls
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.52:7443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-11 | Mix
+  network: ws
+  path: /222.167.202.64:7443
+  port: 7443
+  security: tls
+  server: 222.167.202.64
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.64:7443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-12 | Mix
+  network: ws
+  path: /103.96.74.18:16000
+  port: 16000
+  security: tls
+  server: 103.96.74.18
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /103.96.74.18:16000
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-13 | Mix
+  network: ws
+  path: /38.207.133.163:17989
+  port: 17989
+  security: tls
+  server: 38.207.133.163
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.207.133.163:17989
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-14 | Mix
+  network: ws
+  path: /47.239.4.246:443
   port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|🇭🇰 HK-8 | Mix
-  password: <password>
+  security: tls
+  server: 47.239.4.246
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /47.239.4.246:443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-15 | Mix
+  network: ws
+  path: /38.207.132.141:10312
+  port: 10312
+  security: tls
+  server: 38.207.132.141
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.207.132.141:10312
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-16 | Mix
+  network: ws
+  path: /38.207.132.128:6879
+  port: 6879
+  security: tls
+  server: 38.207.132.128
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.207.132.128:6879
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-17 | Mix
+  network: ws
+  path: /154.12.189.105:8443
   port: 8443
-  server: 9c63a0fa-td1340-thd0h1-1rz5s.hkt.cdnhuawei.com
+  security: tls
+  server: 154.12.189.105
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-- name: 12|🇭🇰 HK-9 | Mix
-  password: <password>
-  port: 8443
-  server: 7dc77980-td1340-tjsm26-6gn6.hkt.cdnhuawei.com
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /154.12.189.105:8443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-18 | Mix
+  network: ws
+  path: /223.16.138.113:10201
+  port: 10201
+  security: tls
+  server: 223.16.138.113
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-- name: 12|🇭🇰 HK-10 | Mix
-  password: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-  port: 5228
-  server: f8906920-tcz8g0-teivih-1rz31.cm4.oshuawei.com
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /223.16.138.113:10201
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-19 | Mix
+  network: ws
+  path: /222.167.202.42:7443
+  port: 7443
+  security: tls
+  server: 222.167.202.42
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
   tls: true
-  type: http
-  username: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.42:7443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-20 | Mix
+  network: ws
+  path: /45.149.186.112:8080
+  port: 8080
+  security: tls
+  server: 45.149.186.112
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /45.149.186.112:8080
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-21 | Mix
+  network: ws
+  path: /217.60.248.3:2053
+  port: 2053
+  security: tls
+  server: 217.60.248.3
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /217.60.248.3:2053
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-22 | Mix
+  network: ws
+  path: /96.9.229.173:7443
+  port: 7443
+  security: tls
+  server: 96.9.229.173
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /96.9.229.173:7443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-23 | Mix
+  network: ws
+  path: /154.18.161.172:18443
+  port: 18443
+  security: tls
+  server: 154.18.161.172
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /154.18.161.172:18443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-24 | Mix
+  network: ws
+  path: /103.244.90.100:20441
+  port: 20441
+  security: tls
+  server: 103.244.90.100
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /103.244.90.100:20441
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-25 | Mix
+  network: ws
+  path: /38.55.104.232:443
+  port: 443
+  security: tls
+  server: 38.55.104.232
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /38.55.104.232:443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-26 | Mix
+  network: ws
+  path: /89.213.230.170:443
+  port: 443
+  security: tls
+  server: 89.213.230.170
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /89.213.230.170:443
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  host: 2026.hhhhh.eu.org
+  name: 11|🇭🇰 HK-27 | Mix
+  network: ws
+  path: /47.76.218.163:443
+  port: 443
+  security: tls
+  server: 47.76.218.163
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  sni: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /47.76.218.163:443
 - alterId: 2
   cipher: auto
-  name: 14|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14,15|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
@@ -96,7 +566,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14,15|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2001
@@ -104,7 +574,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14,15|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
@@ -114,7 +584,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 15|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -122,7 +592,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 16|HK_speednode_0034
+- name: 15|HK_speednode_0034
   password: <password>
   port: 8443
   server: 5e10aa15-t9zts0-toa9ad-4w8.hkt.cdnhuawei.com
@@ -130,7 +600,7 @@ proxies:
   type: http
   udp: true
   username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-- name: 16|HK_speednode_0035
+- name: 15|HK_speednode_0035
   password: <password>
   port: 8443
   server: bd00c917-ta1og0-tfpsin-1q3dm.hkt.cdnhuawei.com
@@ -138,7 +608,7 @@ proxies:
   type: http
   udp: true
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: 16|HK_speednode_0036
+- name: 15|HK_speednode_0036
   password: <password>
   port: 8443
   server: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
@@ -146,7 +616,7 @@ proxies:
   type: http
   udp: true
   username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-- name: 16|HK_speednode_0037
+- name: 15|HK_speednode_0037
   password: <password>
   port: 8443
   server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
@@ -154,7 +624,7 @@ proxies:
   type: http
   udp: true
   username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-- name: 16|HK_speednode_0038
+- name: 15|HK_speednode_0038
   password: 275728c9-07a2-4f21-807f-4e2189f02929
   port: 4440
   server: 4-nqc2turr.mix.dexiansheng.com
@@ -162,7 +632,7 @@ proxies:
   type: http
   udp: true
   username: walless
-- name: 16|HK_speednode_0039
+- name: 15|HK_speednode_0039
   network: ws
   port: 7443
   server: 222.167.202.52
@@ -176,7 +646,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
-- name: 16|HK_speednode_0040
+- name: 15|HK_speednode_0040
   network: ws
   port: 7443
   server: 222.167.202.23
@@ -190,7 +660,21 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.23:7443
-- name: 16|HK_speednode_0042
+- name: 15|HK_speednode_0041
+  network: ws
+  port: 7443
+  server: 222.167.202.21
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.21:7443
+- name: 15|HK_speednode_0042
   network: ws
   port: 7443
   server: 222.167.202.16
@@ -204,7 +688,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.16:7443
-- name: 16|HK_speednode_0043
+- name: 15|HK_speednode_0043
   network: ws
   port: 7443
   server: 222.167.202.6
@@ -218,7 +702,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.6:7443
-- name: 16|HK_speednode_0044
+- name: 15|HK_speednode_0044
   network: ws
   port: 7443
   server: 222.167.202.14
@@ -232,7 +716,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.14:7443
-- name: 16|HK_speednode_0045
+- name: 15|HK_speednode_0045
   network: ws
   port: 7443
   server: 222.167.202.2
@@ -246,7 +730,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.2:7443
-- name: 16|HK_speednode_0046
+- name: 15|HK_speednode_0046
   network: ws
   port: 7443
   server: 222.167.202.45
@@ -260,7 +744,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.45:7443
-- name: 16|HK_speednode_0047
+- name: 15|HK_speednode_0047
   network: ws
   port: 7443
   server: 222.167.202.70
@@ -274,7 +758,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.70:7443
-- name: 16|HK_speednode_0048
+- name: 15|HK_speednode_0048
   network: ws
   port: 7443
   server: 222.167.202.47
@@ -288,7 +772,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.47:7443
-- name: 16|HK_speednode_0049
+- name: 15|HK_speednode_0049
   network: ws
   port: 7443
   server: 222.167.202.31
@@ -302,7 +786,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.31:7443
-- name: 16|HK_speednode_0050
+- name: 15|HK_speednode_0050
   network: ws
   port: 7443
   server: 222.167.202.32
@@ -316,7 +800,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.32:7443
-- name: 16|HK_speednode_0051
+- name: 15|HK_speednode_0051
   network: ws
   port: 7443
   server: 222.167.202.35
@@ -330,7 +814,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.35:7443
-- name: 16|HK_speednode_0052
+- name: 15|HK_speednode_0052
   network: ws
   port: 7443
   server: 222.167.202.33
@@ -344,7 +828,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.33:7443
-- name: 16|HK_speednode_0053
+- name: 15|HK_speednode_0053
   network: ws
   port: 7443
   server: 222.167.202.10
@@ -358,7 +842,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.10:7443
-- name: 16|HK_speednode_0054
+- name: 15|HK_speednode_0054
   network: ws
   port: 7443
   server: 222.167.202.4
@@ -372,7 +856,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.4:7443
-- name: 16|HK_speednode_0055
+- name: 15|HK_speednode_0055
   network: ws
   port: 7443
   server: 222.167.202.22
@@ -386,7 +870,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.22:7443
-- name: 16|HK_speednode_0056
+- name: 15|HK_speednode_0056
   network: ws
   port: 7443
   server: 222.167.202.60
@@ -400,7 +884,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.60:7443
-- name: 16|HK_speednode_0057
+- name: 15|HK_speednode_0057
   network: ws
   port: 7443
   server: 222.167.202.50

@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-1 | 8EB
   port: 443
   reality-opts:
     public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
@@ -13,56 +13,19 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- name: 12|🇩🇪 DE-1 | Mix
-  password: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
-  port: 443
-  server: 31c52eb1-tcz8g0-tgl134-1h240.de.oshuawei.com
-  tls: true
-  type: http
-  username: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
-- name: 12|🇩🇪 DE-2 | Mix
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: 400616cd-tcxds0-te4dj8-1m0fq.de.oshuawei.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: 12|🇩🇪 DE-3 | Mix
-  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  port: 443
-  server: 3ddb1b52-tcz8g0-tqruo0-1pqhp.de.oshuawei.com
-  tls: true
-  type: http
-  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-- name: 12|🇩🇪 DE-4 | Mix
-  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  port: 443
-  server: a5d20975-td1340-tvh2gy-1qzi1.de.oshuawei.com
-  tls: true
-  type: http
-  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
-- name: 12|🇩🇪 DE-5 | Mix
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: c5896fe6-td1340-tpaqgu-1smhu.de.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- name: 12|🇩🇪 DE-6 | Mix
-  password: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-  port: 443
-  server: e3ae9e5c-td1340-tw9un7-1k27l.de.oshuawei.com
-  tls: true
-  type: http
-  username: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-- name: 12|🇩🇪 DE-7 | Mix
-  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  port: 443
-  server: 1056f591-tcxds0-tonrmx-8n27.de.oshuawei.com
-  tls: true
-  type: http
-  username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-- name: 16|DE_speednode_0032
+- insecure: '1'
+  name: 11|🇩🇪 DE-1 | Mix
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  port: 8443
+  server: sde.dbp.qzz.io
+  skip-cert-verify: true
+  sni: dbp.qzz.io
+  tls:
+    enabled: true
+    insecure: true
+    server_name: dbp.qzz.io
+  type: hysteria2
+- name: 15|DE_speednode_0032
   network: ws
   port: 4001
   server: 185.94.29.156
@@ -76,7 +39,7 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
-- name: 16|DE_speednode_0033
+- name: 15|DE_speednode_0033
   network: ws
   port: 4002
   server: 37.114.50.157
