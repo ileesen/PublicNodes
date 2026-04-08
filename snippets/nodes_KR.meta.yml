@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-1 | 8EB
+  name: 9|🇰🇷 KR-1 | 8EB
   port: 443
   reality-opts:
     public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
@@ -13,35 +13,29 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 15|KR_speednode_0007
-  network: ws
-  port: 10162
-  server: 106.251.70.75
-  servername: snippet.chinav.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.chinav.eu.cc
-    path: /danfeng
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0008
-  network: ws
-  port: 20244
-  server: 211.194.9.159
-  servername: snippet.danfeng.theworkpc.com
+  flow: xtls-rprx-vision
+  name: 14|KR_speednode_0036
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|KR_speednode_0037
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f

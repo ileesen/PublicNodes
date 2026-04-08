@@ -1,5 +1,5 @@
 proxies:
-- name: 10|🇺🇸 US-5 | 8EB
+- name: 9|🇺🇸 US-5 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 443
   server: 134.195.101.199
@@ -8,7 +8,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 9|🇺🇸 US-6 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -18,7 +18,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 9|🇺🇸 US-7 | 8EB
   password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
   port: 35000
   ports: 35000-39000
@@ -29,7 +29,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  name: 10|🇺🇸 US-9 | 8EB
+  name: 9|🇺🇸 US-9 | 8EB
   network: ws
   port: 443
   server: 104.19.58.118
@@ -45,7 +45,7 @@ proxies:
     path: /kbjc/us1
 - encryption: none
   fp: chrome
-  name: 11|🇺🇸 US-1 | Mix
+  name: 10|🇺🇸 US-1 | Mix
   network: tcp
   packetEncoding: xudp
   pbk: cJEl6ku8HSxHdQwbpUColEVQNH7AhFLuPfhwA1_HV2E
@@ -62,7 +62,7 @@ proxies:
   type: vless
   uuid: 39b4f628-3e78-40c3-ac6b-a25db7fd8884
 - insecure: '1'
-  name: 11|🇺🇸 US-2 | Mix
+  name: 10|🇺🇸 US-2 | Mix
   password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
   port: 53
   server: cus.dbp.qzz.io
@@ -73,7 +73,7 @@ proxies:
     insecure: true
     server_name: dbp.qzz.io
   type: hysteria2
-- name: 13,14|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4019
@@ -81,7 +81,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4019
@@ -89,7 +89,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 49534
@@ -97,85 +97,31 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0011
+- name: 14|US_speednode_0043
   network: ws
-  password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: 135.84.74.155
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: sni.111000.v6.navy
     path: /
-- name: 15|US_speednode_0012
+- name: 14|US_speednode_0044
   network: ws
   port: 443
-  server: 192.0.54.131
-  servername: snippet.danfeng.kozow.com
+  server: 94.131.101.135
+  servername: sni.111000.v6.navy
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 15|US_speednode_0013
-  network: ws
-  port: 443
-  server: 192.0.63.230
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 15|US_speednode_0014
-  network: ws
-  port: 443
-  server: 192.0.63.56
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-- name: 15|US_speednode_0016
-  network: ws
-  port: 443
-  server: 192.0.63.49
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 15|US_speednode_0017
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 64.23.143.23
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+      Host: sni.111000.v6.navy
+    path: /?ed=2560
