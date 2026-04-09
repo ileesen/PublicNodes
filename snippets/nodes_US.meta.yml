@@ -43,36 +43,42 @@ proxies:
     headers:
       Host: us1-us1.aiopen.sbs
     path: /kbjc/us1
-- encryption: none
-  fp: chrome
+- client-fingerprint: chrome
+  encryption: none
   name: 11|🇺🇸 US-1 | Mix
   network: tcp
-  packetEncoding: xudp
-  pbk: cJEl6ku8HSxHdQwbpUColEVQNH7AhFLuPfhwA1_HV2E
   port: 34155
   reality-opts:
     public-key: cJEl6ku8HSxHdQwbpUColEVQNH7AhFLuPfhwA1_HV2E
-    server-name: www.nvidia.com
     short-id: 9a4148bf7497faca
-  security: reality
   server: dbp.qzz.io
-  sid: 9a4148bf7497faca
-  sni: www.nvidia.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 39b4f628-3e78-40c3-ac6b-a25db7fd8884
-- insecure: '1'
-  name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
   port: 53
   server: cus.dbp.qzz.io
   skip-cert-verify: true
   sni: dbp.qzz.io
-  tls:
-    enabled: true
-    insecure: true
-    server_name: dbp.qzz.io
   type: hysteria2
+- aead: true
+  alterId: 2
+  cipher: auto
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185

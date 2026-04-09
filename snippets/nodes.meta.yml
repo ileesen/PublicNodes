@@ -205,1651 +205,1487 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
-- insecure: '1'
-  name: 11|🇯🇵 JP-1 | Mix
+- name: 11|🇯🇵 JP-2 | Mix
   password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
   port: 8443
   server: dbp.qzz.io
   skip-cert-verify: true
   sni: dbp.qzz.io
-  tls:
-    enabled: true
-    insecure: true
-    server_name: dbp.qzz.io
   type: hysteria2
-- insecure: '1'
-  name: 11|🇩🇪 DE-1 | Mix
+- name: 11|🇩🇪 DE-1 | Mix
   password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
   port: 8443
   server: sde.dbp.qzz.io
   skip-cert-verify: true
   sni: dbp.qzz.io
-  tls:
-    enabled: true
-    insecure: true
-    server_name: dbp.qzz.io
   type: hysteria2
 - encryption: none
-  fp: chrome
   name: 11|🇺🇸 US-1 | Mix
   network: tcp
-  packetEncoding: xudp
-  pbk: cJEl6ku8HSxHdQwbpUColEVQNH7AhFLuPfhwA1_HV2E
   port: 34155
   reality-opts:
     public-key: cJEl6ku8HSxHdQwbpUColEVQNH7AhFLuPfhwA1_HV2E
-    server-name: www.nvidia.com
     short-id: 9a4148bf7497faca
-  security: reality
   server: dbp.qzz.io
-  sid: 9a4148bf7497faca
-  sni: www.nvidia.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 39b4f628-3e78-40c3-ac6b-a25db7fd8884
-- insecure: '1'
-  name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
   port: 53
   server: cus.dbp.qzz.io
   skip-cert-verify: true
   sni: dbp.qzz.io
-  tls:
-    enabled: true
-    insecure: true
-    server_name: dbp.qzz.io
   type: hysteria2
+- cipher: aes-256-cfb
+  name: 11|🇰🇷 KR-1 | Mix
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
+- aead: true
+  alterId: 2
+  cipher: auto
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  path: /47.90.8.168:8443
   port: 8443
-  security: tls
   server: 47.90.8.168
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /47.90.8.168:8443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  path: /31.58.152.45:3443
   port: 3443
-  security: tls
   server: 31.58.152.45
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /31.58.152.45:3443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  path: /101.32.15.176:26257
   port: 26257
-  security: tls
   server: 101.32.15.176
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /101.32.15.176:26257
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-4 | Mix
   network: ws
-  path: /38.207.174.104:39351
   port: 39351
-  security: tls
   server: 38.207.174.104
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.207.174.104:39351
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-5 | Mix
   network: ws
-  path: /47.76.61.218:5483
   port: 5483
-  security: tls
   server: 47.76.61.218
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /47.76.61.218:5483
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-6 | Mix
   network: ws
-  path: /47.239.172.165:587
   port: 587
-  security: tls
   server: 47.239.172.165
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /47.239.172.165:587
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-7 | Mix
   network: ws
-  path: /8.210.126.84:22222
   port: 22222
-  security: tls
   server: 8.210.126.84
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /8.210.126.84:22222
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-8 | Mix
   network: ws
-  path: /222.167.202.60:7443
   port: 7443
-  security: tls
   server: 222.167.202.60
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.60:7443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-9 | Mix
   network: ws
-  path: /103.244.91.194:40400
   port: 40400
-  security: tls
   server: 103.244.91.194
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /103.244.91.194:40400
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-10 | Mix
   network: ws
-  path: /222.167.202.52:7443
   port: 7443
-  security: tls
   server: 222.167.202.52
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.52:7443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-11 | Mix
   network: ws
-  path: /222.167.202.64:7443
   port: 7443
-  security: tls
   server: 222.167.202.64
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.64:7443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-12 | Mix
   network: ws
-  path: /103.96.74.18:16000
   port: 16000
-  security: tls
   server: 103.96.74.18
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /103.96.74.18:16000
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-13 | Mix
   network: ws
-  path: /38.207.133.163:17989
   port: 17989
-  security: tls
   server: 38.207.133.163
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.207.133.163:17989
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-14 | Mix
   network: ws
-  path: /47.239.4.246:443
   port: 443
-  security: tls
   server: 47.239.4.246
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /47.239.4.246:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-15 | Mix
   network: ws
-  path: /38.207.132.141:10312
   port: 10312
-  security: tls
   server: 38.207.132.141
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.207.132.141:10312
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-16 | Mix
   network: ws
-  path: /38.207.132.128:6879
   port: 6879
-  security: tls
   server: 38.207.132.128
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.207.132.128:6879
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-17 | Mix
   network: ws
-  path: /154.12.189.105:8443
   port: 8443
-  security: tls
   server: 154.12.189.105
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /154.12.189.105:8443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-18 | Mix
   network: ws
-  path: /223.16.138.113:10201
   port: 10201
-  security: tls
   server: 223.16.138.113
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /223.16.138.113:10201
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-19 | Mix
   network: ws
-  path: /222.167.202.42:7443
   port: 7443
-  security: tls
   server: 222.167.202.42
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /222.167.202.42:7443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-20 | Mix
   network: ws
-  path: /45.149.186.112:8080
   port: 8080
-  security: tls
   server: 45.149.186.112
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.149.186.112:8080
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-21 | Mix
   network: ws
-  path: /217.60.248.3:2053
   port: 2053
-  security: tls
   server: 217.60.248.3
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /217.60.248.3:2053
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-22 | Mix
   network: ws
-  path: /96.9.229.173:7443
   port: 7443
-  security: tls
   server: 96.9.229.173
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /96.9.229.173:7443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-23 | Mix
   network: ws
-  path: /154.18.161.172:18443
   port: 18443
-  security: tls
   server: 154.18.161.172
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /154.18.161.172:18443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-24 | Mix
   network: ws
-  path: /103.244.90.100:20441
   port: 20441
-  security: tls
   server: 103.244.90.100
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /103.244.90.100:20441
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-25 | Mix
   network: ws
-  path: /38.55.104.232:443
   port: 443
-  security: tls
   server: 38.55.104.232
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.55.104.232:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-26 | Mix
   network: ws
-  path: /89.213.230.170:443
   port: 443
-  security: tls
   server: 89.213.230.170
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /89.213.230.170:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇭🇰 HK-27 | Mix
   network: ws
-  path: /47.76.218.163:443
   port: 443
-  security: tls
   server: 47.76.218.163
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /47.76.218.163:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  path: /38.47.108.176:51102
   port: 51102
-  security: tls
   server: 38.47.108.176
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.47.108.176:51102
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-3 | Mix
+  name: 11|🇯🇵 JP-4 | Mix
   network: ws
-  path: /38.47.125.182:55976
   port: 55976
-  security: tls
   server: 38.47.125.182
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.47.125.182:55976
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-4 | Mix
+  name: 11|🇯🇵 JP-5 | Mix
   network: ws
-  path: /210.156.180.102:16090
   port: 16090
-  security: tls
   server: 210.156.180.102
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /210.156.180.102:16090
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-5 | Mix
+  name: 11|🇯🇵 JP-6 | Mix
   network: ws
-  path: /45.153.245.145:40731
   port: 40731
-  security: tls
   server: 45.153.245.145
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.153.245.145:40731
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-6 | Mix
+  name: 11|🇯🇵 JP-7 | Mix
   network: ws
-  path: /45.153.246.204:44082
   port: 44082
-  security: tls
   server: 45.153.246.204
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.153.246.204:44082
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-7 | Mix
+  name: 11|🇯🇵 JP-8 | Mix
   network: ws
-  path: /172.93.221.34:11876
   port: 11876
-  security: tls
   server: 172.93.221.34
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /172.93.221.34:11876
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-8 | Mix
+  name: 11|🇯🇵 JP-9 | Mix
   network: ws
-  path: /43.165.191.25:31491
   port: 31491
-  security: tls
   server: 43.165.191.25
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /43.165.191.25:31491
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-9 | Mix
+  name: 11|🇯🇵 JP-10 | Mix
   network: ws
-  path: /38.47.104.63:42964
   port: 42964
-  security: tls
   server: 38.47.104.63
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.47.104.63:42964
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-10 | Mix
+  name: 11|🇯🇵 JP-11 | Mix
   network: ws
-  path: /91.199.209.118:55471
   port: 55471
-  security: tls
   server: 91.199.209.118
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /91.199.209.118:55471
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-11 | Mix
+  name: 11|🇯🇵 JP-12 | Mix
   network: ws
-  path: /154.19.186.66:443
   port: 443
-  security: tls
   server: 154.19.186.66
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /154.19.186.66:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-12 | Mix
+  name: 11|🇯🇵 JP-13 | Mix
   network: ws
-  path: /202.84.53.85:30816
   port: 30816
-  security: tls
   server: 202.84.53.85
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /202.84.53.85:30816
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-13 | Mix
+  name: 11|🇯🇵 JP-14 | Mix
   network: ws
-  path: /103.238.129.164:443
   port: 443
-  security: tls
   server: 103.238.129.164
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /103.238.129.164:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-14 | Mix
+  name: 11|🇯🇵 JP-15 | Mix
   network: ws
-  path: /154.31.116.242:443
   port: 443
-  security: tls
   server: 154.31.116.242
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /154.31.116.242:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-15 | Mix
+  name: 11|🇯🇵 JP-16 | Mix
   network: ws
-  path: /158.101.76.55:21953
   port: 21953
-  security: tls
   server: 158.101.76.55
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /158.101.76.55:21953
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-16 | Mix
+  name: 11|🇯🇵 JP-17 | Mix
   network: ws
-  path: /45.143.131.197:38370
   port: 38370
-  security: tls
   server: 45.143.131.197
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.143.131.197:38370
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-17 | Mix
+  name: 11|🇯🇵 JP-18 | Mix
   network: ws
-  path: /23.27.11.196:443
   port: 443
-  security: tls
   server: 23.27.11.196
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /23.27.11.196:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-18 | Mix
+  name: 11|🇯🇵 JP-19 | Mix
   network: ws
-  path: /64.176.54.102:443
   port: 443
-  security: tls
   server: 64.176.54.102
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /64.176.54.102:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-19 | Mix
+  name: 11|🇯🇵 JP-20 | Mix
   network: ws
-  path: /45.128.210.237:33275
   port: 33275
-  security: tls
   server: 45.128.210.237
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.128.210.237:33275
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-20 | Mix
+  name: 11|🇯🇵 JP-21 | Mix
   network: ws
-  path: /45.153.246.204:49230
   port: 49230
-  security: tls
   server: 45.153.246.204
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.153.246.204:49230
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-21 | Mix
+  name: 11|🇯🇵 JP-22 | Mix
   network: ws
-  path: /138.3.217.167:587
   port: 587
-  security: tls
   server: 138.3.217.167
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /138.3.217.167:587
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-22 | Mix
+  name: 11|🇯🇵 JP-23 | Mix
   network: ws
-  path: /23.151.104.39:443
   port: 443
-  security: tls
   server: 23.151.104.39
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /23.151.104.39:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-23 | Mix
+  name: 11|🇯🇵 JP-24 | Mix
   network: ws
-  path: /141.98.197.157:21169
   port: 21169
-  security: tls
   server: 141.98.197.157
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /141.98.197.157:21169
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-24 | Mix
+  name: 11|🇯🇵 JP-25 | Mix
   network: ws
-  path: /52.194.202.85:443
   port: 443
-  security: tls
   server: 52.194.202.85
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /52.194.202.85:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-25 | Mix
+  name: 11|🇯🇵 JP-26 | Mix
   network: ws
-  path: /45.8.113.65:39863
   port: 39863
-  security: tls
   server: 45.8.113.65
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.8.113.65:39863
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-26 | Mix
+  name: 11|🇯🇵 JP-27 | Mix
   network: ws
-  path: /38.207.130.242:8443
   port: 8443
-  security: tls
   server: 38.207.130.242
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.207.130.242:8443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-27 | Mix
+  name: 11|🇯🇵 JP-28 | Mix
   network: ws
-  path: /45.129.9.21:37831
   port: 37831
-  security: tls
   server: 45.129.9.21
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /45.129.9.21:37831
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-28 | Mix
+  name: 11|🇯🇵 JP-29 | Mix
   network: ws
-  path: /193.111.30.215:15052
   port: 15052
-  security: tls
   server: 193.111.30.215
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /193.111.30.215:15052
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-29 | Mix
+  name: 11|🇯🇵 JP-30 | Mix
   network: ws
-  path: /38.47.109.105:20329
   port: 20329
-  security: tls
   server: 38.47.109.105
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.47.109.105:20329
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-30 | Mix
+  name: 11|🇯🇵 JP-31 | Mix
   network: ws
-  path: /38.47.125.21:28349
   port: 28349
-  security: tls
   server: 38.47.125.21
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /38.47.125.21:28349
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
-  name: 11|🇯🇵 JP-31 | Mix
+  name: 11|🇯🇵 JP-32 | Mix
   network: ws
-  path: /138.2.59.96:10129
   port: 10129
-  security: tls
   server: 138.2.59.96
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /138.2.59.96:10129
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  path: /167.253.153.32:443
   port: 443
-  security: tls
   server: 167.253.153.32
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.32:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-2 | Mix
   network: ws
-  path: /1.168.191.235:8443
   port: 8443
-  security: tls
   server: 1.168.191.235
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /1.168.191.235:8443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-3 | Mix
   network: ws
-  path: /165.154.226.214:27017
   port: 27017
-  security: tls
   server: 165.154.226.214
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /165.154.226.214:27017
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-4 | Mix
   network: ws
-  path: /203.69.248.40:16000
   port: 16000
-  security: tls
   server: 203.69.248.40
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /203.69.248.40:16000
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-5 | Mix
   network: ws
-  path: /60.248.139.106:12128
   port: 12128
-  security: tls
   server: 60.248.139.106
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /60.248.139.106:12128
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-6 | Mix
   network: ws
-  path: /167.253.153.58:443
   port: 443
-  security: tls
   server: 167.253.153.58
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.58:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-7 | Mix
   network: ws
-  path: /103.137.22.75:443
   port: 443
-  security: tls
   server: 103.137.22.75
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /103.137.22.75:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-8 | Mix
   network: ws
-  path: /60.250.50.171:14265
   port: 14265
-  security: tls
   server: 60.250.50.171
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /60.250.50.171:14265
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-9 | Mix
   network: ws
-  path: /166.0.198.81:28080
   port: 28080
-  security: tls
   server: 166.0.198.81
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /166.0.198.81:28080
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-10 | Mix
   network: ws
-  path: /167.253.153.228:443
   port: 443
-  security: tls
   server: 167.253.153.228
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.228:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-11 | Mix
   network: ws
-  path: /167.253.153.44:443
   port: 443
-  security: tls
   server: 167.253.153.44
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.44:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-12 | Mix
   network: ws
-  path: /122.116.105.15:995
   port: 995
-  security: tls
   server: 122.116.105.15
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /122.116.105.15:995
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-13 | Mix
   network: ws
-  path: /34.80.251.171:443
   port: 443
-  security: tls
   server: 34.80.251.171
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /34.80.251.171:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-14 | Mix
   network: ws
-  path: /167.253.153.163:443
   port: 443
-  security: tls
   server: 167.253.153.163
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.163:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-15 | Mix
   network: ws
-  path: /167.253.153.76:443
   port: 443
-  security: tls
   server: 167.253.153.76
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.76:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-16 | Mix
   network: ws
-  path: /125.227.233.197:2083
   port: 2083
-  security: tls
   server: 125.227.233.197
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /125.227.233.197:2083
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-17 | Mix
   network: ws
-  path: /27.147.13.52:10243
   port: 10243
-  security: tls
   server: 27.147.13.52
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /27.147.13.52:10243
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-18 | Mix
   network: ws
-  path: /167.253.153.162:443
   port: 443
-  security: tls
   server: 167.253.153.162
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.162:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-19 | Mix
   network: ws
-  path: /60.248.139.106:18081
   port: 18081
-  security: tls
   server: 60.248.139.106
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /60.248.139.106:18081
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-20 | Mix
   network: ws
-  path: /220.128.110.108:43
   port: 43
-  security: tls
   server: 220.128.110.108
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /220.128.110.108:43
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-21 | Mix
   network: ws
-  path: /213.210.4.45:8443
   port: 8443
-  security: tls
   server: 213.210.4.45
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /213.210.4.45:8443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-22 | Mix
   network: ws
-  path: /167.253.153.73:443
   port: 443
-  security: tls
   server: 167.253.153.73
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.73:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-23 | Mix
   network: ws
-  path: /167.253.153.182:443
   port: 443
-  security: tls
   server: 167.253.153.182
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.182:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-24 | Mix
   network: ws
-  path: /60.248.139.106:12755
   port: 12755
-  security: tls
   server: 60.248.139.106
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /60.248.139.106:12755
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-25 | Mix
   network: ws
-  path: /167.253.153.253:443
   port: 443
-  security: tls
   server: 167.253.153.253
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.253:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-26 | Mix
   network: ws
-  path: /167.253.153.28:443
   port: 443
-  security: tls
   server: 167.253.153.28
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /167.253.153.28:443
 - encryption: none
-  fp: chrome
-  host: 2026.hhhhh.eu.org
   name: 11|🇨🇳 CN-27 | Mix
   network: ws
-  path: /60.251.232.240:995
   port: 995
-  security: tls
   server: 60.251.232.240
   servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 2026.hhhhh.eu.org
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
