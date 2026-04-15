@@ -1,14 +1,104 @@
 proxies:
-- mport: 35000-39000
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 19265
+  security: tls
+  server: 156.224.76.216
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
   name: 10|🇭🇰 HK-2 | 8EB
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  ports: 35000-39000
-  server: 103.197.71.118
-  skip-cert-verify: true
-  sni: www.lamer.com.hk
-  type: hysteria2
-  udp: true
+  network: ws
+  path: /danfeng?ed=2560
+  port: 15785
+  security: tls
+  server: 45.196.234.36
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.fgfw.loc.cc
+  insecure: '0'
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 28334
+  security: tls
+  server: 156.224.79.89
+  servername: snippet.fgfw.loc.cc
+  skip-cert-verify: false
+  sni: snippet.fgfw.loc.cc
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.loc.cc
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.fgfw.loc.cc
+  insecure: '0'
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 1103
+  security: tls
+  server: 178.253.32.49
+  servername: snippet.fgfw.loc.cc
+  skip-cert-verify: false
+  sni: snippet.fgfw.loc.cc
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.loc.cc
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true

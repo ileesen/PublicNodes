@@ -1,18 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.gfw.qzz.io
+  insecure: '0'
   name: 10|🇹🇼 TW-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
   port: 443
-  reality-opts:
-    public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
-    short-id: 5a337f9f
-  server: kbgs.hinet.tw1.yydjc.top
-  servername: gopro.com
+  security: tls
+  server: 43.213.148.173
+  servername: snippet.gfw.qzz.io
   skip-cert-verify: false
+  sni: snippet.gfw.qzz.io
   tls: true
   type: vless
-  udp: true
-  uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng?ed=2560
 - alterId: 0
   cipher: auto
   name: 13,14|台湾|@ripaojiedian
