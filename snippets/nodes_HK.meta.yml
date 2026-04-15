@@ -15,8 +15,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 2053
-  server: 45.38.42.156
+  port: 10201
+  server: 223.16.138.113
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -35,7 +35,26 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 46.8.226.15
+  server: 38.207.132.191
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  server: 95.182.100.204
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -60,7 +79,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 18.162.54.192
+  server: 54.46.54.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -68,7 +87,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 52.194.222.108
+  server: 54.199.28.140
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -76,7 +95,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.196.41
+  server: 54.65.154.235
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

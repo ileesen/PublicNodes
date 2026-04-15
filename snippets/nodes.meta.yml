@@ -378,8 +378,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 2053
-  server: 45.38.42.156
+  port: 10201
+  server: 223.16.138.113
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -397,7 +397,25 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 46.8.226.15
+  server: 38.207.132.191
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  server: 95.182.100.204
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -414,8 +432,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 168.138.165.174
+  port: 444
+  server: 151.242.165.74
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -432,8 +450,44 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 443
-  server: 140.83.50.165
+  port: 8443
+  server: 38.207.130.231
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 3389
+  server: 203.168.131.105
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 2083
+  server: 64.176.38.23
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -450,8 +504,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 18080
-  server: 220.118.13.21
+  port: 32677
+  server: 221.168.213.173
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -468,8 +522,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 10162
-  server: 59.4.161.71
+  port: 10088
+  server: 125.137.92.241
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -486,8 +540,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 50001
-  server: 115.93.169.180
+  port: 10035
+  server: 121.181.107.158
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -504,8 +558,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 10912
-  server: 59.28.62.4
+  port: 32768
+  server: 125.143.196.122
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -522,8 +576,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 14000
-  server: 59.26.120.165
+  port: 11211
+  server: 59.2.229.69
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -540,8 +594,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 10909
-  server: 211.230.85.30
+  port: 23023
+  server: 59.0.58.42
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -558,134 +612,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-7 | Mix
   network: ws
-  port: 18810
-  server: 222.119.153.85
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-8 | Mix
-  network: ws
-  port: 18080
-  server: 211.114.209.83
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-9 | Mix
-  network: ws
-  port: 30005
-  server: 121.155.236.128
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-10 | Mix
-  network: ws
-  port: 20202
-  server: 220.119.115.101
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-11 | Mix
-  network: ws
-  port: 37215
-  server: 222.98.185.243
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-12 | Mix
-  network: ws
-  port: 11371
-  server: 125.141.32.222
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-13 | Mix
-  network: ws
-  port: 10002
-  server: 59.28.129.218
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-14 | Mix
-  network: ws
-  port: 22105
-  server: 220.127.122.167
+  port: 10206
+  server: 59.19.70.148
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -702,8 +630,80 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
+  port: 27015
+  server: 47.250.158.102
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
   port: 443
-  server: 174.138.22.151
+  server: 123.58.199.241
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 443
+  server: 68.183.230.164
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 443
+  server: 134.209.106.29
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 2000
+  server: 188.239.17.75
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -720,8 +720,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 8443
-  server: 103.118.42.16
+  port: 17009
+  server: 141.11.86.65
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -738,8 +738,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.145
+  port: 443
+  server: 74.120.174.180
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -756,8 +756,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 2053
-  server: 154.81.141.87
+  port: 443
+  server: 152.53.242.55
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -774,8 +774,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.192
+  port: 443
+  server: 64.181.249.123
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -792,8 +792,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 20205
-  server: 74.207.241.10
+  port: 443
+  server: 154.26.181.85
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -810,8 +810,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 443
-  server: 212.103.62.48
+  port: 10443
+  server: 154.26.178.175
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -828,8 +828,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.10
+  port: 443
+  server: 161.35.228.153
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -847,7 +847,7 @@ proxies:
   name: 11|🇺🇸 US-16 | Mix
   network: ws
   port: 8443
-  server: 172.93.46.36
+  server: 139.95.11.120
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -864,8 +864,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.211
+  port: 8443
+  server: 107.174.253.219
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -882,8 +882,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 587
-  server: 192.3.241.149
+  port: 39738
+  server: 38.76.149.106
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -900,26 +900,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 39738
-  server: 154.44.16.172
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇹🇬 TG-1 | Mix
-  network: ws
-  port: 443
-  server: 192.3.219.65
+  port: 2087
+  server: 165.227.26.242
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -936,8 +918,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2087
-  server: 164.90.191.58
+  port: 389
+  server: 143.20.175.181
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -954,8 +936,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 443
-  server: 161.35.217.79
+  port: 2053
+  server: 207.154.241.250
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -972,26 +954,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 8443
-  server: 167.172.171.113
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇩🇪 DE-4 | Mix
-  network: ws
   port: 20202
-  server: 164.90.230.124
+  server: 142.93.160.43
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1008,8 +972,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 2083
-  server: 138.68.142.165
+  port: 2053
+  server: 134.209.19.88
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1027,7 +991,25 @@ proxies:
   name: 11|🇬🇧 GB-2 | Mix
   network: ws
   port: 443
-  server: 161.35.37.231
+  server: 206.189.117.39
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇬🇧 GB-3 | Mix
+  network: ws
+  port: 443
+  server: 143.110.167.132
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1044,8 +1026,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 2053
-  server: 134.209.202.86
+  port: 2096
+  server: 95.85.25.154
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1062,8 +1044,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
-  port: 2053
-  server: 166.1.22.116
+  port: 443
+  server: 146.185.179.237
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1078,10 +1060,28 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇵🇱 PL-1 | Mix
+  name: 11|🇳🇱 NL-3 | Mix
   network: ws
-  port: 2053
-  server: 31.133.0.143
+  port: 20202
+  server: 188.226.187.56
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇳🇱 NL-4 | Mix
+  network: ws
+  port: 443
+  server: 64.227.73.74
   servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tfo: false
@@ -1112,7 +1112,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 18.162.54.192
+  server: 54.46.54.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1120,7 +1120,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 52.194.222.108
+  server: 54.199.28.140
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1128,15 +1128,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.196.41
+  server: 54.65.154.235
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
+  port: 3357
+  server: 18.182.9.204
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1144,15 +1144,15 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4937
-  server: 13.231.134.78
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
+  port: 2001
+  server: 54.199.47.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1160,7 +1160,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 52.194.222.108
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1168,42 +1168,72 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 43.207.115.26
+  server: 52.194.218.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
+  port: 28033
+  server: 95.40.88.248
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 43.207.115.26
+  port: 3057
+  server: 13.114.50.40
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.231.134.78
+  port: 4019
+  server: 54.199.47.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 16.162.122.123
+  port: 44386
+  server: 16.162.191.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,14|台湾|@ripaojiedian
+  network: ws
+  port: '11612'
+  server: tw53_2.cowvpn.space
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
+  ws-opts:
+    headers:
+      Host: ws53_2.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13,14|日本4|@ripaojiedian
+  network: ws
+  port: '11612'
+  server: jp248_2.cowvpn.space
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
+  ws-opts:
+    headers:
+      Host: ws248_2.baidu.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian

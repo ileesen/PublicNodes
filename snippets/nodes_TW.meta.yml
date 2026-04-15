@@ -13,3 +13,18 @@ proxies:
   type: vless
   udp: true
   uuid: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+- alterId: 0
+  cipher: auto
+  name: 13,14|台湾|@ripaojiedian
+  network: ws
+  port: '11612'
+  server: tw53_2.cowvpn.space
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
+  ws-opts:
+    headers:
+      Host: ws53_2.baidu.com
+    path: /
