@@ -31,6 +31,30 @@ proxies:
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 44735
+  security: tls
+  server: 45.144.137.184
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
   name: 10|🇯🇵 JP-1 | 8EB
@@ -153,7 +177,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-1 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19265
@@ -417,7 +441,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 15785
@@ -537,7 +561,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 10|🇭🇰 HK-3 | 8EB
+  name: 10|🇭🇰 HK-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 28334
@@ -561,7 +585,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 10|🇭🇰 HK-4 | 8EB
+  name: 10|🇭🇰 HK-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1103
@@ -600,30 +624,6 @@ proxies:
   ws-opts:
     headers:
       Host: snippet.danfeng.rr.kg
-    path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 10|🇹🇼 TW-1 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 43.213.148.173
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  sni: snippet.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
     path: /danfeng?ed=2560
 - ech-opts:
     enable: true
