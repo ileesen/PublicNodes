@@ -810,8 +810,26 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 25463
-  server: 156.224.78.171
+  port: 37892
+  server: 154.3.36.148
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-2 | Mix
+  network: ws
+  port: 443
+  server: 8.223.63.150
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -828,8 +846,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 20205
-  server: 139.162.83.187
+  port: 443
+  server: 153.121.58.207
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -846,8 +864,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 39738
-  server: 47.91.31.4
+  port: 443
+  server: 64.176.36.17
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -864,8 +882,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 39738
-  server: 140.238.55.84
+  port: 443
+  server: 8.219.155.125
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -882,26 +900,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-4 | Mix
   network: ws
-  port: 8443
-  server: 161.33.14.183
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-5 | Mix
-  network: ws
-  port: 443
-  server: 212.135.211.209
+  port: 1169
+  server: 168.138.45.233
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -918,8 +918,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 12300
-  server: 220.81.144.229
+  port: 18979
+  server: 121.180.41.104
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -936,8 +936,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 12303
-  server: 112.184.137.84
+  port: 10000
+  server: 58.121.169.189
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -954,8 +954,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 32768
-  server: 121.170.1.188
+  port: 13666
+  server: 183.98.157.156
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -972,8 +972,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 14430
-  server: 119.195.0.158
+  port: 10911
+  server: 220.77.136.79
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -990,8 +990,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 12345
-  server: 222.114.198.232
+  port: 27015
+  server: 175.201.34.127
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1008,8 +1008,62 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 10162
-  server: 59.11.33.164
+  port: 18245
+  server: 115.143.216.64
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-7 | Mix
+  network: ws
+  port: 18081
+  server: 220.124.181.77
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-8 | Mix
+  network: ws
+  port: 18852
+  server: 121.150.127.212
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-9 | Mix
+  network: ws
+  port: 37810
+  server: 121.150.127.212
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1026,8 +1080,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 443
-  server: 143.198.209.97
+  port: 2083
+  server: 138.2.85.81
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1045,7 +1099,7 @@ proxies:
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
-  server: 23.111.15.137
+  server: 157.230.41.116
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1063,7 +1117,7 @@ proxies:
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
   port: 443
-  server: 45.76.153.73
+  server: 161.118.232.78
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1081,61 +1135,7 @@ proxies:
   name: 11|🇸🇬 SG-5 | Mix
   network: ws
   port: 443
-  server: 149.28.142.169
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-6 | Mix
-  network: ws
-  port: 443
-  server: 129.212.239.183
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-7 | Mix
-  network: ws
-  port: 443
-  server: 167.172.68.31
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-8 | Mix
-  network: ws
-  port: 443
-  server: 43.159.4.29
+  server: 129.212.233.154
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1153,7 +1153,7 @@ proxies:
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
   port: 443
-  server: 1.161.37.76
+  server: 211.75.210.33
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1170,8 +1170,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 38.207.167.59
+  port: 39738
+  server: 38.244.5.242
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1188,8 +1188,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 5.78.88.190
+  port: 2053
+  server: 31.58.50.114
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1207,7 +1207,7 @@ proxies:
   name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 24.199.122.22
+  server: 107.182.17.246
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1225,7 +1225,7 @@ proxies:
   name: 11|🇺🇸 US-13 | Mix
   network: ws
   port: 443
-  server: 104.194.64.142
+  server: 154.211.8.88
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1242,8 +1242,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.94
+  port: 1234
+  server: 183.251.223.39
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1260,8 +1260,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 14123
-  server: 192.9.228.70
+  port: 39738
+  server: 38.22.236.118
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1278,8 +1278,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 27015
-  server: 74.211.111.3
+  port: 443
+  server: 154.29.149.185
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1296,8 +1296,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 39738
-  server: 38.22.236.85
+  port: 443
+  server: 198.199.115.61
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1314,8 +1314,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 443
-  server: 74.48.81.154
+  port: 39738
+  server: 154.44.16.187
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1332,8 +1332,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.116
+  port: 443
+  server: 16.144.176.211
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1351,7 +1351,7 @@ proxies:
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
   port: 8443
-  server: 136.244.81.90
+  server: 95.179.160.153
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1368,8 +1368,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 2083
-  server: 46.101.250.69
+  port: 443
+  server: 188.166.164.107
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1386,26 +1386,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 443
-  server: 178.62.115.194
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇹🇬 TG-1 | Mix
-  network: ws
-  port: 8443
-  server: 31.56.229.26
+  port: 2096
+  server: 134.209.185.10
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1422,8 +1404,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 443
-  server: 192.210.175.185
+  port: 2053
+  server: 146.185.175.200
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1440,8 +1422,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
-  port: 443
-  server: 95.85.62.66
+  port: 20202
+  server: 188.166.91.68
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1458,8 +1440,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-3 | Mix
   network: ws
-  port: 443
-  server: 161.35.147.14
+  port: 2087
+  server: 146.190.30.107
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1476,8 +1458,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-4 | Mix
   network: ws
-  port: 14443
-  server: 144.31.27.215
+  port: 2096
+  server: 188.226.154.178
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1494,8 +1476,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-5 | Mix
   network: ws
-  port: 443
-  server: 195.133.40.233
+  port: 2053
+  server: 151.242.69.72
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -1510,10 +1492,28 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇳🇱 NL-6 | Mix
+  name: 11|🇵🇱 PL-1 | Mix
   network: ws
-  port: 2087
-  server: 206.189.9.97
+  port: 9443
+  server: 87.120.216.125
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇹🇷 TR-1 | Mix
+  network: ws
+  port: 8686
+  server: 194.87.39.174
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
