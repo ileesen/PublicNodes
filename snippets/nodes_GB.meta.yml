@@ -1,24 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 2096
-  server: 134.209.185.10
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|GB_speednode_0008
   port: 443
