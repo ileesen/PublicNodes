@@ -149,58 +149,14 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.fgfw.loc.cc
-  insecure: '0'
-  name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 12677
-  security: tls
-  server: 141.98.198.107
-  servername: snippet.fgfw.loc.cc
-  skip-cert-verify: false
-  sni: snippet.fgfw.loc.cc
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.loc.cc
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 8443
-  server: 161.33.14.183
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
   port: 443
-  server: 47.74.8.181
+  server: 212.50.245.5
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false

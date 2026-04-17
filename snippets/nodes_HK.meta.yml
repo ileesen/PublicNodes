@@ -6,9 +6,34 @@ proxies:
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
-  host: snippet.danfeng.com.cfd
+  host: snippet.danfeng.rr.kg
   insecure: '0'
   name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 30000
+  security: tls
+  server: 23.141.12.11
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇭🇰 HK-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 42813
@@ -33,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56602
@@ -58,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 10|🇭🇰 HK-3 | 8EB
+  name: 10|🇭🇰 HK-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1103
@@ -83,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 10|🇭🇰 HK-4 | 8EB
+  name: 10|🇭🇰 HK-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 44735
@@ -108,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-5 | 8EB
+  name: 10|🇭🇰 HK-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19265
@@ -133,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-6 | 8EB
+  name: 10|🇭🇰 HK-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 15785
@@ -156,7 +181,7 @@ proxies:
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 103.103.245.243
+  server: 18.166.242.223
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -174,8 +199,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 21549
-  server: 154.37.223.224
+  port: 12720
+  server: 154.44.27.134
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -193,8 +218,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 587
-  server: 1.32.216.218
+  port: 58410
+  server: 114.134.187.53
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 10393
+  server: 47.79.20.214
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
