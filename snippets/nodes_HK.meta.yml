@@ -6,9 +6,34 @@ proxies:
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  host: snippet.gfw.qzz.io
+  insecure: '0'
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 56047
+  security: tls
+  server: 188.209.141.114
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  sni: snippet.gfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇭🇰 HK-1 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 30000
@@ -33,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 42813
@@ -58,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇭🇰 HK-3 | 8EB
+  name: 10|🇭🇰 HK-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56602
@@ -83,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇭🇰 HK-4 | 8EB
+  name: 10|🇭🇰 HK-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1103
@@ -108,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇭🇰 HK-5 | 8EB
+  name: 10|🇭🇰 HK-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 44735
@@ -133,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇭🇰 HK-6 | 8EB
+  name: 10|🇭🇰 HK-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19265
@@ -149,36 +174,11 @@ proxies:
     headers:
       Host: snippet.danfeng.com.cfd
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.danfeng.com.cfd
-  insecure: '0'
-  name: 9|🇭🇰 HK-7 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 15785
-  security: tls
-  server: 45.196.234.36
-  servername: snippet.danfeng.com.cfd
-  skip-cert-verify: false
-  sni: snippet.danfeng.com.cfd
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.com.cfd
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 29794
   server: 188.209.141.222
@@ -197,7 +197,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 23630
   server: 193.134.209.152
@@ -216,7 +216,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-3 | Mix
+  name: 11|🇭🇰 HK-3 | Mix
   network: ws
   port: 8080
   server: 45.207.34.14
@@ -233,14 +233,14 @@ proxies:
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -248,7 +248,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -256,7 +256,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -266,7 +266,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
