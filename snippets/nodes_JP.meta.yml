@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 36421
@@ -33,7 +33,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 7228
@@ -58,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇯🇵 JP-3 | 8EB
+  name: 10|🇯🇵 JP-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56871
@@ -83,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 8606
@@ -108,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-5 | 8EB
+  name: 10|🇯🇵 JP-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 41261
@@ -124,39 +124,33 @@ proxies:
     headers:
       Host: snippet.gfw.qzz.io
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.danfeng.rr.kg
-  insecure: '0'
-  name: 9|🇯🇵 JP-6 | 8EB
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  path: /danfeng?ed=2560
-  port: 44078
-  security: tls
-  server: 45.128.210.237
-  servername: snippet.danfeng.rr.kg
+  port: 3388
+  server: 64.110.101.125
+  servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
-  sni: snippet.danfeng.rr.kg
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: snippet.danfeng.rr.kg
+      Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 8443
-  server: 45.142.166.87
+  server: 208.87.207.137
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -172,10 +166,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 54321
-  server: 64.81.114.61
+  port: 7005
+  server: 43.153.174.179
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -191,10 +185,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-3 | Mix
+  name: 11|🇯🇵 JP-4 | Mix
   network: ws
-  port: 831
-  server: 141.11.138.69
+  port: 49152
+  server: 43.165.128.152
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -206,23 +200,23 @@ proxies:
     headers:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 57.180.27.122
+  port: 1951
+  server: 13.112.73.166
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 160.16.85.33
+  port: 34818
+  server: 54.249.109.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4380

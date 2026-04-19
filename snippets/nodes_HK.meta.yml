@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇭🇰 HK-1 | 8EB
+  name: 10|🇭🇰 HK-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 31417
@@ -33,7 +33,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇭🇰 HK-2 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56047
@@ -58,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇭🇰 HK-3 | 8EB
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 30000
@@ -83,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇭🇰 HK-4 | 8EB
+  name: 10|🇭🇰 HK-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 42813
@@ -108,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇭🇰 HK-5 | 8EB
+  name: 10|🇭🇰 HK-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56602
@@ -133,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇭🇰 HK-6 | 8EB
+  name: 10|🇭🇰 HK-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1103
@@ -158,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇭🇰 HK-7 | 8EB
+  name: 10|🇭🇰 HK-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 44735
@@ -183,7 +183,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇭🇰 HK-8 | 8EB
+  name: 10|🇭🇰 HK-8 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19265
@@ -203,124 +203,29 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 2083
+  server: 103.219.193.106
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 43.168.16.112
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-2 | Mix
-  network: ws
-  port: 444
-  server: 103.30.78.179
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-3 | Mix
-  network: ws
-  port: 30005
-  server: 131.143.242.120
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-4 | Mix
-  network: ws
-  port: 443
-  server: 103.39.79.28
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-5 | Mix
-  network: ws
-  port: 59335
-  server: 38.207.176.243
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-6 | Mix
-  network: ws
-  port: 51102
-  server: 38.47.108.176
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇭🇰 HK-7 | Mix
-  network: ws
-  port: 21073
-  server: 198.176.54.180
+  server: 118.107.4.184
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -334,40 +239,40 @@ proxies:
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 16.162.188.94
+  server: 95.40.85.50
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 54.65.250.149
+  server: 54.46.52.70
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 43.199.33.120
+  port: 6313
+  server: 52.69.111.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

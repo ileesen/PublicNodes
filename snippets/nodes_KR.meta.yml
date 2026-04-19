@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-1 | Mix
+  name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 36169
-  server: 211.196.12.95
+  port: 10017
+  server: 121.162.61.37
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -22,10 +22,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 19071
-  server: 220.122.42.198
+  port: 12345
+  server: 211.51.105.92
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -41,10 +41,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-3 | Mix
+  name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 32677
-  server: 112.171.78.221
+  port: 10162
+  server: 125.129.121.13
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -60,10 +60,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-4 | Mix
+  name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 27016
-  server: 211.198.97.38
+  port: 37810
+  server: 175.197.149.153
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -79,10 +79,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-5 | Mix
+  name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 25448
-  server: 222.119.218.222
+  port: 31337
+  server: 175.206.85.140
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -98,10 +98,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-6 | Mix
+  name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 11310
-  server: 222.119.153.85
+  port: 10909
+  server: 112.163.229.82
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -113,7 +113,83 @@ proxies:
     headers:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 14|KR_speednode_0007
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-7 | Mix
+  network: ws
+  port: 18246
+  server: 121.182.16.235
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-8 | Mix
+  network: ws
+  port: 20332
+  server: 125.136.32.130
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-9 | Mix
+  network: ws
+  port: 29015
+  server: 221.159.89.19
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-10 | Mix
+  network: ws
+  port: 18889
+  server: 14.40.27.140
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- name: 15|KR_speednode_0007
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -122,14 +198,14 @@ proxies:
   type: http
   udp: true
   username: test
-- name: 14|KR_speednode_0008
+- name: 15|KR_speednode_0008
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  name: 14|KR_speednode_0009
+  name: 15|KR_speednode_0009
   network: ws
   port: 18889
   server: 218.144.49.230
@@ -145,7 +221,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 14|KR_speednode_0010
+  name: 15|KR_speednode_0010
   port: 50911
   reality-opts:
     public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
