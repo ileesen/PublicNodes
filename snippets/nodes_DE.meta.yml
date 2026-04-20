@@ -1,4 +1,29 @@
 proxies:
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 20205
+  security: tls
+  server: 185.58.159.206
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
 - add: www.shopify.com
   aid: '0'
   alterId: 0
@@ -6,7 +31,7 @@ proxies:
   host: de.gfw.hidns.co
   id: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
   insecure: '0'
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-2 | 8EB
   net: ws
   network: ws
   path: /danfeng?ed=2560
