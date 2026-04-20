@@ -11,6 +11,31 @@ proxies:
   name: 10|🇺🇸 US-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
+  port: 1443
+  security: tls
+  server: 45.62.112.250
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
   port: 443
   security: tls
   server: 154.21.91.108
@@ -33,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 443
@@ -58,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇺🇸 US-3 | 8EB
+  name: 10|🇺🇸 US-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 37948
@@ -83,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 10|🇺🇸 US-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 8443
@@ -108,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 414
@@ -133,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 10|🇺🇸 US-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 25557
@@ -158,7 +183,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 443
