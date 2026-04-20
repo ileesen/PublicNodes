@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19193
@@ -33,7 +33,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 36421
@@ -58,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇯🇵 JP-3 | 8EB
+  name: 10|🇯🇵 JP-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 7228
@@ -83,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56871
@@ -103,10 +103,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 89.125.244.207
+  server: 154.31.113.248
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -122,10 +122,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 443
-  server: 8.216.48.198
+  port: 8443
+  server: 217.142.241.16
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -137,7 +137,45 @@ proxies:
     headers:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 12,13|日本|@ripaojiedian
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 3389
+  server: 203.168.131.109
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 443
+  server: 168.138.165.174
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1783
@@ -145,7 +183,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 34818
@@ -153,7 +191,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4380
@@ -162,7 +200,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0008
+  name: 15|JP_speednode_0008
   port: 443
   reality-opts:
     public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc

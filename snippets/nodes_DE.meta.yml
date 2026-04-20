@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 20205
@@ -31,7 +31,7 @@ proxies:
   host: de.gfw.hidns.co
   id: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
   insecure: '0'
-  name: 9|🇩🇪 DE-2 | 8EB
+  name: 10|🇩🇪 DE-2 | 8EB
   net: ws
   network: ws
   path: /danfeng?ed=2560
@@ -51,10 +51,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: ws
   port: 443
-  server: 31.57.241.56
+  server: 192.248.185.180
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -70,67 +70,48 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 8443
-  server: 62.60.251.86
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 20202
-  server: 64.226.124.38
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇩🇪 DE-4 | Mix
-  network: ws
-  port: 8443
-  server: 178.128.198.120
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇩🇪 DE-5 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2087
-  server: 159.89.12.238
+  server: 164.92.137.46
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-3 | Mix
+  network: ws
+  port: 443
+  server: 134.122.93.66
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 8443
+  server: 62.60.149.222
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -144,7 +125,7 @@ proxies:
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|DE_speednode_0001
+  name: 15|DE_speednode_0001
   port: 443
   reality-opts:
     public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
