@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇸🇬 SG-1 | 8EB
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 39738
@@ -28,7 +28,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 8443
   server: cf2.danfeng.eu.org
@@ -47,10 +47,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 8443
-  server: 54.255.174.120
+  port: 443
+  server: 188.239.19.177
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -66,10 +66,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 2053
-  server: 47.82.155.79
+  port: 443
+  server: 178.128.80.43
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -81,7 +81,26 @@ proxies:
     headers:
       Host: s3vz.user-service.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 12,13|新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 443
+  server: 43.159.0.73
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -89,7 +108,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -97,11 +116,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 12070
-  server: 95.40.68.160
+  port: 28033
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
