@@ -1,12 +1,14 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 10|🇨🇳 CN-1 | Mix
   network: ws
-  port: 443
-  server: 167.253.153.215
+  port: 17009
+  server: 166.0.198.153
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

@@ -49,14 +49,16 @@ proxies:
     headers:
       Host: snippet.gfw.qzz.io
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 10|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 82.40.42.42
+  port: 11965
+  server: 151.242.164.46
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -68,14 +70,16 @@ proxies:
     headers:
       Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 10|🇯🇵 JP-2 | Mix
   network: ws
-  port: 443
-  server: 13.231.5.242
+  port: 49111
+  server: 156.246.91.31
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -87,52 +91,16 @@ proxies:
     headers:
       Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 10|🇯🇵 JP-3 | Mix
   network: ws
   port: 443
-  server: 198.13.62.34
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-4 | Mix
-  network: ws
-  port: 443
-  server: 64.176.54.93
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-5 | Mix
-  network: ws
-  port: 8567
-  server: 141.98.197.45
+  server: 101.36.105.226
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

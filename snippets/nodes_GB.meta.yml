@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 10|🇬🇧 GB-1 | Mix
+  network: ws
+  port: 443
+  server: 209.97.136.236
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 10|🇬🇧 GB-2 | Mix
+  network: ws
+  port: 2083
+  server: 170.39.66.155
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
