@@ -5,8 +5,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
+  port: 17009
+  server: 82.152.91.143
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-2 | Mix
+  network: ws
   port: 8443
-  server: 213.210.4.235
+  server: 140.235.39.161
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
