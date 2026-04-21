@@ -8,7 +8,32 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 10|🇭🇰 HK-1 | 8EB
+  name: 9|🇭🇰 HK-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 43.161.221.27
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 9|🇭🇰 HK-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 47556
@@ -33,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 9|🇭🇰 HK-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 31417
@@ -58,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 10|🇭🇰 HK-3 | 8EB
+  name: 9|🇭🇰 HK-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56047
@@ -83,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 10|🇭🇰 HK-4 | 8EB
+  name: 9|🇭🇰 HK-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 30000
@@ -108,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 10|🇭🇰 HK-5 | 8EB
+  name: 9|🇭🇰 HK-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 42813
@@ -133,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 10|🇭🇰 HK-6 | 8EB
+  name: 9|🇭🇰 HK-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 56602
@@ -158,7 +183,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 10|🇭🇰 HK-7 | 8EB
+  name: 9|🇭🇰 HK-8 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1103
@@ -183,7 +208,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 10|🇭🇰 HK-8 | 8EB
+  name: 9|🇭🇰 HK-9 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 44735
@@ -203,7 +228,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 10|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
   server: 116.49.214.50
@@ -222,7 +247,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 10|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
   server: 45.11.104.98
@@ -241,7 +266,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-3 | Mix
+  name: 10|🇭🇰 HK-3 | Mix
   network: ws
   port: 443
   server: 103.102.4.43
@@ -260,7 +285,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-4 | Mix
+  name: 10|🇭🇰 HK-4 | Mix
   network: ws
   port: 443
   server: 91.229.133.84
@@ -279,7 +304,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-5 | Mix
+  name: 10|🇭🇰 HK-5 | Mix
   network: ws
   port: 2083
   server: 43.248.9.36
@@ -298,7 +323,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-6 | Mix
+  name: 10|🇭🇰 HK-6 | Mix
   network: ws
   port: 10100
   server: 103.224.172.99
@@ -317,7 +342,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-7 | Mix
+  name: 10|🇭🇰 HK-7 | Mix
   network: ws
   port: 54168
   server: 166.88.141.134
@@ -336,7 +361,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-8 | Mix
+  name: 10|🇭🇰 HK-8 | Mix
   network: ws
   port: 443
   server: 58.152.156.158
@@ -355,7 +380,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-9 | Mix
+  name: 10|🇭🇰 HK-9 | Mix
   network: ws
   port: 35881
   server: 38.147.163.72
@@ -372,14 +397,14 @@ proxies:
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 52687
@@ -387,7 +412,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3685
@@ -395,7 +420,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -405,7 +430,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 13|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -414,7 +439,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 15|HK_speednode_0004
+  name: 14|HK_speednode_0004
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
@@ -426,7 +451,7 @@ proxies:
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - client-fingerprint: chrome
-  name: 15|HK_speednode_0005
+  name: 14|HK_speednode_0005
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
@@ -438,7 +463,7 @@ proxies:
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - client-fingerprint: chrome
-  name: 15|HK_speednode_0006
+  name: 14|HK_speednode_0006
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
