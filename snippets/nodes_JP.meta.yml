@@ -74,31 +74,6 @@ proxies:
     headers:
       Host: snippet.gfw.qzz.io
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.fgfw.loc.cc
-  insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 56871
-  security: tls
-  server: 156.231.115.49
-  servername: snippet.fgfw.loc.cc
-  skip-cert-verify: false
-  sni: snippet.fgfw.loc.cc
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.loc.cc
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -106,8 +81,8 @@ proxies:
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 138.2.62.8
-  servername: s3vz.user-service.chinav.indevs.in
+  server: 192.169.108.2
+  servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -116,7 +91,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
+      Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
@@ -125,8 +100,8 @@ proxies:
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 443
-  server: 166.88.97.63
-  servername: s3vz.user-service.chinav.indevs.in
+  server: 38.226.195.129
+  servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -135,7 +110,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
+      Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
@@ -143,9 +118,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 443
-  server: 212.50.251.215
-  servername: s3vz.user-service.chinav.indevs.in
+  port: 9002
+  server: 38.47.53.97
+  servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -154,26 +129,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-4 | Mix
-  network: ws
-  port: 443
-  server: 156.231.113.12
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
+      Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
 - name: 13,14|日本|@ripaojiedian
   network: tcp
