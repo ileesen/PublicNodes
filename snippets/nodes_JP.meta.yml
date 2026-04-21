@@ -81,7 +81,7 @@ proxies:
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 192.169.108.2
+  server: 82.40.42.42
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -100,7 +100,7 @@ proxies:
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 443
-  server: 38.226.195.129
+  server: 13.231.5.242
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -118,8 +118,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 9002
-  server: 38.47.53.97
+  port: 443
+  server: 198.13.62.34
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 443
+  server: 64.176.54.93
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 8567
+  server: 141.98.197.45
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
