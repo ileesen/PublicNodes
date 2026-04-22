@@ -6,9 +6,34 @@ proxies:
   ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 60111
+  security: tls
+  server: 69.63.197.137
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇺🇸 US-1 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1013
@@ -33,7 +58,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 587
@@ -58,7 +83,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇺🇸 US-3 | 8EB
+  name: 10|🇺🇸 US-4 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 1443
@@ -83,7 +108,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇺🇸 US-4 | 8EB
+  name: 10|🇺🇸 US-5 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 443
@@ -108,7 +133,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-6 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 443
@@ -133,7 +158,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇺🇸 US-6 | 8EB
+  name: 10|🇺🇸 US-7 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 37948
@@ -158,7 +183,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: 9|🇺🇸 US-7 | 8EB
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 8443
@@ -183,7 +208,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.com.cfd
   insecure: '0'
-  name: 9|🇺🇸 US-8 | 8EB
+  name: 10|🇺🇸 US-9 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 414
@@ -203,7 +228,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-1 | Mix
+  name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 443
   server: cf.danfeng.eu.org
@@ -222,7 +247,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-2 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
   server: cf1.danfeng.eu.org
@@ -241,7 +266,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
   server: cf3.danfeng.eu.org
@@ -260,7 +285,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-4 | Mix
+  name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 2053
   server: cf4.danfeng.eu.org
@@ -279,7 +304,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-5 | Mix
+  name: 11|🇺🇸 US-5 | Mix
   network: ws
   port: 2053
   server: cf5.danfeng.eu.org
@@ -298,7 +323,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-6 | Mix
+  name: 11|🇺🇸 US-6 | Mix
   network: ws
   port: 2087
   server: cf6.danfeng.eu.org
@@ -317,7 +342,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-7 | Mix
+  name: 11|🇺🇸 US-7 | Mix
   network: ws
   port: 2087
   server: cf7.danfeng.eu.org
@@ -336,7 +361,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-8 | Mix
+  name: 11|🇺🇸 US-8 | Mix
   network: ws
   port: 2096
   server: cf8.danfeng.eu.org
@@ -355,7 +380,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-9 | Mix
+  name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
@@ -374,7 +399,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-10 | Mix
+  name: 11|🇺🇸 US-10 | Mix
   network: ws
   port: 443
   server: 74.48.136.102
@@ -393,7 +418,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-11 | Mix
+  name: 11|🇺🇸 US-11 | Mix
   network: ws
   port: 39738
   server: 38.244.5.101
@@ -412,7 +437,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-12 | Mix
+  name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 39738
   server: 38.22.237.196
@@ -431,7 +456,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-13 | Mix
+  name: 11|🇺🇸 US-13 | Mix
   network: ws
   port: 56783
   server: 154.17.23.201
@@ -450,7 +475,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-14 | Mix
+  name: 11|🇺🇸 US-14 | Mix
   network: ws
   port: 39738
   server: 154.44.18.52
@@ -469,7 +494,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-15 | Mix
+  name: 11|🇺🇸 US-15 | Mix
   network: ws
   port: 443
   server: 45.32.167.190
@@ -488,7 +513,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-16 | Mix
+  name: 11|🇺🇸 US-16 | Mix
   network: ws
   port: 443
   server: 79.99.78.25
@@ -507,7 +532,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-17 | Mix
+  name: 11|🇺🇸 US-17 | Mix
   network: ws
   port: 443
   server: 44.226.156.107
@@ -526,7 +551,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-18 | Mix
+  name: 11|🇺🇸 US-18 | Mix
   network: ws
   port: 443
   server: 159.223.206.186
@@ -545,7 +570,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇺🇸 US-19 | Mix
+  name: 11|🇺🇸 US-19 | Mix
   network: ws
   port: 443
   server: 167.234.221.72
@@ -560,7 +585,7 @@ proxies:
     headers:
       Host: pchlzn.cdn-a.gfw.hidns.co
     path: /danfeng?ed=2560
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
@@ -568,7 +593,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
@@ -576,7 +601,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 17871
@@ -586,7 +611,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0022
+  name: 15|US_speednode_0022
   port: 443
   reality-opts:
     public-key: tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0
@@ -600,7 +625,7 @@ proxies:
   uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0024
+  name: 15|US_speednode_0024
   port: 443
   reality-opts:
     public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
@@ -615,7 +640,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 14|US_speednode_0025
+  name: 15|US_speednode_0025
   network: ws
   port: 443
   server: 165.140.241.29
@@ -631,7 +656,7 @@ proxies:
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0026
+  name: 15|US_speednode_0026
   port: 4454
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -644,7 +669,7 @@ proxies:
   uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0027
+  name: 15|US_speednode_0027
   port: 4495
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -657,7 +682,7 @@ proxies:
   uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0028
+  name: 15|US_speednode_0028
   port: 443
   reality-opts:
     public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
@@ -671,7 +696,7 @@ proxies:
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0029
+  name: 15|US_speednode_0029
   port: 4510
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
