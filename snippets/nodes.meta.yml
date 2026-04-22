@@ -783,8 +783,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 47981
-  server: 216.23.92.130
+  port: 443
+  server: 104.253.175.45
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -801,8 +801,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 443
-  server: 45.39.190.6
+  port: 34175
+  server: 216.23.92.171
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -819,8 +819,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 20475
-  server: 64.49.44.104
+  port: 443
+  server: 126.220.82.161
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -837,8 +837,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 8443
-  server: 153.121.67.199
+  port: 443
+  server: 102.134.49.209
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -856,7 +856,61 @@ proxies:
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
   port: 443
-  server: 138.3.214.171
+  server: 47.74.45.134
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 443
+  server: 154.31.113.248
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 50005
+  server: 185.184.223.73
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-6 | Mix
+  network: ws
+  port: 443
+  server: 34.180.125.14
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -873,8 +927,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 19999
-  server: 121.154.163.105
+  port: 32677
+  server: 59.14.114.164
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -891,8 +945,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 28080
-  server: 175.212.45.195
+  port: 30005
+  server: 112.163.117.142
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -909,8 +963,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 10911
-  server: 218.145.4.124
+  port: 12162
+  server: 112.219.110.147
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -927,8 +981,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 12300
-  server: 221.150.188.210
+  port: 14265
+  server: 59.0.201.106
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -945,8 +999,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 13486
-  server: 220.122.15.78
+  port: 30005
+  server: 183.106.76.116
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -963,26 +1017,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 10333
-  server: 211.106.184.129
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-7 | Mix
-  network: ws
-  port: 37215
-  server: 175.201.34.127
+  port: 50010
+  server: 112.223.8.149
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1000,7 +1036,7 @@ proxies:
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 211.22.180.134
+  server: 64.186.240.17
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1018,7 +1054,7 @@ proxies:
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
-  server: 165.22.106.152
+  server: 161.118.211.245
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1036,7 +1072,7 @@ proxies:
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
   port: 443
-  server: 207.148.124.184
+  server: 43.159.4.230
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1054,61 +1090,7 @@ proxies:
   name: 11|🇸🇬 SG-5 | Mix
   network: ws
   port: 443
-  server: 43.159.4.29
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-6 | Mix
-  network: ws
-  port: 587
-  server: 159.138.242.19
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-7 | Mix
-  network: ws
-  port: 443
-  server: 129.212.233.20
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-8 | Mix
-  network: ws
-  port: 443
-  server: 152.42.255.28
+  server: 152.42.232.4
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1125,8 +1107,26 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
+  port: 17009
+  server: 166.0.198.153
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-2 | Mix
+  network: ws
   port: 443
-  server: 213.210.5.89
+  server: 1.161.37.76
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1143,8 +1143,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 443
-  server: 64.186.224.2
+  port: 60030
+  server: 69.63.214.151
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1161,8 +1161,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 4433
-  server: 45.62.113.95
+  port: 2008
+  server: 155.248.206.195
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1179,8 +1179,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 23.19.230.117
+  port: 587
+  server: 103.172.135.43
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1197,8 +1197,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 2087
-  server: 154.218.15.95
+  port: 19131
+  server: 150.230.33.247
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1215,8 +1215,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 443
-  server: 172.236.237.102
+  port: 32225
+  server: 172.232.232.163
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1233,8 +1233,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 2096
-  server: 45.202.113.182
+  port: 443
+  server: 47.251.126.86
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1252,7 +1252,7 @@ proxies:
   name: 11|🇺🇸 US-16 | Mix
   network: ws
   port: 443
-  server: 144.34.226.224
+  server: 67.226.221.97
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1269,8 +1269,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 443
-  server: 66.112.219.106
+  port: 2053
+  server: 107.173.34.130
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1288,7 +1288,7 @@ proxies:
   name: 11|🇺🇸 US-18 | Mix
   network: ws
   port: 443
-  server: 143.198.158.87
+  server: 97.64.29.158
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1306,7 +1306,7 @@ proxies:
   name: 11|🇺🇸 US-19 | Mix
   network: ws
   port: 443
-  server: 199.180.113.31
+  server: 154.17.11.46
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1323,8 +1323,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2096
-  server: 46.101.248.71
+  port: 285
+  server: 209.38.203.91
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1341,8 +1341,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 2053
-  server: 165.227.162.157
+  port: 2083
+  server: 46.101.110.88
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1359,8 +1359,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 443
-  server: 164.90.176.68
+  port: 2087
+  server: 165.227.162.157
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1377,62 +1377,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-4 | Mix
   network: ws
-  port: 443
-  server: 89.46.236.145
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇹🇬 TG-1 | Mix
-  network: ws
-  port: 443
-  server: 162.243.249.250
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 21332
-  server: 5.39.254.48
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-2 | Mix
-  network: ws
   port: 2083
-  server: 206.189.119.143
+  server: 46.101.204.30
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1447,10 +1393,28 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-3 | Mix
+  name: 11|🇩🇪 DE-5 | Mix
   network: ws
   port: 443
-  server: 167.99.93.13
+  server: 64.226.92.146
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇫🇷 FR-1 | Mix
+  network: ws
+  port: 8443
+  server: 172.232.53.15
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1467,8 +1431,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 8443
-  server: 165.232.81.187
+  port: 2087
+  server: 68.183.0.162
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1486,7 +1450,43 @@ proxies:
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
   port: 443
-  server: 188.226.153.14
+  server: 188.226.153.100
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇹🇬 TG-1 | Mix
+  network: ws
+  port: 443
+  server: 31.13.248.158
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇹🇬 TG-2 | Mix
+  network: ws
+  port: 443
+  server: 195.141.65.98
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

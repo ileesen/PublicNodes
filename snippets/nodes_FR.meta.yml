@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇫🇷 FR-1 | Mix
+  network: ws
+  port: 8443
+  server: 172.232.53.15
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
