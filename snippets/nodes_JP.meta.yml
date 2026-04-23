@@ -31,7 +31,7 @@ proxies:
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 126.220.82.161
+  server: 54.199.149.209
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -50,7 +50,7 @@ proxies:
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 443
-  server: 102.134.49.209
+  server: 140.245.86.172
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -68,8 +68,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 443
-  server: 47.74.45.134
+  port: 30000
+  server: 45.129.8.65
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -88,7 +88,7 @@ proxies:
   name: 11|🇯🇵 JP-4 | Mix
   network: ws
   port: 443
-  server: 154.31.113.248
+  server: 142.248.137.32
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -106,27 +106,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-5 | Mix
   network: ws
-  port: 50005
-  server: 185.184.223.73
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-6 | Mix
-  network: ws
-  port: 443
-  server: 34.180.125.14
+  port: 39738
+  server: 45.251.241.43
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -141,16 +122,16 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1951
-  server: 52.192.67.190
+  port: 3278
+  server: 54.249.58.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 35.77.96.23
+  port: 2001
+  server: 54.249.58.71
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -158,7 +139,7 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4380
-  server: 52.192.67.190
+  server: 43.199.32.10
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

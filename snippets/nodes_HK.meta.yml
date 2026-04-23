@@ -149,31 +149,6 @@ proxies:
     headers:
       Host: snippet.danfeng.com.cfd
     path: /danfeng?ed=2560
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 10|🇭🇰 HK-7 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 56602
-  security: tls
-  server: 43.247.133.22
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  sni: snippet.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -181,26 +156,7 @@ proxies:
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 104.253.175.45
-  servername: pchlzn.cdn-a.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pchlzn.cdn-a.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-2 | Mix
-  network: ws
-  port: 34175
-  server: 216.23.92.171
+  server: 23.156.153.64
   servername: pchlzn.cdn-a.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -225,23 +181,23 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 52687
-  server: 43.199.66.73
+  server: 3.112.254.212
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50612
-  server: 95.40.58.97
+  port: 54708
+  server: 43.206.194.205
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 3.113.21.102
+  port: 50612
+  server: 43.199.32.10
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
