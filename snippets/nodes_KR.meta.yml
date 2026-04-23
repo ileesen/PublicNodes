@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-1 | Mix
+  name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 8443
-  server: 146.56.41.87
+  port: 29015
+  server: 222.113.157.240
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -22,10 +22,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 22105
-  server: 61.73.10.185
+  port: 16923
+  server: 203.251.64.95
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -41,10 +41,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-3 | Mix
+  name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 19999
-  server: 121.154.163.105
+  port: 16010
+  server: 222.113.18.218
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -60,10 +60,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-4 | Mix
+  name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 18852
-  server: 112.165.123.197
+  port: 10002
+  server: 61.79.126.130
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -79,10 +79,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇰🇷 KR-5 | Mix
+  name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 10255
-  server: 112.222.0.27
+  port: 32770
+  server: 119.200.244.99
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -94,12 +94,31 @@ proxies:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
     path: /danfeng?ed=2560
-- name: 14|KR_speednode_0107
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-6 | Mix
+  network: ws
+  port: 12300
+  server: 222.106.183.207
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- name: 15|KR_speednode_0107
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
-- name: 14|KR_speednode_0108
+- name: 15|KR_speednode_0108
   network: ws
   port: 58337
   server: 152.67.211.114

@@ -1,5 +1,43 @@
 proxies:
-- name: 14|SE_speednode_0125
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 443
+  server: 31.56.177.213
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇪 SE-2 | Mix
+  network: ws
+  port: 8443
+  server: 31.56.196.56
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- name: 15|SE_speednode_0125
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -12,7 +50,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 14|SE_speednode_0126
+- name: 15|SE_speednode_0126
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -25,7 +63,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 14|SE_speednode_0127
+- name: 15|SE_speednode_0127
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -38,7 +76,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: 14|SE_speednode_0128
+- name: 15|SE_speednode_0128
   network: ws
   port: 2053
   server: 46.226.164.44

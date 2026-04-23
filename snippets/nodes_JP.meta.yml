@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 19193
@@ -28,29 +28,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-1 | Mix
-  network: ws
-  port: 53557
-  server: 82.40.33.241
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 140.238.51.35
+  server: 153.126.211.25
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -66,10 +47,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-3 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 8443
-  server: 153.121.67.199
+  port: 10001
+  server: 198.176.52.135
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -85,7 +66,83 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-4 | Mix
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 443
+  server: 149.28.25.13
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 443
+  server: 161.248.254.27
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 2566
+  server: 154.12.191.114
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-6 | Mix
+  network: ws
+  port: 49652
+  server: 156.246.95.204
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-7 | Mix
   network: ws
   port: 30000
   server: 45.129.8.65
@@ -100,26 +157,7 @@ proxies:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-5 | Mix
-  network: ws
-  port: 443
-  server: 154.19.186.66
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3278
@@ -127,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 2001
@@ -135,7 +173,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4380

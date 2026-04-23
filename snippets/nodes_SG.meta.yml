@@ -8,7 +8,7 @@ proxies:
   fp: chrome
   host: snippet.fgfw.loc.cc
   insecure: '0'
-  name: 9|🇸🇬 SG-1 | 8EB
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 443
@@ -33,7 +33,7 @@ proxies:
   fp: chrome
   host: snippet.danfeng.rr.kg
   insecure: '0'
-  name: 9|🇸🇬 SG-2 | 8EB
+  name: 10|🇸🇬 SG-2 | 8EB
   network: ws
   path: /danfeng?ed=2560
   port: 39738
@@ -53,7 +53,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 8443
   server: cf2.danfeng.eu.org
@@ -72,10 +72,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 39952
-  server: 129.150.38.6
+  port: 33006
+  server: 188.253.125.104
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -91,10 +91,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
-  server: 165.22.106.152
+  server: 165.232.175.180
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -110,10 +110,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-4 | Mix
+  name: 11|🇸🇬 SG-4 | Mix
   network: ws
   port: 443
-  server: 47.82.155.79
+  server: 157.230.254.79
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -125,45 +125,7 @@ proxies:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-5 | Mix
-  network: ws
-  port: 443
-  server: 174.138.18.114
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-6 | Mix
-  network: ws
-  port: 443
-  server: 188.166.217.179
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 5594
@@ -171,7 +133,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 32876
@@ -179,7 +141,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 30726
@@ -187,7 +149,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 14|SG_speednode_0129
+- name: 15|SG_speednode_0129
   network: ws
   port: 443
   server: 8.223.63.189
@@ -201,7 +163,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 14|SG_speednode_0130
+- name: 15|SG_speednode_0130
   network: ws
   port: 443
   server: 83.147.252.92
@@ -215,7 +177,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 14|SG_speednode_0131
+- name: 15|SG_speednode_0131
   network: ws
   port: 443
   server: 83.147.252.227
@@ -229,7 +191,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 14|SG_speednode_0132
+- name: 15|SG_speednode_0132
   network: ws
   port: 443
   server: 83.147.254.14
@@ -243,7 +205,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 14|SG_speednode_0133
+- name: 15|SG_speednode_0133
   network: ws
   port: 443
   server: 83.147.254.238
