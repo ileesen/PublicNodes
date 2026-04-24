@@ -4,7 +4,7 @@ proxies:
   fp: safari
   headerType: none
   mode: gun
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 9|🇩🇪 DE-1 | 8EB
   network: tcp
   pbk: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
   port: 443
@@ -24,10 +24,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 10|🇩🇪 DE-1 | Mix
   network: ws
-  port: 8443
-  server: 138.197.181.22
+  port: 2083
+  server: 46.101.160.244
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -43,10 +43,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 10|🇩🇪 DE-2 | Mix
   network: ws
-  port: 443
-  server: 209.38.213.144
+  port: 2053
+  server: 85.192.41.37
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -58,45 +58,7 @@ proxies:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 443
-  server: 172.104.250.194
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇩🇪 DE-4 | Mix
-  network: ws
-  port: 8443
-  server: 165.232.77.49
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- name: 15|DE_speednode_0058
+- name: 14|DE_speednode_0058
   network: ws
   port: 8443
   server: 193.23.219.205
@@ -110,7 +72,7 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: /?ed=2560
-- name: 15|DE_speednode_0059
+- name: 14|DE_speednode_0059
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -125,7 +87,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|DE_speednode_0060
+  name: 14|DE_speednode_0060
   port: 443
   reality-opts:
     public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
@@ -137,7 +99,7 @@ proxies:
   type: vless
   udp: true
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-- name: 15|DE_speednode_0061
+- name: 14|DE_speednode_0061
   network: ws
   port: 443
   server: 193.23.200.38
@@ -151,7 +113,7 @@ proxies:
     headers:
       Host: sni.111000.v6.rocks
     path: /?ed=2560
-- name: 15|DE_speednode_0062
+- name: 14|DE_speednode_0062
   network: ws
   port: 44406
   server: 194.107.126.20
@@ -165,7 +127,7 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: /?ed=2560
-- name: 15|DE_speednode_0063
+- name: 14|DE_speednode_0063
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -178,7 +140,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 15|DE_speednode_0064
+- name: 14|DE_speednode_0064
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -191,7 +153,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: 15|DE_speednode_0065
+- name: 14|DE_speednode_0065
   network: ws
   password: '!!str 1234567890'
   port: 443

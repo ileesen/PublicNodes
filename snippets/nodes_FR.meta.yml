@@ -1,7 +1,7 @@
 proxies:
 - insecure: '1'
   mport: 35000-39000
-  name: 10|🇫🇷 FR-1 | 8EB
+  name: 9|🇫🇷 FR-1 | 8EB
   password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
   port: 35000
   server: 129.151.251.122
@@ -12,3 +12,22 @@ proxies:
     insecure: true
     server_name: www.lamer.com.hk
   type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 10|🇫🇷 FR-1 | Mix
+  network: ws
+  port: 2053
+  server: 89.168.41.228
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
