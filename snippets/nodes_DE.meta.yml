@@ -1,25 +1,29 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  mode: gun
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
   name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  pbk: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-  port: 443
-  quicSecurity: none
-  reality-opts:
-    public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-    server-name: www.lamer.com
-    short-id: 66ed2fdd
-  security: reality
-  server: 130.162.220.137
-  sid: 66ed2fdd
-  sni: www.lamer.com
+  network: ws
+  path: /danfeng?ed=2560
+  port: 20205
+  security: tls
+  server: 185.58.159.206
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
   tls: true
   type: vless
-  uuid: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true

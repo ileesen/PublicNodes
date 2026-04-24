@@ -1,65 +1,279 @@
 proxies:
-- insecure: '1'
-  name: 10|🇺🇸 US-1 | 8EB
-  password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
-  port: 443
-  server: 134.195.101.199
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.apple.com
-  type: hysteria2
-- insecure: '1'
-  mport: 35000-39000
-  name: 10|🇺🇸 US-2 | 8EB
-  password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
-  port: 35000
-  server: 208.87.242.77
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.apple.com
-  type: hysteria2
-- insecure: '1'
-  mport: 35000-39000
-  name: 10|🇺🇸 US-3 | 8EB
-  password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
-  port: 35000
-  server: 129.153.25.59
-  skip-cert-verify: true
-  sni: www.lamer.com.hk
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.lamer.com.hk
-  type: hysteria2
-- client-fingerprint: chrome
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
-  headerType: none
-  host: us1-us1.aiopen.sbs
-  mode: gun
-  name: 10|🇺🇸 US-4 | 8EB
+  host: snippet.gfw.qzz.io
+  insecure: '0'
+  name: 10|🇺🇸 US-1 | 8EB
   network: ws
-  path: /kbjc/us1
-  port: 443
-  quicSecurity: none
+  path: /danfeng?ed=2560
+  port: 56213
   security: tls
-  server: 104.19.58.118
-  servername: us1-us1.aiopen.sbs
+  server: 154.17.22.103
+  servername: snippet.gfw.qzz.io
   skip-cert-verify: false
-  sni: us1-us1.aiopen.sbs
+  sni: snippet.gfw.qzz.io
   tls: true
   type: vless
-  uuid: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: us1-us1.aiopen.sbs
-    path: /kbjc/us1
+      Host: snippet.gfw.qzz.io
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 25564
+  security: tls
+  server: 69.63.202.30
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 65.49.220.67
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 7000
+  security: tls
+  server: 65.49.216.206
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 60111
+  security: tls
+  server: 69.63.197.137
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.gfw.qzz.io
+  insecure: '0'
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 1013
+  security: tls
+  server: 154.17.24.160
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  sni: snippet.gfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 587
+  security: tls
+  server: 198.23.184.46
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 1443
+  security: tls
+  server: 45.62.112.250
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.rr.kg
+  insecure: '0'
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 154.21.91.108
+  servername: snippet.danfeng.rr.kg
+  skip-cert-verify: false
+  sni: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.fgfw.loc.cc
+  insecure: '0'
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 443
+  security: tls
+  server: 136.118.231.54
+  servername: snippet.fgfw.loc.cc
+  skip-cert-verify: false
+  sni: snippet.fgfw.loc.cc
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.loc.cc
+    path: /danfeng?ed=2560
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  host: snippet.danfeng.com.cfd
+  insecure: '0'
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  path: /danfeng?ed=2560
+  port: 37948
+  security: tls
+  server: 154.17.24.40
+  servername: snippet.danfeng.com.cfd
+  skip-cert-verify: false
+  sni: snippet.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.com.cfd
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
