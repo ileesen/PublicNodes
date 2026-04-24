@@ -24,37 +24,14 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng?ed=2560
-- add: www.shopify.com
-  aid: '0'
-  alterId: 0
-  cipher: auto
-  host: de.gfw.hidns.co
-  id: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
-  insecure: '0'
-  name: 10|🇩🇪 DE-2 | 8EB
-  net: ws
-  network: ws
-  path: /danfeng?ed=2560
-  port: 80
-  ps: DE⚡TG@danfeng_chat
-  scy: auto
-  server: www.shopify.com
-  tls: false
-  type: vmess
-  uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
-  v: '2'
-  ws-opts:
-    headers:
-      Host: de.gfw.hidns.co
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2087
-  server: 164.92.187.73
+  port: 8443
+  server: 138.197.181.22
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -72,8 +49,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 8443
-  server: 178.17.48.240
+  port: 443
+  server: 209.38.213.144
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -92,7 +69,26 @@ proxies:
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
   port: 443
-  server: 209.38.221.2
+  server: 172.104.250.194
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 8443
+  server: 165.232.77.49
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
