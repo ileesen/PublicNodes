@@ -1,29 +1,61 @@
 proxies:
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.danfeng.rr.kg
-  insecure: '0'
+- insecure: '1'
+  mport: 35000-39000
   name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  path: /danfeng?ed=2560
-  port: 19193
-  security: tls
-  server: 154.3.33.158
-  servername: snippet.danfeng.rr.kg
-  skip-cert-verify: false
-  sni: snippet.danfeng.rr.kg
+  password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
+  port: 35000
+  server: 103.62.49.76
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.apple.com
+  type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  mode: gun
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  pbk: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
+  port: 443
+  quicSecurity: none
+  reality-opts:
+    public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
+    server-name: iosapps.itunes.apple.com
+    short-id: bb9ab0d5242d53e9
+  security: reality
+  server: kb.vmjp2.yydjc.top
+  sid: bb9ab0d5242d53e9
+  sni: iosapps.itunes.apple.com
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  headerType: none
+  host: jp1-jp1.aiopen.sbs
+  mode: gun
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  path: /kbjc/jp1
+  port: 443
+  quicSecurity: none
+  security: tls
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
+  skip-cert-verify: false
+  sni: jp1-jp1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
   ws-opts:
     headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng?ed=2560
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
 - client-fingerprint: chrome
   ech-opts:
     enable: true

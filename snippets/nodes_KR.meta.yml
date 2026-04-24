@@ -1,4 +1,25 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  mode: gun
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  pbk: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
+  port: 443
+  quicSecurity: none
+  reality-opts:
+    public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
+    server-name: www.lamer.com
+    short-id: d02456fe
+  security: reality
+  server: 193.122.120.203
+  sid: d02456fe
+  sni: www.lamer.com
+  tls: true
+  type: vless
+  uuid: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
 - client-fingerprint: chrome
   ech-opts:
     enable: true
