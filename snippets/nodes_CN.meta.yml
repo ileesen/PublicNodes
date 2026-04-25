@@ -1,12 +1,36 @@
 proxies:
 - client-fingerprint: chrome
+  metadata:
+    cleanName: TW 020 | ⬇️ 12MB/s
+    flag: 🇨🇳
+    multiplier: 1
+    originalName: TW 020 | ⬇️ 12MB/s
+    region: 台湾
+    tags: []
+  name: 10|🇨🇳 CN-1 | 8EB
+  network: ws
+  port: 6235
+  server: 125.227.219.98
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /xxxxhttp
+- client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 17009
-  server: 166.0.198.153
+  port: 443
+  server: 103.3.26.26
   servername: ynwta9.api-edge.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
