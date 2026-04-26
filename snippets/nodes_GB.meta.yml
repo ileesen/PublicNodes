@@ -143,8 +143,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 2087
-  server: 188.166.154.173
+  port: 2083
+  server: 134.209.186.163
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇬🇧 GB-2 | Mix
+  network: ws
+  port: 2053
+  server: 144.126.199.79
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
