@@ -7,7 +7,7 @@ proxies:
     originalName: TW 020 | ⬇️ 12MB/s
     region: 台湾
     tags: []
-  name: 9|🇨🇳 CN-1 | 8EB
+  name: 10|🇨🇳 CN-1 | 8EB
   network: ws
   port: 6235
   server: 125.227.219.98
@@ -27,11 +27,11 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇨🇳 CN-1 | Mix
+  name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 39738
-  server: 103.115.109.227
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  port: 443
+  server: 35.187.157.1
+  servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -40,5 +40,13 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
+      Host: mug.support.gfw.hidns.co
     path: /danfeng?ed=2560
+- name: 15|CN_speednode_0027
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 23445
+  server: t3cache.71edgeiqiyi.com
+  tls: true
+  type: http
+  udp: true
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
