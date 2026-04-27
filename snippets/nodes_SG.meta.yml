@@ -163,7 +163,7 @@ proxies:
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 172.104.183.120
+  server: 152.42.237.17
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -182,7 +182,7 @@ proxies:
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
-  server: 92.63.180.158
+  server: 168.144.35.68
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -200,8 +200,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
-  port: 9443
-  server: 141.98.199.222
+  port: 443
+  server: 140.245.58.23
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 443
+  server: 23.106.52.172
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

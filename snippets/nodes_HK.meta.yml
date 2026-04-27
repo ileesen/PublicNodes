@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 56731
-  server: 47.82.69.116
+  port: 44806
+  server: 156.226.170.40
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -25,7 +25,7 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 83.229.120.129
+  server: 43.161.234.94
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -43,8 +43,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 444
-  server: 206.237.0.3
+  port: 443
+  server: 207.57.128.3
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -62,8 +62,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-4 | Mix
   network: ws
-  port: 25106
-  server: 103.167.135.20
+  port: 2000
+  server: 183.87.132.82
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
+  port: 443
+  server: 89.251.11.24
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-6 | Mix
+  network: ws
+  port: 39738
+  server: 103.69.129.71
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
