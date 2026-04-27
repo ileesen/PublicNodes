@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 22219
-  server: 141.11.90.10
+  port: 443
+  server: 57.158.74.32
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -25,7 +25,7 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 138.124.111.115
+  server: 103.100.176.148
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -43,8 +43,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 443
-  server: 38.180.189.21
+  port: 49161
+  server: 47.242.193.94
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -63,7 +63,7 @@ proxies:
   name: 11|🇭🇰 HK-4 | Mix
   network: ws
   port: 443
-  server: 20.247.43.33
+  server: 154.3.35.138
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -81,8 +81,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-5 | Mix
   network: ws
-  port: 7443
-  server: 83.229.125.230
+  port: 443
+  server: 219.76.13.166
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -100,27 +100,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-6 | Mix
   network: ws
-  port: 39738
-  server: 103.167.134.29
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-7 | Mix
-  network: ws
-  port: 443
-  server: 23.91.96.14
+  port: 8443
+  server: 43.161.238.135
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -141,35 +122,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港2|@ripaojiedian
-  network: tcp
-  password: f792d9b5-c254-4756-a740-c314fa62f964
-  port: 32000
-  server: 0cfbd3c0-fdc0-4f26-82fb-5c8f8b6ce82b.bnsepserv.com
-  skip-cert-verify: false
-  sni: w1.ding-doc.com
-  type: trojan
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 52687
-  server: 43.199.33.45
+  server: 54.199.29.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 16.162.118.81
+  port: 50612
+  server: 95.40.57.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 43.198.80.162
+  port: 9211
+  server: 16.162.22.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
