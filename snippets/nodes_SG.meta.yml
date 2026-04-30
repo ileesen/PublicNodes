@@ -163,7 +163,7 @@ proxies:
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 188.253.118.145
+  server: 188.166.251.234
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -181,8 +181,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 443
-  server: 92.63.180.158
+  port: 10443
+  server: 158.178.236.213
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -200,8 +200,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
+  port: 32611
+  server: 43.248.9.169
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
   port: 443
-  server: 43.160.247.81
+  server: 23.111.15.142
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
