@@ -27,16 +27,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@B2vasl1
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: tgut4USqOM
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
-  tls: false
-  type: hysteria2
 - metadata:
     cleanName: 韩国1
     flag: 🇰🇷
@@ -1299,8 +1289,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 443
-  server: 154.16.183.190
+  port: 33554
+  server: 43.248.9.87
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1318,8 +1308,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 16234
-  server: 103.102.6.128
+  port: 8004
+  server: 54.46.72.234
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1337,8 +1327,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 31767
-  server: 43.255.159.137
+  port: 22554
+  server: 43.255.159.240
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 443
+  server: 160.22.17.48
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1356,8 +1365,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 139.162.91.143
+  port: 20205
+  server: 172.105.209.25
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1375,8 +1384,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 28017
-  server: 211.228.69.243
+  port: 15000
+  server: 183.97.233.185
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1394,8 +1403,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 12300
-  server: 220.80.68.52
+  port: 27016
+  server: 222.106.183.207
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1413,8 +1422,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 10250
-  server: 220.95.25.188
+  port: 16010
+  server: 39.114.198.93
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1432,8 +1441,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 12203
-  server: 211.54.60.142
+  port: 19530
+  server: 222.116.195.135
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1451,8 +1460,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 32771
-  server: 221.168.164.179
+  port: 18790
+  server: 1.254.8.60
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1470,8 +1479,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 18264
-  server: 118.103.215.15
+  port: 587
+  server: 131.186.24.124
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1489,46 +1498,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-7 | Mix
   network: ws
-  port: 19530
-  server: 123.143.45.67
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-8 | Mix
-  network: ws
-  port: 14265
-  server: 220.125.207.242
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-9 | Mix
-  network: ws
-  port: 18789
-  server: 175.212.82.132
+  port: 26467
+  server: 119.199.144.167
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1546,8 +1517,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 22675
-  server: 103.214.172.14
+  port: 10443
+  server: 103.26.8.49
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1565,8 +1536,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 28652
-  server: 43.248.9.87
+  port: 32555
+  server: 43.248.9.130
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1584,8 +1555,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
-  port: 443
-  server: 64.120.94.225
+  port: 33161
+  server: 43.255.159.137
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1603,8 +1574,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-5 | Mix
   network: ws
-  port: 443
-  server: 43.159.12.219
+  port: 9443
+  server: 96.9.211.251
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1622,8 +1593,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-6 | Mix
   network: ws
-  port: 443
-  server: 45.76.153.73
+  port: 39738
+  server: 38.180.106.22
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-7 | Mix
+  network: ws
+  port: 48397
+  server: 138.2.71.48
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1641,8 +1631,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 8818
-  server: 60.249.21.50
+  port: 20002
+  server: 123.205.124.131
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1660,8 +1650,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-2 | Mix
   network: ws
-  port: 8443
-  server: 140.235.39.161
+  port: 443
+  server: 60.249.21.30
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1679,8 +1669,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 25844
-  server: 43.248.9.169
+  port: 10443
+  server: 103.152.113.60
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1698,8 +1688,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 443
-  server: 147.182.245.246
+  port: 4433
+  server: 45.76.68.224
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1718,7 +1708,7 @@ proxies:
   name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 93.179.97.50
+  server: 64.186.251.110
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1737,7 +1727,7 @@ proxies:
   name: 11|🇺🇸 US-13 | Mix
   network: ws
   port: 443
-  server: 154.21.95.59
+  server: 205.196.83.138
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1755,8 +1745,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 20202
-  server: 167.71.117.132
+  port: 39738
+  server: 38.76.149.57
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1775,7 +1765,7 @@ proxies:
   name: 11|🇺🇸 US-15 | Mix
   network: ws
   port: 443
-  server: 131.143.251.121
+  server: 44.228.111.245
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1793,8 +1783,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 39738
-  server: 38.175.219.247
+  port: 443
+  server: 104.223.38.48
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1812,8 +1802,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 443
-  server: 65.75.220.22
+  port: 9443
+  server: 64.186.232.110
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1831,8 +1821,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 443
-  server: 159.223.195.125
+  port: 11310
+  server: 154.7.179.87
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1851,7 +1841,45 @@ proxies:
   name: 11|🇺🇸 US-19 | Mix
   network: ws
   port: 443
-  server: 69.63.217.202
+  server: 162.243.143.110
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇦 CA-1 | Mix
+  network: ws
+  port: 88
+  server: 72.11.148.176
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇦 CA-2 | Mix
+  network: ws
+  port: 443
+  server: 3.16.109.235
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1869,8 +1897,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 39738
-  server: 161.35.197.197
+  port: 443
+  server: 134.209.241.224
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1888,8 +1916,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 9443
-  server: 5.187.0.79
+  port: 7443
+  server: 147.90.44.66
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1907,8 +1935,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇹🇬 TG-1 | Mix
   network: ws
-  port: 443
-  server: 165.22.176.55
+  port: 587
+  server: 45.89.104.177
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1924,48 +1952,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 2087
-  server: 138.68.131.141
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-2 | Mix
+  name: 11|🇹🇬 TG-2 | Mix
   network: ws
   port: 443
-  server: 159.65.88.131
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇮🇹 IT-1 | Mix
-  network: ws
-  port: 9443
-  server: 176.126.83.123
+  server: 209.135.168.41
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -1984,7 +1974,7 @@ proxies:
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
   port: 8443
-  server: 146.185.191.224
+  server: 95.85.63.250
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -2002,8 +1992,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
-  port: 2053
-  server: 166.1.22.116
+  port: 8443
+  server: 146.190.30.107
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -2019,29 +2009,29 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇳🇱 NL-3 | Mix
+  name: 11|🇹🇬 TG-3 | Mix
+  network: ws
+  port: 2083
+  server: 82.26.198.74
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇹🇬 TG-4 | Mix
   network: ws
   port: 443
-  server: 31.15.16.151
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇳🇱 NL-4 | Mix
-  network: ws
-  port: 83
-  server: 199.247.30.15
+  server: 91.192.102.153
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
