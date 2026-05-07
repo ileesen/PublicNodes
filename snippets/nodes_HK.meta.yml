@@ -5,9 +5,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 8888
-  server: 45.207.157.59
-  servername: ggj.core-node-01.gfw.hidns.co
+  port: 33665
+  server: 43.248.9.252
+  servername: d8euiih.monitor.sh21.eu.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -16,7 +16,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: ggj.core-node-01.gfw.hidns.co
+      Host: d8euiih.monitor.sh21.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
   ech-opts:
@@ -24,9 +24,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 23830
-  server: 156.226.173.62
-  servername: ggj.core-node-01.gfw.hidns.co
+  port: 16339
+  server: 85.137.247.119
+  servername: d8euiih.monitor.sh21.eu.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -35,7 +35,45 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: ggj.core-node-01.gfw.hidns.co
+      Host: d8euiih.monitor.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 30001
+  server: 114.204.41.241
+  servername: d8euiih.monitor.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: d8euiih.monitor.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 33554
+  server: 103.214.172.252
+  servername: d8euiih.monitor.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: d8euiih.monitor.sh21.eu.org
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
@@ -50,24 +88,23 @@ proxies:
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 53018
-  server: 18.162.168.19
+  server: 54.46.50.228
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14,15|HK_speednode_0011
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
+  port: 13693
+  server: 18.181.180.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 63131
-  server: 13.231.158.129
+  port: 13963
+  server: 18.181.180.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -81,3 +118,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 15|HK_speednode_0011
+  password: BxceQaOe
+  port: 11233
+  server: bb.bejkn.cn
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
