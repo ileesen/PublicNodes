@@ -159,6 +159,44 @@ proxies:
   type: vless
   udp: true
   uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-1 | Mix
+  network: ws
+  port: 8443
+  server: 157.230.101.36
+  servername: pimelef.cdn-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pimelef.cdn-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 36596
+  server: 23.165.200.208
+  servername: pimelef.cdn-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pimelef.cdn-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
 - name: 15|DE_speednode_0004
   network: ws
   port: 8443
