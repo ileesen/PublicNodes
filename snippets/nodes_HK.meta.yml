@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 25366
-  server: 43.248.9.252
+  port: 22554
+  server: 43.255.159.151
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -25,7 +25,7 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 106.13.252.134
+  server: 103.20.223.218
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -43,8 +43,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 443
-  server: 85.121.51.161
+  port: 22219
+  server: 141.11.90.10
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 25366
+  server: 43.248.9.87
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
