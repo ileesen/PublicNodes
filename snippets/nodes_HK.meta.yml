@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 10250
-  server: 218.55.175.15
+  port: 443
+  server: 207.57.128.9
   servername: yn80.api-backend.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
@@ -25,7 +25,26 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 42.98.140.38
+  server: 47.76.218.163
+  servername: yn80.api-backend.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: yn80.api-backend.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 10912
+  server: 58.225.50.84
   servername: yn80.api-backend.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
