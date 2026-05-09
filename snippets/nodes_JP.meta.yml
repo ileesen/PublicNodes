@@ -120,8 +120,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 50005
-  server: 185.184.223.73
+  port: 8889
+  server: 64.110.104.244
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -139,8 +139,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 8444
-  server: 69.63.222.18
+  port: 60000
+  server: 119.29.18.111
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -158,8 +158,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
+  port: 20965
+  server: 45.155.220.217
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
   port: 443
-  server: 152.69.197.207
+  server: 168.138.46.67
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 8444
+  server: 69.63.222.18
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
