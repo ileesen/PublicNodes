@@ -520,8 +520,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 39738
-  server: 38.22.238.161
+  port: 443
+  server: 104.194.77.210
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -540,7 +540,7 @@ proxies:
   name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 2087
-  server: 206.189.214.99
+  server: 154.218.15.95
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -558,8 +558,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 443
-  server: 166.117.140.55
+  port: 10243
+  server: 59.10.176.213
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -578,7 +578,7 @@ proxies:
   name: 11|🇺🇸 US-14 | Mix
   network: ws
   port: 443
-  server: 64.186.234.243
+  server: 198.199.115.61
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -596,8 +596,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.117
+  port: 443
+  server: 79.110.54.226
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -615,8 +615,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 443
-  server: 76.223.33.155
+  port: 39738
+  server: 38.244.5.6
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -634,8 +634,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 2087
-  server: 23.95.215.205
+  port: 443
+  server: 45.77.127.229
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -653,8 +653,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 443
-  server: 150.230.35.200
+  port: 50360
+  server: 45.146.82.216
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -672,8 +672,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 20205
-  server: 23.239.3.247
+  port: 443
+  server: 64.186.246.65
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -691,8 +691,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-20 | Mix
   network: ws
-  port: 25448
-  server: 142.171.230.12
+  port: 20202
+  server: 167.71.117.132
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -748,46 +748,293 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|US_speednode_0021
-  password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0022
-  port: 443
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  skip-cert-verify: true
-  tls: true
+- client-fingerprint: randomized
+  name: 15|US_speednode_0050
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
-- flow: xtls-rprx-vision-udp443-udp443
-  name: 15|US_speednode_0024
-  port: 443
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0051
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0052
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- name: 15|US_speednode_0053
+  network: ws
+  port: 37811
+  server: 154.17.237.73
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: randomized
+  name: 15|US_speednode_0054
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0056
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0057
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0025
+  name: 15|US_speednode_0058
+  port: 22231
+  server: 72.56.62.253
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: randomized
+  name: 15|US_speednode_0059
+  network: ws
+  port: 2095
+  server: www.whatismyip.net
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0060
   port: 443
   reality-opts:
     public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
     short-id: 0123456789abcdef
-  server: 144.31.4.166
+  server: 144.31.157.163
   servername: www.deepl.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
+  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
+- client-fingerprint: randomized
+  name: 15|US_speednode_0061
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0062
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0063
+  network: ws
+  port: 2095
+  server: www.wto.org
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0064
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0065
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: 2344766a270a6298
+  server: 144.31.5.23
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- client-fingerprint: randomized
+  name: 15|US_speednode_0066
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- name: 15|US_speednode_0067
+  network: ws
+  port: 2053
+  server: 144.31.237.162
+  servername: sni.111000.v6.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0068
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
+    path: /
+- name: 15|US_speednode_0069
+  network: ws
+  port: 2053
+  server: 144.31.237.162
+  servername: sni.111000.v6.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /
+- name: 15|US_speednode_0070
+  network: ws
+  port: 8443
+  server: 130.49.176.227
+  servername: sni.111000.v6.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /

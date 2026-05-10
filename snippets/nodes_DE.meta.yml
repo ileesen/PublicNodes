@@ -165,8 +165,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 2053
-  server: 135.125.133.217
+  port: 443
+  server: 161.35.200.194
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -184,8 +184,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 443
-  server: 194.5.192.212
+  port: 433
+  server: 143.20.41.181
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -203,8 +203,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 8443
-  server: 172.86.68.95
+  port: 3001
+  server: 144.31.77.94
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -216,21 +216,26 @@ proxies:
     headers:
       Host: psp09.data.chinav.eu.org
     path: /danfeng?ed=2560
-- name: 15|DE_speednode_0004
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-4 | Mix
   network: ws
-  port: 8443
-  server: 193.23.219.205
-  servername: sni.latonyamadeline.ndjp.net
+  port: 443
+  server: 85.192.61.175
+  servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: 15|DE_speednode_0005
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- name: 15|DE_speednode_0006
   network: ws
   port: 443
   server: 217.144.190.230
@@ -244,3 +249,45 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: /?ed=2560
+- name: 15|DE_speednode_0007
+  network: ws
+  port: 443
+  server: 31.56.7.90
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /
+- name: 15|DE_speednode_0008
+  network: ws
+  port: 4443
+  server: 89.169.55.120
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+    path: /@Marisa_kristi
+- name: 15|DE_speednode_0009
+  network: ws
+  port: 8443
+  server: 193.23.219.205
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /
