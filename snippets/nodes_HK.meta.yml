@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 32487
-  server: 43.255.159.151
+  port: 1806
+  server: 103.117.101.158
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -24,8 +24,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 1835
-  server: 103.117.101.158
+  port: 39738
+  server: 47.239.250.128
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 30005
+  server: 43.161.237.11
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 30001
+  server: 114.204.41.241
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -50,15 +88,23 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 53018
-  server: 16.162.191.171
+  server: 54.46.109.238
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 5823
+  server: 16.163.127.160
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 13.158.22.253
+  port: 5823
+  server: 16.163.127.16
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

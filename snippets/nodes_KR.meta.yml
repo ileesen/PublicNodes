@@ -97,8 +97,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 34237
-  server: 146.56.110.135
+  port: 20002
+  server: 61.96.248.252
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -116,8 +116,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 29015
-  server: 59.21.203.65
+  port: 10030
+  server: 121.167.94.122
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -135,8 +135,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 10909
-  server: 59.9.105.122
+  port: 40001
+  server: 152.67.203.175
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -154,8 +154,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 2053
-  server: 43.99.20.19
+  port: 26257
+  server: 61.253.152.77
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -173,8 +173,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 10333
-  server: 121.175.216.100
+  port: 11434
+  server: 175.212.147.217
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
@@ -192,8 +192,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 10255
-  server: 121.179.246.27
+  port: 3080
+  server: 193.123.251.179
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-7 | Mix
+  network: ws
+  port: 12203
+  server: 183.104.92.31
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇰🇷 KR-8 | Mix
+  network: ws
+  port: 18001
+  server: 175.199.61.92
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
