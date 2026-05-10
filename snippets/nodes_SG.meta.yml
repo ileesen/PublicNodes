@@ -143,8 +143,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 18291
-  server: 168.138.184.104
+  port: 443
+  server: 140.245.59.245
   servername: igvdi.edge-node-sg.fgfw.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -162,8 +162,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 37166
-  server: 43.248.9.130
+  port: 9443
+  server: 185.36.192.177
   servername: igvdi.edge-node-sg.fgfw.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -181,8 +181,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 62078
-  server: 111.3.72.172
+  port: 8443
+  server: 103.26.8.34
+  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: igvdi.edge-node-sg.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 9443
+  server: 103.195.188.194
+  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: igvdi.edge-node-sg.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 443
+  server: 139.59.115.7
   servername: igvdi.edge-node-sg.fgfw.indevs.in
   skip-cert-verify: false
   tfo: false
