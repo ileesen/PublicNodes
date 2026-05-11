@@ -1,12 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  metadata:
-    cleanName: TW 020 | ⬇️ 12MB/s
-    flag: 🇨🇳
-    multiplier: 1
-    originalName: TW 020 | ⬇️ 12MB/s
-    region: 台湾
-    tags: []
   name: 10|🇨🇳 CN-1 | 8EB
   network: ws
   port: 6235
@@ -29,28 +22,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 25996
-  server: 43.248.9.130
-  servername: igvdi.edge-node-sg.fgfw.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: igvdi.edge-node-sg.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇨🇳 CN-2 | Mix
-  network: ws
   port: 443
-  server: 60.249.21.29
-  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  server: 35.194.248.70
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -59,5 +33,5 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: igvdi.edge-node-sg.fgfw.indevs.in
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
     path: /danfeng?ed=2560
