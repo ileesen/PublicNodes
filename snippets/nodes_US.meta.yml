@@ -196,7 +196,7 @@ proxies:
   name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 8443
-  server: cf1.danfeng.eu.org
+  server: cf.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -215,7 +215,7 @@ proxies:
   name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 8443
-  server: cf4.danfeng.eu.org
+  server: cf1.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -234,7 +234,7 @@ proxies:
   name: 11|🇺🇸 US-3 | Mix
   network: ws
   port: 8443
-  server: cf5.danfeng.eu.org
+  server: cf2.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -253,7 +253,7 @@ proxies:
   name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 8443
-  server: cf8.danfeng.eu.org
+  server: cf3.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -272,7 +272,7 @@ proxies:
   name: 11|🇺🇸 US-5 | Mix
   network: ws
   port: 8443
-  server: cf9.danfeng.eu.org
+  server: cf4.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -290,8 +290,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-6 | Mix
   network: ws
-  port: 2053
-  server: 45.156.24.228
+  port: 8443
+  server: cf5.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -309,8 +309,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-7 | Mix
   network: ws
-  port: 39738
-  server: 38.244.5.110
+  port: 8443
+  server: cf6.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -328,8 +328,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-8 | Mix
   network: ws
-  port: 443
-  server: 64.186.244.35
+  port: 8443
+  server: cf7.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -347,8 +347,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-9 | Mix
   network: ws
-  port: 443
-  server: 23.142.200.18
+  port: 8443
+  server: cf8.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -366,8 +366,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-10 | Mix
   network: ws
-  port: 9443
-  server: 193.233.130.13
+  port: 8443
+  server: cf9.danfeng.eu.org
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -386,7 +386,7 @@ proxies:
   name: 11|🇺🇸 US-11 | Mix
   network: ws
   port: 443
-  server: 107.151.188.119
+  server: 165.1.79.166
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -404,8 +404,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 443
-  server: 154.17.13.158
+  port: 10001
+  server: 168.143.225.165
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -423,8 +423,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 20000
-  server: 129.153.203.157
+  port: 39738
+  server: 38.244.5.228
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -443,7 +443,7 @@ proxies:
   name: 11|🇺🇸 US-14 | Mix
   network: ws
   port: 443
-  server: 64.186.227.27
+  server: 23.165.248.133
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -461,8 +461,103 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
+  port: 39738
+  server: 192.9.156.27
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇺🇸 US-16 | Mix
+  network: ws
   port: 8443
-  server: 85.192.42.73
+  server: 152.70.123.225
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇺🇸 US-17 | Mix
+  network: ws
+  port: 8443
+  server: 107.172.27.185
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇺🇸 US-18 | Mix
+  network: ws
+  port: 443
+  server: 8.221.126.227
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇺🇸 US-19 | Mix
+  network: ws
+  port: 443
+  server: 207.246.73.66
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇺🇸 US-20 | Mix
+  network: ws
+  port: 587
+  server: 107.174.244.46
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
