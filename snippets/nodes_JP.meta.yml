@@ -85,8 +85,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 166.88.97.209
+  port: 10443
+  server: 110.54.62.19
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -104,8 +104,65 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 39738
-  server: 45.251.241.43
+  port: 17628
+  server: 43.165.133.183
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 443
+  server: 138.2.30.150
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 16000
+  server: 115.124.180.70
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 26412
+  server: 138.2.48.109
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
