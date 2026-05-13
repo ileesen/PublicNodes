@@ -22,8 +22,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 8112
-  server: 60.249.21.50
+  port: 8443
+  server: 39.108.133.242
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-2 | Mix
+  network: ws
+  port: 25996
+  server: 43.248.9.169
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-3 | Mix
+  network: ws
+  port: 2087
+  server: 220.135.92.105
   servername: shkiau5c.api-node-a1.chinam.indevs.in
   skip-cert-verify: false
   tfo: false
