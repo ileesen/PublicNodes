@@ -101,9 +101,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 8443
-  server: 161.118.206.103
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  port: 443
+  server: 62.146.232.232
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -112,7 +112,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
   ech-opts:
@@ -121,8 +121,8 @@ proxies:
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 168.144.46.234
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  server: 188.253.118.145
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -131,29 +131,86 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 32611
+  server: 103.214.172.14
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 10443
+  server: 194.233.67.84
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 8444
+  server: 97.74.90.185
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
     path: /danfeng?ed=2560
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 4840
-  server: 18.167.12.175
+  port: 1180
+  server: 54.248.28.2
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 4840
-  server: 52.195.174.119
+  port: 2511
+  server: 18.167.12.44
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7337
-  server: 16.163.146.66
+  port: 33763
+  server: 54.46.30.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

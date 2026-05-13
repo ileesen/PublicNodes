@@ -85,9 +85,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 20000
-  server: 31.57.172.199
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  port: 42394
+  server: 62.106.70.197
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -96,7 +96,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
   ech-opts:
@@ -104,9 +104,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 443
-  server: 103.238.129.35
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  port: 30005
+  server: 38.246.248.95
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -115,29 +115,48 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 443
+  server: 205.209.9.25
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
     path: /danfeng?ed=2560
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 116.80.61.236
+  port: 4633
+  server: 54.65.160.192
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 18.167.12.175
+  port: 24184
+  server: 35.75.5.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 8066
-  server: 95.40.11.168
+  port: 11541
+  server: 95.40.68.153
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
