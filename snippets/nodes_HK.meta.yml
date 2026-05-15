@@ -6,8 +6,8 @@ proxies:
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 23.249.18.189
-  servername: g4y4886.mail-relay.chinam.indevs.in
+  server: 154.83.87.83
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -16,7 +16,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: g4y4886.mail-relay.chinam.indevs.in
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
   ech-opts:
@@ -24,9 +24,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 10100
-  server: 103.224.172.99
-  servername: g4y4886.mail-relay.chinam.indevs.in
+  port: 443
+  server: 166.88.141.189
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -35,7 +35,26 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: g4y4886.mail-relay.chinam.indevs.in
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 8080
+  server: 141.11.91.67
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
@@ -50,7 +69,7 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 53018
-  server: 54.238.212.30
+  server: 35.74.68.72
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -58,7 +77,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 5823
-  server: 18.183.247.220
+  server: 18.181.229.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
