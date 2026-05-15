@@ -102,7 +102,7 @@ proxies:
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 443
-  server: 152.42.169.236
+  server: 152.42.247.235
   servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
@@ -120,8 +120,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 39738
-  server: 47.245.110.25
+  port: 8443
+  server: 139.180.143.248
   servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
@@ -139,8 +139,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 443
-  server: 92.63.180.158
+  port: 8443
+  server: 45.77.255.153
   servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
@@ -158,8 +158,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
+  port: 443
+  server: 146.190.102.51
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
   port: 8443
   server: 62.72.44.6
+  servername: wybfkrp6.gateway-edge.danfeng.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: wybfkrp6.gateway-edge.danfeng.cyou
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 443
+  server: 178.128.90.108
   servername: wybfkrp6.gateway-edge.danfeng.cyou
   skip-cert-verify: false
   tfo: false
