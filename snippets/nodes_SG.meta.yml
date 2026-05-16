@@ -1,4 +1,36 @@
 proxies:
+- name: 8|SG_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.250.58.52
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 8|🇸🇬SG_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 18.143.102.14
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 8|🇬SG_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.128.219.180
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '8|🇸🇬SG_@WangCai_8 #1'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.169.215.241
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 10|🇸🇬 SG-1 | 8EB
   network: ws
@@ -101,8 +133,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 18246
-  server: 13.229.181.115
+  port: 33161
+  server: 103.214.172.252
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -120,8 +152,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 443
-  server: 5.34.176.71
+  port: 8443
+  server: 116.251.216.23
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -139,8 +171,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 443
-  server: 168.144.47.94
+  port: 8443
+  server: 5.223.56.239
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -158,8 +190,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
-  port: 8443
-  server: 45.76.150.232
+  port: 443
+  server: 174.138.24.153
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 443
+  server: 152.42.230.118
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
