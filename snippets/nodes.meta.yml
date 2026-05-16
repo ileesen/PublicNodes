@@ -31,22 +31,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 8|SG_@WangCai_8
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.250.58.52
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 8|🇬SG_@WangCai_8
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.143.102.14
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: '8|🇯🇵JP_@WangCai_8 #4'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -71,26 +55,10 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '8|🇳IN_@WangCai_8 #2'
+- name: 8|🇮🇳IN_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 43.205.254.42
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '8|🇬SG_@WangCai_8 #1'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.128.219.180
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 8|🇸🇬SG_@WangCai_8
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.169.215.241
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -937,8 +905,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
-  port: 8443
-  server: 74.119.193.244
+  port: 443
+  server: 74.119.193.221
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -957,7 +925,7 @@ proxies:
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 68.64.182.39
+  server: 68.64.182.212
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -976,7 +944,7 @@ proxies:
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
-  server: 176.98.181.90
+  server: 103.103.245.243
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -994,8 +962,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 443
-  server: 64.176.56.68
+  port: 51982
+  server: 142.248.139.237
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1013,8 +981,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 50443
+  server: 155.248.177.246
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
   port: 443
-  server: 103.238.129.35
+  server: 139.162.91.143
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1032,8 +1038,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 29090
-  server: 222.96.225.202
+  port: 25010
+  server: 180.64.51.47
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1051,8 +1057,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 17249
-  server: 125.138.18.69
+  port: 11211
+  server: 121.254.31.57
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1070,8 +1076,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 11310
-  server: 58.231.121.107
+  port: 34720
+  server: 59.6.202.192
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1089,8 +1095,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 12000
-  server: 59.23.18.175
+  port: 22335
+  server: 210.178.81.61
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1108,8 +1114,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 11371
-  server: 221.168.105.228
+  port: 14098
+  server: 112.170.186.165
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1127,8 +1133,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 23791
-  server: 218.144.217.243
+  port: 30005
+  server: 183.104.118.33
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1146,46 +1152,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇰🇷 KR-7 | Mix
   network: ws
-  port: 18246
-  server: 59.20.251.99
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-8 | Mix
-  network: ws
-  port: 20005
-  server: 183.104.118.33
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇰🇷 KR-9 | Mix
-  network: ws
-  port: 11211
-  server: 106.244.196.196
+  port: 28017
+  server: 218.157.158.21
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1203,8 +1171,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 33161
-  server: 103.214.172.252
+  port: 1443
+  server: 64.176.81.163
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1222,8 +1190,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 8443
-  server: 116.251.216.23
+  port: 4438
+  server: 89.28.239.164
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1241,46 +1209,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇸🇬 SG-3 | Mix
   network: ws
-  port: 8443
-  server: 5.223.56.239
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-4 | Mix
-  network: ws
   port: 443
-  server: 174.138.24.153
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-5 | Mix
-  network: ws
-  port: 443
-  server: 152.42.230.118
+  server: 188.239.9.91
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1298,8 +1228,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-2 | Mix
   network: ws
-  port: 443
-  server: 154.40.60.126
+  port: 18081
+  server: 60.248.139.106
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-3 | Mix
+  network: ws
+  port: 444
+  server: 180.214.180.226
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1317,8 +1266,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 2053
-  server: 142.248.219.16
+  port: 443
+  server: 45.202.113.229
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1337,7 +1286,7 @@ proxies:
   name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 45.202.113.234
+  server: 199.19.111.78
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1355,8 +1304,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 11310
-  server: 154.7.179.87
+  port: 8443
+  server: 45.202.113.244
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1374,8 +1323,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 2053
-  server: 142.248.218.193
+  port: 55480
+  server: 154.21.91.42
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1393,8 +1342,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 587
-  server: 104.194.65.160
+  port: 81
+  server: 185.186.245.22
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1412,8 +1361,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 2053
-  server: 142.248.219.185
+  port: 443
+  server: 45.202.113.184
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1431,8 +1380,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 443
-  server: 129.213.148.107
+  port: 39738
+  server: 38.244.5.197
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1451,7 +1400,7 @@ proxies:
   name: 11|🇺🇸 US-18 | Mix
   network: ws
   port: 443
-  server: 104.194.77.210
+  server: 69.63.218.206
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1469,8 +1418,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 8443
-  server: 167.71.118.179
+  port: 443
+  server: 69.63.194.155
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1489,7 +1438,7 @@ proxies:
   name: 11|🇺🇸 US-20 | Mix
   network: ws
   port: 443
-  server: 138.124.123.75
+  server: 104.168.89.15
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1508,7 +1457,7 @@ proxies:
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
   port: 443
-  server: 89.40.117.143
+  server: 45.134.217.55
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1526,8 +1475,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 27015
-  server: 185.58.159.92
+  port: 443
+  server: 167.71.58.185
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1543,10 +1492,29 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 11|🇹🇬 TG-1 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 587
-  server: 136.0.10.98
+  port: 443
+  server: 77.239.98.122
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 8443
+  server: 178.128.192.26
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1564,8 +1532,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇫🇮 FI-1 | Mix
   network: ws
-  port: 8443
-  server: 77.221.159.207
+  port: 443
+  server: 194.48.143.25
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1583,8 +1551,27 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇫🇷 FR-1 | Mix
   network: ws
+  port: 8443
+  server: 31.57.109.126
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇫🇷 FR-2 | Mix
+  network: ws
   port: 443
-  server: 20.33.23.66
+  server: 51.91.254.97
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1602,8 +1589,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 2087
-  server: 174.138.0.207
+  port: 20202
+  server: 188.166.99.183
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1622,45 +1609,7 @@ proxies:
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
   port: 443
-  server: 77.105.142.249
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇳🇱 NL-3 | Mix
-  network: ws
-  port: 443
-  server: 95.81.95.55
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇳🇱 NL-4 | Mix
-  network: ws
-  port: 443
-  server: 185.121.13.27
+  server: 167.71.75.9
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -1679,7 +1628,7 @@ proxies:
   name: 11|🇸🇪 SE-1 | Mix
   network: ws
   port: 443
-  server: 172.160.242.62
+  server: 46.226.160.89
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false
