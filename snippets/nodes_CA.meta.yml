@@ -1,5 +1,23 @@
 proxies:
 - client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇨🇦 CA-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 68.183.207.130
+  servername: urg0.edge-node-us.danfeng.bond
+  skip-cert-verify: false
+  sni: urg0.edge-node-us.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: urg0.edge-node-us.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|CA_speednode_0005
   port: 51072

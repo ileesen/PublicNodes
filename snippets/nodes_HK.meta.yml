@@ -4,9 +4,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 2053
+  port: 30005
   security: tls
-  server: 47.239.4.246
+  server: 82.158.224.75
   servername: urg0.edge-node-us.danfeng.bond
   skip-cert-verify: false
   sni: urg0.edge-node-us.danfeng.bond
@@ -22,9 +22,63 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 9443
+  port: 443
   security: tls
-  server: 38.175.197.163
+  server: 45.39.190.199
+  servername: urg0.edge-node-us.danfeng.bond
+  skip-cert-verify: false
+  sni: urg0.edge-node-us.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: urg0.edge-node-us.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 58.152.156.158
+  servername: urg0.edge-node-us.danfeng.bond
+  skip-cert-verify: false
+  sni: urg0.edge-node-us.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: urg0.edge-node-us.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 162.141.117.122
+  servername: urg0.edge-node-us.danfeng.bond
+  skip-cert-verify: false
+  sni: urg0.edge-node-us.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: urg0.edge-node-us.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 159.138.138.87
   servername: urg0.edge-node-us.danfeng.bond
   skip-cert-verify: false
   sni: urg0.edge-node-us.danfeng.bond
