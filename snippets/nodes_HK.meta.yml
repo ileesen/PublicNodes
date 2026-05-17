@@ -1,41 +1,21 @@
 proxies:
 - client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
+  encryption: none
+  fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 68.64.182.212
-  servername: klng2.stream-cdn.sh21.eu.org
+  security: tls
+  server: 23.141.52.169
+  servername: urg0.edge-node-us.danfeng.bond
   skip-cert-verify: false
-  tfo: false
+  sni: urg0.edge-node-us.danfeng.bond
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇭🇰 HK-2 | Mix
-  network: ws
-  port: 443
-  server: 103.103.245.243
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
+      Host: urg0.edge-node-us.danfeng.bond
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto
@@ -49,10 +29,18 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 53018
-  server: 35.72.163.56
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.22.74
+  skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4327
+  server: 18.183.160.17
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
