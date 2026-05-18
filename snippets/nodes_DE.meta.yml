@@ -96,7 +96,7 @@ proxies:
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
   port: 443
-  server: 80.253.251.30
+  server: 164.90.185.52
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -115,7 +115,26 @@ proxies:
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2053
-  server: 38.180.194.222
+  server: 46.101.156.111
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇩🇪 DE-3 | Mix
+  network: ws
+  port: 443
+  server: 46.101.248.71
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false

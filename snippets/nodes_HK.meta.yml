@@ -4,7 +4,7 @@ proxies:
   port: 443
   server: 202.146.222.30
   skip-cert-verify: true
-  sni: https://t.me/WangCai2
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -14,7 +14,7 @@ proxies:
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  server: 104.253.175.136
+  server: 114.29.236.74
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -32,8 +32,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 57537
-  server: 221.125.10.8
+  port: 40001
+  server: 223.18.121.94
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 30011
+  server: 202.81.229.40
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 443
+  server: 59.148.124.199
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
