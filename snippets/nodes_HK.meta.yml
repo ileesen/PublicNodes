@@ -1,75 +1,41 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
   port: 443
-  security: tls
-  server: 38.207.165.110
-  servername: urg0.edge-node-us.danfeng.bond
+  server: 18.162.194.163
+  servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
-  sni: urg0.edge-node-us.danfeng.bond
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: urg0.edge-node-us.danfeng.bond
+      Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 8001
-  security: tls
-  server: 47.242.145.136
-  servername: urg0.edge-node-us.danfeng.bond
-  skip-cert-verify: false
-  sni: urg0.edge-node-us.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: urg0.edge-node-us.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-3 | Mix
-  network: ws
-  port: 10443
-  security: tls
-  server: 39.108.179.158
-  servername: urg0.edge-node-us.danfeng.bond
-  skip-cert-verify: false
-  sni: urg0.edge-node-us.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: urg0.edge-node-us.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-4 | Mix
-  network: ws
   port: 443
-  security: tls
-  server: 154.12.189.134
-  servername: urg0.edge-node-us.danfeng.bond
+  server: 154.12.176.203
+  servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
-  sni: urg0.edge-node-us.danfeng.bond
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: urg0.edge-node-us.danfeng.bond
+      Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
 - alterId: 2
   cipher: auto

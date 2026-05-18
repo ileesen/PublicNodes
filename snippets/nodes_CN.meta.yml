@@ -1,19 +1,39 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 11|🇨🇳 CN-1 | Mix
   network: ws
   port: 8443
-  security: tls
   server: 74.119.193.244
-  servername: urg0.edge-node-us.danfeng.bond
+  servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
-  sni: urg0.edge-node-us.danfeng.bond
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: urg0.edge-node-us.danfeng.bond
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇨🇳 CN-2 | Mix
+  network: ws
+  port: 8080
+  server: 82.152.90.213
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
