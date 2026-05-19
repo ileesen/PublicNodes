@@ -96,8 +96,8 @@ proxies:
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 154.12.191.129
-  servername: jbp7i.data-edge.chinav.indevs.in
+  server: 154.31.117.245
+  servername: munbd.user-node.sh21.eu.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -106,7 +106,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
+      Host: munbd.user-node.sh21.eu.org
     path: /danfeng?ed=2560
 - client-fingerprint: firefox
   ech-opts:
@@ -114,9 +114,9 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 30005
-  server: 154.37.154.4
-  servername: jbp7i.data-edge.chinav.indevs.in
+  port: 651
+  server: 167.253.156.88
+  servername: munbd.user-node.sh21.eu.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -125,26 +125,7 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-3 | Mix
-  network: ws
-  port: 2083
-  server: 27.133.128.207
-  servername: jbp7i.data-edge.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
+      Host: munbd.user-node.sh21.eu.org
     path: /danfeng?ed=2560
 - name: 13,14|日本|@ripaojiedian
   network: tcp
