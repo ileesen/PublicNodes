@@ -95,8 +95,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 20202
-  server: 159.65.25.165
+  port: 2053
+  server: 165.232.40.20
   servername: munbd.user-node.sh21.eu.org
   skip-cert-verify: false
   tfo: false
@@ -114,8 +114,46 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇬🇧 GB-2 | Mix
   network: ws
-  port: 1443
-  server: 82.153.216.195
+  port: 443
+  server: 157.245.34.157
+  servername: munbd.user-node.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: munbd.user-node.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇬🇧 GB-3 | Mix
+  network: ws
+  port: 35500
+  server: 136.0.1.185
+  servername: munbd.user-node.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: munbd.user-node.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇬🇧 GB-4 | Mix
+  network: ws
+  port: 443
+  server: 209.97.187.249
   servername: munbd.user-node.sh21.eu.org
   skip-cert-verify: false
   tfo: false
