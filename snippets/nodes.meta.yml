@@ -873,7 +873,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 42.98.140.38
+  server: 46.8.226.15
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -889,9 +889,27 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 1884
+  port: 8443
   security: tls
-  server: 103.117.101.158
+  server: 141.11.132.225
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 38.47.102.16
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -909,7 +927,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 141.147.174.243
+  server: 156.231.115.191
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -925,9 +943,9 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 30005
+  port: 10443
   security: tls
-  server: 103.27.77.131
+  server: 132.226.0.87
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -945,7 +963,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 89.125.244.207
+  server: 195.245.241.135
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -963,43 +981,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 38.47.104.5
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇯🇵 JP-5 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 172.235.202.165
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇯🇵 JP-6 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 13.231.33.243
+  server: 18.180.35.219
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1015,9 +997,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 10255
+  port: 18081
   security: tls
-  server: 1.176.69.60
+  server: 115.93.169.180
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1033,9 +1015,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 33322
+  port: 8443
   security: tls
-  server: 211.245.79.29
+  server: 64.176.226.26
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1051,9 +1033,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 14000
+  port: 10250
   security: tls
-  server: 59.0.58.42
+  server: 123.248.67.26
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1069,9 +1051,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 34237
+  port: 11965
   security: tls
-  server: 144.24.92.92
+  server: 121.141.108.90
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1087,9 +1069,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 37020
+  port: 10250
   security: tls
-  server: 124.57.36.207
+  server: 220.123.191.193
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1105,27 +1087,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-6 | Mix
   network: ws
-  port: 19222
+  port: 18889
   security: tls
-  server: 220.79.9.247
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-7 | Mix
-  network: ws
-  port: 14265
-  security: tls
-  server: 180.182.110.151
+  server: 219.255.114.230
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1143,7 +1107,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 152.42.198.190
+  server: 45.121.48.117
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1161,7 +1125,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 143.198.213.81
+  server: 194.127.192.165
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1179,7 +1143,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 149.28.142.169
+  server: 129.212.229.240
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1195,9 +1159,45 @@ proxies:
   fp: firefox
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
-  port: 16662
+  port: 443
   security: tls
-  server: 140.245.43.148
+  server: 188.166.217.179
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 2053
+  security: tls
+  server: 5.223.56.239
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 165.22.102.89
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1213,9 +1213,9 @@ proxies:
   fp: firefox
   name: 11|🇹🇼 TW-1 | Mix
   network: ws
-  port: 443
+  port: 17009
   security: tls
-  server: 140.235.39.192
+  server: 82.152.91.152
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1231,9 +1231,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 142.248.218.120
+  server: 193.187.181.11
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1251,7 +1251,7 @@ proxies:
   network: ws
   port: 2053
   security: tls
-  server: 142.248.218.222
+  server: 142.248.219.194
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1267,9 +1267,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 142.248.218.206
+  server: 54.146.45.11
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1287,7 +1287,7 @@ proxies:
   network: ws
   port: 8443
   security: tls
-  server: 154.64.243.48
+  server: 154.17.15.114
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1305,7 +1305,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 74.48.48.138
+  server: 107.182.23.86
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1321,9 +1321,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 2053
+  port: 8443
   security: tls
-  server: 142.248.219.127
+  server: 154.26.181.106
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1339,9 +1339,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 39738
+  port: 2053
   security: tls
-  server: 38.244.5.68
+  server: 142.248.218.109
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1357,9 +1357,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 4443
+  port: 39738
   security: tls
-  server: 65.75.209.193
+  server: 38.244.5.105
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1375,9 +1375,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 39738
+  port: 8443
   security: tls
-  server: 38.244.5.229
+  server: 107.174.252.170
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1393,9 +1393,27 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-20 | Mix
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 142.248.219.158
+  server: 38.150.1.205
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇨🇦 CA-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 138.197.160.106
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1411,9 +1429,9 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
+  port: 2087
   security: tls
-  server: 146.70.20.104
+  server: 165.22.74.162
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1429,9 +1447,9 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 2096
+  port: 2053
   security: tls
-  server: 164.92.187.73
+  server: 57.129.63.64
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1447,9 +1465,9 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-3 | Mix
   network: ws
-  port: 443
+  port: 2083
   security: tls
-  server: 148.153.94.133
+  server: 209.38.193.241
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1467,7 +1485,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 104.248.31.36
+  server: 157.180.125.203
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1481,47 +1499,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 11|🇩🇪 DE-5 | Mix
+  name: 11|🇫🇷 FR-1 | Mix
   network: ws
-  port: 2082
+  port: 2096
   security: tls
-  server: 165.232.77.39
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇩🇪 DE-6 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 159.223.20.170
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇩🇰 DK-1 | Mix
-  network: ws
-  port: 10427
-  security: tls
-  server: 147.79.20.146
+  server: 84.235.245.65
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1539,7 +1521,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 140.245.252.127
+  server: 152.67.190.105
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1555,9 +1537,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 2096
+  port: 20202
   security: tls
-  server: 188.166.2.166
+  server: 188.226.138.239
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
@@ -1575,7 +1557,25 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 20.47.118.23
+  server: 174.138.13.104
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇹🇬 TG-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 45.59.125.228
   servername: t39sed.gateway-api.sh21.eu.org
   skip-cert-verify: false
   sni: t39sed.gateway-api.sh21.eu.org
