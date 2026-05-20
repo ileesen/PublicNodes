@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇷🇺 RU-1 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 90.156.211.232
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
