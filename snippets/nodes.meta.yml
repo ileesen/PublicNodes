@@ -9,14 +9,6 @@ proxies:
   sni: gb1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 9|🧃62@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: flkf2.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 9|🧃61@oneclickvpnkeys
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
   port: 2056
@@ -73,16 +65,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|26743 | Telegram = t.me/SOSkey...
-  obfs: salamander
-  obfs-password: kish-data-center
-  password: cZ5R384SxB
-  port: 443
-  server: srm.kishonline.online
-  skip-cert-verify: false
-  sni: srm.kishonline.online
   tls: false
   type: hysteria2
 - name: 9|🧃59@oneclickvpnkeys
@@ -909,7 +891,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 154.12.188.145
+  server: 45.207.157.185
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -925,9 +907,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 8443
+  port: 2083
   security: tls
-  server: 162.141.117.122
+  server: 154.3.35.10
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -943,9 +925,63 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
+  port: 51844
+  security: tls
+  server: 103.135.250.213
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 7000
+  security: tls
+  server: 202.85.53.77
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
   port: 443
   security: tls
-  server: 154.12.179.62
+  server: 46.8.226.151
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-6 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 83.229.121.78
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -963,7 +999,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.192.248.64
+  server: 52.197.217.169
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -979,9 +1015,9 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 8443
+  port: 3122
   security: tls
-  server: 151.241.131.13
+  server: 45.153.245.209
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -997,9 +1033,9 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 443
+  port: 39738
   security: tls
-  server: 13.192.18.59
+  server: 141.11.139.239
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1015,9 +1051,9 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-4 | Mix
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 198.13.37.176
+  server: 208.87.207.137
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1033,9 +1069,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 18789
+  port: 10035
   security: tls
-  server: 121.160.70.157
+  server: 111.171.87.180
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1051,9 +1087,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 11300
+  port: 12300
   security: tls
-  server: 121.150.166.119
+  server: 111.171.87.180
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1069,45 +1105,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 22222
+  port: 10162
   security: tls
-  server: 118.40.112.188
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-4 | Mix
-  network: ws
-  port: 16992
-  security: tls
-  server: 223.131.194.204
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-5 | Mix
-  network: ws
-  port: 28017
-  security: tls
-  server: 222.111.3.80
+  server: 221.150.96.18
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1123,9 +1123,9 @@ proxies:
   fp: firefox
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 4438
+  port: 443
   security: tls
-  server: 89.28.239.164
+  server: 143.198.211.180
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1140,78 +1140,6 @@ proxies:
   encryption: none
   fp: firefox
   name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 176.98.191.154
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇸🇬 SG-3 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 34.143.213.202
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇸🇬 SG-4 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 129.212.229.240
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇸🇬 SG-5 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 134.209.98.39
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇸🇬 SG-6 | Mix
   network: ws
   port: 8000
   security: tls
@@ -1229,11 +1157,65 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 38.54.4.209
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 587
+  security: tls
+  server: 45.76.186.44
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 213.111.157.67
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
   name: 11|🇹🇼 TW-1 | Mix
   network: ws
-  port: 7228
+  port: 2087
   security: tls
-  server: 202.148.220.166
+  server: 220.135.92.105
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1249,9 +1231,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 20010
+  port: 443
   security: tls
-  server: 144.202.126.129
+  server: 107.172.16.110
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1267,9 +1249,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 2053
+  port: 2443
   security: tls
-  server: 31.57.63.63
+  server: 38.55.108.74
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1287,7 +1269,7 @@ proxies:
   network: ws
   port: 39738
   security: tls
-  server: 38.244.5.186
+  server: 38.244.5.193
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1305,7 +1287,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 38.55.108.71
+  server: 98.158.29.76
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1323,7 +1305,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 136.109.136.13
+  server: 103.91.145.194
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1339,9 +1321,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 8008
+  port: 443
   security: tls
-  server: 38.252.8.46
+  server: 178.128.70.6
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1357,9 +1339,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 8443
+  port: 39738
   security: tls
-  server: 64.227.62.172
+  server: 38.244.5.158
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1375,9 +1357,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 443
+  port: 587
   security: tls
-  server: 154.17.13.244
+  server: 104.194.65.160
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1393,9 +1375,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 444
+  port: 39738
   security: tls
-  server: 104.224.153.102
+  server: 38.175.219.247
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1411,9 +1393,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-20 | Mix
   network: ws
-  port: 16308
+  port: 443
   security: tls
-  server: 154.51.40.127
+  server: 204.197.162.24
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1429,9 +1411,27 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
+  port: 2087
+  security: tls
+  server: 46.101.121.62
+  servername: x6n3ydn.mirror-cdn.danfeng.bond
+  skip-cert-verify: false
+  sni: x6n3ydn.mirror-cdn.danfeng.bond
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x6n3ydn.mirror-cdn.danfeng.bond
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇩🇪 DE-2 | Mix
+  network: ws
   port: 443
   security: tls
-  server: 172.104.239.152
+  server: 207.154.213.67
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1447,27 +1447,9 @@ proxies:
   fp: firefox
   name: 11|🇬🇧 GB-1 | Mix
   network: ws
-  port: 2096
+  port: 2087
   security: tls
-  server: 206.189.16.136
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇬🇧 GB-2 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 104.248.172.66
+  server: 178.62.38.224
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1485,7 +1467,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 66.151.42.239
+  server: 95.85.42.31
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1501,9 +1483,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-2 | Mix
   network: ws
-  port: 6555
+  port: 443
   security: tls
-  server: 209.250.252.208
+  server: 188.166.52.17
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1519,9 +1501,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-3 | Mix
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 80.91.65.12
+  server: 194.87.130.44
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1537,9 +1519,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-4 | Mix
   network: ws
-  port: 20202
+  port: 443
   security: tls
-  server: 104.248.94.160
+  server: 95.85.58.170
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1555,9 +1537,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-5 | Mix
   network: ws
-  port: 2083
+  port: 443
   security: tls
-  server: 142.93.226.43
+  server: 37.139.11.72
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1575,7 +1557,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 188.226.136.44
+  server: 82.196.12.140
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -1589,11 +1571,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 11|🇳🇱 NL-7 | Mix
+  name: 11|🇻🇳 VN-1 | Mix
   network: ws
-  port: 9443
+  port: 10443
   security: tls
-  server: 38.180.97.176
+  server: 45.43.76.235
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
