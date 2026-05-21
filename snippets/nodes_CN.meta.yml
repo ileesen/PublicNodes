@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇨🇳 CN-1 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 39.108.133.242
+  servername: lmy.node-cache-01.sh21.eu.org
+  skip-cert-verify: false
+  sni: lmy.node-cache-01.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: lmy.node-cache-01.sh21.eu.org
+    path: /danfeng?ed=2560
