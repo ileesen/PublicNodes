@@ -4,9 +4,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 1883
+  port: 20002
   security: tls
-  server: 103.117.101.158
+  server: 209.248.1.5
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -22,45 +22,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 443
+  port: 30050
   security: tls
-  server: 154.16.10.185
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-3 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 23.175.201.28
-  servername: x6n3ydn.mirror-cdn.danfeng.bond
-  skip-cert-verify: false
-  sni: x6n3ydn.mirror-cdn.danfeng.bond
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x6n3ydn.mirror-cdn.danfeng.bond
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-4 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 38.207.185.40
+  server: 83.229.120.141
   servername: x6n3ydn.mirror-cdn.danfeng.bond
   skip-cert-verify: false
   sni: x6n3ydn.mirror-cdn.danfeng.bond
@@ -83,16 +47,16 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 53018
-  server: 13.230.33.127
-  skip-cert-verify: true
+  port: 2008
+  server: 43.206.93.224
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 54.250.178.21
+  port: 40748
+  server: 54.250.185.18
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
