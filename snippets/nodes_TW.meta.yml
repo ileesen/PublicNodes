@@ -4,9 +4,27 @@ proxies:
   fp: firefox
   name: 11|🇹🇼 TW-1 | Mix
   network: ws
+  port: 2053
+  security: tls
+  server: 185.248.184.201
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇹🇼 TW-2 | Mix
+  network: ws
   port: 443
   security: tls
-  server: 34.80.183.88
+  server: 185.248.184.185
   servername: w9rw8g1k.node-c.danfeng.gv.uy
   skip-cert-verify: false
   sni: w9rw8g1k.node-c.danfeng.gv.uy

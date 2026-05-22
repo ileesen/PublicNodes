@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 81.19.139.197
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
