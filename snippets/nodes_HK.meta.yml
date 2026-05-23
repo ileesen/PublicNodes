@@ -4,9 +4,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 8443
+  port: 13158
   security: tls
-  server: 154.3.35.245
+  server: 154.3.34.36
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -22,9 +22,63 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 12902
+  port: 443
   security: tls
-  server: 8.210.96.197
+  server: 151.242.11.198
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 45.221.112.81
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 194.156.99.182
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
+  port: 2000
+  security: tls
+  server: 183.87.132.82
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
