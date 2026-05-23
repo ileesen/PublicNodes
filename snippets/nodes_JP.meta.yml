@@ -94,9 +94,117 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 27016
+  port: 443
   security: tls
-  server: 180.198.163.185
+  server: 47.79.37.210
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-2 | Mix
+  network: ws
+  port: 27017
+  security: tls
+  server: 124.108.58.97
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 26418
+  security: tls
+  server: 154.31.112.237
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 23.249.17.25
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 64.176.36.17
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-6 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 57.182.243.203
+  servername: w9rw8g1k.node-c.danfeng.gv.uy
+  skip-cert-verify: false
+  sni: w9rw8g1k.node-c.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: w9rw8g1k.node-c.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇯🇵 JP-7 | Mix
+  network: ws
+  port: 24443
+  security: tls
+  server: 162.141.130.233
   servername: w9rw8g1k.node-c.danfeng.gv.uy
   skip-cert-verify: false
   sni: w9rw8g1k.node-c.danfeng.gv.uy
@@ -110,24 +218,24 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15109
-  server: 54.250.185.18
+  port: 4099
+  server: 16.162.45.118
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 8066
-  server: 35.78.244.212
+  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  port: 3135
+  server: 18.183.147.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
-  password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 11541
-  server: 16.162.192.39
+  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  port: 8066
+  server: 18.183.147.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
