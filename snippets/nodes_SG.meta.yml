@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-1 | 8EB
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
   port: 627
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-2 | 8EB
+  name: 10|🇸🇬 SG-2 | 8EB
   network: ws
   port: 30003
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-3 | 8EB
+  name: 10|🇸🇬 SG-3 | 8EB
   network: ws
   port: 632
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-4 | 8EB
+  name: 10|🇸🇬 SG-4 | 8EB
   network: ws
   port: 634
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-5 | 8EB
+  name: 10|🇸🇬 SG-5 | 8EB
   network: ws
   port: 33284
   security: tls
@@ -93,10 +93,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 443
-  server: 103.195.190.95
+  port: 4439
+  server: 43.128.111.158
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -112,10 +112,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 159.89.207.154
+  server: 178.128.211.191
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -127,7 +127,45 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
-- name: 12,13|新加坡|@ripaojiedian
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 443
+  server: 188.166.251.234
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 8112
+  server: 103.192.179.207
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 4840
@@ -135,7 +173,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 3842
@@ -143,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10578
@@ -152,7 +190,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 14|SG_speednode_0031
+  name: 15|SG_speednode_0031
   network: ws
   port: 28382
   server: 138.2.71.48
@@ -167,7 +205,7 @@ proxies:
       Host: nn9jdg-k7yewrrk.acg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 14|SG_speednode_0032
+  name: 15|SG_speednode_0032
   network: ws
   port: 74
   server: 209.97.170.177
