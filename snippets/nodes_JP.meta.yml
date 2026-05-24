@@ -95,8 +95,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-1 | Mix
   network: ws
-  port: 58717
-  server: 64.176.53.208
+  port: 443
+  server: 64.176.54.93
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -115,7 +115,7 @@ proxies:
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 443
-  server: 57.182.195.74
+  server: 38.226.195.129
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -133,46 +133,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 11|🇯🇵 JP-3 | Mix
   network: ws
-  port: 443
-  server: 154.36.186.248
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-4 | Mix
-  network: ws
-  port: 443
-  server: 38.47.126.125
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-5 | Mix
-  network: ws
-  port: 443
-  server: 142.91.108.144
+  port: 8889
+  server: 64.110.104.244
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
