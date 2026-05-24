@@ -4,9 +4,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 13158
+  port: 2443
   security: tls
-  server: 154.3.34.36
+  server: 141.11.91.165
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -22,9 +22,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 443
+  port: 2001
   security: tls
-  server: 151.242.11.198
+  server: 193.134.211.19
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -42,7 +42,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.221.112.81
+  server: 219.76.13.177
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -58,27 +58,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-4 | Mix
   network: ws
-  port: 8443
+  port: 10443
   security: tls
-  server: 194.156.99.182
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-5 | Mix
-  network: ws
-  port: 2000
-  security: tls
-  server: 183.87.132.82
+  server: 154.3.36.233
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -101,16 +83,16 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 53018
-  server: 18.162.49.218
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.217.83
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 95.40.61.181
+  port: 3285
+  server: 13.230.159.214
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
