@@ -7,15 +7,15 @@ proxies:
   port: 8998
   security: tls
   server: 45.93.31.193
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -25,15 +25,15 @@ proxies:
   port: 30003
   security: tls
   server: 114.204.41.241
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 30030
   security: tls
   server: 175.118.151.148
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 49058
   security: tls
   server: 45.93.29.223
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,15 +79,15 @@ proxies:
   port: 11650
   security: tls
   server: 58.230.174.87
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - alpn:
   - http%2F1.1%0A
@@ -257,12 +257,54 @@ proxies:
     headers:
       Host: c1mxc.api-gateway.fgfw.qzz.io
     path: /danfeng-2cm3?ed=2560
-- name: 15|KR_speednode_0022
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 15|KR_speednode_0008
+  network: ws
+  port: 26257
+  server: 121.175.192.245
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 15|KR_speednode_0010
+  network: ws
+  port: 16010
+  server: 118.33.142.8
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 15|KR_speednode_0011
+  network: ws
+  port: 10162
+  server: 59.4.161.71
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560

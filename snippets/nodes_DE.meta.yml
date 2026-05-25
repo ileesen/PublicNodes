@@ -7,15 +7,15 @@ proxies:
   port: 20205
   security: tls
   server: 146.70.20.105
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -25,15 +25,15 @@ proxies:
   port: 4443
   security: tls
   server: 185.235.241.14
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 35130
   security: tls
   server: 213.179.69.150
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 9377
   security: tls
   server: 143.20.160.200
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,15 +79,15 @@ proxies:
   port: 24443
   security: tls
   server: 5.231.45.46
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - alpn:
   - http%2F1.1%0A
@@ -207,6 +207,37 @@ proxies:
   servername: c1mxc.api-gateway.fgfw.qzz.io
   skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|DE_speednode_0003
+  port: 8443
+  reality-opts:
+    public-key: 4XCNqnEdkyfNi19VJuyJJ4YJqmLHHrXdWuMpsQlKqmY
+    short-id: e0870b
+  server: 178.236.254.244
+  servername: www.vk.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 15|DE_speednode_0004
+  network: ws
+  port: 2053
+  server: 167.99.131.232
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
