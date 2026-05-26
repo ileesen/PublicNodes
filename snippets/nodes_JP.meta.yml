@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   port: 4443
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   port: 31772
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇯🇵 JP-3 | 8EB
+  name: 10|🇯🇵 JP-3 | 8EB
   network: ws
   port: 35311
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
   port: 42841
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇯🇵 JP-5 | 8EB
+  name: 10|🇯🇵 JP-5 | 8EB
   network: ws
   port: 53557
   security: tls
@@ -95,7 +95,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
   server: 5.34.222.227
@@ -116,7 +116,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 10|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
   port: 443
   server: 13.158.177.96
@@ -131,27 +131,27 @@ proxies:
     headers:
       Host: c1mxc.api-gateway.fgfw.qzz.io
     path: /danfeng-2cm3?ed=2560
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2140
-  server: 13.158.82.174
+  port: 4633
+  server: 13.114.188.23
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 18.183.203.240
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 52.195.217.94
+  server: 52.199.67.57
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 3135
+  server: 18.167.167.26
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
