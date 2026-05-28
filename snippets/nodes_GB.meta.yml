@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 9|🇬🇧 GB-1 | 8EB
   network: ws
   port: 17071
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 9|🇬🇧 GB-2 | 8EB
   network: ws
   port: 433
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-3 | 8EB
+  name: 9|🇬🇧 GB-3 | 8EB
   network: ws
   port: 15566
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-4 | 8EB
+  name: 9|🇬🇧 GB-4 | 8EB
   network: ws
   port: 15429
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-5 | 8EB
+  name: 9|🇬🇧 GB-5 | 8EB
   network: ws
   port: 30715
   security: tls
@@ -89,72 +89,63 @@ proxies:
     headers:
       Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
     path: /@Marisa_kristi
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 2087
-  server: 157.245.34.157
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-2 | Mix
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇬🇧 GB-1 | Mix
   network: ws
   port: 443
-  server: 157.245.33.149
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  security: tls
+  server: 209.97.134.215
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇬🇧 GB-3 | Mix
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇬🇧 GB-2 | Mix
   network: ws
-  port: 2053
-  server: 138.68.131.141
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  port: 20202
+  security: tls
+  server: 188.166.171.1
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇬🇧 GB-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 134.209.183.227
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0019
+  name: 14|GB_speednode_0019
   port: 443
   reality-opts:
     public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
@@ -168,7 +159,7 @@ proxies:
   uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0021
+  name: 14|GB_speednode_0021
   port: 54254
   reality-opts:
     public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
@@ -188,7 +179,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 15|GB_speednode_0022
+  name: 14|GB_speednode_0022
   network: http
   port: 443
   reality-opts:
@@ -203,7 +194,7 @@ proxies:
   uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0023
+  name: 14|GB_speednode_0023
   port: 443
   reality-opts:
     public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw

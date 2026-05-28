@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 9|🇯🇵 JP-1 | 8EB
   network: ws
   port: 4443
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇯🇵 JP-2 | 8EB
+  name: 9|🇯🇵 JP-2 | 8EB
   network: ws
   port: 51055
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
+  name: 9|🇯🇵 JP-3 | 8EB
   network: ws
   port: 56788
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
+  name: 9|🇯🇵 JP-4 | 8EB
   network: ws
   port: 13236
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇯🇵 JP-5 | 8EB
+  name: 9|🇯🇵 JP-5 | 8EB
   network: ws
   port: 42769
   security: tls
@@ -89,69 +89,117 @@ proxies:
     headers:
       Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
     path: /@Marisa_kristi
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇯🇵 JP-1 | Mix
   network: ws
   port: 443
-  server: 5.34.222.227
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  security: tls
+  server: 103.100.158.202
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇯🇵 JP-2 | Mix
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇯🇵 JP-2 | Mix
   network: ws
-  port: 443
-  server: 13.158.177.96
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  port: 8443
+  security: tls
+  server: 160.16.91.248
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- name: 13,14|日本|@ripaojiedian
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇯🇵 JP-3 | Mix
+  network: ws
+  port: 22335
+  security: tls
+  server: 124.40.94.200
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇯🇵 JP-4 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 92.113.124.48
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇯🇵 JP-5 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 13.193.213.165
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 54.248.176.41
+  port: 4099
+  server: 13.231.225.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 95.40.49.62
+  port: 8066
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 3.112.12.209
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan

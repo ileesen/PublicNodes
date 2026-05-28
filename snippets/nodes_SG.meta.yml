@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
+  name: 9|🇸🇬 SG-1 | 8EB
   network: ws
   port: 35322
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 9|🇸🇬 SG-2 | 8EB
   network: ws
   port: 20742
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-3 | 8EB
+  name: 9|🇸🇬 SG-3 | 8EB
   network: ws
   port: 33284
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-4 | 8EB
+  name: 9|🇸🇬 SG-4 | 8EB
   network: ws
   port: 31187
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-5 | 8EB
+  name: 9|🇸🇬 SG-5 | 8EB
   network: ws
   port: 10460
   security: tls
@@ -89,90 +89,81 @@ proxies:
     headers:
       Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
     path: /@Marisa_kristi
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-1 | Mix
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇸🇬 SG-1 | Mix
   network: ws
   port: 443
-  server: 143.42.66.91
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  security: tls
+  server: 128.199.255.242
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-2 | Mix
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 178.128.209.190
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  security: tls
+  server: 45.77.241.64
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 11|🇸🇬 SG-3 | Mix
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 10|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
-  server: 149.28.142.169
-  servername: c1mxc.api-gateway.fgfw.qzz.io
+  security: tls
+  server: 45.132.75.78
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tfo: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- name: 13,14|新加坡|@ripaojiedian
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 4840
+  server: 95.40.114.115
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
-  server: 95.40.28.136
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2511
-  server: 13.115.88.193
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 140.235.140.105
+  port: 39756
+  server: 35.78.121.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
