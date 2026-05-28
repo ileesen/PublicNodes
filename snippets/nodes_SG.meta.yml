@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-1 | 8EB
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
   port: 35322
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-2 | 8EB
+  name: 10|🇸🇬 SG-2 | 8EB
   network: ws
   port: 20742
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-3 | 8EB
+  name: 10|🇸🇬 SG-3 | 8EB
   network: ws
   port: 33284
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-4 | 8EB
+  name: 10|🇸🇬 SG-4 | 8EB
   network: ws
   port: 31187
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 9|🇸🇬 SG-5 | 8EB
+  name: 10|🇸🇬 SG-5 | 8EB
   network: ws
   port: 10460
   security: tls
@@ -92,11 +92,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 10|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 443
   security: tls
-  server: 128.199.255.242
+  server: 143.198.213.40
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -110,11 +110,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 10|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 443
+  port: 2053
   security: tls
-  server: 45.77.241.64
+  server: 194.56.225.65
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -128,11 +128,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 443
   security: tls
-  server: 45.132.75.78
+  server: 157.230.38.88
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -143,7 +143,79 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- name: 12,13|新加坡|@ripaojiedian
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 158.178.230.113
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 22000
+  security: tls
+  server: 47.79.237.236
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 2053
+  security: tls
+  server: 5.223.56.239
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-7 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 216.38.170.104
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
@@ -151,7 +223,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -159,7 +231,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39756
