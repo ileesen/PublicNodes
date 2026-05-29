@@ -37,14 +37,6 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 9|41@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - encryption: none
   fp: chrome
   name: 10|🇺🇸 US-1 | 8EB
@@ -860,9 +852,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 1.36.126.110
+  server: 104.253.175.16
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -880,7 +872,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.153.129.253
+  server: 45.207.35.172
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -896,27 +888,9 @@ proxies:
   fp: firefox
   name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 163.53.18.117
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇭🇰 HK-4 | Mix
-  network: ws
-  port: 6066
-  security: tls
-  server: 23.141.52.143
+  server: 45.39.190.24
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -934,7 +908,7 @@ proxies:
   network: ws
   port: 8443
   security: tls
-  server: 154.19.187.181
+  server: 103.201.131.96
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -950,9 +924,9 @@ proxies:
   fp: firefox
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
-  port: 27015
+  port: 2083
   security: tls
-  server: 45.129.8.34
+  server: 158.101.131.94
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -968,9 +942,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-1 | Mix
   network: ws
-  port: 12300
+  port: 10001
   security: tls
-  server: 49.142.200.31
+  server: 222.117.215.112
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -986,9 +960,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-2 | Mix
   network: ws
-  port: 443
+  port: 18853
   security: tls
-  server: 193.123.233.175
+  server: 218.157.145.120
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1004,9 +978,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-3 | Mix
   network: ws
-  port: 23023
+  port: 30001
   security: tls
-  server: 59.0.58.42
+  server: 14.36.35.171
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1022,9 +996,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-4 | Mix
   network: ws
-  port: 29876
+  port: 16922
   security: tls
-  server: 49.165.150.206
+  server: 222.99.127.67
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1040,63 +1014,9 @@ proxies:
   fp: firefox
   name: 11|🇰🇷 KR-5 | Mix
   network: ws
-  port: 34237
+  port: 33890
   security: tls
-  server: 193.122.118.149
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-6 | Mix
-  network: ws
-  port: 4431
-  security: tls
-  server: 131.186.20.230
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-7 | Mix
-  network: ws
-  port: 20332
-  security: tls
-  server: 211.224.59.175
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇰🇷 KR-8 | Mix
-  network: ws
-  port: 10003
-  security: tls
-  server: 112.217.78.59
+  server: 125.62.222.175
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1112,9 +1032,9 @@ proxies:
   fp: firefox
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
-  port: 443
+  port: 18916
   security: tls
-  server: 178.128.82.93
+  server: 77.93.89.16
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1130,9 +1050,9 @@ proxies:
   fp: firefox
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
-  port: 443
+  port: 12235
   security: tls
-  server: 43.159.4.232
+  server: 195.85.19.181
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1150,7 +1070,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 165.22.99.110
+  server: 163.61.103.239
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1166,9 +1086,45 @@ proxies:
   fp: firefox
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 194.36.179.17
+  server: 152.42.198.190
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 6999
+  security: tls
+  server: 138.2.101.238
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 43.252.21.40
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1183,6 +1139,42 @@ proxies:
   encryption: none
   fp: firefox
   name: 11|🇹🇼 TW-1 | Mix
+  network: ws
+  port: 995
+  security: tls
+  server: 122.116.216.90
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇹🇼 TW-2 | Mix
+  network: ws
+  port: 28068
+  security: tls
+  server: 166.0.198.81
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇹🇼 TW-3 | Mix
   network: ws
   port: 50035
   security: tls
@@ -1202,9 +1194,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 129.158.198.241
+  server: 166.117.140.55
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1222,7 +1214,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.202.113.142
+  server: 213.165.47.202
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1240,7 +1232,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 35.206.74.175
+  server: 35.212.196.112
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1256,9 +1248,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 39738
+  port: 443
   security: tls
-  server: 38.76.149.39
+  server: 154.17.26.71
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1276,7 +1268,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.62.116.67
+  server: 74.48.189.162
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1292,9 +1284,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 443
+  port: 15532
   security: tls
-  server: 154.21.87.79
+  server: 23.158.136.159
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1310,9 +1302,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 20205
+  port: 2053
   security: tls
-  server: 45.33.104.51
+  server: 23.177.184.212
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1328,9 +1320,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 443
+  port: 2053
   security: tls
-  server: 52.20.17.94
+  server: 38.107.232.124
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1346,9 +1338,9 @@ proxies:
   fp: firefox
   name: 11|🇺🇸 US-19 | Mix
   network: ws
-  port: 443
+  port: 39738
   security: tls
-  server: 52.201.155.193
+  server: 38.244.5.252
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1366,25 +1358,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 38.180.138.2
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇹🇬 TG-1 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: 38.180.225.181
+  server: 54.159.204.245
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1400,9 +1374,9 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
-  port: 443
+  port: 3000
   security: tls
-  server: 64.226.125.55
+  server: 144.31.77.94
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1418,45 +1392,9 @@ proxies:
   fp: firefox
   name: 11|🇩🇪 DE-2 | Mix
   network: ws
-  port: 20014
-  security: tls
-  server: 139.162.133.162
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇹🇬 TG-2 | Mix
-  network: ws
-  port: 27015
-  security: tls
-  server: 166.88.8.37
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 11|🇫🇷 FR-1 | Mix
-  network: ws
   port: 443
   security: tls
-  server: 51.91.255.163
+  server: 159.223.20.232
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1474,7 +1412,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 134.209.179.225
+  server: 146.70.30.53
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1492,7 +1430,43 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 38.180.30.133
+  server: 68.183.39.110
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇬🇧 GB-3 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 134.209.23.34
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇹🇬 TG-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 31.59.40.5
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1508,9 +1482,9 @@ proxies:
   fp: firefox
   name: 11|🇳🇱 NL-1 | Mix
   network: ws
-  port: 443
+  port: 20202
   security: tls
-  server: 78.142.228.156
+  server: 178.62.232.155
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1528,7 +1502,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 31.220.42.244
+  server: 188.226.169.134
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -1542,11 +1516,29 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 11|🇻🇳 VN-1 | Mix
+  name: 11|🇳🇱 NL-3 | Mix
   network: ws
   port: 443
   security: tls
-  server: 212.192.23.239
+  server: 167.99.35.193
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 91.149.254.40
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
