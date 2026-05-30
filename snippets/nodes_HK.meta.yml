@@ -6,7 +6,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 45.207.157.185
+  server: 185.241.40.76
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -24,7 +24,43 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 151.242.11.198
+  server: 219.76.13.169
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 30011
+  security: tls
+  server: 202.81.229.58
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 11|🇭🇰 HK-4 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 58.176.252.254
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -47,16 +83,16 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2008
-  server: 52.69.114.14
-  skip-cert-verify: false
+  port: 53018
+  server: 18.166.208.219
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.168.196.137
+  port: 50712
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
