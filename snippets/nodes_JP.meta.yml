@@ -7,15 +7,15 @@ proxies:
   port: 4443
   security: tls
   server: 54.178.110.17
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -25,15 +25,15 @@ proxies:
   port: 51055
   security: tls
   server: 45.12.89.124
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 56788
   security: tls
   server: 212.135.210.133
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 13236
   security: tls
   server: 45.143.234.26
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,22 +79,39 @@ proxies:
   port: 42769
   security: tls
   server: 45.143.131.216
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
   skip-cert-verify: false
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  sni: 7xbq35vdydie5sgv.cctg.xx.kg
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
+- name: 11|🇯🇵 JP-1 | Mix
+  password: socks5
+  port: 5555
+  server: 38.47.96.16
+  type: socks
+  username: socks5
 - _auth: ''
   _network: tcp
   _path: ''
   _security: ''
   _sni: ''
-  name: 11|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
+  password: ''
+  port: 3334
+  server: 45.8.114.19
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 11|🇯🇵 JP-3 | Mix
   password: ''
   port: 38081
   server: 34.84.162.206
@@ -105,24 +122,13 @@ proxies:
   _path: ''
   _security: ''
   _sni: ''
-  name: 11|🇯🇵 JP-2 | Mix
-  password: ''
-  port: 9080
-  server: 172.105.192.212
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇯🇵 JP-3 | Mix
+  name: 11|🇯🇵 JP-4 | Mix
   password: ''
   port: 1080
   server: 103.75.118.84
   type: socks
   username: ''
-- name: 13,14|日本|@ripaojiedian
+- name: 13,14,15|HK_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 47655
@@ -130,6 +136,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
