@@ -7,15 +7,15 @@ proxies:
   port: 35322
   security: tls
   server: 8.219.158.195
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -25,15 +25,15 @@ proxies:
   port: 20742
   security: tls
   server: 45.32.103.8
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 33284
   security: tls
   server: 8.219.2.255
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 31187
   security: tls
   server: 110.238.111.113
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,89 +79,95 @@ proxies:
   port: 10460
   security: tls
   server: 45.76.191.197
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
-- name: 11|🇸🇬 SG-1 | Mix
-  password: '!!str 123'
-  port: 8888
-  server: 47.237.11.125
-  type: socks
-  username: '123'
-- name: 11|🇸🇬 SG-2 | Mix
-  password: admin
-  port: 1080
-  server: 143.198.85.89
-  type: socks
-  username: admin
-- name: 11|🇸🇬 SG-3 | Mix
-  password: '!!str 888888'
-  port: 1080
-  server: 8.222.180.85
-  type: socks
-  username: '888888'
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇸🇬 SG-4 | Mix
-  password: ''
-  port: 1080
-  server: 47.237.116.215
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇸🇬 SG-5 | Mix
-  password: ''
-  port: 1010
-  server: 51.79.177.162
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇸🇬 SG-6 | Mix
-  password: ''
-  port: 1080
-  server: 212.58.132.5
-  type: socks
-  username: ''
-- name: 13,14,15|JP_speednode_0022
-  network: tcp
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11,15|JP_speednode_0022
   password: d84665c37878196ecf983cf6910e3b44
+  peer: www.nintendogames.net
   port: 1180
+  security: tls
   server: 18.181.199.223
+  servername: www.nintendogames.net
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 13,14|新加坡2|@ripaojiedian
+- allowInsecure: '0'
+  client-fingerprint: edge
+  fp: edge
+  name: 11|🇸🇬 SG-2 | Mix
+  password: gcuCpQfaiVeDBdWG
+  peer: yazhou10.dynu.net
+  port: 19128
+  security: tls
+  server: 211.76.176.98
+  servername: yazhou10.dynu.net
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇸🇬 SG-3 | Mix
+  password: gcuCpQfaiVeDBdWG
+  peer: yazhou10.dynu.net
+  port: 19128
+  security: tls
+  server: jpbgp.netvigor.cc
+  servername: yazhou10.dynu.net
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11,13,14|新加坡|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 3842
-  server: 18.163.33.60
+  peer: www.nintendogames.net
+  port: 2511
+  security: tls
+  server: 18.162.232.155
+  servername: www.nintendogames.net
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11,13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  peer: www.nintendogames.net
+  port: 3842
+  security: tls
+  server: 18.181.199.223
+  servername: www.nintendogames.net
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11,13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
+  peer: t.me%2Fripaojiedian
   port: 10478
-  server: 43.206.130.64
+  security: tls
+  server: 43.199.217.71
+  servername: t.me%252Fripaojiedian
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

@@ -1,26 +1,83 @@
 proxies:
-- name: 13,14,15|JP_speednode_0022
-  network: tcp
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11,15|JP_speednode_0022
   password: d84665c37878196ecf983cf6910e3b44
+  peer: www.nintendogames.net
   port: 1180
+  security: tls
   server: 18.181.199.223
+  servername: www.nintendogames.net
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 13,14|新加坡2|@ripaojiedian
+- allowInsecure: '0'
+  client-fingerprint: edge
+  fp: edge
+  name: 11|🇸🇬 SG-2 | Mix
+  password: gcuCpQfaiVeDBdWG
+  peer: yazhou10.dynu.net
+  port: 19128
+  security: tls
+  server: 211.76.176.98
+  servername: yazhou10.dynu.net
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇸🇬 SG-3 | Mix
+  password: gcuCpQfaiVeDBdWG
+  peer: yazhou10.dynu.net
+  port: 19128
+  security: tls
+  server: jpbgp.netvigor.cc
+  servername: yazhou10.dynu.net
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11,13,14|新加坡|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 3842
-  server: 18.163.33.60
+  peer: www.nintendogames.net
+  port: 2511
+  security: tls
+  server: 18.162.232.155
+  servername: www.nintendogames.net
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11,13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  peer: www.nintendogames.net
+  port: 3842
+  security: tls
+  server: 18.181.199.223
+  servername: www.nintendogames.net
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11,13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
+  peer: t.me%2Fripaojiedian
   port: 10478
-  server: 43.206.130.64
+  security: tls
+  server: 43.199.217.71
+  servername: t.me%252Fripaojiedian
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

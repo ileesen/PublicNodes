@@ -7,15 +7,15 @@ proxies:
   port: 4443
   security: tls
   server: 54.178.110.17
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -25,15 +25,15 @@ proxies:
   port: 51055
   security: tls
   server: 45.12.89.124
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 56788
   security: tls
   server: 212.135.210.133
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 13236
   security: tls
   server: 45.143.234.26
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,64 +79,24 @@ proxies:
   port: 42769
   security: tls
   server: 45.143.131.216
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   skip-cert-verify: false
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
+  sni: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
     path: /@Marisa_kristi
-- name: 11|🇯🇵 JP-1 | Mix
-  password: socks5
-  port: 5555
-  server: 38.47.96.16
-  type: socks
-  username: socks5
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇯🇵 JP-2 | Mix
-  password: ''
-  port: 3334
-  server: 45.8.114.19
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇯🇵 JP-3 | Mix
-  password: ''
-  port: 38081
-  server: 34.84.162.206
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇯🇵 JP-4 | Mix
-  password: ''
-  port: 1080
-  server: 103.75.118.84
-  type: socks
-  username: ''
-- name: 13,14,15|JP_speednode_0023
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.183.163.141
+  port: 30022
+  server: 43.207.209.201
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -153,6 +113,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 15|JP_speednode_0023
+  password: BxceQaOe
+  port: 4099
+  server: 18.183.163.141
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 15|JP_speednode_0024

@@ -1,21 +1,112 @@
 proxies:
-- name: 13,14|美国2|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  fp: qq
+  name: 11|🇺🇸 US-1 | Mix
   network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 18.163.33.60
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14,15|US_speednode_0054
-  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- allowInsecure: '1'
+  client-fingerprint: firefox
+  fp: firefox
+  name: 11,15|US_speednode_0050
   password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
+  peer: t.me/ripaojiedian
+  port: 2520
+  security: tls
+  server: 95.40.4.37
+  servername: t.me%2Fripaojiedian
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11,15|US_speednode_0054
+  password: BxceQaOe
+  peer: t.me/ripaojiedian
+  port: 17801
+  security: tls
+  server: 95.40.68.192
+  servername: t.me%2Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  fp: qq
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 8443
+  server: yg7.ygkkk.dpdns.org
+  servername: marco-visibility-tops-estimate.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  ws-opts:
+    headers:
+      Host: marco-visibility-tops-estimate.trycloudflare.com
+    path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
+- allowInsecure: '1'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-5 | Mix
+  password: BxceQaOe
+  peer: t.me/ripaojiedian
+  port: 2520
+  security: tls
+  server: 95.40.4.37
+  servername: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 80
+  server: 64.83.17.92
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /𒉭𓆩@rootface𒆜𒉭 TELEGRAM
+- allowInsecure: '1'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11,13,14|美国2|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  peer: www.nintendogames.net
+  port: 6604
+  security: tls
+  server: 18.162.232.155
+  servername: www.nintendogames.net
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: edge
+  fp: edge
+  name: 11,13,14|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  peer: t.me/ripaojiedian
+  port: 2702
+  security: tls
+  server: 95.40.68.150
+  servername: t.me%2Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国4|@ripaojiedian
@@ -35,14 +126,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|US_speednode_0050
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 15|US_speednode_0052
   password: BxceQaOe
   port: 2520
