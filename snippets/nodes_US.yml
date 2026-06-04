@@ -1,22 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  fp: safari
+- cipher: aes-128-gcm
   name: 11|🇺🇸 US-1 | Mix
-  network: ws
-  port: 10086
-  server: 107.148.185.16
-  tls: false
-  type: vmess
-  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  password: t6d26id0pjzdo3x5wtlf
+  port: 10878
+  server: 69.164.240.83
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 US-2 | Mix
+  password: 3px0wmx0e81145g568ga
+  port: 10880
+  server: 69.164.240.86
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  fp: firefox
-  name: 11|🇺🇸 US-2 | Mix
+  fp: qq
+  name: 11|🇺🇸 US-5 | Mix
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -24,9 +24,9 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - allowInsecure: '1'
-  client-fingerprint: qq
-  fp: qq
-  name: 11|🇺🇸 US-3 | Mix
+  client-fingerprint: ios
+  fp: ios
+  name: 11|🇺🇸 US-6 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 17801
@@ -39,7 +39,7 @@ proxies:
 - allowInsecure: '1'
   client-fingerprint: chrome
   fp: chrome
-  name: 11|🇺🇸 US-4 | Mix
+  name: 11|🇺🇸 US-7 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 17801
@@ -52,7 +52,7 @@ proxies:
 - allowInsecure: '1'
   client-fingerprint: chrome
   fp: chrome
-  name: 11|🇺🇸 US-5 | Mix
+  name: 11|🇺🇸 US-8 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 2702
@@ -64,8 +64,8 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-6 | Mix
+  fp: chrome
+  name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 8443
   server: yg7.ygkkk.dpdns.org
@@ -80,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   fp: safari
-  name: 11|🇺🇸 US-7 | Mix
+  name: 11|🇺🇸 US-10 | Mix
   network: ws
   port: 80
   server: 64.83.17.92
@@ -93,8 +93,8 @@ proxies:
     path: /𒉭𓆩@rootface𒆜𒉭 TELEGRAM
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-8 | Mix
+  fp: ios
+  name: 11|🇺🇸 US-11 | Mix
   network: tcp
   port: 180
   server: 82.198.246.37

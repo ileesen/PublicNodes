@@ -1,6 +1,18 @@
 proxies:
 - insecure: '1'
   name: 11|🇭🇰 HK-1 | Mix
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  servername: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  type: anytls
+- insecure: '1'
+  name: 11|🇭🇰 HK-2 | Mix
   password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
@@ -11,16 +23,9 @@ proxies:
     insecure: true
     server_name: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
   type: anytls
-- cipher: chacha20-ietf
-  name: 11|🇭🇰 HK-2 | Mix
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
-  udp: true
 - allowInsecure: '1'
-  client-fingerprint: qq
-  fp: qq
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇭🇰 HK-3 | Mix
   password: d84665c37878196ecf983cf6910e3b44
   peer: www.nintendogames.net
@@ -32,8 +37,8 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
+  client-fingerprint: chrome
+  fp: chrome
   name: 11,13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe

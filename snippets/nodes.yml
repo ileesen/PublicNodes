@@ -1,14 +1,16 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 11|🇭🇰 HK-2 | Mix
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 53229
+  server: 103.127.243.54
+  tls: false
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - allowInsecure: '1'
-  client-fingerprint: qq
-  fp: qq
+  fp: chrome
   name: 11|🇭🇰 HK-3 | Mix
   password: d84665c37878196ecf983cf6910e3b44
   peer: www.nintendogames.net
@@ -20,8 +22,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
+  fp: chrome
   name: 11,13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -33,24 +34,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  fp: safari
+- cipher: aes-128-gcm
   name: 11|🇺🇸 US-1 | Mix
-  network: ws
-  port: 10086
-  server: 107.148.185.16
-  tls: false
-  type: vmess
-  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  password: t6d26id0pjzdo3x5wtlf
+  port: 10878
+  server: 69.164.240.83
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 US-2 | Mix
+  password: 3px0wmx0e81145g568ga
+  port: 10880
+  server: 69.164.240.86
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  fp: firefox
-  name: 11|🇺🇸 US-2 | Mix
+  fp: qq
+  name: 11|🇺🇸 US-5 | Mix
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -58,9 +59,9 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - allowInsecure: '1'
-  client-fingerprint: qq
-  fp: qq
-  name: 11|🇺🇸 US-3 | Mix
+  client-fingerprint: ios
+  fp: ios
+  name: 11|🇺🇸 US-6 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 17801
@@ -72,7 +73,7 @@ proxies:
   type: trojan
 - allowInsecure: '1'
   fp: chrome
-  name: 11|🇺🇸 US-4 | Mix
+  name: 11|🇺🇸 US-7 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 17801
@@ -84,7 +85,7 @@ proxies:
   type: trojan
 - allowInsecure: '1'
   fp: chrome
-  name: 11|🇺🇸 US-5 | Mix
+  name: 11|🇺🇸 US-8 | Mix
   password: BxceQaOe
   peer: t.me/ripaojiedian
   port: 2702
@@ -96,8 +97,8 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-6 | Mix
+  fp: chrome
+  name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 8443
   server: yg7.ygkkk.dpdns.org
@@ -112,7 +113,7 @@ proxies:
 - alterId: 0
   cipher: auto
   fp: safari
-  name: 11|🇺🇸 US-7 | Mix
+  name: 11|🇺🇸 US-10 | Mix
   network: ws
   port: 80
   server: 64.83.17.92
@@ -125,87 +126,52 @@ proxies:
     path: /𒉭𓆩@rootface𒆜𒉭 TELEGRAM
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-8 | Mix
+  fp: ios
+  name: 11|🇺🇸 US-11 | Mix
   network: tcp
   port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: 11|🇩🇪 DE-2 | Mix
-  password: amazonskr05
-  port: 443
-  server: 18.159.210.129
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 11|🇩🇪 DE-3 | Mix
-  password: amazonskr05
-  port: 443
-  server: 3.79.104.163
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇩🇪 DE-1 | Mix
+  password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
+  port: 28655
+  server: 109.120.138.95
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 11|🇨🇦 CA-1 | Mix
   password: amazonskr05
   port: 443
-  server: 3.96.152.83
+  server: 3.99.174.90
   type: ss
   udp: true
-- allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
-  name: 11|🇪🇸 ES-1 | Mix
-  password: 2eutknankxtbgkwcajzt
-  peer: 193.148.19.210
-  port: 52794
-  security: tls
-  server: 193.148.19.210
-  servername: 193.148.19.210
-  skip-cert-verify: true
-  sni: 193.148.19.210
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: safari
-  fp: safari
-  name: 11|🇮🇪 IE-1 | Mix
-  password: t1k169n5zmvvwn96r9ft
-  peer: 146.70.90.198
-  port: 57452
-  security: tls
-  server: 146.70.90.198
-  servername: 146.70.90.198
-  skip-cert-verify: true
-  sni: 146.70.90.198
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: ios
+- cipher: aes-256-cfb
+  name: 11|🇨🇦 CA-2 | Mix
+  password: amazonskr05
+  port: 443
+  server: 35.183.93.91
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 11|🇨🇦 CA-3 | Mix
+  password: amazonskr05
+  port: 443
+  server: 15.223.63.40
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   fp: ios
-  name: 11|🇮🇸 IS-1 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: is.01.naiun.bilibili.com
-  port: 47909
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: edge
-  fp: edge
-  name: 11|🇮🇪 IE-2 | Mix
-  password: t1k169n5zmvvwn96r9ft
-  peer: 146.70.90.197
-  port: 57452
-  security: tls
-  server: 146.70.90.197
-  servername: 146.70.90.197
-  skip-cert-verify: true
-  sni: 146.70.90.197
-  type: trojan
+  name: 11|🇮🇪 IE-1 | Mix
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
