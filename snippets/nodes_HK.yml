@@ -1,31 +1,11 @@
 proxies:
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇭🇰 HK-3 | Mix
-  password: d84665c37878196ecf983cf6910e3b44
-  peer: www.nintendogames.net
-  port: 53018
-  security: tls
-  server: 18.181.199.223
-  servername: www.nintendogames.net
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: edge
-  fp: edge
-  name: 11,13,14|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  peer: t.me/ripaojiedian
-  port: 50712
-  security: tls
-  server: 18.183.163.141
-  servername: t.me%2Fripaojiedian
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- cipher: chacha20-ietf
+  name: 11|🇭🇰 HK-2 | Mix
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -48,6 +28,14 @@ proxies:
   password: BxceQaOe
   port: 40748
   server: 95.40.84.43
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 50712
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
