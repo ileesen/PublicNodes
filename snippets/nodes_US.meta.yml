@@ -197,18 +197,24 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: /@Marisa_kristi
-- insecure: '1'
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-1 | Mix
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 8443
-  server: f725445c-te24g0-twuk0i-1hzyr.sj.oshuawei.com
-  servername: f725445c-te24g0-twuk0i-1hzyr.sj.oshuawei.com
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: f725445c-te24g0-twuk0i-1hzyr.sj.oshuawei.com
-  type: anytls
+  network: ws
+  password: mitivpn
+  peer: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  port: 443
+  security: tls
+  server: 104.16.72.40
+  servername: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  skip-cert-verify: false
+  sni: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mItIvPN.glOBaL.ssl.mItIvPN.store
+    path: /https://chatgpt.com
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44

@@ -1,4 +1,22 @@
 proxies:
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  password: mitivpn
+  peer: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  port: 443
+  security: tls
+  server: 104.16.72.40
+  servername: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  skip-cert-verify: false
+  sni: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mItIvPN.glOBaL.ssl.mItIvPN.store
+    path: /https://chatgpt.com
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44

@@ -1,21 +1,20 @@
 proxies:
-- insecure: '1'
+- insecure: '0'
   name: 11|🇭🇰 HK-1 | Mix
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  password: db212b11-76a7-48d8-a848-1ea44f275d6c
   port: 443
-  server: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
-  servername: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
-  skip-cert-verify: true
+  server: hk3-lisa.vxrelay.xyz
+  skip-cert-verify: false
   tls:
     enabled: true
-    insecure: true
-    server_name: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
-  type: anytls
+    insecure: false
+    server_name: hk3.vxrelay.xyz
+  type: hysteria2
 - cipher: chacha20-ietf
   name: 11|🇭🇰 HK-2 | Mix
   password: asd123456
   port: 8388
-  server: 103.149.182.79
+  server: 103.149.183.113
   type: ss
   udp: true
 - alterId: 2

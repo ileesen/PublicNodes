@@ -89,20 +89,26 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: /@Marisa_kristi
-- cipher: aes-256-cfb
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  mode: multi
   name: 11|🇰🇷 KR-1 | Mix
-  password: qwerREWQ@@
-  port: 3417
-  server: 221.150.109.19
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 11|🇰🇷 KR-2 | Mix
-  password: qwerREWQ@@
-  port: 55104
-  server: 221.150.109.20
-  type: ss
-  udp: true
+  network: tcp
+  pbk: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+  port: 8899
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    server-name: www.lovelive-anime.jp
+    short-id: 11d27eb4
+  security: reality
+  server: 152.67.211.233
+  sid: 11d27eb4
+  sni: www.lovelive-anime.jp
+  spx: /
+  tls: true
+  type: vless
+  uuid: 02656f5e-7691-4851-98eb-d0cccc2a74f4
 - name: 15|KR_speednode_0018
   port: 1090
   server: 121.169.46.116
