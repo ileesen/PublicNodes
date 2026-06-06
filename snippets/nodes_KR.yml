@@ -1,8 +1,22 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 11|🇰🇷 KR-1 | Mix
+  name: 10|🇰🇷 KR-1 | Mix
   password: qwerREWQ@@
   port: 3417
   server: 221.150.109.19
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 10|🇰🇷 KR-2 | Mix
+  password: qwerREWQ@@
+  port: 55104
+  server: 221.150.109.20
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 10|🇰🇷 KR-3 | Mix
+  password: qwerREWQ@@
+  port: 43034
+  server: 218.50.149.114
   type: ss
   udp: true

@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 10|🇸🇪 SE-1 | Mix
+  network: tcp
+  pbk: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    server-name: www.microsoft.com
+    short-id: bdac121c7debdaba
+  security: reality
+  server: swe-8t.freeonline.pro
+  sid: bdac121c7debdaba
+  sni: www.microsoft.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0

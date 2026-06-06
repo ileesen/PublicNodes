@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 9|🇬🇧 GB-1 | 8EB
   network: ws
   port: 17071
   security: tls
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 9|🇬🇧 GB-2 | 8EB
   network: ws
   port: 433
   security: tls
@@ -38,7 +38,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-3 | 8EB
+  name: 9|🇬🇧 GB-3 | 8EB
   network: ws
   port: 15566
   security: tls
@@ -56,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-4 | 8EB
+  name: 9|🇬🇧 GB-4 | 8EB
   network: ws
   port: 15429
   security: tls
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇬🇧 GB-5 | 8EB
+  name: 9|🇬🇧 GB-5 | 8EB
   network: ws
   port: 30715
   security: tls
@@ -91,9 +91,9 @@ proxies:
     path: /@Marisa_kristi
 - encryption: none
   flow: xtls-rprx-vision
-  fp: chrome
+  fp: edge
   mode: multi
-  name: 11|🇬🇧 GB-1 | Mix
+  name: 10|🇬🇧 GB-1 | Mix
   network: tcp
   pbk: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
   port: 443
@@ -102,7 +102,7 @@ proxies:
     server-name: jp.s3-cloud.org
     short-id: 7a3f9e2b1c8d4f6a
   security: reality
-  server: 31.76.91.8
+  server: 31.76.91.9
   sid: 7a3f9e2b1c8d4f6a
   sni: jp.s3-cloud.org
   spx: /
@@ -111,9 +111,91 @@ proxies:
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - encryption: none
   flow: xtls-rprx-vision
+  fp: edge
+  mode: multi
+  name: 10|🇬🇧 GB-2 | Mix
+  network: tcp
+  pbk: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    server-name: jp.s3-cloud.org
+    short-id: 7a3f9e2b1c8d4f6a
+  security: reality
+  server: 31.76.91.14
+  sid: 7a3f9e2b1c8d4f6a
+  sni: jp.s3-cloud.org
+  spx: /
+  tls: true
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: gun
+  mode: multi
+  name: 10|🇬🇧 GB-3 | Mix
+  network: grpc
+  pbk: M7Fbj4cpSewk46U6Z_lHubMsu3l_4U6_znKxDScDiRg
+  port: 603
+  reality-opts:
+    public-key: M7Fbj4cpSewk46U6Z_lHubMsu3l_4U6_znKxDScDiRg
+    server-name: gallery.superportret.ru
+    short-id: 88eab7318ac7
+  security: reality
+  server: gallery.superportret.ru
+  serviceName: gun
+  sid: 88eab7318ac7
+  sni: gallery.superportret.ru
+  spx: /
+  tls: true
+  type: vless
+  uuid: 1ef7e301-42e9-47a7-bf57-b2e257ff995b
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇬🇧 GB-2 | Mix
+  name: 10|🇬🇧 GB-4 | Mix
+  network: tcp
+  pbk: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    server-name: mi.com
+    short-id: be0ce047
+  security: reality
+  server: 31.76.91.82
+  sid: be0ce047
+  sni: mi.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 10|🇬🇧 GB-5 | Mix
+  network: tcp
+  pbk: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    server-name: icloud.com
+    short-id: be0ce047
+  security: reality
+  server: 31.76.113.249
+  sid: be0ce047
+  sni: icloud.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 10|🇬🇧 GB-6 | Mix
   network: tcp
   pbk: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
   port: 443
@@ -122,16 +204,35 @@ proxies:
     server-name: it.s3-cloud.xyz
     short-id: 7a3f9e2b1c8d4f6a
   security: reality
-  server: 31.76.113.25
+  server: 31.76.113.51
   sid: 7a3f9e2b1c8d4f6a
   sni: it.s3-cloud.xyz
   spx: /
   tls: true
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- encryption: none
+  fp: chrome
+  mode: auto
+  name: 10|🇬🇧 GB-7 | Mix
+  network: xhttp
+  pbk: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+  port: 443
+  reality-opts:
+    public-key: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+    server-name: 5post-gate.x5.ru
+    short-id: a8f3c1d7e9b4c2f6
+  security: reality
+  server: 31.76.39.21
+  sid: a8f3c1d7e9b4c2f6
+  sni: 5post-gate.x5.ru
+  spx: /
+  tls: true
+  type: vless
+  uuid: 1d4b327f-110d-45c0-b1a0-0c5489789f33
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0013
+  name: 14|GB_speednode_0013
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -145,7 +246,7 @@ proxies:
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0014
+  name: 14|GB_speednode_0014
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -159,7 +260,7 @@ proxies:
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|GB_speednode_0015
+  name: 14|GB_speednode_0015
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY

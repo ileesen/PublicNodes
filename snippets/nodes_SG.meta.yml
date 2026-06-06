@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 7|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -10,7 +10,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
+  name: 9|🇸🇬 SG-1 | 8EB
   network: ws
   port: 35322
   security: tls
@@ -28,7 +28,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 9|🇸🇬 SG-2 | 8EB
   network: ws
   port: 20742
   security: tls
@@ -46,7 +46,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-3 | 8EB
+  name: 9|🇸🇬 SG-3 | 8EB
   network: ws
   port: 33284
   security: tls
@@ -64,7 +64,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-4 | 8EB
+  name: 9|🇸🇬 SG-4 | 8EB
   network: ws
   port: 31187
   security: tls
@@ -82,7 +82,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: 10|🇸🇬 SG-5 | 8EB
+  name: 9|🇸🇬 SG-5 | 8EB
   network: ws
   port: 10460
   security: tls
@@ -97,7 +97,20 @@ proxies:
     headers:
       Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
-- name: 13,14|新加坡|@ripaojiedian
+- insecure: '0'
+  name: 10|🇸🇬 SG-1 | Mix
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: sg2.yuntong.click
+  skip-cert-verify: false
+  tls:
+    enabled: true
+    insecure: false
+    server_name: sg2.yuntong.click
+  type: hysteria2
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 12143
@@ -105,7 +118,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
@@ -113,7 +126,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421

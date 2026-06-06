@@ -1,20 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇫🇷 FR-1 | Mix
-  network: ws
-  port: 2083
-  security: tls
-  server: solar.appleseraj.ir
-  servername: fruumonta.appleseraj.ir
-  skip-cert-verify: false
-  sni: fruumonta.appleseraj.ir
+  name: 10|🇫🇷 FR-1 | Mix
+  network: tcp
+  pbk: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
+  port: 44520
+  reality-opts:
+    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
+    server-name: yahoo.com
+    short-id: 8897c56a495b26cc
+  security: reality
+  server: 51.44.25.250
+  sid: 8897c56a495b26cc
+  sni: yahoo.com
+  spx: /
   tls: true
   type: vless
-  uuid: 4b76e80a-bde6-411f-a150-7d78f5de4c4f
-  ws-opts:
-    headers:
-      Host: fruumonta.appleseraj.ir
-    path: /?ed=2048
+  uuid: acd726d3-0128-44d8-a575-21013ff7740a
