@@ -1,27 +1,16 @@
 proxies:
-- insecure: '0'
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
   name: 11|🇨🇭 CH-1 | Mix
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
+  network: tcp
   port: 443
-  server: 195.15.254.245
+  security: tls
+  server: 195.15.253.119
+  servername: free2.masir-sefid-1.my
   skip-cert-verify: false
-  tls:
-    enabled: true
-    insecure: false
-    server_name: free.masir-sefid-1.my
-  type: hysteria2
-- insecure: '0'
-  name: 11|🇨🇭 CH-2 | Mix
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 444
-  server: 195.15.254.245
-  skip-cert-verify: false
-  tls:
-    enabled: true
-    insecure: false
-    server_name: free.masir-sefid-1.my
-  type: hysteria2
+  sni: free2.masir-sefid-1.my
+  tls: true
+  type: vless
+  uuid: e72dfecf-7d26-4065-94cc-3fc6ce2d8314

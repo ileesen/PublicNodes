@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇫🇷 FR-1 | Mix
+  network: ws
+  port: 2083
+  security: tls
+  server: solar.appleseraj.ir
+  servername: fruumonta.appleseraj.ir
+  skip-cert-verify: false
+  sni: fruumonta.appleseraj.ir
+  tls: true
+  type: vless
+  uuid: 4b76e80a-bde6-411f-a150-7d78f5de4c4f
+  ws-opts:
+    headers:
+      Host: fruumonta.appleseraj.ir
+    path: /?ed=2048

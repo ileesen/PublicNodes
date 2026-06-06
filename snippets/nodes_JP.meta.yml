@@ -14,15 +14,15 @@ proxies:
   port: 4443
   security: tls
   server: 54.178.110.17
-  servername: oia8or7k8rs5.zrf.xx.kg
+  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
   skip-cert-verify: false
-  sni: oia8or7k8rs5.zrf.xx.kg
+  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
+      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -32,15 +32,15 @@ proxies:
   port: 51055
   security: tls
   server: 45.12.89.124
-  servername: oia8or7k8rs5.zrf.xx.kg
+  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
   skip-cert-verify: false
-  sni: oia8or7k8rs5.zrf.xx.kg
+  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
+      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -50,15 +50,15 @@ proxies:
   port: 56788
   security: tls
   server: 212.135.210.133
-  servername: oia8or7k8rs5.zrf.xx.kg
+  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
   skip-cert-verify: false
-  sni: oia8or7k8rs5.zrf.xx.kg
+  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
+      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -68,15 +68,15 @@ proxies:
   port: 13236
   security: tls
   server: 45.143.234.26
-  servername: oia8or7k8rs5.zrf.xx.kg
+  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
   skip-cert-verify: false
-  sni: oia8or7k8rs5.zrf.xx.kg
+  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
+      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -86,15 +86,15 @@ proxies:
   port: 42769
   security: tls
   server: 45.143.131.216
-  servername: oia8or7k8rs5.zrf.xx.kg
+  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
   skip-cert-verify: false
-  sni: oia8or7k8rs5.zrf.xx.kg
+  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
+      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
     path: /@Marisa_kristi
 - allowInsecure: '0'
   client-fingerprint: chrome
@@ -103,15 +103,28 @@ proxies:
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   peer: dxy1h.twiladaphne.ndjp.net
-  port: 8443
+  port: 443
   security: tls
-  server: 47.245.62.4
+  server: 18.183.224.152
   servername: dxy1h.twiladaphne.ndjp.net
   skip-cert-verify: false
   sni: dxy1h.twiladaphne.ndjp.net
   type: trojan
   ws-opts:
+    headers:
+      Host: dxy1h.twiladaphne.ndjp.net
     path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- insecure: '1'
+  name: 11|🇯🇵 JP-2 | Mix
+  password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+  port: 37292
+  server: 154.16.248.199
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: akjp.fe-9.top
+  type: hysteria2
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

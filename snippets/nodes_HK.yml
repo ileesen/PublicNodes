@@ -1,11 +1,17 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 11|🇭🇰 HK-4 | Mix
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  type: ss
-  udp: true
+- allowInsecure: '1'
+  client-fingerprint: qq
+  fp: qq
+  name: 11|🇭🇰 HK-1 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: fr.01.naiun.bilibili.com
+  port: 45619
+  security: tls
+  server: 155.117.198.83
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
