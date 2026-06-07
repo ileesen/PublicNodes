@@ -1,8 +1,8 @@
 proxies:
 - allowInsecure: '1'
-  client-fingerprint: ios
-  fp: ios
-  name: 10|🇩🇪 DE-2 | Mix
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇩🇪 DE-2 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -15,7 +15,7 @@ proxies:
 - allowInsecure: '1'
   client-fingerprint: ios
   fp: ios
-  name: 10|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -26,9 +26,9 @@ proxies:
   sni: de.01.naiun.bilibili.com
   type: trojan
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
-  name: 10|🇩🇪 DE-4 | Mix
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇩🇪 DE-4 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -38,7 +38,19 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: 14|DE_speednode_0011
+- client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇩🇪 DE-8 | Mix
+  password: fewD0kvv8M
+  pbk: dn3xkbf65rxTbh2tRA-k7MQ6C-MdAVVHv0cR6kpMLUY
+  port: 1152
+  security: reality
+  server: sv-free.n2buy.ir
+  servername: yahoo.com
+  skip-cert-verify: false
+  sni: yahoo.com
+  type: trojan
+- name: 15|DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
   server: de-1.hysteria.ltd
