@@ -1,55 +1,14 @@
 proxies:
-- allowInsecure: '1'
-  client-fingerprint: safari
-  fp: safari
-  name: 11|🇩🇪 DE-2 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: ios
-  fp: ios
-  name: 11|🇩🇪 DE-3 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 155.117.198.86
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: safari
-  fp: safari
+- alterId: 0
+  cipher: auto
+  fp: qq
   name: 11|🇩🇪 DE-4 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 155.117.198.83
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇩🇪 DE-8 | Mix
-  password: fewD0kvv8M
-  pbk: dn3xkbf65rxTbh2tRA-k7MQ6C-MdAVVHv0cR6kpMLUY
-  port: 1152
-  security: reality
-  server: sv-free.n2buy.ir
-  servername: yahoo.com
-  skip-cert-verify: false
-  sni: yahoo.com
-  type: trojan
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - name: 15|DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

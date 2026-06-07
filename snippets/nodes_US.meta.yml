@@ -205,12 +205,133 @@ proxies:
     headers:
       Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
     path: /@Marisa_kristi
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 18.179.140.180
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
+  ws-opts:
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 64.186.228.41
+  servername: vl.hhll.qqs.me
+  skip-cert-verify: false
+  sni: vl.hhll.qqs.me
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 64.186.227.44
+  servername: vl.hhll.qqs.me
+  skip-cert-verify: false
+  sni: vl.hhll.qqs.me
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇺🇸 US-1 | Mix
+  name: 11|🇺🇸 US-4 | Mix
+  network: tcp
+  port: 22231
+  security: tls
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  sni: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇺🇸 US-5 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 69.63.193.64
+  servername: vl.hhll.qqs.me
+  skip-cert-verify: false
+  sni: vl.hhll.qqs.me
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 154.17.2.59
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
+  ws-opts:
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 154.21.92.214
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
+  ws-opts:
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇺🇸 US-8 | Mix
   network: tcp
   port: 22231
   security: tls
@@ -221,124 +342,25 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  mode: multi
-  name: 11|🇺🇸 US-2 | Mix
-  network: tcp
-  port: 443
-  security: tls
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  sni: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  fp: chrome
-  name: 11,14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇺🇸 US-5 | Mix
-  network: tcp
-  port: 22231
-  security: tls
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  sni: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
-  name: 11|🇺🇸 US-6 | Mix
-  network: tcp
-  pbk: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    server-name: www.microsoft.com
-    short-id: d82fb387
-  security: reality
-  server: 167.104.223.57
-  sid: d82fb387
-  sni: www.microsoft.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: auto
-  name: 11|🇺🇸 US-7 | Mix
-  network: xhttp
-  port: 443
-  security: tls
-  server: cfa.sororain.com
-  servername: usbad.osaip.net
-  skip-cert-verify: false
-  sni: usbad.osaip.net
-  tls: true
-  type: vless
-  uuid: 454645a8-1fe0-4588-acd6-3786dcf8355e
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: auto
-  name: 11|🇺🇸 US-8 | Mix
-  network: xhttp
-  port: 443
-  security: tls
-  server: cfc.sororain.com
-  servername: usbad.osaip.net
-  skip-cert-verify: false
-  sni: usbad.osaip.net
-  tls: true
-  type: vless
-  uuid: 454645a8-1fe0-4588-acd6-3786dcf8355e
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: auto
   name: 11|🇺🇸 US-9 | Mix
-  network: xhttp
+  network: ws
   port: 443
   security: tls
-  server: cfd.sororain.com
-  servername: usbad.osaip.net
+  server: 69.63.193.100
+  servername: vl.hhll.qqs.me
   skip-cert-verify: false
-  sni: usbad.osaip.net
+  sni: vl.hhll.qqs.me
   tls: true
   type: vless
-  uuid: 454645a8-1fe0-4588-acd6-3786dcf8355e
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
@@ -347,137 +369,161 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 129.6.29.252
-  servername: r.mediashoppp.sbs
+  server: 154.26.181.78
+  servername: vl.hhll.qqs.me
   skip-cert-verify: false
-  sni: r.mediashoppp.sbs
+  sni: vl.hhll.qqs.me
   tls: true
   type: vless
-  uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: r.meDiASHOPPp.sbS
-    path: /eyJqdW5rIjoiVVpPeXNodUFQMHNVcU12aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-- encryption: none
-  mode: multi
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-11 | Mix
   network: ws
-  port: 80
-  server: cf.0sm.com
-  type: vless
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 64.186.229.220
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
   ws-opts:
-    headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-    path: /?ed=2048
-- encryption: none
-  mode: multi
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-12 | Mix
   network: ws
-  port: 2082
-  server: 104.17.109.71
-  type: vless
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 154.17.233.100
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
   ws-opts:
     headers:
-      Host: index.arcane509.workers.dev
-    path: /jeyk7gbxzfe1
-- encryption: none
-  mode: multi
+      Host: tj.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-13 | Mix
   network: ws
-  port: 2052
-  server: 104.17.95.220
-  type: vless
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 69.63.216.10
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
   ws-opts:
     headers:
-      Host: index.arcane509.workers.dev
-    path: /7u2613qopnft
-- encryption: none
+      Host: tj.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
   mode: multi
   name: 11|🇺🇸 US-14 | Mix
   network: ws
-  port: 8880
-  server: 185.193.29.40
+  port: 443
+  security: tls
+  server: 104.16.72.70
+  servername: unnes.ac.id.r3xxe.eu.cc
+  skip-cert-verify: false
+  sni: unnes.ac.id.r3xxe.eu.cc
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 0799a47d-d446-4a20-8e75-441fa899fbb1
   ws-opts:
     headers:
-      Host: vms.lifetime08.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- encryption: none
-  mode: multi
+      Host: unnes.ac.id.r3xxe.eu.cc
+    path: /id-pusat
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-15 | Mix
   network: ws
-  port: 8880
-  server: 89.116.161.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 154.21.95.165
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
   ws-opts:
     headers:
-      Host: vms.lifetime08.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- encryption: none
-  mode: multi
+      Host: tj.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-16 | Mix
   network: ws
-  port: 2086
-  server: 104.16.72.113
-  type: vless
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  peer: tj.hhll.qqs.me
+  port: 443
+  security: tls
+  server: 64.186.251.142
+  servername: tj.hhll.qqs.me
+  skip-cert-verify: false
+  sni: tj.hhll.qqs.me
+  type: trojan
   ws-opts:
     headers:
-      Host: index.arcane509.workers.dev
-    path: /9om0kfpk0v09
-- encryption: none
-  mode: multi
+      Host: tj.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-17 | Mix
   network: ws
-  port: 8880
-  server: 69.84.182.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: 3b91d95b-0478-451a-a372-4f417417f650
+  peer: unnes.ac.id.r3xxe.eu.cc
+  port: 443
+  security: tls
+  server: 216.24.57.6
+  servername: unnes.ac.id.r3xxe.eu.cc
+  skip-cert-verify: false
+  sni: unnes.ac.id.r3xxe.eu.cc
+  type: trojan
   ws-opts:
     headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- encryption: none
+      Host: unnes.ac.id.r3xxe.eu.cc
+    path: /br-orcl
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
   mode: multi
   name: 11|🇺🇸 US-18 | Mix
   network: ws
-  port: 8880
-  server: 72.167.25.30
+  port: 443
+  security: tls
+  server: 64.186.227.57
+  servername: vl.hhll.qqs.me
+  skip-cert-verify: false
+  sni: vl.hhll.qqs.me
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: vms.lifetime50.workers.dev
-    path: /
-- encryption: none
-  mode: multi
-  name: 11|🇺🇸 US-19 | Mix
-  network: ws
-  port: 8880
-  server: 104.238.68.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime47.workers.dev
-    path: /
-- encryption: none
-  mode: multi
-  name: 11|🇺🇸 US-20 | Mix
-  network: ws
-  port: 8880
-  server: 31.185.108.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime23.workers.dev
-    path: /
+      Host: vl.hhll.qqs.me
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -500,6 +546,16 @@ proxies:
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
