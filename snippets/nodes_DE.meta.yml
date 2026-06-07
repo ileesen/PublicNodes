@@ -17,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 54040
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
@@ -117,147 +107,32 @@ proxies:
     headers:
       Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
     path: /@Marisa_kristi
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
+- insecure: '1'
   name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  pbk: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    server-name: ads.x5.ru
-    short-id: 2f49bccf11150ef2
-  security: reality
-  server: de.riotvpn.eu
-  sid: 2f49bccf11150ef2
-  sni: ads.x5.ru
-  spx: /
-  tls: true
-  type: vless
-  uuid: ec5e0aed-c265-4f02-9142-8ec76ee50ceb
-- encryption: none
-  mode: multi
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: vpn-de-002.fastervpn.world
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: auto
   name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 80
-  server: 172.67.135.254
-  type: vless
-  uuid: 22c15b3f-e205-48e2-9b30-1a2c3480e7b2
-  ws-opts:
-    headers:
-      Host: sRv63.hAMiIbaR.CoM
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2083
-  security: tls
-  server: 192.0.63.255
-  servername: liz1.jooje.lat
-  skip-cert-verify: false
-  sni: liz1.jooje.lat
-  tls: true
-  type: vless
-  uuid: b68fcee1-24c3-4213-b4bf-e70674c38e4e
-  ws-opts:
-    headers:
-      Host: liz1.jooje.lat
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  fp: qq
-  name: 11|🇩🇪 DE-4 | Mix
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-5 | Mix
-  network: ws
-  port: 2083
-  security: tls
-  server: tir1.tradeacademyiranian.org
-  servername: liz1.jafarparty.lat
-  skip-cert-verify: false
-  sni: liz1.jafarparty.lat
-  tls: true
-  type: vless
-  uuid: b68fcee1-24c3-4213-b4bf-e70674c38e4e
-  ws-opts:
-    headers:
-      Host: liz1.jafarparty.lat
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: auto
-  name: 11|🇩🇪 DE-6 | Mix
   network: xhttp
-  port: 2087
+  port: 443
   security: tls
-  server: 172.66.213.38
-  servername: toshirpilafkani-torostamtahamtani.mgwarrior.ir
+  server: sy2.syragame.com
+  servername: sy.syragame.com
   skip-cert-verify: false
-  sni: toshirpilafkani-torostamtahamtani.mgwarrior.ir
+  sni: sy.syragame.com
   tls: true
   type: vless
-  uuid: b38d6372-5e65-427c-b7e0-414c0ccc9973
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: auto
-  name: 11|🇩🇪 DE-7 | Mix
-  network: xhttp
-  port: 2087
-  security: tls
-  server: 188.114.97.6
-  servername: toshirpilafkani-torostamtahamtani.mgwarrior.ir
-  skip-cert-verify: false
-  sni: toshirpilafkani-torostamtahamtani.mgwarrior.ir
-  tls: true
-  type: vless
-  uuid: b38d6372-5e65-427c-b7e0-414c0ccc9973
-- encryption: none
-  mode: multi
-  name: 11|🇩🇪 DE-8 | Mix
-  network: ws
-  port: 80
-  server: love.ns.cloudflare.com
-  type: vless
-  uuid: 22c15b3f-e205-48e2-9b30-1a2c3480e7b2
-  ws-opts:
-    headers:
-      Host: sRv16.hAMiIbaR.CoM
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-9 | Mix
-  network: ws
-  port: 2083
-  security: tls
-  server: web.subster.ir
-  servername: chIKArMiKoNi.X-UpLoAd.oRG
-  skip-cert-verify: false
-  sni: chIKArMiKoNi.X-UpLoAd.oRG
-  tls: true
-  type: vless
-  uuid: 373209d7-c464-4ad3-9027-07e94afad7d5
-  ws-opts:
-    headers:
-      Host: chIKArMiKoNi.X-UpLoAd.oRG
-    path: /?ed=2048
+  uuid: de92dc6a-4eed-4888-9077-1fc006ad339d
 - name: 15|DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

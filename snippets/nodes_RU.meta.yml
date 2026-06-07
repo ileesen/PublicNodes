@@ -1,28 +1,19 @@
 proxies:
-- insecure: '0'
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: auto
   name: 11|🇷🇺 RU-1 | Mix
-  obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  port: 9443
-  server: 80.66.81.78
+  network: xhttp
+  port: 80
+  security: tls
+  server: ru.riotvpn.eu
+  servername: obhod.riotvpn.eu
   skip-cert-verify: false
-  tls:
-    enabled: true
-    insecure: false
-    server_name: tunel1.washing.help
-  type: hysteria2
-- insecure: '0'
-  name: 11|🇷🇺 RU-2 | Mix
-  password: b880e510-8196-44bb-b715-781a9461b4a0
-  port: 8443
-  server: aestheticperforator.ru
-  skip-cert-verify: false
-  tls:
-    enabled: true
-    insecure: false
-    server_name: aestheticperforator.ru
-  type: hysteria2
+  sni: obhod.riotvpn.eu
+  tls: true
+  type: vless
+  uuid: bd78d4ee-c068-4125-94ba-50814578dc41
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|RU_speednode_0039
