@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- encryption: none
+  fp: chrome
+  mode: auto
+  name: 11|🇸🇪 SE-1 | Mix
+  network: xhttp
+  pbk: MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI
+  port: 443
+  reality-opts:
+    public-key: MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI
+    server-name: www.amd.com
+    short-id: ''
+  security: reality
+  server: 143.14.50.249
+  sni: www.amd.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: bae2fd3a-55fb-4094-99f6-c94e25d7d15d
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇸🇪 SE-2 | Mix
+  network: tcp
+  pbk: Le9PPFU9i84RoMbwcw1aKVG5qDMWsmO2bczmjSN1Fkw
+  port: 9443
+  reality-opts:
+    public-key: Le9PPFU9i84RoMbwcw1aKVG5qDMWsmO2bczmjSN1Fkw
+    server-name: api-maps.yandex.ru
+    short-id: 2ed7a557b4ebab2f
+  security: reality
+  server: 51.250.45.152
+  sid: 2ed7a557b4ebab2f
+  sni: api-maps.yandex.ru
+  spx: /
+  tls: true
+  type: vless
+  uuid: 22e456e0-6538-4fb7-9c1a-70fb50514251

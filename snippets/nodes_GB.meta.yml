@@ -89,26 +89,118 @@ proxies:
     headers:
       Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
     path: /@Marisa_kristi
-- allowInsecure: '1'
-  client-fingerprint: safari
+- client-fingerprint: chrome
   encryption: none
-  fp: safari
-  mode: multi
+  fp: chrome
+  mode: auto
   name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  port: 443
+  network: xhttp
+  port: 8443
   security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: true
-  sni: do-lon1.862400.xyz
+  server: alicdn.devefunx.net
+  servername: alicdn.devefunx.net
+  skip-cert-verify: false
+  sni: alicdn.devefunx.net
   tls: true
   type: vless
-  uuid: efdbf609-cee9-4031-bca8-9327de267a2d
+  uuid: 72ffd43a-b860-43b9-a4b6-f3eae3ffeda0
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇬🇧 GB-2 | Mix
+  network: tcp
+  pbk: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    server-name: it.s3-cloud.xyz
+    short-id: 7a3f9e2b1c8d4f6a
+  security: reality
+  server: 31.76.113.116
+  sid: 7a3f9e2b1c8d4f6a
+  sni: it.s3-cloud.xyz
+  spx: /
+  tls: true
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇬🇧 GB-3 | Mix
+  network: tcp
+  pbk: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
+  port: 47200
+  reality-opts:
+    public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
+    server-name: stats.vk-portal.net
+    short-id: b2a9bd658fc81dc6
+  security: reality
+  server: 152.114.193.11
+  sid: b2a9bd658fc81dc6
+  sni: stats.vk-portal.net
+  spx: /
+  tls: true
+  type: vless
+  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇬🇧 GB-4 | Mix
+  network: tcp
+  pbk: UvWE5ogL8Y1M6R0sdu66xOidqDHeKowK-yXIqfByuG0
+  port: 443
+  reality-opts:
+    public-key: UvWE5ogL8Y1M6R0sdu66xOidqDHeKowK-yXIqfByuG0
+    server-name: fin.pandaonline.org
+    short-id: ''
+  security: reality
+  server: fin.pandaonline.org
+  sni: fin.pandaonline.org
+  spx: /
+  tls: true
+  type: vless
+  uuid: 66d3f133-9849-4a16-b835-7b4f82046fda
+- encryption: none
+  fp: chrome
+  mode: auto
+  name: 11|🇬🇧 GB-5 | Mix
+  network: xhttp
+  pbk: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+  port: 443
+  reality-opts:
+    public-key: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+    server-name: 5post-gate.x5.ru
+    short-id: a8f3c1d7e9b4c2f6
+  security: reality
+  server: 31.76.39.21
+  sid: a8f3c1d7e9b4c2f6
+  sni: 5post-gate.x5.ru
+  spx: /
+  tls: true
+  type: vless
+  uuid: 1d4b327f-110d-45c0-b1a0-0c5489789f33
+- encryption: none
+  mode: multi
+  name: 11|🇬🇧 GB-6 | Mix
+  network: ws
+  port: 2048
+  server: osre3.jykvpn.com
+  type: vless
+  uuid: 372a64ab-298d-4b4f-abc1-9b3fbe242bc3
   ws-opts:
     headers:
-      Host: do-lon1.862400.xyz
-    path: /announcement?ed=2048
+      Host: ads.x5.ru
+    path: /
+- cipher: aes-128-gcm
+  name: 11|🇬🇧 GB-7 | Mix
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|GB_speednode_0013

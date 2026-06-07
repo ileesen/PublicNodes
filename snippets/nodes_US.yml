@@ -1,4 +1,43 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  fp: safari
+  name: 11,14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  fp: edge
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- allowInsecure: '1'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  password: dbyec1mkz198dzk9
+  peer: default.ssl.fastly.net
+  port: 443
+  security: tls
+  server: 151.101.108.223
+  servername: default.ssl.fastly.net
+  skip-cert-verify: true
+  sni: default.ssl.fastly.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nleiyajji.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -21,16 +60,6 @@ proxies:
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

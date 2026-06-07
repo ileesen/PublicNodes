@@ -108,6 +108,29 @@ proxies:
     insecure: true
     server_name: sg1.shiyuandian.shop
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇸🇬 SG-2 | Mix
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- insecure: '0'
+  name: 11|🇸🇬 SG-3 | Mix
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: sg2.yuntong.click
+  skip-cert-verify: false
+  tls:
+    enabled: true
+    insecure: false
+    server_name: sg2.yuntong.click
+  type: hysteria2
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
