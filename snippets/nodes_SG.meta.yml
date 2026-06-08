@@ -97,28 +97,8 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  pbk: 3r4wYm2KaeRLbvchgFhhCNvY1qeM3-fUz91UrX5kry8
-  port: 35349
-  reality-opts:
-    public-key: 3r4wYm2KaeRLbvchgFhhCNvY1qeM3-fUz91UrX5kry8
-    server-name: www.amazon.com
-    short-id: 4806f5b119797c
-  security: reality
-  server: 52.76.240.5
-  sid: 4806f5b119797c
-  sni: www.amazon.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 66031b35-3a36-4fc1-9225-b7c39a7b4453
 - insecure: '1'
-  name: 11|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   password: ae845cbd-08fb-4346-929a-e28a6f3960a8
   port: 2056
   server: sg1.shiyuandian.shop
@@ -128,19 +108,36 @@ proxies:
     insecure: true
     server_name: sg1.shiyuandian.shop
   type: hysteria2
-- insecure: '1'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇸🇬 SG-2 | Mix
+  network: tcp
+  pbk: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+  port: 8899
+  reality-opts:
+    public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+    server-name: www.lovelive-anime.jp
+    short-id: f0cce996
+  security: reality
+  server: 168.138.166.89
+  sid: f0cce996
+  sni: www.lovelive-anime.jp
+  spx: /
+  tls: true
+  type: vless
+  uuid: 46eadc95-b3ff-4060-8504-98d3d4032110
+- alterId: 0
+  cipher: auto
+  fp: edge
   name: 11|🇸🇬 SG-3 | Mix
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 50000
-  server: sg.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: sg.9966690.xyz
-  type: hysteria2
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
   fp: chrome
   mode: multi
@@ -153,7 +150,7 @@ proxies:
     server-name: www.apple.com
     short-id: 628b3c90c98ead4f
   security: reality
-  server: 13.212.46.54
+  server: 13.251.60.118
   sid: 628b3c90c98ead4f
   sni: www.apple.com
   spx: /
