@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 2053
+  server: 51.75.69.164
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇩🇪 DE-4 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: de.01.naiun.bilibili.com
+  port: 46424
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan

@@ -6,18 +6,37 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- allowInsecure: '1'
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: 141.193.213.21
+  servername: r3xxe.eu.cc
+  skip-cert-verify: false
+  sni: r3xxe.eu.cc
+  tls: true
+  type: vless
+  uuid: d76772de-957c-4b4e-aee0-de6802cd16d0
+  ws-opts:
+    headers:
+      Host: r3xxe.eu.cc
+    path: /au-do
+- allowInsecure: '0'
   client-fingerprint: chrome
   fp: chrome
-  name: 11|🇭🇰 HK-1 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
+  name: 11|🇭🇰 HK-2 | Mix
+  password: 825929f4-c702-35ce-9124-00d3f95b8c32
+  peer: hh4.sonofthewinds.com
+  port: 34436
   security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
+  server: adak.sonofthewinds.com
+  servername: hh4.sonofthewinds.com
+  skip-cert-verify: false
+  sni: hh4.sonofthewinds.com
   type: trojan
 - alterId: 2
   cipher: auto

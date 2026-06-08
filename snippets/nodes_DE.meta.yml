@@ -128,11 +128,74 @@ proxies:
     insecure: true
     server_name: www.bing.com
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 2053
+  server: 51.75.69.164
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
+  name: 11|🇩🇪 DE-3 | Mix
+  network: ws
+  port: 8443
+  security: tls
+  server: 216.24.57.73
+  servername: peachboiling.ticklitickli.ir
+  skip-cert-verify: false
+  sni: peachboiling.ticklitickli.ir
+  tls: true
+  type: vless
+  uuid: 6acba864-e006-426b-a480-98f12c21b0f1
+  ws-opts:
+    headers:
+      Host: peachboiling.ticklitickli.ir
+    path: /
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇩🇪 DE-4 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: de.01.naiun.bilibili.com
+  port: 46424
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  pbk: _M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY
+  port: 443
+  reality-opts:
+    public-key: _M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY
+    server-name: lada.mycdn-me.ru
+    short-id: '73'
+  security: reality
+  server: 2.26.135.131
+  sid: '73'
+  sni: lada.mycdn-me.ru
+  spx: /
+  tls: true
+  type: vless
+  uuid: 0a963275-4865-452b-8d65-ac67344f913a
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇩🇪 DE-6 | Mix
   network: tcp
   pbk: 0d6fEYI5nZ_puQdJ5J9Sn7ExAs53DZzbpfxghHt_u2E
   port: 443

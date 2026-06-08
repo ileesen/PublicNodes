@@ -97,8 +97,28 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- insecure: '1'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
   name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  pbk: 3r4wYm2KaeRLbvchgFhhCNvY1qeM3-fUz91UrX5kry8
+  port: 35349
+  reality-opts:
+    public-key: 3r4wYm2KaeRLbvchgFhhCNvY1qeM3-fUz91UrX5kry8
+    server-name: www.amazon.com
+    short-id: 4806f5b119797c
+  security: reality
+  server: 52.76.240.5
+  sid: 4806f5b119797c
+  sni: www.amazon.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 66031b35-3a36-4fc1-9225-b7c39a7b4453
+- insecure: '1'
+  name: 11|🇸🇬 SG-2 | Mix
   password: ae845cbd-08fb-4346-929a-e28a6f3960a8
   port: 2056
   server: sg1.shiyuandian.shop
@@ -108,10 +128,23 @@ proxies:
     insecure: true
     server_name: sg1.shiyuandian.shop
   type: hysteria2
+- insecure: '1'
+  name: 11|🇸🇬 SG-3 | Mix
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 50000
+  server: sg.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: sg.9966690.xyz
+  type: hysteria2
 - encryption: none
   fp: chrome
   mode: multi
-  name: 11|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-4 | Mix
   network: tcp
   pbk: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
   port: 8686

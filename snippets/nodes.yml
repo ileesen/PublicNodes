@@ -1,7 +1,48 @@
 proxies:
-- allowInsecure: '1'
+- allowInsecure: '0'
   fp: chrome
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
+  password: 825929f4-c702-35ce-9124-00d3f95b8c32
+  peer: hh4.sonofthewinds.com
+  port: 34436
+  security: tls
+  server: adak.sonofthewinds.com
+  servername: hh4.sonofthewinds.com
+  skip-cert-verify: false
+  sni: hh4.sonofthewinds.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  fp: safari
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇹🇼 TW-1 | Mix
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 2053
+  server: 51.75.69.164
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇩🇪 DE-4 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -11,30 +52,34 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  fp: edge
-  name: 11,14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  fp: firefox
-  name: 11|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - allowInsecure: '1'
   client-fingerprint: ios
   fp: ios
+  name: 11|🇫🇷 FR-1 | Mix
+  password: telegram-id-privatevpns
+  peer: trojan.burgerip.co.uk
+  port: 22222
+  security: tls
+  server: 15.236.237.21
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  name: 11|🇫🇷 FR-2 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: fr.01.naiun.bilibili.com
+  port: 45619
+  security: tls
+  server: 155.117.198.83
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
   name: 11|🇬🇭 GH-1 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: gh.01.naiun.bilibili.com
@@ -45,16 +90,6 @@ proxies:
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  fp: ios
-  name: 11|🇮🇪 IE-1 | Mix
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 11|🇦🇪 AE-1 | Mix
   password: _TusuE5i0EzyvWsQuTiKMMr_j_sduu2E
@@ -192,3 +227,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

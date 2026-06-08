@@ -205,32 +205,44 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  fp: edge
-  name: 11,14|美国4|@ripaojiedian
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇺🇸 US-1 | Mix
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- insecure: '1'
+  port: 22231
+  security: tls
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  sni: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  mode: multi
   name: 11|🇺🇸 US-2 | Mix
-  password: f7d95364-607b-11ee-93af-f23c91369f2d
-  port: 8443
-  server: 692bfde9-tekn40-tv7zgh-1ijh5.sj.oshuawei.com
-  servername: 692bfde9-tekn40-tv7zgh-1ijh5.sj.oshuawei.com
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: 692bfde9-tekn40-tv7zgh-1ijh5.sj.oshuawei.com
-  type: anytls
+  network: ws
+  port: 443
+  security: tls
+  server: 199.232.78.159
+  servername: default.ssl.fastly.net
+  skip-cert-verify: false
+  sni: default.ssl.fastly.net
+  tls: true
+  type: vless
+  uuid: b2bfb4f3-f4c3-4323-9810-a086fef2f25d
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /
 - alterId: 0
   cipher: auto
-  fp: firefox
+  fp: safari
   name: 11|🇺🇸 US-3 | Mix
   network: tcp
   port: 180
@@ -268,6 +280,16 @@ proxies:
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
