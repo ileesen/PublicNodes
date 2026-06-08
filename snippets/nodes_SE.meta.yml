@@ -1,39 +1,37 @@
 proxies:
 - encryption: none
   fp: chrome
-  mode: auto
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  mode: multi
   name: 11|🇸🇪 SE-1 | Mix
-  network: xhttp
-  pbk: MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI
+  network: grpc
+  pbk: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
   port: 443
   reality-opts:
-    public-key: MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI
-    server-name: www.amd.com
-    short-id: ''
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    server-name: se.moktana.app
+    short-id: 2e9f4c7b1a8d6e3f
   security: reality
-  server: 143.14.50.249
-  sni: www.amd.com
+  server: ser.moktana.app
+  serviceName: moktana.net.v1.StreamService
+  sid: 2e9f4c7b1a8d6e3f
+  sni: se.moktana.app
   spx: /
   tls: true
   type: vless
-  uuid: bae2fd3a-55fb-4094-99f6-c94e25d7d15d
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
-  name: 11|🇸🇪 SE-2 | Mix
-  network: tcp
-  pbk: Le9PPFU9i84RoMbwcw1aKVG5qDMWsmO2bczmjSN1Fkw
-  port: 9443
-  reality-opts:
-    public-key: Le9PPFU9i84RoMbwcw1aKVG5qDMWsmO2bczmjSN1Fkw
-    server-name: api-maps.yandex.ru
-    short-id: 2ed7a557b4ebab2f
-  security: reality
-  server: 51.250.45.152
-  sid: 2ed7a557b4ebab2f
-  sni: api-maps.yandex.ru
-  spx: /
-  tls: true
+  uuid: fde8f78b-ec9b-4047-b288-d712f2d6c08d
+- name: 15|SE_speednode_0051
+  network: ws
+  port: 2086
+  server: main.saforia.ru
+  servername: main.saforia.ru
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 22e456e0-6538-4fb7-9c1a-70fb50514251
+  udp: true
+  uuid: b8c51058-4378-46d3-b2c9-50b43b5715a0
+  ws-opts:
+    headers:
+      Host: main.saforia.ru
+    path: /

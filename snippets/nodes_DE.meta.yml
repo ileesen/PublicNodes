@@ -17,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 54040
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: 9|@NoxTunnel hmrah
   obfs: salamander
   obfs-password: masir_sefid
@@ -127,222 +117,48 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- cipher: chacha20-ietf-poly1305
+- insecure: '1'
   name: 11|🇩🇪 DE-1 | Mix
-  password: kpopbinv0chyn3e1
-  port: 42210
-  server: 91.107.161.233
-  type: ss
-  udp: true
+  password: miaoge110
+  port: 51511
+  server: 5.45.100.100
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.bing.com
+  type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   mode: multi
   name: 11|🇩🇪 DE-2 | Mix
   network: tcp
-  pbk: OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU
-  port: 8443
+  pbk: 0d6fEYI5nZ_puQdJ5J9Sn7ExAs53DZzbpfxghHt_u2E
+  port: 443
   reality-opts:
-    public-key: OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU
-    server-name: deepl.com
-    short-id: 9d3372aebdef5228
+    public-key: 0d6fEYI5nZ_puQdJ5J9Sn7ExAs53DZzbpfxghHt_u2E
+    server-name: monolithgate.com
+    short-id: 7c81a04a4b20
   security: reality
-  server: 94.249.186.68
-  sid: 9d3372aebdef5228
-  sni: deepl.com
+  server: 150.241.90.13
+  sid: 7c81a04a4b20
+  sni: monolithgate.com
   spx: /
   tls: true
   type: vless
-  uuid: 22e456e0-6538-4fb7-9c1a-70fb50514251
+  uuid: ad961404-6249-4a11-9577-d1e81f6b198f
 - client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2053
-  security: tls
-  server: 104.26.6.159
-  servername: noone.bingnet.online
-  skip-cert-verify: false
-  sni: noone.bingnet.online
-  tls: true
-  type: vless
-  uuid: c589c384-2a5e-43b8-95dd-17cd3c55e435
-  ws-opts:
-    headers:
-      Host: noone.bingnet.online
-    path: /
-- client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇩🇪 DE-4 | Mix
-  password: SoftNetConnect
-  pbk: bVGtj0cRMfC-VapbrAa97IjYqjMoxODMOqsN0eGBDmI
-  port: 443
-  security: reality
-  server: 178.104.213.121
-  servername: www.yahoo.com
-  sid: e0c7dbaa7dc2
-  skip-cert-verify: false
-  sni: www.yahoo.com
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-5 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: www.speedtest.net
-  servername: ar.onlineshopmehran.ir.
-  skip-cert-verify: false
-  sni: ar.onlineshopmehran.ir.
-  tls: true
-  type: vless
-  uuid: f338d66d-60eb-554a-8d1e-68769c6b1a0a
-  ws-opts:
-    headers:
-      Host: ar.onlineshopmehran.ir.
-    path: /ws?ed=2560
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇩🇪 DE-6 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- encryption: none
-  mode: multi
-  name: 11|🇩🇪 DE-7 | Mix
-  network: tcp
-  port: 42031
-  server: 167.235.203.224
-  type: vless
-  uuid: c32037e3-b6d2-484d-b6b2-1375d1f36031
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇩🇪 DE-8 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 155.117.198.83
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- encryption: none
-  mode: multi
-  name: 11|🇩🇪 DE-9 | Mix
-  network: tcp
-  port: 58599
-  server: 178.105.149.52
-  type: vless
-  uuid: 7e7b762a-ec7b-4770-b97c-8a185faab710
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: DarkTeam_VPN
-  mode: multi
-  name: 11|🇩🇪 DE-10 | Mix
-  network: grpc
-  pbk: iGmGz1yVM3MwLtgj-R0xqrLbysfBxgcRRlbXN6f883Y
-  port: 443
-  reality-opts:
-    public-key: iGmGz1yVM3MwLtgj-R0xqrLbysfBxgcRRlbXN6f883Y
-    server-name: www.amazon.com
-    short-id: 8ba354e84e
-  security: reality
-  server: 109.70.74.36
-  serviceName: DarkTeam_VPN
-  sid: 8ba354e84e
-  sni: www.amazon.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 0a65e0fa-62c8-40f2-ae2b-7549ddb69338
-- encryption: none
   flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-11 | Mix
-  network: tcp
-  pbk: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+  name: 15|DE_speednode_0005
   port: 443
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    server-name: ads.x5.ru
-    short-id: 4c02bbbfa833b3b6
-  security: reality
-  server: de.jykvpn.com
-  sid: 4c02bbbfa833b3b6
-  sni: ads.x5.ru
-  spx: /
-  tls: true
-  type: vless
-  uuid: 372a64ab-298d-4b4f-abc1-9b3fbe242bc3
-- encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-12 | Mix
-  network: tcp
-  pbk: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
-  port: 330
-  reality-opts:
-    public-key: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
-    server-name: yahoo.com
-    short-id: f4a7307502937fdc
-  security: reality
-  server: 1414team.daltoonserver.ir
-  sid: f4a7307502937fdc
-  sni: yahoo.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 233b0e22-aabe-4879-921d-44960bd8b6f6
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: multi
-  name: 11|🇩🇪 DE-13 | Mix
-  network: tcp
-  pbk: SDkmg1Gj2jEQ0H0UhP3d8--M9H3eJha9T7E04rO37mg
-  port: 443
-  reality-opts:
-    public-key: SDkmg1Gj2jEQ0H0UhP3d8--M9H3eJha9T7E04rO37mg
-    server-name: www.microsoft.com
-    short-id: 00b3
-  security: reality
-  server: 185.250.41.111
-  sid: 00b3
-  sni: www.microsoft.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 321c86dd-5e8f-49ac-ab34-589f8803f70c
-- alterId: 0
-  cipher: auto
-  fp: chrome
-  name: 11|🇩🇪 DE-14 | Mix
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|DE_speednode_0011
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
+    public-key: gch4w4OXSvfllKqDfUuk4S-waCqmPfKvLaqnu0qKkiI
+    short-id: 5eb59ee7bbb4b114
+  server: 213.202.223.72
+  servername: www.booking.com
   skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8

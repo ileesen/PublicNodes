@@ -3,27 +3,17 @@ proxies:
   fp: chrome
   name: 11|🇭🇰 HK-1 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: is.01.naiun.bilibili.com
-  port: 47909
+  peer: de.01.naiun.bilibili.com
+  port: 46424
   security: tls
   server: 90081bb25c.node.tro.cac.cab
-  servername: is.01.naiun.bilibili.com
+  servername: de.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   type: trojan
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇸🇬 SG-2 | Mix
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  fp: ios
+  fp: edge
   name: 11,14|美国4|@ripaojiedian
   network: tcp
   port: '180'
@@ -34,141 +24,14 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  fp: chrome
+  fp: firefox
   name: 11|🇺🇸 US-3 | Mix
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- allowInsecure: '1'
-  fp: chrome
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  password: dbyec1mkz198dzk9
-  peer: default.ssl.fastly.net
-  port: 443
-  security: tls
-  server: 151.101.108.223
-  servername: default.ssl.fastly.net
-  skip-cert-verify: true
-  sni: default.ssl.fastly.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nleiyajji.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇹🇼 TW-2 | Mix
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  fp: qq
-  name: 11|🇹🇼 TW-3 | Mix
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 11|🇰🇷 KR-1 | Mix
-  password: qwerREWQ@@
-  port: 43034
-  server: 218.50.149.114
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 11|🇬🇧 GB-7 | Mix
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇩🇪 DE-1 | Mix
-  password: kpopbinv0chyn3e1
-  port: 42210
-  server: 91.107.161.233
-  type: ss
-  udp: true
-- fp: chrome
-  name: 11|🇩🇪 DE-4 | Mix
-  password: SoftNetConnect
-  pbk: bVGtj0cRMfC-VapbrAa97IjYqjMoxODMOqsN0eGBDmI
-  port: 443
-  security: reality
-  server: 178.104.213.121
-  servername: www.yahoo.com
-  sid: e0c7dbaa7dc2
-  skip-cert-verify: false
-  sni: www.yahoo.com
-  type: trojan
-- allowInsecure: '1'
-  fp: chrome
-  name: 11|🇩🇪 DE-6 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  fp: chrome
-  name: 11|🇩🇪 DE-8 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 155.117.198.83
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  fp: chrome
-  name: 11|🇩🇪 DE-14 | Mix
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- allowInsecure: '1'
-  fp: chrome
-  name: 11|🇫🇷 FR-1 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: fr.01.naiun.bilibili.com
-  port: 45619
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: 11|🇨🇦 CA-1 | Mix
-  password: amazonskr05
-  port: 443
-  server: 52.60.99.199
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇳🇱 NL-3 | Mix
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-  udp: true
 - allowInsecure: '1'
   client-fingerprint: ios
   fp: ios
@@ -192,18 +55,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- allowInsecure: '1'
-  fp: chrome
-  name: 11|🇦🇿 AZ-1 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: az.01.naiun.bilibili.com
-  port: 41943
-  security: tls
-  server: 155.117.198.87
-  servername: az.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 11|🇦🇪 AE-1 | Mix
   password: _TusuE5i0EzyvWsQuTiKMMr_j_sduu2E
@@ -341,11 +192,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|DE_speednode_0011
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-  udp: true

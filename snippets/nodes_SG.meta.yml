@@ -108,29 +108,25 @@ proxies:
     insecure: true
     server_name: sg1.shiyuandian.shop
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  fp: safari
+- encryption: none
+  fp: chrome
+  mode: multi
   name: 11|🇸🇬 SG-2 | Mix
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- insecure: '0'
-  name: 11|🇸🇬 SG-3 | Mix
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: sg2.yuntong.click
-  skip-cert-verify: false
-  tls:
-    enabled: true
-    insecure: false
-    server_name: sg2.yuntong.click
-  type: hysteria2
+  pbk: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    server-name: www.apple.com
+    short-id: 628b3c90c98ead4f
+  security: reality
+  server: 13.212.46.54
+  sid: 628b3c90c98ead4f
+  sni: www.apple.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
