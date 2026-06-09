@@ -25,15 +25,15 @@ proxies:
   port: 48487
   security: tls
   server: 176.96.137.104
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
   skip-cert-verify: false
-  sni: 7xbq35vdydie5sgv.cctg.xx.kg
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -43,15 +43,15 @@ proxies:
   port: 20205
   security: tls
   server: 146.70.20.110
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
   skip-cert-verify: false
-  sni: 7xbq35vdydie5sgv.cctg.xx.kg
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -61,15 +61,15 @@ proxies:
   port: 19128
   security: tls
   server: 213.179.69.128
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
   skip-cert-verify: false
-  sni: 7xbq35vdydie5sgv.cctg.xx.kg
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -79,15 +79,15 @@ proxies:
   port: 26701
   security: tls
   server: 89.208.107.193
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
   skip-cert-verify: false
-  sni: 7xbq35vdydie5sgv.cctg.xx.kg
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
@@ -97,15 +97,15 @@ proxies:
   port: 35130
   security: tls
   server: 213.179.69.150
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
   skip-cert-verify: false
-  sni: 7xbq35vdydie5sgv.cctg.xx.kg
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
     path: /@Marisa_kristi
 - insecure: '1'
   name: 11|🇩🇪 DE-1 | Mix
@@ -118,10 +118,30 @@ proxies:
     insecure: true
     server_name: www.bing.com
   type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  mode: multi
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  pbk: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    server-name: stackoverflow.com
+    short-id: d82fb387
+  security: reality
+  server: 194.58.41.121
+  sid: d82fb387
+  sni: stackoverflow.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: 10484bee-8516-400a-9b1e-efb5144ad324
 - alterId: 0
   cipher: auto
-  fp: ios
-  name: 11|🇩🇪 DE-2 | Mix
+  fp: firefox
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 2053
   server: 51.75.69.164
@@ -133,7 +153,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-4 | Mix
   network: tcp
   pbk: _M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY
   port: 443
@@ -149,10 +169,20 @@ proxies:
   tls: true
   type: vless
   uuid: 0a963275-4865-452b-8d65-ac67344f913a
+- alterId: 0
+  cipher: auto
+  fp: edge
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
-  name: 11|🇩🇪 DE-4 | Mix
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇩🇪 DE-6 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -163,8 +193,28 @@ proxies:
   sni: de.01.naiun.bilibili.com
   type: trojan
 - encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   mode: multi
-  name: 11|🇩🇪 DE-5 | Mix
+  name: 11|🇩🇪 DE-7 | Mix
+  network: tcp
+  pbk: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+  port: 443
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    server-name: ru-2.videoproeditor.com
+    short-id: 6d6f13013d3e1d0c
+  security: reality
+  server: ru-2.videoproeditor.com
+  sid: 6d6f13013d3e1d0c
+  sni: ru-2.videoproeditor.com
+  spx: /
+  tls: true
+  type: vless
+  uuid: ec8c34f4-3576-4138-b847-61d177367e09
+- encryption: none
+  mode: multi
+  name: 11|🇩🇪 DE-8 | Mix
   network: ws
   port: 80
   server: 199.232.197.131
@@ -175,7 +225,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - insecure: '1'
-  name: 11|🇩🇪 DE-6 | Mix
+  name: 11|🇩🇪 DE-9 | Mix
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-de-002.fastervpn.world

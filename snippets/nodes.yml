@@ -1,19 +1,7 @@
 proxies:
 - allowInsecure: '0'
   fp: chrome
-  name: 11|🇯🇵 JP-1 | Mix
-  password: 825929f4-c702-35ce-9124-00d3f95b8c32
-  peer: gj1.sonofthewinds.com
-  port: 34470
-  security: tls
-  server: adak.sonofthewinds.com
-  servername: gj1.sonofthewinds.com
-  skip-cert-verify: false
-  sni: gj1.sonofthewinds.com
-  type: trojan
-- allowInsecure: '0'
-  fp: chrome
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   password: 825929f4-c702-35ce-9124-00d3f95b8c32
   peer: hh4.sonofthewinds.com
   port: 34436
@@ -22,6 +10,19 @@ proxies:
   servername: hh4.sonofthewinds.com
   skip-cert-verify: false
   sni: hh4.sonofthewinds.com
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11|🇭🇰 HK-2 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: fr.01.naiun.bilibili.com
+  port: 45619
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
   type: trojan
 - cipher: chacha20-ietf
   name: 11|🇭🇰 HK-3 | Mix
@@ -32,8 +33,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  fp: edge
-  name: 11|🇸🇬 SG-3 | Mix
+  fp: safari
+  name: 11|🇸🇬 SG-2 | Mix
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -42,27 +43,23 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  fp: ios
-  name: 11,14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  fp: firefox
-  name: 11|🇺🇸 US-5 | Mix
+  fp: safari
+  name: 11|🇺🇸 US-2 | Mix
   network: tcp
   port: 180
   server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-4 | Mix
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
 - fp: chrome
-  name: 11|🇺🇸 US-6 | Mix
+  name: 11|🇺🇸 US-5 | Mix
   password: b1952da9-8a2a-4e2e-a79c-61914f9e6a9f
   pbk: imFeKLbcdRQYFJZT6aPrQNoi_qGtUfPqptwAp7AyZBg
   port: 41050
@@ -75,7 +72,7 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 11|🇹🇼 TW-1 | Mix
-  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
   port: 50099
   server: namrcg001640lrm.cybervena.com
   type: ss
@@ -92,10 +89,31 @@ proxies:
   skip-cert-verify: true
   sni: tt1.sonofthewinds.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇹🇼 TW-3 | Mix
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇹🇼 TW-4 | Mix
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38320
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 11|🇰🇷 KR-1 | Mix
+  password: qwerREWQ@@
+  port: 43034
+  server: 218.50.149.114
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  fp: ios
-  name: 11|🇩🇪 DE-2 | Mix
+  fp: firefox
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 2053
   server: 51.75.69.164
@@ -103,10 +121,19 @@ proxies:
   tls: true
   type: vmess
   uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
+- alterId: 0
+  cipher: auto
+  fp: edge
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
-  name: 11|🇩🇪 DE-4 | Mix
+  fp: chrome
+  name: 11|🇩🇪 DE-6 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424
@@ -116,18 +143,62 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- allowInsecure: '1'
-  client-fingerprint: safari
-  fp: safari
+- cipher: chacha20-ietf-poly1305
   name: 11|🇫🇷 FR-1 | Mix
+  password: xs-h9TyN3xE21ntt8osfVg
+  port: 1080
+  server: 45.67.139.93
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  fp: chrome
+  name: 11|🇫🇷 FR-2 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: fr.01.naiun.bilibili.com
   port: 45619
   security: tls
-  server: 90081bb25c.node.tro.cac.cab
+  server: 155.117.198.83
   servername: fr.01.naiun.bilibili.com
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇨🇭 CH-1 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: ch.01.naiun.bilibili.com
+  port: 45553
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: safari
+  fp: safari
+  name: 11|🇬🇭 GH-1 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: gh.01.naiun.bilibili.com
+  port: 48697
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  name: 11|🇮🇸 IS-1 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: is.01.naiun.bilibili.com
+  port: 47909
+  security: tls
+  server: 155.117.198.3
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
   type: trojan
 - allowInsecure: '1'
   fp: chrome
@@ -159,16 +230,16 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 2008
-  server: 16.163.146.65
+  port: 53018
+  server: 43.199.189.110
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11031
-  server: 16.162.142.74
+  port: 443
+  server: 119.246.1.143
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -183,32 +254,32 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16712
-  server: 35.77.201.105
+  port: 6737
+  server: 54.178.8.69
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 5701
-  server: 16.163.146.65
+  port: 3743
+  server: 43.199.189.110
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 55973
-  server: 43.199.144.41
+  port: 3743
+  server: 43.198.108.17
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 29642
-  server: 16.163.146.65
+  port: 6357
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -216,39 +287,39 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
-  server: 18.166.208.105
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.166.29.119
+  port: 41421
+  server: 18.162.54.223
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 95.40.24.24
+  port: 17005
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 16.163.146.65
+  port: 17005
+  server: 43.198.98.40
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.46.2.184
+  port: 39959
+  server: 43.199.217.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -271,3 +342,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

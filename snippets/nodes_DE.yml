@@ -1,8 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  fp: ios
-  name: 11|🇩🇪 DE-2 | Mix
+  fp: firefox
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 2053
   server: 51.75.69.164
@@ -10,10 +10,20 @@ proxies:
   tls: true
   type: vmess
   uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
+- alterId: 0
+  cipher: auto
+  fp: edge
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - allowInsecure: '1'
-  client-fingerprint: firefox
-  fp: firefox
-  name: 11|🇩🇪 DE-4 | Mix
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇩🇪 DE-6 | Mix
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   peer: de.01.naiun.bilibili.com
   port: 46424

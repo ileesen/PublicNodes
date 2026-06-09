@@ -2,7 +2,7 @@ proxies:
 - allowInsecure: '0'
   client-fingerprint: chrome
   fp: chrome
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   password: 825929f4-c702-35ce-9124-00d3f95b8c32
   peer: hh4.sonofthewinds.com
   port: 34436
@@ -11,6 +11,19 @@ proxies:
   servername: hh4.sonofthewinds.com
   skip-cert-verify: false
   sni: hh4.sonofthewinds.com
+  type: trojan
+- allowInsecure: '1'
+  client-fingerprint: ios
+  fp: ios
+  name: 11|🇭🇰 HK-2 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: fr.01.naiun.bilibili.com
+  port: 45619
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
   type: trojan
 - cipher: chacha20-ietf
   name: 11|🇭🇰 HK-3 | Mix
@@ -31,16 +44,16 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 2008
-  server: 16.163.146.65
+  port: 53018
+  server: 43.199.189.110
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11031
-  server: 16.162.142.74
+  port: 443
+  server: 119.246.1.143
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
