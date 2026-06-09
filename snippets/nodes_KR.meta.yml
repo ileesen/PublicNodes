@@ -89,17 +89,42 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: /@Marisa_kristi
-- cipher: aes-256-cfb
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇰🇷 KR-1 | Mix
-  password: qwerREWQ@@
-  port: 43034
-  server: 218.50.149.114
-  type: ss
-  udp: true
+  network: ws
+  password: GedH5PTxP5F4oP4kZ5opF3PWgPPCwYw3kfHMN9ZZTEXFbz9c
+  peer: kr2.bw8848.org
+  port: 443
+  security: tls
+  server: kr2.bw8848.org
+  servername: kr2.bw8848.org
+  skip-cert-verify: false
+  sni: kr2.bw8848.org
+  type: trojan
+  ws-opts:
+    path: /kr2-kr2-g9xjmv
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇰🇷 KR-2 | Mix
+  network: ws
+  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
+  peer: node3.bw8848.org
+  port: 443
+  security: tls
+  server: node3.bw8848.org
+  servername: node3.bw8848.org
+  skip-cert-verify: false
+  sni: node3.bw8848.org
+  type: trojan
+  ws-opts:
+    path: /node3-node3-jgnkjy
 - encryption: none
   fp: chrome
   mode: multi
-  name: 11|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-3 | Mix
   network: tcp
   pbk: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
   port: 8686

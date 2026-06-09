@@ -7,20 +7,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - http/1.1
-  - h2
-  fingerprint: chrome
-  name: 9|🇺🇸59409 | Telegram = t.me/SOSk...
-  obfs: salamander
-  obfs-password: dlxmzvxvcp3i6v0e
-  password: 5z15av99psrlhdqp
-  port: 39150
-  server: 32.195.51.20
-  sni: 32.195.51.20
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
@@ -219,104 +205,26 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: /@Marisa_kristi
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: qq
-  mode: multi
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
   name: 11|🇺🇸 US-1 | Mix
-  network: tcp
-  pbk: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-  port: 8443
-  reality-opts:
-    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-    server-name: www.kinopoisk.ru
-    short-id: a987b6bd1781daa3
-  security: reality
-  server: 5.35.85.51
-  sid: a987b6bd1781daa3
-  sni: www.kinopoisk.ru
-  spx: /
-  tls: true
-  type: vless
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
-- alterId: 0
-  cipher: auto
-  fp: ios
-  name: 11,14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇺🇸 US-3 | Mix
   network: ws
-  port: 8443
-  security: tls
-  server: 81.29.149.219
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  sni: linek.perry.us.kg
-  tls: true
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/edu
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  mode: multi
-  name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 8443
-  security: tls
-  server: 156.38.157.171
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  sni: linek.perry.us.kg
-  tls: true
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pdf/register/teacher
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-5 | Mix
-  password: a5115845-cc23-4082-905e-869fe212dfef
-  port: 36321
-  server: account-center.zzdy25.com
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  fp: edge
-  mode: multi
-  name: 11|🇺🇸 US-6 | Mix
-  network: tcp
+  password: S8wG5SmFw5wVDeLG4K2N6Mqr2mSPjrpBd7QCHcK4F8fYRfiN
+  peer: usa2.bw8848.org
   port: 443
   security: tls
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+  server: usa2.bw8848.org
+  servername: usa2.bw8848.org
   skip-cert-verify: false
-  sni: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  sni: usa2.bw8848.org
+  type: trojan
+  ws-opts:
+    path: /usa2-usa2-yuyv2d
 - alterId: 0
   cipher: auto
   fp: qq
-  name: 11|🇺🇸 US-7 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -325,7 +233,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   fp: chrome
-  name: 11|🇺🇸 US-8 | Mix
+  name: 11|🇺🇸 US-3 | Mix
   password: b1952da9-8a2a-4e2e-a79c-61914f9e6a9f
   pbk: imFeKLbcdRQYFJZT6aPrQNoi_qGtUfPqptwAp7AyZBg
   port: 41050
@@ -341,7 +249,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   mode: multi
-  name: 11|🇺🇸 US-9 | Mix
+  name: 11|🇺🇸 US-4 | Mix
   network: tcp
   port: 22231
   security: tls
@@ -353,12 +261,12 @@ proxies:
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - allowInsecure: '1'
-  client-fingerprint: edge
+  client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  fp: edge
+  fp: ios
   mode: multi
-  name: 11|🇺🇸 US-10 | Mix
+  name: 11|🇺🇸 US-5 | Mix
   network: tcp
   port: 22231
   security: tls
@@ -399,6 +307,16 @@ proxies:
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
