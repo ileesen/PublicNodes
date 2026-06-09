@@ -1,8 +1,21 @@
 proxies:
-- allowInsecure: '0'
+- allowInsecure: '1'
   client-fingerprint: chrome
   fp: chrome
   name: 11|🇭🇰 HK-1 | Mix
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  peer: de.01.naiun.bilibili.com
+  port: 46424
+  security: tls
+  server: 90081bb25c.node.tro.cac.cab
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  name: 11|🇭🇰 HK-2 | Mix
   password: 825929f4-c702-35ce-9124-00d3f95b8c32
   peer: hh4.sonofthewinds.com
   port: 34436
@@ -11,19 +24,6 @@ proxies:
   servername: hh4.sonofthewinds.com
   skip-cert-verify: false
   sni: hh4.sonofthewinds.com
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: ios
-  fp: ios
-  name: 11|🇭🇰 HK-2 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: fr.01.naiun.bilibili.com
-  port: 45619
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
   type: trojan
 - cipher: chacha20-ietf
   name: 11|🇭🇰 HK-3 | Mix

@@ -1,24 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  fp: safari
-  name: 11|🇺🇸 US-2 | Mix
+  fp: ios
+  name: 11,14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-5 | Mix
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  fp: qq
+  name: 11|🇺🇸 US-7 | Mix
   network: tcp
   port: 180
   server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-4 | Mix
-  password: a5115845-cc23-4082-905e-869fe212dfef
-  port: 36321
-  server: account-center.zzdy25.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   fp: chrome
-  name: 11|🇺🇸 US-5 | Mix
+  name: 11|🇺🇸 US-8 | Mix
   password: b1952da9-8a2a-4e2e-a79c-61914f9e6a9f
   pbk: imFeKLbcdRQYFJZT6aPrQNoi_qGtUfPqptwAp7AyZBg
   port: 41050
@@ -59,16 +70,6 @@ proxies:
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

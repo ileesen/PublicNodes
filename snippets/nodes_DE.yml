@@ -2,7 +2,24 @@ proxies:
 - alterId: 0
   cipher: auto
   fp: firefox
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-4 | Mix
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇩🇪 DE-6 | Mix
+  password: Jrma1GR8Ou+H81YOGpOSmj9DdOXIV1aDtN2rmeJE8B4=
+  port: 51570
+  server: e1.cover20.ir
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  fp: chrome
+  name: 11|🇩🇪 DE-7 | Mix
   network: tcp
   port: 2053
   server: 51.75.69.164
@@ -10,26 +27,3 @@ proxies:
   tls: true
   type: vmess
   uuid: bf2c1d9b-864c-4503-8133-648487ac3bc9
-- alterId: 0
-  cipher: auto
-  fp: edge
-  name: 11|🇩🇪 DE-5 | Mix
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇩🇪 DE-6 | Mix
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  peer: de.01.naiun.bilibili.com
-  port: 46424
-  security: tls
-  server: 90081bb25c.node.tro.cac.cab
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan

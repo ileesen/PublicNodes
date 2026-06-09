@@ -1,15 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 11|🇹🇼 TW-1 | Mix
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38320
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇹🇼 TW-2 | Mix
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
   port: 50099
   server: namrcg001640lrm.cybervena.com
   type: ss
   udp: true
 - allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇹🇼 TW-2 | Mix
+  client-fingerprint: edge
+  fp: edge
+  name: 11|🇹🇼 TW-3 | Mix
   password: 825929f4-c702-35ce-9124-00d3f95b8c32
   peer: tt1.sonofthewinds.com
   port: 34450
@@ -19,17 +26,3 @@ proxies:
   skip-cert-verify: true
   sni: tt1.sonofthewinds.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇹🇼 TW-3 | Mix
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇹🇼 TW-4 | Mix
-  password: a5115845-cc23-4082-905e-869fe212dfef
-  port: 38320
-  server: account-center.zzdy25.com
-  type: ss
-  udp: true
