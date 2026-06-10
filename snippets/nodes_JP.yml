@@ -1,32 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 11|🇯🇵 JP-1 | Mix
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    obfs: websocket
-    obfs-hostss.hhll.qqs.me: true
-    tls: true
-  port: 443
-  server: 54.65.58.58
-  type: ss
-  udp: true
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  fp: chrome
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  password: 5YYALHHZEiMDssHZwTMQxbuT8CZVP5Y25ppCtpZnvK4asz73
-  peer: jp2.bw8848.org
-  port: 443
-  security: tls
-  server: jp2.bw8848.org
-  servername: jp2.bw8848.org
-  skip-cert-verify: false
-  sni: jp2.bw8848.org
-  type: trojan
-  ws-opts:
-    path: /jp2-jp2-nnnmhz
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
