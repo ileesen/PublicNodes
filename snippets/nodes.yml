@@ -1,56 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  fp: qq
-  name: 11,14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- allowInsecure: '0'
-  fp: chrome
-  name: 11|🇩🇪 DE-10 | Mix
-  network: ws
-  password: frO8GBJYW-ULREHuTAOfpw
-  peer: dara.folo-domi.ir
-  port: 2053
-  security: tls
-  server: mci.folo-domi.ir
-  servername: dara.folo-domi.ir
-  skip-cert-verify: false
-  sni: dara.folo-domi.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dara.folo-domi.ir
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇷🇺 RU-2 | Mix
-  password: YvNtVuLvHpZVAr8RMVRWRb
-  port: 443
-  server: 193.233.18.234
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇳🇱 NL-2 | Mix
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.7
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  fp: qq
-  name: 11|🇮🇪 IE-1 | Mix
-  network: tcp
-  port: 30808
-  server: 103.182.97.12
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -181,3 +129,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
