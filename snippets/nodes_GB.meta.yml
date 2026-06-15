@@ -1,98 +1,64 @@
 proxies:
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
+  headerType: none
   name: 10|🇬🇧 GB-1 | 8EB
-  network: ws
-  port: 489
-  security: tls
-  server: 139.59.187.72
-  servername: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-  skip-cert-verify: false
-  sni: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+  network: tcp
+  pbk: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
+  port: 5457
+  reality-opts:
+    public-key: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
+    server-name: swcdn.apple.com
+    short-id: 9da3779ceafd
+  security: reality
+  server: 1.sdwan.realm-sync.com
+  sid: 9da3779ceafd
+  sni: swcdn.apple.com
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  uuid: e0c3a80e-6290-4c29-9605-fbd6c4fb3322
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  insecure: '0'
   name: 10|🇬🇧 GB-2 | 8EB
   network: ws
-  port: 386
+  port: 30715
   security: tls
-  server: 206.189.123.19
-  servername: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+  server: 166.88.167.206
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
   skip-cert-verify: false
-  sni: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  insecure: '0'
   name: 10|🇬🇧 GB-3 | 8EB
   network: ws
-  port: 468
+  port: 443
   security: tls
-  server: 139.59.187.72
-  servername: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+  server: 102.215.228.162
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
   skip-cert-verify: false
-  sni: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  name: 10|🇬🇧 GB-4 | 8EB
-  network: ws
-  port: 304
-  security: tls
-  server: 139.59.187.72
-  servername: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-  skip-cert-verify: false
-  sni: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: ws
-  port: 26130
-  security: tls
-  server: 82.38.223.18
-  servername: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-  skip-cert-verify: false
-  sni: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: d5bnmvnn8.vnh4y1vhcoic3o31nkrc69cekwrrct4.workers.dev
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: firefox
   flow: xtls-rprx-vision

@@ -1,1 +1,125 @@
-proxies: []
+proxies:
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 104.18.152.229
+  servername: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- allowInsecure: '0'
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 188.114.97.3
+  servername: www.calmloud.com
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 2053
+  security: tls
+  server: 104.252.30.225
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  skip-cert-verify: false
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+    path: /@Marisa_kristi
+- encryption: none
+  mode: auto
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: xhttp
+  port: 2052
+  security: none
+  server: 147.185.161.165
+  type: vless
+  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-5 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 104.252.30.225
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  skip-cert-verify: false
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+    path: /@Marisa_kristi
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-6 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 45.137.150.212
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  skip-cert-verify: false
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+    path: /@Marisa_kristi
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-7 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.252.30.126
+  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  skip-cert-verify: false
+  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+    path: /@Marisa_kristi

@@ -1,1 +1,32 @@
-proxies: []
+proxies:
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 104.18.152.229
+  servername: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- allowInsecure: '0'
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 188.114.97.3
+  servername: www.calmloud.com
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
