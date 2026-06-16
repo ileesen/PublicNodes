@@ -1,65 +1,20 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
+- allowInsecure: '1'
+  insecure: '1'
   name: 10|🇬🇧 GB-1 | 8EB
-  network: tcp
-  pbk: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
-  port: 5457
-  reality-opts:
-    public-key: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
-    server-name: swcdn.apple.com
-    short-id: 9da3779ceafd
-  security: reality
-  server: 1.sdwan.realm-sync.com
-  sid: 9da3779ceafd
-  sni: swcdn.apple.com
-  tls: true
-  type: vless
-  uuid: e0c3a80e-6290-4c29-9605-fbd6c4fb3322
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-2 | 8EB
   network: ws
-  port: 30715
-  security: tls
-  server: 166.88.167.206
-  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-  skip-cert-verify: false
-  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-    path: /@Marisa_kristi
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   port: 443
   security: tls
-  server: 102.215.228.162
-  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-  skip-cert-verify: false
-  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  server: cf.877774.xyz
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-    path: /@Marisa_kristi
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|GB_speednode_0002

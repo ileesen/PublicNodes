@@ -17,83 +17,37 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪73619 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: hg26zdlxvw7bj6pd
-  password: 0djglvgv7lh45uz9
-  port: 32254
-  server: 91.107.137.0
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇩🇪 DE-1 | 8EB
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
   skip-cert-verify: false
-  sni: saeed.saeedposivip.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  fingerprint: chrome
-  name: '9|🇩🇪  𝗻  '
-  obfs: salamander
-  obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
-  password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
-  port: 30781
-  server: endpoint.neoservers.ir
-  sni: www.microsoft.com
-  tls: false
+  tls:
+    enabled: true
+    insecure: false
+    server_name: de1.xiaoliyu.cyou
   type: hysteria2
 - encryption: none
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 80
-  security: none
-  server: speedtest.net
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  insecure: '0'
+  headerType: none
   name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
+  network: tcp
+  pbk: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
   port: 443
-  security: tls
-  server: 103.13.211.83
-  servername: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-  skip-cert-verify: false
-  sni: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    server-name: ads.x5.ru
+    short-id: b76dcf9e1183fe1b
+  security: reality
+  server: 2.59.132.83
+  sid: b76dcf9e1183fe1b
+  sni: ads.x5.ru
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 162q5rc5uyvd.rh8xe8d22f0k6t6ok0y1oi6qm29fr77ht70ntdbyx4jmbzn98.workers.dev
-    path: /@Marisa_kristi
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 43.174.247.60
-  servername: sni.mmadcoffee.info
-  skip-cert-verify: false
-  sni: sni.mmadcoffee.info
-  tls: true
-  type: vless
-  uuid: 317c8bd5-2e89-4bfb-9513-a37b8e29427f
-  ws-opts:
-    headers:
-      Host: mail.mmadcoffee.info
-    path: /19426/mmad
+  uuid: c82343d1-3302-4d2a-83c8-241c9d06fa4e
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

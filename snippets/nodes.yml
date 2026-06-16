@@ -1,188 +1,1337 @@
 proxies:
 - allowInsecure: '1'
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-1 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: is.01.naiun.bilibili.com
+  server: da.mfa.gov.ua
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
   headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-2 | 8EB
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
+  port: 41943
   security: tls
-  server: 103.177.136.45
-  servername: is.01.naiun.bilibili.com
+  server: 103.177.136.42
+  servername: az.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
+  sni: az.01.naiun.bilibili.com
   type: trojan
 - allowInsecure: '1'
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-3 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  security: tls
-  server: 103.177.136.42
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  security: tls
-  server: 103.177.136.42
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇫🇷 FR-1 | 8EB
   network: ws
-  password: humanity
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   port: 443
   security: tls
-  server: 104.18.152.229
-  servername: www.ignitelimit.com
+  server: nexusmods.com
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  fp: chrome
-  headerType: none
   insecure: '1'
-  name: 10|🇨🇦 CA-5 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  security: tls
-  server: 103.177.136.42
-  servername: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '0'
-  fp: chrome
-  insecure: '0'
-  name: 10|🇫🇷 FR-2 | 8EB
+  name: 10|🇨🇦 CA-4 | 8EB
   network: ws
-  password: humanity
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   port: 443
   security: tls
-  server: 188.114.97.3
-  servername: www.calmloud.com
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: yx.cloudflare.182682.xyz
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
   type: trojan
   ws-opts:
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-1 | 8EB
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
-  type: ss
-  udp: true
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-5 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: www.cnae.top
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
   insecure: '1'
   name: 10|🇨🇦 CA-6 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.45
-  servername: az.01.naiun.bilibili.com
+  server: cdn.9889888.xyz
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-7 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: gh.01.naiun.bilibili.com
+  server: cloudflare.czkcdn.cn
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-8 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: az.01.naiun.bilibili.com
+  server: store.ubi.com
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  fp: chrome
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-9 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.45
-  servername: de.01.naiun.bilibili.com
+  server: cf.130519.xyz
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  fp: chrome
-  headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-10 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
   security: tls
-  server: 103.177.136.45
-  servername: gh.01.naiun.bilibili.com
+  server: cf.008500.xyz
+  servername: jy.hhllfly.kdns.fr
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  sni: jy.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
 - allowInsecure: '1'
-  fp: chrome
+  insecure: '1'
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: cf.877774.xyz
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 47.79.20.130
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 46.8.226.197
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 104.253.175.202
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 46.8.226.152
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: ws
+  password: ced742ff-5de9-3dc5-b139-c79a7fb20733
+  port: 8443
+  security: tls
+  server: 47.239.4.246
+  servername: f.g.s.q.a.g.r.q.4.9.u.r.3.r.mavita.cyou
+  skip-cert-verify: true
+  sni: f.g.s.q.a.g.r.q.4.9.u.r.3.r.mavita.cyou
+  type: trojan
+  ws-opts:
+    headers:
+      Host: f.g.s.q.a.g.r.q.4.9.u.r.3.r.mavita.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: tcp
+  port: 19390
+  server: 38.175.199.182
+  tls: false
+  type: vmess
+  uuid: 83628c04-a9e9-4088-fd87-be460a1a0b3a
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 45.32.51.156
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 13.231.33.243
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.83.95.193
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 52.194.99.211
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.176.34.52
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 108.61.127.144
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 45.76.198.248
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 108.160.132.178
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-9 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.176.44.23
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-10 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 161.33.14.183
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-11 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 161.33.3.222
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-12 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 138.2.59.112
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-13 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.176.42.143
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-14 | 8EB
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  security: tls
+  server: 47.79.85.185
+  servername: tjsp.hhxaf.cc.cd
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-15 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 2053
+  security: tls
+  server: 156.246.93.48
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-16 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 207.148.108.85
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-17 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 167.179.82.79
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-18 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 150.230.5.126
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-19 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 8.219.155.125
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-20 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 45.76.206.46
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-21 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 45.192.249.171
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-22 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 138.3.214.171
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-23 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 156.246.89.197
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-24 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 45.76.208.253
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-25 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 57.182.89.177
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-26 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 161.33.46.100
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-27 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 45.76.102.47
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-28 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 167.179.67.91
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇯🇵 JP-29 | 8EB
+  network: tcp
+  port: 34017
+  server: 43.167.162.191
+  tls: false
+  type: vmess
+  uuid: dbe306b3-f28c-4176-83d7-b75506c38488
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇯🇵 JP-30 | 8EB
+  network: tcp
+  port: 25944
+  server: 43.167.162.191
+  tls: false
+  type: vmess
+  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 141.164.42.2
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 158.247.240.204
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 47.80.60.254
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-4 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 129.154.222.63
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-5 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 140.238.17.157
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-6 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 2096
+  security: tls
+  server: 131.186.27.112
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 47.82.155.79
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 149.28.152.204
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 47.82.162.142
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.26.189.70
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 69.63.214.61
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.240.48
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.233.224
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 69.63.223.42
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.17.14.241
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 69.63.206.96
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.17.29.221
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.26.181.78
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 64.186.240.9
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.229.220
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  security: tls
+  server: 64.186.232.60
+  servername: tjsp.hhxaf.cc.cd
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.232.121
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.227.57
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 69.63.193.100
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 8443
+  security: tls
+  server: 154.26.184.229
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.229.189
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.228.41
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.231.35
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.21.82.11
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 174.136.205.75
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-22 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.246.93
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-23 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.26.186.47
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-24 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.17.2.59
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-25 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 64.186.241.154
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-26 | 8EB
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  security: tls
+  server: 154.21.94.7
+  servername: jy.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇺🇸 US-27 | 8EB
+  network: tcp
+  port: 30022
+  server: 186.244.208.78
+  tls: false
+  type: vmess
+  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇺🇸 US-28 | 8EB
+  network: tcp
+  port: 29633
+  server: 23.141.204.132
+  tls: false
+  type: vmess
+  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇺🇸 US-29 | 8EB
+  network: tcp
+  port: 25213
+  server: 23.138.148.96
+  tls: false
+  type: vmess
+  uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e
+- allowInsecure: '1'
   headerType: none
   insecure: '1'
   name: 10|🇨🇦 CA-11 | 8EB
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
+  port: 46424
   security: tls
-  server: 103.177.136.45
-  servername: ch.01.naiun.bilibili.com
+  server: 103.177.136.42
+  servername: de.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   type: trojan
 - allowInsecure: '1'
   headerType: none
@@ -190,6 +1339,99 @@ proxies:
   name: 10|🇨🇦 CA-12 | 8EB
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  security: tls
+  server: 103.177.136.42
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-13 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  security: tls
+  server: 103.177.136.42
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-14 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  security: tls
+  server: 103.177.136.42
+  servername: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-15 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  security: tls
+  server: 103.177.136.45
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-16 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  security: tls
+  server: 103.177.136.45
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-17 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  security: tls
+  server: 103.177.136.42
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-18 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  security: tls
+  server: 103.177.136.45
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-19 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   security: tls
   server: 103.177.136.45
@@ -201,25 +1443,7 @@ proxies:
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   fp: chrome
   insecure: '0'
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 45.38.42.245
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇭🇰 HK-3 | 8EB
+  name: 10|🇭🇰 HK-7 | 8EB
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 8443
@@ -237,318 +1461,12 @@ proxies:
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   fp: chrome
   insecure: '0'
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 45.76.222.30
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 156.246.92.139
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 168.138.212.80
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 13.192.18.59
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇰🇷 KR-1 | 8EB
+  name: 10|🇰🇷 KR-11 | 8EB
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   security: tls
   server: 130.162.132.38
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 64.110.71.6
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇰🇷 KR-3 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 152.67.210.234
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇰🇷 KR-4 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 130.162.130.105
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 139.180.220.7
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 45.77.241.64
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 168.138.165.174
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 69.63.216.10
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 69.63.212.251
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-6 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 154.17.9.145
-  servername: hhcm.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 69.63.212.210
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 69.63.222.124
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 154.17.26.200
-  servername: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  security: tls
-  server: 154.21.82.135
   servername: hhcm.hhxaf.cc.cd
   skip-cert-verify: false
   sni: hhcm.hhxaf.cc.cd
