@@ -1,24 +1,69 @@
 proxies:
-- encryption: none
-  fp: chrome
+- allowInsecure: '0'
+  encryption: none
   headerType: none
-  name: 9|🇸🇪 SE-1 | 8EB
+  insecure: '0'
+  name: 10|🇸🇪 SE-1 | 8EB
   network: tcp
-  pbk: Rkx8a8DBAW6H2H2XXN2JFdBYe24VcJPpr51ehcvMV3w
-  port: 36019
-  reality-opts:
-    public-key: Rkx8a8DBAW6H2H2XXN2JFdBYe24VcJPpr51ehcvMV3w
-    server-name: www.icloud.com
-    short-id: '90'
-  security: reality
-  server: 193.25.216.201
-  sid: '90'
-  sni: www.icloud.com
+  port: 8443
+  security: tls
+  server: 79.127.249.221
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  sni: ams1.fromblancwithlove.com
   tls: true
   type: vless
-  uuid: de86d13b-b419-4587-b643-c41ba6ea51ed
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- allowInsecure: '0'
+  encryption: none
+  headerType: none
+  insecure: '0'
+  name: 10|🇸🇪 SE-2 | 8EB
+  network: tcp
+  port: 8443
+  security: tls
+  server: 79.127.249.197
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  sni: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇸🇪 SE-3 | 8EB
+  network: tcp
+  pbk: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server-name: se.sellflow.org
+    short-id: ''
+  security: reality
+  server: 194.87.143.111
+  sni: se.sellflow.org
+  tls: true
+  type: vless
+  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
+- allowInsecure: '0'
+  encryption: none
+  headerType: none
+  insecure: '0'
+  name: 10|🇸🇪 SE-4 | 8EB
+  network: tcp
+  port: 8443
+  security: tls
+  server: 79.127.249.201
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  sni: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0055
+  name: 15|SE_speednode_0055
   port: 8443
   server: 45.159.12.191
   servername: ams1.fromblancwithlove.com
@@ -28,7 +73,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0056
+  name: 15|SE_speednode_0056
   port: 8443
   server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
@@ -38,7 +83,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0057
+  name: 15|SE_speednode_0057
   port: 8443
   server: 45.159.12.9
   servername: ams1.fromblancwithlove.com
@@ -48,7 +93,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0058
+  name: 15|SE_speednode_0058
   port: 8443
   server: 45.159.12.3
   servername: ams1.fromblancwithlove.com
@@ -58,7 +103,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0059
+  name: 15|SE_speednode_0059
   port: 8443
   server: 45.159.12.34
   servername: ams1.fromblancwithlove.com
@@ -68,7 +113,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0060
+  name: 15|SE_speednode_0060
   port: 8443
   server: 79.127.249.197
   servername: ams1.fromblancwithlove.com
@@ -78,7 +123,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 14|SE_speednode_0061
+  name: 15|SE_speednode_0061
   port: 8443
   server: 45.159.12.134
   servername: ams1.fromblancwithlove.com

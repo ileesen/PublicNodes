@@ -1,1 +1,60 @@
-proxies: []
+proxies:
+- encryption: none
+  fp: firefox
+  grpc-opts:
+    grpc-service-name: gun
+  mode: gun
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: grpc
+  pbk: dEdb0K8U-uTlYx8OAyuaFFbwiL0eS7ZuVsPAYdZUvyk
+  port: 443
+  reality-opts:
+    public-key: dEdb0K8U-uTlYx8OAyuaFFbwiL0eS7ZuVsPAYdZUvyk
+    server-name: ubuntu.ubuntuhosting.host
+    short-id: 3e0c736d79
+  security: reality
+  server: 186.246.13.22
+  serviceName: gun
+  sid: 3e0c736d79
+  sni: ubuntu.ubuntuhosting.host
+  tls: true
+  type: vless
+  uuid: ded3638e-ab7f-4ff8-bc60-9fc6666cff22
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: tcp
+  pbk: aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8
+  port: 443
+  reality-opts:
+    public-key: aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8
+    server-name: est01.port-server.online
+    short-id: 9902cda1645757ea
+  security: reality
+  server: 95.85.243.239
+  sid: 9902cda1645757ea
+  sni: est01.port-server.online
+  tls: true
+  type: vless
+  uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇪🇪 EE-3 | 8EB
+  network: tcp
+  pbk: aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8
+  port: 443
+  reality-opts:
+    public-key: aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8
+    server-name: est01.port-server.online
+    short-id: 9902cda1645757ea
+  security: reality
+  server: est01.port-server.online
+  sid: 9902cda1645757ea
+  sni: est01.port-server.online
+  tls: true
+  type: vless
+  uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11

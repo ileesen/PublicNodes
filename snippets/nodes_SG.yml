@@ -1,53 +1,83 @@
 proxies:
 - allowInsecure: '1'
+  headerType: none
   insecure: '1'
-  name: 9|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
   security: tls
-  server: 47.82.155.79
-  servername: jy.hhllfly.kdns.fr
+  server: 188.253.12.90
+  servername: de.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
+  sni: de.01.naiun.bilibili.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    path: /?ed=2048
 - allowInsecure: '1'
+  headerType: none
   insecure: '1'
-  name: 9|🇸🇬 SG-2 | 8EB
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
   security: tls
-  server: 149.28.152.204
-  servername: jy.hhllfly.kdns.fr
+  server: 188.253.12.90
+  servername: ch.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
+  sni: ch.01.naiun.bilibili.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    path: /?ed=2048
 - allowInsecure: '1'
+  headerType: none
   insecure: '1'
-  name: 9|🇸🇬 SG-3 | 8EB
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
   security: tls
-  server: 47.82.162.142
-  servername: jy.hhllfly.kdns.fr
+  server: 188.253.12.90
+  servername: az.01.naiun.bilibili.com
   skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
+  sni: az.01.naiun.bilibili.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    path: /?ed=2048
-- name: 12,13|新加坡|@ripaojiedian
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  security: tls
+  server: 188.253.12.90
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  security: tls
+  server: 188.253.12.90
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  security: tls
+  server: 188.253.12.90
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 6357
@@ -55,7 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 48738
@@ -63,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
