@@ -4,47 +4,7 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 9|🇨🇦 CA-1 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 185.248.184.201
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  sni: s5.868001.xyz
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-2 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 151.242.189.137
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  sni: s5.868001.xyz
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-3 | 8EB
+  name: 10|🇨🇦 CA-1 | 8EB
   network: ws
   port: 443
   security: tls
@@ -59,43 +19,42 @@ proxies:
     headers:
       Host: s5.868001.xyz
     path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-4 | 8EB
-  network: ws
-  port: 443
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
   security: tls
-  server: 213.210.4.19
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  sni: s5.868001.xyz
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-5 | 8EB
-  network: ws
-  port: 443
+  server: 103.177.136.42
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
   security: tls
-  server: 82.152.91.210
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  sni: s5.868001.xyz
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
+  server: 103.177.136.42
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-4 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  security: tls
+  server: 103.177.136.42
+  servername: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan

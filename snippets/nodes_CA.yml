@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  security: tls
+  server: 103.177.136.42
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  security: tls
+  server: 103.177.136.42
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-4 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  security: tls
+  server: 103.177.136.42
+  servername: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
