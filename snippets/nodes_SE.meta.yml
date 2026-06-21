@@ -5,7 +5,7 @@ proxies:
   fp: chrome
   headerType: none
   insecure: '0'
-  name: 10|🇸🇪 SE-1 | 8EB
+  name: 10,11|🇸🇪 SE-1 | Mix
   network: tcp
   port: 8443
   security: tls
@@ -35,6 +35,18 @@ proxies:
   tls: true
   type: vless
   uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+- encryption: none
+  name: 11|🇸🇪 SE-2 | Mix
+  network: tcp
+  port: 8443
+  security: tls
+  server: 45.159.12.15
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  sni: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
   name: 15|SE_speednode_0103
   port: 8443
