@@ -1,40 +1,16 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
+- alterId: 0
+  cipher: auto
   insecure: '0'
   name: 10|🇨🇳 CN-1 | 8EB
   network: ws
-  port: 443
-  security: tls
-  server: 82.152.91.210
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  sni: s5.868001.xyz
+  port: 33404
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
   tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
   ws-opts:
     headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇨🇳 CN-2 | 8EB
-  network: tcp
-  pbk: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    server-name: dlcdnets.asus.com
-    short-id: 473277e2
-  security: reality
-  server: tw3.miyazono-kaori.com
-  sid: 473277e2
-  sni: dlcdnets.asus.com
-  tls: true
-  type: vless
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+      Host: yd3.ainivp.com
+    path: /ray

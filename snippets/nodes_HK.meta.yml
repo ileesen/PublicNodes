@@ -6,26 +6,21 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '1'
+- alterId: 0
+  cipher: auto
+  insecure: '0'
   name: 10|🇭🇰 HK-1 | 8EB
   network: ws
-  port: 8443
-  security: tls
-  server: 103.148.73.119
-  servername: ty986gfazs.cainiaohub.xyz
-  skip-cert-verify: true
-  sni: ty986gfazs.cainiaohub.xyz
+  port: 33408
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
   tls: true
-  type: vless
-  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
   ws-opts:
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      Host: yd3.ainivp.com
+    path: /ray
 - name: 11|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

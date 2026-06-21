@@ -1,15 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  insecure: '0'
+- allowInsecure: '1'
+  encryption: none
+  insecure: '1'
   name: 10|🇫🇷 FR-1 | 8EB
   network: ws
-  port: 80
-  server: 69.84.182.49
-  tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  port: 443
+  security: tls
+  server: 159.112.235.52
+  servername: octopusss.net
+  skip-cert-verify: true
+  sni: octopusss.net
+  tls: true
+  type: vless
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
+      Host: octopusss.net
+    path: /odiyfws
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 18066
+  server: hy2.313186.xyz
+  skip-cert-verify: false
+  tls:
+    enabled: true
+    insecure: false
+    server_name: hy2.313186.xyz
+  type: hysteria2
