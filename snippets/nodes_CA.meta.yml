@@ -1,132 +1,21 @@
 proxies:
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
   name: 10|🇨🇦 CA-1 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
+  network: ws
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  security: tls
-  server: 103.177.136.42
-  servername: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  security: tls
-  server: 103.177.136.45
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  fp: chrome
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  security: tls
-  server: 103.177.136.45
-  servername: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-5 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  security: tls
-  server: 103.177.136.42
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-6 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  security: tls
-  server: 103.177.136.45
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-7 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  security: tls
-  server: 103.177.136.42
-  servername: az.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-8 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  security: tls
-  server: 103.177.136.42
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-9 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  security: tls
-  server: 103.177.136.45
-  servername: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-10 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  security: tls
-  server: 103.177.136.42
-  servername: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
+  server: freev2.cloudflare.182682.xyz
+  servername: do-tor1.862400.xyz
+  skip-cert-verify: false
+  sni: do-tor1.862400.xyz
+  tls: true
+  type: vless
+  uuid: 5274568d-624e-48cf-b452-f0c7af9ebb4a
+  ws-opts:
+    headers:
+      Host: do-tor1.862400.xyz
+    path: /announcement?ed=2048

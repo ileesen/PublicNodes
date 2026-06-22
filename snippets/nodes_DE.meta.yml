@@ -17,13 +17,23 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪 ام V2RayNG ت ...
+- name: 9|@V2RayyNGvpn🇩🇪 ام V2RayNG ت  ب...
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: V2RayyNGvpn
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@FreakConfig
@@ -36,38 +46,3 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  headerType: none
-  insecure: '0'
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 8443
-  security: tls
-  server: 46.229.243.142
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  sni: cdn9-33.vk-cdnvideo.com
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- encryption: none
-  fp: firefox
-  mode: auto
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: xhttp
-  pbk: jI-HduKz_9UsArUUdbGFhqbB-73xllmGP1-yc_RGTFg
-  port: 443
-  reality-opts:
-    public-key: jI-HduKz_9UsArUUdbGFhqbB-73xllmGP1-yc_RGTFg
-    server-name: ads.x5.ru
-    short-id: 72a9de7fe720652b
-  security: reality
-  server: 89.169.54.21
-  sid: 72a9de7fe720652b
-  sni: ads.x5.ru
-  tls: true
-  type: vless
-  uuid: 1c7e2730-839d-4321-84f9-4e6b69ea4856

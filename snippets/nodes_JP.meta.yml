@@ -6,109 +6,58 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- allowInsecure: '0'
+  encryption: none
   insecure: '0'
   name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  port: 33103
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
+  port: 443
+  security: tls
+  server: 153.121.45.101
+  servername: hhvl.hhapp.kdns.fr
+  skip-cert-verify: false
+  sni: hhvl.hhapp.kdns.fr
   tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  type: vless
+  uuid: 1ea123da-f3d5-45f6-b21a-290cea140d33
   ws-opts:
     headers:
-      Host: cu3.ainivp.com
-    path: /ray
+      Host: hhvl.hhapp.kdns.fr
+    path: /zhjaai
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
   encryption: none
-  fp: chrome
   insecure: '0'
   name: 10|🇯🇵 JP-2 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 132.145.127.203
-  servername: us2.wxgqlfx.icu
+  server: 43.170.8.95
+  servername: hhvl.hhapp.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: hhvl.hhapp.kdns.fr
   tls: true
   type: vless
-  uuid: 55c71e2c-c981-4bf5-a83b-2764c51d49c9
+  uuid: 1ea123da-f3d5-45f6-b21a-290cea140d33
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-1 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.176.55.211
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 43.206.95.245
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 13.230.213.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-4 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.231.154.142
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-5 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 3.112.240.74
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-6 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 54.95.215.125
-  type: ss
-  udp: true
+      Host: hhvl.hhapp.kdns.fr
+    path: /zhjaai
+- allowInsecure: '0'
+  client-fingerprint: edge
+  encryption: none
+  fp: edge
+  insecure: '0'
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: httpupgrade
+  port: 2053
+  security: tls
+  server: xmmcf.130209.xyz
+  servername: jp.jyp.ccwu.cc
+  skip-cert-verify: false
+  sni: jp.jyp.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

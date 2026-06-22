@@ -1,34 +1,68 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇺🇸 US-1 | 8EB
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
-  port: 33405
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 216.167.68.73
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇺🇸 US-2 | 8EB
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-9 | 8EB
   network: ws
-  port: 33405
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 104.207.152.96
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: cu3.ainivp.com
-    path: /ray
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 140.82.19.127
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 216.167.65.44
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv

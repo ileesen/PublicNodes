@@ -1,22 +1,56 @@
 proxies:
-- encryption: none
-  fp: chrome
-  headerType: none
+- allowInsecure: '1'
+  insecure: '1'
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  pbk: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
-  port: 40701
-  reality-opts:
-    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
-    server-name: amazon.com
-    short-id: 7ef3a8ab2886
-  security: reality
-  server: 43.108.48.169
-  sid: 7ef3a8ab2886
-  sni: amazon.com
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 141.164.51.88
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 141.164.42.2
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: animal.nuaa.tech
+  servername: d.g.h.u.r.e.5.k.s.8.a.6.q.a.x.m.6.artus.kdns.fr
+  skip-cert-verify: false
+  sni: d.g.h.u.r.e.5.k.s.8.a.6.q.a.x.m.6.artus.kdns.fr
   tls: true
   type: vless
-  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
+  uuid: 6e8f5055-1020-4a3e-8223-556818d18fde
+  ws-opts:
+    headers:
+      Host: d.g.h.u.r.e.5.k.s.8.a.6.q.a.x.m.6.artus.kdns.fr
+    path: /turn://turn:turn@112.175.27.114:3478?ed=2560
 - cipher: aes-256-cfb
   name: 11|🇰🇷 KR-1 | Mix
   password: qwerREWQ@@

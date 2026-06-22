@@ -1,266 +1,217 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇨🇳 CN-1 | 8EB
-  network: ws
-  port: 33404
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
+- allowInsecure: '0'
   insecure: '0'
   name: 10|🇭🇰 HK-1 | 8EB
   network: ws
-  port: 33408
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '114514'
+  port: 443
+  security: tls
+  server: 83.147.60.186
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇯🇵 JP-1 | 8EB
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
-  port: 33103
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '114514'
+  port: 443
+  security: tls
+  server: 216.167.68.73
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: cu3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
   insecure: '0'
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 23.156.153.57
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 209.33.166.199
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 141.164.51.88
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 104.207.152.96
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 141.164.42.2
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇮🇹 IT-1 | 8EB
+  password: 951753pjh
+  port: 30008
+  server: vc2606.vip1314.vip
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 140.82.19.127
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
+  security: tls
+  server: 216.167.65.44
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
   name: 10|🇸🇬 SG-1 | 8EB
   network: ws
-  port: 33402
-  server: cu4.ainivp.com
-  servername: cu4.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '114514'
+  port: 443
+  security: tls
+  server: 172.236.154.50
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: cu4.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 33402
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 33405
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 33405
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: cu3.ainivp.com
-    path: /ray
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-1 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  security: tls
-  server: 103.177.136.42
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  security: tls
-  server: 103.177.136.42
-  servername: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  security: tls
-  server: 103.177.136.45
-  servername: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  fp: chrome
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  security: tls
-  server: 103.177.136.45
-  servername: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇺🇦 UA-4 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  security: tls
-  server: 103.177.136.45
-  servername: az.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
 - allowInsecure: '0'
-  headerType: none
   insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
   security: tls
-  server: jpbgp.netvigor.cc
-  servername: yazhou10.dynu.net
+  server: 103.219.194.43
+  servername: tjaaa.hhllfly.kdns.fr
   skip-cert-verify: false
-  sni: yazhou10.dynu.net
+  sni: tjaaa.hhllfly.kdns.fr
   type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-5 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 80
+  server: 69.84.182.49
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: ws
+  password: '114514'
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  server: 209.33.160.242
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
   type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-6 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  security: tls
-  server: 103.177.136.45
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-7 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  security: tls
-  server: 103.177.136.42
-  servername: az.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-8 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  security: tls
-  server: 103.177.136.42
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-9 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  security: tls
-  server: 103.177.136.45
-  servername: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-10 | 8EB
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  security: tls
-  server: 103.177.136.42
-  servername: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
 - cipher: aes-256-cfb
   name: 11|🇰🇷 KR-1 | Mix
   password: qwerREWQ@@
@@ -288,138 +239,6 @@ proxies:
     obfs-host: (Telegram🇨🇳 @WangCai2)cc6b132:143268
   port: 2377
   server: 88.210.36.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-1 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.176.55.211
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 43.206.95.245
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 13.230.213.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-4 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.231.154.142
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-5 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 3.112.240.74
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 JP-6 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 54.95.215.125
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-1 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.139.163.18
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.215.184.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.141.230.148
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-4 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.229.70.125
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-5 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 47.129.33.96
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-6 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 18.136.208.241
   type: ss
   udp: true
 - cipher: aes-256-cfb

@@ -7,131 +7,42 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  insecure: '0'
+- allowInsecure: '1'
+  insecure: '1'
   name: 10|🇸🇬 SG-1 | 8EB
   network: ws
-  port: 33402
-  server: cu4.ainivp.com
-  servername: cu4.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 172.236.154.50
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: cu4.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
   insecure: '0'
   name: 10|🇸🇬 SG-2 | 8EB
   network: ws
-  port: 33402
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- allowInsecure: '1'
-  encryption: none
-  insecure: '1'
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
   port: 443
   security: tls
-  server: x-prolk.primeline.v2raymasterlk.thaarukimadhurangi.ggff.net
-  servername: aka.ms
-  skip-cert-verify: true
-  sni: aka.ms
+  server: freeyx.cloudflare88.eu.org
+  servername: do-sgp1.862400.xyz
+  skip-cert-verify: false
+  sni: do-sgp1.862400.xyz
   tls: true
   type: vless
-  uuid: 030f9ccd-42a5-4880-b37e-6fbdc557cec0
+  uuid: 5274568d-624e-48cf-b452-f0c7af9ebb4a
   ws-opts:
-    path: /xprolk-primeline
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  security: tls
-  server: jpbgp.netvigor.cc
-  servername: yazhou10.dynu.net
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-1 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.139.163.18
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.215.184.182
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 18.141.230.148
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-4 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 13.229.70.125
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-5 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
-  port: 2377
-  server: 47.129.33.96
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇸🇬 SG-6 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
-  port: 2377
-  server: 18.136.208.241
-  type: ss
-  udp: true
+    headers:
+      Host: do-sgp1.862400.xyz
+    path: /announcement?ed=2048
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e

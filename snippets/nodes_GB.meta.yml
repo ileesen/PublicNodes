@@ -3,6 +3,21 @@ proxies:
   encryption: none
   headerType: none
   insecure: '0'
+  name: 10,11|🇬🇧 GB-2 | Mix
+  network: tcp
+  port: 8443
+  security: tls
+  server: 152.233.28.200
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  sni: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- allowInsecure: '0'
+  encryption: none
+  headerType: none
+  insecure: '0'
   name: 10,11|🇬🇧 GB-4 | Mix
   network: tcp
   port: 8443
@@ -29,59 +44,6 @@ proxies:
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- allowInsecure: '1'
-  encryption: none
-  headerType: none
-  insecure: '1'
-  name: 10,11|🇬🇧 GB-2 | Mix
-  network: tcp
-  port: 8443
-  security: tls
-  server: 152.233.28.200
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  sni: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇬🇧 GB-4 | 8EB
-  network: tcp
-  pbk: hWw_QLJsQmDlX_9AsTb29wy6RhJ-lHtjHseiZlthXhU
-  port: 443
-  reality-opts:
-    public-key: hWw_QLJsQmDlX_9AsTb29wy6RhJ-lHtjHseiZlthXhU
-    server-name: gb1.anpmech.com
-    short-id: 9550667e9597f1e5
-  security: reality
-  server: gb1.anpmech.com
-  sid: 9550667e9597f1e5
-  sni: gb1.anpmech.com
-  tls: true
-  type: vless
-  uuid: 0e49e208-e09e-49bc-afee-2907e5419107
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: tcp
-  pbk: j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8
-  port: 443
-  reality-opts:
-    public-key: j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8
-    server-name: uk.bvps.cloud
-    short-id: 60debb3ab744d8ce
-  security: reality
-  server: 67.159.56.57
-  sid: 60debb3ab744d8ce
-  sni: uk.bvps.cloud
-  tls: true
-  type: vless
-  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - allowInsecure: '0'
   encryption: none
   headerType: none
@@ -97,6 +59,26 @@ proxies:
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇰 UK-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: do-lon1.862400.xyz
+  skip-cert-verify: false
+  sni: do-lon1.862400.xyz
+  tls: true
+  type: vless
+  uuid: 5274568d-624e-48cf-b452-f0c7af9ebb4a
+  ws-opts:
+    headers:
+      Host: do-lon1.862400.xyz
+    path: /announcement?ed=2048
 - name: 15|GB_speednode_0007
   password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
   port: 443
