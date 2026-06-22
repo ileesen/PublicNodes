@@ -76,115 +76,60 @@ proxies:
     headers:
       Host: r8eerh.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb529
-- encryption: none
-  mode: auto
+- cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
-  network: xhttp
-  port: 2052
-  server: 104.129.167.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)cc6b132:143268
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-2 | Mix
-  network: xhttp
-  port: 2052
-  server: 80.93.202.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)cc6b132:143268
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-3 | Mix
-  network: xhttp
-  port: 2052
-  server: 31.185.108.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-4 | Mix
-  network: xhttp
-  port: 2052
-  server: 45.130.125.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-5 | Mix
-  network: xhttp
-  port: 2052
-  server: 8.34.146.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-6 | Mix
-  network: xhttp
-  port: 2052
-  server: 185.18.250.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-7 | Mix
-  network: xhttp
-  port: 2052
-  server: 45.131.209.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-8 | Mix
-  network: xhttp
-  port: 2052
-  server: 104.129.164.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-9 | Mix
-  network: xhttp
-  port: 2052
-  server: 154.197.121.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-10 | Mix
-  network: xhttp
-  port: 2052
-  server: 89.116.161.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
-- encryption: none
-  mode: auto
-  name: 11|🇺🇸 US-11 | Mix
-  network: xhttp
-  port: 2052
-  server: 185.162.228.21
-  type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)cc6b132:143268
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
-  server: 43.198.206.201
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
-  server: 13.115.223.251
+  server: 95.40.53.232
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.80.94
+  port: 11993
+  server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
