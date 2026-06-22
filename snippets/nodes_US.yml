@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   insecure: '0'
-  name: 9|🇺🇸 US-1 | 8EB
+  name: 10|🇺🇸 US-1 | 8EB
   network: ws
   port: 33405
   server: yd3.ainivp.com
@@ -17,7 +17,7 @@ proxies:
 - alterId: 0
   cipher: auto
   insecure: '0'
-  name: 9|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
   port: 33405
   server: cu3.ainivp.com
@@ -30,7 +30,7 @@ proxies:
       Host: cu3.ainivp.com
     path: /ray
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-1 | Mix
+  name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   plugin-opts:
@@ -41,18 +41,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)cc6b132:143268
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   plugin-opts:
@@ -62,7 +51,7 @@ proxies:
   server: 88.210.36.108
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
@@ -70,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
@@ -78,7 +67,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11993

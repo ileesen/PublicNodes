@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   insecure: '0'
-  name: 9|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   port: 33103
   server: cu3.ainivp.com
@@ -14,7 +14,73 @@ proxies:
     headers:
       Host: cu3.ainivp.com
     path: /ray
-- name: 12,13|日本|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
+  port: 2377
+  server: 18.176.55.211
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
+  port: 2377
+  server: 43.206.95.245
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
+  port: 2377
+  server: 13.230.213.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
+  port: 2377
+  server: 13.231.154.142
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-5 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)e221b75:110505
+  port: 2377
+  server: 3.112.240.74
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-6 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)a4ebd80:164401
+  port: 2377
+  server: 54.95.215.125
+  type: ss
+  udp: true
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45691
@@ -22,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 55973
@@ -30,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 37973
@@ -38,11 +104,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14|JP_speednode_0011
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
