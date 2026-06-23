@@ -43,6 +43,28 @@ proxies:
     headers:
       Host: do-sgp1.862400.xyz
     path: /announcement?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)db5fe62:193531
+  port: 2377
+  server: 54.179.157.190
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)db5fe62:193531
+  port: 2377
+  server: 47.128.225.227
+  type: ss
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 2009158055b4d37156cee7082c50ffde
