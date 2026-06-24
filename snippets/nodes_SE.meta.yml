@@ -1,20 +1,24 @@
 proxies:
-- allowInsecure: '0'
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
   headerType: none
-  insecure: '0'
-  name: 9|🇸🇪 SE-1 | 8EB
+  name: 10|🇸🇪 SE-1 | 8EB
   network: tcp
-  port: 8443
-  security: tls
-  server: 79.127.249.221
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  sni: ams1.fromblancwithlove.com
+  pbk: lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc
+  port: 14302
+  reality-opts:
+    public-key: lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc
+    server-name: www.samsung.com
+    short-id: 106f1604d65bb70c
+  security: reality
+  server: 46.226.161.161
+  sid: 106f1604d65bb70c
+  sni: www.samsung.com
   tls: true
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 14|SE_speednode_0051
+  uuid: 1dd5f2be-f124-4f35-9239-8abc042829c2
+- name: 15|SE_speednode_0051
   network: ws
   port: 80
   server: 151.101.84.151
@@ -28,7 +32,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 14|SE_speednode_0052
+- name: 15|SE_speednode_0052
   network: ws
   port: 80
   server: 151.101.86.151

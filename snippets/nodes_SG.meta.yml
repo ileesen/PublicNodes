@@ -1,5 +1,5 @@
 proxies:
-- name: 7|SG
+- name: 8|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,49 +7,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 172.236.154.50
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 9|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.862400.xyz
-  skip-cert-verify: false
-  sni: do-sgp1.862400.xyz
-  tls: true
-  type: vless
-  uuid: 5274568d-624e-48cf-b452-f0c7af9ebb4a
-  ws-opts:
-    headers:
-      Host: do-sgp1.862400.xyz
-    path: /announcement?ed=2048
-- name: 10|🇸🇬 SG-1 | Mix
+- name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
   server: 143.198.85.89
   type: socks
   username: admin
-- name: 10|🇸🇬 SG-2 | Mix
+- name: 11|🇸🇬 SG-2 | Mix
   password: '!!str 888888'
   port: 1080
   server: 8.222.180.85
@@ -60,13 +24,13 @@ proxies:
   _path: ''
   _security: ''
   _sni: ''
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-3 | Mix
   password: ''
   port: 1080
   server: 212.58.132.5
   type: socks
   username: ''
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -74,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -82,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421

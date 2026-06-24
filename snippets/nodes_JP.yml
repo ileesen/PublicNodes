@@ -1,5 +1,20 @@
 proxies:
-- name: 12,13|日本|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 33106
+  server: cu3.ainivp.com
+  servername: cu3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  ws-opts:
+    headers:
+      Host: cu3.ainivp.com
+    path: /ray
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -7,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 37973
@@ -15,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 3743

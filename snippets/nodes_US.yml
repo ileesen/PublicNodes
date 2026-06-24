@@ -1,69 +1,20 @@
 proxies:
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-8 | 8EB
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇺🇸 US-17 | 8EB
   network: ws
-  password: '!!str 114514'
   port: 443
-  security: tls
-  server: 216.167.68.73
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
+  server: 34.124.160.94
+  servername: do.hterre.me
+  tls: true
+  type: vmess
+  uuid: d54e3357-ff54-42e7-d8a0-8ea5cdcaefd4
   ws-opts:
     headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-9 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 104.207.152.96
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-12 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 140.82.19.127
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-13 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 216.167.65.44
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- name: 12,13|美国|@ripaojiedian
+      Host: do.hterre.me
+    path: /bing
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 17005
@@ -71,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 17005
@@ -79,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 22657

@@ -1,233 +1,108 @@
 proxies:
-- allowInsecure: '0'
+- alterId: 0
+  cipher: auto
   insecure: '0'
-  name: 9|🇭🇰 HK-1 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 83.147.60.186
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: false
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
+  port: 33106
+  server: cu3.ainivp.com
+  servername: cu3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
   ws-opts:
     headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-8 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 216.167.68.73
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
+      Host: cu3.ainivp.com
+    path: /ray
 - allowInsecure: '0'
+  fp: chrome
   insecure: '0'
-  name: 9|🇭🇰 HK-2 | 8EB
+  name: 10|🇮🇹 IT-1 | 8EB
   network: ws
-  password: '114514'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   security: tls
-  server: 23.156.153.57
-  servername: tjaaa.hhllfly.kdns.fr
+  server: store.ubi.com
+  servername: hhcm.hhxaf.cc.cd
   skip-cert-verify: false
-  sni: tjaaa.hhllfly.kdns.fr
+  sni: hhcm.hhxaf.cc.cd
   type: trojan
   ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 9|🇭🇰 HK-3 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 209.33.166.199
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: false
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇰🇷 KR-1 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 141.164.51.88
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-9 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 104.207.152.96
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇰🇷 KR-2 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 141.164.42.2
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇮🇹 IT-1 | 8EB
-  password: 951753pjh
-  port: 30008
-  server: vc2606.vip1314.vip
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-12 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 140.82.19.127
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-13 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 216.167.65.44
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 172.236.154.50
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 9|🇭🇰 HK-4 | 8EB
-  network: ws
-  password: '114514'
-  port: 443
-  security: tls
-  server: 103.219.194.43
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: false
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
     path: /
 - alterId: 0
   cipher: auto
   insecure: '0'
-  name: 9|🇫🇷 FR-2 | 8EB
+  name: 10|🇺🇸 US-17 | 8EB
   network: ws
-  port: 80
-  server: 69.84.182.49
-  tls: false
+  port: 443
+  server: 34.124.160.94
+  servername: do.hterre.me
+  tls: true
   type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  uuid: d54e3357-ff54-42e7-d8a0-8ea5cdcaefd4
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 9|🇭🇰 HK-5 | 8EB
+      Host: do.hterre.me
+    path: /bing
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇷🇴 RO-3 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  security: tls
+  server: 103.177.136.42
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  security: tls
+  server: 103.177.136.42
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇩🇪 DE-31 | 8EB
   network: ws
-  password: '114514'
+  password: humanity
   port: 443
   security: tls
-  server: 209.33.160.242
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: false
-  sni: tjaaa.hhllfly.kdns.fr
+  server: 104.18.152.140
+  servername: www.calmloud.com
+  skip-cert-verify: true
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
+      Host: www.calmloud.com
+    path: /assignment
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 2008
@@ -235,7 +110,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39414
@@ -243,7 +118,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -251,7 +126,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -259,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 37973
@@ -267,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 3743
@@ -275,7 +150,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -283,7 +158,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -291,7 +166,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -299,7 +174,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 17005
@@ -307,7 +182,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 17005
@@ -315,7 +190,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -325,7 +200,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

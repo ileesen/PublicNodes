@@ -1,81 +1,20 @@
 proxies:
-- allowInsecure: '0'
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
   headerType: none
-  insecure: '0'
-  name: 9|🇬🇧 GB-1 | 8EB
+  name: 10|🇬🇧 GB-1 | 8EB
   network: tcp
-  port: 8443
-  security: tls
-  server: 152.233.28.200
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  sni: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- allowInsecure: '0'
-  encryption: none
-  headerType: none
-  insecure: '0'
-  name: 9|🇬🇧 GB-2 | 8EB
-  network: tcp
-  port: 8443
-  security: tls
-  server: 152.233.28.202
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  sni: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- allowInsecure: '1'
-  encryption: none
-  headerType: none
-  insecure: '1'
-  name: 9|🇬🇧 GB-3 | 8EB
-  network: tcp
-  port: 8443
-  security: tls
-  server: 152.233.28.201
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  sni: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- allowInsecure: '0'
-  encryption: none
-  headerType: none
-  insecure: '0'
-  name: 9|🇬🇧 GB-4 | 8EB
-  network: tcp
-  port: 8443
-  security: tls
-  server: 152.233.28.199
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  sni: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 9|🇺🇰 UK-1 | 8EB
-  network: ws
+  pbk: S2Fe4Ft_uGGNGVShoyrKHED3VaoRfjLQxDBD3LaNbgc
   port: 443
-  security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: false
-  sni: do-lon1.862400.xyz
+  reality-opts:
+    public-key: S2Fe4Ft_uGGNGVShoyrKHED3VaoRfjLQxDBD3LaNbgc
+    server-name: deepl.com
+    short-id: 9350a4f6c01e987a
+  security: reality
+  server: 67.159.52.159
+  sid: 9350a4f6c01e987a
+  sni: deepl.com
   tls: true
   type: vless
-  uuid: 5274568d-624e-48cf-b452-f0c7af9ebb4a
-  ws-opts:
-    headers:
-      Host: do-lon1.862400.xyz
-    path: /announcement?ed=2048
+  uuid: 3dc30f8b-e411-4f68-9fda-73b63d920e1a
