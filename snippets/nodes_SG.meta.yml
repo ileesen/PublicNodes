@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 7|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - allowInsecure: '1'
   insecure: '1'
-  name: 10|🇸🇬 SG-1 | 8EB
+  name: 9|🇸🇬 SG-1 | 8EB
   network: ws
   password: '!!str 114514'
   port: 443
@@ -28,7 +28,7 @@ proxies:
   encryption: none
   fp: random
   insecure: '0'
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 9|🇸🇬 SG-2 | 8EB
   network: ws
   port: 443
   security: tls
@@ -43,7 +43,30 @@ proxies:
     headers:
       Host: do-sgp1.862400.xyz
     path: /announcement?ed=2048
-- name: 13,14|新加坡|@ripaojiedian
+- name: 10|🇸🇬 SG-1 | Mix
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks
+  username: admin
+- name: 10|🇸🇬 SG-2 | Mix
+  password: '!!str 888888'
+  port: 1080
+  server: 8.222.180.85
+  type: socks
+  username: '888888'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-3 | Mix
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks
+  username: ''
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -51,7 +74,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: ba5b6f1d3a9da87096165da523fb4375
   port: 6357
@@ -59,7 +82,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
