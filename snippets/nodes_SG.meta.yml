@@ -7,6 +7,38 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 172.236.154.50
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 141.11.43.124
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080

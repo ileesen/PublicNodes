@@ -7,23 +7,25 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
+  client-fingerprint: chrome
   encryption: none
+  fp: chrome
   insecure: '0'
   name: 10|🇭🇰 HK-1 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: singapore.com
-  servername: c7dabe95.proxy-978.pages.dev
+  server: orange.seeck.cn
+  servername: wz1.fum.ccwu.cc
   skip-cert-verify: false
-  sni: c7dabe95.proxy-978.pages.dev
+  sni: wz1.fum.ccwu.cc
   tls: true
   type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
   ws-opts:
     headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
+      Host: wz1.fum.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
 - allowInsecure: '0'
   client-fingerprint: chrome
   encryption: none
@@ -31,39 +33,51 @@ proxies:
   insecure: '0'
   name: 10|🇭🇰 HK-2 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 172.67.73.93
-  servername: v.qianyungong.de5.net
+  server: ip.sb
+  servername: wz1.fum.ccwu.cc
   skip-cert-verify: false
-  sni: v.qianyungong.de5.net
+  sni: wz1.fum.ccwu.cc
   tls: true
   type: vless
-  uuid: e1a7b9c2-5d4f-4a31-b829-d7e6f8c9b0a1
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
   ws-opts:
     headers:
-      Host: v.qianyungong.de5.net
-    path: /proxyip=213.35.127.18,5.223.59.9
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+      Host: wz1.fum.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
+- allowInsecure: '1'
+  insecure: '1'
   name: 10|🇭🇰 HK-3 | 8EB
   network: ws
-  port: 2096
+  password: '!!str 114514'
+  port: 443
   security: tls
-  server: 104.26.0.198
-  servername: v.qianyungong.de5.net
-  skip-cert-verify: false
-  sni: v.qianyungong.de5.net
-  tls: true
-  type: vless
-  uuid: e1a7b9c2-5d4f-4a31-b829-d7e6f8c9b0a1
+  server: 122.10.119.252
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: v.qianyungong.de5.net
-    path: /proxyip=213.35.127.18,5.223.59.9
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 23.156.153.57
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
 - name: 11|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

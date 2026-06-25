@@ -11,7 +11,7 @@ proxies:
   port: 443
   server: 13.231.108.76
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
 - name: 9|JP_@QiangLieTuiJian
@@ -22,21 +22,63 @@ proxies:
   sni: https://t.me/QiangLieTuiJian
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  insecure: '0'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
   name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  port: 33106
-  server: cu3.ainivp.com
-  servername: cu3.ainivp.com
+  network: tcp
+  pbk: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    server-name: jp.s3-cloud.org
+    short-id: 7a3f9e2b1c8d4f6a
+  security: reality
+  server: 31.76.91.29
+  sid: 7a3f9e2b1c8d4f6a
+  sni: jp.s3-cloud.org
   tls: true
-  type: vmess
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
-  ws-opts:
-    headers:
-      Host: cu3.ainivp.com
-    path: /ray
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  pbk: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    server-name: jp.s3-cloud.org
+    short-id: 7a3f9e2b1c8d4f6a
+  security: reality
+  server: 31.76.91.31
+  sid: 7a3f9e2b1c8d4f6a
+  sni: jp.s3-cloud.org
+  tls: true
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  pbk: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    server-name: jp.s3-cloud.org
+    short-id: 7a3f9e2b1c8d4f6a
+  security: reality
+  server: 31.76.91.25
+  sid: 7a3f9e2b1c8d4f6a
+  sni: jp.s3-cloud.org
+  tls: true
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
