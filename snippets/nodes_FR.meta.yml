@@ -1,14 +1,99 @@
 proxies:
-- allowInsecure: '1'
+- encryption: none
+  fp: chrome
   headerType: none
-  insecure: '1'
   name: 10|🇫🇷 FR-1 | 8EB
   network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  pbk: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
+  port: 80
+  reality-opts:
+    public-key: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
+    server-name: www.sony.com
+    short-id: c1
+  security: reality
+  server: 45.67.139.162
+  sid: c1
+  sni: www.sony.com
+  tls: true
+  type: vless
+  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  password: humanity
+  port: 443
   security: tls
-  server: 103.177.136.42
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  server: 104.26.14.137
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 104.16.174.37
+  servername: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- allowInsecure: '0'
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 45.130.125.18
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇫🇷 FR-5 | 8EB
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  security: tls
+  server: 72.249.204.157
+  servername: tjaaa.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇫🇷 FR-6 | 8EB
+  network: tcp
+  pbk: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+  port: 443
+  reality-opts:
+    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+    server-name: m.media-amazon.com
+    short-id: 6ba85179e30d4fc2
+  security: reality
+  server: assets.hihidress.com
+  sid: 6ba85179e30d4fc2
+  sni: m.media-amazon.com
+  tls: true
+  type: vless
+  uuid: 27f914c5-bdcc-441a-9459-368daf552606

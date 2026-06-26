@@ -15,38 +15,25 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- allowInsecure: '1'
-  insecure: '1'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 172.236.154.50
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 141.11.43.124
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
+  network: tcp
+  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+  port: 13402
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    server-name: www.microsoft.com
+    short-id: a1b2c3d4
+  security: reality
+  server: zzjp1.ainivp.com
+  sid: a1b2c3d4
+  sni: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
