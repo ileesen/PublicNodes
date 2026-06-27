@@ -15,25 +15,104 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
   fp: chrome
-  headerType: none
+  insecure: '0'
   name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-  port: 13402
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    server-name: www.microsoft.com
-    short-id: a1b2c3d4
-  security: reality
-  server: zzjp1.ainivp.com
-  sid: a1b2c3d4
-  sni: www.microsoft.com
+  network: ws
+  port: 3389
+  security: tls
+  server: 43.163.89.186
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  sni: c.eoa.ccwu.cc
   tls: true
   type: vless
-  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 43.163.77.140
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  sni: c.eoa.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 7788
+  security: tls
+  server: 43.153.208.246
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  sni: c.eoa.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: tcp
+  pbk: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
+  port: 443
+  reality-opts:
+    public-key: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
+    server-name: www.apple.com
+    short-id: 12ec278197ed73d9
+  security: reality
+  server: 163.128.98.179
+  sid: 12ec278197ed73d9
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: f68eda7b-a93a-437e-8b35-3bb6c675b025
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: tcp
+  pbk: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
+  port: 443
+  reality-opts:
+    public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
+    server-name: www.apple.com
+    short-id: 93a993bbc8b86684
+  security: reality
+  server: 163.128.98.252
+  sid: 93a993bbc8b86684
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080

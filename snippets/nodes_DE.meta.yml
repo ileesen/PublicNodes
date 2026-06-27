@@ -17,36 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: T-Me-V2RayyNGvpn
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@irconfiig
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: Z7MFGgpuzh
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: dJtElQSz4v
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
 - allowInsecure: '0'
   encryption: none
   insecure: '0'
@@ -62,6 +32,42 @@ proxies:
   tls: true
   type: vless
   uuid: ac006062-f051-43c6-bd4c-f409285c8635
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  mode: auto
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: xhttp
+  port: 443
+  security: tls
+  server: 45.130.125.6
+  servername: germany4.alibaba1405.org
+  skip-cert-verify: false
+  sni: germany4.alibaba1405.org
+  tls: true
+  type: vless
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  pbk: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+  port: 443
+  reality-opts:
+    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+    server-name: www.nvidia.com
+    short-id: d23753491eefde7e
+  security: reality
+  server: 185.137.157.72
+  sid: d23753491eefde7e
+  sni: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

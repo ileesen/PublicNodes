@@ -1,19 +1,19 @@
 proxies:
-- encryption: none
-  fp: ios
-  headerType: none
+- allowInsecure: '0'
+  client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  insecure: '0'
   name: 10|🇸🇪 SE-1 | 8EB
-  network: tcp
-  pbk: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-  port: 1000
-  reality-opts:
-    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-    server-name: knox.cdn-apple.com
-    short-id: a62d513cd709744a
-  security: reality
-  server: direct.ircybersec.org
-  sid: a62d513cd709744a
-  sni: knox.cdn-apple.com
+  network: ws
+  port: 443
+  security: tls
+  server: 192.71.82.2
+  servername: kingcloud.biack.ir
+  skip-cert-verify: false
+  sni: kingcloud.biack.ir
   tls: true
   type: vless
-  uuid: 19f6900b-e716-4efc-55bb-c43b3cb4acfc
+  uuid: a5c05c1e-aa68-443f-8598-09800244bd4b
+  ws-opts:
+    path: /LiL

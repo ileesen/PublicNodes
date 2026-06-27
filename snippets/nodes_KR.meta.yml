@@ -1,20 +1,4 @@
 proxies:
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  security: tls
-  server: 211.49.57.175
-  servername: tjaaa.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: /
 - name: 11|🇰🇷 KR-1 | Mix
   password: admin
   port: 5555
@@ -27,3 +11,11 @@ proxies:
   server: 101.33.74.115
   type: socks
   username: '111'
+- name: 15|KR_speednode_0014
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 31433
+  server: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
