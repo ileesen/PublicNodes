@@ -110,11 +110,27 @@ proxies:
   skip-cert-verify: true
   sni: d.usj1.cat.bilibili.com
   type: trojan
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 172.64.146.198
+  servername: www.gossipglove.com
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - encryption: none
   flow: xtls-rprx-vision
   fp: safari
   headerType: none
-  name: 10|🇺🇸 US-9 | 8EB
+  name: 10|🇺🇸 US-10 | 8EB
   network: tcp
   pbk: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
   port: 443
@@ -133,7 +149,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: safari
   headerType: none
-  name: 10|🇺🇸 US-10 | 8EB
+  name: 10|🇺🇸 US-11 | 8EB
   network: tcp
   pbk: gsdDGmpihQDb0XRhFUyKjkukYQerNvMfOx7GVn9N8mQ
   port: 443
@@ -177,7 +193,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
