@@ -18,56 +18,36 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  fp: chrome
   insecure: '0'
   mode: auto
   name: 10|🇩🇪 DE-1 | 8EB
   network: xhttp
-  port: 443
+  port: 2083
   security: tls
-  server: 45.130.125.172
-  servername: germany4.alibaba1405.org
+  server: securitytrails.com
+  servername: ns1.mtp-roto.info
   skip-cert-verify: false
-  sni: germany4.alibaba1405.org
+  sni: ns1.mtp-roto.info
   tls: true
   type: vless
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  mode: auto
+  uuid: c5ece540-6d4b-4057-85a6-2b651c1697b7
+- encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  mode: stream-one
   name: 10|🇩🇪 DE-2 | 8EB
   network: xhttp
-  port: 443
-  security: tls
-  server: 45.130.125.6
-  servername: germany4.alibaba1405.org
-  skip-cert-verify: false
-  sni: germany4.alibaba1405.org
-  tls: true
+  port: 7000
+  security: none
+  server: 89.106.64.15
   type: vless
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  pbk: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
-  port: 443
-  reality-opts:
-    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
-    server-name: www.nvidia.com
-    short-id: d23753491eefde7e
-  security: reality
-  server: 185.137.157.72
-  sid: d23753491eefde7e
-  sni: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

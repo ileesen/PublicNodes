@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 172.64.154.5
+  servername: wz1.fum.ccwu.cc
+  skip-cert-verify: false
+  sni: wz1.fum.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
+  ws-opts:
+    headers:
+      Host: wz1.fum.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo

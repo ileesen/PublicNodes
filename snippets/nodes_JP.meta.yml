@@ -6,44 +6,19 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
+- allowInsecure: '1'
+  insecure: '1'
+  mport: 35000-39000
   name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  pbk: SE4nxEqnZmEA1CfkIkRmBLGw_kMe0arFkpVkyJ8dzgw
-  port: 443
-  reality-opts:
-    public-key: SE4nxEqnZmEA1CfkIkRmBLGw_kMe0arFkpVkyJ8dzgw
-    server-name: www.apple.com
-    short-id: c96a39261c4a7f7f
-  security: reality
-  server: 116.206.93.44
-  sid: c96a39261c4a7f7f
-  sni: www.apple.com
-  tls: true
-  type: vless
-  uuid: f6f5ce85-7473-4b92-a3a8-86c06886497b
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  pbk: EjhgeMkoP9z2aO28kVm8XYLwhBhccHMiLvLZxJxtTkk
-  port: 443
-  reality-opts:
-    public-key: EjhgeMkoP9z2aO28kVm8XYLwhBhccHMiLvLZxJxtTkk
-    server-name: www.apple.com
-    short-id: 4ec39de0bcea7a59
-  security: reality
-  server: 116.206.93.244
-  sid: 4ec39de0bcea7a59
-  sni: www.apple.com
-  tls: true
-  type: vless
-  uuid: 37c66c65-88fd-4daf-b142-3fe8117333d9
+  password: f872264a-664a-4b6a-84e8-516a39099860
+  port: 35000
+  server: 103.62.49.76
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.apple.com
+  type: hysteria2
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
