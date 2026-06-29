@@ -6,19 +6,262 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- allowInsecure: '1'
-  insecure: '1'
-  mport: 35000-39000
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: ios
+  headerType: none
   name: 10|🇯🇵 JP-1 | 8EB
-  password: f872264a-664a-4b6a-84e8-516a39099860
-  port: 35000
-  server: 103.62.49.76
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.apple.com
-  type: hysteria2
+  network: tcp
+  pbk: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE
+  port: 443
+  reality-opts:
+    public-key: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE
+    server-name: iosapps.itunes.apple.com
+    short-id: 6a1faecb
+  security: reality
+  server: pq.aws48.yydjc.top
+  sid: 6a1faecb
+  sni: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  pbk: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+  port: 443
+  reality-opts:
+    public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+    server-name: iosapps.itunes.apple.com
+    short-id: e2e15173
+  security: reality
+  server: pq.aws64.yydjc.top
+  sid: e2e15173
+  sni: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none🇯🇵日本 16.08MB/s
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  pbk: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    server-name: cdn-dynmedia-1.microsoft.com
+    short-id: f3b38af2
+  security: reality
+  server: pq.aws52.yydjc.top
+  sid: f3b38af2
+  sni: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  pbk: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
+  port: 443
+  reality-opts:
+    public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
+    server-name: iosapps.itunes.apple.com
+    short-id: 436299c6
+  security: reality
+  server: pq.aws63.yydjc.top
+  sid: 436299c6
+  sni: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: ios
+  headerType: none🇯🇵日本 16.08MB/s
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
+  pbk: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+  port: 443
+  reality-opts:
+    public-key: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+    server-name: updates.cdn-apple.com
+    short-id: 2edcfbb7
+  security: reality
+  server: pq.aws56.yydjc.top
+  sid: 2edcfbb7
+  sni: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: ios
+  headerType: none🇯🇵日本 16.08MB/s
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: tcp
+  pbk: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    server-name: cdn-dynmedia-1.microsoft.com
+    short-id: f3b38af2
+  security: reality
+  server: pq.aws51.yydjc.top
+  sid: f3b38af2
+  sni: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 158.101.132.216
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 45.76.206.46
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: ios
+  encryption: none
+  fp: ios
+  insecure: '0'
+  name: 10|🇯🇵 JP-9 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: unamecf.xn--ghqu5fm27b67w.com
+  servername: ujp3.xn--ghqu5fm27b67w.com
+  skip-cert-verify: false
+  sni: ujp3.xn--ghqu5fm27b67w.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+  ws-opts:
+    headers:
+      Host: ujp3.xn--ghqu5fm27b67w.com
+    path: /pq/jp3
+- allowInsecure: '0'
+  client-fingerprint: ios
+  encryption: none
+  fp: ios
+  insecure: '0'
+  name: 10|🇯🇵 JP-10 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: unamecf2.xn--ghqu5fm27b67w.com
+  servername: ujp4.xn--ghqu5fm27b67w.com
+  skip-cert-verify: false
+  sni: ujp4.xn--ghqu5fm27b67w.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+  ws-opts:
+    headers:
+      Host: ujp4.xn--ghqu5fm27b67w.com
+    path: /pq/jp4
+- allowInsecure: '0'
+  client-fingerprint: ios
+  encryption: none
+  fp: ios
+  insecure: '0'
+  name: 10|🇯🇵 JP-11 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: unamecf.xn--ghqu5fm27b67w.com
+  servername: ujp1.xn--ghqu5fm27b67w.com
+  skip-cert-verify: false
+  sni: ujp1.xn--ghqu5fm27b67w.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+  ws-opts:
+    headers:
+      Host: ujp1.xn--ghqu5fm27b67w.com
+    path: /pq/jp1
+- allowInsecure: '0'
+  client-fingerprint: safari
+  encryption: none
+  fp: safari
+  insecure: '0'
+  name: 10|🇯🇵 JP-12 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: unamecf2.xn--ghqu5fm27b67w.com
+  servername: ujp2.xn--ghqu5fm27b67w.com
+  skip-cert-verify: false
+  sni: ujp2.xn--ghqu5fm27b67w.com
+  tls: true
+  type: vless
+  uuid: fa76bb68-8e06-495f-a67d-58758a527533
+  ws-opts:
+    headers:
+      Host: ujp2.xn--ghqu5fm27b67w.com
+    path: /pq/jp2
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇯🇵 JP-13 | 8EB
+  network: ws
+  port: 12345
+  security: tls
+  server: 168.138.197.147
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

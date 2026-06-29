@@ -1,38 +1,22 @@
 proxies:
 - allowInsecure: '0'
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  fp: firefox
+  fp: chrome
   insecure: '0'
   name: 10|🇸🇪 SE-1 | 8EB
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 192.71.82.2
-  servername: kingcloud.biack.ir
+  server: 88.216.223.37
+  servername: vpn47.cc.cd
   skip-cert-verify: false
-  sni: kingcloud.biack.ir
+  sni: vpn47.cc.cd
   tls: true
   type: vless
-  uuid: a5c05c1e-aa68-443f-8598-09800244bd4b
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
   ws-opts:
-    path: /LiL
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: qq
-  headerType: none
-  name: 10|🇸🇪 SE-2 | 8EB
-  network: tcp
-  pbk: I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ
-  port: 443
-  reality-opts:
-    public-key: I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ
-    server-name: sw.cloudload.org
-    short-id: a1ab5a56bc11c2
-  security: reality
-  server: sw.cloudload.org
-  sid: a1ab5a56bc11c2
-  sni: sw.cloudload.org
-  tls: true
-  type: vless
-  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+    headers:
+      Host: vpn47.cc.cd
+    path: /
