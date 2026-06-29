@@ -1,76 +1,22 @@
 proxies:
-- allowInsecure: '1'
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   headerType: none
-  insecure: '1'
+  insecure: '0'
   name: 10|🇫🇷 FR-1 | 8EB
   network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  port: 60396
   security: tls
-  server: 103.177.136.42
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 104.18.152.219
-  servername: www.ignitelimit.com
+  server: joshtesogdet01.xxssplay.com
+  servername: fr1.fun88linkvn.com
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 104.16.174.34
-  servername: www.ignitelimit.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇫🇷 FR-4 | 8EB
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 104.17.177.143
-  servername: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇫🇷 FR-5 | 8EB
-  password: ''
-  port: 1080
-  server: dk-cop.pvdata.host
-  type: socks
-  username: UjM4WWNqMWJuR1F0RldQN2NMVU1neUdDOlRlbDZAU29vblRlYW0
+  sni: fr1.fun88linkvn.com
+  tls: true
+  type: vless
+  uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4
 - name: 15|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
