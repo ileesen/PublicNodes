@@ -2,18 +2,20 @@ proxies:
 - allowInsecure: '0'
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   fp: chrome
-  headerType: none
   insecure: '0'
   name: 10|🇨🇦 CA-1 | 8EB
-  network: tcp
-  port: 34237
+  network: ws
+  port: 8443
   security: tls
-  server: joshtesogdet01.xxssplay.com
-  servername: ca1.fun88linkvn.com
+  server: 172.64.154.5
+  servername: wz1.fum.ccwu.cc
   skip-cert-verify: false
-  sni: ca1.fun88linkvn.com
+  sni: wz1.fum.ccwu.cc
   tls: true
   type: vless
-  uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
+  ws-opts:
+    headers:
+      Host: wz1.fum.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo

@@ -1,22 +1,55 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
+- allowInsecure: '1'
   headerType: none
-  insecure: '0'
+  insecure: '1'
   name: 10|🇬🇧 GB-1 | 8EB
   network: tcp
-  port: 23765
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 57106
   security: tls
-  server: joshtesogdet01.xxssplay.com
-  servername: gb1.fun88linkvn.com
-  skip-cert-verify: false
-  sni: gb1.fun88linkvn.com
+  server: d1.catcat321.com
+  servername: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  pbk: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+  port: 8443
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    server-name: storage.yandex.net
+    short-id: 2cfb5a0ae8ab0cb0
+  security: reality
+  server: 45.194.10.207
+  sid: 2cfb5a0ae8ab0cb0
+  sni: storage.yandex.net
   tls: true
   type: vless
-  uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇬🇧 GB-3 | 8EB
+  network: tcp
+  pbk: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+  port: 8443
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    server-name: storage.yandex.net
+    short-id: 2cfb5a0ae8ab0cb0
+  security: reality
+  server: 45.194.10.242
+  sid: 2cfb5a0ae8ab0cb0
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

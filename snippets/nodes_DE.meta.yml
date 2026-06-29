@@ -18,23 +18,36 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
   client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
+  extra: '{"xPaddingBytes":"100-1000"}'
   fp: chrome
-  headerType: none
   insecure: '0'
+  mode: auto
   name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 65192
+  network: xhttp
+  port: 2083
   security: tls
-  server: joshtesogdet01.xxssplay.com
-  servername: de1.fun88linkvn.com
+  server: securitytrails.com
+  servername: ns1.mtp-roto.info
   skip-cert-verify: false
-  sni: de1.fun88linkvn.com
+  sni: ns1.mtp-roto.info
   tls: true
   type: vless
-  uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4
+  uuid: c5ece540-6d4b-4057-85a6-2b651c1697b7
+- encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  mode: stream-one
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: xhttp
+  port: 7000
+  security: none
+  server: 89.106.64.15
+  type: vless
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
