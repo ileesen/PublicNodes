@@ -17,75 +17,76 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - h3
+  fingerprint: chrome
+  name: 9|🇩🇪hysteria2-@hollowcon
+  obfs: salamander
+  obfs-password: xdbc2u01v1j9fhvv
+  password: hk6ah4vgb0qp2koh
+  port: 2087
+  server: ger1.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇩🇪💎hysteria-@hollowcon
+  password: hk6ah4vgb0qp2koh
+  port: 4526
+  server: panel.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
 - encryption: none
-  fp: chrome
+  fp: firefox
   headerType: none
   name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
-  pbk: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
-  port: 55555
+  pbk: ckM63wg41bRvhR2Kiq_bYkcQFEslrLzr2mZNd57LSnM
+  port: 9443
   reality-opts:
-    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
-    server-name: yahoo.com
-    short-id: 880eeeef4927eed5
+    public-key: ckM63wg41bRvhR2Kiq_bYkcQFEslrLzr2mZNd57LSnM
+    server-name: img.perekrestok.ru
+    short-id: 55a228293af24d
   security: reality
-  server: 88.198.117.90
-  sid: 880eeeef4927eed5
-  sni: yahoo.com
+  server: nr.cnkstore.ru
+  sid: 55a228293af24d
+  sni: img.perekrestok.ru
   tls: true
   type: vless
-  uuid: 7e95caf9-f428-4976-ab7c-d160d7e78f74
+  uuid: 59e25c2a-af27-4bcc-b81f-46874da3c020
 - encryption: none
+  flow: xtls-rprx-vision
   fp: firefox
-  grpc-opts:
-    grpc-service-name: api.v1.telemetry.EventStream
-  mode: gun
+  headerType: none
   name: 10|🇩🇪 DE-2 | 8EB
-  network: grpc
-  pbk: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
-  port: 8443
-  reality-opts:
-    public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
-    server-name: addons.mozilla.org
-    short-id: 530db35e324c3aa5
-  security: reality
-  server: 152.236.3.28
-  serviceName: api.v1.telemetry.EventStream
-  sid: 530db35e324c3aa5
-  sni: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: 939a8de1-f071-4a5d-9874-45148f8a6a39
-- allowInsecure: '0'
-  alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  insecure: '0'
-  mode: stream-one
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: xhttp
+  network: tcp
+  pbk: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
   port: 443
-  security: tls
-  server: 89.144.30.104
-  servername: dey.lnmarketplace.net
-  skip-cert-verify: false
-  sni: dey.lnmarketplace.net
+  reality-opts:
+    public-key: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
+    server-name: de.prime-net.me
+    short-id: 5cb943f4de56c4b1
+  security: reality
+  server: 2.26.24.128
+  sid: 5cb943f4de56c4b1
+  sni: de.prime-net.me
   tls: true
   type: vless
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  uuid: a8d682da-615d-4490-9d52-44ae3c11988b
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 10|🇩🇪 DE-3 | 8EB
   network: ws
-  port: 443
+  port: 442
   security: tls
-  server: 172.86.69.43
+  server: 91.107.221.214
   servername: vpn47.cc.cd
   skip-cert-verify: false
   sni: vpn47.cc.cd
@@ -97,27 +98,33 @@ proxies:
       Host: vpn47.cc.cd
     path: /
 - allowInsecure: '0'
-  alpn:
-  - h2
-  client-fingerprint: chrome
   encryption: none
-  extra: '{"xPaddingBytes":"100-1000"}'
-  fp: chrome
   insecure: '0'
-  mode: auto
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: xhttp
-  port: 443
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: ws
+  port: 2083
   security: tls
-  server: amzkkeerrpcihx.dissertationhelpspecialist.com
-  servername: amzkkeerrpcihx.dissertationhelpspecialist.com
+  server: 167.172.183.195
+  servername: vpn47.cc.cd
   skip-cert-verify: false
-  sni: amzkkeerrpcihx.dissertationhelpspecialist.com
+  sni: vpn47.cc.cd
   tls: true
   type: vless
-  uuid: 790bf515-bacc-4cb9-85f7-01144d17807b
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: b9lGHYb5ownCStrXt3oYHA
+  port: 1080
+  server: 217.179.5.160
+  type: ss
+  udp: true
 - allowInsecure: '0'
   client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
@@ -125,7 +132,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 188.166.166.243
+  server: 146.70.233.25
   servername: vpn47.cc.cd
   skip-cert-verify: false
   sni: vpn47.cc.cd
@@ -136,62 +143,123 @@ proxies:
     headers:
       Host: vpn47.cc.cd
     path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
   name: 10|🇩🇪 DE-7 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 64.226.95.244
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
+  network: tcp
+  pbk: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+  port: 2053
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    server-name: de-t2.vinnypuxtomoon.today
+    short-id: c0d1d1776fed0f6d
+  security: reality
+  server: de-t2.vinnypuxtomoon.today
+  sid: c0d1d1776fed0f6d
+  sni: de-t2.vinnypuxtomoon.today
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
+  uuid: 1ee0c3d2-9c42-463f-8497-ee05f76b84e5
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: tcp
+  pbk: QDfwP9C0c60Kz5Do_M2UAsAek1cuRTaZxg3Eu3XdTVg
+  port: 443
+  reality-opts:
+    public-key: QDfwP9C0c60Kz5Do_M2UAsAek1cuRTaZxg3Eu3XdTVg
+    server-name: www.nvidia.com
+    short-id: 0ee86125d75f294f
+  security: reality
+  server: 31.76.38.23
+  sid: 0ee86125d75f294f
+  sni: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: e430c6ff-ed6b-4913-a323-cdd76166785a
 - allowInsecure: '0'
   client-fingerprint: chrome
   encryption: none
   fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-8 | 8EB
-  network: ws
-  port: 2087
-  security: tls
-  server: 161.35.217.79
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
-- allowInsecure: '0'
   insecure: '0'
   name: 10|🇩🇪 DE-9 | 8EB
   network: ws
-  password: Mitivpn
   port: 443
   security: tls
-  server: 151.101.110.219
-  servername: ssl.fastly.com
+  server: 45.43.89.236
+  servername: ee.seaspirit.dpdns.org
   skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
+  sni: ee.seaspirit.dpdns.org
+  tls: true
+  type: vless
+  uuid: 14aedc8e-66d3-4e38-8f03-e7315fcf5b36
   ws-opts:
     headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+      Host: ee.seaspirit.dpdns.org
+    path: /
+- encryption: none
+  headerType: none
+  name: 10|🇩🇪 DE-10 | 8EB
+  network: tcp
+  port: 610
+  security: none
+  server: 93.127.160.203
+  type: vless
+  uuid: e39491dd-33f2-4544-9890-19f12da7cdd4
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-11 | 8EB
+  password: b2dk2rv4tpvayspa
+  port: 27050
+  server: 91.107.154.30
+  type: ss
+  udp: true
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-12 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: 46.101.172.79
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-13 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: hollowcon4.onrender.com
+  servername: hollowcon4.onrender.com
+  skip-cert-verify: false
+  sni: hollowcon4.onrender.com
+  tls: true
+  type: vless
+  uuid: 8a527097-96a8-476d-8612-6043e51e75f4
+  ws-opts:
+    headers:
+      Host: hollowcon4.onrender.com
+    path: /ws/8a527097-96a8-476d-8612-6043e51e75f4
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

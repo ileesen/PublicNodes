@@ -1,15 +1,33 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: tcp
+  pbk: G-wIgtt_HvMLxSPCq_KfRqcjjZwbLladjbLQD2aCFn0
+  port: 443
+  reality-opts:
+    public-key: G-wIgtt_HvMLxSPCq_KfRqcjjZwbLladjbLQD2aCFn0
+    server-name: cdn.jsdelivr.net
+    short-id: 21f36341
+  security: reality
+  server: 31.76.39.41
+  sid: 21f36341
+  sni: cdn.jsdelivr.net
+  tls: true
+  type: vless
+  uuid: e430c6ff-ed6b-4913-a323-cdd76166785a
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 10|🇬🇧 GB-2 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 57.129.137.57
+  server: 57.129.137.199
   servername: vpn47.cc.cd
   skip-cert-verify: false
   sni: vpn47.cc.cd
@@ -22,11 +40,130 @@ proxies:
     path: /
 - allowInsecure: '0'
   client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: grpc-api
+  insecure: '0'
+  mode: gun
+  name: 10|🇬🇧 GB-3 | 8EB
+  network: grpc
+  port: 443
+  security: tls
+  server: gbos2.osvp.online
+  servername: gbos2.osvp.online
+  serviceName: grpc-api
+  skip-cert-verify: false
+  sni: gbos2.osvp.online
+  tls: true
+  type: vless
+  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-4 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 143.110.167.65
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-5 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 57.129.137.68
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-6 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 193.219.99.193
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇬🇧 GB-7 | 8EB
+  network: tcp
+  pbk: zNtSqVR2dp454rIsJL8qQ-miOuSIP33Koyqc9gUGdV8
+  port: 443
+  reality-opts:
+    public-key: zNtSqVR2dp454rIsJL8qQ-miOuSIP33Koyqc9gUGdV8
+    server-name: www.cloudflare.com
+    short-id: 60bf01f7
+  security: reality
+  server: 20.0.105.19
+  sid: 60bf01f7
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 47df3f6c-c3a0-463b-a6a0-ad4e8494c95b
+- allowInsecure: '0'
+  client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 10|🇬🇧 GB-8 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 57.128.181.14
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-9 | 8EB
   network: ws
   port: 443
   security: tls
@@ -41,6 +178,83 @@ proxies:
     headers:
       Host: vpn47.cc.cd
     path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-10 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 64.227.32.187
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-11 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 193.219.99.181
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- encryption: mlkem768x25519plus.native.0rtt.SDVNJ8a7qPdYoopOXbWvHVtCehU9d4J5QX941jiX7ic
+  fp: chrome
+  headerType: none
+  name: 10|🇬🇧 GB-12 | 8EB
+  network: tcp
+  pbk: cqgnkxM2KAppBDFu_ER6h-akGkWw6NqZqIs9tilH3mM
+  port: 32221
+  reality-opts:
+    public-key: cqgnkxM2KAppBDFu_ER6h-akGkWw6NqZqIs9tilH3mM
+    server-name: soft98.ir
+    short-id: 71acdfdc4726
+  security: reality
+  server: 107.181.134.108
+  sid: 71acdfdc4726
+  sni: soft98.ir
+  tls: true
+  type: vless
+  uuid: 21881488-949f-4f8b-81c5-568b58c4be70
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇬🇧 GB-13 | 8EB
+  network: tcp
+  pbk: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
+  port: 443
+  reality-opts:
+    public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
+    server-name: uk.monkeyisland.xyz
+    short-id: a0321aad8db9924f
+  security: reality
+  server: uk.monkeyisland.xyz
+  sid: a0321aad8db9924f
+  sni: uk.monkeyisland.xyz
+  tls: true
+  type: vless
+  uuid: 0d608098-a5b6-41f8-b394-b07c0c53d718
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

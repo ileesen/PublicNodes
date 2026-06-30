@@ -1,17 +1,15 @@
 proxies:
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇩🇪 DE-9 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: 151.101.110.219
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: b9lGHYb5ownCStrXt3oYHA
+  port: 1080
+  server: 217.179.5.160
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-11 | 8EB
+  password: b2dk2rv4tpvayspa
+  port: 27050
+  server: 91.107.154.30
+  type: ss
+  udp: true

@@ -1,120 +1,168 @@
 proxies:
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10,15|US_speednode_0063
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: iranpoems.ir
-  servername: www.gamingdll.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: b9lGHYb5ownCStrXt3oYHA
+  port: 1080
+  server: 217.179.5.160
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  fp: chrome
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-11 | 8EB
+  password: b2dk2rv4tpvayspa
+  port: 27050
+  server: 91.107.154.30
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   insecure: '0'
-  name: 10|🇳🇱 NL-6 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: 167.82.101.251
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
+  port: 31246
+  server: 103.160.100.36
+  tls: false
+  type: vmess
+  uuid: ed07dfb6-a047-484b-bebb-7a7186440eb5
   ws-opts:
     headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de
-- allowInsecure: '0'
+      Host: v9-dy.ixigua.com
+    path: /
+- allowInsecure: '1'
+  fp: chrome
   headerType: none
-  insecure: '0'
-  name: 10|🇺🇸 US-12 | 8EB
+  insecure: '1'
+  name: 10|🇹🇬 TG-2 | 8EB
   network: tcp
-  password: 63872b0d-87dd-4474-b690-92773af2922e
-  port: 20035
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
   security: tls
-  server: kkvlvvq-a.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
+  server: 103.177.136.45
+  servername: az.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
   type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇳🇱 NL-9 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /fastly=mitivpn
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: iranpoems.ir
-  servername: cdn.gamingdll.ir
-  skip-cert-verify: false
-  sni: cdn.gamingdll.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cdn.gamingdll.ir
-    path: /de=mitivpn
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
+- allowInsecure: '1'
   fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-3 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
   security: tls
-  server: 151.101.110.219
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
+  server: 103.177.136.45
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇩🇪 DE-9 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-4 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
   security: tls
-  server: 151.101.110.219
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
+  server: 103.177.136.45
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-5 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  security: tls
+  server: 103.177.136.42
+  servername: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-6 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  security: tls
+  server: 103.177.136.42
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-7 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  security: tls
+  server: 103.177.136.42
+  servername: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-8 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  security: tls
+  server: 103.177.136.42
+  servername: az.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-9 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  security: tls
+  server: 103.177.136.45
+  servername: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-10 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  security: tls
+  server: 103.177.136.45
+  servername: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 10|🇹🇬 TG-15 | 8EB
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  security: tls
+  server: 103.177.136.42
+  servername: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -275,3 +323,16 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
+- name: 15|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn

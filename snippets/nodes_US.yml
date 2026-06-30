@@ -1,70 +1,4 @@
 proxies:
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10,15|US_speednode_0063
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: iranpoems.ir
-  servername: www.gamingdll.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇺🇸 US-12 | 8EB
-  network: tcp
-  password: 63872b0d-87dd-4474-b690-92773af2922e
-  port: 20035
-  security: tls
-  server: kkvlvvq-a.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: iranpoems.ir
-  servername: cdn.gamingdll.ir
-  skip-cert-verify: false
-  sni: cdn.gamingdll.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cdn.gamingdll.ir
-    path: /de=mitivpn
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  password: Mitivpn
-  port: 443
-  security: tls
-  server: 151.101.110.219
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
@@ -89,3 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
