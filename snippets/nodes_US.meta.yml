@@ -202,18 +202,18 @@ proxies:
     headers:
       Host: vpn47.cc.cd
     path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇺🇸 US-11 | 8EB
+- name: 10|🇺🇸 US-11 | 8EB
   password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
   port: 8443
   server: srvhy1.ezcon24.online
   skip-cert-verify: false
+  sni: srvhy1.ezcon24.online
   tls:
     enabled: true
     insecure: false
     server_name: srvhy1.ezcon24.online
   type: hysteria2
+  udp: true
 - allowInsecure: '0'
   headerType: none
   insecure: '0'
@@ -282,19 +282,21 @@ proxies:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
     path: /de
-- allowInsecure: '1'
-  insecure: '1'
-  mport: 35000-39000
+- mport: 35000-39000
   name: 10|🇺🇸 US-16 | 8EB
   password: f872264a-664a-4b6a-84e8-516a39099860
   port: 35000
   server: 208.87.242.77
+  server_ports:
+  - 35000:39000
   skip-cert-verify: true
+  sni: www.apple.com
   tls:
     enabled: true
     insecure: true
     server_name: www.apple.com
   type: hysteria2
+  udp: true
 - encryption: none
   name: 10|🇺🇸 US-17 | 8EB
   network: ws
