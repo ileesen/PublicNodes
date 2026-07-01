@@ -1,1 +1,117 @@
-proxies: []
+proxies:
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: yx.cloudflare.182682.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cf.877774.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cloudflare-ip.mofashi.ltd
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: mfa.gov.ua
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 10|🇫🇷 FR-5 | 8EB
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  port: 8444
+  server: wlte3.nimarko.org
+  skip-cert-verify: false
+  sni: testing8.nimarko.org
+  tls:
+    enabled: true
+    insecure: false
+    server_name: testing8.nimarko.org
+  type: hysteria2
+  udp: true
+- name: 10|🇫🇷 FR-6 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.microsoft.com
+  type: hysteria2
+  udp: true
+- name: 15|FR_speednode_0004
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: fe01bdcc-t9zts0-tan99f-1rdqg.fr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b

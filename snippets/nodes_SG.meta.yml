@@ -1,1 +1,100 @@
-proxies: []
+proxies:
+- name: 8|SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.229.94.221
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2
+  tls: false
+  type: hysteria2
+- name: 8,10|🇸🇬 SG-3 | 8EB
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 47.128.242.210
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls:
+    enabled: true
+    insecure: true
+    server_name: https://t.me/WangCai2🇨🇳
+  type: hysteria2
+  udp: true
+- name: 8|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 10|🇸🇬 SG-1 | 8EB
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.251.212.188
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls:
+    enabled: true
+    insecure: true
+    server_name: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  udp: true
+- name: 10|🇸🇬 SG-2 | 8EB
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.250.29.24
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls:
+    enabled: true
+    insecure: true
+    server_name: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  udp: true
+- name: 11|🇸🇬 SG-1 | Mix
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks
+  username: admin
+- name: 11|🇸🇬 SG-2 | Mix
+  password: '!!str 888888'
+  port: 1080
+  server: 8.222.180.85
+  type: socks
+  username: '888888'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 11|🇸🇬 SG-3 | Mix
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks
+  username: ''
+- name: 13,14|新加坡|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 6357
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 48738
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.192.195
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
