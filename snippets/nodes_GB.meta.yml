@@ -1,58 +1,43 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: chrome
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  insecure: '0'
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 9|🇬🇧 GB-1 | 8EB
   network: tcp
-  password: LSS6HLnp7IeEEJUcox
+  pbk: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
   port: 443
-  security: tls
-  server: uk-1.tr202607.com
-  servername: uk-1.tr202607.com
-  skip-cert-verify: false
-  sni: uk-1.tr202607.com
-  type: trojan
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    server-name: www.bp.com
+    short-id: '20'
+  security: reality
+  server: uk2.miyazono-kaori.com
+  sid: '20'
+  sni: www.bp.com
+  tls: true
+  type: vless
+  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  grpc-opts:
-    grpc-service-name: grpc-api
-  insecure: '0'
-  mode: gun
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: grpc
+  headerType: none
+  name: 9|🇬🇧 GB-2 | 8EB
+  network: tcp
+  pbk: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
   port: 443
-  security: tls
-  server: gbos2.osvp.online
-  servername: gbos2.osvp.online
-  serviceName: grpc-api
-  skip-cert-verify: false
-  sni: gbos2.osvp.online
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    server-name: www.bp.com
+    short-id: d923
+  security: reality
+  server: uk1.miyazono-kaori.com
+  sid: d923
+  sni: www.bp.com
   tls: true
   type: vless
-  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
-- allowInsecure: '0'
-  client-fingerprint: safari
-  encryption: none
-  fp: safari
-  insecure: '0'
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 94.156.155.81.blanesik.space
-  servername: 94.156.155.81.blanesik.space
-  skip-cert-verify: false
-  sni: 94.156.155.81.blanesik.space
-  tls: true
-  type: vless
-  uuid: 9b08bee0-2615-554b-8939-54b575517a26
-  ws-opts:
-    path: /sequre/ws
-- name: 15|GB_speednode_0005
+  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
+- name: 14|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -65,7 +50,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 15|GB_speednode_0006
+- name: 14|GB_speednode_0006
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
@@ -73,7 +58,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 15|GB_speednode_0007
+- name: 14|GB_speednode_0007
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com

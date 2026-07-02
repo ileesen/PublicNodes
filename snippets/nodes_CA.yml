@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '0'
+  name: 9|🇨🇦 CA-17 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 104.16.72.41
+  servername: De.App-Cloud.ir
+  skip-cert-verify: false
+  sni: De.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=De

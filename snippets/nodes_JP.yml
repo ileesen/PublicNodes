@@ -1,5 +1,23 @@
 proxies:
-- name: 13,14|日本|@ripaojiedian
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  insecure: '1'
+  name: 9|🇯🇵 JP-3 | 8EB
+  network: ws
+  password: a4dbc061021f2931c0e28901a602f3c5
+  port: 443
+  security: tls
+  server: jp-002.pg13900.com
+  servername: jp-002.pg13900.com
+  skip-cert-verify: true
+  sni: jp-002.pg13900.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jp-002.pg13900.com
+    path: /atlas-cdn
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -7,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 5701
@@ -15,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 3743

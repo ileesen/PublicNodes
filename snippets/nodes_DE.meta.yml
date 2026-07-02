@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 7|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8,9|@KAFING_2
+- name: 7,8|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -21,7 +21,7 @@ proxies:
   - h2
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
+  name: 8|🇩🇪hysteria2-@hollowcon
   obfs: salamander
   obfs-password: xdbc2u01v1j9fhvv
   password: hk6ah4vgb0qp2koh
@@ -33,14 +33,14 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪💎hysteria-@hollowcon
+  name: 8|🇩🇪💎hysteria-@hollowcon
   password: hk6ah4vgb0qp2koh
   port: 4526
   server: panel.riziro.ir
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2raybazi
+- name: 8|🇩🇪@V2raybazi
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -48,90 +48,77 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇩🇪 DE-1 | 8EB
+  network: tcp
+  pbk: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+  port: 443
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    server-name: www.siemens.com
+    short-id: 5a9ab320
+  security: reality
+  server: de2.miyazono-kaori.com
+  sid: 5a9ab320
+  sni: www.siemens.com
+  tls: true
+  type: vless
+  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
 - allowInsecure: '0'
+  alpn:
+  - http/1.1
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 9|🇩🇪 DE-2 | 8EB
   network: ws
   port: 443
   security: tls
-  server: store.ubi.com
-  servername: t1s1.rittbo.kdns.fr
+  server: cctvhikvision.center
+  servername: don.blueknightnett.qzz.io
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: don.blueknightnett.qzz.io
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 84782bd5-033c-493d-b5aa-8d1b7fb97076
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 109.172.9.100
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 64.188.96.130
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
+      Host: don.blueknightnett.qzz.io
+    path: /BlueKnight
 - encryption: none
   headerType: none
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 9|🇩🇪 DE-3 | 8EB
   network: tcp
-  port: 443
+  port: 610
   security: none
-  server: 178.83.45.122
+  server: 31.76.28.90
+  sni: 31.76.28.90
   type: vless
-  uuid: 45a4bc71-2eb7-4e08-8d8c-8646c22a47be
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇩🇪 DE-5 | 8EB
-  password: ''
-  port: 1080
-  server: 37.120.189.175
-  type: socks
-  username: Og
-- name: 11|🇩🇪 DE-1 | Mix
+  uuid: 16e7c88d-3967-484a-ba2a-1c5ba1d74f62
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇩🇪 DE-4 | 8EB
+  network: tcp
+  pbk: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
+  port: 443
+  reality-opts:
+    public-key: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
+    server-name: www.cloudflare.com
+    short-id: e1a78782
+  security: reality
+  server: 51.116.101.212
+  sid: e1a78782
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: ad1f7afa-af80-4878-816d-1196c9ea70f2
+- name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
   server: 193.188.21.202
