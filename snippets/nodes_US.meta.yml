@@ -7,6 +7,16 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: 9,10|🇺🇸 US-2 | 8EB
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.191.165.99
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+  type: hysteria2
+  udp: true
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
@@ -26,16 +36,6 @@ proxies:
   tls: true
   type: vless
   uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
-- name: 10|🇺🇸 US-2 | 8EB
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.191.165.99
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-  type: hysteria2
-  udp: true
 - allowInsecure: '0'
   client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
