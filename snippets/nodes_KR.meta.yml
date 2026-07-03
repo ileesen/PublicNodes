@@ -1,34 +1,24 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  pbk: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
-  port: 443
-  reality-opts:
-    public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
-    server-name: download-porter.hoyoverse.com
-    short-id: a8609be8
-  security: reality
-  server: aws-link27.liangxin1.xyz
-  sid: a8609be8
-  sni: download-porter.hoyoverse.com
+  network: grpc
+  port: 46789
+  security: tls
+  server: t2.feiyue706.com
+  servername: t2.feiyue706.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t2.feiyue706.com
   tls: true
   type: vless
-  uuid: 7e59d596-67e6-442c-a335-04f91550ef29
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
 - name: 11|🇰🇷 KR-1 | Mix
   password: admin
   port: 5555

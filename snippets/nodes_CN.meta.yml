@@ -1,15 +1,41 @@
 proxies:
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 10|🇨🇳 CN-1 | 8EB
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 55005
-  server: xiaofeizhu.xxxyun.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.microsoft.com
-  type: anytls
+  network: grpc
+  port: 36801
+  security: tls
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.feiyue706.com
+  tls: true
+  type: vless
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
+  name: 10|🇨🇳 CN-2 | 8EB
+  network: grpc
+  port: 36784
+  security: tls
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.feiyue706.com
+  tls: true
+  type: vless
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee

@@ -5,7 +5,73 @@ proxies:
   client-fingerprint: chrome
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-17 | 8EB
+  name: 10|🇨🇦 CA-7 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: www.speedtest.net
+  servername: germany.App-Cloud.ir
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=De
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-13 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 104.18.42.98
+  servername: s-w.App-Cloud.ir
+  skip-cert-verify: false
+  sni: s-w.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=Se
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  fp: firefox
+  insecure: '0'
+  name: 10|🇨🇦 CA-15 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 88.216.67.230
+  servername: Nel.App-Cloud.ir
+  skip-cert-verify: false
+  sni: Nel.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=NL
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-18 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 104.19.230.21
+  servername: Nl.App-Cloud.ir
+  skip-cert-verify: false
+  sni: Nl.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Nl.App-Cloud.ir
+    path: /MiTiVPN=NL
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-19 | 8EB
   network: ws
   password: MITIVPN
   port: 443
@@ -16,4 +82,42 @@ proxies:
   sni: De.App-Cloud.ir
   type: trojan
   ws-opts:
+    headers:
+      Host: De.App-Cloud.ir
     path: /MiTiVPN=De
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-32 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 94.140.0.40
+  servername: Usa.App-Cloud.ir
+  skip-cert-verify: false
+  sni: Usa.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=Usa
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-34 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 69.84.182.44
+  servername: us--a.App-Cloud.ir
+  skip-cert-verify: false
+  sni: us--a.App-Cloud.ir
+  type: trojan
+  ws-opts:
+    path: /MiTiVPN=Usa

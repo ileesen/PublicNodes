@@ -6,114 +6,26 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
   fp: chrome
-  headerType: none
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 10|🇭🇰 HK-1 | 8EB
-  network: tcp
-  pbk: xu63Tr7fadZPWJM7S4j_ddiZTMM3zM34orZ3ujT5Kgs
-  port: 443
-  reality-opts:
-    public-key: xu63Tr7fadZPWJM7S4j_ddiZTMM3zM34orZ3ujT5Kgs
-    server-name: download.smartone.com
-    short-id: 4d0abc38f7bc
-  security: reality
-  server: hk1.miyazono-kaori.com
-  sid: 4d0abc38f7bc
-  sni: download.smartone.com
-  tls: true
-  type: vless
-  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: tcp
-  pbk: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
-  port: 443
-  reality-opts:
-    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
-    server-name: www.hsbc.com.hk
-    short-id: a2d13d677624197e
-  security: reality
-  server: hk6.miyazono-kaori.com
-  sid: a2d13d677624197e
-  sni: www.hsbc.com.hk
-  tls: true
-  type: vless
-  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  name: 10|🇭🇰 HK-3 | 8EB
-  network: tcp
-  pbk: qUCQFvosamzk8NWdkalFmEMYinnt-_FnZZw6_9EdRVY
-  port: 443
-  reality-opts:
-    public-key: qUCQFvosamzk8NWdkalFmEMYinnt-_FnZZw6_9EdRVY
-    server-name: www.lamer.com.hk
-    short-id: 6eb97c25
-  security: reality
-  server: aws-link6.liangxin1.xyz
-  sid: 6eb97c25
-  sni: www.lamer.com.hk
-  tls: true
-  type: vless
-  uuid: 7e59d596-67e6-442c-a335-04f91550ef29
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  insecure: '1'
-  name: 10|🇭🇰 HK-4 | 8EB
-  network: ws
-  password: a4dbc061021f2931c0e28901a602f3c5
-  port: 443
+  network: grpc
+  port: 36795
   security: tls
-  server: hk-007.pg13900.com
-  servername: hk-007.pg13900.com
-  skip-cert-verify: true
-  sni: hk-007.pg13900.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hk-007.pg13900.com
-    path: /atlas-cdn
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇭🇰 HK-5 | 8EB
-  password: a1b2dd91-b96d-4fd2-953d-d401079e7c9c
-  port: 7000
-  server: ahk.jueduibupao.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: www.microsoft.com
-  type: anytls
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇭🇰 HK-6 | 8EB
-  network: tcp
-  pbk: Q-Go_iWKrzs5qe_eDwulbpaXzuOSaNxb11H3LY-splM
-  port: 60000
-  reality-opts:
-    public-key: Q-Go_iWKrzs5qe_eDwulbpaXzuOSaNxb11H3LY-splM
-    server-name: forex.prod.cnyes.cool
-    short-id: 19dbfc01
-  security: reality
-  server: 45.144.174.72
-  sid: 19dbfc01
-  sni: forex.prod.cnyes.cool
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.feiyue706.com
   tls: true
   type: vless
-  uuid: 9402e506-6907-4fe6-9c41-c5e60c86b621
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
 - name: 11|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

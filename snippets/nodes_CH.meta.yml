@@ -1,1 +1,62 @@
-proxies: []
+proxies:
+- encryption: none
+  fp: qq
+  grpc-opts:
+    grpc-service-name: neurex
+  mode: gun
+  name: 10|🇨🇭 CH-1 | 8EB
+  network: grpc
+  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    server-name: api-maps.yandex.ru
+    short-id: 10ffb85da1c2d986
+  security: reality
+  server: 152.233.31.71
+  serviceName: neurex
+  sid: 10ffb85da1c2d986
+  sni: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: 732a3a5c-5dee-42c7-a898-139e35b78c5d
+- encryption: none
+  fp: qq
+  grpc-opts:
+    grpc-service-name: neurex
+  mode: gun
+  name: 10|🇨🇭 CH-2 | 8EB
+  network: grpc
+  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    server-name: api-maps.yandex.ru
+    short-id: 10ffb85da1c2d986
+  security: reality
+  server: 152.233.31.72
+  serviceName: neurex
+  sid: 10ffb85da1c2d986
+  sni: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: 732a3a5c-5dee-42c7-a898-139e35b78c5d
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇨🇭 CH-3 | 8EB
+  network: tcp
+  pbk: 1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4
+  port: 443
+  reality-opts:
+    public-key: 1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4
+    server-name: ch-zrh-1.blook.network
+    short-id: f7ef1b05
+  security: reality
+  server: 45.141.119.16
+  sid: f7ef1b05
+  sni: ch-zrh-1.blook.network
+  tls: true
+  type: vless
+  uuid: 8742a92e-6826-4746-b7c3-d42d83e5d83c

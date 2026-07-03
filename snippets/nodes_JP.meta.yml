@@ -7,77 +7,83 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  client-fingerprint: safari
+  client-fingerprint: chrome
   encryption: none
-  fp: safari
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
   insecure: '0'
+  mode: gun
   name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  port: 443
+  network: grpc
+  port: 46780
   security: tls
-  server: cfyes.lxy1015.top
-  servername: jp-lx.777076.xyz
+  server: t2.feiyue706.com
+  servername: t2.feiyue706.com
+  serviceName: ljfxz
   skip-cert-verify: false
-  sni: jp-lx.777076.xyz
+  sni: t2.feiyue706.com
   tls: true
   type: vless
-  uuid: 7e59d596-67e6-442c-a335-04f91550ef29
-  ws-opts:
-    headers:
-      Host: jp-lx.777076.xyz
-    path: /liangxin/jp1
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 10|🇯🇵 JP-2 | 8EB
-  password: ''
-  port: 8443
-  server: 112.28.149.152
-  type: socks
-  username: Og
-- allowInsecure: '1'
-  alpn:
-  - http/1.1
-  insecure: '1'
+  network: tcp
+  pbk: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
+  port: 21562
+  reality-opts:
+    public-key: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
+    server-name: www.nazhumi.com
+    short-id: ''
+  security: reality
+  server: 178.253.245.144
+  sni: www.nazhumi.com
+  tls: true
+  type: vless
+  uuid: 36477315-2e11-4478-b85c-549133624eef
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
   name: 10|🇯🇵 JP-3 | 8EB
   network: ws
-  password: a4dbc061021f2931c0e28901a602f3c5
-  port: 443
+  port: 44872
   security: tls
-  server: jp-002.pg13900.com
-  servername: jp-002.pg13900.com
-  skip-cert-verify: true
-  sni: jp-002.pg13900.com
-  type: trojan
+  server: 158.101.146.3
+  servername: us2.wxgqlfx.icu
+  skip-cert-verify: false
+  sni: us2.wxgqlfx.icu
+  tls: true
+  type: vless
+  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
   ws-opts:
     headers:
-      Host: jp-002.pg13900.com
-    path: /atlas-cdn
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+      Host: us2.wxgqlfx.icu
+    path: /TG@wxgqlfx
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
   name: 10|🇯🇵 JP-4 | 8EB
-  password: ''
-  port: 8443
-  server: 112.28.149.156
-  type: socks
-  username: Og
-- name: 10|🇯🇵 JP-5 | 8EB
-  password: 51d686b6-d209-4257-be19-f939b590b5bb
-  port: 8443
-  server: 172.104.64.249
-  skip-cert-verify: true
-  sni: 172.104.64.249
-  tls:
-    enabled: true
-    insecure: true
-    server_name: 172.104.64.249
-  type: hysteria2
-  udp: true
+  network: ws
+  port: 54516
+  security: tls
+  server: 158.101.146.3
+  servername: us2.wxgqlfx.icu
+  skip-cert-verify: false
+  sni: us2.wxgqlfx.icu
+  tls: true
+  type: vless
+  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.icu
+    path: /TG@wxgqlfx
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

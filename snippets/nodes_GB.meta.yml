@@ -1,42 +1,65 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
   fp: chrome
-  headerType: none
+  insecure: '0'
   name: 10|🇬🇧 GB-1 | 8EB
-  network: tcp
-  pbk: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-  port: 443
-  reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    server-name: www.bp.com
-    short-id: '20'
-  security: reality
-  server: uk2.miyazono-kaori.com
-  sid: '20'
-  sni: www.bp.com
+  network: ws
+  port: 8443
+  security: tls
+  server: 57.128.181.14
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
   tls: true
   type: vless
-  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
-- encryption: none
-  flow: xtls-rprx-vision
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
   fp: chrome
-  headerType: none
+  insecure: '0'
   name: 10|🇬🇧 GB-2 | 8EB
-  network: tcp
-  pbk: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    server-name: www.bp.com
-    short-id: d923
-  security: reality
-  server: uk1.miyazono-kaori.com
-  sid: d923
-  sni: www.bp.com
+  network: ws
+  port: 8443
+  security: tls
+  server: 104.29.111.30
+  servername: ldp2642.brucewang777.eu.cc
+  skip-cert-verify: false
+  sni: ldp2642.brucewang777.eu.cc
   tls: true
   type: vless
-  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
+  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
+  ws-opts:
+    headers:
+      Host: ldp2642.brucewang777.eu.cc
+    path: /proxyip=ProxyIP.US.CMLiussss.Net
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇬🇧 GB-3 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 57.128.179.189
+  servername: us2.wxgqlfx.icu
+  skip-cert-verify: false
+  sni: us2.wxgqlfx.icu
+  tls: true
+  type: vless
+  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.icu
+    path: /TG@wxgqlfx
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

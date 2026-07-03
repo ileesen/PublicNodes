@@ -18,19 +18,6 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h2
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
-  obfs: salamander
-  obfs-password: xdbc2u01v1j9fhvv
-  password: hk6ah4vgb0qp2koh
-  port: 2087
-  server: ger1.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
-- alpn:
   - h3
   fingerprint: chrome
   name: 9|🇩🇪💎hysteria-@hollowcon
@@ -40,25 +27,123 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 46.101.229.149
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  port: 58148
+  security: tls
+  server: 139.162.133.162
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- encryption: none
+  fp: firefox
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: xhttp
+  pbk: GWGVThOKyxTzaO6oG5kp9_B_45fdKH4YW7y8iOcn-D8
+  port: 443
+  reality-opts:
+    public-key: GWGVThOKyxTzaO6oG5kp9_B_45fdKH4YW7y8iOcn-D8
+    server-name: xgr.studiotech38.space
+    short-id: 8fa6f642ab8ecb6d
+  security: reality
+  server: 148.253.215.120
+  sid: 8fa6f642ab8ecb6d
+  sni: xgr.studiotech38.space
+  tls: true
+  type: vless
+  uuid: a412b637-3d21-4e6a-b669-1a305435ec29
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: ws
+  port: 2000
+  security: tls
+  server: 91.107.139.23
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 10|🇩🇪 DE-5 | 8EB
   network: tcp
-  pbk: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-  port: 443
+  pbk: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+  port: 8443
   reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    server-name: www.siemens.com
-    short-id: 5a9ab320
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    server-name: storage.yandex.net
+    short-id: 8d3293f0066e129a
   security: reality
-  server: de2.miyazono-kaori.com
-  sid: 5a9ab320
-  sni: www.siemens.com
+  server: 154.222.9.157
+  sid: 8d3293f0066e129a
+  sni: storage.yandex.net
   tls: true
   type: vless
-  uuid: 87633729-1af7-49fd-af85-b1808dd0d5c3
+  uuid: aa5b231c-4e18-4ae6-b83c-a293f51c0dfa
+- allowInsecure: '0'
+  client-fingerprint: qq
+  encryption: none
+  fp: qq
+  insecure: '0'
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 89.106.64.91
+  servername: slc-2.hysteria.ltd
+  skip-cert-verify: false
+  sni: slc-2.hysteria.ltd
+  tls: true
+  type: vless
+  uuid: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  ws-opts:
+    path: /ws
 - allowInsecure: '0'
   alpn:
   - http/1.1
@@ -66,50 +151,42 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇩🇪 DE-2 | 8EB
+  name: 10|🇩🇪 DE-7 | 8EB
   network: ws
-  port: 443
+  port: 2083
   security: tls
-  server: cctvhikvision.center
-  servername: don.blueknightnett.qzz.io
+  server: 108.162.192.134
+  servername: xn-de.shakhle.ir.
   skip-cert-verify: false
-  sni: don.blueknightnett.qzz.io
+  sni: xn-de.shakhle.ir.
   tls: true
   type: vless
-  uuid: 84782bd5-033c-493d-b5aa-8d1b7fb97076
+  uuid: 199436d3-2fa2-4e34-a1de-844419de5a4f
   ws-opts:
     headers:
-      Host: don.blueknightnett.qzz.io
-    path: /BlueKnight
-- encryption: none
-  headerType: none
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 610
-  security: none
-  server: 31.76.28.90
-  sni: 31.76.28.90
-  type: vless
-  uuid: 16e7c88d-3967-484a-ba2a-1c5ba1d74f62
-- encryption: none
-  flow: xtls-rprx-vision
+      Host: xn-de.shakhle.ir.
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
   fp: chrome
-  headerType: none
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: tcp
-  pbk: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
-  port: 443
-  reality-opts:
-    public-key: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
-    server-name: www.cloudflare.com
-    short-id: e1a78782
-  security: reality
-  server: 51.116.101.212
-  sid: e1a78782
-  sni: www.cloudflare.com
+  insecure: '0'
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: ws
+  port: 2096
+  security: tls
+  server: 209.38.221.121
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
   tls: true
   type: vless
-  uuid: ad1f7afa-af80-4878-816d-1196c9ea70f2
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

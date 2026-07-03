@@ -7,190 +7,72 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  insecure: '0'
+  headerType: none
   name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
+  network: tcp
+  pbk: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
   port: 443
-  security: tls
-  server: 172.66.3.133
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
+  reality-opts:
+    public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
+    server-name: unpkg.com
+    short-id: 0963b9822ae8b87e
+  security: reality
+  server: 159.89.198.1
+  sid: 0963b9822ae8b87e
+  sni: unpkg.com
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: ios
-  headerType: none
+  uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  pbk: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ
-  port: 39645
-  reality-opts:
-    public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ
-    server-name: iosapps.itunes.apple.com
-    short-id: 2b3b0b93
-  security: reality
-  server: aws-link8.liangxin1.xyz
-  sid: 2b3b0b93
-  sni: iosapps.itunes.apple.com
+  network: grpc
+  port: 36785
+  security: tls
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.feiyue706.com
   tls: true
   type: vless
-  uuid: 7e59d596-67e6-442c-a335-04f91550ef29
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  pbk: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    server-name: www.python.org
-    short-id: 04d59340
-  security: reality
-  server: hkt05.344211.cc
-  sid: 04d59340
-  sni: www.python.org
-  tls: true
-  type: vless
-  uuid: 51d686b6-d209-4257-be19-f939b590b5bb
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  pbk: rZwbix2S03BC4RsGJ_KbYeXOX0q7fDiEXfSYLbsS00s
-  port: 54221
-  reality-opts:
-    public-key: rZwbix2S03BC4RsGJ_KbYeXOX0q7fDiEXfSYLbsS00s
-    server-name: www.icloud.com
-    short-id: 35a139faaa
-  security: reality
-  server: singtel.maywind.us.kg
-  sid: 35a139faaa
-  sni: www.icloud.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 79f65972-9652-4d3f-8443-0f719934dda6
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: ios
-  headerType: none
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: tcp
-  pbk: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc
-  port: 48574
-  reality-opts:
-    public-key: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc
-    server-name: www.lamer.com.sg
-    short-id: f8f18902
-  security: reality
-  server: aws-link7.liangxin1.xyz
-  sid: f8f18902
-  sni: www.lamer.com.sg
-  tls: true
-  type: vless
-  uuid: 7e59d596-67e6-442c-a335-04f91550ef29
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: ws
-  port: 443
+  network: grpc
+  port: 36797
   security: tls
-  server: 104.17.158.173
-  servername: support.zoom.us.yxls.eu.cc
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  serviceName: ljfxz
   skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
+  sni: t1.feiyue706.com
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-7 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 104.17.223.103
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-8 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 104.26.2.173
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇸🇬 SG-9 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
 - allowInsecure: '0'
   client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇸🇬 SG-10 | 8EB
+  name: 10|🇸🇬 SG-4 | 8EB
   network: ws
   port: 443
   security: tls
@@ -205,17 +87,6 @@ proxies:
     headers:
       Host: vpn47.cc.cd
     path: /
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇸🇬 SG-11 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: rich-mule.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
