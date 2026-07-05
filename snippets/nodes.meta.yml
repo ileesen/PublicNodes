@@ -312,77 +312,69 @@ proxies:
   type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
-  fp: chrome
+  fp: firefox
   headerType: none
-  name: 10|🇦🇪 AE-1 | 8EB
+  name: 10|🇭🇺 HU-1 | 8EB
   network: tcp
-  pbk: u5c_FRTJHyefb0tMsAQ9u5yW5aM2EqAqElrjaL-BNnQ
-  port: 443
+  pbk: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+  port: 8443
   reality-opts:
-    public-key: u5c_FRTJHyefb0tMsAQ9u5yW5aM2EqAqElrjaL-BNnQ
-    server-name: mn9.hirbilon.net
-    short-id: 05f6a5418c2a6865
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    server-name: storage.yandex.net
+    short-id: 2715592069f36fe7
   security: reality
-  server: mn9.hirbilon.net
-  sid: 05f6a5418c2a6865
-  sni: mn9.hirbilon.net
+  server: 45.198.87.49
+  sid: 2715592069f36fe7
+  sni: storage.yandex.net
   tls: true
   type: vless
-  uuid: 2c20cd0b-16a9-4dc4-9a13-16f47822c9b0
-- encryption: none
-  name: 10|🇨🇦 CA-1 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.17.21.32
-  type: vless
-  uuid: 5659b42c-636f-4563-ac41-87d565d0dd1e
-  ws-opts:
-    headers:
-      Host: autumn-base-0eb9.116-d25.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.16.106.213
-  type: vless
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
-  ws-opts:
-    headers:
-      Host: nameless-tree-08b8.352.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.26.13.40
-  type: vless
-  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
-  ws-opts:
-    headers:
-      Host: broken-star-c5ae.446.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.16.8.66
-  type: vless
-  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
-  ws-opts:
-    headers:
-      Host: nameless-poetry-12fb.8-0a2.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+  uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-5 | 8EB
+  name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: 162.159.11.57
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 162.159.4.2
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-3 | 8EB
   network: ws
   port: 443
   security: tls
@@ -402,11 +394,11 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-6 | 8EB
+  name: 10|🇨🇦 CA-4 | 8EB
   network: ws
-  port: 2083
+  port: 8443
   security: tls
-  server: 162.159.11.57
+  server: 172.64.52.134
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -418,105 +410,967 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-7 | 8EB
+  name: 10|🇨🇦 CA-5 | 8EB
   network: ws
-  password: MITIVPN
   port: 443
   security: tls
-  server: www.speedtest.net
-  servername: germany.App-Cloud.ir
+  server: 172.64.151.158
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: germany.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    path: /MiTiVPN=De
-- encryption: none
-  name: 10|🇨🇦 CA-8 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: www.ipget.net
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
   type: vless
-  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: broken-star-c5ae.446.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-9 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 162.159.140.78
-  type: vless
-  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
-  ws-opts:
-    headers:
-      Host: shrill-fog-67af.235-e6a.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-10 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 162.159.21.178
-  type: vless
-  uuid: 1a5e2e63-64e2-4737-95b6-c2ee60c979a1
-  ws-opts:
-    headers:
-      Host: wild-mode-4ca6.234-8f6.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-11 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.16.107.139
-  type: vless
-  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-  ws-opts:
-    headers:
-      Host: ancient-rice-c180.455-8ad.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-12 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.67.152.71
-  type: vless
-  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
-  ws-opts:
-    headers:
-      Host: old-moon-16d0.156-a25.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-13 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 104.18.42.98
-  servername: s-w.App-Cloud.ir
-  skip-cert-verify: false
-  sni: s-w.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    path: /MiTiVPN=Se
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
+  name: 10|🇨🇦 CA-6 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.42.182
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-7 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 162.159.4.221
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  name: 10|🇨🇦 CA-8 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.baipiao.eu.org
+  type: vless
+  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
+  ws-opts:
+    headers:
+      Host: crimson-wind-71bc.19-5fd.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-9 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.1.37
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 108.162.198.43
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  fp: firefox
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  mode: gun
+  name: 10|🇳🇱 NL-1 | 8EB
+  network: grpc
+  pbk: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    server-name: nl.moktana.app
+    short-id: 3f8e2d1c9b4a7e6f
+  security: reality
+  server: 201.51.5.15
+  serviceName: moktana.net.v1.StreamService
+  sid: 3f8e2d1c9b4a7e6f
+  sni: nl.moktana.app
+  tls: true
+  type: vless
+  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇷 FR-1 | 8EB
+  password: ''
+  port: 1088
+  server: 144.91.111.48
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇮🇹 IT-1 | 8EB
+  password: ''
+  port: 1088
+  server: 212.77.75.25
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇩🇰 DK-1 | 8EB
+  password: ''
+  port: 1080
+  server: 89.188.76.72
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇲🇨 MC-1 | 8EB
+  password: ''
+  port: 1080
+  server: 194.165.16.21
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-2 | 8EB
+  password: ''
+  port: 1080
+  server: 5.255.113.177
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-3 | 8EB
+  password: ''
+  port: 1080
+  server: 5.255.99.75
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-4 | 8EB
+  password: ''
+  port: 2000
+  server: 194.87.31.221
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-5 | 8EB
+  password: ''
+  port: 1080
+  server: 5.255.123.162
+  type: socks
+  username: Og
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.38.101
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇩🇪 DE-1 | 8EB
+  password: ''
+  port: 1080
+  server: 109.107.189.151
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-6 | 8EB
+  password: ''
+  port: 1080
+  server: 93.177.116.84
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇷 FR-2 | 8EB
+  password: ''
+  port: 1088
+  server: 144.91.121.61
+  type: socks
+  username: Og
+- encryption: none
+  name: 10|🇨🇦 CA-10 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 162.159.46.0
+  type: vless
+  uuid: 828aa918-2ed3-4541-8519-083f9efeaaf7
+  ws-opts:
+    headers:
+      Host: icy-hall-bfba.266-f4e.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: tcp
+  pbk: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    server-name: cdn6-49.yahoo.com
+    short-id: 3c9c5d01c6f824dd
+  security: reality
+  server: 155.117.137.110
+  sid: 3c9c5d01c6f824dd
+  sni: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  pbk: jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU
+  port: 1020
+  reality-opts:
+    public-key: jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU
+    server-name: yahoo.com
+    short-id: 3fa2fdb7dce16b8b
+  security: reality
+  server: de2-unlimited.pavilof.ir
+  sid: 3fa2fdb7dce16b8b
+  sni: yahoo.com
+  tls: true
+  type: vless
+  uuid: af0ed84b-b07f-4b6f-8ca7-59560f2bc8fc
+- name: 10|🇫🇷 FR-4 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.27.216
+  skip-cert-verify: true
+  sni: bing.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: bing.com
+  type: hysteria2
+  udp: true
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇷🇴 RO-1 | 8EB
+  password: ''
+  port: 1080
+  server: 45.13.38.213
+  type: socks
+  username: Og
+- encryption: none
+  name: 10|🇨🇦 CA-11 | 8EB
+  network: ws
+  port: 80
+  security: none
+  server: 45.130.125.113
+  sni: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
+  type: vless
+  uuid: 48daa5a5-5bca-4e01-9143-c42f1247b8a2
+  ws-opts:
+    headers:
+      Host: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
+    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
+- allowInsecure: '0'
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 66.81.247.91
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  sni: vangoghhh.info
+  tls: true
+  type: vless
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
+- encryption: none
+  fp: firefox
+  mode: auto
+  name: 10|🇺🇸 US-4 | 8EB
+  network: xhttp
+  pbk: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
+  port: 443
+  reality-opts:
+    public-key: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
+    server-name: www.amd.com
+    short-id: ''
+  security: reality
+  server: 31.76.56.161
+  sni: www.amd.com
+  tls: true
+  type: vless
+  uuid: b6b24ed5-7060-11f1-a5bc-54db13ea7d40
+- encryption: none
+  name: 10|🇨🇦 CA-12 | 8EB
+  network: ws
+  port: 80
+  security: none
+  server: 104.21.63.40
+  sni: zeus-panel-67qb7f.zeus-moi2iw.workers.dev
+  type: vless
+  uuid: 93c6c00b-be26-45a3-a23e-c970fb60f2ff
+  ws-opts:
+    headers:
+      Host: zeus-panel-67qb7f.zeus-moi2iw.workers.dev
+    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇫🇮 FI-1 | 8EB
+  network: tcp
+  pbk: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    server-name: storage.yandex.net
+    short-id: d020b987f84eb78a
+  security: reality
+  server: 45.198.108.201
+  sid: d020b987f84eb78a
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: tcp
+  pbk: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    server-name: eh.vk.ru
+    short-id: ''
+  security: reality
+  server: 213.219.212.14
+  sni: eh.vk.ru
+  tls: true
+  type: vless
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: tcp
+  pbk: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    server-name: eh.vk.ru
+    short-id: ''
+  security: reality
+  server: 213.219.212.105
+  sni: eh.vk.ru
+  tls: true
+  type: vless
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇷🇺 RU-3 | 8EB
+  network: tcp
+  pbk: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    server-name: eh.vk.ru
+    short-id: ''
+  security: reality
+  server: pro-ru-213.emrata.top
+  sni: eh.vk.ru
+  tls: true
+  type: vless
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
+- encryption: none
+  fp: firefox
+  headerType: none
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  pbk: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    server-name: pro-de.emrata.top
+    short-id: ''
+  security: reality
+  server: pro-de.emrata.top
+  sni: pro-de.emrata.top
+  tls: true
+  type: vless
+  uuid: ed838389-e7e0-0001-8a1b-040f06d0ba88
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: tcp
+  pbk: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+  port: 443
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    server-name: it-one.quiet-rogue.site
+    short-id: ''
+  security: reality
+  server: it-one.quiet-rogue.site
+  sni: it-one.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: bf142126-5bc4-46fa-986e-ffc4517655dd
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
+  name: 10|🇳🇱 NL-7 | 8EB
+  network: tcp
+  pbk: tvjk_U9RJLopF9h3ZWp35o9-O6U0OAHWdU-q3WvpnS8
+  port: 443
+  reality-opts:
+    public-key: tvjk_U9RJLopF9h3ZWp35o9-O6U0OAHWdU-q3WvpnS8
+    server-name: nl-five.quiet-rogue.site
+    short-id: e50dd1bc6c7a5957
+  security: reality
+  server: nl-five.quiet-rogue.site
+  sid: e50dd1bc6c7a5957
+  sni: nl-five.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: bf142126-5bc4-46fa-986e-ffc4517655dd
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇳🇱 NL-8 | 8EB
+  network: tcp
+  pbk: LT_0j3zQkaqgtJHvyaG24xz0IfmXUswVCTeC75Qsgjo
+  port: 8443
+  reality-opts:
+    public-key: LT_0j3zQkaqgtJHvyaG24xz0IfmXUswVCTeC75Qsgjo
+    server-name: storage.yandex.net
+    short-id: ab4cc4f5aa354fa4
+  security: reality
+  server: 178.248.232.186
+  sid: ab4cc4f5aa354fa4
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 0047a8bc-0025-4d45-899b-c75c669f3ede
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇫🇮 FI-2 | 8EB
+  network: tcp
+  pbk: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    server-name: storage.yandex.net
+    short-id: d020b987f84eb78a
+  security: reality
+  server: 45.198.108.9
+  sid: d020b987f84eb78a
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇷🇺 RU-4 | 8EB
+  network: tcp
+  pbk: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    server-name: ads.x5.ru
+    short-id: ''
+  security: reality
+  server: 176.109.92.141
+  sni: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  pbk: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+  port: 443
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    server-name: it-one.quiet-rogue.site
+    short-id: ''
+  security: reality
+  server: 31.77.154.51
+  sni: it-one.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: bf142126-5bc4-46fa-986e-ffc4517655dd
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  pbk: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+  port: 443
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    server-name: de.monkeyvillage.pro
+    short-id: 43c8f2518649163e
+  security: reality
+  server: de.monkeyvillage.pro
+  sid: 43c8f2518649163e
+  sni: de.monkeyvillage.pro
+  tls: true
+  type: vless
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇵🇱 PL-1 | 8EB
+  network: tcp
+  pbk: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+  port: 443
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    server-name: pl.monkeyvillage.pro
+    short-id: bc0c778f819a3a1e
+  security: reality
+  server: pl.monkeyvillage.pro
+  sid: bc0c778f819a3a1e
+  sni: pl.monkeyvillage.pro
+  tls: true
+  type: vless
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇷🇺 RU-5 | 8EB
+  network: tcp
+  pbk: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    server-name: ads.x5.ru
+    short-id: ''
+  security: reality
+  server: 5.188.115.134
+  sni: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: ed838389-e7e0-47e6-8a1b-040f06d0ba88
+- encryption: none
+  fp: firefox
+  headerType: none
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: tcp
+  pbk: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    server-name: pro-de.emrata.top
+    short-id: ''
+  security: reality
+  server: 2.26.78.34
+  sni: pro-de.emrata.top
+  tls: true
+  type: vless
+  uuid: ed838389-e7e0-0001-8a1b-040f06d0ba88
+- allowInsecure: '0'
+  client-fingerprint: safari
+  encryption: none
+  fp: safari
+  insecure: '0'
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 94.156.155.81.blanesik.space
+  servername: 94.156.155.81.blanesik.space
+  skip-cert-verify: false
+  sni: 94.156.155.81.blanesik.space
+  tls: true
+  type: vless
+  uuid: 5bf12aea-0a92-554b-ab2d-0e034b9f57a2
+  ws-opts:
+    path: /sequre/ws
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  pbk: qJhdahkY0zd79SmTB30P1cy7cSvwN5ONRqL1pktr3GY
+  port: 18022
+  reality-opts:
+    public-key: qJhdahkY0zd79SmTB30P1cy7cSvwN5ONRqL1pktr3GY
+    server-name: www.yahoo.com
+    short-id: f62ca9ccc14703a1
+  security: reality
+  server: e.ramcalshoping.ir
+  sid: f62ca9ccc14703a1
+  sni: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 9e6cf131-5323-4607-a51e-036e8097e676
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  pbk: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
+  port: 443
+  reality-opts:
+    public-key: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
+    server-name: lv-rix-2.blook.network
+    short-id: dacf7065
+  security: reality
+  server: lv-rix-2.blook.network
+  sid: dacf7065
+  sni: lv-rix-2.blook.network
+  tls: true
+  type: vless
+  uuid: 3cf2f92d-1f3b-49aa-88be-d1f5c19f93ab
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇳🇱 NL-9 | 8EB
+  network: tcp
+  pbk: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+  port: 443
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    server-name: nl.monkeyvillage.pro
+    short-id: 11a646ca6678c507
+  security: reality
+  server: nl.monkeyvillage.pro
+  sid: 11a646ca6678c507
+  sni: nl.monkeyvillage.pro
+  tls: true
+  type: vless
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇦🇹 AT-1 | 8EB
+  network: tcp
+  pbk: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+  port: 443
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    server-name: at.monkeyvillage.pro
+    short-id: 489e99e3e1ccb1cc
+  security: reality
+  server: at.monkeyvillage.pro
+  sid: 489e99e3e1ccb1cc
+  sni: at.monkeyvillage.pro
+  tls: true
+  type: vless
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+- name: 10|🇷🇺 RU-6 | 8EB
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 51385
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: music.apple.com
+  type: hysteria2
+  udp: true
+- encryption: none
+  fp: qq
+  headerType: none
+  name: 10|🇫🇷 FR-5 | 8EB
+  network: tcp
+  pbk: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+  port: 7009
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    server-name: yahoo.com
+    short-id: ''
+  security: reality
+  server: luemborgclouding.iranlast.com
+  sni: yahoo.com
+  tls: true
+  type: vless
+  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+- encryption: none
+  name: 10|🇨🇦 CA-13 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: skk.moe
+  sni: skk.moe
+  type: vless
+  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
+  ws-opts:
+    headers:
+      Host: crimson-wind-71bc.19-5fd.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇧🇪 BE-1 | 8EB
+  network: tcp
+  pbk: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+  port: 443
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    server-name: be.monkeyvillage.pro
+    short-id: 293c41153df9694e
+  security: reality
+  server: be.monkeyvillage.pro
+  sid: 293c41153df9694e
+  sni: be.monkeyvillage.pro
+  tls: true
+  type: vless
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇫🇷 FR-6 | 8EB
+  network: tcp
+  pbk: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
+  port: 443
+  reality-opts:
+    public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
+    server-name: fr1.waspnest.space
+    short-id: 341ad73bbc77993c
+  security: reality
+  server: fr1.waspnest.space
+  sid: 341ad73bbc77993c
+  sni: fr1.waspnest.space
+  tls: true
+  type: vless
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇫🇮 FI-3 | 8EB
+  network: tcp
+  pbk: guJkFJanzPgJRd__HcpMC4rZW6LNbobsUmEIIYHE6yI
+  port: 443
+  reality-opts:
+    public-key: guJkFJanzPgJRd__HcpMC4rZW6LNbobsUmEIIYHE6yI
+    server-name: fl3.waspnest.space
+    short-id: 757cf45f2a32834a
+  security: reality
+  server: fl3.waspnest.space
+  sid: 757cf45f2a32834a
+  sni: fl3.waspnest.space
+  tls: true
+  type: vless
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇫🇮 FI-4 | 8EB
+  network: tcp
+  pbk: guJkFJanzPgJRd__HcpMC4rZW6LNbobsUmEIIYHE6yI
+  port: 443
+  reality-opts:
+    public-key: guJkFJanzPgJRd__HcpMC4rZW6LNbobsUmEIIYHE6yI
+    server-name: fl3.waspnest.space
+    short-id: 757cf45f2a32834a
+  security: reality
+  server: 144.31.119.37
+  sid: 757cf45f2a32834a
+  sni: fl3.waspnest.space
+  tls: true
+  type: vless
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
+- encryption: none
   name: 10|🇨🇦 CA-14 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.ipget.net
+  type: vless
+  uuid: b7300b59-7598-4997-9714-27efd75065d0
+  ws-opts:
+    headers:
+      Host: mute-lab-4c55.389.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-15 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 162.159.140.78
+  type: vless
+  uuid: e8e34074-166f-48a6-9f86-398ad796c3ca
+  ws-opts:
+    headers:
+      Host: hidden-bonus-24d0.232-647.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  fp: chrome
+  insecure: '0'
+  mode: auto
+  name: 10|🇫🇮 FI-5 | 8EB
+  network: xhttp
+  port: 443
+  security: tls
+  server: 45.131.6.211
+  servername: play.dearhossein-taktaz.ir
+  skip-cert-verify: false
+  sni: play.dearhossein-taktaz.ir
+  tls: true
+  type: vless
+  uuid: 8fbc60ef-9174-49f8-b3e1-941831849e44
+- encryption: none
+  fp: qq
+  headerType: none
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: tcp
+  pbk: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+  port: 7000
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    server-name: yahoo.com
+    short-id: ''
+  security: reality
+  server: 188.245.50.251
+  sni: yahoo.com
+  tls: true
+  type: vless
+  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-16 | 8EB
   network: ws
   port: 443
   security: tls
@@ -532,446 +1386,15 @@ proxies:
       Host: vpn47.cc.cd
     path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  fp: firefox
-  insecure: '0'
-  name: 10|🇨🇦 CA-15 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 88.216.67.230
-  servername: Nel.App-Cloud.ir
-  skip-cert-verify: false
-  sni: Nel.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    path: /MiTiVPN=NL
-- encryption: none
-  name: 10|🇨🇦 CA-16 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: skk.moe
-  type: vless
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
-  ws-opts:
-    headers:
-      Host: late-mountain-6801.355.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-17 | 8EB
+  name: 10|🇳🇱 NL-10 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 162.159.8.42
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇨🇦 CA-18 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 104.19.230.21
-  servername: Nl.App-Cloud.ir
-  skip-cert-verify: false
-  sni: Nl.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl.App-Cloud.ir
-    path: /MiTiVPN=NL
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇨🇦 CA-19 | 8EB
-  network: ws
-  password: MITIVPN
-  port: 443
-  security: tls
-  server: 104.16.72.41
-  servername: De.App-Cloud.ir
-  skip-cert-verify: false
-  sni: De.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: De.App-Cloud.ir
-    path: /MiTiVPN=De
-- encryption: none
-  name: 10|🇨🇦 CA-20 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.64.88.251
-  type: vless
-  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
-  ws-opts:
-    headers:
-      Host: nameless-poetry-12fb.8-0a2.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-21 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.66.214.247
-  type: vless
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  ws-opts:
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- encryption: none
-  fp: randomized
-  name: 10|🇨🇦 CA-22 | 8EB
-  network: ws
-  port: 2095
-  security: none
-  server: 195.85.59.187
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-23 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.66.170.53
-  type: vless
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  ws-opts:
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-24 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 172.64.52.93
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '1'
-  encryption: none
-  insecure: '1'
-  name: 10|🇨🇦 CA-25 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 104.18.0.1
-  servername: all.speedtest03.ccwu.cc
-  skip-cert-verify: true
-  sni: all.speedtest03.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-26 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.64.88.168
-  type: vless
-  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
-  ws-opts:
-    headers:
-      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-27 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 172.66.200.130
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-28 | 8EB
-  network: ws
-  port: 2083
-  security: tls
-  server: 172.64.150.246
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-29 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 104.27.82.154
-  type: vless
-  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
-  ws-opts:
-    headers:
-      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-30 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.5.231
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-31 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: log.bpminecraft.com
-  type: vless
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  ws-opts:
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-32 | 8EB
-  network: ws
-  password: MITIVPN
-  port: 443
-  security: tls
-  server: 94.140.0.40
-  servername: Usa.App-Cloud.ir
-  skip-cert-verify: false
-  sni: Usa.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    path: /MiTiVPN=Usa
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-33 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 104.24.95.27
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-34 | 8EB
-  network: ws
-  password: MITIVPN
-  port: 443
-  security: tls
-  server: 69.84.182.44
-  servername: us--a.App-Cloud.ir
-  skip-cert-verify: false
-  sni: us--a.App-Cloud.ir
-  type: trojan
-  ws-opts:
-    path: /MiTiVPN=Usa
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  - h2
-  - h3
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-35 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.114.98.0
-  servername: iotreeow.ir
-  skip-cert-verify: false
-  sni: iotreeow.ir
-  tls: true
-  type: vless
-  uuid: 46fee65f-b323-bcef-4899-0b3bd90191ab
-  ws-opts:
-    headers:
-      Host: iotreeow.ir
-    path: /Qv2raychannel
-- encryption: none
-  fp: qq
-  grpc-opts:
-    grpc-service-name: neurex
-  mode: gun
-  name: 10|🇨🇭 CH-1 | 8EB
-  network: grpc
-  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    server-name: api-maps.yandex.ru
-    short-id: 10ffb85da1c2d986
-  security: reality
-  server: 152.233.31.71
-  serviceName: neurex
-  sid: 10ffb85da1c2d986
-  sni: api-maps.yandex.ru
-  tls: true
-  type: vless
-  uuid: 732a3a5c-5dee-42c7-a898-139e35b78c5d
-- encryption: none
-  fp: qq
-  grpc-opts:
-    grpc-service-name: neurex
-  mode: gun
-  name: 10|🇨🇭 CH-2 | 8EB
-  network: grpc
-  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    server-name: api-maps.yandex.ru
-    short-id: 10ffb85da1c2d986
-  security: reality
-  server: 152.233.31.72
-  serviceName: neurex
-  sid: 10ffb85da1c2d986
-  sni: api-maps.yandex.ru
-  tls: true
-  type: vless
-  uuid: 732a3a5c-5dee-42c7-a898-139e35b78c5d
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇨🇭 CH-3 | 8EB
-  network: tcp
-  pbk: 1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4
-  port: 443
-  reality-opts:
-    public-key: 1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4
-    server-name: ch-zrh-1.blook.network
-    short-id: f7ef1b05
-  security: reality
-  server: 45.141.119.16
-  sid: f7ef1b05
-  sni: ch-zrh-1.blook.network
-  tls: true
-  type: vless
-  uuid: 8742a92e-6826-4746-b7c3-d42d83e5d83c
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇨🇳 CN-1 | 8EB
-  network: grpc
-  port: 36801
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇨🇳 CN-2 | 8EB
-  network: grpc
-  port: 36784
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 46.101.229.149
+  server: 2.27.50.53
   servername: vpn47.cc.cd
   skip-cert-verify: false
   sni: vpn47.cc.cd
@@ -987,161 +1410,7 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 58148
-  security: tls
-  server: 139.162.133.162
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
-- encryption: none
-  fp: firefox
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: xhttp
-  pbk: GWGVThOKyxTzaO6oG5kp9_B_45fdKH4YW7y8iOcn-D8
-  port: 443
-  reality-opts:
-    public-key: GWGVThOKyxTzaO6oG5kp9_B_45fdKH4YW7y8iOcn-D8
-    server-name: xgr.studiotech38.space
-    short-id: 8fa6f642ab8ecb6d
-  security: reality
-  server: 148.253.215.120
-  sid: 8fa6f642ab8ecb6d
-  sni: xgr.studiotech38.space
-  tls: true
-  type: vless
-  uuid: a412b637-3d21-4e6a-b669-1a305435ec29
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 2000
-  security: tls
-  server: 91.107.139.23
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: tcp
-  pbk: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-  port: 8443
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    server-name: storage.yandex.net
-    short-id: 8d3293f0066e129a
-  security: reality
-  server: 154.222.9.157
-  sid: 8d3293f0066e129a
-  sni: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: aa5b231c-4e18-4ae6-b83c-a293f51c0dfa
-- allowInsecure: '0'
-  client-fingerprint: qq
-  encryption: none
-  fp: qq
-  insecure: '0'
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 89.106.64.91
-  servername: slc-2.hysteria.ltd
-  skip-cert-verify: false
-  sni: slc-2.hysteria.ltd
-  tls: true
-  type: vless
-  uuid: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  ws-opts:
-    path: /ws
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-7 | 8EB
-  network: ws
-  port: 2083
-  security: tls
-  server: 108.162.192.134
-  servername: xn-de.shakhle.ir.
-  skip-cert-verify: false
-  sni: xn-de.shakhle.ir.
-  tls: true
-  type: vless
-  uuid: 199436d3-2fa2-4e34-a1de-844419de5a4f
-  ws-opts:
-    headers:
-      Host: xn-de.shakhle.ir.
-    path: /
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇩🇪 DE-8 | 8EB
-  network: ws
-  port: 2096
-  security: tls
-  server: 209.38.221.121
-  servername: vpn47.cc.cd
-  skip-cert-verify: false
-  sni: vpn47.cc.cd
-  tls: true
-  type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn47.cc.cd
-    path: /
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.114.97.6
-  servername: JoinProxyVPN11.terazhediii.info
-  skip-cert-verify: false
-  sni: JoinProxyVPN11.terazhediii.info
-  tls: true
-  type: vless
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /hdgrbws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 10|🇬🇧 GB-3 | 8EB
   network: ws
   port: 8443
   security: tls
@@ -1157,124 +1426,11 @@ proxies:
       Host: vpn47.cc.cd
     path: /
 - allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 104.29.111.30
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇭🇰 HK-1 | 8EB
-  network: grpc
-  port: 36795
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: grpc
-  port: 46780
-  security: tls
-  server: t2.feiyue706.com
-  servername: t2.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t2.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  pbk: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
-  port: 21562
-  reality-opts:
-    public-key: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
-    server-name: www.nazhumi.com
-    short-id: ''
-  security: reality
-  server: 178.253.245.144
-  sni: www.nazhumi.com
-  tls: true
-  type: vless
-  uuid: 36477315-2e11-4478-b85c-549133624eef
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: grpc
-  port: 46789
-  security: tls
-  server: t2.feiyue706.com
-  servername: t2.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t2.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇲🇾 MY-1 | 8EB
-  network: grpc
-  port: 36789
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇳🇱 NL-1 | 8EB
+  name: 10|🇳🇱 NL-11 | 8EB
   network: ws
   port: 2053
   security: tls
@@ -1289,1846 +1445,490 @@ proxies:
     headers:
       Host: vpn47.cc.cd
     path: /
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 10|🇳🇱 NL-2 | 8EB
-  network: tcp
-  pbk: 8xLIALDKNpX87MGkxGFIfxLUoJrUnsNSxOg_fHHk6Ac
-  port: 59391
-  reality-opts:
-    public-key: 8xLIALDKNpX87MGkxGFIfxLUoJrUnsNSxOg_fHHk6Ac
-    server-name: www.yahoo.com
-    short-id: 5635a66ec0a7619a
-  security: reality
-  server: xn-usa.dbsll.ir
-  sid: 5635a66ec0a7619a
-  sni: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇳🇱 NL-3 | 8EB
-  network: tcp
-  pbk: V1vIrExX3-oHy5vJNlsazYhVdkKyt9rtt4CDADBeFFo
-  port: 443
-  reality-opts:
-    public-key: V1vIrExX3-oHy5vJNlsazYhVdkKyt9rtt4CDADBeFFo
-    server-name: www.amd.com
-    short-id: 0bbd0f101ee82d47
-  security: reality
-  server: 45.139.76.72
-  sid: 0bbd0f101ee82d47
-  sni: www.amd.com
-  tls: true
-  type: vless
-  uuid: 7d5fc75d-5353-49e8-ac3a-ccbada84840c
-- encryption: none
-  headerType: none
-  name: 10|🇳🇱 NL-4 | 8EB
-  network: tcp
-  port: 13466
-  security: none
-  server: 94.237.109.71
-  type: vless
-  uuid: f0e23c4b-7952-439a-8412-65ff10e2caf0
-- allowInsecure: '0'
+- allowInsecure: '1'
   encryption: none
-  insecure: '0'
-  name: 10|🇳🇱 NL-5 | 8EB
+  insecure: '1'
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
-  port: 443
+  port: 2096
   security: tls
-  server: rvg-production-88b2.up.railway.app
-  servername: rvg-production-88b2.up.railway.app
-  skip-cert-verify: false
-  sni: rvg-production-88b2.up.railway.app
+  server: wawov6.ombre.qzz.io
+  servername: wawov6.ombre.qzz.io
+  skip-cert-verify: true
+  sni: wawov6.ombre.qzz.io
   tls: true
   type: vless
-  uuid: 36ad93bb-2c9c-3e3a-90bb-8e533619fd29
+  uuid: c7251b62-d162-44a5-9d90-bf26a340ad40
   ws-opts:
     headers:
-      Host: rvg-production-88b2.up.railway.app
-    path: /ws/36ad93bb-2c9c-3e3a-90bb-8e533619fd29
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇳🇱 NL-6 | 8EB
-  network: tcp
-  pbk: PfG1V1-ODHD8CegoTVg8m4G4mw5S1QiA751yWKCkhBc
-  port: 443
-  reality-opts:
-    public-key: PfG1V1-ODHD8CegoTVg8m4G4mw5S1QiA751yWKCkhBc
-    server-name: nid.hatvpn.org
-    short-id: 054602d818379876
-  security: reality
-  server: nid.hatvpn.org
-  sid: 054602d818379876
-  sni: nid.hatvpn.org
-  tls: true
-  type: vless
-  uuid: ebf2b955-ebff-4913-9cc0-d9c56870cfbe
+      Host: wawov6.ombre.qzz.io
+    path: /luluchan
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇳🇱 NL-7 | 8EB
+  name: 10|🇨🇦 CA-17 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 149.210.243.176
-  servername: vpn47.cc.cd
+  server: 172.64.153.159
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: vpn47.cc.cd
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
+      Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇳🇱 NL-8 | 8EB
+  name: 10|🇨🇦 CA-18 | 8EB
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 188.226.149.72
-  servername: vpn47.cc.cd
+  server: 162.159.46.24
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: vpn47.cc.cd
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
+      Host: t1s1.rittbo.kdns.fr
     path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: randomized
-  headerType: none
-  name: 10|🇳🇱 NL-9 | 8EB
-  network: tcp
-  pbk: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-  port: 443
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    server-name: n1.cloudgaming.one
-    short-id: 6d6f13013d3e1d0c
-  security: reality
-  server: n1.cloudgaming.one
-  sid: 6d6f13013d3e1d0c
-  sni: n1.cloudgaming.one
-  tls: true
-  type: vless
-  uuid: 91d0fa43-e557-43e7-a731-f0c3d1fb306a
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇳🇱 NL-10 | 8EB
-  network: tcp
-  pbk: IIaO-PSbQxqN9NQazUaLFRBXTbNfTnyCOR6MNCOsPxQ
-  port: 443
-  reality-opts:
-    public-key: IIaO-PSbQxqN9NQazUaLFRBXTbNfTnyCOR6MNCOsPxQ
-    server-name: yahoo.com
-    short-id: 0feb37c9
-  security: reality
-  server: 78.17.198.194
-  sid: 0feb37c9
-  sni: yahoo.com
-  tls: true
-  type: vless
-  uuid: de2edd29-c746-4dc7-a50b-e0692b01209d
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇸🇨 SC-1 | 8EB
-  network: tcp
-  pbk: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  port: 1932
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    server-name: www.vk.com
-    short-id: ''
-  security: reality
-  server: 45.145.56.145
-  sni: www.vk.com
-  tls: true
-  type: vless
-  uuid: 17930cee-cbea-484b-ad7f-7b8062825fee
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  pbk: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
-  port: 443
-  reality-opts:
-    public-key: uDC0dV4encJJZ84nnweP4g8ggzgaxGGphSYfhV2ATxw
-    server-name: unpkg.com
-    short-id: 0963b9822ae8b87e
-  security: reality
-  server: 159.89.198.1
-  sid: 0963b9822ae8b87e
-  sni: unpkg.com
-  tls: true
-  type: vless
-  uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: grpc
-  port: 36785
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: grpc
-  port: 36797
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
+  name: 10|🇨🇦 CA-19 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 206.189.147.60
-  servername: vpn47.cc.cd
+  server: 162.159.60.167
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: vpn47.cc.cd
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
+      Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇹🇭 TH-1 | 8EB
-  network: grpc
-  port: 36802
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇹🇭 TH-2 | 8EB
-  network: grpc
-  port: 36793
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇹🇭 TH-3 | 8EB
-  network: grpc
-  port: 36792
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 58417667-11fa-34b3-bde9-1b038613052e
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-1 | 8EB
+  name: 10|🇨🇦 CA-20 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 194.135.80.192
-  servername: us2.wxgqlfx.icu
+  server: 162.159.14.252
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.63.160
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 31.15.17.129
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 5.78.92.27
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.222
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
-  port: 27854
+  port: 443
   security: tls
-  server: 45.77.25.6
-  servername: us2.wxgqlfx.icu
+  server: 162.159.45.15
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  fp: qq
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  mode: gun
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: grpc
+  pbk: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+  port: 9877
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    server-name: dl.google.com
+    short-id: aa
+  security: reality
+  server: 194.87.226.71
+  serviceName: grpc-tunnel
+  sid: aa
+  sni: www.bing.com
+  tls: true
+  type: vless
+  uuid: 97d290a0-acec-4aae-b8cf-c7111a5a6397
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇸🇪 SE-1 | 8EB
+  network: tcp
+  pbk: 4_6L715q33OQgaQ5to4ZQe_U1C3uXADtMP8V31F1BFY
+  port: 443
+  reality-opts:
+    public-key: 4_6L715q33OQgaQ5to4ZQe_U1C3uXADtMP8V31F1BFY
+    server-name: se-arn-2.blook.network
+    short-id: e5d360c3
+  security: reality
+  server: se-arn-2.blook.network
+  sid: e5d360c3
+  sni: se-arn-2.blook.network
+  tls: true
+  type: vless
+  uuid: 4330361d-41c0-4f5b-920a-472a360a142c
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: ws
+  port: 2053
+  security: tls
+  server: 194.76.173.6
+  servername: vpn47.cc.cd
+  skip-cert-verify: false
+  sni: vpn47.cc.cd
+  tls: true
+  type: vless
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-7 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 5.75.237.184
-  servername: us2.wxgqlfx.icu
+  server: 162.159.38.25
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
+  name: 10|🇨🇦 CA-21 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cf.090227.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-22 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: store.ubi.com
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-23 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: mfa.gov.ua
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇦🇪 AE-1 | 8EB
+  password: ''
+  port: 1080
+  server: 74.162.65.56
+  type: socks
+  username: Og
+- encryption: none
+  name: 10|🇨🇦 CA-24 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.gov.ua
+  type: vless
+  uuid: 22fbdaad-1e9d-44c3-b35e-cc255bdba6b7
+  ws-opts:
+    headers:
+      Host: empty-cell-50c3.286-81e.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- allowInsecure: '0'
+  client-fingerprint: edge
+  encryption: none
+  fp: edge
+  insecure: '0'
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cos-cdn-b.alicdn.win
+  servername: mms-statlc-by4m-f.uedu.men
+  skip-cert-verify: false
+  sni: mms-statlc-by4m-f.uedu.men
+  tls: true
+  type: vless
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
+  ws-opts:
+    headers:
+      Host: mms-static-tags-f.uedu.men
+    path: /newlogin/login.do
+- encryption: none
+  name: 10|🇨🇦 CA-25 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.26.13.40
+  type: vless
+  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
+  ws-opts:
+    headers:
+      Host: square-sea-01d1.339-be3.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- allowInsecure: '0'
+  client-fingerprint: safari
+  encryption: none
+  fp: safari
+  insecure: '0'
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cos-cdn-u.alicdn.win
+  servername: mms-statlc-q9z0s-f.bjedu.men
+  skip-cert-verify: false
+  sni: mms-statlc-q9z0s-f.bjedu.men
+  tls: true
+  type: vless
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
+  ws-opts:
+    headers:
+      Host: mms-static-cache-f.bjedu.men
+    path: /newlogin/login.do
+- encryption: none
+  name: 10|🇨🇦 CA-26 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 172.67.179.98
+  type: vless
+  uuid: 81b3fa7e-12b0-4c2b-9866-324edd26ef7f
+  ws-opts:
+    headers:
+      Host: falling-lake-0b5a.192-3e2.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
   name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 152.228.135.135
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
+  port: 51465
+  reality-opts:
+    public-key: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
+    server-name: aws.amazon.com
+    short-id: 06a53f26d7e81193
+  security: reality
+  server: us-lax-02.fsulink.com
+  sid: 06a53f26d7e81193
+  sni: aws.amazon.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 45.159.189.26
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
+  password: ''
+  port: 1080
+  server: 47.253.211.16
+  type: socks
+  username: Og
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  insecure: '0'
+  headerType: none
   name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 87.106.141.152
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
+  port: 34356
+  reality-opts:
+    public-key: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
+    server-name: aws.amazon.com
+    short-id: bbfae6015d
+  security: reality
+  server: hk03.fsulink.com
+  sid: bbfae6015d
+  sni: aws.amazon.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
+- encryption: none
+  name: 10|🇨🇦 CA-27 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.16.107.139
+  type: vless
+  uuid: 43a92977-08ff-45ba-84f0-bab7fc8a15c5
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: sparkling-wave-6c5c.200-67a.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇸🇪 SE-2 | 8EB
+  network: tcp
+  pbk: 4_6L715q33OQgaQ5to4ZQe_U1C3uXADtMP8V31F1BFY
+  port: 443
+  reality-opts:
+    public-key: 4_6L715q33OQgaQ5to4ZQe_U1C3uXADtMP8V31F1BFY
+    server-name: se-arn-2.blook.network
+    short-id: e5d360c3
+  security: reality
+  server: 84.32.99.84
+  sid: e5d360c3
+  sni: se-arn-2.blook.network
+  tls: true
+  type: vless
+  uuid: 4330361d-41c0-4f5b-920a-472a360a142c
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
+  client-fingerprint: qq
   encryption: none
-  fp: chrome
+  fp: qq
   insecure: '0'
   name: 10|🇺🇸 US-11 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 152.228.134.80
-  servername: us2.wxgqlfx.icu
+  server: cos-cdn-m.alicdn.win
+  servername: mms-statlc-pi5g-f.hzedu.men
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: mms-statlc-pi5g-f.hzedu.men
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: mms-static-gzip-f.hzedu.men
+    path: /newlogin/login.do
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-12 | 8EB
   network: ws
-  port: 443
+  port: 51042
   security: tls
-  server: 45.85.117.116
+  server: 173.242.123.189
   servername: us2.wxgqlfx.icu
   skip-cert-verify: false
   sni: us2.wxgqlfx.icu
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: edefe11a-91d0-4a20-c2dc-92e387b38214
   ws-opts:
     headers:
       Host: us2.wxgqlfx.icu
     path: /TG@wxgqlfx
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
+  client-fingerprint: safari
   encryption: none
-  fp: chrome
+  fp: safari
   insecure: '0'
   name: 10|🇺🇸 US-13 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 178.208.79.44
-  servername: us2.wxgqlfx.icu
+  server: cos-cdn-k.alicdn.win
+  servername: mms-statlc-hjj6-e.hzedu.men
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: mms-statlc-hjj6-e.hzedu.men
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 37.59.96.48
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 45.80.209.25
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-16 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.216
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-17 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 152.228.135.135
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-18 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.19.243.106
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-19 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 45.81.225.153
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-20 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 135.125.133.217
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-21 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.63.60
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-22 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.47.17
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-23 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.253.26.128
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-24 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 188.241.241.37
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-25 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.47.42
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-26 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 46.8.229.218
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-27 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 57.129.137.224
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-28 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 109.172.93.20
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-29 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 51.91.252.174
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-30 | 8EB
-  network: ws
-  port: 27213
-  security: tls
-  server: 104.168.167.197
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-31 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 87.106.65.110
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-32 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 51.91.255.121
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-33 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 213.165.88.177
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-34 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 57.128.177.198
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-35 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 185.45.113.201
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-36 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 82.115.6.231
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-37 | 8EB
-  network: ws
-  port: 587
-  security: tls
-  server: 217.142.250.195
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-38 | 8EB
-  network: ws
-  port: 44855
-  security: tls
-  server: 172.96.192.114
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-39 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 51.91.103.101
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-40 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 38.146.25.162
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-41 | 8EB
-  network: ws
-  port: 10444
-  security: tls
-  server: 47.88.24.237
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-42 | 8EB
-  network: ws
-  port: 27560
-  security: tls
-  server: 168.138.198.7
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-43 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.128.183.59
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-44 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 158.180.12.117
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-45 | 8EB
-  network: ws
-  port: 8880
-  security: tls
-  server: 138.2.18.82
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-46 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.78
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-47 | 8EB
-  network: ws
-  port: 24361
-  security: tls
-  server: 132.226.119.111
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-48 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.19.27.52
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-49 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 185.223.93.86
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-50 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 94.159.103.71
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-51 | 8EB
-  network: ws
-  port: 587
-  security: tls
-  server: 51.195.40.6
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-52 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 171.22.114.27
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-53 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 185.186.245.205
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-54 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.128.183.13
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-55 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 89.58.40.177
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-56 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.63.163
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-57 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 185.186.245.22
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-58 | 8EB
-  network: ws
-  port: 21009
-  security: tls
-  server: 192.9.138.69
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-59 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 88.198.82.146
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-60 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 135.125.234.148
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-61 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 91.223.123.210
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-62 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.224.40
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-63 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.234.36
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-64 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.159.251.87
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-65 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.45.114
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇻🇳 VN-1 | 8EB
-  network: grpc
-  port: 36803
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 10|🇻🇳 VN-2 | 8EB
-  network: grpc
-  port: 36804
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇳🇱 NL-11 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 193.124.15.11
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 57.128.179.189
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.19.79.101
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 51.91.254.153
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 10|🇺🇸 US-66 | 8EB
-  network: tcp
-  pbk: jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY
-  port: 59492
-  reality-opts:
-    public-key: jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY
-    server-name: www.google.com:443
-    short-id: 0b1eccc239d0
-  security: reality
-  server: tr.iranfastspeed.com.tr
-  sid: 0b1eccc239d0
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: 5aa708a4-0134-4f24-ba6f-d775651bd21e
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 44872
-  security: tls
-  server: 158.101.146.3
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 54516
-  security: tls
-  server: 158.101.146.3
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: mms-static-gzip-e.hzedu.men
+    path: /newlogin/login.do
 - name: 11|🇭🇰 HK-1 | Mix
   password: '2222'
   port: 2222

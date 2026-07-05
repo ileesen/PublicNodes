@@ -8,1445 +8,254 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-1 | 8EB
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 194.135.80.192
-  servername: us2.wxgqlfx.icu
+  server: 108.162.198.43
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-2 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 57.129.63.160
-  servername: us2.wxgqlfx.icu
+  server: 162.159.38.101
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-3 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 31.15.17.129
-  servername: us2.wxgqlfx.icu
+  server: 66.81.247.91
+  servername: vangoghhh.info
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: vangoghhh.info
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+      Host: vangoghhh.info
+    path: /rdfgtws
+- encryption: none
+  fp: firefox
+  mode: auto
   name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 5.78.92.27
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: xhttp
+  pbk: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
+  port: 443
+  reality-opts:
+    public-key: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
+    server-name: www.amd.com
+    short-id: ''
+  security: reality
+  server: 31.76.56.161
+  sni: www.amd.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  uuid: b6b24ed5-7060-11f1-a5bc-54db13ea7d40
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
   name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.222
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
+  port: 443
+  reality-opts:
+    public-key: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
+    server-name: lv-rix-2.blook.network
+    short-id: dacf7065
+  security: reality
+  server: lv-rix-2.blook.network
+  sid: dacf7065
+  sni: lv-rix-2.blook.network
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+  uuid: 3cf2f92d-1f3b-49aa-88be-d1f5c19f93ab
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
-  port: 27854
+  port: 443
   security: tls
-  server: 45.77.25.6
-  servername: us2.wxgqlfx.icu
+  server: 162.159.45.15
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-7 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 5.75.237.184
-  servername: us2.wxgqlfx.icu
+  server: 162.159.38.25
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  insecure: '0'
+  headerType: none
   name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 152.228.135.135
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
+  port: 51465
+  reality-opts:
+    public-key: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
+    server-name: aws.amazon.com
+    short-id: 06a53f26d7e81193
+  security: reality
+  server: us-lax-02.fsulink.com
+  sid: 06a53f26d7e81193
+  sni: aws.amazon.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 45.159.189.26
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+  password: ''
+  port: 1080
+  server: 47.253.211.16
+  type: socks
+  username: Og
+- encryption: none
+  flow: xtls-rprx-vision
   fp: chrome
-  insecure: '0'
+  headerType: none
   name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 87.106.141.152
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
+  port: 34356
+  reality-opts:
+    public-key: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
+    server-name: aws.amazon.com
+    short-id: bbfae6015d
+  security: reality
+  server: hk03.fsulink.com
+  sid: bbfae6015d
+  sni: aws.amazon.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: qq
   encryption: none
-  fp: chrome
+  fp: qq
   insecure: '0'
   name: 10|🇺🇸 US-11 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 152.228.134.80
-  servername: us2.wxgqlfx.icu
+  server: cos-cdn-m.alicdn.win
+  servername: mms-statlc-pi5g-f.hzedu.men
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: mms-statlc-pi5g-f.hzedu.men
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: mms-static-gzip-f.hzedu.men
+    path: /newlogin/login.do
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-12 | 8EB
   network: ws
-  port: 443
+  port: 51042
   security: tls
-  server: 45.85.117.116
+  server: 173.242.123.189
   servername: us2.wxgqlfx.icu
   skip-cert-verify: false
   sni: us2.wxgqlfx.icu
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: edefe11a-91d0-4a20-c2dc-92e387b38214
   ws-opts:
     headers:
       Host: us2.wxgqlfx.icu
     path: /TG@wxgqlfx
 - allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: safari
   encryption: none
-  fp: chrome
+  fp: safari
   insecure: '0'
   name: 10|🇺🇸 US-13 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 178.208.79.44
-  servername: us2.wxgqlfx.icu
+  server: cos-cdn-k.alicdn.win
+  servername: mms-statlc-hjj6-e.hzedu.men
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: mms-statlc-hjj6-e.hzedu.men
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 37.59.96.48
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 45.80.209.25
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-16 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.216
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-17 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 152.228.135.135
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-18 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.19.243.106
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-19 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 45.81.225.153
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-20 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 135.125.133.217
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-21 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.63.60
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-22 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.47.17
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-23 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.253.26.128
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-24 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 188.241.241.37
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-25 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 57.129.47.42
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-26 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 46.8.229.218
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-27 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 57.129.137.224
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-28 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 109.172.93.20
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-29 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 51.91.252.174
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-30 | 8EB
-  network: ws
-  port: 27213
-  security: tls
-  server: 104.168.167.197
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-31 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 87.106.65.110
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-32 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 51.91.255.121
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-33 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 213.165.88.177
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-34 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 57.128.177.198
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-35 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 185.45.113.201
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-36 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 82.115.6.231
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-37 | 8EB
-  network: ws
-  port: 587
-  security: tls
-  server: 217.142.250.195
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-38 | 8EB
-  network: ws
-  port: 44855
-  security: tls
-  server: 172.96.192.114
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-39 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 51.91.103.101
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-40 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 38.146.25.162
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-41 | 8EB
-  network: ws
-  port: 10444
-  security: tls
-  server: 47.88.24.237
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-42 | 8EB
-  network: ws
-  port: 27560
-  security: tls
-  server: 168.138.198.7
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-43 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.128.183.59
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-44 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 158.180.12.117
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-45 | 8EB
-  network: ws
-  port: 8880
-  security: tls
-  server: 138.2.18.82
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-46 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.137.78
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-47 | 8EB
-  network: ws
-  port: 24361
-  security: tls
-  server: 132.226.119.111
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-48 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.19.27.52
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-49 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 185.223.93.86
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-50 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 94.159.103.71
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-51 | 8EB
-  network: ws
-  port: 587
-  security: tls
-  server: 51.195.40.6
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-52 | 8EB
-  network: ws
-  port: 2053
-  security: tls
-  server: 171.22.114.27
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-53 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 185.186.245.205
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-54 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.128.183.13
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-55 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 89.58.40.177
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-56 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 57.129.63.163
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-57 | 8EB
-  network: ws
-  port: 81
-  security: tls
-  server: 185.186.245.22
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-58 | 8EB
-  network: ws
-  port: 21009
-  security: tls
-  server: 192.9.138.69
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-59 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 88.198.82.146
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-60 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 135.125.234.148
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-61 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 91.223.123.210
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-62 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.224.40
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-63 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.234.36
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-64 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.159.251.87
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-65 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.45.114
-  servername: ldp2642.brucewang777.eu.cc
-  skip-cert-verify: false
-  sni: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-- encryption: none
-  fp: chrome
-  headerType: none
-  name: 10|🇺🇸 US-66 | 8EB
-  network: tcp
-  pbk: jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY
-  port: 59492
-  reality-opts:
-    public-key: jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY
-    server-name: www.google.com:443
-    short-id: 0b1eccc239d0
-  security: reality
-  server: tr.iranfastspeed.com.tr
-  sid: 0b1eccc239d0
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: 5aa708a4-0134-4f24-ba6f-d775651bd21e
+      Host: mms-static-gzip-e.hzedu.men
+    path: /newlogin/login.do
 - _auth: ''
   _network: tcp
   _path: ''

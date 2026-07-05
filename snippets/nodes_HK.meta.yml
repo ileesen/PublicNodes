@@ -6,26 +6,60 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: edge
+  headerType: none
   name: 10|🇭🇰 HK-1 | 8EB
-  network: grpc
-  port: 36795
-  security: tls
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t1.feiyue706.com
+  network: tcp
+  pbk: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+  port: 443
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    server-name: it-one.quiet-rogue.site
+    short-id: ''
+  security: reality
+  server: it-one.quiet-rogue.site
+  sni: it-one.quiet-rogue.site
   tls: true
   type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
+  uuid: bf142126-5bc4-46fa-986e-ffc4517655dd
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  pbk: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+  port: 443
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    server-name: it-one.quiet-rogue.site
+    short-id: ''
+  security: reality
+  server: 31.77.154.51
+  sni: it-one.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: bf142126-5bc4-46fa-986e-ffc4517655dd
+- allowInsecure: '1'
+  encryption: none
+  insecure: '1'
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  port: 2096
+  security: tls
+  server: wawov6.ombre.qzz.io
+  servername: wawov6.ombre.qzz.io
+  skip-cert-verify: true
+  sni: wawov6.ombre.qzz.io
+  tls: true
+  type: vless
+  uuid: c7251b62-d162-44a5-9d90-bf26a340ad40
+  ws-opts:
+    headers:
+      Host: wawov6.ombre.qzz.io
+    path: /luluchan
 - name: 11|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

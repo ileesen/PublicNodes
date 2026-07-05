@@ -7,83 +7,25 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  client-fingerprint: chrome
+  client-fingerprint: edge
   encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
+  fp: edge
   insecure: '0'
-  mode: gun
   name: 10|🇯🇵 JP-1 | 8EB
-  network: grpc
-  port: 46780
-  security: tls
-  server: t2.feiyue706.com
-  servername: t2.feiyue706.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t2.feiyue706.com
-  tls: true
-  type: vless
-  uuid: 673771ef-3a65-38f0-b8b8-fd8ae91341ee
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  pbk: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
-  port: 21562
-  reality-opts:
-    public-key: saEF9IjGEOga3eZG962AMJRTM93cnsVVziketYU6s1M
-    server-name: www.nazhumi.com
-    short-id: ''
-  security: reality
-  server: 178.253.245.144
-  sni: www.nazhumi.com
-  tls: true
-  type: vless
-  uuid: 36477315-2e11-4478-b85c-549133624eef
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-3 | 8EB
   network: ws
-  port: 44872
+  port: 443
   security: tls
-  server: 158.101.146.3
-  servername: us2.wxgqlfx.icu
+  server: cos-cdn-b.alicdn.win
+  servername: mms-statlc-by4m-f.uedu.men
   skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  sni: mms-statlc-by4m-f.uedu.men
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
   ws-opts:
     headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 54516
-  security: tls
-  server: 158.101.146.3
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+      Host: mms-static-tags-f.uedu.men
+    path: /newlogin/login.do
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

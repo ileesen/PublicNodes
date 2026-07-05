@@ -1,64 +1,93 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.114.97.6
-  servername: JoinProxyVPN11.terazhediii.info
-  skip-cert-verify: false
-  sni: JoinProxyVPN11.terazhediii.info
-  tls: true
-  type: vless
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /hdgrbws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  password: ''
+  port: 1088
+  server: 144.91.111.48
+  type: socks
+  username: Og
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.19.79.101
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  password: ''
+  port: 1088
+  server: 144.91.121.61
+  type: socks
+  username: Og
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
   name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 51.91.254.153
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
+  network: tcp
+  pbk: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    server-name: cdn6-49.yahoo.com
+    short-id: 3c9c5d01c6f824dd
+  security: reality
+  server: 155.117.137.110
+  sid: 3c9c5d01c6f824dd
+  sni: cdn6-49.yahoo.com
   tls: true
   type: vless
-  uuid: ea057aa8-6c6f-44f4-d347-7a87e835c0dc
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+- name: 10|🇫🇷 FR-4 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.27.216
+  skip-cert-verify: true
+  sni: bing.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: bing.com
+  type: hysteria2
+  udp: true
+- encryption: none
+  fp: qq
+  headerType: none
+  name: 10|🇫🇷 FR-5 | 8EB
+  network: tcp
+  pbk: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+  port: 7009
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    server-name: yahoo.com
+    short-id: ''
+  security: reality
+  server: luemborgclouding.iranlast.com
+  sni: yahoo.com
+  tls: true
+  type: vless
+  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇫🇷 FR-6 | 8EB
+  network: tcp
+  pbk: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
+  port: 443
+  reality-opts:
+    public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
+    server-name: fr1.waspnest.space
+    short-id: 341ad73bbc77993c
+  security: reality
+  server: fr1.waspnest.space
+  sid: 341ad73bbc77993c
+  sni: fr1.waspnest.space
+  tls: true
+  type: vless
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
 - name: 15|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
