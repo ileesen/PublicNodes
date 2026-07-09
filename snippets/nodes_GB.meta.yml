@@ -1,43 +1,44 @@
 proxies:
 - allowInsecure: '0'
-  client-fingerprint: safari
-  encryption: none
-  fp: safari
-  insecure: '0'
-  name: 10|🇬🇧 GB-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 94.156.155.81.blanesik.space
-  servername: 94.156.155.81.blanesik.space
-  skip-cert-verify: false
-  sni: 94.156.155.81.blanesik.space
-  tls: true
-  type: vless
-  uuid: 5bf12aea-0a92-554b-ab2d-0e034b9f57a2
-  ws-opts:
-    path: /sequre/ws
-- allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: grpc
+  port: 46780
+  security: tls
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.hhaakk9922.com
+  tls: true
+  type: vless
+  uuid: eefe7517-7167-33e0-8f1d-8ea1aaca7098
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
   insecure: '0'
   name: 10|🇬🇧 GB-2 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 57.128.181.14
-  servername: vpn47.cc.cd
+  server: freev2.cloudflare.182682.xyz
+  servername: do-lon1.862400.xyz
   skip-cert-verify: false
-  sni: vpn47.cc.cd
+  sni: do-lon1.862400.xyz
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: 3831f549-8a5a-40f2-b69c-5e4a4aa5bcc6
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
-    path: /
+      Host: do-lon1.862400.xyz
+    path: /announcement
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

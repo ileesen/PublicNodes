@@ -7,30 +7,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 9|🇺🇸104402 | ⚡️Telegram = t.me/v...
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.197
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸104398 | ⚡️Telegram = t.me/v...
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.201
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸104397 | ⚡️Telegram = t.me/v...
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.254
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
 - allowInsecure: '0'
   client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
@@ -60,9 +36,9 @@ proxies:
   insecure: '0'
   name: 10|🇺🇸 US-2 | 8EB
   network: ws
-  port: 443
+  port: 2083
   security: tls
-  server: 162.159.38.101
+  server: 162.159.45.201
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -75,67 +51,11 @@ proxies:
     path: /
 - allowInsecure: '0'
   client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 66.81.247.91
-  servername: vangoghhh.info
-  skip-cert-verify: false
-  sni: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /rdfgtws
-- encryption: none
-  fp: firefox
-  mode: auto
-  name: 10|🇺🇸 US-4 | 8EB
-  network: xhttp
-  pbk: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
-  port: 443
-  reality-opts:
-    public-key: MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s
-    server-name: www.amd.com
-    short-id: ''
-  security: reality
-  server: 31.76.56.161
-  sni: www.amd.com
-  tls: true
-  type: vless
-  uuid: b6b24ed5-7060-11f1-a5bc-54db13ea7d40
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇺🇸 US-5 | 8EB
-  network: tcp
-  pbk: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
-  port: 443
-  reality-opts:
-    public-key: ejl5l6FoiyhK6rKpWdNAzPeCnpRtAWNb3L4s-dvrcT0
-    server-name: lv-rix-2.blook.network
-    short-id: dacf7065
-  security: reality
-  server: lv-rix-2.blook.network
-  sid: dacf7065
-  sni: lv-rix-2.blook.network
-  tls: true
-  type: vless
-  uuid: 3cf2f92d-1f3b-49aa-88be-d1f5c19f93ab
-- allowInsecure: '0'
-  client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   port: 443
   security: tls
@@ -151,146 +71,355 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 443
+  mode: auto
+  name: 10|🇺🇸 US-4 | 8EB
+  network: xhttp
+  port: 2083
   security: tls
-  server: 162.159.38.25
-  servername: t1s1.rittbo.kdns.fr
+  server: securitytrails.com
+  servername: log.beforenext.dpdns.org
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: log.beforenext.dpdns.org
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: 58be4691-5430-417a-96e3-02736d151490
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  pbk: EIkyDGZpOLLW_5_7uHSZvsv_WO9JbNhDF-SPyNW7VhY
+  port: 21009
+  reality-opts:
+    public-key: EIkyDGZpOLLW_5_7uHSZvsv_WO9JbNhDF-SPyNW7VhY
+    server-name: www.bing.com
+    short-id: bacca51e
+  security: reality
+  server: assets-cfnode81.rfsconfig.com
+  sid: bacca51e
+  sni: www.bing.com
+  tls: true
+  type: vless
+  uuid: 202d6dd6-77af-45ee-99db-82ea75758340
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
+  pbk: fn4-XMwPlbt1-nxhBkDWQlc9bQSXAFLxRnuSa_Bq8yI
+  port: 25395
+  reality-opts:
+    public-key: fn4-XMwPlbt1-nxhBkDWQlc9bQSXAFLxRnuSa_Bq8yI
+    server-name: k0g3h.biliimg.com
+    short-id: ea9aa464
+  security: reality
+  server: assets-cfnode81.rfsconfig.com
+  sid: ea9aa464
+  sni: k0g3h.biliimg.com
+  tls: true
+  type: vless
+  uuid: 202d6dd6-77af-45ee-99db-82ea75758340
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  pbk: rUaIltOSlQtcyDa_gd4sTgugudTMEoS8R-d8ez85ug0
+  port: 2562
+  reality-opts:
+    public-key: rUaIltOSlQtcyDa_gd4sTgugudTMEoS8R-d8ez85ug0
+    server-name: k0g4h.biliimg.com
+    short-id: 046b8421
+  security: reality
+  server: assets-cfnode81.rfsconfig.com
+  sid: 046b8421
+  sni: k0g4h.biliimg.com
+  tls: true
+  type: vless
+  uuid: 202d6dd6-77af-45ee-99db-82ea75758340
 - encryption: none
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
   name: 10|🇺🇸 US-8 | 8EB
   network: tcp
-  pbk: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
-  port: 51465
+  pbk: 2q1oYrKhSuFyAgHhHk00pAVqjeLm6hk0rcRFKsTfpGI
+  port: 15427
   reality-opts:
-    public-key: Q2HnKorUbo2lHvpI1AXfHa1UmUJAVKcxjC_TZr0QIUc
-    server-name: aws.amazon.com
-    short-id: 06a53f26d7e81193
+    public-key: 2q1oYrKhSuFyAgHhHk00pAVqjeLm6hk0rcRFKsTfpGI
+    server-name: www.bing.com
+    short-id: f6f74af8
   security: reality
-  server: us-lax-02.fsulink.com
-  sid: 06a53f26d7e81193
-  sni: aws.amazon.com
+  server: oversea.hk1.inbound.rfsconfig.com
+  sid: f6f74af8
+  sni: www.bing.com
   tls: true
   type: vless
-  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
+  uuid: 202d6dd6-77af-45ee-99db-82ea75758340
 - _auth: ''
   _network: tcp
   _path: ''
   _security: ''
   _sni: ''
-  name: 10|🇺🇸 US-9 | 8EB
-  password: ''
-  port: 1080
-  server: 47.253.211.16
-  type: socks
-  username: Og
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇺🇸 US-10 | 8EB
-  network: tcp
-  pbk: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
-  port: 34356
-  reality-opts:
-    public-key: JaFujawnPnH4KDUAWZGzORbhHzxMcNIeF2OsyEN4s2I
-    server-name: aws.amazon.com
-    short-id: bbfae6015d
-  security: reality
-  server: hk03.fsulink.com
-  sid: bbfae6015d
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
-- allowInsecure: '0'
-  client-fingerprint: qq
-  encryption: none
-  fp: qq
-  insecure: '0'
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cos-cdn-m.alicdn.win
-  servername: mms-statlc-pi5g-f.hzedu.men
-  skip-cert-verify: false
-  sni: mms-statlc-pi5g-f.hzedu.men
-  tls: true
-  type: vless
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  ws-opts:
-    headers:
-      Host: mms-static-gzip-f.hzedu.men
-    path: /newlogin/login.do
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 51042
-  security: tls
-  server: 173.242.123.189
-  servername: us2.wxgqlfx.icu
-  skip-cert-verify: false
-  sni: us2.wxgqlfx.icu
-  tls: true
-  type: vless
-  uuid: edefe11a-91d0-4a20-c2dc-92e387b38214
-  ws-opts:
-    headers:
-      Host: us2.wxgqlfx.icu
-    path: /TG@wxgqlfx
-- allowInsecure: '0'
-  client-fingerprint: safari
-  encryption: none
-  fp: safari
-  insecure: '0'
-  name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cos-cdn-k.alicdn.win
-  servername: mms-statlc-hjj6-e.hzedu.men
-  skip-cert-verify: false
-  sni: mms-statlc-hjj6-e.hzedu.men
-  tls: true
-  type: vless
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  ws-opts:
-    headers:
-      Host: mms-static-gzip-e.hzedu.men
-    path: /newlogin/login.do
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 11|🇺🇸 US-1 | Mix
+  name: 10,11|🇺🇸 US-1 | Mix
   password: ''
   port: 11679
   server: 134.122.1.61
   type: socks
   username: ''
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 131.143.251.20
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 188.255.156.163
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 38.244.60.85
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 202.91.33.211
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 10|🇺🇸 US-14 | 8EB
+  network: tcp
+  password: '!!str 3632736327'
+  port: 2888
+  security: tls
+  server: us04021322.tmdsb.org
+  servername: us04021322.tmdsb.org
+  skip-cert-verify: false
+  sni: us04021322.tmdsb.org
+  type: trojan
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 188.255.156.143
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: www.visa.com.hk
+  servername: do-sfo3.862400.xyz
+  skip-cert-verify: false
+  sni: do-sfo3.862400.xyz
+  tls: true
+  type: vless
+  uuid: 3831f549-8a5a-40f2-b69c-5e4a4aa5bcc6
+  ws-opts:
+    headers:
+      Host: do-sfo3.862400.xyz
+    path: /announcement
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 154.64.236.234
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 188.255.156.164
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 43.169.19.179
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 154.17.6.240
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 154.26.176.229
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 10|🇺🇸 US-22 | 8EB
+  network: tcp
+  password: '!!str 3632736327'
+  port: 3480
+  security: tls
+  server: us04031316.tmdsb.org
+  servername: us04031316.tmdsb.org
+  skip-cert-verify: false
+  sni: us04031316.tmdsb.org
+  type: trojan
 - name: 11|🇺🇸 US-2 | Mix
   password: test123
   port: 1080

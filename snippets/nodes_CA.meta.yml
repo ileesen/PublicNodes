@@ -7,9 +7,9 @@ proxies:
   insecure: '0'
   name: 10|🇨🇦 CA-1 | 8EB
   network: ws
-  port: 2083
+  port: 443
   security: tls
-  server: 162.159.11.57
+  server: 172.64.153.159
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -28,9 +28,9 @@ proxies:
   insecure: '0'
   name: 10|🇨🇦 CA-2 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 162.159.4.2
+  server: 172.64.42.44
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -51,7 +51,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 162.159.34.23
+  server: 162.159.1.170
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -70,9 +70,9 @@ proxies:
   insecure: '0'
   name: 10|🇨🇦 CA-4 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 172.64.52.134
+  server: 172.64.52.18
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -83,180 +83,181 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
+- encryption: none
   name: 10|🇨🇦 CA-5 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.151.158
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-6 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.42.182
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-7 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.159.4.221
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-8 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: www.baipiao.eu.org
-  type: vless
-  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
-  ws-opts:
-    headers:
-      Host: crimson-wind-71bc.19-5fd.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇨🇦 CA-9 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.1.37
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- encryption: none
-  name: 10|🇨🇦 CA-10 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: 162.159.46.0
-  type: vless
-  uuid: 828aa918-2ed3-4541-8519-083f9efeaaf7
-  ws-opts:
-    headers:
-      Host: icy-hall-bfba.266-f4e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-11 | 8EB
-  network: ws
-  port: 80
-  security: none
-  server: 45.130.125.113
-  sni: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
-  type: vless
-  uuid: 48daa5a5-5bca-4e01-9143-c42f1247b8a2
-  ws-opts:
-    headers:
-      Host: zeus-panel-s3hlzp.zeus-t8jrk2.workers.dev
-    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
-- encryption: none
-  name: 10|🇨🇦 CA-12 | 8EB
-  network: ws
-  port: 80
-  security: none
-  server: 104.21.63.40
-  sni: zeus-panel-67qb7f.zeus-moi2iw.workers.dev
-  type: vless
-  uuid: 93c6c00b-be26-45a3-a23e-c970fb60f2ff
-  ws-opts:
-    headers:
-      Host: zeus-panel-67qb7f.zeus-moi2iw.workers.dev
-    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
-- encryption: none
-  name: 10|🇨🇦 CA-13 | 8EB
-  network: ws
-  port: 8880
-  security: none
-  server: skk.moe
-  sni: skk.moe
-  type: vless
-  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
-  ws-opts:
-    headers:
-      Host: crimson-wind-71bc.19-5fd.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- encryption: none
-  name: 10|🇨🇦 CA-14 | 8EB
   network: ws
   port: 8880
   security: none
   server: www.ipget.net
   type: vless
-  uuid: b7300b59-7598-4997-9714-27efd75065d0
+  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
   ws-opts:
     headers:
-      Host: mute-lab-4c55.389.workers.dev
+      Host: weathered-hat-76a5.380-d00.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
 - encryption: none
-  name: 10|🇨🇦 CA-15 | 8EB
+  name: 10|🇨🇦 CA-6 | 8EB
   network: ws
   port: 8880
   security: none
-  server: 162.159.140.78
+  server: log.bpminecraft.com
   type: vless
-  uuid: e8e34074-166f-48a6-9f86-398ad796c3ca
+  uuid: 38135fde-7044-4407-8faf-e1ab08e47402
   ws-opts:
     headers:
-      Host: hidden-bonus-24d0.232-647.workers.dev
+      Host: white-bush-712e.498-f8f.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  mode: stream-one
+  name: 10|🇨🇦 CA-7 | 8EB
+  network: xhttp
+  port: 443
+  security: tls
+  server: mfa.gov.ua
+  servername: xhttp3.azadnet5000.dpdns.org
+  skip-cert-verify: false
+  sni: xhttp3.azadnet5000.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+- allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  mode: stream-one
+  name: 10|🇨🇦 CA-8 | 8EB
+  network: xhttp
+  port: 443
+  security: tls
+  server: cf.877774.xyz
+  servername: xhttp3.azadnet5000.dpdns.org
+  skip-cert-verify: false
+  sni: xhttp3.azadnet5000.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+- encryption: none
+  name: 10|🇨🇦 CA-9 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.baipiao.eu.org
+  sni: www.baipiao.eu.org
+  type: vless
+  uuid: 2b2ed3be-36bd-486d-9d04-ebf5b4be7ae9
+  ws-opts:
+    headers:
+      Host: twilight-heart-dbd6.220-2bd.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-10 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.gov.ua
+  type: vless
+  uuid: 3e553ebf-db9d-4858-b608-03d6ff615a41
+  ws-opts:
+    headers:
+      Host: rapid-waterfall-7270.255-22b.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-11 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.17.170.132
+  type: vless
+  uuid: 8e8e2034-33eb-4ccc-938f-ba86d877c449
+  ws-opts:
+    headers:
+      Host: icy-hall-8013.386-58c.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-12 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: anydesk.com
+  type: vless
+  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
+  ws-opts:
+    headers:
+      Host: polished-hall-7427.463-5d2.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-13 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.66.0.59
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-14 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.192.3
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-15 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.67.64.1
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
   encryption: none
   fp: chrome
   insecure: '0'
@@ -264,20 +265,19 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: vpn47.cc.cd
+  server: 172.66.1.88
+  servername: nfs.kdns.fr
   skip-cert-verify: false
-  sni: vpn47.cc.cd
+  sni: nfs.kdns.fr
   tls: true
   type: vless
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
-    path: /
+      Host: nfs.kdns.fr
+    path: /vless
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
@@ -285,62 +285,59 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 172.64.153.159
-  servername: t1s1.rittbo.kdns.fr
+  server: 104.17.1.1
+  servername: edgetunnel-proxy-hj9.pages.dev
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: edgetunnel-proxy-hj9.pages.dev
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: edgetunnel-proxy-hj9.pages.dev
     path: /
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇨🇦 CA-18 | 8EB
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 162.159.46.24
-  servername: t1s1.rittbo.kdns.fr
+  server: 172.66.0.3
+  servername: nfs.kdns.fr
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: nfs.kdns.fr
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+      Host: nfs.kdns.fr
+    path: /vless
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 10|🇨🇦 CA-19 | 8EB
   network: ws
-  port: 443
+  port: 2083
   security: tls
-  server: 162.159.60.167
-  servername: t1s1.rittbo.kdns.fr
+  server: 172.66.0.46
+  servername: nfs.kdns.fr
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: nfs.kdns.fr
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+      Host: nfs.kdns.fr
+    path: /vless
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
@@ -348,20 +345,19 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 162.159.14.252
-  servername: t1s1.rittbo.kdns.fr
+  server: 162.159.192.9
+  servername: nfs.kdns.fr
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: nfs.kdns.fr
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+      Host: nfs.kdns.fr
+    path: /vless
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
@@ -369,20 +365,19 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: cf.090227.xyz
-  servername: t1s1.rittbo.kdns.fr
+  server: 104.16.1.1
+  servername: edgetunnel-proxy-hj9.pages.dev
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: edgetunnel-proxy-hj9.pages.dev
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: edgetunnel-proxy-hj9.pages.dev
     path: /
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
@@ -390,7 +385,308 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: store.ubi.com
+  server: 172.66.1.2
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-23 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 104.17.106.4
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-24 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.66.3.74
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-25 | 8EB
+  network: ws
+  port: 2053
+  security: tls
+  server: 172.64.147.129
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-26 | 8EB
+  network: ws
+  port: 2096
+  security: tls
+  server: 172.64.148.42
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-27 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 172.64.147.77
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-28 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.3.9
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-29 | 8EB
+  network: ws
+  port: 2053
+  security: tls
+  server: 172.66.0.23
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-30 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.66.2.5
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-31 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.192.16
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-32 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.66.1.49
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-33 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.192.7
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-34 | 8EB
+  network: ws
+  port: 2087
+  security: tls
+  server: 198.41.208.94
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-35 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: 172.64.147.137
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-36 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.66.2.8
+  servername: nfs.kdns.fr
+  skip-cert-verify: false
+  sni: nfs.kdns.fr
+  tls: true
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  ws-opts:
+    headers:
+      Host: nfs.kdns.fr
+    path: /vless
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇨🇦 CA-37 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 198.41.223.238
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -407,11 +703,11 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-23 | 8EB
+  name: 10|🇨🇦 CA-38 | 8EB
   network: ws
   port: 443
   security: tls
-  server: mfa.gov.ua
+  server: 104.16.148.8
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -422,51 +718,450 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- allowInsecure: '1'
+  encryption: none
+  insecure: '1'
+  name: 10|🇨🇦 CA-39 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.80.1
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-40 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 104.18.33.209
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-41 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: saas.sin.fan
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-42 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 104.17.158.12
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇨🇦 CA-43 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: www.cnae.top
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇨🇦 CA-44 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: www.ntu.edu.sg
+  servername: gy.hhawks.kdns.fr
+  skip-cert-verify: false
+  sni: gy.hhawks.kdns.fr
+  tls: true
+  type: vless
+  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  ws-opts:
+    headers:
+      Host: gy.hhawks.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-45 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 104.18.39.216
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - encryption: none
-  name: 10|🇨🇦 CA-24 | 8EB
+  name: 10|🇨🇦 CA-46 | 8EB
   network: ws
   port: 8880
   security: none
-  server: www.gov.ua
+  server: 104.16.106.213
   type: vless
-  uuid: 22fbdaad-1e9d-44c3-b35e-cc255bdba6b7
+  uuid: 6b89f475-913c-4381-a102-f5e06a129685
   ws-opts:
     headers:
-      Host: empty-cell-50c3.286-81e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: proud-dawn-56f1.125-85b.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-47 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: nexusmods.com
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-48 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 104.18.33.225
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - encryption: none
-  name: 10|🇨🇦 CA-25 | 8EB
+  name: 10|🇨🇦 CA-49 | 8EB
   network: ws
   port: 8880
   security: none
-  server: 104.26.13.40
+  server: skk.moe
   type: vless
-  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
+  uuid: d8a7b463-dc98-474d-a87e-8781476aef32
   ws-opts:
     headers:
-      Host: square-sea-01d1.339-be3.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: ancient-tree-7dc9.336-5f9.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - encryption: none
-  name: 10|🇨🇦 CA-26 | 8EB
+  name: 10|🇨🇦 CA-50 | 8EB
   network: ws
   port: 8880
   security: none
-  server: 172.67.179.98
+  server: 104.16.242.208
   type: vless
-  uuid: 81b3fa7e-12b0-4c2b-9866-324edd26ef7f
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
   ws-opts:
     headers:
-      Host: falling-lake-0b5a.192-3e2.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: steep-bread-32f0.92-d12.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - encryption: none
-  name: 10|🇨🇦 CA-27 | 8EB
+  name: 10|🇨🇦 CA-51 | 8EB
   network: ws
   port: 8880
   security: none
-  server: 104.16.107.139
+  server: download.yunzhongzhuan.com
   type: vless
-  uuid: 43a92977-08ff-45ba-84f0-bab7fc8a15c5
+  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
   ws-opts:
     headers:
-      Host: sparkling-wave-6c5c.200-67a.workers.dev
+      Host: shiny-mud-d9fa.466.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-52 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: themeforest.net
+  type: vless
+  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
+  ws-opts:
+    headers:
+      Host: silent-cake-fb8d.69-a76.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-53 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.glassdoor.com
+  type: vless
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+  ws-opts:
+    headers:
+      Host: steep-bread-32f0.92-d12.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-54 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: www.shopify.com
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-55 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: yx.cloudflare.182682.xyz
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-56 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.159.130
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- encryption: none
+  name: 10|🇨🇦 CA-57 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: icook.tw
+  type: vless
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+  ws-opts:
+    headers:
+      Host: steep-bread-32f0.92-d12.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-58 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 8.35.211.73
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- encryption: none
+  name: 10|🇨🇦 CA-59 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.17.191.15
+  type: vless
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
+  ws-opts:
+    headers:
+      Host: flat-fire-40ed.96-042.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- encryption: none
+  name: 10|🇨🇦 CA-60 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 172.64.94.251
+  type: vless
+  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
+  ws-opts:
+    headers:
+      Host: weathered-hat-76a5.380-d00.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-61 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.161.97
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-62 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.145.42
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-63 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.33.171
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-64 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.16.65.1
+  servername: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: wbz6z.ok7s.ceq.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  encryption: none
+  insecure: '0'
+  name: 10|🇨🇦 CA-65 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.162.3
+  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- encryption: none
+  name: 10|🇨🇦 CA-66 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.17.58.113
+  type: vless
+  uuid: 6d6b7a8d-a9fa-4889-a5f4-d112c6b6f494
+  ws-opts:
+    headers:
+      Host: small-cake-e99b.390-a20.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net

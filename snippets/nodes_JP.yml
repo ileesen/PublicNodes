@@ -1,4 +1,84 @@
 proxies:
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 18.180.0.203
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 8443
+  security: tls
+  server: 138.3.212.160
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  security: tls
+  server: 140.83.50.165
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇯🇵 JP-10 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 212.135.212.26
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇯🇵 JP-11 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  security: tls
+  server: 126.220.82.161
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

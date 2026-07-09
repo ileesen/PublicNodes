@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇨🇳 CN-1 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 2087
+  security: tls
+  server: 220.135.92.105
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 10|🇨🇳 CN-2 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 8443
+  security: tls
+  server: 103.137.63.227
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
