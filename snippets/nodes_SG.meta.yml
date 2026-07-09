@@ -1,4 +1,12 @@
 proxies:
+- name: 8|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - allowInsecure: '0'
   client-fingerprint: safari
   encryption: none
@@ -45,24 +53,24 @@ proxies:
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 29642
-  server: 95.40.1.25
+  port: 48738
+  server: 18.162.245.147
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 29642
-  server: 18.162.58.236
+  port: 48738
+  server: 18.163.8.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 16.163.145.82
+  port: 45744
+  server: 16.162.122.182
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
