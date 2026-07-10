@@ -1,30 +1,18 @@
 proxies:
-- allowInsecure: '0'
-  headerType: none
+- alterId: 0
+  cipher: auto
   insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: tcp
-  password: '!!str 3632736327'
-  port: 2888
-  security: tls
-  server: us04021322.tmdsb.org
-  servername: us04021322.tmdsb.org
-  skip-cert-verify: false
-  sni: us04021322.tmdsb.org
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇺🇸 US-22 | 8EB
-  network: tcp
-  password: '!!str 3632736327'
-  port: 3480
-  security: tls
-  server: us04031316.tmdsb.org
-  servername: us04031316.tmdsb.org
-  skip-cert-verify: false
-  sni: us04031316.tmdsb.org
-  type: trojan
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 30080
+  server: 143.198.235.98
+  tls: false
+  type: vmess
+  uuid: d76c0edb-8097-4371-8d97-722723756012
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vm
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528

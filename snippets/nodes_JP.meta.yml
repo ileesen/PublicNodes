@@ -6,73 +6,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
+- allowInsecure: '0'
+  insecure: '0'
   name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  pbk: gHheycLOyBvIvx0NVD2OCx2bc_uUb1EnhEbwHFC7n3Q
-  port: 24386
-  reality-opts:
-    public-key: gHheycLOyBvIvx0NVD2OCx2bc_uUb1EnhEbwHFC7n3Q
-    server-name: p0n2j.biliimg.com
-    short-id: e9c67c0e
-  security: reality
-  server: assets-cfnode81.rfsconfig.com
-  sid: e9c67c0e
-  sni: p0n2j.biliimg.com
-  tls: true
-  type: vless
-  uuid: 202d6dd6-77af-45ee-99db-82ea75758340
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '1'
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 64.176.36.17
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 43.133.219.217
-  servername: gy.hhawks.kdns.fr
-  skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
-  tls: true
-  type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
-  ws-opts:
-    headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
   password: '!!str 666'
   port: 443
   security: tls
-  server: 18.180.0.203
+  server: 13.113.194.44
   servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   skip-cert-verify: false
   sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
@@ -81,21 +22,71 @@ proxies:
     headers:
       Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
     path: /glasspanel/guest000_0_5de14443985f/
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇯🇵 JP-5 | 8EB
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  pbk: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
+  port: 443
+  reality-opts:
+    public-key: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
+    server-name: www.apple.com
+    short-id: f91003034ebfad8d
+  security: reality
+  server: 116.206.93.79
+  sid: f91003034ebfad8d
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: safari
+  headerType: none
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  pbk: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
+  port: 443
+  reality-opts:
+    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
+    server-name: www.apple.com
+    short-id: dfde4e821472fb98
+  security: reality
+  server: 116.206.92.167
+  sid: dfde4e821472fb98
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
-  password: '!!str 521314'
-  port: 8443
+  password: '!!str 666'
+  port: 443
   security: tls
-  server: 138.3.212.160
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
+  server: 13.193.114.134
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 13.193.106.143
+  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
     path: /
 - allowInsecure: '0'
   client-fingerprint: random
@@ -106,7 +97,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 172.104.120.92
+  server: 43.167.203.4
   servername: gy.hhawks.kdns.fr
   skip-cert-verify: false
   sni: gy.hhawks.kdns.fr
@@ -126,7 +117,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 172.104.86.229
+  server: 172.104.80.248
   servername: gy.hhawks.kdns.fr
   skip-cert-verify: false
   sni: gy.hhawks.kdns.fr
@@ -136,33 +127,17 @@ proxies:
   ws-opts:
     headers:
       Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇯🇵 JP-8 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 140.83.50.165
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
     path: /
 - allowInsecure: '0'
   client-fingerprint: random
   encryption: none
   fp: random
   insecure: '0'
-  name: 10|🇯🇵 JP-9 | 8EB
+  name: 10|🇯🇵 JP-8 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 151.241.5.88
+  server: 43.133.1.62
   servername: gy.hhawks.kdns.fr
   skip-cert-verify: false
   sni: gy.hhawks.kdns.fr
@@ -172,54 +147,6 @@ proxies:
   ws-opts:
     headers:
       Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇯🇵 JP-10 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 212.135.212.26
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇯🇵 JP-11 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 126.220.82.161
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '1'
-  encryption: none
-  insecure: '1'
-  name: 10|🇯🇵 JP-12 | 8EB
-  network: ws
-  port: 49152
-  security: tls
-  server: qp.lichao0223.cn
-  servername: qp.lichao0223.cn
-  skip-cert-verify: true
-  sni: qp.lichao0223.cn
-  tls: true
-  type: vless
-  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
-  ws-opts:
     path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp

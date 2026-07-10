@@ -8,230 +8,77 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  headerType: none
   insecure: '0'
   name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
-  port: 450
-  security: tls
-  server: 167.150.100.133
-  servername: grape-power-sg.roxa.org
-  skip-cert-verify: false
-  sni: grape-power-sg.roxa.org
-  type: trojan
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  headerType: none
-  insecure: '1'
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  port: 443
-  security: tls
-  server: free-server.techsonic.me
-  servername: android.googleapis.com
-  skip-cert-verify: true
-  sni: android.googleapis.com
-  tls: true
-  type: vless
-  uuid: cc8aefd7-d984-453e-835e-865e41344c5d
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 134.209.101.154
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 139.162.62.195
-  servername: gy.hhawks.kdns.fr
-  skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
-  tls: true
-  type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
-  ws-opts:
-    headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 8443
-  security: tls
-  server: 116.251.216.23
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 129.212.232.171
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-7 | 8EB
   network: ws
   password: '!!str 521314'
   port: 443
   security: tls
   server: 129.212.225.217
   servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
   ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  security: tls
+  server: 116.251.217.65
+  servername: tjplay.lxdxo.kdns.fr
+  skip-cert-verify: false
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
     path: /
 - allowInsecure: '0'
   headerType: none
   insecure: '0'
-  name: 10|🇸🇬 SG-8 | 8EB
+  name: 10|🇸🇬 SG-3 | 8EB
   network: tcp
-  password: XG59623478
+  password: PI36027154
   port: 443
   security: tls
-  server: key-pony.rooster465.autos
-  servername: key-pony.rooster465.autos
+  server: exciting-grizzly.rooster465.autos
   skip-cert-verify: false
-  sni: key-pony.rooster465.autos
   type: trojan
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-9 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 129.212.239.178
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-10 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 128.199.82.20
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-11 | 8EB
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  security: tls
-  server: 109.121.39.70
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
 - allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇸🇬 SG-12 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 167.88.172.82
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇸🇬 SG-13 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 45.92.158.56
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
-- encryption: none
-  fp: chrome
   headerType: none
-  name: 10|🇸🇬 SG-14 | 8EB
+  insecure: '0'
+  name: 10|🇸🇬 SG-4 | 8EB
   network: tcp
-  pbk: _sGrdNPVAxgGeS9qWPqiNUN68vOSM-hHGlbITFdeKD4
+  password: PI36027154
   port: 443
-  reality-opts:
-    public-key: _sGrdNPVAxgGeS9qWPqiNUN68vOSM-hHGlbITFdeKD4
-    server-name: www.bing.com
-    short-id: '66'
-  security: reality
-  server: 43.160.247.127
-  sid: '66'
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: 9108e766-14ba-4514-8b6e-1e5842727a01
+  security: tls
+  server: faithful-clam.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: tcp
+  password: PI36027154
+  port: 443
+  security: tls
+  server: stirred-buck.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: tcp
+  password: PI36027154
+  port: 443
+  security: tls
+  server: busy-lab.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
