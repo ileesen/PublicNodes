@@ -6,27 +6,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 13.113.194.44
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
 - encryption: none
   flow: xtls-rprx-vision
   fp: safari
   headerType: none
-  name: 10|🇯🇵 JP-2 | 8EB
+  name: 10|🇯🇵 JP-1 | 8EB
   network: tcp
   pbk: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
   port: 443
@@ -41,39 +25,57 @@ proxies:
   tls: true
   type: vless
   uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  pbk: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
-  port: 443
-  reality-opts:
-    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
-    server-name: www.apple.com
-    short-id: dfde4e821472fb98
-  security: reality
-  server: 116.206.92.167
-  sid: dfde4e821472fb98
-  sni: www.apple.com
-  tls: true
-  type: vless
-  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
 - allowInsecure: '0'
   insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   password: '!!str 666'
   port: 443
   security: tls
-  server: 13.193.114.134
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 18.181.108.44
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  password: '!!str 666'
+  port: 443
+  security: tls
+  server: 166.88.2.154
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 154.19.187.141
+  servername: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  sni: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
   name: 10|🇯🇵 JP-5 | 8EB
@@ -81,73 +83,34 @@ proxies:
   password: '!!str 666'
   port: 443
   security: tls
-  server: 13.193.106.143
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 154.19.186.85
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
-  client-fingerprint: random
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  fp: random
   insecure: '0'
   name: 10|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 43.167.203.4
-  servername: gy.hhawks.kdns.fr
+  server: 185.200.64.104
+  servername: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
   skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
+  sni: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
   tls: true
   type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
   ws-opts:
     headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 172.104.80.248
-  servername: gy.hhawks.kdns.fr
-  skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
-  tls: true
-  type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
-  ws-opts:
-    headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
-  insecure: '0'
-  name: 10|🇯🇵 JP-8 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 43.133.1.62
-  servername: gy.hhawks.kdns.fr
-  skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
-  tls: true
-  type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
-  ws-opts:
-    headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
+      Host: 66pc5.qpbz.ssl.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

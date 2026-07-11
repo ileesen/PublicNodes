@@ -1,44 +1,49 @@
 proxies:
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇫🇷 FR-1 | 8EB
-  password: ''
-  port: 1088
-  server: 144.91.111.48
-  type: socks
-  username: Og
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇫🇷 FR-2 | 8EB
-  password: ''
-  port: 1080
-  server: 51.195.2.39
-  type: socks
-  username: Og
+- name: 10|🇫🇷 FR-1 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.microsoft.com
+  type: hysteria2
+  udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  fp: firefox
+  fp: chrome
   headerType: none
-  name: 10|🇫🇷 FR-3 | 8EB
+  name: 10|🇫🇷 FR-2 | 8EB
   network: tcp
-  pbk: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-  port: 40443
+  pbk: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+  port: 443
   reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    server-name: deepl.com
-    short-id: ''
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    server-name: www.apple.com
+    short-id: 1bc2c1ef1c
   security: reality
-  server: 81.19.137.144
-  sni: deepl.com
+  server: fr06.alilago.org
+  sid: 1bc2c1ef1c
+  sni: www.apple.com
   tls: true
   type: vless
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  uuid: 2822d6ad-46b2-35e0-8b1d-b41fdca10dea
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 16645
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: 3d77ce8d-f72b-4999-bef2-5a24ba0c74b1
+  ws-opts:
+    headers:
+      Host: ee8bc4404180096949f756bafe970f19.mobgslb.tbcache.com
+    path: /
 - name: 15|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

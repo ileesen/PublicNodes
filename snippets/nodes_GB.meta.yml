@@ -1,4 +1,24 @@
 proxies:
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: freeyx.cloudflare88.eu.org
+  servername: do-lon1.862400.xyz
+  skip-cert-verify: false
+  sni: do-lon1.862400.xyz
+  tls: true
+  type: vless
+  uuid: c3c92540-ed74-469d-b2e9-ff4d67906a52
+  ws-opts:
+    headers:
+      Host: do-lon1.862400.xyz
+    path: /announcement
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

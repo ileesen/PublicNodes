@@ -1,4 +1,16 @@
 proxies:
+- name: 10|🇰🇷 KR-1 | 8EB
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  server: 193.123.228.188
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.bing.com
+  type: hysteria2
+  udp: true
 - name: 11|🇰🇷 KR-1 | Mix
   password: admin
   port: 5555

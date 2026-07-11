@@ -1,105 +1,75 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇳🇱 NL-2 | 8EB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
+  udp: true
 - allowInsecure: '0'
-  fp: chrome
   insecure: '0'
-  name: 10|🇨🇦 CA-4 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   password: '666'
   port: 443
   security: tls
-  server: 104.18.33.209
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 18.181.108.44
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- allowInsecure: '0'
-  fp: chrome
-  headerType: none
-  insecure: '0'
-  name: 10|🇳🇱 NL-3 | 8EB
-  network: tcp
-  password: CFvS99VcEv82u3XFr36EPbumLPadKXT6
-  port: 9443
-  security: tls
-  server: nl.cloudgamings.org
-  servername: nl.cloudgamings.org
-  skip-cert-verify: false
-  sni: nl.cloudgamings.org
-  type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  password: '666'
-  port: 443
-  security: tls
-  server: 13.113.194.44
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
     headers:
-      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
     path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
-  name: 10|🇨🇦 CA-6 | 8EB
+  name: 10|🇨🇦 CA-16 | 8EB
   network: ws
   password: '666'
   port: 443
   security: tls
-  server: store.ubi.com
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 104.18.35.2
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
-  name: 10|🇯🇵 JP-4 | 8EB
+  name: 10|🇨🇦 CA-17 | 8EB
   network: ws
   password: '666'
   port: 443
   security: tls
-  server: 13.193.114.134
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 104.18.46.203
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
-  name: 10|🇨🇦 CA-7 | 8EB
+  name: 10|🇯🇵 JP-3 | 8EB
   network: ws
   password: '666'
   port: 443
   security: tls
-  server: cloudflare-ip.mofashi.ltd
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 166.88.2.154
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
-- allowInsecure: '0'
-  insecure: '0'
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: '521314'
-  port: 443
-  security: tls
-  server: 129.212.225.217
-  servername: tjplay.lxdxo.kdns.fr
-  skip-cert-verify: false
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
   name: 10|🇯🇵 JP-5 | 8EB
@@ -107,85 +77,180 @@ proxies:
   password: '666'
   port: 443
   security: tls
-  server: 13.193.106.143
-  servername: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  server: 154.19.186.85
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - allowInsecure: '0'
   insecure: '0'
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 10|🇨🇦 CA-19 | 8EB
   network: ws
-  password: '521314'
+  password: '666'
   port: 443
   security: tls
-  server: 116.251.217.65
-  servername: tjplay.lxdxo.kdns.fr
+  server: 104.18.43.202
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   skip-cert-verify: false
-  sni: tjplay.lxdxo.kdns.fr
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
-    path: /
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-20 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.18.40.189
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-21 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.17.216.159
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-22 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.16.220.107
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-27 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.17.127.234
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-28 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.18.40.21
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-31 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.18.35.187
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-36 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.16.105.166
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- allowInsecure: '0'
+  insecure: '0'
+  name: 10|🇨🇦 CA-38 | 8EB
+  network: ws
+  password: '666'
+  port: 443
+  security: tls
+  server: 104.19.55.48
+  servername: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
+- cipher: aes-256-gcm
+  name: 10|🇷🇺 RU-1 | 8EB
+  password: 1a87017d0bf57f34
+  port: 32432
+  server: 195.133.23.27
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   insecure: '0'
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 10|🇫🇷 FR-3 | 8EB
   network: ws
-  port: 30080
-  server: 143.198.235.98
+  port: 16645
+  server: m.cnmjin.net
   tls: false
   type: vmess
-  uuid: d76c0edb-8097-4371-8d97-722723756012
+  uuid: 3d77ce8d-f72b-4999-bef2-5a24ba0c74b1
   ws-opts:
     headers:
-      Host: ''
-    path: /vm
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: exciting-grizzly.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: faithful-clam.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: stirred-buck.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: tcp
-  password: PI36027154
-  port: 443
-  security: tls
-  server: busy-lab.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
+      Host: ee8bc4404180096949f756bafe970f19.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

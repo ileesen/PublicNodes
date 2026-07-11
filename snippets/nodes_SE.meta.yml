@@ -1,19 +1,34 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
+- allowInsecure: '0'
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  mode: auto
   name: 10|🇸🇪 SE-1 | 8EB
-  network: tcp
-  pbk: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-  port: 50443
-  reality-opts:
-    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-    server-name: www.icloud.com
-    short-id: ''
-  security: reality
-  server: 62.60.159.137
-  sni: www.icloud.com
+  network: xhttp
+  port: 443
+  security: tls
+  server: 62.182.195.118
+  servername: zadefree-hyperlink.hyperfreelink.com
+  skip-cert-verify: false
+  sni: zadefree-hyperlink.hyperfreelink.com
   tls: true
   type: vless
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  uuid: 3e725086-dabd-ae9d-ffa5-3bab782249e1
+- name: 10|🇸🇪 SE-2 | 8EB
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: true
+  sni: aestheticperforator.ru
+  tls:
+    enabled: true
+    insecure: true
+    server_name: aestheticperforator.ru
+  type: hysteria2
+  udp: true

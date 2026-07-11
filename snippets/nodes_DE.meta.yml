@@ -75,25 +75,110 @@ proxies:
   tls: true
   type: vless
   uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
-- encryption: mlkem768x25519plus.native.0rtt.8dEUINg1gnE8w2Ze1FXC0wsst-t_fowZV_eU0RUGT6uTOAUz4yofCXOaZ1eHrgtMg-PD_wQcKZdZiBMUAOCvwGGybzEjyIhD0FDLGIpxPkrC4ukMkmVmfnWXRNsPG4SVVfKUtHV0TZicl4JHXFFoQ-cS4nx5G0JZeTnJKPYptgU_DCNf5OgM4opQggerb4leLymbagzOwBWySuha-UB7AkAHTGEnI8VYsOS0SJZmqnUX-MZMGfVLuMsVx-iiXkMVcZYi7kEV1lK8K3JD5Rhim6WfzKyUGrpwpSkSbIe2yiZM5RVP0Fih1IAGQVde_ryYnoI3EkNP1oBAhQeRNSsrxSm0PWZruHZFucxbFokFJOiZttALXXo9CRyWUcyqkSAfgwafMzPDfcZ11auFgeI8WuBMCXg4QrRzZSWLyKvG80Ca9LYgf7k-tQtjC9quPAWuDnkblRUFvER1a4A9xYLKyPw9LwpcFeAwGTcu3FK1X2y1gdWDhKMKCLGNpyQ0QsMfDgjHLQm4xaesL2pcuCKLtGpGdWaKUKSq2iTIIrtCofoCKUkK2jUghpAudWEV6DCci-JfeXG1HMYaiipyRYop2wGB5LV_kkkzTJC-ZfErs-BEqrMZHIgRvjKx_3KcCuUqugAvrCtFcWSqo7EpByl5IWVHi2txR_CC2Pyn21gvW5pPTCIsuLjAeVkIAF1BxMMxL_I9EVRKz0u41EEjzZV4six-T3G9smeBaEET08Qxy7QU6EetLLeaoNsm_QatvhuB-op3ziO1cDcwehuPmPilfaB8hzqDzLVfJPOCMtozYaQ6QEgytHwsidYxbqNRyWjARnw4s3Qe6Kp5zHAXsakTzEFQ_8mvbPuke8HH7As1jReRo8W-J9AnZXFak3UPqyw-4LUdpkq7-ad9kGdGxjzMG6dFtHIWcIoAWOevXNkydHwDPkMH2-lkwdt9kftZt3DAuXa6eKx1PYKT_eIgDtY1boFiPSuD8GaipieJZtw9PjmJjbKg0fi9WbQytgqnY9eh-7ElX4NU9aB5MIUbAKcJ7ByhaplaArSoZtoTbSkDdGt96eEAEgUc7ex8S5gAktvEFBhiZqnPo0aQ72xWJtFeZzQ2CoRgLtWn6SKRY5wvGXynWsK5_KtfVCw79dyOOVYCHqmpQGUo7RJ1qUUVA-iTDcq73TOSHjR8XQYtw1Gms1JS2ulESeSw5vF5yciu9htDrOqUxOlnIfBQA8KVHUN6LQWWt1aA3byyO7oSf4Y1fVRc-UgyxmZq0ZJCSoYntOspZgSttwWhtGE0nnu5T2oGW-ddQDdtYFA6cDtWaXtIaYhlQbQdJPsdgBgw9bNMHzJfu5MZzLYmIYZbJzp-EveP_VbN9DITSbR0xhGD9HpGErXFRTtm8ne7BwNw8zGfX9m6skh8fpAXq5I9yESgEYx67fMdJ3GkQzafc3KJBQgGwSoW0_OW4Hhhe6NL4vhQ-5Wm97KgjiU4FqoQIPJwnfF2lAF5dNAWY5RTiMSWOSNdv0lYlIBv5Yhx-zm5HHWPytlVyaDUIRsz5EcIcQ5udgE4dWvxK5V8YyiunL9AE-ilLK4
-  flow: xtls-rprx-vision
+- encryption: none
   fp: chrome
   headerType: none
   name: 10|🇩🇪 DE-2 | 8EB
   network: tcp
-  pbk: HPTuu9ZSAwEPHxFjSTNZhOUXBiwxLkUHmYXEoJ2HD24
-  port: 2096
+  pbk: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
+  port: 330
   reality-opts:
-    public-key: HPTuu9ZSAwEPHxFjSTNZhOUXBiwxLkUHmYXEoJ2HD24
-    server-name: www.yahoo.com
-    short-id: '9762'
+    public-key: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
+    server-name: yahoo.com
+    short-id: f4a7307502937fdc
   security: reality
-  server: 195.201.169.164
-  sid: '9762'
-  sni: www.yahoo.com
+  server: arman.daltoonserver.ir
+  sid: f4a7307502937fdc
+  sni: yahoo.com
   tls: true
   type: vless
-  uuid: 00874e80-0d25-4ff6-c25d-edb5a28546e6
+  uuid: 30e7787d-d925-48ed-9317-d5be7cb95b24
+- encryption: none
+  headerType: none
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 3030
+  security: none
+  server: 212.100.171.74
+  type: vless
+  uuid: 4b9e8486-148d-4920-a1b7-c72a1576efa7
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  pbk: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+  port: 443
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    server-name: nvidia.com
+    short-id: db04ce8bdb8900f1
+  security: reality
+  server: vless-addr.takehost.nl-01.security-sbrf.ru
+  sid: db04ce8bdb8900f1
+  sni: nvidia.com
+  tls: true
+  type: vless
+  uuid: d2aafa35-acd0-49c8-b149-6d01cc989fe5
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: tcp
+  pbk: Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI
+  port: 443
+  reality-opts:
+    public-key: Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI
+    server-name: max.ru
+    short-id: 671047edbaa38eef
+  security: reality
+  server: 89.34.90.179
+  sid: 671047edbaa38eef
+  sni: max.ru
+  tls: true
+  type: vless
+  uuid: 9946f24b-0020-40f6-9d06-de8abff0e584
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: tcp
+  pbk: HfuHCLrjmpMIqPbZ61f_MvdigyWZ3Oj_ZaxdlMdcdFA
+  port: 443
+  reality-opts:
+    public-key: HfuHCLrjmpMIqPbZ61f_MvdigyWZ3Oj_ZaxdlMdcdFA
+    server-name: live.oblakoapp.com
+    short-id: 3a03e85af8d9f63e
+  security: reality
+  server: netcap.oblakoapp.com
+  sid: 3a03e85af8d9f63e
+  sni: live.oblakoapp.com
+  tls: true
+  type: vless
+  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: love.ns.cloudflare.com
+  servername: fosae.starriverway-milo.sbs
+  skip-cert-verify: false
+  sni: fosae.starriverway-milo.sbs
+  tls: true
+  type: vless
+  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
+  ws-opts:
+    headers:
+      Host: fosae.starriverway-milo.sbs
+    path: /sea
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

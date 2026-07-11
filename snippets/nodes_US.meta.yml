@@ -9,51 +9,11 @@ proxies:
   type: hysteria2
 - allowInsecure: '0'
   client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cfd7.466688.xyz
-  servername: edge-e47d0df3.pages.dev
-  skip-cert-verify: false
-  sni: edge-e47d0df3.pages.dev
-  tls: true
-  type: vless
-  uuid: 7ebbd929-720a-4782-8c6d-4d77a0a75ee4
-  ws-opts:
-    headers:
-      Host: edge-e47d0df3.pages.dev
-    path: /?ed=2048@https://t.me/QiangLieTuiJian
-- encryption: mlkem768x25519plus.native.0rtt.At2jbnJuJG3K6LecNH78rQf4fBPR5iHbtD7dTWS5axY
-  extra: '{"xPaddingBytes":"100-1000"}'
-  flow: xtls-rprx-vision
-  fp: chrome
-  mode: auto
-  name: 10|🇺🇸 US-2 | 8EB
-  network: xhttp
-  pbk: EL3QUDoISPGWsTMd3uuqUXMpq1qshiyD2lk-LdScR0g
-  port: 443
-  reality-opts:
-    public-key: EL3QUDoISPGWsTMd3uuqUXMpq1qshiyD2lk-LdScR0g
-    server-name: android.clients.google.com
-    short-id: 541f
-  security: reality
-  server: 184.174.97.211
-  sid: 541f
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
-- allowInsecure: '0'
-  client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-3 | 8EB
+  name: 10|🇺🇸 US-1 | 8EB
   network: ws
   port: 2083
   security: tls
@@ -68,102 +28,130 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: safari
-  headerType: none
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  pbk: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
-  port: 443
-  reality-opts:
-    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
-    server-name: www.apple.com
-    short-id: aebdb601b1371778
-  security: reality
-  server: 38.244.20.203
-  sid: aebdb601b1371778
-  sni: www.apple.com
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 2083
+  security: tls
+  server: 162.159.45.201
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - allowInsecure: '0'
-  client-fingerprint: random
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  fp: random
+  fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 38.95.79.181
-  servername: gy.hhawks.kdns.fr
+  server: 162.159.45.218
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
+  sni: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: gy.hhawks.kdns.fr
+      Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
-  client-fingerprint: random
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  fp: random
+  fp: chrome
+  insecure: '0'
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.44.180
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  pbk: fF94in1qFs9LVkh8y1eNT67DWlB2FuGrzYOuJ7mDDS4
+  port: 443
+  reality-opts:
+    public-key: fF94in1qFs9LVkh8y1eNT67DWlB2FuGrzYOuJ7mDDS4
+    server-name: api-maps.yandex.ru
+    short-id: d5af
+  security: reality
+  server: esp.janaj.space
+  sid: d5af
+  sni: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+- allowInsecure: '0'
+  encryption: none
   insecure: '0'
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 154.23.172.132
-  servername: gy.hhawks.kdns.fr
+  server: 38.59.242.198
+  servername: zdy.vavava.kdns.fr
   skip-cert-verify: false
-  sni: gy.hhawks.kdns.fr
+  sni: zdy.vavava.kdns.fr
   tls: true
   type: vless
-  uuid: 552a071a-7a69-49b5-9a82-f353229d82ad
+  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
   ws-opts:
     headers:
-      Host: gy.hhawks.kdns.fr
-    path: /
-- alterId: 0
-  cipher: auto
-  insecure: '0'
+      Host: zdy.vavava.kdns.fr
+    path: /pyip=ProxyIP.CMLiussss.net
+- encryption: none
   name: 10|🇺🇸 US-7 | 8EB
   network: ws
-  port: 30080
-  server: 143.198.235.98
-  tls: false
-  type: vmess
-  uuid: d76c0edb-8097-4371-8d97-722723756012
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vm
-- encryption: none
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 2095
+  port: 2082
   security: none
-  server: 10086.cf.3666888.xyz
+  server: 5xptkkpo.cf.3666888.xyz
   type: vless
   uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
   ws-opts:
     headers:
-      Host: aba36820.xn--nxa.nyc.mn
-    path: /aba36820.xn--nxa.nyc.mn
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇺🇸 US-9 | 8EB
-  password: ''
-  port: 9004
-  server: 64.253.86.72
-  type: socks
-  username: YWNwM2FkYmo6dHExSWUyeENRZkc2
+      Host: 2hx7vrum.xn--nxa.nyc.mn
+    path: /sub
+- encryption: none
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: www.glassdoor.com
+  type: vless
+  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  ws-opts:
+    headers:
+      Host: yellow-sky-38b3.154-d73.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - _auth: ''
   _network: tcp
   _path: ''
