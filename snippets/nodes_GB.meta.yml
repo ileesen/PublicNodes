@@ -1,24 +1,27 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: random
-  encryption: none
-  fp: random
+- alterId: 0
+  cipher: auto
   insecure: '0'
   name: 10|🇬🇧 GB-1 | 8EB
   network: ws
-  port: 443
-  security: tls
-  server: freeyx.cloudflare88.eu.org
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: false
-  sni: do-lon1.862400.xyz
-  tls: true
-  type: vless
-  uuid: c3c92540-ed74-469d-b2e9-ff4d67906a52
+  port: 16645
+  server: planb.mojcn.com
+  tls: false
+  type: vmess
+  uuid: 965840b3-4897-4921-a2b7-f70c413f01e6
   ws-opts:
     headers:
-      Host: do-lon1.862400.xyz
-    path: /announcement
+      Host: 94d88d3c64390d49e1c5ec2c9cf7cab0.mobgslb.tbcache.com
+    path: /
+- encryption: none
+  headerType: none
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 37314
+  security: none
+  server: 8.208.10.21
+  type: vless
+  uuid: 974305fe-c74d-43b4-a557-2f36c143d003
 - name: 15|GB_speednode_0005
   network: ws
   password: MITIVPN

@@ -1,25 +1,25 @@
 proxies:
 - allowInsecure: '0'
   alpn:
-  - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
   fp: chrome
   insecure: '0'
   mode: auto
   name: 10|🇸🇪 SE-1 | 8EB
   network: xhttp
-  port: 443
+  port: 2053
   security: tls
-  server: 62.182.195.118
-  servername: zadefree-hyperlink.hyperfreelink.com
+  server: page.irhubby.ir
+  servername: vips.irhubby.ir
   skip-cert-verify: false
-  sni: zadefree-hyperlink.hyperfreelink.com
+  sni: vips.irhubby.ir
   tls: true
   type: vless
-  uuid: 3e725086-dabd-ae9d-ffa5-3bab782249e1
+  uuid: b60e9da5-e239-4312-87d6-b751c3936c10
 - name: 10|🇸🇪 SE-2 | 8EB
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443

@@ -1,15 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- allowInsecure: '0'
   insecure: '0'
   name: 10|🇫🇷 FR-3 | 8EB
   network: ws
-  port: 16645
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 3d77ce8d-f72b-4999-bef2-5a24ba0c74b1
+  password: humanity
+  port: 443
+  security: tls
+  server: 172.67.74.2
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: ee8bc4404180096949f756bafe970f19.mobgslb.tbcache.com
-    path: /
+      Host: www.ignitelimit.com
+    path: /assignment
