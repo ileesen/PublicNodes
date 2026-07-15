@@ -1,179 +1,19 @@
 proxies:
+- name: 8|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
 - allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
+  fp: chrome
   insecure: '0'
   name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 64.49.28.77
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: edge
-  headerType: none
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  pbk: mDIWlNxW_Qa_iqqDy1Ad5rk0gEoZz02Nu3khRvwAOSQ
-  port: 20001
-  reality-opts:
-    public-key: mDIWlNxW_Qa_iqqDy1Ad5rk0gEoZz02Nu3khRvwAOSQ
-    server-name: www.lamer.com
-    short-id: 8de808c042cc01
-  security: reality
-  server: phoenix.maimaiyun.shop
-  sid: 8de808c042cc01
-  sni: www.lamer.com
-  tls: true
-  type: vless
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cfd1.466688.xyz
-  servername: edge-4cb23bf6.pages.dev
-  skip-cert-verify: false
-  sni: edge-4cb23bf6.pages.dev
-  tls: true
-  type: vless
-  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
-  ws-opts:
-    headers:
-      Host: edge-4cb23bf6.pages.dev
-    path: /@https://t.me/QiangLieTuiJian?ed=2048fp=chrome
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 154.23.163.105
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 173.230.145.212
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇺🇸 US-6 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 45.77.185.184
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 2083
-  security: tls
-  server: 162.159.44.172
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 163.192.47.170
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 207.246.108.151
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-10 | 8EB
   network: ws
   port: 8443
   security: tls
@@ -194,7 +34,7 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-11 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
   port: 443
   security: tls
@@ -215,11 +55,11 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 10|🇺🇸 US-12 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   port: 2083
   security: tls
-  server: 162.159.45.201
+  server: 162.159.44.172
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
@@ -230,66 +70,17 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cfd10.466688.xyz
-  servername: edge-4cb23bf6.pages.dev
-  skip-cert-verify: false
-  sni: edge-4cb23bf6.pages.dev
-  tls: true
-  type: vless
-  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
-  ws-opts:
-    headers:
-      Host: edge-4cb23bf6.pages.dev
-    path: /@https://t.me/QiangLieTuiJian
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cfd2.466688.xyz
-  servername: edge-4cb23bf6.pages.dev
-  skip-cert-verify: false
-  sni: edge-4cb23bf6.pages.dev
-  tls: true
-  type: vless
-  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
-  ws-opts:
-    headers:
-      Host: edge-4cb23bf6.pages.dev
-    path: /@https://t.me/QiangLieTuiJian
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cfd3.466688.xyz
-  servername: edge-4cb23bf6.pages.dev
-  skip-cert-verify: false
-  sni: edge-4cb23bf6.pages.dev
-  tls: true
-  type: vless
-  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
-  ws-opts:
-    headers:
-      Host: edge-4cb23bf6.pages.dev
-    path: /@https://t.me/QiangLieTuiJian
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇺🇸 US-4 | 8EB
+  password: ''
+  port: 1082
+  server: 178.130.47.21
+  type: socks
+  username: Og
 - _auth: ''
   _network: tcp
   _path: ''

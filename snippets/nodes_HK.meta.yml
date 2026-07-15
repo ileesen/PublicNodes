@@ -1,18 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 10|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
+- name: 8| HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
-  type: vmess
-  uuid: 965840b3-4897-4921-a2b7-f70c413f01e6
-  ws-opts:
-    headers:
-      Host: 94d88d3c64390d49e1c5ec2c9cf7cab0.mobgslb.tbcache.com
-    path: /
+  type: hysteria2
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-1 | 8EB
+  password: ''
+  port: 1080
+  server: 119.28.13.138
+  type: socks
+  username: Og
 - name: 11|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

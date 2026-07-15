@@ -1,92 +1,12 @@
 proxies:
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  password: cortex-trojan-2026
-  port: 8443
-  security: tls
-  server: 152.42.191.178
-  servername: www.bing.com
+- name: 8|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
   skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /trojan-ws-cortex
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 143.198.90.188
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 77.93.90.231
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 103.25.202.114
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 172.236.154.50
-  servername: zdy.vavava.kdns.fr
-  skip-cert-verify: false
-  sni: zdy.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  ws-opts:
-    headers:
-      Host: zdy.vavava.kdns.fr
-    path: /pyip=ProxyIP.CMLiussss.net
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 11|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080

@@ -1,4 +1,12 @@
 proxies:
+- name: 8|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
 - name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -29,116 +37,48 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn کانال ما
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: tf5LINcpQy
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  grpc-opts:
-    grpc-service-name: media.session.poll
-  insecure: '0'
-  mode: gun
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 10|🇩🇪 DE-1 | 8EB
-  network: grpc
-  port: 443
-  security: tls
-  server: 82.39.215.110
-  servername: ggge04.auragg.org
-  serviceName: media.session.poll
-  skip-cert-verify: false
-  sni: ggge04.auragg.org
-  tls: true
-  type: vless
-  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-- allowInsecure: '0'
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+  password: ''
+  port: 1080
+  server: 152.53.144.223
+  type: socks
+  username: Og
+- encryption: none
+  fp: random
   grpc-opts:
-    grpc-service-name: media.session.poll
-  insecure: '0'
-  mode: gun
+    grpc-service-name: ''
   name: 10|🇩🇪 DE-2 | 8EB
   network: grpc
-  port: 443
-  security: tls
-  server: ggge04.auragg.org
-  servername: ggge04.auragg.org
-  serviceName: media.session.poll
-  skip-cert-verify: false
-  sni: ggge04.auragg.org
-  tls: true
-  type: vless
-  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-- encryption: none
-  fp: chrome
-  mode: auto
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: xhttp
-  pbk: yr3q-vsj5zsbIOSDFaYlKNhGc-C4P2GrnpljVeaAblE
-  port: 19302
+  pbk: 4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14
+  port: 47884
   reality-opts:
-    public-key: yr3q-vsj5zsbIOSDFaYlKNhGc-C4P2GrnpljVeaAblE
-    server-name: yahoo.com
-    short-id: 86b5b1f40a5893e1
+    public-key: 4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14
+    server-name: kinopoisk.ru
+    short-id: 847a06884457c506
   security: reality
-  server: fn-jadid.jorzel.ir
-  sid: 86b5b1f40a5893e1
-  sni: yahoo.com
+  server: 81.163.22.231
+  sid: 847a06884457c506
+  sni: kinopoisk.ru
   tls: true
   type: vless
-  uuid: 1ac7dead-ec22-4837-bc88-f55d9ae373c9
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 188.114.97.230
-  servername: app.zynuro.ir
+  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
+- name: 10|🇩🇪 DE-3 | 8EB
+  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
+  port: 8449
+  server: jongjmi.odnako.site
   skip-cert-verify: false
-  sni: app.zynuro.ir
-  tls: true
-  type: vless
-  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-  ws-opts:
-    headers:
-      Host: app.zynuro.ir
-    path: /a8Kp92LmQx
-- allowInsecure: '0'
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  insecure: '0'
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: tcp
-  port: 443
-  security: tls
-  server: fast_s89.screw.page
-  servername: fast_s89.screw.page
-  skip-cert-verify: false
-  sni: fast_s89.screw.page
-  tls: true
-  type: vless
-  uuid: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  sni: jongjmi.odnako.site
+  tls:
+    enabled: true
+    insecure: false
+    server_name: jongjmi.odnako.site
+  type: hysteria2
+  udp: true
 - name: 11|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
