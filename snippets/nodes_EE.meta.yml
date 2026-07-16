@@ -1,1 +1,38 @@
-proxies: []
+proxies:
+- allowInsecure: '0'
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  insecure: '0'
+  name: 9|🇪🇪 EE-1 | 8EB
+  network: tcp
+  port: 443
+  security: tls
+  server: est-def.applepie-recipe.ru
+  servername: shopper.applepie-recipe.ru
+  skip-cert-verify: false
+  sni: shopper.applepie-recipe.ru
+  tls: true
+  type: vless
+  uuid: 881cbd87-6cc3-41f9-9d4c-303fa2f8deab
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇪🇪 EE-2 | 8EB
+  network: tcp
+  pbk: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    server-name: eston6.helper-internet.com
+    short-id: ff776ff77be48b88
+  security: reality
+  server: eston6.helper-internet.com
+  sid: ff776ff77be48b88
+  sni: eston6.helper-internet.com
+  tls: true
+  type: vless
+  uuid: 59da5351-5151-417d-b2f7-6923848b717e

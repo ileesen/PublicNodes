@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 7|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,13 +7,108 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 11|🇸🇬 SG-1 | Mix
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: ctcc.cloudflare.seeck.cn
+  servername: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+  skip-cert-verify: false
+  sni: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: NQ26071394
+  port: 443
+  security: tls
+  server: driving-antelope.rooster465.autos
+  servername: driving-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: driving-antelope.rooster465.autos
+  type: trojan
+- name: 9|🇸🇬 SG-3 | 8EB
+  password: b547b58b-6628-4127-b67d-40aa0be26c67
+  port: 443
+  server: 139.59.98.251
+  skip-cert-verify: true
+  sni: addons.mozilla.org
+  tls:
+    enabled: true
+    insecure: true
+    server_name: addons.mozilla.org
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-4 | 8EB
+  network: tcp
+  password: NQ26071394
+  port: 443
+  security: tls
+  server: allowed-moose.rooster465.autos
+  servername: allowed-moose.rooster465.autos
+  skip-cert-verify: false
+  sni: allowed-moose.rooster465.autos
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-5 | 8EB
+  network: tcp
+  password: NQ26071394
+  port: 443
+  security: tls
+  server: topical-shark.rooster465.autos
+  servername: topical-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: topical-shark.rooster465.autos
+  type: trojan
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 8.222.185.236
+  servername: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+  skip-cert-verify: false
+  sni: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: v.z.1.0.m.p.f.v.h.p.o.1.z.1.us.art-us.kdns.fr
+    path: /
+- name: 10|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
   server: 143.198.85.89
   type: socks
   username: admin
-- name: 11|🇸🇬 SG-2 | Mix
+- name: 10|🇸🇬 SG-2 | Mix
   password: '!!str 888888'
   port: 1080
   server: 8.222.180.85
@@ -24,13 +119,13 @@ proxies:
   _path: ''
   _security: ''
   _sni: ''
-  name: 11|🇸🇬 SG-3 | Mix
+  name: 10|🇸🇬 SG-3 | Mix
   password: ''
   port: 1080
   server: 212.58.132.5
   type: socks
   username: ''
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -38,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -46,7 +141,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 32434

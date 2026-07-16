@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 7|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8,9|@KAFING_2
+- name: 7,8|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,7 +17,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn ا 🇩🇪
+- name: 8|🇩🇪112515 | ⚡️Telegram = t.me/S...
+  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
+  port: 8449
+  server: soskeynets.odnako.site
+  sni: jongjmi.odnako.site
+  tls: false
+  type: hysteria2
+- name: 8|@V2RayyNGvpn ا 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 92QgVKZjWa
@@ -27,7 +34,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪Telegram=V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
@@ -37,15 +44,17 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|46@oneclickvpnkeys
+- name: 8|🇩🇪Telegram=V2RayyNGvpn
   obfs: salamander
-  obfs-password: dwv3ped4yi46iw8r
-  password: TELEGRAM-ID-soalvajavaab
-  port: 2053
-  server: pristytools.com.pristytools.com
+  obfs-password: t-me-V2RayyNGvpn
+  password: V2RayyNGvpn-
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn کانال ما🇩🇪
+- name: 8|@V2RayyNGvpn کانال ما🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: p3HaP2Lht6
@@ -55,7 +64,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn کانال ما
+- name: 8|🇩🇪@V2RayyNGvpn کانال ما
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy
@@ -65,49 +74,66 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇩🇪 DE-1 | 8EB
-  password: ''
-  port: 1080
-  server: 152.53.144.223
-  type: socks
-  username: Og
-- encryption: none
-  fp: random
-  grpc-opts:
-    grpc-service-name: ''
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: grpc
-  pbk: 4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14
-  port: 47884
-  reality-opts:
-    public-key: 4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14
-    server-name: kinopoisk.ru
-    short-id: 847a06884457c506
-  security: reality
-  server: 81.163.22.231
-  sid: 847a06884457c506
-  sni: kinopoisk.ru
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
+  name: 9|🇩🇪 DE-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: cdns.doon.eu.org
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: false
+  sni: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
   tls: true
   type: vless
-  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
-- name: 10|🇩🇪 DE-3 | 8EB
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: jongjmi.odnako.site
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇩🇪 DE-2 | 8EB
+  network: tcp
+  pbk: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
+  port: 443
+  reality-opts:
+    public-key: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
+    server-name: de.themesh.site
+    short-id: c98e3dfeb3aff317
+  security: reality
+  server: de.themesh.site
+  sid: c98e3dfeb3aff317
+  sni: de.themesh.site
+  tls: true
+  type: vless
+  uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
+- allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  fp: chrome
+  insecure: '0'
+  mode: auto
+  name: 9|🇩🇪 DE-3 | 8EB
+  network: xhttp
+  port: 2083
+  security: tls
+  server: securitytrails.com
+  servername: cdn.myneverland.dpdns.org
   skip-cert-verify: false
-  sni: jongjmi.odnako.site
-  tls:
-    enabled: true
-    insecure: false
-    server_name: jongjmi.odnako.site
-  type: hysteria2
-  udp: true
-- name: 11|🇩🇪 DE-1 | Mix
+  sni: cdn.myneverland.dpdns.org
+  tls: true
+  type: vless
+  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
+- name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
   server: 193.188.21.202

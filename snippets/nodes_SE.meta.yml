@@ -1,12 +1,39 @@
 proxies:
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇸🇪 SE-1 | 8EB
-  password: ''
-  port: 1080
-  server: 171.25.158.95
-  type: socks
-  username: Og
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 9|🇸🇪 SE-1 | 8EB
+  network: tcp
+  pbk: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    server-name: swe02.myxasecure.space
+    short-id: d67ec5a8fc40ebea
+  security: reality
+  server: swe02.myxasecure.space
+  sid: d67ec5a8fc40ebea
+  sni: swe02.myxasecure.space
+  tls: true
+  type: vless
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇸🇪 SE-2 | 8EB
+  network: tcp
+  pbk: dotcvtU55OCUPuizRM0JAkzxHiaf1p0-ZgnxeAgrh3Y
+  port: 443
+  reality-opts:
+    public-key: dotcvtU55OCUPuizRM0JAkzxHiaf1p0-ZgnxeAgrh3Y
+    server-name: swed1.panel11.ru
+    short-id: 32c12b179291c5e8
+  security: reality
+  server: swed1.panel11.ru
+  sid: 32c12b179291c5e8
+  sni: swed1.panel11.ru
+  tls: true
+  type: vless
+  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d

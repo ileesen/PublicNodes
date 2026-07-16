@@ -1,19 +1,32 @@
 proxies:
 - encryption: none
   flow: xtls-rprx-vision
-  fp: firefox
+  fp: chrome
   headerType: none
-  name: 10|🇷🇺 RU-1 | 8EB
+  name: 9|🇷🇺 RU-1 | 8EB
   network: tcp
-  pbk: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  port: 443
+  pbk: BEJH_omzwWCjagdtfdm9-faqD8aOnoLtc-z1ovRXyVk
+  port: 40443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    server-name: sellflow.org
-    short-id: ''
+    public-key: BEJH_omzwWCjagdtfdm9-faqD8aOnoLtc-z1ovRXyVk
+    server-name: deepl.com
+    short-id: 172e
   security: reality
-  server: 87.242.86.19
-  sni: sellflow.org
+  server: news.netraidly.ru
+  sid: 172e
+  sni: deepl.com
   tls: true
   type: vless
-  uuid: 44e084a7-4928-4492-b646-7dc417066576
+  uuid: bacd8811-1e50-46ec-accf-06149cbdc25d
+- name: 9|🇷🇺 RU-2 | 8EB
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  skip-cert-verify: true
+  sni: fl02.auragg.org
+  tls:
+    enabled: true
+    insecure: true
+    server_name: fl02.auragg.org
+  type: hysteria2
+  udp: true
