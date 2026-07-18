@@ -37,16 +37,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇪T.Me=V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: UUoAsk2eM4
-  port: 25810
-  server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 8|🇩🇪Telegram=V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -67,7 +57,17 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🚀T.Me=V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪 کانال  @V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: a6alb4YAgC
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '8|T.Me=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: kfCR7ekba6
@@ -77,7 +77,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪114133 | ️Telegram = t.me/SO...
+- name: 8|کانال ماV2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: yDkExundefinedconf
@@ -87,65 +87,84 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  insecure: '0'
-  name: 9|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cdns.doon.eu.org
-  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
-  skip-cert-verify: false
-  sni: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
-  ws-opts:
-    headers:
-      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
-    path: /
 - encryption: none
   flow: xtls-rprx-vision
-  fp: chrome
+  fp: firefox
   headerType: none
-  name: 9|🇩🇪 DE-2 | 8EB
+  name: 9|🇩🇪 DE-1 | 8EB
   network: tcp
-  pbk: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
+  pbk: QgcXRmYf7EYT1CZpNMi_vxeD6g0V1DoJRD9IE7O76ls
   port: 443
   reality-opts:
-    public-key: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
-    server-name: de.themesh.site
-    short-id: c98e3dfeb3aff317
+    public-key: QgcXRmYf7EYT1CZpNMi_vxeD6g0V1DoJRD9IE7O76ls
+    server-name: gateway.icloud.com
+    short-id: 3a9f1c5e8b2d7064
   security: reality
-  server: de.themesh.site
-  sid: c98e3dfeb3aff317
-  sni: de.themesh.site
+  server: 188.68.38.41
+  sid: 3a9f1c5e8b2d7064
+  sni: gateway.icloud.com
   tls: true
   type: vless
-  uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
+  uuid: 054b3b39-c006-4462-9a09-8152e64fe285
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇩🇪 DE-2 | 8EB
+  network: tcp
+  password: PD07395842
+  port: 443
+  security: tls
+  server: golden-fox.rooster465.autos
+  servername: golden-fox.rooster465.autos
+  skip-cert-verify: false
+  sni: golden-fox.rooster465.autos
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇩🇪 DE-3 | 8EB
+  network: tcp
+  password: PD07395842
+  port: 443
+  security: tls
+  server: optimum-bull.rooster465.autos
+  servername: optimum-bull.rooster465.autos
+  skip-cert-verify: false
+  sni: optimum-bull.rooster465.autos
+  type: trojan
+- encryption: none
+  headerType: none
+  name: 9|🇩🇪 DE-4 | 8EB
+  network: tcp
+  port: 23231
+  security: none
+  server: 45.63.116.184
+  type: vless
+  uuid: d67f37da-8a7d-416e-a386-ea0a82317257
 - allowInsecure: '0'
   alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  extra: '{"xPaddingBytes":"100-1000"}'
   fp: chrome
   insecure: '0'
   mode: auto
-  name: 9|🇩🇪 DE-3 | 8EB
+  name: 9|🇩🇪 DE-5 | 8EB
   network: xhttp
-  port: 2083
+  port: 2087
   security: tls
-  server: securitytrails.com
-  servername: cdn.myneverland.dpdns.org
+  server: v2.gafe-rezvan.ir
+  servername: ch-de.sdcards.ir
   skip-cert-verify: false
-  sni: cdn.myneverland.dpdns.org
+  sni: ch-de.sdcards.ir
   tls: true
   type: vless
-  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
+  uuid: 9d6104a5-fc6d-4fe6-95b7-80d8f699e09d
 - name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
