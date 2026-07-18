@@ -2446,12 +2446,6 @@ proxies:
   server: 143.198.85.89
   type: socks
   username: admin
-- name: 10|🇮🇳 IN-1 | Mix
-  password: proxy
-  port: 1080
-  server: 140.238.246.3
-  type: socks
-  username: proxy
 - name: 10|🇰🇷 KR-1 | Mix
   password: admin
   port: 5555
@@ -2521,52 +2515,40 @@ proxies:
 - name: 10|🇭🇰 HK-18 | Mix
   password: '123'
   port: 3060
-  server: 8.217.183.205
+  server: 8.218.252.190
   type: socks
   username: '123'
 - name: 10|🇭🇰 HK-19 | Mix
   password: '123'
   port: 3060
-  server: 8.218.252.190
+  server: 8.217.208.190
   type: socks
   username: '123'
 - name: 10|🇭🇰 HK-20 | Mix
   password: '123'
   port: 3060
-  server: 8.217.208.190
+  server: 43.100.43.112
   type: socks
   username: '123'
 - name: 10|🇭🇰 HK-21 | Mix
   password: '123'
   port: 3060
-  server: 43.100.43.112
+  server: 8.217.213.161
   type: socks
   username: '123'
 - name: 10|🇭🇰 HK-22 | Mix
   password: '123'
   port: 3060
-  server: 8.217.213.161
+  server: 43.100.43.114
   type: socks
   username: '123'
 - name: 10|🇭🇰 HK-23 | Mix
   password: '123'
   port: 3060
-  server: 43.100.43.114
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-24 | Mix
-  password: '123'
-  port: 3060
   server: 8.217.241.104
   type: socks
   username: '123'
-- name: 10|🇭🇰 HK-25 | Mix
-  password: '123'
-  port: 3060
-  server: 47.76.78.163
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-26 | Mix
+- name: 10|🇭🇰 HK-24 | Mix
   password: socks5
   port: 5555
   server: 8.210.36.147
@@ -2583,10 +2565,147 @@ proxies:
   _path: ''
   _security: ''
   _sni: ''
-  name: 10|🇺🇸 US-1 | Mix
+  name: 10|🇸🇬 SG-3 | Mix
   password: ''
-  port: 11679
-  server: 134.122.1.61
+  port: 1080
+  server: 212.58.132.5
+  type: socks
+  username: ''
+- name: 10|🇺🇸 US-1 | Mix
+  password: test123
+  port: 1080
+  server: 38.110.1.149
+  type: socks
+  username: test123
+- name: 10|🇭🇰 HK-25 | Mix
+  password: '123'
+  port: 3060
+  server: 8.218.153.191
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-26 | Mix
+  password: '123'
+  port: 5555
+  server: 47.239.194.38
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-27 | Mix
+  password: '123'
+  port: 8888
+  server: 47.243.225.10
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-28 | Mix
+  password: '123'
+  port: 5555
+  server: 47.83.127.139
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-29 | Mix
+  password: '123'
+  port: 5555
+  server: 47.83.123.81
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-30 | Mix
+  password: '123'
+  port: 5555
+  server: 47.83.121.251
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-31 | Mix
+  password: '111'
+  port: 11300
+  server: 47.239.134.182
+  type: socks
+  username: '111'
+- name: 10|🇭🇰 HK-32 | Mix
+  password: '111'
+  port: 11408
+  server: 47.76.186.28
+  type: socks
+  username: '111'
+- name: 10|🇭🇰 HK-33 | Mix
+  password: '5555'
+  port: 11300
+  server: 47.243.121.17
+  type: socks
+  username: '5555'
+- name: 10|🇭🇰 HK-34 | Mix
+  password: aa1234
+  port: 11300
+  server: 47.238.82.32
+  type: socks
+  username: aa1234
+- name: 10|🇭🇰 HK-35 | Mix
+  password: '111'
+  port: 11310
+  server: 47.76.229.132
+  type: socks
+  username: '111'
+- name: 10|🇭🇰 HK-36 | Mix
+  password: '123123'
+  port: 11300
+  server: 47.238.58.22
+  type: socks
+  username: '123123'
+- name: 10|🇭🇰 HK-37 | Mix
+  password: '123123'
+  port: 11300
+  server: 47.243.78.84
+  type: socks
+  username: '123123'
+- name: 10|🇭🇰 HK-38 | Mix
+  password: '111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks
+  username: '111'
+- name: 10|🇭🇰 HK-39 | Mix
+  password: '5555'
+  port: 11300
+  server: 8.217.35.37
+  type: socks
+  username: '5555'
+- name: 10|🇭🇰 HK-40 | Mix
+  password: '123'
+  port: 11601
+  server: 47.239.71.70
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-41 | Mix
+  password: '123'
+  port: 30001
+  server: 47.239.74.242
+  type: socks
+  username: '123'
+- name: 10|🇭🇰 HK-42 | Mix
+  password: '1111'
+  port: 1080
+  server: 8.218.225.75
+  type: socks
+  username: '1111'
+- name: 10|🇭🇰 HK-43 | Mix
+  password: '8888'
+  port: 8888
+  server: 8.210.18.221
+  type: socks
+  username: '8888'
+- name: 10|🇭🇰 HK-44 | Mix
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks
+  username: admin
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇺🇸 US-2 | Mix
+  password: ''
+  port: 22222
+  server: 193.25.215.182
   type: socks
   username: ''
 - _auth: ''
@@ -2594,162 +2713,426 @@ proxies:
   _path: ''
   _security: ''
   _sni: ''
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 10|🇺🇸 US-3 | Mix
   password: ''
   port: 1080
-  server: 212.58.132.5
+  server: 141.148.158.143
   type: socks
   username: ''
-- name: 10|🇺🇸 US-2 | Mix
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-2 | Mix
+  password: ''
+  port: 1080
+  server: 109.71.244.97
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-3 | Mix
+  password: ''
+  port: 1080
+  server: 93.177.116.84
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇩🇪 DE-2 | Mix
+  password: ''
+  port: 1080
+  server: 159.195.49.27
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-4 | Mix
+  password: ''
+  port: 10808
+  server: 45.43.63.37
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇺🇸 US-4 | Mix
+  password: ''
+  port: 1088
+  server: 204.48.29.137
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇵🇱 PL-1 | Mix
+  password: ''
+  port: 1080
+  server: 194.59.186.35
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇮🇳 IN-1 | Mix
+  password: ''
+  port: 1088
+  server: 144.24.111.128
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇨🇦 CA-1 | Mix
+  password: ''
+  port: 1088
+  server: 167.114.172.208
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇨🇴 CO-1 | Mix
+  password: ''
+  port: 1080
+  server: 149.130.182.81
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇺🇸 US-5 | Mix
+  password: ''
+  port: 1080
+  server: 152.53.209.196
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇺🇸 US-6 | Mix
+  password: ''
+  port: 1080
+  server: 107.151.148.153
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇷 FR-1 | Mix
+  password: ''
+  port: 1088
+  server: 185.185.80.58
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-5 | Mix
+  password: ''
+  port: 7890
+  server: 140.245.99.105
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-45 | Mix
+  password: ''
+  port: 1080
+  server: 119.28.13.138
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-46 | Mix
+  password: ''
+  port: 1080
+  server: 124.156.185.140
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-6 | Mix
+  password: ''
+  port: 3080
+  server: 47.79.253.110
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇲🇾 MY-1 | Mix
+  password: ''
+  port: 909
+  server: 47.254.235.222
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇯🇵 JP-1 | Mix
+  password: ''
+  port: 10808
+  server: 101.36.104.239
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-47 | Mix
+  password: ''
+  port: 10808
+  server: 123.58.219.171
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-48 | Mix
+  password: ''
+  port: 10001
+  server: 172.81.111.156
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇯🇵 JP-2 | Mix
+  password: ''
+  port: 10808
+  server: 101.36.104.46
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-4 | Mix
+  password: ''
+  port: 1082
+  server: 138.124.67.235
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇵🇱 PL-2 | Mix
+  password: ''
+  port: 1080
+  server: 83.168.110.163
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇮 FI-1 | Mix
+  password: ''
+  port: 3080
+  server: 65.109.191.98
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-7 | Mix
+  password: ''
+  port: 1080
+  server: 178.128.106.142
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇷 FR-2 | Mix
+  password: ''
+  port: 3622
+  server: 13.140.164.179
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-49 | Mix
+  password: ''
+  port: 5555
+  server: 45.125.32.64
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-5 | Mix
+  password: ''
+  port: 1080
+  server: 45.84.222.157
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇷 FR-3 | Mix
+  password: ''
+  port: 1080
+  server: 207.180.205.36
+  type: socks
+  username: ''
+- name: 10|🇨🇴 CO-2 | Mix
   password: test123
   port: 1080
-  server: 38.110.1.149
+  server: 91.148.134.67
   type: socks
   username: test123
-- name: 10|🇭🇰 HK-27 | Mix
-  password: '123'
-  port: 3060
-  server: 8.218.153.191
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-28 | Mix
-  password: '123'
+- name: 10|🇰🇷 KR-3 | Mix
+  password: socks5
   port: 5555
-  server: 47.239.194.38
+  server: 158.180.76.11
   type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-29 | Mix
-  password: '123'
-  port: 8888
-  server: 47.243.225.10
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-30 | Mix
-  password: '123'
-  port: 5555
-  server: 47.83.127.139
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-31 | Mix
-  password: '123'
-  port: 5555
-  server: 47.83.123.81
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-32 | Mix
-  password: '123'
-  port: 5555
-  server: 47.83.121.251
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-33 | Mix
-  password: '111'
-  port: 11300
-  server: 47.239.134.182
-  type: socks
-  username: '111'
-- name: 10|🇭🇰 HK-34 | Mix
-  password: '111'
-  port: 11408
-  server: 47.76.186.28
-  type: socks
-  username: '111'
-- name: 10|🇭🇰 HK-35 | Mix
-  password: '5555'
-  port: 11300
-  server: 47.243.121.17
-  type: socks
-  username: '5555'
-- name: 10|🇭🇰 HK-36 | Mix
-  password: aa1234
-  port: 11300
-  server: 47.238.82.32
-  type: socks
-  username: aa1234
-- name: 10|🇭🇰 HK-37 | Mix
-  password: '111'
-  port: 11310
-  server: 47.76.229.132
-  type: socks
-  username: '111'
-- name: 10|🇭🇰 HK-38 | Mix
-  password: '123123'
-  port: 11300
-  server: 47.238.58.22
-  type: socks
-  username: '123123'
-- name: 10|🇭🇰 HK-39 | Mix
-  password: '1122'
-  port: 11300
-  server: 47.76.35.59
-  type: socks
-  username: '1122'
-- name: 10|🇭🇰 HK-40 | Mix
-  password: '123123'
-  port: 11300
-  server: 47.243.78.84
-  type: socks
-  username: '123123'
-- name: 10|🇭🇰 HK-41 | Mix
-  password: '111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks
-  username: '111'
-- name: 10|🇭🇰 HK-42 | Mix
-  password: '5555'
-  port: 11300
-  server: 8.217.35.37
-  type: socks
-  username: '5555'
-- name: 10|🇭🇰 HK-43 | Mix
-  password: '123'
-  port: 11601
-  server: 47.239.71.70
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-44 | Mix
-  password: '5555'
-  port: 11209
-  server: 47.76.31.222
-  type: socks
-  username: '5555'
-- name: 10|🇭🇰 HK-45 | Mix
-  password: '123'
-  port: 30001
-  server: 47.239.74.242
-  type: socks
-  username: '123'
-- name: 10|🇭🇰 HK-46 | Mix
-  password: '5555'
-  port: 11300
-  server: 47.76.216.110
-  type: socks
-  username: '5555'
-- name: 10|🇭🇰 HK-47 | Mix
-  password: '5555'
-  port: 11700
-  server: 47.76.84.156
-  type: socks
-  username: '5555'
-- name: 10|🇭🇰 HK-48 | Mix
-  password: '1111'
+  username: socks5
+- name: 10|🇬🇭 GH-1 | Mix
+  password: test123
   port: 1080
-  server: 8.218.225.75
+  server: 169.255.56.148
   type: socks
-  username: '1111'
-- name: 10|🇭🇰 HK-49 | Mix
-  password: '8888'
-  port: 8888
-  server: 8.210.18.221
+  username: test123
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-6 | Mix
+  password: ''
+  port: 1080
+  server: 5.255.99.75
   type: socks
-  username: '8888'
-- name: 10|🇭🇰 HK-50 | Mix
-  password: admin
-  port: 8899
-  server: 47.242.19.215
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇭🇰 HK-50 | Mix
+  password: ''
+  port: 1080
+  server: 43.161.217.219
   type: socks
-  username: admin
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇪🇪 EE-1 | Mix
+  password: ''
+  port: 1080
+  server: 5.45.118.209
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-7 | Mix
+  password: ''
+  port: 1080
+  server: 5.255.123.162
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇮🇹 IT-1 | Mix
+  password: ''
+  port: 1088
+  server: 212.77.75.25
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇫🇮 FI-2 | Mix
+  password: ''
+  port: 1080
+  server: 193.221.203.192
+  type: socks
+  username: ''
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇳🇱 NL-8 | Mix
+  password: ''
+  port: 1080
+  server: 5.255.103.55
+  type: socks
+  username: ''
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
