@@ -1,4 +1,24 @@
 proxies:
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇬🇧 GB-1 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: ad-010.vector9nmb3.info
+  servername: ad-010.vector9nmb3.info
+  skip-cert-verify: false
+  sni: ad-010.vector9nmb3.info
+  tls: true
+  type: vless
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
+  ws-opts:
+    headers:
+      Host: ad-010.vector9nmb3.info
+    path: /
 - name: 14|GB_speednode_0005
   network: ws
   password: MITIVPN
