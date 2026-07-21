@@ -1,15 +1,34 @@
 proxies:
-- name: 9|🇨🇭 CH-1 | 8EB
-  obfs: salamander
-  obfs-password: fsc92dsh321o5h3r
-  password: elknam6l7izf3z71
-  port: 52016
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
+- encryption: none
+  fp: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+  mode: gun
+  name: 9|🇨🇭 CH-1 | 8EB
+  network: grpc
+  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    server-name: api-maps.yandex.ru
+    short-id: 10ffb85da1c2d986
+  security: reality
+  server: 152.233.31.72
+  serviceName: neurex
+  sid: 10ffb85da1c2d986
+  sni: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: 0eff0ab4-47eb-4584-b9a0-4db598092a05
+- name: 9|🇨🇭 CH-2 | 8EB
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
   tls:
     enabled: true
-    insecure: false
-    server_name: assets.gateway-stream.com
+    insecure: true
+    server_name: devideo.h2corp.org
   type: hysteria2
   udp: true

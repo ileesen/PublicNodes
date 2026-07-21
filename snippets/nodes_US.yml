@@ -1,86 +1,17 @@
 proxies:
-- allowInsecure: '0'
+- allowInsecure: '1'
   headerType: none
-  insecure: '0'
-  name: 9|🇺🇸 US-8 | 8EB
+  insecure: '1'
+  name: 9|🇺🇸 US-7 | 8EB
   network: tcp
-  password: IQ68037294
-  port: 443
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
   security: tls
-  server: optimal-dane.rooster465.autos
-  servername: optimal-dane.rooster465.autos
-  skip-cert-verify: false
-  sni: optimal-dane.rooster465.autos
+  server: 163.245.196.68
+  servername: 163.245.196.68.sslip.io
+  skip-cert-verify: true
+  sni: 163.245.196.68.sslip.io
   type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 9|🇺🇸 US-10 | 8EB
-  network: tcp
-  password: IQ68037294
-  port: 443
-  security: tls
-  server: sincere-man.rooster465.autos
-  servername: sincere-man.rooster465.autos
-  skip-cert-verify: false
-  sni: sincere-man.rooster465.autos
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 9|🇺🇸 US-11 | 8EB
-  network: tcp
-  password: IQ68037294
-  port: 443
-  security: tls
-  server: golden-dane.rooster465.autos
-  servername: golden-dane.rooster465.autos
-  skip-cert-verify: false
-  sni: golden-dane.rooster465.autos
-  type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 9|🇺🇸 US-12 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 137.220.33.177
-  servername: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-  skip-cert-verify: false
-  sni: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-    path: /glasspanel/f5cbe9c3_0_4dd3a8f42f09/
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 9|🇺🇸 US-13 | 8EB
-  network: tcp
-  password: IQ68037294
-  port: 443
-  security: tls
-  server: integral-elf.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- allowInsecure: '0'
-  insecure: '0'
-  name: 9|🇺🇸 US-21 | 8EB
-  network: ws
-  password: '!!str 666'
-  port: 443
-  security: tls
-  server: 31.169.125.150
-  servername: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-  skip-cert-verify: false
-  sni: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v6m1j.t72k.d7n.hh.hhhdl.kdns.fr
-    path: /glasspanel/f5cbe9c3_0_4dd3a8f42f09/
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0

@@ -1,4 +1,23 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇪🇪 EE-1 | 8EB
+  network: tcp
+  pbk: YviQqfgYjbDlVZhGgKvjfNtbx2Mfmfnx0U72mMZqawQ
+  port: 443
+  reality-opts:
+    public-key: YviQqfgYjbDlVZhGgKvjfNtbx2Mfmfnx0U72mMZqawQ
+    server-name: weather.com
+    short-id: f6cb69bf2ee16839
+  security: reality
+  server: 95.156.206.65
+  sid: f6cb69bf2ee16839
+  sni: weather.com
+  tls: true
+  type: vless
+  uuid: 4f8c3514-f1a6-49fd-bb8f-ad9b13a58aed
 - _auth: ''
   _network: tcp
   _path: ''
