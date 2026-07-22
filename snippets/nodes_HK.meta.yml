@@ -6,24 +6,26 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- encryption: none
-  fp: chrome
-  mode: packet-up
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
   name: 9|🇭🇰 HK-1 | 8EB
-  network: xhttp
-  pbk: 1LFURXcCXDG7GjYZJOiKhSIGTGqlrvnLOuUalz_eR0g
-  port: 443
-  reality-opts:
-    public-key: 1LFURXcCXDG7GjYZJOiKhSIGTGqlrvnLOuUalz_eR0g
-    server-name: nl-2.s.darkpn.com
-    short-id: 0123456789abcdef
-  security: reality
-  server: nl-2.s.darkpn.com
-  sid: 0123456789abcdef
-  sni: nl-2.s.darkpn.com
+  network: ws
+  port: 2083
+  security: tls
+  server: 154.12.188.210
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  sni: learn00.evany.de5.net
   tls: true
   type: vless
-  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - name: 10|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222

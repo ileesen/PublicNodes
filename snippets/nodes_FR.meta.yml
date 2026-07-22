@@ -1,4 +1,52 @@
 proxies:
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇫🇷 FR-1 | 8EB
+  network: tcp
+  password: WG39087154
+  port: 443
+  security: tls
+  server: great-krill.rooster465.autos
+  servername: great-krill.rooster465.autos
+  skip-cert-verify: false
+  sni: great-krill.rooster465.autos
+  type: trojan
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 9|🇫🇷 FR-2 | 8EB
+  network: tcp
+  password: UZ15382649
+  port: 443
+  security: tls
+  server: moral-dolphin.rooster465.autos
+  servername: moral-dolphin.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-dolphin.rooster465.autos
+  type: trojan
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 9|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 35.241.172.224
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  sni: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - _auth: ''
   _network: tcp
   _path: ''
