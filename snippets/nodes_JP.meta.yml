@@ -6,62 +6,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇯🇵 JP-1 | 8EB
-  obfs: salamander
-  obfs-password: 2g7feub2
-  password: 4039A275-F288-4A6C-8B2C-7152912200BA
+- mux: '1'
+  name: 9|🇯🇵 JP-1 | 8EB
+  password: FC60532879
   port: 443
-  server: 160.16.142.205
+  security: tls
+  server: tough-shark.rooster465.autos
   skip-cert-verify: false
-  sni: ops-tyo.dexlos.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: ops-tyo.dexlos.com
-  type: hysteria2
-  udp: true
-- name: 9|🇯🇵 JP-2 | 8EB
-  obfs: salamander
-  obfs-password: 2g7feub2
-  password: 4039A275-F288-4A6C-8B2C-7152912200BA
-  port: 443
-  server: 160.16.95.16
-  skip-cert-verify: false
-  sni: ops-tyo.dexlos.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: ops-tyo.dexlos.com
-  type: hysteria2
-  udp: true
-- name: 9|🇯🇵 JP-3 | 8EB
-  obfs: salamander
-  obfs-password: 2g7feub2
-  password: 4039A275-F288-4A6C-8B2C-7152912200BA
-  port: 443
-  server: 160.16.150.128
-  skip-cert-verify: false
-  sni: ops-tyo.dexlos.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: ops-tyo.dexlos.com
-  type: hysteria2
-  udp: true
-- name: 9|🇯🇵 JP-4 | 8EB
-  obfs: salamander
-  obfs-password: 2g7feub2
-  password: 4039A275-F288-4A6C-8B2C-7152912200BA
-  port: 443
-  server: 160.16.105.69
-  skip-cert-verify: false
-  sni: ops-tyo.dexlos.com
-  tls:
-    enabled: true
-    insecure: false
-    server_name: ops-tyo.dexlos.com
-  type: hysteria2
-  udp: true
+  type: trojan
 - _auth: ''
   _network: tcp
   _path: ''

@@ -95,87 +95,46 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #2'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: lubtxOi8h8
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
+- mux: '1'
   name: 9|🇩🇪 DE-1 | 8EB
-  network: tcp
-  pbk: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
-  port: 443
-  reality-opts:
-    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
-    server-name: eh.vk.com
-    short-id: eb0cca7312345678
-  security: reality
-  server: 138.124.126.158
-  sid: eb0cca7312345678
-  sni: eh.vk.com
-  tls: true
-  type: vless
-  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 9|🇩🇪 DE-2 | 8EB
-  network: tcp
-  pbk: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
-  port: 443
-  reality-opts:
-    public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
-    server-name: nl-1-tb.124515.xyz
-    short-id: 693ee677b7bc4ad1
-  security: reality
-  server: nl-1-tb.124515.xyz
-  sid: 693ee677b7bc4ad1
-  sni: nl-1-tb.124515.xyz
-  tls: true
-  type: vless
-  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  fp: chrome
-  headerType: none
-  insecure: '0'
-  name: 9|🇩🇪 DE-3 | 8EB
-  network: tcp
-  password: WG39087154
+  password: FC60532879
   port: 443
   security: tls
-  server: lenient-dory.rooster465.autos
-  servername: lenient-dory.rooster465.autos
+  server: optimum-bull.rooster465.autos
   skip-cert-verify: false
-  sni: lenient-dory.rooster465.autos
   type: trojan
-- encryption: none
-  headerType: none
+- mux: '1'
+  name: 9|🇩🇪 DE-2 | 8EB
+  password: FC60532879
+  port: 443
+  security: tls
+  server: perfect-hare.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- mux: '1'
+  name: 9|🇩🇪 DE-3 | 8EB
+  password: FC60532879
+  port: 443
+  security: tls
+  server: glad-javelin.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- mux: '1'
   name: 9|🇩🇪 DE-4 | 8EB
-  network: tcp
-  port: 22223
-  security: none
-  server: 3.121.143.119
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- encryption: none
-  headerType: none
+  password: FC60532879
+  port: 443
+  security: tls
+  server: sensible-grubworm.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- mux: '1'
   name: 9|🇩🇪 DE-5 | 8EB
-  network: tcp
-  port: 22224
-  security: none
-  server: 3.121.143.119
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  password: FC60532879
+  port: 443
+  security: tls
+  server: coherent-rattler.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
 - name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080
