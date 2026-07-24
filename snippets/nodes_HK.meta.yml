@@ -6,118 +6,25 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- mux: '1'
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  insecure: '0'
   name: 9|🇭🇰 HK-1 | 8EB
-  password: FC60532879
+  network: ws
   port: 443
   security: tls
-  server: pretty-vervet.rooster465.autos
+  server: 47.76.218.163
+  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
   skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-2 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: humorous-parakeet.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-3 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: renewing-ewe.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-4 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: striking-cheetah.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-5 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: saved-mudfish.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-6 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: modern-bedbug.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-7 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: leading-ram.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-8 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: natural-swan.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-9 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: discrete-basilisk.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-10 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: normal-elk.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-11 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: electric-gibbon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-12 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: modest-foal.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-13 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: upright-bedbug.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- mux: '1'
-  name: 9|🇭🇰 HK-14 | 8EB
-  password: FC60532879
-  port: 443
-  security: tls
-  server: dynamic-grubworm.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
+  sni: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  ws-opts:
+    headers:
+      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+    path: /glasspanel/0038ba35_0_1bdabe931208/
 - name: 10|🇭🇰 HK-1 | Mix
   password: '!!str 2222'
   port: 2222
