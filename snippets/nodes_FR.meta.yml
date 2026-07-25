@@ -1,28 +1,66 @@
 proxies:
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '1'
-  name: 9|🇫🇷 FR-2 | 8EB
-  network: ws
+- name: 8|74@oneclickvpnkeys
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
-  security: tls
-  server: 51.91.249.22
-  servername: vp58.cc.cd
-  skip-cert-verify: true
-  sni: vp58.cc.cd
+  server: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇫🇷 FR-1 | 8EB
+  network: tcp
+  pbk: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+  port: 50443
+  reality-opts:
+    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+    server-name: www.icloud.com
+    short-id: ''
+  security: reality
+  server: 89.208.113.54
+  sni: www.icloud.com
   tls: true
   type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳 @VPNine1
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇫🇷 FR-2 | 8EB
+  network: tcp
+  pbk: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+  port: 40443
+  reality-opts:
+    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+    server-name: deepl.com
+    short-id: ''
+  security: reality
+  server: 81.19.137.144
+  sni: deepl.com
+  tls: true
+  type: vless
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+- allowInsecure: '0'
+  client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  insecure: '0'
+  name: 9|🇫🇷 FR-3 | 8EB
+  network: xhttp
+  port: 8443
+  security: tls
+  server: jush.sukario.ir
+  servername: wyo19lkw.miradion.info
+  skip-cert-verify: false
+  sni: wyo19lkw.miradion.info
+  tls: true
+  type: vless
+  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
 - allowInsecure: '0'
   encryption: none
   insecure: '0'
-  name: 9|🇫🇷 FR-3 | 8EB
+  name: 9|🇫🇷 FR-4 | 8EB
   network: ws
   port: 443
   security: tls
@@ -37,6 +75,28 @@ proxies:
     headers:
       Host: ievsj.moonriverhub-ili.sbs
     path: /sea
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇫🇷 FR-5 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 208.103.161.96
+  servername: polshaov.ochmaybrooooo.online
+  skip-cert-verify: false
+  sni: polshaov.ochmaybrooooo.online
+  tls: true
+  type: vless
+  uuid: fc959c72-5891-459d-8b20-81fa0fe0baa2
+  ws-opts:
+    headers:
+      Host: polshaov.ochmaybrooooo.online
+    path: /
 - _auth: ''
   _network: tcp
   _path: ''

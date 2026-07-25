@@ -7,6 +7,56 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-1 | 8EB
+  network: tcp
+  password: JT80563429
+  port: 443
+  security: tls
+  server: champion-alien.rooster465.autos
+  servername: champion-alien.rooster465.autos
+  skip-cert-verify: false
+  sni: champion-alien.rooster465.autos
+  type: trojan
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇸🇬 SG-2 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  security: tls
+  server: 116.251.217.65
+  servername: hhtj.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 2053
+  security: tls
+  server: 149.118.55.215
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: 10|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080
@@ -19,6 +69,17 @@ proxies:
   server: 8.222.180.85
   type: socks
   username: '888888'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 10|🇸🇬 SG-3 | Mix
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks
+  username: ''
 - _auth: ''
   _network: tcp
   _path: ''

@@ -1,4 +1,20 @@
 proxies:
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇯🇵 JP-4 | 8EB
+  network: ws
+  password: '!!str 521314'
+  port: 2053
+  security: tls
+  server: 103.106.228.126
+  servername: hhtj.hhllfly.kdns.fr
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
