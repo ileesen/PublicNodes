@@ -1,74 +1,4 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇫🇷 FR-1 | 8EB
-  network: tcp
-  pbk: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-  port: 50443
-  reality-opts:
-    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-    server-name: www.icloud.com
-    short-id: ''
-  security: reality
-  server: 89.208.113.54
-  sni: www.icloud.com
-  tls: true
-  type: vless
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇫🇷 FR-2 | 8EB
-  network: tcp
-  pbk: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-  port: 40443
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    server-name: deepl.com
-    short-id: ''
-  security: reality
-  server: 81.19.137.144
-  sni: deepl.com
-  tls: true
-  type: vless
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-- allowInsecure: '0'
-  client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  insecure: '0'
-  name: 9|🇫🇷 FR-3 | 8EB
-  network: xhttp
-  port: 8443
-  security: tls
-  server: jush.sukario.ir
-  servername: wyo19lkw.miradion.info
-  skip-cert-verify: false
-  sni: wyo19lkw.miradion.info
-  tls: true
-  type: vless
-  uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-- allowInsecure: '0'
-  encryption: none
-  insecure: '0'
-  name: 9|🇫🇷 FR-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: love.ns.cloudflare.com
-  servername: ievsj.moonriverhub-ili.sbs
-  skip-cert-verify: false
-  sni: ievsj.moonriverhub-ili.sbs
-  tls: true
-  type: vless
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-  ws-opts:
-    headers:
-      Host: ievsj.moonriverhub-ili.sbs
-    path: /sea
 - allowInsecure: '0'
   alpn:
   - http/1.1
@@ -76,21 +6,92 @@ proxies:
   encryption: none
   fp: chrome
   insecure: '0'
-  name: 9|🇫🇷 FR-5 | 8EB
+  name: 9|🇫🇷 FR-1 | 8EB
   network: ws
   port: 443
   security: tls
-  server: 208.103.161.96
+  server: 199.181.197.82
   servername: polshaov.ochmaybrooooo.online
   skip-cert-verify: false
   sni: polshaov.ochmaybrooooo.online
   tls: true
   type: vless
-  uuid: fc959c72-5891-459d-8b20-81fa0fe0baa2
+  uuid: 218b4b35-e826-49d4-b5dc-558fc7eb9923
   ws-opts:
     headers:
       Host: polshaov.ochmaybrooooo.online
     path: /
+- allowInsecure: '0'
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: false
+  sni: ov186.ochmaybrooooo.online
+  tls: true
+  type: vless
+  uuid: 218b4b35-e826-49d4-b5dc-558fc7eb9923
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- encryption: none
+  name: 9|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 8.47.69.0
+  type: vless
+  uuid: a8178248-3cdf-4fb0-ab7b-87c1ab77201c
+  ws-opts:
+    headers:
+      Host: cnd.france2.gg.newwaycdn.com
+    path: /cdn/assets/stream
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇫🇷 FR-4 | 8EB
+  network: tcp
+  pbk: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    server-name: fr17.myxasecure.space
+    short-id: d67ec5a8fc40ebea
+  security: reality
+  server: fr17.myxasecure.space
+  sid: d67ec5a8fc40ebea
+  sni: fr17.myxasecure.space
+  tls: true
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- encryption: none
+  fp: chrome
+  headerType: none
+  name: 9|🇫🇷 FR-5 | 8EB
+  network: tcp
+  pbk: 0qp2ibLJZMNQfIQYAbYmZzhyeeKRgVjm2AGxgbNDWhg
+  port: 5666
+  reality-opts:
+    public-key: 0qp2ibLJZMNQfIQYAbYmZzhyeeKRgVjm2AGxgbNDWhg
+    server-name: s.yimg.com
+    short-id: 2539f132f20e7271
+  security: reality
+  server: fr2-azad.0xoddity.ir
+  sid: 2539f132f20e7271
+  sni: s.yimg.com
+  tls: true
+  type: vless
+  uuid: 0c5853e1-a606-4aa2-bbfa-86a7b58d43b1
 - _auth: ''
   _network: tcp
   _path: ''

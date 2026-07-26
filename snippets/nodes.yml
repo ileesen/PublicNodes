@@ -1,185 +1,73 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: wwafj5LHl6bI8aU9.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
-    path: /ws-vmess
 - allowInsecure: '1'
+  headerType: none
   insecure: '1'
-  name: 9|🇯🇵 JP-4 | 8EB
-  network: ws
-  password: '521314'
-  port: 2053
-  security: tls
-  server: 103.106.228.126
-  servername: hhtj.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇰🇷 KR-1 | 8EB
-  network: ws
-  password: '521314'
+  name: 9|🇯🇵 JP-1 | 8EB
+  network: tcp
+  password: HK78346019
   port: 443
   security: tls
-  server: 118.218.10.159
-  servername: hhtj.hhllfly.kdns.fr
+  server: hardy-seahorse.rooster465.autos
+  servername: hardy-seahorse.rooster465.autos
   skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
+  sni: hardy-seahorse.rooster465.autos
   type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
 - allowInsecure: '0'
   headerType: none
   insecure: '0'
-  name: 9|🇸🇬 SG-1 | 8EB
+  name: 9|🇯🇵 JP-2 | 8EB
   network: tcp
-  password: JT80563429
+  password: AQ71834695
   port: 443
   security: tls
-  server: champion-alien.rooster465.autos
-  servername: champion-alien.rooster465.autos
+  server: integral-elf.rooster465.autos
   skip-cert-verify: false
-  sni: champion-alien.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇳🇱 NL-7 | 8EB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|🇷🇺 RU-1 | 8EB
+  password: b24a80e79cee1d1f
+  port: 10210
+  server: 195.133.5.207
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇹🇷 TR-27 | 8EB
+  password: XFPpyuqk3H0Y8JVpVGqSJw
+  port: 1080
+  server: vpna.poorifast.ir
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸 US-8 | 8EB
+  password: Yq42Vx56a2SghCnLtOyOCF
+  port: 443
+  server: 216.105.168.19
+  type: ss
+  udp: true
 - allowInsecure: '1'
   insecure: '1'
-  name: 9|🇸🇬 SG-2 | 8EB
+  name: 9,14|NL_speednode_0006
   network: ws
-  password: '521314'
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   security: tls
-  server: 116.251.217.65
-  servername: hhtj.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
+  server: 188.164.248.122
+  servername: space.byu.id.yxls.eu.cc
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-5 | 8EB
-  network: ws
-  port: 443
-  server: 2b9hwy8ocx7q74nm.v.3dns.vip
-  servername: 2b9hwY8oCx7Q74NM.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-6 | 8EB
-  network: ws
-  port: 443
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  servername: mh7R5ArdL0z5jTGY.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mh7R5ArdL0z5jTGY.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-7 | 8EB
-  network: ws
-  port: 443
-  server: mtckundigepwu3up.v.3dns.vip
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-8 | 8EB
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-9 | 8EB
-  network: ws
-  port: 443
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-10 | 8EB
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: 9|🇭🇰 HK-11 | 8EB
-  network: ws
-  port: 443
-  server: zudssgtmrqg9lpvi.v.3dns.vip
-  servername: zUDssgTMRqg9LpvI.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: zUDssgTMRqg9LpvI.v.3dns.vip
-    path: /ws-vmess
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -301,19 +189,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|NL_speednode_0006
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - name: 14|US_speednode_0090
   network: ws
   password: humanity

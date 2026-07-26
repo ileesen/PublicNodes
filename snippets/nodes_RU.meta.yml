@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: 9|🇷🇺 RU-1 | 8EB
+  password: b24a80e79cee1d1f
+  port: 10210
+  server: 195.133.5.207
+  type: ss
+  udp: true
+- encryption: none
+  headerType: none
+  name: 9|🇷🇺 RU-2 | 8EB
+  network: tcp
+  port: 23344
+  security: none
+  server: 217.149.19.15
+  sni: 217.149.19.15
+  type: vless
+  uuid: 85da2b09-1a08-4dac-9ef0-888138b11703

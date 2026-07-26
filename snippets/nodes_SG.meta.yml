@@ -7,46 +7,127 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 9|🇸🇬 SG-1 | 8EB
-  network: tcp
-  password: JT80563429
-  port: 443
-  security: tls
-  server: champion-alien.rooster465.autos
-  servername: champion-alien.rooster465.autos
-  skip-cert-verify: false
-  sni: champion-alien.rooster465.autos
-  type: trojan
-- allowInsecure: '1'
-  insecure: '1'
+  password: ''
+  port: 1080
+  server: 217.15.160.116
+  type: socks
+  username: Og
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
   name: 9|🇸🇬 SG-2 | 8EB
   network: ws
-  password: '!!str 521314'
-  port: 443
+  port: 8443
   security: tls
-  server: 116.251.217.65
-  servername: hhtj.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
+  server: 162.159.13.196
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: hhtj.hhllfly.kdns.fr
+      Host: t1s1.rittbo.kdns.fr
     path: /
 - allowInsecure: '0'
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   fp: chrome
   insecure: '0'
   name: 9|🇸🇬 SG-3 | 8EB
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 149.118.55.215
+  server: 172.64.40.84
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇸🇬 SG-4 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 207.148.94.121
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇸🇬 SG-5 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.42.44
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.5.231
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  sni: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇸🇬 SG-7 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.41.202
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   sni: t1s1.rittbo.kdns.fr
