@@ -70,104 +70,7 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
   name: 9|🇩🇪 DE-1 | 8EB
-  network: tcp
-  pbk: TxWkYZ1pLSRpnep6cos2iRBP1CQn7BrjHJzI2Jddlx4
-  port: 443
-  reality-opts:
-    public-key: TxWkYZ1pLSRpnep6cos2iRBP1CQn7BrjHJzI2Jddlx4
-    server-name: fin.hatvpn.org
-    short-id: be0e78ad855db93f
-  security: reality
-  server: 144.31.217.82
-  sid: be0e78ad855db93f
-  sni: fin.hatvpn.org
-  tls: true
-  type: vless
-  uuid: 18bb7397-9f8c-4c26-a316-69b38515e8e6
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 9|🇩🇪 DE-2 | 8EB
-  network: tcp
-  pbk: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    server-name: ger16.myxasecure.space
-    short-id: d67ec5a8fc40ebea
-  security: reality
-  server: ger16.myxasecure.space
-  sid: d67ec5a8fc40ebea
-  sni: ger16.myxasecure.space
-  tls: true
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 9|🇩🇪 DE-3 | 8EB
-  network: tcp
-  pbk: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
-  port: 443
-  reality-opts:
-    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
-    server-name: ger.hatvpn.org
-    short-id: 76132b3b39704c44
-  security: reality
-  server: 77.91.66.178
-  sid: 76132b3b39704c44
-  sni: ger.hatvpn.org
-  tls: true
-  type: vless
-  uuid: 18bb7397-9f8c-4c26-a316-69b38515e8e6
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: qq
-  headerType: none
-  name: 9|🇩🇪 DE-4 | 8EB
-  network: tcp
-  pbk: eOV98nPiIYiVYcA7k6ddPqgEVfbrR3jJmIQTGquJUgY
-  port: 443
-  reality-opts:
-    public-key: eOV98nPiIYiVYcA7k6ddPqgEVfbrR3jJmIQTGquJUgY
-    server-name: dem.themesh.site
-    short-id: ba9cad63871fb391
-  security: reality
-  server: dem.themesh.site
-  sid: ba9cad63871fb391
-  sni: dem.themesh.site
-  tls: true
-  type: vless
-  uuid: 49e8f20c-6a27-4637-9e20-e0ea18a75766
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: your-custom-path
-  mode: gun
-  name: 9|🇩🇪 DE-5 | 8EB
-  network: grpc
-  pbk: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-  port: 6443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    server-name: maps.apple.com
-    short-id: 2da4299da566b7
-  security: reality
-  server: 45.151.102.99
-  serviceName: your-custom-path
-  sid: 2da4299da566b7
-  sni: maps.apple.com
-  tls: true
-  type: vless
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
-- encryption: none
-  name: 9|🇩🇪 DE-6 | 8EB
   network: ws
   port: 80
   security: none
@@ -180,7 +83,7 @@ proxies:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
 - encryption: none
-  name: 9|🇩🇪 DE-7 | 8EB
+  name: 9|🇩🇪 DE-2 | 8EB
   network: ws
   port: 80
   security: none
@@ -192,6 +95,149 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
+  name: 9|🇩🇪 DE-3 | 8EB
+  network: tcp
+  pbk: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+  port: 49000
+  reality-opts:
+    public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+    server-name: git.sly.team
+    short-id: ''
+  security: reality
+  server: defast.mifbot.pro
+  sni: git.sly.team
+  tls: true
+  type: vless
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+- encryption: none
+  fp: qq
+  grpc-opts:
+    grpc-service-name: auragrpc
+  mode: gun
+  name: 9|🇩🇪 DE-4 | 8EB
+  network: grpc
+  pbk: hzeeL2EIsjaab7u3JOt0F44pWql50JAemhQEOAsqEzY
+  port: 25202
+  reality-opts:
+    public-key: hzeeL2EIsjaab7u3JOt0F44pWql50JAemhQEOAsqEzY
+    server-name: cloudflare.com
+    short-id: a3d8f1e9b2c7d4e6
+  security: reality
+  server: ge03.auragg.org
+  serviceName: auragrpc
+  sid: a3d8f1e9b2c7d4e6
+  sni: cloudflare.com
+  tls: true
+  type: vless
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- encryption: none
+  fp: firefox
+  mode: auto
+  name: 9|🇩🇪 DE-5 | 8EB
+  network: xhttp
+  pbk: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
+  port: 443
+  reality-opts:
+    public-key: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
+    server-name: www.samsung.com
+    short-id: 6a480648c1
+  security: reality
+  server: 169.40.32.216
+  sid: 6a480648c1
+  sni: www.samsung.com
+  tls: true
+  type: vless
+  uuid: cb71a24c-85bf-4251-8a42-7300f5122067
+- encryption: none
+  fp: qq
+  grpc-opts:
+    grpc-service-name: auragrpc
+  mode: gun
+  name: 9|🇩🇪 DE-6 | 8EB
+  network: grpc
+  pbk: vF-KQd20O6Py0wB9go8Sw4Rm1raoiQD6IIcipkDtcEU
+  port: 25317
+  reality-opts:
+    public-key: vF-KQd20O6Py0wB9go8Sw4Rm1raoiQD6IIcipkDtcEU
+    server-name: cloudflare.com
+    short-id: a3d8f1e9b2c7d4e6
+  security: reality
+  server: ge4.auragg.org
+  serviceName: auragrpc
+  sid: a3d8f1e9b2c7d4e6
+  sni: cloudflare.com
+  tls: true
+  type: vless
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇩🇪 DE-7 | 8EB
+  network: tcp
+  pbk: BTyKrFaayjXjrjg7iL_A7IJIBrmwzASoZbaxvT6pOAA
+  port: 443
+  reality-opts:
+    public-key: BTyKrFaayjXjrjg7iL_A7IJIBrmwzASoZbaxvT6pOAA
+    server-name: gestphy.nodeserv.xyz
+    short-id: e73eafaec6c7f451
+  security: reality
+  server: gestphy.nodeserv.xyz
+  sid: e73eafaec6c7f451
+  sni: gestphy.nodeserv.xyz
+  tls: true
+  type: vless
+  uuid: b4e99731-fa4f-4cc8-a848-95963dcb15a9
+- allowInsecure: '0'
+  client-fingerprint: random
+  encryption: none
+  fp: random
+  insecure: '0'
+  name: 9|🇩🇪 DE-8 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: www.visa.com.hk
+  servername: do-fra1.862400.xyz
+  skip-cert-verify: false
+  sni: do-fra1.862400.xyz
+  tls: true
+  type: vless
+  uuid: b260fa83-d9e8-4ea9-bc42-c66cb56d9762
+  ws-opts:
+    headers:
+      Host: do-fra1.862400.xyz
+    path: /announcement?ed=2048
+- encryption: none
+  extra: '{"xPaddingBytes":"100-1000"}'
+  fp: edge
+  mode: auto
+  name: 9|🇩🇪 DE-9 | 8EB
+  network: xhttp
+  pbk: _yjvFc_kLzNeMqXXXgBSznVzSV_BbXUjXeVY5O7JAiM
+  port: 34560
+  reality-opts:
+    public-key: _yjvFc_kLzNeMqXXXgBSznVzSV_BbXUjXeVY5O7JAiM
+    server-name: www.oracle.com
+    short-id: a4f29e17c8b3d201
+  security: reality
+  server: germany.nksconnect.xyz
+  sid: a4f29e17c8b3d201
+  sni: www.oracle.com
+  tls: true
+  type: vless
+  uuid: 00c0c6fc-2958-4395-91c3-7e61422f671f
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇩🇪 DE-10 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.232.6
+  type: ss
+  udp: true
 - name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

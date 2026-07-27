@@ -1,78 +1,23 @@
 proxies:
-- allowInsecure: '1'
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
   headerType: none
-  insecure: '1'
   name: 9|🇯🇵 JP-1 | 8EB
   network: tcp
-  password: HK78346019
+  pbk: 0lV2JIB_MnqNEJBb8jNX6bIXjbHuGu05WmTw215bSWA
   port: 443
-  security: tls
-  server: hardy-seahorse.rooster465.autos
-  servername: hardy-seahorse.rooster465.autos
-  skip-cert-verify: true
-  sni: hardy-seahorse.rooster465.autos
-  type: trojan
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 9|🇯🇵 JP-2 | 8EB
-  network: tcp
-  password: AQ71834695
-  port: 443
-  security: tls
-  server: integral-elf.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.52.18
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  reality-opts:
+    public-key: 0lV2JIB_MnqNEJBb8jNX6bIXjbHuGu05WmTw215bSWA
+    server-name: jpsth4.nodeserv.xyz
+    short-id: f68a8d545ebf0272
+  security: reality
+  server: jpsth4.nodeserv.xyz
+  sid: f68a8d545ebf0272
+  sni: jpsth4.nodeserv.xyz
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 9|🇯🇵 JP-4 | 8EB
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.95.225.70
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-  type: hysteria2
-  udp: true
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇯🇵 JP-5 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 172.64.52.134
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: b4e99731-fa4f-4cc8-a848-95963dcb15a9
 - _auth: ''
   _network: tcp
   _path: ''

@@ -1,4 +1,23 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇪🇪 EE-1 | 8EB
+  network: tcp
+  pbk: W0FFuI6OCkQayDlddPwLFdav7yld0Ve8NhKgsv6Px2k
+  port: 443
+  reality-opts:
+    public-key: W0FFuI6OCkQayDlddPwLFdav7yld0Ve8NhKgsv6Px2k
+    server-name: eststth.nodeserv.xyz
+    short-id: f2888efa94c7f1fb
+  security: reality
+  server: eststth.nodeserv.xyz
+  sid: f2888efa94c7f1fb
+  sni: eststth.nodeserv.xyz
+  tls: true
+  type: vless
+  uuid: b4e99731-fa4f-4cc8-a848-95963dcb15a9
 - _auth: ''
   _network: tcp
   _path: ''
