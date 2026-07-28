@@ -1,53 +1,157 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇳🇱 NL-2 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 193.123.37.158
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 9|🇩🇪 DE-3 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: de.catxstar.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
+  fp: chrome
+  insecure: '1'
+  name: 9|🇨🇦 CA-1 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 2053
+  security: tls
+  server: 104.17.147.22
+  servername: ikk---7-MiTiVPN----o.kingnetwork.ir
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- allowInsecure: '1'
+  fp: chrome
+  headerType: none
+  insecure: '1'
+  name: 9|🇳🇴 NO-1 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  security: tls
+  server: oplosgru-c.catcat321.com
+  servername: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-9 | 8EB
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260302.hihidress.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇳🇱 NL-3 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 158.180.12.17
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-10 | 8EB
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260202.hihidress.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇬🇧 GB-1 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.227.140
-  type: ss
-  udp: true
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-3 | 8EB
+  network: tcp
+  password: IQ68037294
+  port: 443
+  security: tls
+  server: still-mastodon.rooster465.autos
+  servername: still-mastodon.rooster465.autos
+  skip-cert-verify: false
+  sni: still-mastodon.rooster465.autos
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇸🇬 SG-4 | 8EB
+  network: tcp
+  password: FC60532879
+  port: 443
+  security: tls
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇳🇴 NO-2 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇺🇸 US-13 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.1.194
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
 - cipher: chacha20-ietf-poly1305
   name: 9|🇬🇧 GB-2 | 8EB
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 144.24.225.28
+  server: 129.151.65.65
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇳🇱 NL-5 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 144.21.37.42
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-14 | 8EB
+  password: UR92KGabhQT2XWCm
+  port: 9121
+  server: 104.225.151.86
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇬🇧 GB-3 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.225.221
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-15 | 8EB
+  password: UR92KGabhQT2XWCm
+  port: 9121
+  server: 107.182.184.3
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇩🇪 DE-10 | 8EB
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.232.6
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇯🇵 JP-3 | 8EB
+  network: tcp
+  port: 9121
+  server: 206.190.234.18
+  tls: false
+  type: vmess
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇳🇱 NL-10 | 8EB
+  network: tcp
+  port: 9121
+  server: 162.248.76.145
+  tls: false
+  type: vmess
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05

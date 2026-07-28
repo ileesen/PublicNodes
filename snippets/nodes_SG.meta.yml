@@ -3,22 +3,77 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
   insecure: '0'
+  mode: gun
   name: 9|🇸🇬 SG-1 | 8EB
-  network: ws
-  port: 443
+  network: grpc
+  port: 36789
   security: tls
-  server: 172.64.41.202
-  servername: t1s1.rittbo.kdns.fr
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  serviceName: ljfxz
   skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
+  sni: t1.hhaakk9922.com
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
+  name: 9|🇸🇬 SG-2 | 8EB
+  network: grpc
+  port: 36786
+  security: tls
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.hhaakk9922.com
+  tls: true
+  type: vless
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 9|🇸🇬 SG-3 | 8EB
+  network: tcp
+  password: IQ68037294
+  port: 443
+  security: tls
+  server: still-mastodon.rooster465.autos
+  servername: still-mastodon.rooster465.autos
+  skip-cert-verify: false
+  sni: still-mastodon.rooster465.autos
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇸🇬 SG-4 | 8EB
+  network: tcp
+  password: FC60532879
+  port: 443
+  security: tls
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 9|🇸🇬 SG-5 | 8EB
+  password: ''
+  port: 20000
+  server: 101.33.74.115
+  type: socks
+  username: MTExOjExMQ
 - name: 10|🇸🇬 SG-1 | Mix
   password: admin
   port: 1080

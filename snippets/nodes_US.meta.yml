@@ -40,32 +40,11 @@ proxies:
   tls: true
   type: vless
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.38.101
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
 - encryption: none
   flow: xtls-rprx-vision
-  fp: random
+  fp: firefox
   headerType: none
-  name: 9|🇺🇸 US-4 | 8EB
+  name: 9|🇺🇸 US-3 | 8EB
   network: tcp
   pbk: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
   port: 443
@@ -82,125 +61,114 @@ proxies:
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - encryption: none
   flow: xtls-rprx-vision
-  fp: firefox
+  fp: chrome
+  headerType: none
+  name: 9|🇺🇸 US-4 | 8EB
+  network: tcp
+  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+  port: 13405
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    server-name: www.microsoft.com
+    short-id: a1b2c3d4
+  security: reality
+  server: zzus5.ainivp.com
+  sid: a1b2c3d4
+  sni: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   headerType: none
   name: 9|🇺🇸 US-5 | 8EB
   network: tcp
-  pbk: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-  port: 443
+  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+  port: 13403
   reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    server-name: storage.yandex.net
-    short-id: c76ba2c2fb172e8b
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    server-name: www.microsoft.com
+    short-id: a1b2c3d4
   security: reality
-  server: 154.193.55.183
-  sid: c76ba2c2fb172e8b
-  sni: storage.yandex.net
+  server: zzjp1.ainivp.com
+  sid: a1b2c3d4
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇺🇸 US-6 | 8EB
-  network: ws
-  port: 2083
-  security: tls
-  server: 162.159.45.201
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.45.15
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.159.41.198
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
 - encryption: none
   flow: xtls-rprx-vision
-  fp: firefox
+  fp: chrome
   headerType: none
-  name: 9|🇺🇸 US-9 | 8EB
+  name: 9|🇺🇸 US-6 | 8EB
   network: tcp
-  pbk: lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc
-  port: 14302
+  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+  port: 443
   reality-opts:
-    public-key: lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc
-    server-name: www.samsung.com
-    short-id: 106f1604d65bb70c
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    server-name: www.microsoft.com
+    short-id: a1b2c3d4
   security: reality
-  server: 77.110.125.101
-  sid: 106f1604d65bb70c
-  sni: www.samsung.com
+  server: mg1.ainivp.com
+  sid: a1b2c3d4
+  sni: www.microsoft.com
   tls: true
   type: vless
-  uuid: 1dd5f2be-f124-4f35-9239-8abc042829c2
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇺🇸 US-7 | 8EB
+  network: tcp
+  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+  port: 13405
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    server-name: www.microsoft.com
+    short-id: a1b2c3d4
+  security: reality
+  server: zzus2.ainivp.com
+  sid: a1b2c3d4
+  sni: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
 - allowInsecure: '0'
   client-fingerprint: chrome
   encryption: none
   fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
   insecure: '0'
-  name: 9|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 443
+  mode: gun
+  name: 9|🇺🇸 US-8 | 8EB
+  network: grpc
+  port: 46790
   security: tls
-  server: rvg-production-464c.up.railway.app
-  servername: rvg-production-464c.up.railway.app
+  server: t3.hhaakk9922.com
+  servername: t3.hhaakk9922.com
+  serviceName: ljfxz
   skip-cert-verify: false
-  sni: rvg-production-464c.up.railway.app
+  sni: t3.hhaakk9922.com
   tls: true
   type: vless
-  uuid: d0a0701e-9aef-972f-a69a-cad18aeb4426
-  ws-opts:
-    headers:
-      Host: rvg-production-464c.up.railway.app
-    path: /ws/d0a0701e-9aef-972f-a69a-cad18aeb4426
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-9 | 8EB
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260302.hihidress.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-10 | 8EB
+  password: c5Da6X2vZsM53zvT
+  port: 9810
+  server: hj260202.hihidress.com
+  type: ss
+  udp: true
 - _auth: ''
   _network: tcp
   _path: ''
@@ -208,10 +176,90 @@ proxies:
   _sni: ''
   name: 9|🇺🇸 US-11 | 8EB
   password: ''
-  port: 1080
-  server: 185.145.99.41
+  port: 38182
+  server: 69.55.49.177
   type: socks
-  username: dGVzdDEyMzp0ZXN0MTIz
+  username: Og
+- encryption: none
+  name: 9|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 80
+  security: none
+  server: naseza.tarfiq.ir
+  type: vless
+  uuid: 29eadf13-b054-40df-97bd-8aad33f0b729
+  ws-opts:
+    headers:
+      Host: teranko.global.ssl.fastly.net
+    path: /
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇺🇸 US-13 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.1.194
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-14 | 8EB
+  password: UR92KGabhQT2XWCm
+  port: 9121
+  server: 104.225.151.86
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|🇺🇸 US-15 | 8EB
+  password: UR92KGabhQT2XWCm
+  port: 9121
+  server: 107.182.184.3
+  type: ss
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇺🇸 US-16 | 8EB
+  network: tcp
+  pbk: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    server-name: portal.citygrainla.com
+    short-id: 051f20c2344a2dfd
+  security: reality
+  server: 104.243.26.124
+  sid: 051f20c2344a2dfd
+  sni: portal.citygrainla.com
+  tls: true
+  type: vless
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇺🇸 US-17 | 8EB
+  network: tcp
+  pbk: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    server-name: portal.citygrainla.com
+    short-id: 051f20c2344a2dfd
+  security: reality
+  server: 174.137.57.155
+  sid: 051f20c2344a2dfd
+  sni: portal.citygrainla.com
+  tls: true
+  type: vless
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
 - name: 10|🇺🇸 US-1 | Mix
   password: test123
   port: 1080

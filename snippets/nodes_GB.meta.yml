@@ -1,37 +1,28 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  insecure: '0'
+  mode: gun
   name: 9|🇬🇧 GB-1 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.227.140
-  type: ss
-  udp: true
+  network: grpc
+  port: 46784
+  security: tls
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  serviceName: ljfxz
+  skip-cert-verify: false
+  sni: t1.hhaakk9922.com
+  tls: true
+  type: vless
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
 - cipher: chacha20-ietf-poly1305
   name: 9|🇬🇧 GB-2 | 8EB
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 144.24.225.28
+  server: 129.151.65.65
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇬🇧 GB-3 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.225.221
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 14|GB_speednode_0001
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19

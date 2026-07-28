@@ -1,121 +1,46 @@
 proxies:
-- allowInsecure: '0'
+- allowInsecure: '1'
+  alpn:
+  - http/1.1
   client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
   fp: chrome
-  insecure: '0'
+  insecure: '1'
   name: 9|🇨🇦 CA-1 | 8EB
   network: ws
-  port: 443
+  password: MITIVPN
+  port: 2053
   security: tls
-  server: 172.64.145.186
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 104.17.147.22
+  servername: ikk---7-MiTiVPN----o.kingnetwork.ir
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
   ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- encryption: none
   name: 9|🇨🇦 CA-2 | 8EB
   network: ws
-  port: 443
-  security: tls
-  server: 162.159.12.210
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-3 | 8EB
-  network: ws
-  port: 8443
-  security: tls
-  server: 162.159.4.2
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-4 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: 162.159.10.87
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 9|🇨🇦 CA-5 | 8EB
-  network: ws
-  port: 443
-  security: tls
-  server: cf.877774.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  sni: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- encryption: none
-  name: 9|🇨🇦 CA-6 | 8EB
-  network: ws
-  port: 2095
+  port: 8880
   security: none
-  server: www.csgo.net
+  server: skk.moe
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 0de87762-7d50-49e7-a5ae-7ac85760e083
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.fangbinxing-wcnm.workers.dev
-    path: /
+      Host: delicate-fog-bbae.205-635.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: 9|🇨🇦 CA-3 | 8EB
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-002.fastervpn.world
+  tls:
+    enabled: true
+    insecure: true
+    server_name: vpn-ca-002.fastervpn.world
+  type: hysteria2
+  udp: true
 - _auth: ''
   _network: tcp
   _path: ''
