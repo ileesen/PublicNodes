@@ -1,23 +1,13 @@
 proxies:
-- allowInsecure: '0'
-  alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  insecure: '0'
-  mode: gun
-  name: 9|🇨🇭 CH-1 | 8EB
-  network: grpc
-  port: 8443
-  security: tls
-  server: fat-sp.arpozan.cloud
-  servername: fat-sp.arpozan.cloud
-  serviceName: grpc
-  skip-cert-verify: false
-  sni: fat-sp.arpozan.cloud
-  tls: true
-  type: vless
-  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
+- name: 9|🇨🇭 CH-1 | 8EB
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  tls:
+    enabled: true
+    insecure: true
+    server_name: devideo.h2corp.org
+  type: hysteria2
+  udp: true

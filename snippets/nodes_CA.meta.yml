@@ -17,18 +17,53 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- encryption: none
+- allowInsecure: '1'
+  insecure: '1'
   name: 9|🇨🇦 CA-2 | 8EB
   network: ws
-  port: 8880
-  security: none
-  server: skk.moe
-  type: vless
-  uuid: 0de87762-7d50-49e7-a5ae-7ac85760e083
+  password: MiTiVPN
+  port: 2087
+  security: tls
+  server: 104.18.6.178
+  servername: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  type: trojan
   ws-opts:
     headers:
-      Host: delicate-fog-bbae.205-635.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 8443
+  security: tls
+  server: ad-013.flux3ni5o.info
+  servername: ad-013.flux3ni5o.info
+  skip-cert-verify: false
+  sni: ad-013.flux3ni5o.info
+  tls: true
+  type: vless
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.flux3ni5o.info
+    path: /
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 9|🇨🇦 CA-4 | 8EB
+  password: ''
+  port: 10808
+  server: 144.217.12.20
+  type: socks
+  username: Og
 - _auth: ''
   _network: tcp
   _path: ''

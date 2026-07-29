@@ -24,26 +24,6 @@ proxies:
   name: 9|🇺🇸 US-1 | 8EB
   network: grpc
   pbk: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    server-name: dl.google.com
-    short-id: ''
-  security: reality
-  server: 72.56.38.194
-  serviceName: grpc-tunnel
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- encryption: none
-  fp: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  mode: gun
-  name: 9|🇺🇸 US-2 | 8EB
-  network: grpc
-  pbk: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   port: 9878
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
@@ -61,7 +41,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: firefox
   headerType: none
-  name: 9|🇺🇸 US-3 | 8EB
+  name: 9|🇺🇸 US-2 | 8EB
   network: tcp
   pbk: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
   port: 443
@@ -76,207 +56,44 @@ proxies:
   tls: true
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-4 | 8EB
-  network: tcp
-  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-  port: 13405
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    server-name: www.microsoft.com
-    short-id: a1b2c3d4
-  security: reality
-  server: zzus5.ainivp.com
-  sid: a1b2c3d4
-  sni: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-5 | 8EB
-  network: tcp
-  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-  port: 13403
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    server-name: www.microsoft.com
-    short-id: a1b2c3d4
-  security: reality
-  server: zzjp1.ainivp.com
-  sid: a1b2c3d4
-  sni: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-6 | 8EB
-  network: tcp
-  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-  port: 443
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    server-name: www.microsoft.com
-    short-id: a1b2c3d4
-  security: reality
-  server: mg1.ainivp.com
-  sid: a1b2c3d4
-  sni: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-7 | 8EB
-  network: tcp
-  pbk: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-  port: 13405
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    server-name: www.microsoft.com
-    short-id: a1b2c3d4
-  security: reality
-  server: zzus2.ainivp.com
-  sid: a1b2c3d4
-  sni: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  insecure: '0'
-  mode: gun
-  name: 9|🇺🇸 US-8 | 8EB
-  network: grpc
-  port: 46790
-  security: tls
-  server: t3.hhaakk9922.com
-  servername: t3.hhaakk9922.com
-  serviceName: ljfxz
-  skip-cert-verify: false
-  sni: t3.hhaakk9922.com
-  tls: true
-  type: vless
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
-- cipher: aes-256-gcm
-  name: 9|🇺🇸 US-9 | 8EB
-  password: c5Da6X2vZsM53zvT
-  port: 9810
-  server: hj260302.hihidress.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 9|🇺🇸 US-10 | 8EB
-  password: c5Da6X2vZsM53zvT
-  port: 9810
-  server: hj260202.hihidress.com
-  type: ss
-  udp: true
 - _auth: ''
   _network: tcp
   _path: ''
   _security: ''
   _sni: ''
-  name: 9|🇺🇸 US-11 | 8EB
+  name: 9|🇺🇸 US-3 | 8EB
   password: ''
-  port: 38182
-  server: 69.55.49.177
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: dGVzdDEyMzp0ZXN0MTIz
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 9|🇺🇸 US-4 | 8EB
+  password: ''
+  port: 1080
+  server: 23.175.248.21
   type: socks
   username: Og
-- encryption: none
-  name: 9|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 80
-  security: none
-  server: naseza.tarfiq.ir
-  type: vless
-  uuid: 29eadf13-b054-40df-97bd-8aad33f0b729
-  ws-opts:
-    headers:
-      Host: teranko.global.ssl.fastly.net
-    path: /
-- allowInsecure: '1'
-  insecure: '1'
-  name: 9|🇺🇸 US-13 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.1.194
-  servername: ssl.fastly.com
+- fingerprint: 471868e38abbb9a36e1e4410a1b356767ec27194e47846032b7a11aed19ada8e
+  mport: 50000-51000
+  name: 9|🇺🇸 US-5 | 8EB
+  password: 0ba5211f-fb2b-42a0-8e18-9ce7a41745a5
+  port: 50000
+  server: sg.xfj123.top
+  server_ports:
+  - 50000:51000
   skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=Sw
-- cipher: aes-256-gcm
-  name: 9|🇺🇸 US-14 | 8EB
-  password: UR92KGabhQT2XWCm
-  port: 9121
-  server: 104.225.151.86
-  type: ss
+  sni: sg.xfj123.top
+  tls:
+    enabled: true
+    insecure: true
+    server_name: sg.xfj123.top
+  type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  name: 9|🇺🇸 US-15 | 8EB
-  password: UR92KGabhQT2XWCm
-  port: 9121
-  server: 107.182.184.3
-  type: ss
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-16 | 8EB
-  network: tcp
-  pbk: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-  port: 443
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    server-name: portal.citygrainla.com
-    short-id: 051f20c2344a2dfd
-  security: reality
-  server: 104.243.26.124
-  sid: 051f20c2344a2dfd
-  sni: portal.citygrainla.com
-  tls: true
-  type: vless
-  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 9|🇺🇸 US-17 | 8EB
-  network: tcp
-  pbk: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-  port: 443
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    server-name: portal.citygrainla.com
-    short-id: 051f20c2344a2dfd
-  security: reality
-  server: 174.137.57.155
-  sid: 051f20c2344a2dfd
-  sni: portal.citygrainla.com
-  tls: true
-  type: vless
-  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
 - name: 10|🇺🇸 US-1 | Mix
   password: test123
   port: 1080

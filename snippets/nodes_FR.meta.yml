@@ -7,6 +7,38 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇫🇷 FR-1 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: false
+  sni: ov186.ochmaybrooooo.online
+  tls: true
+  type: vless
+  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- name: 9|🇫🇷 FR-2 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  tls:
+    enabled: true
+    insecure: true
+    server_name: bing.com
+  type: hysteria2
+  udp: true
 - _auth: ''
   _network: tcp
   _path: ''
