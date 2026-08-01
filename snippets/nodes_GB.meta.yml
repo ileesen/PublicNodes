@@ -29,6 +29,18 @@ proxies:
   tls: true
   type: vless
   uuid: 649291ba-27db-423a-a34b-6ddade44973f
+- name: 9|🇬🇧 GB-2 | 8EB
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga9.api3-max.ru
+  skip-cert-verify: false
+  sni: taga9.api3-max.ru
+  tls:
+    enabled: true
+    insecure: false
+    server_name: taga9.api3-max.ru
+  type: hysteria2
+  udp: true
 - allowInsecure: '0'
   client-fingerprint: chrome
   encryption: none
