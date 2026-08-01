@@ -1,36 +1,34 @@
 proxies:
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
   name: 9|🇫🇷 FR-1 | 8EB
-  network: ws
+  password: ''
+  port: 1088
+  server: 144.91.111.48
+  type: socks
+  username: Og
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
+  headerType: none
+  name: 9|🇫🇷 FR-2 | 8EB
+  network: tcp
+  pbk: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
   port: 443
-  security: tls
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  skip-cert-verify: false
-  sni: ov186.ochmaybrooooo.online
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    server-name: ukrop.mycdn-me.ru
+    short-id: 5a8e1a04f3d92b67
+  security: reality
+  server: 2.26.129.68
+  sid: 5a8e1a04f3d92b67
+  sni: ukrop.mycdn-me.ru
   tls: true
   type: vless
-  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
-- name: 9|🇫🇷 FR-2 | 8EB
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  tls:
-    enabled: true
-    insecure: true
-    server_name: bing.com
-  type: hysteria2
-  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
 - _auth: ''
   _network: tcp
   _path: ''

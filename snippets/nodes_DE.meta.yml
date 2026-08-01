@@ -9,6 +9,18 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 8|🇩🇪129617 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  skip-cert-verify: false
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
 - name: 8|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪7
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -19,71 +31,44 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪6
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: mY0pSnWDFk
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- allowInsecure: '0'
-  alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  insecure: '0'
-  mode: auto
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: qq
+  headerType: none
   name: 9|🇩🇪 DE-1 | 8EB
-  network: xhttp
+  network: tcp
+  pbk: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
   port: 443
-  security: tls
-  server: nl29.abvpn.net
-  servername: nl29.abvpn.net
-  skip-cert-verify: false
-  sni: nl29.abvpn.net
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    server-name: dedger.skorostnet.space
+    short-id: d67ec5a8fc40ebea
+  security: reality
+  server: dedger.skorostnet.space
+  sid: d67ec5a8fc40ebea
+  sni: dedger.skorostnet.space
   tls: true
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- allowInsecure: '1'
-  client-fingerprint: chrome
-  fp: chrome
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: firefox
   headerType: none
-  insecure: '1'
   name: 9|🇩🇪 DE-2 | 8EB
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: de.catxstar.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- encryption: none
-  fp: firefox
-  grpc-opts:
-    grpc-service-name: neurex
-  mode: gun
-  name: 9|🇩🇪 DE-3 | 8EB
-  network: grpc
-  pbk: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-  port: 16923
+  pbk: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
+  port: 443
   reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    server-name: api-maps.yandex.ru
-    short-id: 10ffb85da1c2d986
+    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
+    server-name: smorodina.mycdn-me.ru
+    short-id: a1f9c0e21d7b6485
   security: reality
-  server: 159.195.12.98
-  serviceName: neurex
-  sid: 10ffb85da1c2d986
-  sni: api-maps.yandex.ru
+  server: 2.26.135.189
+  sid: a1f9c0e21d7b6485
+  sni: smorodina.mycdn-me.ru
   tls: true
   type: vless
-  uuid: 753dd705-f4ae-4f76-9b78-0362a3039035
+  uuid: f055899d-026b-49b5-88ed-0227795082da
 - name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

@@ -1,80 +1,139 @@
 proxies:
-- encryption: none
-  fp: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  mode: gun
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
   name: 9|🇺🇸 US-1 | 8EB
-  network: grpc
-  pbk: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  port: 9878
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    server-name: dl.google.com
-    short-id: aabbccdd
-  security: reality
-  server: 5.42.106.202
-  serviceName: grpc-tunnel
-  sid: aabbccdd
-  sni: www.bing.com
+  network: ws
+  port: 25535
+  security: tls
+  server: 193.111.30.245
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  sni: sni.ehb.cc.cd
   tls: true
   type: vless
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  security: tls
+  server: 119.8.26.15
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  sni: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- allowInsecure: '0'
+  client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  fp: chrome
+  insecure: '0'
+  name: 9|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 43484
+  security: tls
+  server: 210.236.228.126
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  sni: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- _auth: ''
+  _network: tcp
+  _path: ''
+  _security: ''
+  _sni: ''
+  name: 9,10|🇸🇬 SG-3 | Mix
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks
+  username: ''
+- allowInsecure: '0'
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  fp: qq
+  insecure: '0'
+  mode: auto
+  name: 9|🇺🇸 US-6 | 8EB
+  network: xhttp
+  port: 443
+  security: tls
+  server: us2.denverpresents.top
+  servername: us2.denverpresents.top
+  skip-cert-verify: false
+  sni: us2.denverpresents.top
+  tls: true
+  type: vless
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+- encryption: none
+  name: 9|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 8880
+  security: none
+  server: 104.16.8.66
+  type: vless
+  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
+  ws-opts:
+    headers:
+      Host: long-breeze-5552.250-271.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - encryption: none
   flow: xtls-rprx-vision
-  fp: firefox
+  fp: ios
   headerType: none
-  name: 9|🇺🇸 US-2 | 8EB
+  name: 9|🇺🇸 US-8 | 8EB
   network: tcp
-  pbk: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+  pbk: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
   port: 443
   reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    server-name: storage.yandex.net
-    short-id: dbbe8dca27a92c35
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    server-name: yahoo.com
+    short-id: c39cc7310a
   security: reality
-  server: 154.193.55.183
-  sid: dbbe8dca27a92c35
-  sni: storage.yandex.net
+  server: 169.40.42.15
+  sid: c39cc7310a
+  sni: yahoo.com
   tls: true
   type: vless
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 9|🇺🇸 US-3 | 8EB
-  password: ''
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: dGVzdDEyMzp0ZXN0MTIz
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 9|🇺🇸 US-4 | 8EB
-  password: ''
-  port: 1080
-  server: 23.175.248.21
-  type: socks
-  username: Og
-- fingerprint: 471868e38abbb9a36e1e4410a1b356767ec27194e47846032b7a11aed19ada8e
-  mport: 50000-51000
-  name: 9|🇺🇸 US-5 | 8EB
-  password: 0ba5211f-fb2b-42a0-8e18-9ce7a41745a5
-  port: 50000
-  server: sg.xfj123.top
-  server_ports:
-  - 50000:51000
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 9|🇺🇸 US-9 | 8EB
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
   skip-cert-verify: true
-  sni: sg.xfj123.top
+  sni: quic.tyr-agentstvo.tech
   tls:
     enabled: true
     insecure: true
-    server_name: sg.xfj123.top
+    server_name: quic.tyr-agentstvo.tech
   type: hysteria2
   udp: true
 - name: 10|🇺🇸 US-1 | Mix
