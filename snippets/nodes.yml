@@ -1,46 +1,68 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 9|🇷🇺 RU-1 | 8EB
-  password: 81a20429165df87e
-  port: 10190
-  server: 195.133.23.200
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇧🇷 BR-1 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.57.58
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇧🇷 BR-2 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.225.9
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇧🇷 BR-3 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.191.165
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇧🇷 BR-4 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.114.47
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|🇧🇷 BR-5 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.45.154
-  type: ss
-  udp: true
+- allowInsecure: '0'
+  fp: chrome
+  headerType: none
+  insecure: '0'
+  name: 9|🇧🇱 BL-1 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  security: tls
+  server: oplosgru-c.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇭🇰 HK-2 | 8EB
+  network: tcp
+  port: 9006
+  server: select-hk.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇧🇩 BD-1 | 8EB
+  network: tcp
+  port: 11885
+  server: board-02.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 9027
+  server: select-us.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇮🇳 IN-1 | 8EB
+  network: tcp
+  port: 11973
+  server: board-04.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: 9|🇨🇦 CA-1 | 8EB
+  network: tcp
+  port: 11985
+  server: board-02.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
