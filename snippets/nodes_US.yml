@@ -1,4 +1,27 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸 US-6 | 8EB
+  password: 0w2SXgRXHtKQ0FKwGIzq0j
+  port: 5223
+  server: creativeboxde3.zanity.net
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇺🇸 US-10 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 104.26.2.173
+  servername: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b

@@ -9,16 +9,71 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@Daily_Configs
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: DSgrpvSRAu
+- allowInsecure: '0'
+  encryption: none
+  insecure: '0'
+  name: 9|🇩🇪 DE-1 | 8EB
+  network: ws
   port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
+  security: tls
+  server: 172.66.47.45
+  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  skip-cert-verify: false
+  sni: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  tls: true
+  type: vless
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  ws-opts:
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇩🇪 DE-2 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.226.94
+  type: ss
+  udp: true
+- allowInsecure: '0'
+  encryption: none
+  headerType: none
+  insecure: '0'
+  name: 9|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  security: tls
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  sni: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- name: 9|🇩🇪 DE-4 | 8EB
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  skip-cert-verify: false
+  sni: grape-sos-de.roxa.org
+  tls:
+    enabled: true
+    insecure: false
+    server_name: grape-sos-de.roxa.org
   type: hysteria2
+  udp: true
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇩🇪 DE-5 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: de.catxstar.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
 - name: 10|🇩🇪 DE-1 | Mix
   password: proxy
   port: 1080

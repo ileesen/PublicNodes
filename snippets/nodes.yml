@@ -1,11 +1,94 @@
 proxies:
+- allowInsecure: '0'
+  headerType: none
+  insecure: '0'
+  name: 9|🇮🇪 IE-1 | 8EB
+  network: tcp
+  password: UO36402987
+  port: 443
+  security: tls
+  server: definite-ladybird.rooster465.autos
+  servername: definite-ladybird.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-ladybird.rooster465.autos
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 9|🇸🇬 SG-1 | 8EB
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 168.107.72.137
+  name: 9|🇩🇪 DE-2 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.226.94
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇬🇧 GB-1 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.78.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇺🇸 US-6 | 8EB
+  password: 0w2SXgRXHtKQ0FKwGIzq0j
+  port: 5223
+  server: creativeboxde3.zanity.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇧🇷 BR-2 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.27.21
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇧🇷 BR-3 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.135.112
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  insecure: '1'
+  name: 9|🇺🇸 US-10 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 104.26.2.173
+  servername: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇩🇪 DE-5 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: de.catxstar.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇯🇵 JP-5 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  security: tls
+  server: oplosgru-c.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -127,66 +210,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|HK_speednode_0007
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 14|HK_speednode_0008
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 14|HK_speednode_0009
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0010
   password: ND91608427
   port: 443
-  server: definite-sturgeon.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
+  sni: upright-hamster.rooster465.autos
   type: trojan
   udp: true
-- name: 14|JP_speednode_0011
+- name: 14|IE_speednode_0009
   password: ND91608427
   port: 443
-  server: upright-impala.rooster465.autos
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: skilled-lioness.rooster465.autos
   type: trojan
   udp: true
-- name: 14|KR_speednode_0012
+- name: 14|LU_speednode_0012
   password: ND91608427
   port: 443
-  server: definite-malamute.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: 14|KR_speednode_0013
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 14|NL_speednode_0017
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
+  sni: eager-louse.rooster465.autos
   type: trojan
   udp: true

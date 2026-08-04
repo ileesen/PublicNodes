@@ -1,4 +1,93 @@
 proxies:
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇯🇵 JP-1 | 8EB
+  network: tcp
+  pbk: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
+  port: 32326
+  reality-opts:
+    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
+    server-name: www.mozilla.org
+    short-id: bc4zhuhai.uka
+  security: reality
+  server: jpvl.xinchenone.world
+  sid: bc4zhuhai.uka
+  sni: www.mozilla.org
+  tls: true
+  type: vless
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇯🇵 JP-2 | 8EB
+  network: tcp
+  pbk: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+  port: 32327
+  reality-opts:
+    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+    server-name: www.bing.com
+    short-id: cf61f7f0
+  security: reality
+  server: www.hjzhiliancafe.world
+  sid: cf61f7f0
+  sni: www.bing.com
+  tls: true
+  type: vless
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇯🇵 JP-3 | 8EB
+  network: tcp
+  pbk: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
+  port: 20502
+  reality-opts:
+    public-key: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
+    server-name: v1-dy.ixigua.com
+    short-id: 6ba85179e30d4fc2
+  security: reality
+  server: 87.76.198.214
+  sid: 6ba85179e30d4fc2
+  sni: v1-dy.ixigua.com
+  tls: true
+  type: vless
+  uuid: d054d90c-0ba9-47fe-ac83-f0011713c1c2
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  headerType: none
+  name: 9|🇯🇵 JP-4 | 8EB
+  network: tcp
+  pbk: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+  port: 443
+  reality-opts:
+    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+    server-name: www.bing.com
+    short-id: cf61f7f0
+  security: reality
+  server: www.hjzhiliancafe.world
+  sid: cf61f7f0
+  sni: www.bing.com
+  tls: true
+  type: vless
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- allowInsecure: '1'
+  headerType: none
+  insecure: '1'
+  name: 9|🇯🇵 JP-5 | 8EB
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  security: tls
+  server: oplosgru-c.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - _auth: ''
   _network: tcp
   _path: ''
@@ -45,19 +134,33 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14|JP_speednode_0010
-  password: ND91608427
-  port: 443
-  server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
-  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0010
+  network: tcp
+  port: 10053
+  reality-opts:
+    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+    short-id: cbbf64
+  server: family.bucket.9.kfc-520.com
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 14|JP_speednode_0011
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0011
+  network: tcp
+  port: 10005
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: 1974efea3b2148
+  server: family.bucket.4.kfc-520.com
+  servername: www.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
