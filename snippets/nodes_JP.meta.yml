@@ -88,28 +88,23 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+- encryption: none
+  fp: chrome
   name: 10|🇯🇵 JP-1 | Mix
-  password: ''
-  port: 10808
-  server: 101.36.104.239
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇯🇵 JP-2 | Mix
-  password: ''
-  port: 10808
-  server: 101.36.104.46
-  type: socks
-  username: ''
+  network: tcp
+  pbk: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+  port: 27407
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    server-name: bgcpartners.com
+    short-id: e6ac18b63f23
+  security: reality
+  server: 13.193.205.133
+  sid: e6ac18b63f23
+  sni: bgcpartners.com
+  tls: true
+  type: vless
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

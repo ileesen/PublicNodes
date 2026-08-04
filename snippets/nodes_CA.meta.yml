@@ -1,12 +1,19 @@
 proxies:
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   name: 10|🇨🇦 CA-1 | Mix
-  password: ''
-  port: 1088
-  server: 167.114.172.208
-  type: socks
-  username: ''
+  network: tcp
+  pbk: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
+  port: 5151
+  reality-opts:
+    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
+    server-name: www.yahoo.com
+    short-id: 69b851
+  security: reality
+  server: 185.206.170.69
+  sid: 69b851
+  sni: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5

@@ -47,7 +47,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 9|🇺🇸 US-2 | 8EB
+  name: 9,10|🇺🇸 US-3 | Mix
   network: tcp
   pbk: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
   port: 8443
@@ -155,7 +155,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: chrome
   headerType: none
-  name: 9|🇺🇸 US-9 | 8EB
+  name: 9,10|🇺🇸 US-8 | Mix
   network: tcp
   pbk: qF234wvXElaHj6cyG2NqyZyRfnn1IIBpCfwC93WkQzw
   port: 35457
@@ -186,67 +186,119 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 10|🇺🇸 US-1 | Mix
-  password: test123
-  port: 1080
-  server: 38.110.1.149
-  type: socks
-  username: test123
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇺🇸 US-2 | Mix
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
-  name: 10|🇺🇸 US-3 | Mix
-  password: ''
-  port: 1080
-  server: 141.148.158.143
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+- encryption: none
+  name: 10|🇺🇸 US-1 | Mix
+  network: ws
+  port: 443
+  security: tls
+  server: paul.ns.cloudflare.com
+  servername: ziro.skin
+  skip-cert-verify: false
+  sni: ziro.skin
+  tls: true
+  type: vless
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+    path: /xxvclws
+- name: 10|🇺🇸 US-2 | Mix
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  security: tls
+  server: oplosgru-c.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
   name: 10|🇺🇸 US-4 | Mix
-  password: ''
-  port: 1088
-  server: 204.48.29.137
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+  network: tcp
+  pbk: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
+  port: 443
+  reality-opts:
+    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
+    server-name: www.apple.com
+    short-id: 72f70ccc0c2568ef
+  security: reality
+  server: 103.94.185.145
+  sid: 72f70ccc0c2568ef
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+- encryption: none
   name: 10|🇺🇸 US-5 | Mix
-  password: ''
-  port: 1080
-  server: 152.53.209.196
-  type: socks
-  username: ''
-- _auth: ''
-  _network: tcp
-  _path: ''
-  _security: ''
-  _sni: ''
+  network: ws
+  port: 2096
+  security: tls
+  server: 104.17.70.206
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  sni: free-server.techsonic.dev
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- cipher: aes-128-gcm
   name: 10|🇺🇸 US-6 | Mix
-  password: ''
-  port: 1080
-  server: 107.151.148.153
-  type: socks
-  username: ''
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-7 | Mix
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- encryption: none
+  fp: chrome
+  grpc-opts:
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 10|🇺🇸 US-9 | Mix
+  network: grpc
+  pbk: y6Y9r_UgfGNRTNvk-42m4av_jGupyJINqHqbWeNG2EQ
+  port: 8443
+  reality-opts:
+    public-key: y6Y9r_UgfGNRTNvk-42m4av_jGupyJINqHqbWeNG2EQ
+    server-name: addons.mozilla.org
+    short-id: 530db35e324c3aa5
+  security: reality
+  server: ush.snowdnvpno4.com
+  serviceName: api.v1.telemetry.EventStream
+  sid: 530db35e324c3aa5
+  sni: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: ce54986e-1876-4afb-8b01-af90d4ed5832
+- encryption: none
+  flow: xtls-rprx-vision
+  fp: chrome
+  name: 10|🇺🇸 US-10 | Mix
+  network: tcp
+  pbk: 8-o5k2qfxM8oG3LdKKA3AFViLIQm-gCO2YiwNBz1d3s
+  port: 443
+  reality-opts:
+    public-key: 8-o5k2qfxM8oG3LdKKA3AFViLIQm-gCO2YiwNBz1d3s
+    server-name: usa01.port-server.online
+    short-id: e7d930d720f853d8
+  security: reality
+  server: usa01.port-server.online
+  sid: e7d930d720f853d8
+  sni: usa01.port-server.online
+  tls: true
+  type: vless
+  uuid: 45c876f9-4900-40c0-b269-94871e78df54
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
