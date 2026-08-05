@@ -58,21 +58,6 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: fdda9806fe5d8584
-  server: 185.23.239.129
-  servername: ger06.skorostnet.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
     public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
     short-id: bbc68cec8bb8d2e3
   server: node18.mxvpn.dev
@@ -84,7 +69,7 @@ proxies:
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -99,7 +84,7 @@ proxies:
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -112,3 +97,28 @@ proxies:
   type: vless
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+- name: 11|🇩🇪 DE-4 | Mix
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.215
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
+  type: hysteria2
+  udp: true
+- name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇩🇪 DE-6 | Mix
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.238.92
+  type: ss
+  udp: true

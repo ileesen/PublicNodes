@@ -91,26 +91,25 @@ proxies:
   server: 88.210.36.109
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-2 | Mix
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 172.245.233.237
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
+  udp: true
+- flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-4 | Mix
   network: tcp
   port: 443
-  server: guanwang.awsno.com
-  tls:
-    enabled: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 11|🇺🇸 US-3 | Mix
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: Hkdcrtc-e.catcat321.com
+  server: usamd1.95318.cf
+  servername: usamd1.95318.cf
   skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb968e21-757f-4c99-afd7-c936e67e1766
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
