@@ -26,7 +26,18 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- name: 11|🇺🇸 US-3 | Mix
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  tls:
+    enabled: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 11|🇺🇸 US-4 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -35,7 +46,7 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- name: 11|🇺🇸 US-4 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -44,7 +55,7 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-8 | Mix
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   security: tls

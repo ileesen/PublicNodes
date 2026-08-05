@@ -13,6 +13,14 @@ proxies:
   udp: true
   uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
 - name: 11|🇯🇵 JP-1 | Mix
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo101-cdn-route.couldflare-cdn.com
+  tls:
+    enabled: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 11|🇯🇵 JP-2 | Mix
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 44139
   security: tls
@@ -43,33 +51,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|JP_speednode_0010
-  network: tcp
-  port: 10053
-  reality-opts:
-    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
-    short-id: cbbf64
-  server: family.bucket.9.kfc-520.com
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|JP_speednode_0011
-  network: tcp
-  port: 10005
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: 1974efea3b2148
-  server: family.bucket.4.kfc-520.com
-  servername: www.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7

@@ -61,7 +61,18 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- name: 11|🇺🇸 US-3 | Mix
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  tls:
+    enabled: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 11|🇺🇸 US-4 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -77,7 +88,7 @@ proxies:
   server: 195.133.5.207
   type: ss
   udp: true
-- name: 11|🇺🇸 US-4 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -93,7 +104,7 @@ proxies:
   server: 62.76.234.75
   type: ss
   udp: true
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-8 | Mix
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   security: tls
@@ -102,7 +113,7 @@ proxies:
   skip-cert-verify: true
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
-- name: 11|🇯🇵 JP-1 | Mix
+- name: 11|🇯🇵 JP-2 | Mix
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 44139
   security: tls
@@ -237,27 +248,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|HK_speednode_0008
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 15|IE_speednode_0009
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: 15|LU_speednode_0012
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
-  type: trojan
-  udp: true
