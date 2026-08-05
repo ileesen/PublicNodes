@@ -1,6 +1,29 @@
 proxies:
-- client-fingerprint: firefox
+- allowInsecure: '1'
   name: 10|🇯🇵 JP-1 | 8EB
+  password: aa3c486e-6a1c-470e-b248-e6c55998206d
+  port: 3488
+  server: c1.bestai.beauty
+  skip-cert-verify: true
+  sni: c1.bestai.beauty
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  port: 27407
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: e6ac18b63f23
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+- client-fingerprint: firefox
+  name: 10|🇯🇵 JP-3 | 8EB
   network: tcp
   port: 443
   reality-opts:

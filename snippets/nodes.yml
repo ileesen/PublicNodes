@@ -1,47 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇳🇱 NL-1 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 134.98.138.214
+  name: 10|🇳🇱 NL-4 | 8EB
+  password: FPLQa3tXOMxNKC4_Q3Dy5ZFDRoweUbi8
+  port: 36937
+  server: 176.65.151.212
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇳🇱 NL-2 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 143.47.189.82
+  name: 10|🇧🇷 BR-2 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.198.213
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇳🇱 NL-3 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 134.98.157.176
+- cipher: aes-256-gcm
+  name: 10|🇭🇰 HK-2 | 8EB
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇳🇱 NL-5 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 92.5.233.51
-  type: ss
-  udp: true
-- name: 10|🇺🇸 US-6 | 8EB
+- name: 10|🇺🇸 US-4 | 8EB
   network: tcp
-  password: UaQmDQajuW
-  port: 55523
+  password: 0c946396-6336-40c3-a161-fcb6bec776ce
+  port: 11949
   security: tls
-  server: 185.132.54.106
-  servername: b32-10.cmj0502.cn
+  server: los.chihirokk.online
+  servername: los.chihirokk.online
   skip-cert-verify: false
-  sni: b32-10.cmj0502.cn
+  sni: los.chihirokk.online
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-1 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.81.102
+  name: 10|🇧🇷 BR-3 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.15.231
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10,11|🇷🇺 RU-1 | Mix
+  password: bdb313adf74c2ede
+  port: 20916
+  server: 195.133.5.207
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -52,18 +52,9 @@ proxies:
   server: 88.210.36.109
   type: ss
   udp: true
-- name: 11|🇺🇸 US-2 | Mix
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  security: tls
-  server: oplosgru-c.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -72,39 +63,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 11|🇺🇸 US-4 | Mix
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 11|🇷🇺 RU-1 | Mix
-  password: bdb313adf74c2ede
-  port: 20916
-  server: 195.133.5.207
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-5 | Mix
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 11|🇮🇹 IT-2 | Mix
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.75
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   security: tls
@@ -120,13 +79,6 @@ proxies:
   server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇧🇷 BR-1 | Mix
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 147.15.93.150
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

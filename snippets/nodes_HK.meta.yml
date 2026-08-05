@@ -1,4 +1,29 @@
 proxies:
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+- cipher: aes-256-gcm
+  name: 10|🇭🇰 HK-2 | 8EB
+  password: WWMo8FMXNGLs
+  port: 8388
+  server: 212.192.15.13
+  type: ss
+  udp: true
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

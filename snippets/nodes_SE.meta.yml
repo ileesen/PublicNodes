@@ -22,46 +22,35 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 11|🇸🇪 SE-1 | Mix
-  network: tcp
+- grpc-opts:
+    grpc-service-name: vlgrpc
+  mode: gun
+  name: 10|🇸🇪 SE-1 | 8EB
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.49
-  servername: pro-se.emrata.top
+  server: srv-5728.atlanta-games.com
+  servername: srv-5728.atlanta-games.com
+  serviceName: vlgrpc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-- client-fingerprint: chrome
-  name: 11|🇸🇪 SE-2 | Mix
+  uuid: 843b7f51-16cc-42ca-a047-8d32879ff1e5
+- client-fingerprint: ios
+  name: 10|🇸🇪 SE-2 | 8EB
   network: tcp
-  port: 443
+  port: 1000
   reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.73
-  servername: pro-se.emrata.top
+    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
+    short-id: a62d513cd709744a
+  server: teain.org
+  servername: knox.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-- client-fingerprint: chrome
-  name: 11|🇸🇪 SE-3 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
-- name: 11|🇸🇪 SE-5 | Mix
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+- name: 11|🇸🇪 SE-1 | Mix
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: swe-one.quiet-rogue.site
