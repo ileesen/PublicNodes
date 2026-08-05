@@ -89,7 +89,40 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 10|🇺🇸 US-2 | Mix
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)88a027c:14333
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)502d36f:25488
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  plugin-opts:
+    obfs: tls
+    obfs-host: (Telegram🇨🇳 @WangCai2)953e517:89692
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-5 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -99,13 +132,13 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
 - cipher: aes-128-gcm
-  name: 10|🇺🇸 US-6 | Mix
+  name: 10|🇺🇸 US-9 | Mix
   password: xo6k84l7b00n2hJp
   port: 57841
   server: 23.185.200.135
   type: ss
   udp: true
-- name: 10|🇺🇸 US-7 | Mix
+- name: 10|🇺🇸 US-10 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -146,7 +179,7 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 50887
+  port: 17111
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -154,24 +187,24 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.166.225.67
+  port: 50115
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 16.163.150.174
+  port: 11231
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 18.166.225.67
+  port: 4099
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -179,7 +212,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
-  server: 18.163.100.58
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -188,13 +221,13 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
   server: 18.163.100.58
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 32434
+  port: 51396
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -204,14 +237,14 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.163.150.174
+  port: 26704
+  server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -234,8 +267,8 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
