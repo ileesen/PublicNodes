@@ -62,34 +62,22 @@ proxies:
   name: 10|🇬🇧 GB-1 | 8EB
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 129.151.78.215
+  server: 129.151.81.102
   type: ss
   udp: true
-- allowInsecure: '0'
-  alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: xhttp
-  port: 2083
-  security: tls
-  server: ip.feywebsite.ir
-  servername: gb.feyland.ir
+- client-fingerprint: chrome
+  name: 11|🇬🇧 GB-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
+  server: 2.26.127.12
+  servername: pro-uk.emrata.top
   skip-cert-verify: false
-  sni: gb.feyland.ir
   tls: true
   type: vless
-  uuid: b91abe1a-80ca-417b-998b-2b542661c16f
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇬🇧 GB-1 | Mix
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.76.103
-  type: ss
   udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|GB_speednode_0004

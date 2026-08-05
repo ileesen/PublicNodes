@@ -21,126 +21,89 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- encryption: none
+- client-fingerprint: chrome
   name: 10|🇷🇺 RU-1 | 8EB
   network: ws
-  port: 2200
-  security: none
-  server: 77.222.37.89
-  type: vless
-  uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: rpc.v2.FeedService
-  name: 11|🇷🇺 RU-1 | Mix
-  network: grpc
-  pbk: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
   port: 443
-  reality-opts:
-    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
-    server-name: api.univesalsrv.com
-    short-id: 93762a4ddf178703
-  security: reality
-  server: 83.217.192.233
-  serviceName: rpc.v2.FeedService
-  sid: 93762a4ddf178703
-  sni: api.univesalsrv.com
-  tls: true
-  type: vless
-  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 11|🇷🇺 RU-2 | Mix
-  network: tcp
-  pbk: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
-  port: 8443
-  reality-opts:
-    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
-    server-name: reserve-node.dylariz.ru
-    short-id: f9db06260afa
-  security: reality
-  server: reserve-node.dylariz.ru
-  sid: f9db06260afa
-  sni: reserve-node.dylariz.ru
-  tls: true
-  type: vless
-  uuid: 36347721-d014-7532-8acd-c3b798f417a8
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: rpc.v2.FeedService
-  name: 11|🇷🇺 RU-3 | Mix
-  network: grpc
-  pbk: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
-  port: 443
-  reality-opts:
-    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
-    server-name: api.univesalsrv.com
-    short-id: 93762a4ddf178703
-  security: reality
-  server: api.univesalsrv.com
-  serviceName: rpc.v2.FeedService
-  sid: 93762a4ddf178703
-  sni: api.univesalsrv.com
-  tls: true
-  type: vless
-  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 11|🇷🇺 RU-4 | Mix
-  network: tcp
-  pbk: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
-  port: 443
-  reality-opts:
-    public-key: 4cG01BPepPVFkwZcHzXzVXEHhA72Seko8oFLcPIVEzM
-    server-name: master-node.dylariz.ru
-    short-id: 154ebd513e2751
-  security: reality
-  server: master-node.dylariz.ru
-  sid: 154ebd513e2751
-  sni: master-node.dylariz.ru
-  tls: true
-  type: vless
-  uuid: 36347721-d014-4e21-8acd-c3b798f417a8
-- encryption: none
-  name: 11|🇷🇺 RU-5 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: wstg.datasynctrue.online
-  servername: ''
+  server: ctcc.cloudflare.seeck.cn
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- cipher: aes-256-gcm
+  name: 11|🇷🇺 RU-1 | Mix
+  password: bdb313adf74c2ede
+  port: 20916
+  server: 195.133.5.207
+  type: ss
+  udp: true
+- ed: '2560'
+  eh: Sec-WebSocket-Protocol
+  name: 11|🇷🇺 RU-2 | Mix
+  network: ws
+  pcs: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
+  port: 443
+  server: 51.250.47.71
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- ed: '2560'
+  eh: Sec-WebSocket-Protocol
+  name: 11|🇷🇺 RU-3 | Mix
+  network: ws
+  pcs: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
+  port: 443
+  server: 51.250.21.132
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- name: 11|🇷🇺 RU-4 | Mix
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
   ws-opts:
     headers:
       Host: wstg.datasynctrue.online
     path: /api/connect
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 11|🇷🇺 RU-6 | Mix
-  network: grpc
-  pbk: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+- ed: '2560'
+  eh: Sec-WebSocket-Protocol
+  name: 11|🇷🇺 RU-5 | Mix
+  network: ws
+  pcs: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
   port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    server-name: media2.tcpdoor.net
-    short-id: 3303c7a5
-  security: reality
-  server: 194.93.0.28
-  serviceName: grpc
-  sid: 3303c7a5
-  sni: media2.tcpdoor.net
+  server: 185.91.52.86
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  udp: true
+  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket

@@ -31,211 +31,114 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- encryption: none
-  headerType: none
-  name: 10,15|US_speednode_0059
-  network: tcp
+- name: 10|🇺🇸 US-1 | 8EB
+  network: ws
   port: 443
-  security: none
-  server: 45.78.73.241
+  server: 104.194.66.92
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10,11|🇺🇸 US-6 | Mix
-  network: tcp
-  pbk: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
-  port: 8443
-  reality-opts:
-    public-key: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
-    server-name: sb.music.apple.com
-    short-id: 8a7be6783eae0fe3
-  security: reality
-  server: 216.24.191.214
-  sid: 8a7be6783eae0fe3
-  sni: sb.music.apple.com
   tls: true
   type: vless
-  uuid: bc3dd3d6-0684-4852-bff8-07c0b741aa08
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: cdn.9889888.xyz
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  pbk: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
-  port: 16565
-  reality-opts:
-    public-key: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
-    server-name: yulife.com
-    short-id: 373e14d458
-  security: reality
-  server: 94.124.119.187
-  sid: 373e14d458
-  sni: yulife.com
+  network: ws
+  port: 443
+  server: 104.18.47.63
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 8a3756ec-179b-48fe-b861-27c0287710ae
-- name: 10|🇺🇸 US-4 | 8EB
-  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
-  port: 25379
-  server: uswx3.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.184#美国3@wxgqlfx
-  tls:
-    enabled: true
-    insecure: true
-    server_name: 144.225.187.184#美国3@wxgqlfx
-  type: hysteria2
   udp: true
-- allowInsecure: '0'
-  client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  insecure: '0'
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: 104.17.17.201
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-5 | 8EB
   network: ws
   port: 443
-  security: tls
-  server: 188.114.97.3
-  servername: support.zoom.us.yxls.eu.cc
+  server: store.ubi.com
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
   skip-cert-verify: false
-  sni: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-6 | 8EB
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  type: ss
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: firefox
-  headerType: none
-  name: 10|🇺🇸 US-7 | 8EB
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- name: 10|🇺🇸 US-6 | 8EB
   network: tcp
-  pbk: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-  port: 443
-  reality-opts:
-    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-    server-name: findmypackets.com
-    short-id: 64c1fe36c7846400
-  security: reality
-  server: 212.104.141.166
-  sid: 64c1fe36c7846400
-  sni: findmypackets.com
-  tls: true
-  type: vless
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- name: 10|🇺🇸 US-8 | 8EB
-  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-  port: 25379
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153#美国4@wxgqlfx
-  tls:
-    enabled: true
-    insecure: true
-    server_name: 144.225.187.153#美国4@wxgqlfx
-  type: hysteria2
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10,11|🇺🇸 US-11 | Mix
-  network: tcp
-  pbk: qF234wvXElaHj6cyG2NqyZyRfnn1IIBpCfwC93WkQzw
-  port: 35457
-  reality-opts:
-    public-key: qF234wvXElaHj6cyG2NqyZyRfnn1IIBpCfwC93WkQzw
-    server-name: docs.gitlab.com
-    short-id: 4e0d9aed
-  security: reality
-  server: 64.186.249.53
-  sid: 4e0d9aed
-  sni: docs.gitlab.com
-  tls: true
-  type: vless
-  uuid: 66a40282-0fab-456f-abbe-1104ea5b89ef
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
+  password: UaQmDQajuW
+  port: 55523
   security: tls
-  server: 104.26.2.173
-  servername: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  server: 185.132.54.106
+  servername: b32-10.cmj0502.cn
+  skip-cert-verify: false
+  sni: b32-10.cmj0502.cn
   type: trojan
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: 152.70.119.78
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
   ws-opts:
     headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)88a027c:14333
   port: 2377
   server: 88.210.36.109
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)502d36f:25488
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)953e517:89692
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- encryption: none
-  name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 443
-  security: tls
-  server: paul.ns.cloudflare.com
-  servername: ziro.skin
-  skip-cert-verify: false
-  sni: ziro.skin
-  tls: true
-  type: vless
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: ziro.skin
-    path: /xxvclws
-- name: 11|🇺🇸 US-5 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -244,48 +147,7 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 11|🇺🇸 US-7 | Mix
-  network: tcp
-  pbk: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
-  port: 443
-  reality-opts:
-    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
-    server-name: www.apple.com
-    short-id: 72f70ccc0c2568ef
-  security: reality
-  server: 103.94.185.145
-  sid: 72f70ccc0c2568ef
-  sni: www.apple.com
-  tls: true
-  type: vless
-  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
-- encryption: none
-  name: 11|🇺🇸 US-8 | Mix
-  network: ws
-  port: 2096
-  security: tls
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  sni: free-server.techsonic.dev
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 US-9 | Mix
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -294,44 +156,82 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: api.v1.telemetry.EventStream
-  name: 11|🇺🇸 US-12 | Mix
-  network: grpc
-  pbk: y6Y9r_UgfGNRTNvk-42m4av_jGupyJINqHqbWeNG2EQ
-  port: 8443
-  reality-opts:
-    public-key: y6Y9r_UgfGNRTNvk-42m4av_jGupyJINqHqbWeNG2EQ
-    server-name: addons.mozilla.org
-    short-id: 530db35e324c3aa5
-  security: reality
-  server: ush.snowdnvpno4.com
-  serviceName: api.v1.telemetry.EventStream
-  sid: 530db35e324c3aa5
-  sni: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: ce54986e-1876-4afb-8b01-af90d4ed5832
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 11|🇺🇸 US-13 | Mix
+- name: 11|🇺🇸 US-4 | Mix
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-5 | Mix
   network: tcp
-  pbk: 8-o5k2qfxM8oG3LdKKA3AFViLIQm-gCO2YiwNBz1d3s
   port: 443
   reality-opts:
-    public-key: 8-o5k2qfxM8oG3LdKKA3AFViLIQm-gCO2YiwNBz1d3s
-    server-name: usa01.port-server.online
-    short-id: e7d930d720f853d8
-  security: reality
-  server: usa01.port-server.online
-  sid: e7d930d720f853d8
-  sni: usa01.port-server.online
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 45c876f9-4900-40c0-b269-94871e78df54
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+- name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 162.159.39.191
+  servername: usa_multi.mygoldiran.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76792e97-ee95-4d29-86da-347362d491f2
+  ws-opts:
+    headers:
+      Host: usa_multi.mygoldiran.com
+    path: /idea
+- name: 11|🇺🇸 US-7 | Mix
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: x4g-production-ff3b.up.railway.app
+  servername: x4g-production-ff3b.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6c0bb23-627f-a8c4-0c88-c51d224dafe4
+  ws-opts:
+    headers:
+      Host: x4g-production-ff3b.up.railway.app
+    path: /ws/c6c0bb23-627f-a8c4-0c88-c51d224dafe4
+- alpn:
+  - h2
+  - http/1.1
+  grpc-opts:
+    grpc-service-name: slips.stepson.ir
+  mode: multi
+  name: 11|🇺🇸 US-9 | Mix
+  network: grpc
+  port: 2096
+  server: 104.16.174.120
+  servername: slips.stepson.ir
+  serviceName: slips.stepson.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0481cdac-8ccc-4694-b4c8-74a1b01a16c9
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -379,6 +279,14 @@ proxies:
   type: http
   udp: true
   username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: 15|US_speednode_0059
+  port: 443
+  server: 45.78.73.241
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
 - name: 15|US_speednode_0060
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443

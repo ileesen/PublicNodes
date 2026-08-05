@@ -1,128 +1,58 @@
 proxies:
-- allowInsecure: '0'
-  headerType: none
-  insecure: '0'
-  name: 10|🇮🇪 IE-1 | 8EB
-  network: tcp
-  password: UO36402987
-  port: 443
-  security: tls
-  server: definite-ladybird.rooster465.autos
-  servername: definite-ladybird.rooster465.autos
-  skip-cert-verify: false
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇩🇪 DE-2 | 8EB
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.226.94
+  name: 10|🇳🇱 NL-1 | 8EB
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 134.98.138.214
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇳🇱 NL-2 | 8EB
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 143.47.189.82
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇳🇱 NL-3 | 8EB
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 134.98.157.176
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇳🇱 NL-5 | 8EB
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 92.5.233.51
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
+  password: UaQmDQajuW
+  port: 55523
+  security: tls
+  server: 185.132.54.106
+  servername: b32-10.cmj0502.cn
+  skip-cert-verify: false
+  sni: b32-10.cmj0502.cn
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 10|🇬🇧 GB-1 | 8EB
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 129.151.78.215
+  server: 129.151.81.102
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-6 | 8EB
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-2 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.27.21
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-3 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.135.112
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 104.26.2.173
-  servername: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: de.catxstar.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  security: tls
-  server: oplosgru-c.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)88a027c:14333
   port: 2377
   server: 88.210.36.109
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)502d36f:25488
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)953e517:89692
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-5 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -131,14 +61,7 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 US-9 | Mix
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -147,18 +70,50 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇬🇧 GB-1 | Mix
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.76.103
+- cipher: aes-256-gcm
+  name: 11|🇷🇺 RU-1 | Mix
+  password: bdb313adf74c2ede
+  port: 20916
+  server: 195.133.5.207
   type: ss
   udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 11|🇮🇹 IT-2 | Mix
+  password: d1fa2f4b98a38bc8
+  port: 10901
+  server: 62.76.234.75
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+- name: 11|🇯🇵 JP-1 | Mix
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 44139
+  security: tls
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇩🇪 DE-4 | Mix
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.178.208
+  name: 11|🇧🇷 BR-1 | Mix
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.93.150
   type: ss
   udp: true
 - cipher: aes-256-cfb

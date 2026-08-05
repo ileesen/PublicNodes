@@ -1,110 +1,24 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
+- client-fingerprint: firefox
   name: 10|🇯🇵 JP-1 | 8EB
   network: tcp
-  pbk: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
-  port: 32326
-  reality-opts:
-    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
-    server-name: www.mozilla.org
-    short-id: bc4zhuhai.uka
-  security: reality
-  server: jpvl.xinchenone.world
-  sid: bc4zhuhai.uka
-  sni: www.mozilla.org
-  tls: true
-  type: vless
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  pbk: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
-  port: 32327
-  reality-opts:
-    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
-    server-name: www.bing.com
-    short-id: cf61f7f0
-  security: reality
-  server: www.hjzhiliancafe.world
-  sid: cf61f7f0
-  sni: www.bing.com
-  tls: true
-  type: vless
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  pbk: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
-  port: 20502
-  reality-opts:
-    public-key: 76SU9ZkANPusbBXTVyF7XoQqlxFm8JHI_YT6VyGqzjU
-    server-name: v1-dy.ixigua.com
-    short-id: 6ba85179e30d4fc2
-  security: reality
-  server: 87.76.198.214
-  sid: 6ba85179e30d4fc2
-  sni: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  uuid: d054d90c-0ba9-47fe-ac83-f0011713c1c2
-- encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
-  headerType: none
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  pbk: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
   port: 443
   reality-opts:
-    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
-    server-name: www.bing.com
-    short-id: cf61f7f0
-  security: reality
-  server: www.hjzhiliancafe.world
-  sid: cf61f7f0
-  sni: www.bing.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
-- allowInsecure: '1'
-  headerType: none
-  insecure: '1'
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+- name: 11|🇯🇵 JP-1 | Mix
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 44139
   security: tls
-  server: oplosgru-c.catcat321.com
-  servername: hk.catxstar.com
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  sni: hk.catxstar.com
   type: trojan
-- encryption: none
-  fp: chrome
-  name: 11|🇯🇵 JP-1 | Mix
-  network: tcp
-  pbk: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
-  port: 27407
-  reality-opts:
-    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
-    server-name: bgcpartners.com
-    short-id: e6ac18b63f23
-  security: reality
-  server: 13.193.205.133
-  sid: e6ac18b63f23
-  sni: bgcpartners.com
-  tls: true
-  type: vless
-  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

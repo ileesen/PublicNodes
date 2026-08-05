@@ -1,61 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-6 | 8EB
-  password: 0w2SXgRXHtKQ0FKwGIzq0j
-  port: 5223
-  server: creativeboxde3.zanity.net
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  insecure: '1'
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
+- name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
+  password: UaQmDQajuW
+  port: 55523
   security: tls
-  server: 104.26.2.173
-  servername: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  server: 185.132.54.106
+  servername: b32-10.cmj0502.cn
+  skip-cert-verify: false
+  sni: b32-10.cmj0502.cn
   type: trojan
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)88a027c:14333
   port: 2377
   server: 88.210.36.109
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-2 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)502d36f:25488
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-3 | Mix
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs-local
-  plugin-opts:
-    obfs: tls
-    obfs-host: (Telegram🇨🇳 @WangCai2)953e517:89692
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-5 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   security: tls
@@ -64,14 +26,7 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 US-9 | Mix
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   security: tls
@@ -79,6 +34,24 @@ proxies:
   servername: hk.catxstar.com
   skip-cert-verify: false
   sni: hk.catxstar.com
+  type: trojan
+- name: 11|🇺🇸 US-4 | Mix
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- name: 11|🇺🇸 US-7 | Mix
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  security: tls
+  server: hkdcrtc-e.catcat321.com
+  servername: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
