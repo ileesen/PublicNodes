@@ -60,15 +60,8 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪135238 | ⚡️Telegram = t.me/S...
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: soskeynets-degame.bangboonet.ru
-  sni: node-degame.bangboonet.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: 10,11|🇩🇪 DE-5 | Mix
+  name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
   port: 443
   server: 217.60.193.1
@@ -78,55 +71,3 @@ proxies:
   type: vless
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node18.mxvpn.dev
-  servername: node18.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node17.mxvpn.dev
-  servername: node17.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node20.mxvpn.dev
-  servername: node20.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇩🇪 DE-6 | Mix
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.238.92
-  type: ss
-  udp: true

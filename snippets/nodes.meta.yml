@@ -314,7 +314,7 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: 8,11|🇳🇱 NL-2 | Mix
+- name: '8|荷兰 #1'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.66
@@ -322,7 +322,6 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-  udp: true
 - name: 8|JP
   password: STYyftThFn
   port: 12765
@@ -395,7 +394,7 @@ proxies:
   sni: www.amazon.com
   tls: false
   type: hysteria2
-- name: 8,9|33@oneclickvpnkeys
+- name: 8,9|🪁33@oneclickvpnkeys
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -445,14 +444,7 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 9|🇩🇪135238 | ⚡️Telegram = t.me/S...
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: soskeynets-degame.bangboonet.ru
-  sni: node-degame.bangboonet.ru
-  tls: false
-  type: hysteria2
-- name: 9|️️@ATLAS_V2VPN️️491️
+- name: 9|️@ATLAS_V2VPN️️491️
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 4z2oldt85p494bgb
@@ -493,7 +485,7 @@ proxies:
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-- name: 9,11|🇩🇪 DE-4 | Mix
+- name: 9|2@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.215
@@ -501,7 +493,6 @@ proxies:
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-  udp: true
 - name: 9|💫23@oneclickvpnkeys
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
@@ -560,6 +551,14 @@ proxies:
   server: 51.44.213.137
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 9|🇨135335 | ⚡️Telegram = t.me/SO...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: 9|Proxy_mtm 5
@@ -644,7 +643,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9,11|🇫🇮 FI-2 | Mix
+- name: 9|را ال ای   TelegramID Express_...
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
   password: ik0zt621uw9iqvsi
@@ -654,7 +653,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-  udp: true
 - name: 9|برای اتصال دائمی جوین شو🍘 Tele...
   obfs: salamander
   obfs-password: 527zd9w4nuaccd7g
@@ -772,7 +770,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  name: 10,11|🇩🇪 DE-5 | Mix
+  name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
   port: 443
   server: 217.60.193.1
@@ -811,14 +809,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   type: hysteria2
   udp: true
-- name: 11|🇦🇺 AU-1 | Mix
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 52.63.178.231
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -827,134 +817,278 @@ proxies:
   server: 88.210.36.109
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node18.mxvpn.dev
-  servername: node18.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node17.mxvpn.dev
-  servername: node17.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node20.mxvpn.dev
-  servername: node20.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- flow: xtls-rprx-vision
-  name: 11|🇫🇮 FI-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: node16.mxvpn.dev
-  servername: node16.mxvpn.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- name: 11|🇺🇸 US-2 | Mix
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-  udp: true
-- name: 11|🇳🇱 NL-1 | Mix
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
-- name: 11|🇫🇷 FR-1 | Mix
-  obfs: salamander
-  obfs-password: T@T*FP7uq=!t
-  password: f64c72a1-7e1f-4dd1-8929-7e41682542e2
-  port: 10086
-  server: fr2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: fr2.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: hht.hhlldjc.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
-  ws-opts:
-    headers:
-      Host: hht.hhlldjc.kdns.fr
-    path: /
-- name: 11|🇨🇴 CO-1 | Mix
-  network: tcp
-  port: 62145
-  server: 149.130.176.140
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 11|🇯🇵 JP-2 | Mix
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
-  security: tls
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇩🇪 DE-6 | Mix
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.238.92
+  name: 11|🇯🇵 JP-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 3.112.199.47
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-4 | Mix
-  network: tcp
-  port: 443
-  server: usamd1.95318.cf
-  servername: usamd1.95318.cf
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 3.112.240.74
+  type: ss
   udp: true
-  uuid: eb968e21-757f-4c99-afd7-c936e67e1766
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.230.201.208
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-5 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.231.100.94
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-6 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 43.206.95.245
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-7 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 52.195.179.204
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-8 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 54.250.165.160
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-9 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 43.207.202.98
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-10 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 54.95.13.147
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-11 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.230.213.154
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-12 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 43.207.207.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-13 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 52.69.48.25
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-14 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.114.222.59
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-15 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.159.19.79
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-16 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.231.123.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-17 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.176.55.211
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-18 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.181.168.65
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-19 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 43.206.229.103
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-20 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 52.196.30.101
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-21 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.115.71.60
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-22 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.115.174.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-23 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.231.154.142
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-24 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.183.124.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-25 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 54.168.190.90
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇯🇵 JP-26 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 57.183.15.152
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 3.1.195.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.215.226.240
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.139.160.226
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.139.163.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-5 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 47.128.254.170
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-6 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 47.129.228.114
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-7 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.138.35.43
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-8 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.141.181.229
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-9 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 54.169.81.201
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

@@ -45,39 +45,6 @@ proxies:
   server: 88.210.36.109
   type: ss
   udp: true
-- name: 11|🇺🇸 US-2 | Mix
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: hht.hhlldjc.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
-  ws-opts:
-    headers:
-      Host: hht.hhlldjc.kdns.fr
-    path: /
-- flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-4 | Mix
-  network: tcp
-  port: 443
-  server: usamd1.95318.cf
-  servername: usamd1.95318.cf
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb968e21-757f-4c99-afd7-c936e67e1766
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
