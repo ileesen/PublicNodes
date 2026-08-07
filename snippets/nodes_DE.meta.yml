@@ -1,33 +1,33 @@
 proxies:
-- name: 7|德国
+- name: 8|德国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: taga8.api3-max.ru
   sni: taga8.api3-max.ru
   tls: false
   type: hysteria2
-- name: '7|德国 #1'
+- name: '8|德国 #1'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '7|德国 #2'
+- name: '8|德国 #2'
   password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
   server: cze-01.node.lumixnet.com
   sni: cze-01.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 7|🇩🇪德国
+- name: 8|🇩🇪德国
   password: 8ffbff3b-12c9-4d49-af97-93a8d6cb4edb
   port: 443
   server: de2.sunconnecthub.com
   sni: de2.sunconnecthub.com
   tls: false
   type: hysteria2
-- name: 7|🇩🇪DE
+- name: 8|🇩🇪DE
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: dg1.mangshe.xyz
@@ -35,7 +35,7 @@ proxies:
   sni: dg1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '7|🇩🇪德国 #1'
+- name: '8|🇩🇪德国 #1'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: de2.vpn.legendaah.xyz
@@ -43,7 +43,7 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- name: '7,8|کانال تلگرام : Free_VPN_CH@'
+- name: '8,9|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -53,21 +53,89 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '7|德国 #3'
+- name: '8|德国 #3'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 9|🇩🇪 DE-1 | 8EB
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-1 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.87.40
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-2 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.224.77
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-3 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 92.5.149.156
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-4 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.233.183
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.230.9
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-6 | 8EB
   network: tcp
   port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
+  reality-opts:
+    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+    short-id: 69cc4c0d5e
+  server: nl2.miyazono-kaori.com
+  servername: www.philips.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
+- name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 151.101.56.0
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s2s-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
+    short-id: 92dca6
+  server: nl1.miyazono-kaori.com
+  servername: www.philips.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498

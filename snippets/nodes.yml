@@ -1,6 +1,188 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-1 | Mix
+  name: 10|🇩🇪 DE-1 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.87.40
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-2 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.75.186
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇸🇬 SG-2 | 8EB
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 168.107.83.128
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-2 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.224.77
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-3 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 92.5.149.156
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-4 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.233.183
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.230.9
+  type: ss
+  udp: true
+- name: 10|🇫🇷 FR-1 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.56.8
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s3s-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 151.101.56.0
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s2s-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇫🇮 FI-1 | 8EB
+  password: d3dNkbPb1w5BCBx9Fr5xsb
+  port: 5223
+  server: creativeboxfin.zanity.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-1 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.7.222
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-2 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.10.66
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-3 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.113.97
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-4 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.28.23
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-5 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.31.175
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-6 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.230.49
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-7 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.87.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-3 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.224.103
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-8 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.142.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-4 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.72.21
+  type: ss
+  udp: true
+- name: 10|🇮🇷 IR-1 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 104.17.112.113
+  servername: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  skip-cert-verify: true
+  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇸🇪 SE-1 | 8EB
+  password: BsVzyLrGhbw4MivQz7k1_Q
+  port: 60035
+  server: 201.34.136.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-9 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.120.141
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -8,7 +190,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -16,7 +198,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-3 | Mix
+  name: 11|🇯🇵 JP-3 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -24,7 +206,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-4 | Mix
+  name: 11|🇯🇵 JP-4 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -32,7 +214,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-5 | Mix
+  name: 11|🇯🇵 JP-5 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -40,7 +222,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-6 | Mix
+  name: 11|🇯🇵 JP-6 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -48,7 +230,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-7 | Mix
+  name: 11|🇯🇵 JP-7 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -56,7 +238,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-8 | Mix
+  name: 11|🇯🇵 JP-8 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -64,7 +246,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-9 | Mix
+  name: 11|🇯🇵 JP-9 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -72,7 +254,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-10 | Mix
+  name: 11|🇯🇵 JP-10 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -80,7 +262,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-11 | Mix
+  name: 11|🇯🇵 JP-11 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -88,7 +270,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-12 | Mix
+  name: 11|🇯🇵 JP-12 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -96,7 +278,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-13 | Mix
+  name: 11|🇯🇵 JP-13 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -104,7 +286,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-14 | Mix
+  name: 11|🇯🇵 JP-14 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -112,7 +294,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-15 | Mix
+  name: 11|🇯🇵 JP-15 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -120,7 +302,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-16 | Mix
+  name: 11|🇯🇵 JP-16 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -128,7 +310,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-17 | Mix
+  name: 11|🇯🇵 JP-17 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -136,7 +318,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-18 | Mix
+  name: 11|🇯🇵 JP-18 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -144,7 +326,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-19 | Mix
+  name: 11|🇯🇵 JP-19 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -152,7 +334,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-20 | Mix
+  name: 11|🇯🇵 JP-20 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -160,7 +342,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-21 | Mix
+  name: 11|🇯🇵 JP-21 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -168,7 +350,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-22 | Mix
+  name: 11|🇯🇵 JP-22 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -176,7 +358,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-23 | Mix
+  name: 11|🇯🇵 JP-23 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -184,7 +366,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-24 | Mix
+  name: 11|🇯🇵 JP-24 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -192,7 +374,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-25 | Mix
+  name: 11|🇯🇵 JP-25 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -200,7 +382,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 JP-26 | Mix
+  name: 11|🇯🇵 JP-26 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -208,7 +390,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -216,7 +398,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -224,7 +406,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-3 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -232,7 +414,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-4 | Mix
+  name: 11|🇸🇬 SG-4 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -240,7 +422,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-5 | Mix
+  name: 11|🇸🇬 SG-5 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -248,7 +430,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-6 | Mix
+  name: 11|🇸🇬 SG-6 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -256,7 +438,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-7 | Mix
+  name: 11|🇸🇬 SG-7 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -264,7 +446,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-8 | Mix
+  name: 11|🇸🇬 SG-8 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -272,7 +454,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-9 | Mix
+  name: 11|🇸🇬 SG-9 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs-local
   port: 2377
@@ -280,21 +462,21 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -302,7 +484,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -310,7 +492,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -318,7 +500,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -326,7 +508,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -334,7 +516,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -342,7 +524,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -350,7 +532,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -358,7 +540,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -366,7 +548,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -374,7 +556,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -382,7 +564,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -392,7 +574,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

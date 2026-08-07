@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 8443
+  server: 198.41.223.159
+  servername: free-7f1.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 2096
+  server: 173.245.58.137
+  servername: free-7f1.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /

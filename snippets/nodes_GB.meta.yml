@@ -1,12 +1,12 @@
 proxies:
-- name: 7|🇬🇧英国
+- name: 8|🇬🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa3.api3-max.ru
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
-- name: '7|🇬🇧英国 #2'
+- name: '8|🇬🇧英国 #2'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa4.api3-max.ru
@@ -14,21 +14,21 @@ proxies:
   sni: wopa4.api3-max.ru
   tls: false
   type: hysteria2
-- name: 7|🇺俄罗斯
+- name: 8|🇺俄罗斯
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa5.api3-max.ru
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
-- name: 7|🇧英国
+- name: 8|🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa6.api3-max.ru
   sni: wopa6.api3-max.ru
   tls: false
   type: hysteria2
-- name: '7|🇧英国 #1'
+- name: '8|🇧英国 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa8.api3-max.ru
@@ -36,21 +36,21 @@ proxies:
   sni: wopa8.api3-max.ru
   tls: false
   type: hysteria2
-- name: 7|英国
+- name: 8|英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: ang.leontunel.ru
   sni: ang.leontunel.ru
   tls: false
   type: hysteria2
-- name: '7|英国 #1'
+- name: '8|英国 #1'
   password: 99800091-8337-4112-8756-8cc60eb1ffa8
   port: 10808
   server: nl7.unlockvpn.online
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
-- name: '7|🇬🇧英国 #4'
+- name: '8|🇬🇧英国 #4'
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 5.183.102.113
@@ -58,14 +58,91 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- name: '7|🇬🇧英国 #5'
+- name: '8|🇬🇧英国 #5'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.213
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0002
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-2 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.75.186
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-3 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.224.103
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-4 | 8EB
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.72.21
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 10|🇬🇧 GB-5 | 8EB
+  network: xhttp
+  port: 2083
+  server: ip.feywebsite.ir
+  servername: gb.feyland.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b91abe1a-80ca-417b-998b-2b542661c16f
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  mode: auto
+  name: 10|🇬🇧 GB-6 | 8EB
+  network: xhttp
+  port: 443
+  server: sa-80ea205eb397ec2c.sr-2021ee3c27468714.r.vpvpn.club
+  servername: api-6a739dd5.noooo.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20ffa82f-cdfa-4630-9941-a5cea3216efa
+- client-fingerprint: firefox
+  name: 10|🇬🇧 GB-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: 15|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
@@ -73,7 +150,7 @@ proxies:
   type: http
   udp: true
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 14|GB_speednode_0003
+- name: 15|GB_speednode_0003
   password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
   port: 443
   server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
