@@ -1,4 +1,11 @@
 proxies:
+- name: 8|德国
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 144.31.166.91
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
 - name: 8,9|5🪁@oneclickvpnkeys
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
@@ -6,7 +13,7 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- name: '8|德国 #2'
   password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
   server: cze-01.node.lumixnet.com
@@ -21,6 +28,13 @@ proxies:
   sni: dg1.mangshe.xyz
   tls: false
   type: hysteria2
+- name: '8|德国 #3'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.120
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  tls: false
+  type: hysteria2
 - name: '8,9|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -31,7 +45,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|德国 #2'
+- name: '8|德国 #4'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
@@ -59,3 +73,31 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 11762
+  reality-opts:
+    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
+  server: 157.90.165.181
+  servername: swdist.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c9b4360-6be9-47f2-ace9-b87297ea3d8f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
+  server: 176.96.138.122
+  servername: kind-vortex.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 518a99df-54f6-4f42-819d-b60abd880edf

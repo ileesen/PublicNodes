@@ -7,19 +7,18 @@ proxies:
   tls: false
   type: hysteria2
 - name: '8|🇷🇺俄罗斯 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa5.api3-max.ru
+  sni: wopa5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|🇷🇺俄罗斯 #3'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 8443
   server: 82.117.87.248
   skip-cert-verify: true
   sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: 8,9|🪁33@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -39,3 +38,50 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UvJqmTGvadeK94_38ncycxTRqU4lmsjhDjJBuL0CQSA
+    short-id: c71af684feb2fef4
+  server: 178.253.55.89
+  servername: nl-one.quiet-rogue.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71cada65-d23e-418c-88e4-a06188d14689
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 11|🇷🇺 RU-2 | Mix
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 147.45.48.143
+  servername: id.vk.com
+  serviceName: vless-grpc-reality
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 11|🇷🇺 RU-3 | Mix
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ns.o11111o.club
+  servername: id.vk.com
+  serviceName: vless-grpc-reality
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
