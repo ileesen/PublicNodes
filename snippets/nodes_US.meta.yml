@@ -1,5 +1,6 @@
 proxies:
-- name: 8|国3@wxgqlfx#美国
+- allowInsecure: '1'
+  name: 8,10|🇺🇸 US-4 | 8EB
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
   server: uswx3.wxgqlfx.vip
@@ -7,6 +8,7 @@ proxies:
   sni: 144.225.187.184
   tls: false
   type: hysteria2
+  udp: true
 - name: 8|美国
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
@@ -53,184 +55,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  mode: auto
   name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 8443
-  server: 104.17.145.180
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2083
-  server: 104.17.123.72
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 2087
-  server: 162.159.32.124
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 2053
-  server: 173.245.59.194
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 8443
-  server: 162.159.39.90
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dvXaj6cjjCxv1btRo7vHk93VR0BCQTF_xQClCjVZ1mM
-    short-id: 5cfd1c
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
-- name: 10|🇺🇸 US-7 | 8EB
-  network: tcp
-  port: 10000
-  server: 180.178.60.253
-  type: vless
-  udp: true
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 443
-  server: 104.17.17.167
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-9 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zyuUbkfNG5nWHUVIVjGCCYIs85gKcxho6vmHKXVMIWA
-    short-id: 2ad0cb03eb3fa5
-  server: us4.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 443
-  server: 188.164.248.69
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 8443
-  server: 104.17.167.149
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: free-7f1.pages.dev
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-  mode: auto
-  name: 10|🇺🇸 US-12 | 8EB
-  network: xhttp
-  port: 443
-  server: fr2.ethicsdinnerpave.online
-  servername: fr2.ethicsdinnerpave.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-  mode: auto
-  name: 10|🇺🇸 US-13 | 8EB
   network: xhttp
   port: 443
   server: us2.denverpresents.top
@@ -244,7 +74,7 @@ proxies:
   - h2
   client-fingerprint: firefox
   mode: stream-one
-  name: 10|🇺🇸 US-14 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: xhttp
   port: 443
   server: sa-d877e40c813c00d2.sr-5a2044eae44677ab.r.vpvpn.club
@@ -254,21 +84,13 @@ proxies:
   type: vless
   udp: true
   uuid: 20ffa82f-cdfa-4630-9941-a5cea3216efa
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-17 | 8EB
-  network: ws
-  port: 443
-  server: paul.ns.cloudflare.com
-  servername: ziro.skin
-  skip-cert-verify: false
-  tls: true
+- name: 10|🇺🇸 US-3 | 8EB
+  network: tcp
+  port: 10000
+  server: 180.178.60.253
   type: vless
   udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: ziro.skin
-    path: /xxvclws
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv

@@ -51,83 +51,13 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 10|🇬🇧 GB-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    short-id: '20'
-  server: uk2.miyazono-kaori.com
-  servername: www.bp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-2 | 8EB
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 129.151.75.186
+  server: 129.151.93.17
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-3 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.224.103
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-4 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.72.21
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: xhttp
-  port: 2083
-  server: ip.feywebsite.ir
-  servername: gb.feyland.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b91abe1a-80ca-417b-998b-2b542661c16f
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  mode: auto
-  name: 10|🇬🇧 GB-6 | 8EB
-  network: xhttp
-  port: 443
-  server: sa-80ea205eb397ec2c.sr-2021ee3c27468714.r.vpvpn.club
-  servername: api-6a739dd5.noooo.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20ffa82f-cdfa-4630-9941-a5cea3216efa
-- client-fingerprint: firefox
-  name: 10|🇬🇧 GB-7 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - name: 15|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443

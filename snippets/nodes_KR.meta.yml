@@ -15,18 +15,8 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
-    short-id: c8af1462debbc1
-  server: kr2.miyazono-kaori.com
-  servername: www.coway.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c67eb9b2-f600-4b59-ba90-258e5a72d498
+- name: 10|🇰🇷 KR-1 | 8EB
+  port: 5555
+  server: 158.180.91.51
+  type: socks
+  username: YWRtaW46YWRtaW4

@@ -1,15 +1,6 @@
 proxies:
 - name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.8
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s3s-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  port: 1080
+  server: 213.136.92.91
+  type: socks
+  username: Og
