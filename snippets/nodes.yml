@@ -1,67 +1,388 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇳🇱 NL-1 | 8EB
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 143.47.187.184
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 443
+  server: JP032008.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032008.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇩🇪 DE-1 | 8EB
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 129.159.9.157
-  type: ss
+  uuid: fdd5c90a-96f7-44dd-9adc-58413bd85981
+  ws-opts:
+    headers:
+      Host: JP032008.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 443
+  server: JP032005.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032005.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-1 | 8EB
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.93.17
-  type: ss
+  uuid: 81ad530f-64f9-4c46-b874-6778fa2b3948
+  ws-opts:
+    headers:
+      Host: JP032005.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 443
+  server: US032021.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032021.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-1 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.178.63
-  type: ss
+  uuid: 04ba64dc-51d6-4769-b2bf-c011e9d84bbb
+  ws-opts:
+    headers:
+      Host: US032021.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: US032014.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032014.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-2 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.161.242
-  type: ss
+  uuid: 69bd12dd-03a2-4782-b4bd-46a90d17214f
+  ws-opts:
+    headers:
+      Host: US032014.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: US122209.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122209.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-3 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 147.15.120.123
-  type: ss
+  uuid: 49cf05b5-4d13-4495-a03e-35e2a780dc61
+  ws-opts:
+    headers:
+      Host: US122209.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: US032013.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032013.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-4 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.119.238
-  type: ss
+  uuid: 58968a6c-2def-4bfb-b20a-8cbc4baed978
+  ws-opts:
+    headers:
+      Host: US032013.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: US032023.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032023.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-5 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.21.187
-  type: ss
+  uuid: 174be625-bf62-4dc7-9ee4-f43501f1e17d
+  ws-opts:
+    headers:
+      Host: US032023.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 443
+  server: US122203.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122203.ssgreen.org
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇧🇷 BR-6 | 8EB
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.100.14
-  type: ss
+  uuid: 3ae31344-e3fc-4bdd-b84f-7e5cd4461f9b
+  ws-opts:
+    headers:
+      Host: US122203.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: US032011.westmgreen.com
+  tls:
+    enabled: true
+    server_name: US032011.westmgreen.com
+  type: vmess
   udp: true
+  uuid: 08632ac0-71a2-42ec-827a-4050eb2af50c
+  ws-opts:
+    headers:
+      Host: US032011.westmgreen.com
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 443
+  server: US122207.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122207.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: a784449b-074f-4fe7-9f4a-119b33d8c05d
+  ws-opts:
+    headers:
+      Host: US122207.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  port: 443
+  server: US032017.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032017.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 51ca2c43-70e5-4537-b7fd-cd52e24ac2c2
+  ws-opts:
+    headers:
+      Host: US032017.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: US122201.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122201.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 3deea611-81ae-43a7-8f9f-830cc6594c10
+  ws-opts:
+    headers:
+      Host: US122201.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  server: US122206.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122206.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 06c4187a-fa67-4bcd-bd38-77fdb255a770
+  ws-opts:
+    headers:
+      Host: US122206.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: US032024.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US032024.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 850afa55-a97d-43c5-9baa-8d9d24e364b5
+  ws-opts:
+    headers:
+      Host: US032024.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: US032010.westmgreen.com
+  tls:
+    enabled: true
+    server_name: US032010.westmgreen.com
+  type: vmess
+  udp: true
+  uuid: 238879d6-f2ea-4f0d-9fe9-0972a2995f78
+  ws-opts:
+    headers:
+      Host: US032010.westmgreen.com
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 443
+  server: JP032006.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032006.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 2f4b5909-0ae6-484e-b528-2a570d474e56
+  ws-opts:
+    headers:
+      Host: JP032006.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 443
+  server: US122208.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122208.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: cf6d8c14-49d8-4d2c-b611-9e32bb4a3341
+  ws-opts:
+    headers:
+      Host: US122208.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  server: JP032002.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032002.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 5a412bde-b31d-4f75-bedb-375195b9cf41
+  ws-opts:
+    headers:
+      Host: JP032002.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  port: 443
+  server: JP032009.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032009.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 011fca93-33cd-4c3b-a584-7960621e0a3b
+  ws-opts:
+    headers:
+      Host: JP032009.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: ws
+  port: 443
+  server: JP032001.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032001.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 842bf7b4-1c6b-478f-8edb-5b93abde9691
+  ws-opts:
+    headers:
+      Host: JP032001.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  port: 443
+  server: JP032011.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032011.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 895f3f85-ba26-43be-859e-49b72232335f
+  ws-opts:
+    headers:
+      Host: JP032011.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  port: 443
+  server: JP032012.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032012.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: c3033330-edf6-46e1-831a-8c37ebe8acc7
+  ws-opts:
+    headers:
+      Host: JP032012.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-9 | 8EB
+  network: ws
+  port: 443
+  server: JP032010.ssgreen.org
+  tls:
+    enabled: true
+    server_name: JP032010.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: 114af209-c748-49eb-9e45-629986aacfbb
+  ws-opts:
+    headers:
+      Host: JP032010.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 443
+  server: US122205.ssgreen.org
+  tls:
+    enabled: true
+    server_name: US122205.ssgreen.org
+  type: vmess
+  udp: true
+  uuid: c0ed4b23-5156-4097-b152-7841a8dec575
+  ws-opts:
+    headers:
+      Host: US122205.ssgreen.org
+    path: /wes
 - cipher: chacha20-ietf-poly1305
   name: 11|🇺🇸 US-1 | Mix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
