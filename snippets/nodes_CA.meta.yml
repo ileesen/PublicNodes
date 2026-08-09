@@ -1,35 +1,61 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 10|🇨🇦 CA-1 | 8EB
   network: ws
-  password: MiTiVPN
   port: 443
-  security: tls
-  server: 151.101.56.172
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
+  server: cdn.9889888.xyz
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
   name: 10|🇨🇦 CA-2 | 8EB
   network: ws
-  password: MiTiVPN
   port: 443
-  security: tls
-  server: 151.101.56.7
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
+  server: cf.877774.xyz
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-4 | 8EB
+  network: ws
+  port: 443
+  server: cmcc.cloudflare.seeck.cn
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /

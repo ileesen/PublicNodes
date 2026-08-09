@@ -46,57 +46,101 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  type: vless
-  udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2095
-  server: 104.18.28.234
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 2095
-  server: cf.levikogjgfdd.ir
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I
-    short-id: 45ba91f179ad1f26
-  server: 79.174.92.254
-  servername: api-maps.yandex.ru
+    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    short-id: 7a3f9e2b1c8d4f6a
+  server: hk.s3-cloud.org
+  servername: hk.s3-cloud.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 70a3501a-93a5-41ad-82a0-46631cdd5856
+  uuid: f9959a44-4836-4d29-8029-c539a26e77c5
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: 89.208.251.72
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: 104.16.65.1
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 188.114.97.6
+  servername: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  skip-cert-verify: true
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nlls-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+    short-id: f85aebea
+  server: 162.35.231.6
+  servername: media2.tcpdoor.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 50360
+  server: 45.146.82.216
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cce747c-9dbe-4bac-a68e-a5cd706c6141
+  ws-opts:
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
   port: 443
   server: US032017.ssgreen.org
@@ -110,20 +154,51 @@ proxies:
     headers:
       Host: US032017.ssgreen.org
     path: /wes
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  tls:
-    enabled: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-2 | Mix
+  name: 10|🇺🇸 US-9 | 8EB
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.56.172
+  servername: default.fastly.com
+  skip-cert-verify: false
+  sni: default.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-11 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 159.195.14.140
+  servername: ai.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10,11|🇺🇸 US-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -135,6 +210,94 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-13 | 8EB
+  network: tcp
+  port: 49001
+  reality-opts:
+    public-key: _LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo
+    short-id: 1a6b1f9d0e
+  server: 185.123.53.221
+  servername: de-7.techprovide.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  mode: gun
+  name: 10|🇺🇸 US-14 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  serviceName: TunService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 16378
+  server: 154.17.9.119
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4da1dffd-0284-490e-a0bb-d1436d64003d
+  ws-opts:
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+    path: /@Marisa_kristi
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  mode: auto
+  name: 10|🇺🇸 US-16 | 8EB
+  network: xhttp
+  port: 443
+  server: us2.denverpresents.top
+  servername: us2.denverpresents.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  mode: stream-one
+  name: 10|🇺🇸 US-17 | 8EB
+  network: xhttp
+  port: 443
+  server: sa-d877e40c813c00d2.sr-5a2044eae44677ab.r.vpvpn.club
+  servername: 20ffa82f.ferrin.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20ffa82f-cdfa-4630-9941-a5cea3216efa
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-1 | Mix
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  tls:
+    enabled: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e

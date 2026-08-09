@@ -1,50 +1,7 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 10|🇨🇦 CA-1 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.172
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.7
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: edge
-  name: 10|🇬🇧 GB-1 | 8EB
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   port: 443
   server: JP032009.ssgreen.org
@@ -58,9 +15,25 @@ proxies:
     headers:
       Host: JP032009.ssgreen.org
     path: /wes
+- alpn:
+  - http/1.1
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 188.114.97.6
+  servername: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  skip-cert-verify: true
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nlls-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
   port: 443
   server: US032017.ssgreen.org
@@ -74,6 +47,69 @@ proxies:
     headers:
       Host: US032017.ssgreen.org
     path: /wes
+- name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.56.172
+  servername: default.fastly.com
+  skip-cert-verify: false
+  sni: default.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.56.7
+  servername: default.fastly.com
+  skip-cert-verify: false
+  sni: default.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-1 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.180.148
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-2 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 147.15.77.187
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-3 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.143.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-4 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.159.203
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇧🇷 BR-5 | 8EB
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.15.184
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 11|🇺🇸 US-1 | Mix

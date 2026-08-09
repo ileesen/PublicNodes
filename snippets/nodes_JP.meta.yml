@@ -15,9 +15,25 @@ proxies:
   sni: freedom.chenlan.top
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 19364
+  server: 210.152.85.154
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 672b7913-d2cb-4e69-bb78-8f4a651637b1
+  ws-opts:
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   port: 443
   server: JP032009.ssgreen.org
@@ -31,6 +47,98 @@ proxies:
     headers:
       Host: JP032009.ssgreen.org
     path: /wes
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 57554
+  server: 203.137.165.164
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68118bca-9782-4924-99f5-4768088c0f96
+  ws-opts:
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  server: 153.121.45.101
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  port: 443
+  server: 8.219.155.125
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: ws
+  port: 443
+  server: 64.176.44.23
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  port: 18443
+  server: 92.113.124.204
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7b88023-499e-4652-9fce-d12ceb4fdb12
+  ws-opts:
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: tcp
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: 0102ac4e
+  server: rm-jp-01.409648.xyz
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - name: 11|🇯🇵 JP-1 | Mix
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
