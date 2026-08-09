@@ -1,1 +1,45 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+  server: 89.125.13.244
+  servername: d3-ee1.cloud-cdn.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44244879-3bdc-4fc0-90e7-0ae4d76352dc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-2 | Mix
+  network: tcp
+  port: 49001
+  reality-opts:
+    public-key: _LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo
+    short-id: 1a6b1f9d0e
+  server: ee-1.techprovide.icu
+  servername: de-7.techprovide.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+  server: 91.235.234.186
+  servername: us7fs3.proxen.pdevinfra.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4593aa27-a2a1-412f-935f-3829495c0970
