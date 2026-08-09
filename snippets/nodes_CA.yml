@@ -1,21 +1,21 @@
 proxies:
 - alpn:
   - http/1.1
-  client-fingerprint: edge
+  client-fingerprint: chrome
   name: 10|🇨🇦 CA-1 | 8EB
   network: ws
   password: MiTiVPN
   port: 443
   security: tls
-  server: 104.254.140.62
-  servername: ddp-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.kingnetwork.ir
-  skip-cert-verify: false
-  sni: ddp-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.kingnetwork.ir
+  server: 151.101.56.172
+  servername: default.fastly.com
+  skip-cert-verify: true
+  sni: default.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: Dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -33,37 +33,3 @@ proxies:
     headers:
       Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.8
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s3b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.172
-  servername: default.fastly.com
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN

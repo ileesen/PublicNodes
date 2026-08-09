@@ -1,34 +1,22 @@
 proxies:
-- name: 8|🇷🇺俄罗斯
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa5.api3-max.ru
-  sni: wopa5.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '8|🇷🇺俄罗斯 #1'
-  password: 71cada65-d23e-418c-88e4-a06188d14689
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  mode: gun
+  name: 10,11|🇷🇺 RU-10 | Mix
+  network: grpc
   port: 8443
-  server: 82.117.87.248
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: 9,11|🇷🇺 RU-11 | Mix
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
+  serviceName: your-custom-path
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: 10|🇷🇺 RU-1 | 8EB
-  password: 81a20429165df87e
-  port: 10806
-  server: 195.133.23.200
-  type: ss
-  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc-tuning-stream
@@ -61,21 +49,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇷🇺 RU-3 | Mix
-  network: tcp
-  port: 9444
-  reality-opts:
-    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
-    short-id: 12b9ecabbf3a3b88
-  server: 176.109.85.140
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -126,23 +99,6 @@ proxies:
   uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: your-custom-path
-  name: 11|🇷🇺 RU-7 | Mix
-  network: grpc
-  port: 6443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.151.101.103
-  servername: maps.apple.com
-  serviceName: your-custom-path
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: chrome
-  grpc-opts:
     grpc-service-name: grpc
   name: 11|🇷🇺 RU-8 | Mix
   network: grpc
@@ -175,20 +131,11 @@ proxies:
   type: vless
   udp: true
   uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: your-custom-path
-  name: 11|🇷🇺 RU-10 | Mix
-  network: grpc
+- name: 11|🇷🇺 RU-11 | Mix
+  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
   port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.151.101.103
-  servername: maps.apple.com
-  serviceName: your-custom-path
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 78.159.240.69
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
   udp: true
-  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b

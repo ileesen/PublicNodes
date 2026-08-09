@@ -1,20 +1,119 @@
 proxies:
-- name: 10|🇫🇷 FR-1 | 8EB
-  port: 1081
-  server: 176.65.140.212
-  type: socks
-  username: Og
-- name: 10|🇫🇷 FR-2 | 8EB
+- name: 8|法国
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: iq5ny.pleiades.codes
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
+- name: '8|法国 #1'
+  password: d1a0857bc1eb833a9edf96be4c1f999e
+  port: 55443
+  server: host-vds2-fr.kvncococ.org
+  sni: host-vds2-fr.kvncococ.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: random
+  name: 10|🇫🇷 FR-1 | 8EB
   network: ws
-  password: humanity
   port: 443
-  security: tls
-  server: 194.135.38.140
-  servername: www.calmlunch.com
+  server: 104.16.251.148
+  servername: hhlfy.twiladaphne.ndjp.net
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 2053
+  server: millionaire.levikogjgfdd.ir
+  servername: ov.iran-servers.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
+  ws-opts:
+    headers:
+      Host: ov.iran-servers.shop
+    path: /J5aLQOY1R9ONWYCM
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 2087
+  server: 172.64.52.30
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: ws
+  port: 2087
+  server: 104.19.214.98
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: 10|🇫🇷 FR-5 | 8EB
+  network: ws
+  port: 8880
+  server: 31.185.108.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: /
+- name: 10|🇫🇷 FR-6 | 8EB
+  network: ws
+  port: 8880
+  server: 192.169.222.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime40.workers.dev
+    path: /
+- name: 10|🇫🇷 FR-7 | 8EB
+  network: ws
+  port: 8880
+  server: 176.124.223.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+    path: /
+- name: 10|🇫🇷 FR-8 | 8EB
+  network: ws
+  port: 8880
+  server: 104.21.56.202
+  type: vless
+  udp: true
+  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
+  ws-opts:
+    headers:
+      Host: red-unit-60bc.165-1dd.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net

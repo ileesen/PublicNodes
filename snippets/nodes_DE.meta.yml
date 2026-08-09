@@ -6,13 +6,16 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- allowInsecure: '1'
+  name: 8,10|🇩🇪 DE-2 | 8EB
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
+  udp: true
 - name: '8|德国 #2'
   password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
@@ -69,6 +72,46 @@ proxies:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
+  name: 10,11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  mode: gun
+  name: 10,11|🇷🇺 RU-7 | Mix
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
+  serviceName: your-custom-path
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+- client-fingerprint: chrome
+  name: 10,11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
   name: 11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
@@ -82,26 +125,6 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
-  port: 443
-  server: 217.60.193.4
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- name: 11|🇩🇪 DE-3 | Mix
-  network: tcp
-  port: 443
-  server: ddc-akn.astralweb.tech
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
 - client-fingerprint: chrome
   name: 11|🇩🇪 DE-4 | Mix
   network: grpc

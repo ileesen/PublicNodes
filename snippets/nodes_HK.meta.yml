@@ -6,13 +6,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  name: 10|🇭🇰 HK-1 | 8EB
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.159
-  type: ss
-  udp: true
+- name: 10|🇭🇰 HK-1 | 8EB
+  port: 1080
+  server: 47.239.98.42
+  type: socks
+  username: YWJjMTIzOmFiYzEyMw
+- name: 10|🇭🇰 HK-2 | 8EB
+  port: 20000
+  server: 59.38.113.185
+  type: socks
+  username: T2c9PTo
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
