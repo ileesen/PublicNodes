@@ -52,7 +52,7 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-2 | 8EB
+- name: 10,11|🇺🇸 US-2 | Mix
   network: ws
   password: MiTiVPN
   port: 443
@@ -150,7 +150,7 @@ proxies:
   udp: true
   uuid: b49d92be-0764-4d96-80e0-101ad154895c
 - allowInsecure: '1'
-  name: 10|🇩🇪 DE-9 | 8EB
+  name: 10,11|🇫🇷 FR-1 | Mix
   password: gf1:gfhysteria2024
   port: 443
   server: 173.212.201.85
@@ -202,3 +202,63 @@ proxies:
   type: vless
   udp: true
   uuid: 60cb13f0-4e85-4e10-b7f1-86a7a73afad9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
+  server: 176.96.138.122
+  servername: kind-vortex.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 518a99df-54f6-4f42-819d-b60abd880edf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg
+    short-id: 417063feab794131
+  server: de3.neobo-tooth.ru
+  servername: vk.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 2056
+  server: ger1.ilia.iranstoresf.ir
+  type: vless
+  udp: true
+  uuid: d14b7d3c-bdda-40ab-8e5e-ee1b67ef0357
+- name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- name: 11|🇩🇪 DE-5 | Mix
+  network: grpc
+  port: 3443
+  server: 177.3.213.230
+  servername: get.wlrus.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11b7e901-e970-4491-9c7d-13c153e39e5b

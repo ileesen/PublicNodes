@@ -139,19 +139,34 @@ proxies:
     enabled: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mFfDWNmPFHIN3ojAw2GENgpklJUCOvfj1i_zix8Pnkc
+    short-id: 73122674fa25a3ab
+  server: 20.89.106.34
+  servername: www.stanford.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7781929f-165f-4a94-b07b-689edf7913e2
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.167.76.203
+  port: 9408
+  server: 16.162.92.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 18.166.178.12
+  port: 18617
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -160,6 +175,6 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

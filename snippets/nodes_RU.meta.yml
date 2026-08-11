@@ -121,3 +121,124 @@ proxies:
   type: vless
   udp: true
   uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 11|🇷🇺 RU-1 | Mix
+  network: grpc
+  port: 9877
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+  server: 194.87.226.71
+  servername: dl.google.com
+  serviceName: grpc-tunnel
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-2 | Mix
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324
+  server: 91.185.83.94
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e9e9f2a-f4ee-48a3-aa3f-d79169890ca8
+- name: 11|🇷🇺 RU-3 | Mix
+  network: ws
+  port: 443
+  server: 176.109.88.202
+  servername: ultra-07.serveroff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09043187-2d53-4953-8a1a-41719c37d485
+  ws-opts:
+    path: /assets/rTtfSBVJh4rPOTl9B2bvM1dAazBT3t78NrebZ
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430
+    short-id: f0ba53a31b489b3e
+  server: glidio.shieldix.top
+  servername: glidio.shieldix.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-5 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: 08804e078e1257c8
+  server: stratix.orbvia.online
+  servername: stratix.orbvia.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
+- name: 11|🇷🇺 RU-6 | Mix
+  port: 1080
+  server: 193.233.218.213
+  type: socks
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-7 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  server: arclo.ciphero.xyz
+  servername: arclo.ciphero.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-8 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM
+    short-id: 08804e078e1257c8
+  server: 188.225.72.231
+  servername: stratix.orbvia.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-9 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
+    short-id: 33b5887524592cad
+  server: 80.90.187.140
+  servername: arclo.ciphero.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bced29a-3051-42b8-b393-005135b97616
