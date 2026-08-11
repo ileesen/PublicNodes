@@ -12,28 +12,77 @@ proxies:
   server: 143.198.85.89
   type: socks
   username: YWRtaW46YWRtaW4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Q-KGWRW9iVz7ZuDV1e25zguf2XxbFXiGlOJjwWJ0diA
-    short-id: cb9bc58a5976598a
-  server: 149.118.62.150
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.139.160.226
+  type: ss
   udp: true
-  uuid: f12bbae7-fd8e-4430-8420-fcbd61e73cd7
-- name: 11|🇸🇬 SG-2 | Mix
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 47.128.254.170
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 47.129.228.114
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.138.35.43
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-5 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.141.181.229
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-6 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 3.1.195.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-7 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 13.215.226.240
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-8 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 54.169.81.201
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇸🇬 SG-9 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 18.139.163.18
+  type: ss
   udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
