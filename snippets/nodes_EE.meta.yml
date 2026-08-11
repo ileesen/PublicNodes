@@ -28,9 +28,23 @@ proxies:
       Host: 150.241.101.218.fwqfw783rg2dad.website
     path: /websocket
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: ee.rexten.cc
+  servername: ee.rexten.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-  name: 11|🇪🇪 EE-2 | Mix
+  name: 11|🇪🇪 EE-3 | Mix
   network: grpc
   port: 8113
   reality-opts:

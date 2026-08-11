@@ -6,6 +6,14 @@ proxies:
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
+- name: 8|JP
+  password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
+  port: 11000
+  server: jpa.nnpy.org
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '8|荷兰 #1'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
@@ -36,6 +44,16 @@ proxies:
   server: musicclips.videolinks.ru
   skip-cert-verify: true
   sni: musicclips.videolinks.ru
+  tls: false
+  type: hysteria2
+- name: 8|波兰
+  obfs: salamander
+  obfs-password: 1yvnm8sv41
+  password: 2b5f7fc3d38f4798a0f62d4ef8876528
+  port: 443
+  server: pl6.lckdwn.ru
+  skip-cert-verify: true
+  sni: pl6.lckdwn.ru
   tls: false
   type: hysteria2
 - name: '8|未命名 #1'
@@ -349,11 +367,14 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: '8|德国 #4'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+- name: '8|荷兰 #7'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: bel-03.node.lumixnet.com
-  sni: bel-03.node.lumixnet.com
+  server: nl2.sferavpn.pro
+  skip-cert-verify: true
+  sni: nl2.sferavpn.pro
   tls: false
   type: hysteria2
 - name: '8|法国 #1'
@@ -363,7 +384,7 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 8|波兰
+- name: '8|波兰 #1'
   password: df489ab2-2242-4952-a774-1074a3a31f41
   port: 8443
   server: eh-spl1.craft-supply.org
@@ -430,7 +451,7 @@ proxies:
   sni: www.amazon.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #7'
+- name: '8|荷兰 #8'
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -445,7 +466,23 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|🇸140322 | ⚡️Telegram = t.me/SO...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: 8|🇬140318 | ⚡️Telegram = t.me/SO...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.9.33
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 8|🇸139909 | ⚡️Telegram = t.me/SO...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -460,14 +497,14 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '8|荷兰 #8'
+- name: '8|荷兰 #9'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.219
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 8,9|✨19@oneclickvpnkeys
+- name: '8|罗马尼亚 #5'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.220
@@ -484,49 +521,13 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: 9|140010 | Telegram = t.me/SOSke...
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: false
-  sni: quic.tyr-agentstvo.tech
-  tls: false
-  type: hysteria2
-- name: 9|🇺140009 | ⚡️Telegram = t.me/SO...
-  password: 95c61940-2823-4665-a033-d4f2218329b6
-  port: 443
-  server: 46.8.210.209
-  skip-cert-verify: false
-  sni: ru3.kinotorg.net
-  tls: false
-  type: hysteria2
-- name: '9|  : @AstroVPN_official'
-  obfs: salamander
-  obfs-password: 4b6gmo4jujpapx99
-  password: AstroVPN_official
-  port: 8083
-  server: hystry.accuratenetworkchecker.ir
-  skip-cert-verify: false
-  sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 9|رر   ارت ⚡️
+- name: '9|رر   ارت '
   obfs: salamander
   obfs-password: hmvyfx1tpnz6pp3k
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
   sni: lms22.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 9|@filembad
-  obfs: salamander
-  obfs-password: IL+pm5"K?4gef:Jvn8^G+:N,Neyy8
-  password: Configvibes
-  port: 2096
-  server: 107.181.155.107
-  skip-cert-verify: true
-  sni: ftp.debian.org
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -537,14 +538,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 9|🪢8@oneclickvpnkeys
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 95.164.123.231
-  skip-cert-verify: true
-  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@FreakConfig
@@ -599,24 +592,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|کانال تلگرام : Free_VPN_CH@ #3'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org@freenettir
-  tls: false
-  type: hysteria2
-- name: 9|🪢30@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
-  tls: false
-  type: hysteria2
 - name: '9|未命名 #12'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
@@ -661,7 +636,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
+- name: '9|kurdconfig #1'
   obfs: salamander
   obfs-password: p61ckuavkc1s2hfl
   password: kjq3gpn1xom1ted9
@@ -731,13 +706,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 9|22@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.213
-  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: 10|🇨🇦 CA-1 | 8EB
@@ -2072,6 +2040,19 @@ proxies:
   server: e3.cover20.ir
   type: ss
   udp: true
+- flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: ee.rexten.cc
+  servername: ee.rexten.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
 - grpc-opts:
     grpc-service-name: GunService
   name: 11|🇱🇻 LV-2 | Mix
@@ -2087,20 +2068,6 @@ proxies:
   type: vless
   udp: true
   uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
-- name: 11|🇹🇷 TR-1 | Mix
-  network: tcp
-  port: 37992
-  server: tur2.ilia.iranstoresf.ir
-  type: vless
-  udp: true
-  uuid: d14b7d3c-bdda-40ab-8e5e-ee1b67ef0357
-- name: 11|🇩🇪 DE-3 | Mix
-  network: tcp
-  port: 2056
-  server: ger1.ilia.iranstoresf.ir
-  type: vless
-  udp: true
-  uuid: d14b7d3c-bdda-40ab-8e5e-ee1b67ef0357
 - name: 11|🇫🇮 FI-2 | Mix
   network: tcp
   port: 55555
@@ -2202,7 +2169,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 11|🇩🇪 DE-4 | Mix
+- name: 11|🇩🇪 DE-3 | Mix
   network: ws
   port: 443
   server: 108.138.26.70
@@ -2231,7 +2198,7 @@ proxies:
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
 - grpc-opts:
     grpc-service-name: grpc
-  name: 11|🇪🇪 EE-2 | Mix
+  name: 11|🇪🇪 EE-3 | Mix
   network: grpc
   port: 8113
   reality-opts:
@@ -2274,7 +2241,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9abbf31d-42e8-4af5-a826-8cf3ed9dd3f8
-- name: 11|🇩🇪 DE-5 | Mix
+- name: 11|🇩🇪 DE-4 | Mix
   network: grpc
   port: 3443
   server: 177.3.213.230
