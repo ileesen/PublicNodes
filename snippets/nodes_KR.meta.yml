@@ -1,17 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xwS4uD-7MdvZlkFRtN8g0Rm2ByLFM1njCtlz1yvxAik
-    short-id: 42daae485c964403
-  server: 72.155.88.78
-  servername: www.tesla.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 89.168.123.74
+  type: ss
   udp: true
-  uuid: d3b1c033-9821-4817-b891-9120f1327174

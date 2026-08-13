@@ -1,4 +1,65 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-4 | 8EB
+  password: ac72b60f-7f43-3f34-9bf8-943a137be5bd
+  port: 20010
+  server: q.v.7.j.s.n.k.3.b.us01-ae5.entry.v51124-1.qpon
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-5 | 8EB
+  password: 086e3e70-9996-3892-b559-c105ab132e6d
+  port: 20017
+  server: w.c.w.4.s.b.y.8.d.us02-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-6 | 8EB
+  password: ac72b60f-7f43-3f34-9bf8-943a137be5bd
+  port: 20015
+  server: q.o.a.1.o.n.s.3.b.us02-ae5.entry.v51124-1.qpon
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-10 | 8EB
+  network: tcp
+  password: AE62539071
+  port: 443
+  security: tls
+  server: sacred-hound.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e

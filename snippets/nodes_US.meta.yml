@@ -29,9 +29,90 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-4 | 8EB
+  password: ac72b60f-7f43-3f34-9bf8-943a137be5bd
+  port: 20010
+  server: q.v.7.j.s.n.k.3.b.us01-ae5.entry.v51124-1.qpon
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-5 | 8EB
+  password: 086e3e70-9996-3892-b559-c105ab132e6d
+  port: 20017
+  server: w.c.w.4.s.b.y.8.d.us02-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-6 | 8EB
+  password: ac72b60f-7f43-3f34-9bf8-943a137be5bd
+  port: 20015
+  server: q.o.a.1.o.n.s.3.b.us02-ae5.entry.v51124-1.qpon
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-1 | 8EB
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 89.208.244.252
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oYo4UjPmIVNSFTLYR7wuadY2v44sVuckzRAKyzi0UAE
+    short-id: a25c781f24d4209f
+  server: united.nosok-top.com
+  servername: united.nosok-top.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+- name: 10|🇺🇸 US-10 | 8EB
+  network: tcp
+  password: AE62539071
+  port: 443
+  security: tls
+  server: sacred-hound.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 10|🇺🇸 US-11 | 8EB
+  network: tcp
+  port: 62145
+  server: 149.130.189.173
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-12 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
+    short-id: f554f56d31
+  server: kr1.miyazono-kaori.com
+  servername: www.coway.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 978495d0-8feb-4b87-a09b-ef8f98416301
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-15 | 8EB
   network: tcp
   port: 50159
   reality-opts:
@@ -44,59 +125,76 @@ proxies:
   type: vless
   udp: true
   uuid: 07ada3a7-b17b-42fb-bb59-267f4c24f525
-- client-fingerprint: chrome
-  mode: auto
-  name: 10|🇺🇸 US-2 | 8EB
-  network: xhttp
-  port: 7443
-  reality-opts:
-    public-key: w73ebI-m095hYIbaoh45m8Mzhqrm4LylPTjAjALKFHU
-  server: new.saoword.com
-  servername: new.saoword.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae556a38-74fc-4a25-a4bc-4345f19ee429
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 89.208.244.252
-  servername: tesla.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - allowInsecure: '0'
-  name: 10|🇺🇸 US-4 | 8EB
-  password: 2c1611f83747dd3694e0e90cbf7d4e29
-  port: 50160
-  server: 38.99.248.120
-  sni: 38-99-248-120.liao.kdns.fr
+  name: 10|🇺🇸 US-16 | 8EB
+  password: Apt1923_N9x234gn_Nal5Nx3j_s
+  port: 8443
+  server: 222.167.212.24
+  sni: grape-power-pl.ddnsguru.com
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-18 | 8EB
   network: tcp
-  port: 50159
+  port: 443
   reality-opts:
-    public-key: FIfvMYBmBPgASKrykRrkVOld-45nTrKpY7T8ijiyuSE
-    short-id: eb281e128c41c864
-  server: 69.63.215.138
-  servername: www.cloudflare.com
+    public-key: oYo4UjPmIVNSFTLYR7wuadY2v44sVuckzRAKyzi0UAE
+    short-id: a25c781f24d4209f
+  server: 84.32.61.68
+  servername: united.nosok-top.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 382a883d-aff1-4850-9c54-bca118f59e5a
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+- allowInsecure: '0'
+  name: 10|🇺🇸 US-19 | 8EB
+  password: 130e6aab-9eba-441e-9021-22cbccc72832
+  port: 8443
+  server: srvhy1.ezcon24.online
+  sni: srvhy1.ezcon24.online
+  type: hysteria2
+  udp: true
+- name: 10|🇺🇸 US-20 | 8EB
+  network: tcp
+  port: 62145
+  server: 134.98.157.168
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-1 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-2 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-3 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-4 | Mix
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs-local
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e

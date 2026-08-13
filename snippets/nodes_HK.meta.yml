@@ -6,6 +6,45 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 10|🇭🇰 HK-1 | 8EB
+  port: 20000
+  server: 59.38.113.185
+  type: socks
+  username: Og
+- allowInsecure: '1'
+  name: 10|🇭🇰 HK-2 | 8EB
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇨🇳
+  type: hysteria2
+  udp: true
+- name: 10|🇭🇰 HK-3 | 8EB
+  network: tcp
+  password: AE62539071
+  port: 443
+  security: tls
+  server: strong-haddock.rooster465.autos
+  servername: strong-haddock.rooster465.autos
+  skip-cert-verify: false
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 978495d0-8feb-4b87-a09b-ef8f98416301
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
