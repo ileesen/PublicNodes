@@ -40,6 +40,29 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
+- mode: auto
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: xhttp
+  port: 2086
+  server: 217.163.76.118
+  type: vless
+  udp: true
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0454af2-6fe9-4983-a55d-05e1da202602
+  ws-opts:
+    headers:
+      Host: lsjaoijji.global.ssl.fastly.neT.
+    path: /
 - name: 15|DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

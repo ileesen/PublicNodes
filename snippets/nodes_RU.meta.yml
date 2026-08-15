@@ -1,9 +1,20 @@
 proxies:
-- allowInsecure: '0'
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  mode: auto
   name: 10|🇷🇺 RU-1 | 8EB
-  password: 2a0099ded5baa93c55823af39229c5b1
-  port: 50160
-  server: 185-22-155-81.liao.kdns.fr
-  sni: 185-22-155-81.liao.kdns.fr
-  type: hysteria2
+  network: xhttp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+- name: 10|🇷🇺 RU-2 | 8EB
+  port: 1080
+  server: 193.233.218.213
+  type: socks
+  username: Og

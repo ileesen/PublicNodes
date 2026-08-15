@@ -13,38 +13,40 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- allowInsecure: '0'
+- allowInsecure: '1'
   name: 10|🇭🇰 HK-1 | 8EB
-  password: c2601f6c59ed832f9129533608eea8eb
-  port: 50160
-  server: 8-210-142-69.liao.kdns.fr
-  sni: 8-210-142-69.liao.kdns.fr
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇨🇳
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-2 | 8EB
   network: tcp
-  port: 13779
+  port: 28105
   reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 47.239.6.251
-  servername: tesla.com
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: gumagician.clownlv5.gjtxyszcicaly.com
+  servername: www.cloudflare.com
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- allowInsecure: '0'
-  name: 10|🇭🇰 HK-3 | 8EB
-  password: 216d5cc4cf42e8c49fbe5ba962f94442
-  port: 50160
-  server: 20-2-34-124.liao.kdns.fr
-  sni: 20-2-34-124.liao.kdns.fr
-  type: hysteria2
-  udp: true
+  uuid: 27b586fd-1d82-49ed-90c1-b4d859753fe4
+- name: 10|🇭🇰 HK-3 | 8EB
+  network: tcp
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20048
+  security: tls
+  server: oss-shanghai.micron-qwer.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
