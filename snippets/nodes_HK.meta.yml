@@ -6,6 +6,38 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- allowInsecure: '0'
+  name: 10|🇭🇰 HK-1 | 8EB
+  password: c2601f6c59ed832f9129533608eea8eb
+  port: 50160
+  server: 8-210-142-69.liao.kdns.fr
+  sni: 8-210-142-69.liao.kdns.fr
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 47.239.6.251
+  servername: tesla.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- allowInsecure: '0'
+  name: 10|🇭🇰 HK-3 | 8EB
+  password: 216d5cc4cf42e8c49fbe5ba962f94442
+  port: 50160
+  server: 20-2-34-124.liao.kdns.fr
+  sni: 20-2-34-124.liao.kdns.fr
+  type: hysteria2
+  udp: true
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
