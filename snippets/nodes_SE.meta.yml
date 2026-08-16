@@ -1,4 +1,33 @@
 proxies:
+- client-fingerprint: edge
+  name: 11|🇸🇪 SE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: ad55857184e91aad
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- client-fingerprint: firefox
+  mode: auto
+  name: 11|🇸🇪 SE-2 | Mix
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: ad55857184e91aad
+  server: 2.27.56.216
+  servername: sun10-67.vkuserphoto.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|SE_speednode_0116

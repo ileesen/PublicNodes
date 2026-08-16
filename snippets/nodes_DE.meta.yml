@@ -16,7 +16,7 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- name: 8,9|🇸US-🚀@VPNine1
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -34,16 +34,6 @@ proxies:
   sni: fr131.mechvpn.online
   tls: false
   type: hysteria2
-- name: 9|𝐧  𝐞𝐧  🇩🇪-@vpnserverrr
-  obfs: salamander
-  obfs-password: w086cefx0803sepr
-  password: o8qxh96m6i335s6k
-  port: 46918
-  server: gr.nexovip.cyou
-  skip-cert-verify: false
-  sni: gr.nexovip.cyou
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 9|🇪|DE|@wxgqlfx|213
@@ -55,7 +45,7 @@ proxies:
   tls: false
   type: hysteria2
 - mode: auto
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 10,11|🇫🇮 FI-1 | Mix
   network: xhttp
   port: 2086
   server: 217.163.76.118
@@ -77,6 +67,60 @@ proxies:
     headers:
       Host: lsjaoijji.global.ssl.fastly.neT.
     path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇩🇪 DE-2 | Mix
+  port: 33014
+  server: 86.53.105.117
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.bing.com
+  type: tuic
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  server: de151.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 8443
+  server: 45.192.200.133
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- client-fingerprint: firefox
+  name: 11|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 8443
+  server: 209.33.173.7
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
 - name: 15|DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
