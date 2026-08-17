@@ -1,55 +1,19 @@
 proxies:
 - name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  password: MITIVPN
+  network: tcp
+  password: PQ05174892
   port: 443
   security: tls
-  server: 151.101.193.242
-  servername: mitivpn.lifestyle
+  server: proud-escargot.rooster465.autos
   skip-cert-verify: true
-  sni: mitivpn.lifestyle
   type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 10|🇯🇵 JP-2 | 8EB
   network: tcp
-  password: FH72359861
+  password: PQ05174892
   port: 443
   security: tls
-  server: champion-panther.rooster465.autos
-  servername: champion-panther.rooster465.autos
+  server: inspired-hound.rooster465.autos
   skip-cert-verify: true
-  sni: champion-panther.rooster465.autos
-  type: trojan
-- name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  password: FH72359861
-  port: 443
-  security: tls
-  server: endless-kiwi.rooster465.autos
-  servername: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: endless-kiwi.rooster465.autos
-  type: trojan
-- name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  password: FH72359861
-  port: 443
-  security: tls
-  server: helping-shark.rooster465.autos
-  servername: helping-shark.rooster465.autos
-  skip-cert-verify: true
-  sni: helping-shark.rooster465.autos
-  type: trojan
-- name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  password: FH72359861
-  port: 443
-  security: tls
-  server: champion-panther.rooster465.autos
-  skip-cert-verify: false
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp

@@ -1,20 +1,79 @@
 proxies:
 - name: 8|法国
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '8|法国 #1'
   password: d1a0857bc1eb833a9edf96be4c1f999e
   port: 55443
   server: host-vds2-fr.kvncococ.org
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 10|🇫🇷 FR-1 | 8EB
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-1 | 8EB
   network: ws
-  port: 443
-  server: 145.223.68.48
+  port: 2053
+  server: 95.182.97.46
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: dc495bf5-9591-43aa-83de-d8dc7a8769b8
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
   ws-opts:
-    path: /vless
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 8443
+  server: 95.182.97.46
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-3 | 8EB
+  network: ws
+  port: 2053
+  server: 31.56.48.63
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: ws
+  port: 443
+  server: 95.182.84.173
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
 - name: 11|🇫🇷 FR-1 | Mix
   port: 1088
   server: 144.91.111.48
