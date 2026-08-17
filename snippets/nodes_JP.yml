@@ -1,4 +1,20 @@
 proxies:
+- name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  password: PQ05174892
+  port: 443
+  security: tls
+  server: proud-escargot.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  password: PQ05174892
+  port: 443
+  security: tls
+  server: inspired-hound.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -23,3 +39,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 15|JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true

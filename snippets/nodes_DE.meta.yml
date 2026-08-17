@@ -1,5 +1,5 @@
 proxies:
-- name: '8,9|ا تلگرام : Free_VPN_CH@'
+- name: '8,9|اا تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -32,7 +32,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 9||DE|@wxgqlfx|22
+- name: 9|🇩🇪|DE|@wxgqlfx|22
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -75,3 +75,193 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  password: PQ05174892
+  port: 443
+  security: tls
+  server: usable-dogfish.rooster465.autos
+  servername: usable-dogfish.rooster465.autos
+  skip-cert-verify: false
+  sni: usable-dogfish.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  port: 2053
+  server: 82.40.49.242
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 443
+  server: 139.162.176.163
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  password: PQ05174892
+  port: 443
+  security: tls
+  server: 63.179.149.234
+  servername: usable-dogfish.rooster465.autos
+  skip-cert-verify: false
+  sni: usable-dogfish.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: ws
+  port: 443
+  server: 85.90.196.38
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  port: 8443
+  server: 49.13.73.56
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  port: 443
+  server: 152.53.65.148
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: ws
+  port: 8443
+  server: 193.124.58.154
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-9 | 8EB
+  network: ws
+  port: 443
+  server: 91.199.160.8
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 11|🇩🇪 DE-2 | Mix
+  port: 33014
+  server: 86.53.105.117
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: www.bing.com
+  type: tuic
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  server: de151.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 8443
+  server: 45.192.200.133
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- client-fingerprint: firefox
+  name: 11|🇩🇪 DE-5 | Mix
+  network: ws
+  port: 8443
+  server: 209.33.173.7
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- name: 15|DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
