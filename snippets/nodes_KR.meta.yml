@@ -15,32 +15,66 @@ proxies:
   sni: 152-67-200-82.liao.kdns.fr
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
-    short-id: a8609be8
-  server: aws-link27.lxyun.xyz
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.24
+  type: ss
   udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-- allowInsecure: '0'
-  fingerprint: e2ffb0b28a539fdb55a38bfa9ef07b948a0114ab58b01cead3371bd55f2c880c
-  mport: 60000-65530
+- cipher: chacha20-ietf-poly1305
   name: 10|🇰🇷 KR-2 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 60000
-  ports: 60000-65530
-  server: aws-linkhy21.lxyun.xyz
-  skip-cert-verify: true
-  sni: bilibili-kr.biliimg.com
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.24
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇰🇷 KR-3 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.27
+  type: ss
+  udp: true
+- allowInsecure: '0'
+  name: 10|🇰🇷 KR-4 | 8EB
+  password: DWUWPXNSLv23EqVH
+  port: 46001
+  server: 15.165.42.204
+  sni: kor-ls-c-4.nebulacloud.win
   type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  name: 10|🇰🇷 KR-5 | 8EB
+  password: 3JdcAYVWhBbZrVNi
+  port: 56001
+  server: 210.216.173.110
+  sni: kor-akile-a3.nebulacloud.win
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  name: 10|🇰🇷 KR-6 | 8EB
+  password: NjpqMyHOlMjWTcjE
+  port: 56001
+  server: 3.39.237.40
+  sni: kor-ls-6.nebulacloud.win
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇰🇷 KR-7 | 8EB
+  password: QHPy2u
+  plugin: obfs-local
+  port: 806
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇰🇷 KR-8 | 8EB
+  password: QHPy2u
+  plugin: obfs-local
+  port: 9030
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true
 - name: 11|🇰🇷 KR-1 | Mix
   port: 1090

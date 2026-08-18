@@ -1,1 +1,32 @@
-proxies: []
+proxies:
+- grpc-opts:
+    grpc-service-name: ajv
+  mode: gun
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  security: tls
+  server: 176.108.242.191
+  servername: ru-5b7331.atlanta-games.com
+  serviceName: ajv
+  skip-cert-verify: false
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  mode: gun
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  security: tls
+  server: ru-5b7331.atlanta-games.com
+  servername: ru-5b7331.atlanta-games.com
+  serviceName: ajv
+  skip-cert-verify: false
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan

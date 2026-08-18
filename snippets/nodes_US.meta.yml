@@ -1,12 +1,4 @@
 proxies:
-- name: 8,9|🇺🇸|US|@wxgqlfx|16
-  password: 90af65ff00ef2ff089d28d6a11fc10de
-  port: 50160
-  server: 23-19-231-152.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 23-19-231-152.liao.kdns.fr
-  tls: false
-  type: hysteria2
 - name: '8,9|🇺🇸|US|@wxgqlfx|16 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -25,13 +17,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '8|美国 #2'
-  password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
-  port: 8458
-  server: hy2-us.frdmhere.com
-  sni: hy2.frdmhere.com
-  tls: false
-  type: hysteria2
-- name: '8|美国 #3'
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -39,7 +24,7 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -47,7 +32,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9||US|@wxgqlfx|251
+- name: 9|🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -63,22 +48,6 @@ proxies:
   sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 9|50@oneclickvpnkeys
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: 155.248.209.237
-  skip-cert-verify: true
-  sni: 155.248.209.237
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸|US|@wxgqlfx|20
-  password: ed77b662dbdf1a817d5eb75ae940cac4
-  port: 50160
-  server: 198-46-188-116.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 198-46-188-116.liao.kdns.fr
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 9|🇺🇸|US|@wxgqlfx|212
@@ -89,177 +58,172 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: cfyes.7770006.xyz
-  servername: jp1-lx.7770006.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-  ws-opts:
-    headers:
-      Host: jp1-lx.7770006.xyz
-    path: /liangxin/data/jp
-- client-fingerprint: chrome
+- cipher: aes-256-gcm
   name: 10|🇺🇸 US-2 | 8EB
+  password: d99c422199e62b6b
+  port: 20998
+  server: 195.133.23.5
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-4 | 8EB
   network: ws
-  port: 443
-  server: cfyes.777078.xyz
-  servername: lx-us1.777078.xyz
-  skip-cert-verify: false
-  tls: true
+  port: 2095
+  server: 104.18.185.26
   type: vless
   udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: lx-us1.777078.xyz
-    path: /liangxin/us
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  server: cfyes.777078.xyz
-  servername: lx-us2.777078.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-  ws-opts:
-    headers:
-      Host: lx-us2.777078.xyz
-    path: /liangxin/us
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  server: cfyes.777078.xyz
-  servername: lx-us3.777078.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-  ws-opts:
-    headers:
-      Host: lx-us3.777078.xyz
-    path: /liangxin/us
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 443
-  server: cfyes.777078.xyz
-  servername: lx-us4.777078.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-  ws-opts:
-    headers:
-      Host: lx-us4.777078.xyz
-    path: /liangxin/us
-- client-fingerprint: chrome
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- allowInsecure: '0'
   name: 10|🇺🇸 US-6 | 8EB
-  network: ws
-  port: 443
-  server: cfyes.777078.xyz
-  servername: lx-us5.777078.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: ONXiFSOPVgiQQyJW
+  port: 26001
+  server: 18.246.6.73
+  sni: us-ls-f-3.apcwjtnmuwembbfzmxqx.cc
+  type: hysteria2
   udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-  ws-opts:
-    headers:
-      Host: lx-us5.777078.xyz
-    path: /liangxin/us
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-7 | 8EB
   network: tcp
-  port: 443
+  port: 13779
   reality-opts:
-    public-key: ulU6wfyain_FQnYt23NGunTAfBQNLhIBY49mvekiQB0
-    short-id: ca032f81
-  server: lxyus1.777078.xyz
-  servername: iosapps.itunes.apple.com
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 38.180.242.205
+  servername: tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- allowInsecure: '1'
+  name: 10|🇺🇸 US-8 | 8EB
+  password: daca6264-bd96-48d4-a0ff-c96e50a00aa0
+  port: 35193
+  server: uswx4.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: uswx4.wxgqlfx.vip
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-9 | 8EB
+  network: tcp
+  port: 443
+  server: 64.83.12.153
+  type: vmess
+  udp: true
+  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-8 | 8EB
+  name: 10|🇺🇸 US-10 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: paFz5M87V_EcKgUk7C9MlHYCTkOMLTNVe-h-6mSHOAk
-    short-id: cffc91ca
-  server: lxyus3.777078.xyz
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
   servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5be98edb-2401-498a-8a43-156413970114
-- allowInsecure: '0'
-  fingerprint: 4b10f090c73e5d841d56f81373b56168fd446a96adf85427738c6ef6c414b01b
-  name: 10|🇺🇸 US-9 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 443
-  server: lxyus1.777078.xyz
+  uuid: bc753623-aa4b-4306-9930-4b58862c7142
+- name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  security: tls
+  server: 172.238.22.232
+  servername: vpn-node.internal
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '0'
-  fingerprint: 58f2df9e444565f71bcdf624069d51ded4d699b648d59f1bf197e9aac859b9bc
-  name: 10|🇺🇸 US-10 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 443
-  server: lxyus2.777078.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '0'
-  fingerprint: ee961590f9558c24cef02e44d1f54e9cd21fc929ae627f2e18fe5b3d67ca5561
-  name: 10|🇺🇸 US-11 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 443
-  server: lxyus3.777078.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '0'
-  fingerprint: 4df742862fb9f529f841048ff99a914ae2ce83cbfa13ccf15618f72bc32f2650
+  sni: vpn-node.internal
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- allowInsecure: '1'
   name: 10|🇺🇸 US-12 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 443
-  server: lxyus4.777078.xyz
+  password: 896b0648-861c-41b9-bdbf-f0494748d44c
+  port: 35193
+  server: uswx3.wxgqlfx.vip
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
+  sni: uswx3.wxgqlfx.vip
   type: hysteria2
   udp: true
-- allowInsecure: '0'
-  fingerprint: 7883472b634b93a7ec09a020fdbd4b1ac7b0accc7569028dfaeb54c6384677c1
-  mport: 60000-65530
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-13 | 8EB
-  password: 5be98edb-2401-498a-8a43-156413970114
-  port: 60000
-  ports: 60000-65530
-  server: 203.10.97.121
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: w5egR8fKNXrEJns2AfwStSzRQ9yHY_invtW7tnqm8Dk
+    short-id: 297842ea18bf
+  server: us2.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 757ea408-8207-4850-b23f-f2082243288d
+- cipher: aes-128-gcm
+  name: 10|🇺🇸 US-14 | 8EB
+  password: QHPy2u
+  plugin: obfs-local
+  port: 820
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇺🇸 US-15 | 8EB
+  password: ay2loud1
+  plugin: obfs-local
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-16 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zyuUbkfNG5nWHUVIVjGCCYIs85gKcxho6vmHKXVMIWA
+    short-id: 2ad0cb03eb3fa5
+  server: us4.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 757ea408-8207-4850-b23f-f2082243288d
+- cipher: aes-128-gcm
+  name: 10|🇺🇸 US-17 | 8EB
+  password: ay2l23ud1
+  plugin: obfs-local
+  port: 903
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇺🇸 US-18 | 8EB
+  password: QHPy2u
+  plugin: obfs-local
+  port: 821
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇺🇸 US-19 | 8EB
+  password: QHPy2u
+  plugin: obfs-local
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
   port: 38182

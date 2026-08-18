@@ -1,4 +1,11 @@
 proxies:
+- name: 8|瑞典
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
 - name: 9|🇪|SE|@wxgqlfx|238
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -15,6 +22,17 @@ proxies:
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 10|🇸🇪 SE-1 | 8EB
+  network: tcp
+  password: fg20mtCFHy
+  port: 5612
+  security: tls
+  server: 172.234.100.80
+  servername: yugdv.southbyte.xyz
+  skip-cert-verify: true
+  sni: yugdv.southbyte.xyz
+  type: trojan
 - client-fingerprint: edge
   name: 11|🇸🇪 SE-1 | Mix
   network: tcp
