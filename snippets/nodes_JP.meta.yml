@@ -7,22 +7,174 @@ proxies:
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  password: PQ05174892
+- client-fingerprint: safari
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
   port: 443
-  security: tls
-  server: proud-escargot.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 10|🇯🇵 JP-2 | 8EB
+  server: cfyes.7770006.xyz
+  servername: jp2-lx.7770006.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: jp2-lx.7770006.xyz
+    path: /liangxin/data
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
   network: tcp
-  password: PQ05174892
+  port: 36574
+  reality-opts:
+    public-key: sDG-KQk1BF7V83-xnmrWDouXxpPd_ZSxKcHrJJzbols
+    short-id: 32a3650d
+  server: aws-link13.lxyun.xyz
+  servername: www.apple.com.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  port: 25485
+  reality-opts:
+    public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg
+    short-id: 9c5b8c53
+  server: aws-link14.lxyun.xyz
+  servername: www.apple.com.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  port: 8654
+  reality-opts:
+    public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
+    short-id: 6314e825
+  server: aws-link19.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
   port: 443
-  security: tls
-  server: inspired-hound.rooster465.autos
+  reality-opts:
+    public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
+    short-id: 6314e825
+  server: aws-link20.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dLmUAqcdy4Z7iucApd9zjOhkXTjl-xt_eHumShIYW0c
+    short-id: ba826a54
+  server: aws-link23.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.7770006.xyz
+  servername: jp3-lx.7770006.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: jp3-lx.7770006.xyz
+    path: /liangxin/dash/jp
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.7770006.xyz
+  servername: jp4-lx.7770006.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: jp4-lx.7770006.xyz
+    path: /liangxin/download/jp
+- allowInsecure: '0'
+  fingerprint: 95b89cf256ca58006f8d2f090bc8a6ca89b385f424852e82b59f2af384b142d7
+  mport: 60000-65530
+  name: 10|🇯🇵 JP-9 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy15.lxyun.xyz
   skip-cert-verify: true
-  type: trojan
+  sni: bilibili-jp.biliimg.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: 95b89cf256ca58006f8d2f090bc8a6ca89b385f424852e82b59f2af384b142d7
+  mport: 60000-65530
+  name: 10|🇯🇵 JP-10 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy16.lxyun.xyz
+  skip-cert-verify: true
+  sni: bilibili-jp2.biliimg.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: a52eee8669d92360a913a3fc101157e2bdc182947a377831abbccc31928decce
+  mport: 60000-65530
+  name: 10|🇯🇵 JP-11 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy17.lxyun.xyz
+  skip-cert-verify: true
+  sni: bilibili-jp3.biliimg.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: a52eee8669d92360a913a3fc101157e2bdc182947a377831abbccc31928decce
+  mport: 60000-65530
+  name: 10|🇯🇵 JP-12 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy18.lxyun.xyz
+  skip-cert-verify: true
+  sni: bilibili-jp4.biliimg.com
+  type: hysteria2
+  udp: true
 - name: 11|🇯🇵 JP-1 | Mix
   port: 10808
   server: 101.36.104.46

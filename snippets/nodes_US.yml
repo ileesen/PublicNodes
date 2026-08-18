@@ -1,34 +1,4 @@
 proxies:
-- name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  password: PQ05174892
-  port: 443
-  security: tls
-  server: welcome-monitor.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  password: PQ05174892
-  port: 443
-  security: tls
-  server: united-grouse.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
-  port: 48774
-  security: tls
-  server: 172.238.22.232
-  servername: vpn-node.internal
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
 - client-fingerprint: chrome
   name: 11|🇺🇸 US-2 | Mix
   network: ws

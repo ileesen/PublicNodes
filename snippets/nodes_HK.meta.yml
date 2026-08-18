@@ -7,6 +7,202 @@ proxies:
   sni: ru.h.topbelka.ru
   tls: false
   type: hysteria2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: tcp
+  pcs: d5c39647e414c144b719bc49cb41c4b8f46f09f4cf26c863cae15c01d4a7b96a
+  port: 36458
+  server: aws-link1.lxyun.xyz
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  pcs: af0f11574724e7ddd96f64eb77a450f71ce2de61ee5afd6f2e27ed7604a6a9b1
+  port: 28346
+  server: aws-link2.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: tcp
+  port: 27786
+  reality-opts:
+    public-key: EYa4ic3GAxqznV61U-OOww-WKsu5wuQQptyS3fw7czM
+    short-id: c50db39f
+  server: aws-link3.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: tcp
+  port: 23564
+  reality-opts:
+    public-key: 3FPGTaxkfOM3nEUWUyCiqkH5oJGsOx-WxPJfADi1QWY
+    short-id: 7f369e14
+  server: aws-link4.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: tcp
+  port: 35332
+  reality-opts:
+    public-key: a11gdDetacKBsiBBfhsPvanTGMtVyZEIvax7gU5Wplg
+    short-id: 9bf38508
+  server: aws-link5.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk1.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-hk1.7770008.xyz
+    path: /liangxin/data/hk1
+- client-fingerprint: safari
+  name: 10|🇭🇰 HK-7 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk2.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-hk2.7770008.xyz
+    path: /liangxin/data/hk2
+- client-fingerprint: safari
+  name: 10|🇭🇰 HK-8 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk3.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-hk3.7770008.xyz
+    path: /liangxin/data/hk3
+- client-fingerprint: safari
+  name: 10|🇭🇰 HK-9 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk4.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-hk4.7770008.xyz
+    path: /liangxin/data/hk4
+- client-fingerprint: safari
+  name: 10|🇭🇰 HK-10 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk5.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-hk5.7770008.xyz
+    path: /liangxin/data/hk5
+- allowInsecure: '0'
+  fingerprint: 5343bfcb1c5db62de169584dd7ae238dc9a8f2659283f1ee99b06d744c644806
+  name: 10|🇭🇰 HK-11 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 443
+  server: aws-linkhy1.lxyun.xyz
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: f39333d989d685541f08cb96cd8986f9854fed3674e5cc24c4bfbba81035dacf
+  name: 10|🇭🇰 HK-12 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 443
+  server: aws-linkhy2.lxyun.xyz
+  skip-cert-verify: true
+  sni: www.hoyoverse.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: 24d0dd43ee022bb4b0fa0b1c75d276da6b6485038fb59804498f84b80f0689ca
+  name: 10|🇭🇰 HK-13 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 443
+  server: aws-linkhy3.lxyun.xyz
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: ab4e4175bb4234fec92dec0977ec4c9933fe1e0b9f4fe98b8f7444c56360effd
+  name: 10|🇭🇰 HK-14 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 443
+  server: aws-linkhy4.lxyun.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: c77f0fb1aef429ebc3f7e15078ea13c3cc9fe85d8c7a9bda9637f919e340d355
+  name: 10|🇭🇰 HK-15 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 443
+  server: aws-linkhy5.lxyun.xyz
+  skip-cert-verify: true
+  sni: www.apple.com.cn
+  type: hysteria2
+  udp: true
 - name: 11|🇭🇰 HK-1 | Mix
   port: 20000
   server: 59.38.113.185

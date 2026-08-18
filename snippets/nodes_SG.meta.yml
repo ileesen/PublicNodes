@@ -15,6 +15,144 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  port: 48574
+  reality-opts:
+    public-key: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc
+    short-id: f8f18902
+  server: aws-link7.lxyun.xyz
+  servername: www.lamer.com.sg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  port: 39645
+  reality-opts:
+    public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ
+    short-id: 2b3b0b93
+  server: aws-link8.lxyun.xyz
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  port: 23587
+  reality-opts:
+    public-key: H66PLLf6HkZwHk4oFqisfTawIvw2cxkEwk8Ue8sHZgA
+    short-id: 19b580ae
+  server: aws-link9.lxyun.xyz
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: tcp
+  port: 23568
+  reality-opts:
+    public-key: EjcM-ENrpWY8iIL82qJtQrZgRs4KlVqhdisqLAXonUY
+    short-id: 55d046dc
+  server: aws-link30.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
+    short-id: c7487aeb
+  server: aws-link31.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.7770008.xyz
+  servername: lx-1sg.lxy1015.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be98edb-2401-498a-8a43-156413970114
+  ws-opts:
+    headers:
+      Host: lx-1sg.lxy1015.top
+    path: /liangxin/sg1
+- allowInsecure: '0'
+  fingerprint: 2b6c9b75b2ef903fbe66ee91d1801941dea0ddb5429505ae3bce65e2fb17ad45
+  mport: 60000-65530
+  name: 10|🇸🇬 SG-7 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy9.lxyun.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: 2b6c9b75b2ef903fbe66ee91d1801941dea0ddb5429505ae3bce65e2fb17ad45
+  mport: 60000-65530
+  name: 10|🇸🇬 SG-8 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy10.lxyun.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: dd9dd03d942400ad4c1400879bda98f4fa097183aa9a91a1423cdd42a3e183d7
+  mport: 60000-65530
+  name: 10|🇸🇬 SG-9 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy11.lxyun.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '0'
+  fingerprint: 064255322ff7fa4fc225b44e72e5347fb9094fccc3bdd14ddb006118296b3fd3
+  mport: 60000-65530
+  name: 10|🇸🇬 SG-10 | 8EB
+  password: 5be98edb-2401-498a-8a43-156413970114
+  port: 60000
+  ports: 60000-65530
+  server: aws-linkhy12.lxyun.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
 - ech: ip.gs+https://dns.alidns.com/dns-query
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
