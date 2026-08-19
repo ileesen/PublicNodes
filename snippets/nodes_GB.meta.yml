@@ -7,6 +7,19 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- client-fingerprint: qq
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: ws
+  port: 443
+  server: gb1.wba-pn.ru
+  servername: gb1.wba-pn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bc8ff7a-20b4-41b2-9751-dfca869f0553
+  ws-opts:
+    path: /
 - name: 11|🇬🇧 GB-1 | Mix
   port: 1080
   server: im-bal.pvdata.host

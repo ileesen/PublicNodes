@@ -1,7 +1,89 @@
 proxies:
+- name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  password: EQ30679154
+  port: 443
+  security: tls
+  server: internal-raccoon.rooster465.autos
+  servername: internal-raccoon.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-raccoon.rooster465.autos
+  type: trojan
+- name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  password: EQ30679154
+  port: 443
+  security: tls
+  server: united-frog.rooster465.autos
+  servername: united-frog.rooster465.autos
+  skip-cert-verify: false
+  sni: united-frog.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇫🇷 FR-1 | 8EB
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  udp: true
+  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
+  ws-opts:
+    headers:
+      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  udp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  udp: true
+  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
+  ws-opts:
+    headers:
+      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  udp: true
+  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
+  ws-opts:
+    headers:
+      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
+    path: /
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: EQ30679154
+  port: 443
+  security: tls
+  server: 47.129.160.142
+  servername: well-goshawk.rooster465.autos
+  skip-cert-verify: true
+  sni: well-goshawk.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -12,13 +94,6 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-- cipher: aes-256-gcm
-  name: 10|🇷🇺 RU-1 | 8EB
-  password: 1eadd4e4a37b6601
-  port: 10801
-  server: 45.8.158.176
-  type: ss
-  udp: true
 - name: 11|🇺🇸 US-2 | Mix
   network: ws
   password: humanity

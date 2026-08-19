@@ -7,6 +7,31 @@ proxies:
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
+- name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  password: EQ30679154
+  port: 443
+  security: tls
+  server: united-frog.rooster465.autos
+  servername: united-frog.rooster465.autos
+  skip-cert-verify: false
+  sni: united-frog.rooster465.autos
+  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
+    short-id: b91a73752053b039
+  server: 142.91.105.104
+  servername: jp.servers.gracevpnbuy.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
 - name: 11|🇯🇵 JP-1 | Mix
   port: 10808
   server: 101.36.104.46

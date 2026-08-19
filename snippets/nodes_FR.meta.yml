@@ -7,19 +7,15 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- allowInsecure: '1'
   name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  type: hysteria2
   udp: true
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
 - name: 11|🇫🇷 FR-1 | Mix
   port: 1088
   server: 144.91.111.48

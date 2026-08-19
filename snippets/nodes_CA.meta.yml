@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 8443
+  server: speedtest.org
+  servername: ssl.miloi8dmz.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a1e59f5-ec16-4a5e-9bfb-bb6c0706c09b
+  ws-opts:
+    headers:
+      Host: worker-015.miloi8dmz.top
+    path: /cdn/7ae87fc47c544a50

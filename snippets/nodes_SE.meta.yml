@@ -22,6 +22,21 @@ proxies:
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇸🇪 SE-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 31.76.69.40
+  servername: eu-central.cendora.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: edge
   name: 11|🇸🇪 SE-1 | Mix
   network: tcp
