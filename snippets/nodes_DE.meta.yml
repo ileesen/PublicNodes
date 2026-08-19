@@ -75,16 +75,6 @@ proxies:
   sni: de.vpnjey.store
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇪|DE|@wxgqlfx|213
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: de.1.22.washing.help
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
 - mode: auto
   name: 10,11|🇫🇮 FI-1 | Mix
   network: xhttp
@@ -93,14 +83,6 @@ proxies:
   type: vless
   udp: true
   uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
-- allowInsecure: '0'
-  name: 10|🇩🇪 DE-2 | 8EB
-  password: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
-  port: 8443
-  server: 31.76.70.78
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-3 | 8EB
@@ -131,15 +113,6 @@ proxies:
   type: vless
   udp: true
   uuid: 757ea408-8207-4850-b23f-f2082243288d
-- allowInsecure: '1'
-  name: 10|🇩🇪 DE-5 | 8EB
-  password: 6f65680b8d4de72e9f7c030e92e27a32
-  port: 50160
-  server: 166-0-16-52.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 166-0-16-52.liao.kdns.fr
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-6 | 8EB
