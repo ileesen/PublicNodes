@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 8|ًں‡SG
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 1935
   server: sg2.xiaoliyu.cyou
@@ -7,107 +7,6 @@ proxies:
   sni: sg2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  port: 443
-  server: 208.103.161.32
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi_/@sil3nt_network
-- client-fingerprint: ios
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 443
-  server: downloadcfpro.xn--ghq880n3na965a.com
-  servername: sgp1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc753623-aa4b-4306-9930-4b58862c7142
-  ws-opts:
-    headers:
-      Host: sgp1.xn--ghq880n3na965a.com
-    path: /pq/sg1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: 37c94ae25b69a93a
-  server: sg1.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 757ea408-8207-4850-b23f-f2082243288d
-- allowInsecure: '0'
-  name: 10|🇸🇬 SG-4 | 8EB
-  password: izPqJeiR9JOtMLAl
-  port: 46001
-  server: 18.142.106.224
-  sni: sg-ls-r-4.nebulacloud.win
-  type: hysteria2
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇸🇬 SG-5 | 8EB
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.32.171
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-    short-id: 1dd8558159ecd0
-  server: sg4.miyazono-kaori.com
-  servername: www.changiairport.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 757ea408-8207-4850-b23f-f2082243288d
-- allowInsecure: '1'
-  name: 10|🇸🇬 SG-7 | 8EB
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 1935
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-8 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fDaI9PXV_80HmzLkpSPN-Js5SmzsV8Gd0uHvEb4eGAQ
-    short-id: 3d89388254c3265b
-  server: 163.128.98.187
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b4062431-69a1-4e7f-9341-452f4bd58bd9
 - ech: ip.gs+https://dns.alidns.com/dns-query
   name: 11|🇸🇬 SG-1 | Mix
   network: ws
