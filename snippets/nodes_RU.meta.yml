@@ -3,7 +3,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   mode: auto
-  name: 10|🇷🇺 RU-1 | 8EB
+  name: 10,11|🇷🇺 RU-2 | Mix
   network: xhttp
   port: 443
   server: 104.18.32.47
@@ -13,3 +13,18 @@ proxies:
   type: vless
   udp: true
   uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+- client-fingerprint: firefox
+  name: 11|🇷🇺 RU-1 | Mix
+  network: ws
+  port: 8443
+  server: 51.250.4.141
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560

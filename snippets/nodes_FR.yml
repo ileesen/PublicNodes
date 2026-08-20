@@ -1,6 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-3 | Mix
+  name: 11|🇫🇷 FR-1 | Mix
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 141.101.90.101
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-2 | Mix
   network: ws
   password: humanity
   port: 443
@@ -15,39 +30,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-4 | Mix
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 8.6.112.6
-  servername: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 11|🇫🇷 FR-5 | Mix
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 216.24.57.7
-  servername: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 11|🇫🇷 FR-6 | Mix
+  name: 11|🇫🇷 FR-3 | Mix
   network: ws
   password: humanity
   port: 443
@@ -62,12 +45,27 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-8 | Mix
+  name: 11|🇫🇷 FR-4 | Mix
   network: ws
   password: humanity
   port: 443
   security: tls
-  server: 141.101.90.101
+  server: 104.18.152.155
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-5 | Mix
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: render.com
   servername: www.ignitelimit.com
   skip-cert-verify: false
   sni: www.ignitelimit.com

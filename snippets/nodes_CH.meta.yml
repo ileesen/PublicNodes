@@ -11,3 +11,24 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- allowInsecure: '0'
+  name: 11|🇨🇭 CH-1 | Mix
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8080
+  server: 46.229.243.137
+  sni: grape-turbo-fr.roxa.org
+  type: hysteria2
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 11|🇨🇭 CH-2 | Mix
+  network: tcp
+  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
+  port: 443
+  security: tls
+  server: tr-switzerlandgopota.unlimited-access.ru
+  servername: tr-switzerlandgopota.unlimited-access.ru
+  skip-cert-verify: false
+  sni: tr-switzerlandgopota.unlimited-access.ru
+  type: trojan

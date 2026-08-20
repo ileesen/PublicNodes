@@ -37,32 +37,18 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: edge
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: ad55857184e91aad
-  server: 2.27.56.109
-  servername: stacks.vk-portal.net
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 31.207.7.210
+  servername: se1.se-cdn.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- client-fingerprint: firefox
-  mode: auto
-  name: 11|🇸🇪 SE-2 | Mix
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: ad55857184e91aad
-  server: 2.27.56.216
-  servername: sun10-67.vkuserphoto.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
