@@ -1,24 +1,20 @@
 proxies:
-- name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  password: EQ30679154
+- alpn:
+  - http/1.1
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  password: MiTiVPN
   port: 443
   security: tls
-  server: internal-raccoon.rooster465.autos
-  servername: internal-raccoon.rooster465.autos
+  server: 188.42.145.180
+  servername: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   skip-cert-verify: true
-  sni: internal-raccoon.rooster465.autos
+  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   type: trojan
-- name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  password: EQ30679154
-  port: 443
-  security: tls
-  server: 47.129.160.142
-  servername: well-goshawk.rooster465.autos
-  skip-cert-verify: true
-  sni: well-goshawk.rooster465.autos
-  type: trojan
+  ws-opts:
+    headers:
+      Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 0
   cipher: auto
   name: 11|🇸🇬 SG-3 | Mix

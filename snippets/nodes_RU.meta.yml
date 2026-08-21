@@ -1,18 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  mode: auto
-  name: 10,11|🇷🇺 RU-2 | Mix
-  network: xhttp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
 - client-fingerprint: firefox
   name: 11|🇷🇺 RU-1 | Mix
   network: ws
@@ -28,3 +14,16 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: /websocket?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 11|🇷🇺 RU-2 | Mix
+  network: xhttp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87

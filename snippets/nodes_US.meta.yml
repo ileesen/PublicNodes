@@ -41,63 +41,12 @@ proxies:
   tls: false
   type: hysteria2
 - name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 2095
-  server: 104.18.185.26
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2087
-  server: 104.19.214.98
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 2087
-  server: 172.64.53.240
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 2087
-  server: 172.64.52.68
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
+  port: 443
+  server: 50cc947d-tk7400-tlvq5w-1jcwu.sj.oshuawei.com
+  type: socks
+  username: ZjkzNDg2Y2UtY2M4NC0xMWVkLTllOTgtZjIzYzkxM2M4ZDJiOmY5MzQ4NmNlLWNjODQtMTFlZC05ZTk4LWYyM2M5MTNjOGQyYg
 - ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
   port: 443
   server: 104.16.79.73
@@ -111,36 +60,158 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+- name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 188.114.97.6
+  servername: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  skip-cert-verify: true
+  sni: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇺🇸 US-4 | 8EB
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: dGVzdDEyMzp0ZXN0MTIz
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-5 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.44
+  type: ss
+  udp: true
 - name: 10|🇺🇸 US-6 | 8EB
+  port: 1080
+  server: 104.168.249.36
+  type: socks
+  username: dGVzdDEyMzp0ZXN0MTIz
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-7 | 8EB
   network: ws
-  port: 2095
-  server: 172.67.202.17
+  port: 2087
+  server: 172.64.53.240
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: nmslfangbinxing.pusytroller.gq
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- name: 10|🇺🇸 US-7 | 8EB
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  security: tls
+  server: us01.duotg.top
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-9 | 8EB
   network: ws
-  port: 2095
-  server: cf.levikogjgfdd.ir
+  port: 443
+  server: 104.21.85.220
+  servername: cf.udpid.org
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
   ws-opts:
     headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-    path: /
-- name: 10|🇺🇸 US-9 | 8EB
+      Host: cf.udpid.org
+    path: /@zyzzzoao
+- name: 10|🇺🇸 US-10 | 8EB
+  network: tcp
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 38261
+  security: tls
+  server: us01.duotg.top
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+- name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 41834
+  server: 157.238.208.110
+  type: vless
+  udp: true
+  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
+  ws-opts:
+    path: /5adeccb9
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-12 | 8EB
+  network: tcp
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 54657
+  security: tls
+  server: us01.duotg.top
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: tcp
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 59385
+  security: tls
+  server: us01.duotg.top
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-14 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  server: 138.124.180.137
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+- name: 10|🇺🇸 US-16 | 8EB
+  network: tcp
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 20065
+  security: tls
+  server: us01.duotg.top
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+- name: 10|🇺🇸 US-17 | 8EB
+  network: tcp
+  port: 62145
+  server: 149.130.179.122
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-18 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-19 | 8EB
   network: ws
   port: 8880
   server: www.ipget.net
@@ -151,6 +222,33 @@ proxies:
     headers:
       Host: empty-poetry-07b6.477-e0d.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
+- name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  port: 2095
+  server: 172.67.202.17
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: nmslfangbinxing.pusytroller.gq
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  tls:
+    enabled: true
+    server_name: softball-chief-observations-myspace.trycloudflare.com
+  type: vmess
+  udp: true
+  uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
+  ws-opts:
+    headers:
+      Host: softball-chief-observations-myspace.trycloudflare.com
+    path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
 - name: 11|🇺🇸 US-1 | Mix
   port: 38182
   server: 69.55.49.177
@@ -871,6 +969,19 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- client-fingerprint: firefox
+  name: 11|🇺🇸 US-51 | Mix
+  network: ws
+  port: 443
+  server: 195.123.209.50.fwqfw783rg2dad.website
+  servername: 195.123.209.50.fwqfw783rg2dad.website
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  ws-opts:
+    path: /websocket
 - name: 11|🇺🇸 US-52 | Mix
   network: ws
   password: humanity
@@ -1735,3 +1846,18 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0144
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM
+    short-id: dc941fb0778384e2
+  server: nsuc-znkbig.avonex.top
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec31f6d7-c71a-413d-93aa-24296805a594
