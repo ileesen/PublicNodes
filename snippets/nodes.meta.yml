@@ -306,13 +306,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|美国 #1'
+- allowInsecure: '0'
+  name: 8,10|🇸🇨 SC-1 | 8EB
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
   server: 82.39.214.98
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
+  udp: true
 - name: '8|波兰 #2'
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
@@ -487,7 +489,7 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|🇹🇭149634 | ⚡️Telegram = t.me/S...
+- name: 9|36@oneclickvpnkeys
   password: 083417772bc618cd61f0cca23dd91680
   port: 55443
   server: 167.179.34.31
@@ -601,6 +603,16 @@ proxies:
   server: 86.107.178.76
   skip-cert-verify: true
   sni: hopp-netherland-new.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 9|@Iran_v2ray1
+  obfs: salamander
+  obfs-password: hmvyfx1tpnz6pp3k
+  password: StableInternet
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  skip-cert-verify: false
+  sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
 - alpn:
@@ -735,7 +747,7 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  name: 9,10,11|🇳🇱 NL-21 | Mix
+  name: 9,11|🇳🇱 NL-21 | Mix
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.137
@@ -773,23 +785,389 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  name: 10|🇲🇾 MY-1 | 8EB
-  password: 9K2KPaEcizYz6epz
-  port: 16001
-  server: 56.69.35.177
-  sni: my-ls-c-6.nebulacloud.win
-  type: hysteria2
+- name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 443
+  server: liang92.dpdns.org
+  servername: liang92.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
+  ws-opts:
+    headers:
+      Host: liang92.dpdns.org
+    path: /
+- flow: xtls-rprx-vision
+  name: 10|🇨🇳 CN-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- name: 10|🇨🇴 CO-1 | 8EB
+  network: tcp
+  port: 62145
+  server: 157.137.233.98
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇨🇴 CO-2 | 8EB
+  network: tcp
+  port: 62145
+  server: 157.137.229.126
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇨🇴 CO-3 | 8EB
+  network: tcp
+  port: 62145
+  server: 157.137.232.175
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- alpn:
+  - h2
+  - http/1.1
+  mode: stream-up
+  name: 10|🇨🇿 CZ-1 | 8EB
+  network: xhttp
+  port: 2053
+  server: cz.24outlook.space
+  servername: cz.24outlook.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e50f1e5f-2823-4030-9dd2-6c951b6b83d0
 - allowInsecure: '1'
-  name: 10|🇰🇷 KR-1 | 8EB
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  port: 50160
-  server: 150-230-252-217.liao.kdns.fr
+  name: 10|🇩🇪 DE-1 | 8EB
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.120
   skip-cert-verify: true
-  sni: 150-230-252-217.liao.kdns.fr
+  sni: keyhop-offshore.roxa.org
   type: hysteria2
   udp: true
+- name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 545
+  server: 4.176.106.79
+  type: vless
+  udp: true
+  uuid: 6cbc63c1-97de-4460-847c-7fd7bdda3fa6
+- flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+    short-id: 69cc4c0d5e
+  server: nl2.miyazono-kaori.com
+  servername: www.philips.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 194.48.250.172
+  servername: eu-central.cendora.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
+    short-id: 56f276ac52
+  server: de1.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: 5a9ab320
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- name: 10|🇫🇮 FI-1 | 8EB
+  network: ws
+  port: 443
+  server: 185.37.8.133
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: 10|🇫🇮 FI-2 | 8EB
+  network: ws
+  port: 443
+  server: 89.167.100.106
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: 10|🇫🇮 FI-3 | 8EB
+  network: ws
+  port: 443
+  server: 45.59.125.193
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: 10|🇫🇮 FI-4 | 8EB
+  network: ws
+  port: 443
+  server: 91.223.119.174
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- grpc-opts:
+    grpc-service-name: fi-grpc-test
+  mode: gun
+  name: 10|🇫🇮 FI-5 | 8EB
+  network: grpc
+  port: 2101
+  server: 132-243-223-227.sslip.io
+  servername: 132-243-223-227.sslip.io
+  serviceName: fi-grpc-test
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-2 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- name: 10|🇬🇧 GB-3 | 8EB
+  port: 1080
+  server: ee-tal.pvdata.host
+  type: socks
+  username: TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO
+- name: 10|🇮🇳 IN-1 | 8EB
+  port: 1088
+  server: 144.24.111.128
+  type: socks
+  username: Og
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 443
+  server: 27057ad9.pwd.kdns.fr
+  tls:
+    enabled: true
+    server_name: 27057ad9.pwd.kdns.fr
+  type: vmess
+  udp: true
+  uuid: 27057ad9-5dfb-4e65-84df-f74674500fcd
+  ws-opts:
+    headers:
+      Host: 27057ad9.pwd.kdns.fr
+    path: /27057ad9-5dfb-4e65-84df-f74674500fcd-vm
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ePEdL0MQGHT0BGkhSprooNXTYHgp_mdaxEaOkGTKO3k
+    short-id: 195c371d
+  server: pq.aws54.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    short-id: f3b38af2
+  server: pq.aws51.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+    short-id: 2edcfbb7
+  server: pq.aws56.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
+    short-id: f554f56d31
+  server: kr1.miyazono-kaori.com
+  servername: www.coway.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0813a53a-bf44-45b0-936f-06181d94febc
+- allowInsecure: '1'
+  name: 10|🇳🇱 NL-1 | 8EB
+  password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
+  port: 9443
+  server: newos.klzvezdi.ru
+  skip-cert-verify: true
+  sni: newos.klzvezdi.ru
+  type: hysteria2
+  udp: true
+- name: 10|🇳🇱 NL-2 | 8EB
+  network: tcp
+  port: 2083
+  server: 213.165.40.175.sslip.io
+  servername: 213.165.40.175.sslip.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7efc901f-7862-40e8-902b-4bfad8f8ca88
+- name: 10|🇳🇱 NL-4 | 8EB
+  network: tcp
+  port: 62145
+  server: 134.98.142.129
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇳🇱 NL-5 | 8EB
+  network: tcp
+  port: 62145
+  server: 84.235.165.204
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇳🇱 NL-6 | 8EB
+  network: tcp
+  port: 62145
+  server: 158.101.208.44
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇳🇱 NL-7 | 8EB
+  network: tcp
+  port: 62145
+  server: 158.178.153.49
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇳🇱 NL-8 | 8EB
+  network: tcp
+  port: 62145
+  server: 158.101.195.198
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇳🇱 NL-9 | 8EB
+  network: tcp
+  port: 62145
+  server: 92.5.227.75
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 10|🇸🇨 SC-2 | 8EB
+  network: ws
+  port: 8880
+  server: 188.114.97.6
+  type: vless
+  udp: true
+  uuid: b19b768d-bc57-4d03-9bea-61129ed5fef9
+  ws-opts:
+    headers:
+      Host: new.106-79e.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - alpn:
   - http/1.1
   name: 10|🇸🇬 SG-1 | 8EB
@@ -806,21 +1184,200 @@ proxies:
     headers:
       Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- allowInsecure: '0'
-  name: 10|🇮🇩 ID-1 | 8EB
-  password: l25nJa8z0D5pT6jl
-  port: 26001
-  server: 16.79.28.237
-  sni: id-ls-c-4.nebulacloud.win
+- name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 2095
+  server: 172.67.202.17
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: nmslfangbinxing.pusytroller.gq
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
+    short-id: 289c74e0
+  server: pq.aws66.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 69.63.193.78
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- flow: xtls-rprx-vision
+  name: 10,11|🇺🇸 US-54 | Mix
+  network: tcp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 20zgmuoZYL5ngyWwzwJSaNpfaRAOhX2UdND6RVVswm0
+    short-id: 71c05500
+  server: 134.195.101.207
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- allowInsecure: '1'
+  name: 10|🇺🇸 US-8 | 8EB
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
   udp: true
-- name: 10|🇺🇸 US-1 | 8EB
+- flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-9 | 8EB
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 97.64.31.10
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-10 | 8EB
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 64.186.226.124
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-11 | 8EB
+  network: tcp
   port: 443
-  server: 50cc947d-tk7400-tlvq5w-1jcwu.sj.oshuawei.com
+  reality-opts:
+    public-key: -Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns
+    short-id: f0dc50e8
+  server: 134.195.101.178
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-12 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE
+    short-id: 2546d239
+  server: 134.195.101.122
+  servername: www.mi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: 141.101.122.147
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-14 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+    short-id: 8b6e932c
+  server: pq.aws67.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b6aaf29-808b-412c-83e0-3c8215cc7d18
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇺🇸 US-15 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- name: 10|🇺🇸 US-16 | 8EB
+  port: 10808
+  server: 123.58.219.171
   type: socks
-  username: ZjkzNDg2Y2UtY2M4NC0xMWVkLTllOTgtZjIzYzkxM2M4ZDJiOmY5MzQ4NmNlLWNjODQtMTFlZC05ZTk4LWYyM2M5MTNjOGQyYg
+  username: Og
 - ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-17 | 8EB
   network: ws
   port: 443
   server: 104.16.79.73
@@ -834,284 +1391,6 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  password: MITIVPN
-  port: 443
-  security: tls
-  server: 188.114.97.6
-  servername: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  skip-cert-verify: true
-  sni: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 10|🇺🇸 US-4 | 8EB
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: dGVzdDEyMzp0ZXN0MTIz
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-5 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: 10|🇳🇱 NL-1 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 213.182.199.137
-  servername: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  skip-cert-verify: true
-  sni: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.2
-  servername: de1.de-cdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- name: 10|🇺🇸 US-6 | 8EB
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: dGVzdDEyMzp0ZXN0MTIz
-- name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 2087
-  server: 172.64.53.240
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- cipher: aes-256-gcm
-  name: 10|🇩🇪 DE-2 | 8EB
-  password: a2c044fe22258a18
-  port: 12666
-  server: 46.29.163.40
-  type: ss
-  udp: true
-- name: 10|🇺🇸 US-8 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 46292
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  server: 104.21.85.220
-  servername: cf.udpid.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
-  ws-opts:
-    headers:
-      Host: cf.udpid.org
-    path: /@zyzzzoao
-- name: 10|🇺🇸 US-10 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 38261
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 41834
-  server: 157.238.208.110
-  type: vless
-  udp: true
-  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
-  ws-opts:
-    path: /5adeccb9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.12
-  servername: de1.de-cdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- name: 10|🇺🇸 US-12 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 54657
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.10
-  servername: de1.de-cdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- name: 10|🇺🇸 US-13 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 59385
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇳🇱 NL-2 | 8EB
-  network: tcp
-  port: 62145
-  server: 141.148.232.137
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 10|🇳🇱 NL-3 | 8EB
-  network: ws
-  port: 8444
-  server: 45.91.202.27
-  servername: bridge.meshbeat.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  ws-opts:
-    headers:
-      Host: bridge.meshbeat.online
-    path: /api/v1/devices/c79c81b07c/telemetry
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.13
-  servername: de1.de-cdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-14 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
-    short-id: 33acba1b
-  server: 138.124.180.137
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-1 | 8EB
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇫🇮 FI-1 | 8EB
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8443
-  server: 138.124.0.168
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-2 | 8EB
-  password: fc0heeXAqzNX86aP
-  port: 443
-  server: 159.89.112.218
-  type: ss
-  udp: true
-- name: 10|🇨🇴 CO-1 | 8EB
-  network: tcp
-  port: 62145
-  server: 157.137.210.216
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇺🇸 US-16 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 20065
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- allowInsecure: '1'
-  name: 10|🇫🇷 FR-1 | 8EB
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 10,11|🇺🇸 US-65 | Mix
@@ -1127,137 +1406,6 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 10|🇺🇸 US-17 | 8EB
-  network: tcp
-  port: 62145
-  server: 149.130.179.122
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.4
-  servername: de1.de-cdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 10|🇳🇱 NL-4 | 8EB
-  network: ws
-  port: 8444
-  server: bridge.meshbeat.online
-  servername: bridge.meshbeat.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  ws-opts:
-    headers:
-      Host: bridge.meshbeat.online
-    path: /api/v1/devices/c79c81b07c/telemetry
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-18 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-58 | Mix
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 195.123.210.168
-  servername: auto.cendora.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 10|🇪🇸 ES-1 | 8EB
-  network: tcp
-  password: fg20mtCFHy
-  port: 5443
-  security: tls
-  server: 172.233.115.40
-  servername: www.bing.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-3 | 8EB
-  password: jCacZrWkhonLqnvd
-  port: 80
-  server: 159.89.114.254
-  type: ss
-  udp: true
-- name: 10|🇩🇪 DE-7 | 8EB
-  network: ws
-  port: 443
-  server: cdn4.velnaro.ir
-  servername: cdn4.velnaro.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2615adf-96c4-414e-9126-eedf9ec9f0c0
-  ws-opts:
-    path: /happy-2026-fall
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  mode: auto
-  name: 10|🇫🇮 FI-2 | 8EB
-  network: xhttp
-  port: 2087
-  server: 104.16.6.70
-  servername: ip-8.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ed4d629-09a2-44b5-b231-d8cc4b318bdb
-- flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-54 | Mix
-  network: tcp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- name: 10|🇺🇸 US-19 | 8EB
-  network: ws
-  port: 8880
-  server: www.ipget.net
-  type: vless
-  udp: true
-  uuid: bbecfa92-4f64-4eb8-82e6-388394d909fe
-  ws-opts:
-    headers:
-      Host: empty-poetry-07b6.477-e0d.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - ech: ip.gs+https://dns.alidns.com/dns-query
   name: 10,11|🇸🇬 SG-2 | Mix
   network: ws
@@ -1273,258 +1421,59 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- name: 10|🇺🇸 US-20 | 8EB
-  network: ws
-  port: 2095
-  server: 172.67.202.17
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: nmslfangbinxing.pusytroller.gq
-    path: /
-- name: 10|🇳🇱 NL-5 | 8EB
-  port: 1080
-  server: 85.17.179.81
-  type: socks
-  username: TV9ZT1VfRDpQcml2YXRl
-- name: 10|🇳🇱 NL-6 | 8EB
-  network: tcp
-  port: 62145
-  server: 144.21.38.148
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 10,11|🇺🇸 US-58 | Mix
   network: tcp
-  port: 53113
+  port: 13443
   reality-opts:
-    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
-    short-id: 238ba3b9e8
-  server: jpaws.ccwink.photos
-  servername: docs.aws.amazon.com
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  server: 195.123.210.168
+  servername: auto.cendora.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 6897
-  reality-opts:
-    public-key: X2thmYgL8pXZBmFxMOPo3oIYAga5CTMEd-YMcJHk4Es
-    short-id: 54efd54cf3e7
-  server: jpaws.ccwink.photos
-  servername: docs.aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-2 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-3 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.26
-  type: ss
-  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 US-21 | 8EB
+  name: 10|🇩🇪 DE-12 | 8EB
   network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  tls:
-    enabled: true
-    server_name: softball-chief-observations-myspace.trycloudflare.com
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
-      Host: softball-chief-observations-myspace.trycloudflare.com
-    path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-4 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-5 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-6 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-7 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-8 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-9 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-10 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-11 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-12 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-13 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21122
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-14 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-15 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-16 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-17 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21120
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-18 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-19 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21116
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-20 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-21 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇫🇮 FI-3 | 8EB
-  network: tcp
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- allowInsecure: '1'
+  name: 10|🇹🇷 TR-1 | 8EB
+  password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: b0c58c398abb6842
-  server: 45.195.228.53
-  servername: storage.yandex.net
+  server: 194.135.34.207
+  skip-cert-verify: true
+  sni: 194.135.34.207
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1520ff7f-e4af-4c68-9463-184ad583be39
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-22 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-23 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-24 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.26
-  type: ss
-  udp: true
+  uuid: ce99a4f9-02a4-4476-d31d-8152b0d999ea
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
 - name: 10|🇷🇴 RO-1 | 8EB
   network: httpupgrade
   port: 48689
@@ -1533,9 +1482,170 @@ proxies:
   udp: true
   uuid: e25486c7-3342-4777-a82d-89d485f844dc
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-25 | 8EB
+  name: 10|🇨🇳 CN-2 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21103
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-3 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-4 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-5 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21120
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-6 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-7 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-8 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-9 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21108
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-10 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-11 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21116
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-12 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-13 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-14 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-15 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21122
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-16 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-17 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-18 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-19 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-20 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-21 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-22 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21109
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-23 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-24 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-25 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
   server: 211.91.158.44
   type: ss
   udp: true

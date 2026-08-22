@@ -1,4 +1,27 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇬🇧 GB-2 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 443
+  server: 27057ad9.pwd.kdns.fr
+  tls:
+    enabled: true
+    server_name: 27057ad9.pwd.kdns.fr
+  type: vmess
+  udp: true
+  uuid: 27057ad9-5dfb-4e65-84df-f74674500fcd
+  ws-opts:
+    headers:
+      Host: 27057ad9.pwd.kdns.fr
+    path: /27057ad9-5dfb-4e65-84df-f74674500fcd-vm
 - alpn:
   - http/1.1
   name: 10|🇸🇬 SG-1 | 8EB
@@ -15,326 +38,191 @@ proxies:
     headers:
       Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  password: MITIVPN
-  port: 443
-  security: tls
-  server: 188.114.97.6
-  servername: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  skip-cert-verify: true
-  sni: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 39995895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-5 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: 10|🇳🇱 NL-1 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 213.182.199.137
-  servername: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  skip-cert-verify: true
-  sni: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- cipher: aes-256-gcm
-  name: 10|🇩🇪 DE-2 | 8EB
-  password: a2c044fe22258a18
-  port: 12666
-  server: 46.29.163.40
-  type: ss
-  udp: true
-- name: 10|🇺🇸 US-8 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 46292
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇺🇸 US-10 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 38261
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇺🇸 US-12 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 54657
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- name: 10|🇺🇸 US-13 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 59385
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-1 | 8EB
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-2 | 8EB
-  password: fc0heeXAqzNX86aP
-  port: 443
-  server: 159.89.112.218
-  type: ss
-  udp: true
-- name: 10|🇺🇸 US-16 | 8EB
-  network: tcp
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 20065
-  security: tls
-  server: us01.duotg.top
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇺🇸 US-18 | 8EB
+  name: 10|🇺🇸 US-15 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 10|🇪🇸 ES-1 | 8EB
-  network: tcp
-  password: fg20mtCFHy
-  port: 5443
-  security: tls
-  server: 172.233.115.40
-  servername: www.bing.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: 10|🇨🇦 CA-3 | 8EB
-  password: jCacZrWkhonLqnvd
-  port: 80
-  server: 159.89.114.254
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
   server: 211.91.158.26
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|🇩🇪 DE-12 | 8EB
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-2 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
+  port: 21103
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-3 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
+  port: 21117
   server: 211.91.158.26
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-21 | 8EB
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  tls:
-    enabled: true
-    server_name: softball-chief-observations-myspace.trycloudflare.com
-  type: vmess
-  udp: true
-  uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
-  ws-opts:
-    headers:
-      Host: softball-chief-observations-myspace.trycloudflare.com
-    path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-4 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
+  port: 21118
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-5 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
+  port: 21120
+  server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-6 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
+  port: 21121
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-7 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
+  port: 21125
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-8 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
-  server: 211.91.158.44
+  port: 21126
+  server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-9 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
+  port: 21108
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-10 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.26
+  port: 21113
+  server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-11 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-12 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-13 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21122
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-14 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-15 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-16 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-17 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21120
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-18 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-19 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21116
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-20 | 8EB
+  name: 10|🇨🇳 CN-12 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
+  port: 21117
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-21 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-22 | 8EB
+  name: 10|🇨🇳 CN-13 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21118
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|🇨🇳 CN-23 | 8EB
+  name: 10|🇨🇳 CN-14 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-15 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21122
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-16 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-17 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-18 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21121
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-19 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-20 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-21 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-22 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21109
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇨🇳 CN-23 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-24 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
+  port: 21119
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇨🇳 CN-25 | 8EB
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21103
+  port: 21104
   server: 211.91.158.44
   type: ss
   udp: true
