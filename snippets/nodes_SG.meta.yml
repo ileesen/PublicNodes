@@ -101,27 +101,46 @@ proxies:
     headers:
       Host: ericsson-lab-managed-oem.trycloudflare.com
     path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
-- name: 13,14|新加坡|@ripaojiedian
-  network: tcp
+- name: 13|🇸🇬 新加坡|@ripaojiedian
   password: d5517dedef425597a1b9fdbaad99544e
   port: 51396
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
+- name: 13|🇸🇬 新加坡2|@ripaojiedian
   password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
+- name: 13|🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 32434
   server: 43.199.155.17
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡|@ripaojiedian
+  network: ws
+  port: '443'
+  server: Aim7HqTuvNOofcsx.v.3dns.vip
+  servername: Aim7HqTuvNOofcsx.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Aim7HqTuvNOofcsx.v.3dns.vip
+    path: /ws-vmess
+- name: 14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 35.78.187.63
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
