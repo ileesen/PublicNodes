@@ -1,4 +1,26 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: tcp
+  port: 14406
+  reality-opts:
+    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
+    short-id: 1a2b3c4d5e6f7a8b
+  server: 85.198.70.200
+  servername: vk.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+- cipher: aes-128-gcm
+  name: 10|🇷🇺 RU-2 | 8EB
+  password: MVRJQnJDQ1J3R1JaS1NXNXI5VFB3ekxqQ0dxRDduZUZDWnR1dnNqeEhVS1phVlZyWG42Qnc5NGV2YWRUaFFrTg==
+  port: 26140
+  server: 37.77.106.46
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   name: 11|🇷🇺 RU-1 | Mix
   network: ws

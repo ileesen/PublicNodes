@@ -8,14 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '8|德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.169
-  skip-cert-verify: true
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  tls: false
-  type: hysteria2
-- name: '8|德国 #2'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge4.whit3.net
@@ -33,14 +25,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|德国 #3'
+- name: '8|德国 #2'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: '8|德国 #4'
+- name: '8|德国 #3'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.104
@@ -48,7 +40,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #5'
+- name: '8|德国 #4'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.97
@@ -56,7 +48,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #6'
+- name: '8|德国 #5'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -64,54 +56,51 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-    short-id: 69cc4c0d5e
-  server: nl2.miyazono-kaori.com
-  servername: www.philips.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.26
+  type: ss
   udp: true
-  uuid: 343ddee7-fc82-4f1c-aecd-086421432911
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6hrP_JlRUK40WwXk9ZL0FpB19bTR0RnrUGYX5SaZkCE
-    short-id: 0501b478da6a4950
-  server: 5.175.161.47
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- allowInsecure: '1'
+  name: 10|🇩🇪 DE-2 | 8EB
+  password: e660daf2da753ca8317387342b8af384
+  port: 50160
+  server: 3.71.196.174
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-  uuid: eb85f61f-acb3-4689-8b7c-d8ad2a6aa43f
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-  mode: gun
+- allowInsecure: '1'
   name: 10|🇩🇪 DE-4 | 8EB
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: 6hrP_JlRUK40WwXk9ZL0FpB19bTR0RnrUGYX5SaZkCE
-    short-id: 0501b478da6a4950
-  server: 5.175.161.47
-  servername: gateway.icloud.com
-  serviceName: grpc
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: eb85f61f-acb3-4689-8b7c-d8ad2a6aa43f
+- allowInsecure: '0'
+  name: 10|🇩🇪 DE-5 | 8EB
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  sni: 185.230.44.170
+  type: hysteria2
+  udp: true
+- allowInsecure: '1'
+  name: 10|🇩🇪 DE-6 | 8EB
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  sni: hy2.aspidnet.xyz
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   name: 11|🇩🇪 DE-1 | Mix
   network: ws

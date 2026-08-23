@@ -1,4 +1,28 @@
 proxies:
+- allowInsecure: '1'
+  name: 10|🇰🇷 KR-1 | 8EB
+  password: c86222db9b5784ef6a2c0ab13f6ef658
+  port: 50160
+  server: 168.107.13.220
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: 05NJf0mUnwSug2mFPW75W46dF1drd9mR_dXPek6npCY
+    short-id: 567fdacc7f10ff5b
+  server: 39351.cdn.digitaldashcloud.com
+  servername: calculator.aws
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f50b4075-dcae-4905-9c3b-bd35e2ead053
 - name: 11|🇰🇷 KR-1 | Mix
   port: 1090
   server: 121.169.46.116

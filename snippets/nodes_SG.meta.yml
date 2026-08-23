@@ -23,47 +23,66 @@ proxies:
   sni: vip-sg-2.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- name: 8|新加坡
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.190.23
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- allowInsecure: '1'
+  name: 10|🇸🇬 SG-1 | 8EB
+  password: 2544ad8a388f1b7e6d1c878f5a7d121c
+  port: 50160
+  server: 213.35.114.141
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '1'
+  name: 10|🇸🇬 SG-2 | 8EB
+  password: 0742bdc33427533deea4903d4ae27533
+  port: 50160
+  server: 20.24.150.10
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
   name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 10017
-  reality-opts:
-    public-key: XV85nYU2U8OlC9HYGBH9gXLUvkLELGbHAeI8bGD0SSY
-    short-id: 68f899acc3729e
-  server: family.bucket.6.kfc-520.com
-  servername: www.sap.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10934
+  server: mn.qwer-cn.org
+  type: ss
   udp: true
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  port: 10019
-  reality-opts:
-    public-key: pqXjD4or04GC_CbVnjNLFhJkfxcIXSAbxzLsBad2TCI
-    short-id: 6b4135b5fd
-  server: family.bucket.6.kfc-520.com
-  servername: www.sap.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-- name: 10|🇸🇬 SG-8 | 8EB
+- name: 10|🇸🇬 SG-4 | 8EB
   network: ws
   port: 8880
-  server: 188.114.97.6
+  server: envato.com
   type: vless
   udp: true
-  uuid: b19b768d-bc57-4d03-9bea-61129ed5fef9
+  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
   ws-opts:
     headers:
-      Host: new.106-79e.workers.dev
+      Host: blue-water-924c.174-235.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: ws
+  port: 443
+  server: vip.cf.3666888.xyz
+  tls:
+    enabled: true
+    server_name: 6e25985e.pwd.kdns.fr
+  type: vmess
+  udp: true
+  uuid: 6e25985e-eb57-411f-9a7b-d877ff425522
+  ws-opts:
+    headers:
+      Host: 6e25985e.pwd.kdns.fr
+    path: /6e25985e-eb57-411f-9a7b-d877ff425522-vm
 - ech: ip.gs+https://dns.alidns.com/dns-query
   name: 10,11|🇸🇬 SG-2 | Mix
   network: ws
@@ -79,17 +98,22 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- name: 10|🇸🇬 SG-10 | 8EB
-  network: ws
-  port: 8880
-  server: 104.16.97.215
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇸🇬 SG-7 | 8EB
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.44
+  type: ss
   udp: true
-  uuid: e9d9f06f-d5dd-460a-998f-52efc4732636
-  ws-opts:
-    headers:
-      Host: bitter-meadow-1d60.313-0f9.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+- allowInsecure: '1'
+  name: 10|🇸🇬 SG-8 | 8EB
+  password: 023c40e3394dd2c2f1b5d12556db2a6f
+  port: 50160
+  server: 38.180.190.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - ech: ip.gs+https://dns.alidns.com/dns-query
   name: 11|🇸🇬 SG-1 | Mix
   network: ws

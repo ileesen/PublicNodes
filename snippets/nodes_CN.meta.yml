@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇨🇳 CN-1 | 8EB
+  network: tcp
+  port: 2546
+  reality-opts:
+    public-key: SrGOuIhztjhU6N1kpQ2yKzP1U-wji102Li6yAU9pPXA
+    short-id: 5714279a
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: k0g3h.biliimg.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- allowInsecure: '1'
+  name: 10|🇨🇳 CN-2 | 8EB
+  password: f4ae05bcb9528779a8469ee5d352a817
+  port: 50160
+  server: 34.80.120.225
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true

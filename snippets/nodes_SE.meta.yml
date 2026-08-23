@@ -1,11 +1,18 @@
 proxies:
-- name: 8|瑞典
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- name: 10|🇸🇪 SE-1 | 8EB
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
+  security: tls
+  server: 140.248.185.253
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix

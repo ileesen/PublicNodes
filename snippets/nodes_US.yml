@@ -1,4 +1,18 @@
 proxies:
+- name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  password: 8oUrvxh0mGkzTknV
+  port: 443
+  security: tls
+  server: 172.66.44.113
+  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  skip-cert-verify: false
+  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
+    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
 - alpn:
   - h3
   - h2

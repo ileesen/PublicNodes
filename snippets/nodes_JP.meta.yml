@@ -15,21 +15,55 @@ proxies:
   sni: vip-jp-4.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- allowInsecure: '1'
   name: 10|🇯🇵 JP-1 | 8EB
+  password: bb7c0aa0966a031bb9184a64a52ce80e
+  port: 50160
+  server: 45.153.245.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
   network: tcp
-  port: 10012
+  port: 50159
   reality-opts:
-    public-key: h8_vz525am29stkvmkCt34ao-3rErjY3rIt-3nsVZ0I
-    short-id: c83b
-  server: family.bucket.7.kfc-520.com
-  servername: www.sony.com
+    public-key: GBSyMDmBSz4C-brs0GYG6HXNb2CyWANvkBrd8W1GDU0
+    short-id: 6b22ad2202d70547
+  server: 45.66.218.187
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+  uuid: fdb25e5e-d99a-468c-aa13-0fe9892771b6
+- cipher: aes-128-gcm
+  name: 10|🇯🇵 JP-3 | 8EB
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10925
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  name: 10|🇯🇵 JP-4 | 8EB
+  password: 9c5be37406b6584005b8de0ee3734dd9
+  port: 50160
+  server: 140.238.43.0
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- allowInsecure: '1'
+  name: 10|🇯🇵 JP-5 | 8EB
+  password: b4c65d3711d27d46f32263f1dd9caf48
+  port: 50160
+  server: 151.145.65.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - name: 11|🇯🇵 JP-1 | Mix
   port: 10808
   server: 101.36.104.46
