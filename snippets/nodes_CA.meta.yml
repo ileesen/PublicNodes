@@ -13,6 +13,21 @@ proxies:
     headers:
       Host: liang92.dpdns.org
     path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: oyue.rainfall0705.cc.cd
+    path: /
 - name: 11|🇨🇦 CA-1 | Mix
   network: ws
   password: humanity
