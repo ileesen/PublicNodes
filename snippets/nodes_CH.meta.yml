@@ -11,6 +11,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇨🇭 CH-1 | 8EB
+  network: ws
+  port: 443
+  server: 152.67.64.55
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - allowInsecure: '0'
   name: 11|🇨🇭 CH-1 | Mix
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z

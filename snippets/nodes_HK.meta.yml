@@ -25,15 +25,88 @@ proxies:
   sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc
   tls: false
   type: hysteria2
-- allowInsecure: '1'
+- cipher: chacha20-ietf-poly1305
   name: 10|🇭🇰 HK-1 | 8EB
-  password: dde12355329d7abbe96ddd32deee462b
-  port: 50160
-  server: 194.104.146.9
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  password: qI513Sf0ARJuirKb37p0amvgUd0aNr6d
+  port: 2082
+  server: grman.pubgjim.ir
+  type: ss
   udp: true
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 8443
+  server: 155.254.122.234
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  port: 443
+  server: 193.134.211.209
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  port: 443
+  server: news.cathaypacific.com
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: ws
+  port: 443
+  server: foodpanda.hk
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: ws
+  port: 443
+  server: www.stheadline.com
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - client-fingerprint: chrome
   name: 11|🇭🇰 HK-1 | Mix
   network: ws

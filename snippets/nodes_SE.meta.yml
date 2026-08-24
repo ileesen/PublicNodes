@@ -1,18 +1,19 @@
 proxies:
-- name: 10|🇸🇪 SE-1 | 8EB
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇸🇪 SE-1 | 8EB
   network: ws
-  password: MiTiVPN
   port: 443
-  security: tls
-  server: 140.248.185.253
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
+  server: 79.137.206.195
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
-      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix

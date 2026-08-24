@@ -1,132 +1,65 @@
 proxies:
-- name: 10|🇲🇾 MY-1 | 8EB
-  network: tcp
-  password: 5931134d1cde66bf83a54acdfebe7ab2
-  port: 443
-  security: tls
-  server: 47.250.84.25
-  servername: moltbot.doctoroyy.net
-  skip-cert-verify: true
-  sni: moltbot.doctoroyy.net
-  type: trojan
-- cipher: aes-128-gcm
-  name: 10|🇸🇬 SG-3 | 8EB
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
-  port: 10934
-  server: mn.qwer-cn.org
+- cipher: aes-256-cfb
+  name: 10|🇹🇭 TH-1 | 8EB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 10|🇯🇵 JP-3 | 8EB
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
-  port: 10925
-  server: mn.qwer-cn.org
+- cipher: aes-256-cfb
+  name: 10|🇬🇧 GB-1 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 3.8.123.237
   type: ss
   udp: true
-- name: 10|🇸🇪 SE-1 | 8EB
-  network: ws
-  password: MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇭🇰 HK-1 | 8EB
+  password: qI513Sf0ARJuirKb37p0amvgUd0aNr6d
+  port: 2082
+  server: grman.pubgjim.ir
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 10|🇬🇧 GB-3 | 8EB
+  password: amazonskr05
   port: 443
-  security: tls
-  server: 140.248.185.253
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  server: 35.177.76.120
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10|🇩🇪 DE-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.26
+  password: MzcxY
+  port: 8388
+  server: 45.95.2.25
   type: ss
   udp: true
-- name: 10|🇮🇩 ID-1 | 8EB
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20056
-  security: tls
-  server: kkvlvvq-a.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: ws
+- cipher: aes-256-cfb
+  name: 10|🇮🇪 IE-1 | 8EB
+  password: amazonskr05
   port: 443
-  server: vip.cf.3666888.xyz
-  tls:
-    enabled: true
-    server_name: 6e25985e.pwd.kdns.fr
-  type: vmess
-  udp: true
-  uuid: 6e25985e-eb57-411f-9a7b-d877ff425522
-  ws-opts:
-    headers:
-      Host: 6e25985e.pwd.kdns.fr
-    path: /6e25985e-eb57-411f-9a7b-d877ff425522-vm
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇷🇴 RO-3 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21103
-  server: 211.91.158.44
+  server: 34.243.114.244
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-7 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 10|🇹🇼 TW-1 | 8EB
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20116
-  security: tls
-  server: hkdcrtc-e.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  password: 8oUrvxh0mGkzTknV
+- cipher: aes-256-cfb
+  name: 10|🇨🇦 CA-1 | 8EB
+  password: amazonskr05
   port: 443
-  security: tls
-  server: 172.66.44.113
-  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  skip-cert-verify: false
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇹🇭 TH-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21123
-  server: 211.91.158.44
+  server: 15.156.194.44
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇫🇷 FR-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21122
-  server: 211.91.158.44
+- cipher: aes-256-cfb
+  name: 10|🇫🇷 FR-2 | 8EB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 10|🇷🇺 RU-2 | 8EB
-  password: MVRJQnJDQ1J3R1JaS1NXNXI5VFB3ekxqQ0dxRDduZUZDWnR1dnNqeEhVS1phVlZyWG42Qnc5NGV2YWRUaFFrTg==
-  port: 26140
-  server: 37.77.106.46
+- cipher: aes-256-cfb
+  name: 10|🇬🇧 GB-5 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 13.135.252.176
   type: ss
   udp: true
 - alpn:

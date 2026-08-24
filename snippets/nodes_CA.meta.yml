@@ -1,4 +1,41 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 10|🇨🇦 CA-1 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 15.156.194.44
+  type: ss
+  udp: true
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 8443
+  server: 24.141.96.92
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 443
+  server: 172.98.207.58
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - name: 11|🇨🇦 CA-1 | Mix
   network: ws
   password: humanity

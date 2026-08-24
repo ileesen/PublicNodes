@@ -39,63 +39,41 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- allowInsecure: '1'
-  name: 10|🇸🇬 SG-1 | 8EB
-  password: 2544ad8a388f1b7e6d1c878f5a7d121c
-  port: 50160
-  server: 213.35.114.141
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇸🇬 SG-2 | 8EB
-  password: 0742bdc33427533deea4903d4ae27533
-  port: 50160
-  server: 20.24.150.10
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-128-gcm
+- ech: ip.gs+udp://8.8.8.8
   name: 10|🇸🇬 SG-3 | 8EB
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
-  port: 10934
-  server: mn.qwer-cn.org
-  type: ss
-  udp: true
-- name: 10|🇸🇬 SG-4 | 8EB
   network: ws
-  port: 8880
-  server: envato.com
+  port: 443
+  server: 157.230.255.59
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
-      Host: blue-water-924c.174-235.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬 SG-5 | 8EB
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇸🇬 SG-4 | 8EB
   network: ws
   port: 443
-  server: vip.cf.3666888.xyz
-  tls:
-    enabled: true
-    server_name: 6e25985e.pwd.kdns.fr
-  type: vmess
+  server: drivewealth.com
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 6e25985e-eb57-411f-9a7b-d877ff425522
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
-      Host: 6e25985e.pwd.kdns.fr
-    path: /6e25985e-eb57-411f-9a7b-d877ff425522-vm
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - ech: ip.gs+https://dns.alidns.com/dns-query
-  name: 10,11|🇸🇬 SG-2 | Mix
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 443
-  server: 104.18.37.228
+  server: 172.66.44.97
   servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true
@@ -106,27 +84,11 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /sg-melbi
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 SG-7 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇸🇬 SG-8 | 8EB
-  password: 023c40e3394dd2c2f1b5d12556db2a6f
-  port: 50160
-  server: 38.180.190.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - ech: ip.gs+https://dns.alidns.com/dns-query
-  name: 11|🇸🇬 SG-1 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 443
-  server: 172.66.44.97
+  server: 104.18.37.228
   servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true

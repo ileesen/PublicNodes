@@ -1,5 +1,5 @@
 proxies:
-- name: 8|德国
+- name: 8,9|75@oneclickvpnkeys
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -49,50 +49,36 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|26@oneclickvpnkeys
-  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+- name: 9|62@oneclickvpnkeys
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   port: 443
-  server: 89.125.156.80
+  server: 144.31.221.57
   skip-cert-verify: true
-  sni: pixelcast.wwwinternetvideo.click
+  sni: player.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 10|🇩🇪 DE-1 | 8EB
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.26
+  password: MzcxY
+  port: 8388
+  server: 45.95.2.25
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 10|🇩🇪 DE-4 | 8EB
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+- ech: ip.gs+udp://8.8.8.8
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
   port: 443
-  server: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  type: hysteria2
+  server: 46.247.108.163
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- allowInsecure: '0'
-  name: 10|🇩🇪 DE-5 | 8EB
-  password: e5gqbtu97umt992j
-  port: 9443
-  server: 185.230.44.170
-  sni: 185.230.44.170
-  type: hysteria2
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇩🇪 DE-6 | 8EB
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  sni: hy2.aspidnet.xyz
-  type: hysteria2
-  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - client-fingerprint: chrome
   name: 11|🇩🇪 DE-1 | Mix
   network: ws

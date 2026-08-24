@@ -1,28 +1,19 @@
 proxies:
-- allowInsecure: '1'
+- ech: ip.gs+udp://8.8.8.8
   name: 10|🇰🇷 KR-1 | 8EB
-  password: c86222db9b5784ef6a2c0ab13f6ef658
-  port: 50160
-  server: 168.107.13.220
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: tcp
-  port: 2096
-  reality-opts:
-    public-key: 05NJf0mUnwSug2mFPW75W46dF1drd9mR_dXPek6npCY
-    short-id: 567fdacc7f10ff5b
-  server: 39351.cdn.digitaldashcloud.com
-  servername: calculator.aws
+  network: ws
+  port: 443
+  server: 43.128.130.43
+  servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f50b4075-dcae-4905-9c3b-bd35e2ead053
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi/
 - name: 11|🇰🇷 KR-1 | Mix
   port: 1090
   server: 121.169.46.116
