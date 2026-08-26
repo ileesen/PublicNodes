@@ -29,31 +29,18 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
-- client-fingerprint: firefox
-  name: 11|🇷🇺 RU-1 | Mix
-  network: ws
-  port: 8443
-  server: 51.250.4.141
-  servername: cloudflare.vhub.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
-  ws-opts:
-    headers:
-      Host: cloudflare.vhub.pro
-    path: /websocket?ed=2560
 - alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 11|🇷🇺 RU-2 | Mix
-  network: xhttp
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-1 | Mix
+  network: tcp
   port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
+  server: 45.89.229.79
+  servername: u643766ua3515167s394.csgfw.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4

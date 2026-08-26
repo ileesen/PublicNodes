@@ -13,29 +13,51 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 8443
-  server: 103.242.2.214
-  servername: rubifen.adaspoloandco.com
+  network: tcp
+  port: 18153
+  server: s151.gogocs.xyz
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- cipher: aes-128-gcm
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-2 | Mix
-  password: ayucloud1
-  plugin: obfs-local
-  port: 6879
-  server: 260323.1.0.l2.unclemanco.com
-  type: ss
+  network: tcp
+  port: 18153
+  server: 212.192.15.191
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-3 | Mix
+  network: tcp
+  port: 18153
+  server: s299.kukuss.top
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
