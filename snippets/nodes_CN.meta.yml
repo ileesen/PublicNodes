@@ -1,121 +1,31 @@
 proxies:
-- ech: ip.gs+udp://8.8.8.8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇨🇳 CN-1 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: www.nestle.com.cn
-  servername: josni.hoyes.cloudns.ch
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: e6d59aff03e5b0
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
+  uuid: 44817aed-4e54-4704-8ca1-9f22243ed1a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇨🇳 CN-2 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 70mai.store
-  servername: josni.hoyes.cloudns.ch
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-3 | 8EB
-  network: ws
-  port: 443
-  server: www.hthkh.com
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-4 | 8EB
-  network: ws
-  port: 443
-  server: www.aeon.com.hk
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-5 | 8EB
-  network: ws
-  port: 443
-  server: citysuper.com.hk
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-6 | 8EB
-  network: ws
-  port: 443
-  server: jobsdb.com
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-7 | 8EB
-  network: ws
-  port: 443
-  server: pfizer.com.hk
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇨🇳 CN-8 | 8EB
-  network: ws
-  port: 443
-  server: newsmarket.com.tw
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
+  uuid: 44817aed-4e54-4704-8ca1-9f22243ed1a5

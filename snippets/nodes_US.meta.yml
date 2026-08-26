@@ -41,127 +41,108 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 2087
-  server: 104.19.213.131
-  servername: wzknb.pages.dev
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-2 | 8EB
+  uuid: cbdfd2e9-6083-4289-a60f-80b9e9954e4e
+- name: 10|🇺🇸 US-2 | 8EB
   network: ws
   port: 443
-  server: 162.243.215.140
-  servername: josni.hoyes.cloudns.ch
+  server: cf2.laowu.life
+  servername: cf2.laowu.life
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 86e02d10-23e7-496d-b90c-313649587c68
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
+      Host: cf2.laowu.life
+    path: /api/v2/stream
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 179.255.108.120
-  servername: josni.hoyes.cloudns.ch
+  reality-opts:
+    public-key: AzQlCUikY30iQK5pgK2nW_AiYJkvi2Lm5rDjWGHvzUo
+    short-id: 182dc224
+  server: 134.195.101.137
+  servername: updates.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-4 | 8EB
+  uuid: cbdfd2e9-6083-4289-a60f-80b9e9954e4e
+- name: 10|🇺🇸 US-4 | 8EB
   network: ws
   port: 443
-  server: 162.159.198.1
-  servername: josni.hoyes.cloudns.ch
+  server: cf2.laowu.life
+  servername: cf2.laowu.life
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 5abcf400-cc5b-4a90-a525-7136ca1b3f39
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-5 | 8EB
+      Host: cf2.laowu.life
+    path: /api/v2/stream
+- name: 10|🇺🇸 US-5 | 8EB
   network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: josni.hoyes.cloudns.ch
+  server: cf2.laowu.life
+  servername: cf2.laowu.life
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 87c6b724-8718-4416-aee2-f052e0566767
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
+      Host: cf2.laowu.life
+    path: /api/v2/stream
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-6 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: na.877774.xyz
-  servername: josni.hoyes.cloudns.ch
+  reality-opts:
+    public-key: XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA
+    short-id: 79f44f5c
+  server: 134.195.101.129
+  servername: updates.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
+  uuid: cbdfd2e9-6083-4289-a60f-80b9e9954e4e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-7 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 52pojie.org
-  servername: josni.hoyes.cloudns.ch
+  reality-opts:
+    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
+    short-id: e91da98020a38be9
+  server: 31.76.34.203
+  servername: russia.cendora.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
-- ech: ip.gs+udp://8.8.8.8
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 443
-  server: 162.159.197.1
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
+  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
 - name: 11|🇺🇸 US-1 | Mix
   port: 38182
   server: 69.55.49.177

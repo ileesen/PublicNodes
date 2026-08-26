@@ -1,19 +1,34 @@
 proxies:
-- ech: ip.gs+udp://8.8.8.8
+- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   name: 10|🇷🇺 RU-1 | 8EB
   network: ws
   port: 443
-  server: 92.243.66.201
-  servername: josni.hoyes.cloudns.ch
+  server: 185.179.82.201
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi/
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: ws
+  port: 443
+  server: 185.72.147.237
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
 - client-fingerprint: firefox
   name: 11|🇷🇺 RU-1 | Mix
   network: ws
