@@ -30,113 +30,123 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 11|🇬🇧 GB-1 | Mix
-  port: 1080
-  server: im-bal.pvdata.host
-  type: socks
-  username: TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-2 | Mix
+- name: 10|🇺🇰 UK-1 | 8EB
   network: tcp
-  port: 18153
-  server: 193.142.59.97
-  servername: u643766uc650f83as861.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-3 | Mix
-  network: tcp
-  port: 18153
-  server: s148.okgg.top
-  servername: u643766uf968cb94s124.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-4 | Mix
-  network: tcp
-  port: 18153
-  server: s128.okgg.top
-  servername: u643766uf968cb94s124.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-5 | Mix
-  network: tcp
-  port: 18153
-  server: s1244.csgfw.top
-  servername: u643766uc650f83as861.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-6 | Mix
-  network: tcp
-  port: 18153
-  server: s1243.sspcccdn.xyz
-  servername: u643766uc650f83as861.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-7 | Mix
-  network: tcp
-  port: 18153
-  server: 193.142.59.180
-  servername: u643766uf968cb94s124.gogocs.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  password: HOrViv
+  port: 28102
+  security: tls
+  server: 209.248.32.117
+  servername: ctldl.windowsupdate.com
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
 - client-fingerprint: chrome
-  name: 11|🇬🇧 GB-8 | Mix
+  name: 10|🇺🇰 UK-2 | 8EB
   network: ws
-  port: 8443
-  server: 193.219.99.44
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  port: 443
+  server: 162.159.197.1
+  servername: grc.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
   ws-opts:
     headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+      Host: grc.ccwu.cc
+    path: /?ed=2560
+- allowInsecure: '0'
+  name: 10|🇺🇰 UK-3 | 8EB
+  password: OD6gGbGU9a
+  port: 443
+  server: 195.133.24.124
+  sni: hys26.wba-pn.ru
+  type: hysteria2
+  udp: true
+- allowInsecure: '1'
+  name: 10|🇺🇰 UK-4 | 8EB
+  password: EkF2Yw0Lc7
+  port: 443
+  server: hys34.wba-pn.ru
+  skip-cert-verify: true
+  sni: hys34.wba-pn.ru
+  type: hysteria2
+  udp: true
+- name: 10|🇺🇰 UK-9 | 8EB
+  network: ws
+  port: 2200
+  server: 201.24.49.117
+  type: vless
+  udp: true
+  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 78.129.150.217
+  servername: strapi.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 66e9b3dc-76e2-417b-a2f3-bc350a8e17dc
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇰 UK-11 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mdw878be71y6U91o8i8ZruIkVILhcKf43yO98TGXZgo
+    short-id: bcef3e3d8584fa99
+  server: 38.77.133.141
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0eb057bc-f4b2-425b-80c9-1ed982916480
+- name: 10|🇬🇧 GB-3 | 8EB
+  network: tcp
+  port: 62145
+  server: 141.148.237.3
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: chrome
+  name: 10|🇺🇰 UK-12 | 8EB
+  network: ws
+  port: 443
+  server: skk.moe
+  servername: grc.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  ws-opts:
+    headers:
+      Host: grc.ccwu.cc
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇺🇰 UK-13 | 8EB
+  network: ws
+  port: 443
+  server: 172.64.229.189
+  servername: grc.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  ws-opts:
+    headers:
+      Host: grc.ccwu.cc
+    path: /?ed=2560

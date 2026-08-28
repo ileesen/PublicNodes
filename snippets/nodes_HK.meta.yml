@@ -6,51 +6,39 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+- allowInsecure: '1'
+  name: 10|🇭🇰 HK-1 | 8EB
+  password: dd1fd40d-7e11-43ee-8460-94a4170ccdc8
+  port: 1443
+  server: hk.mjhy2.com
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 10|🇭🇰 HK-2 | 8EB
   network: tcp
-  port: 18153
-  server: s151.gogocs.xyz
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  port: 38218
+  reality-opts:
+    public-key: 03hWBp-xwElEmilVxbhasf1Al0MZnvARUr4zclCV6S0
+    short-id: 30752ffd01a85649
+  server: hkayydswnnds.cfooov.xyz
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 18153
-  server: 212.192.15.191
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-3 | Mix
-  network: tcp
-  port: 18153
-  server: s299.kukuss.top
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
+- name: 11|🇭🇰 HK-1 | Mix
+  port: 1080
+  server: 8.210.31.250
+  type: socks
+  username: ODg4ODo4ODg4
+- name: 11|🇭🇰 HK-2 | Mix
+  port: 3060
+  server: 8.218.165.212
+  type: socks
+  username: MTIzOjEyMw
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

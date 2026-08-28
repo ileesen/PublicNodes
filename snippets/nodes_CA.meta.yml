@@ -1,15 +1,104 @@
 proxies:
-- name: 11|🇨🇦 CA-1 | Mix
+- name: 10|🇨🇦 CA-1 | 8EB
   network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 104.16.174.12
-  servername: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8080
+  server: 104.18.34.14
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 2086
+  server: 104.18.34.14
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 2095
+  server: 104.18.34.14
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-4 | 8EB
+  network: ws
+  port: 8880
+  server: 172.64.158.146
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-5 | 8EB
+  network: ws
+  port: 443
+  server: serviceshub.samsclub.com
+  servername: grc.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  ws-opts:
+    headers:
+      Host: grc.ccwu.cc
+    path: /?ed=2560
+- name: 10|🇨🇦 CA-6 | 8EB
+  network: ws
+  port: 2086
+  server: 172.64.158.146
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-7 | 8EB
+  network: ws
+  port: 2082
+  server: 172.64.229.2
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-8 | 8EB
+  network: ws
+  port: 2086
+  server: 162.159.0.53
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 10|🇨🇦 CA-9 | 8EB
+  network: ws
+  port: 2052
+  server: 162.159.48.32
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls

@@ -67,217 +67,59 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|18@oneclickvpnkeys
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: 130.61.50.75
-  tls: false
-  type: hysteria2
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 2053
-  server: 82.117.245.170
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 79.132.136.161
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  server: 111.88.74.167
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 443
-  server: 131.143.125.248
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 8443
-  server: 213.239.156.121
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: ws
-  port: 8443
-  server: 45.9.116.63
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-1 | Mix
-  network: ws
-  port: 443
-  server: 85.234.100.221
-  servername: vod.ensf.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 2053
-  server: 159.100.22.206
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 8443
-  server: 159.100.19.241
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 11|🇩🇪 DE-4 | Mix
-  network: ws
-  port: 2053
-  server: 213.226.71.38
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-6 | Mix
-  network: ws
-  port: 443
-  server: 185.255.93.189
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: qq
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-7 | Mix
+  name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
-    short-id: 76132b3b39704c44
-  server: 77.91.66.178
-  servername: de1.hat.onl
+    public-key: gox8U8f-JNoWrH7BLfIRBsw3mKwEjIDUOcgozmi_nzQ
+    short-id: 8b36e9b7b3
+  server: 189.24.107.174
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: dbb5075f-2ff4-4aad-a952-bcc82e4a6355
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-9 | Mix
+  uuid: 825c049b-403c-49e0-b60f-379bdb8611e9
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: 0102ac4e
+  server: rm-de-01.409648.xyz
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 31.59.125.49
+  servername: eu-central.cendora.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 10|🇩🇪 DE-7 | 8EB
   network: ws
   port: 443
-  server: 83.147.254.71
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  server: fast.iqiraq.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
   ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 11|🇩🇪 DE-10 | Mix
-  network: ws
-  port: 2053
-  server: 213.226.71.38
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c491730| 元首复活 | de | 213.226.71.38:2053
+    path: /

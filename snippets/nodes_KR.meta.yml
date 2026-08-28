@@ -1,1 +1,64 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  port: 25636
+  reality-opts:
+    public-key: 3q6CuhLN7vMBISVK5PGjjlGKrRlub5VerIonNSL4c1o
+    short-id: f34d0b76b7af0199
+  server: kghgalybqwqqnqnbdb.jiedddym.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-1 | Mix
+  network: tcp
+  port: 28482
+  reality-opts:
+    public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
+    short-id: fa1e592603c283
+  server: 43.202.46.25
+  servername: www.intel.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-2 | Mix
+  network: tcp
+  port: 12359
+  reality-opts:
+    public-key: 8SUi1EG0YaPd7spjghl2QcZYvuJfEtPjqR9Vpzgc2Q4
+    short-id: 8f30f2fa8282cebc
+  server: 43.203.242.114
+  servername: www.tesla.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78990f64-7bc8-48b9-a127-0d5545593a38
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-3 | Mix
+  network: tcp
+  port: 19179
+  reality-opts:
+    public-key: BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA
+    short-id: fa1e592603c283
+  server: 3.38.1.152
+  servername: www.intel.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
