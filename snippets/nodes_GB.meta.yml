@@ -30,123 +30,48 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 10|🇺🇰 UK-1 | 8EB
-  network: tcp
-  password: HOrViv
-  port: 28102
-  security: tls
-  server: 209.248.32.117
-  servername: ctldl.windowsupdate.com
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-2 | 8EB
+- client-fingerprint: random
+  name: 10|🇬🇧 GB-1 | 8EB
   network: ws
   port: 443
-  server: 162.159.197.1
-  servername: grc.ccwu.cc
+  server: 138.124.34.103
+  servername: kv.074167.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
   ws-opts:
     headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- allowInsecure: '0'
-  name: 10|🇺🇰 UK-3 | 8EB
-  password: OD6gGbGU9a
-  port: 443
-  server: 195.133.24.124
-  sni: hys26.wba-pn.ru
-  type: hysteria2
-  udp: true
-- allowInsecure: '1'
-  name: 10|🇺🇰 UK-4 | 8EB
-  password: EkF2Yw0Lc7
-  port: 443
-  server: hys34.wba-pn.ru
-  skip-cert-verify: true
-  sni: hys34.wba-pn.ru
-  type: hysteria2
-  udp: true
-- name: 10|🇺🇰 UK-9 | 8EB
-  network: ws
-  port: 2200
-  server: 201.24.49.117
-  type: vless
-  udp: true
-  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: /v1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+      Host: kv.074167.xyz
+    path: /
+- client-fingerprint: random
   name: 10|🇬🇧 GB-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 78.129.150.217
-  servername: strapi.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 66e9b3dc-76e2-417b-a2f3-bc350a8e17dc
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇺🇰 UK-11 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mdw878be71y6U91o8i8ZruIkVILhcKf43yO98TGXZgo
-    short-id: bcef3e3d8584fa99
-  server: 38.77.133.141
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0eb057bc-f4b2-425b-80c9-1ed982916480
-- name: 10|🇬🇧 GB-3 | 8EB
-  network: tcp
-  port: 62145
-  server: 141.148.237.3
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-12 | 8EB
   network: ws
   port: 443
-  server: skk.moe
-  servername: grc.ccwu.cc
+  server: 138.68.188.142
+  servername: kv.074167.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
   ws-opts:
     headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-13 | 8EB
+      Host: kv.074167.xyz
+    path: /
+- client-fingerprint: qq
+  name: 10|🇬🇧 GB-3 | 8EB
   network: ws
   port: 443
-  server: 172.64.229.189
-  servername: grc.ccwu.cc
+  server: 138.124.34.103
+  servername: mms-statlc-7n6n-e.hzedu.men
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  uuid: 6a95cfe5-9cd5-46a1-99d4-553b9c66348e
   ws-opts:
     headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
+      Host: mms-static-path-e.hzedu.men
+    path: /live/7WUAS350/images/apple-account/locale/zh-cn

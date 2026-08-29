@@ -27,14 +27,36 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- allowInsecure: '1'
+- client-fingerprint: qq
   name: 10|🇯🇵 JP-1 | 8EB
-  password: 75ff0694-310d-4edb-9881-513680eba95d
-  port: 3488
-  server: c2.bestai.beauty
-  skip-cert-verify: true
-  type: hysteria2
+  network: ws
+  port: 443
+  server: 207.148.107.36
+  servername: mms-statlc-7n6n-e.hzedu.men
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 6a95cfe5-9cd5-46a1-99d4-553b9c66348e
+  ws-opts:
+    headers:
+      Host: mms-static-path-e.hzedu.men
+    path: /live/7WUAS350/images/apple-account/locale/zh-cn
+- client-fingerprint: qq
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 443
+  server: 209.33.174.2
+  servername: mms-statlc-7n6n-e.hzedu.men
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a95cfe5-9cd5-46a1-99d4-553b9c66348e
+  ws-opts:
+    headers:
+      Host: mms-static-path-e.hzedu.men
+    path: /live/7WUAS350/images/apple-account/locale/zh-cn
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇯🇵 JP-1 | Mix
