@@ -62,7 +62,22 @@ proxies:
   type: vless
   udp: true
   uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-- client-fingerprint: chrome
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 11|🇸🇬 SG-2 | Mix
   network: tcp
@@ -76,22 +91,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 9d4e62b2-b2fd-46bf-b63b-e129edd1524d
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-3 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

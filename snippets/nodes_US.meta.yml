@@ -7,7 +7,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: '8|美国 #1'
+- name: 8,9|🪆74@oneclickvpnkeys
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -23,6 +23,19 @@ proxies:
   server: faq.wwwinternetvideo.click
   skip-cert-verify: true
   sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '9|🇫🇮ConfigV2RayNG #3'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52078
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -206,71 +219,46 @@ proxies:
     path: /api/user
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
   password: 'null'
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-4 | Mix
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: None
-  port: 443
-  server: crosscards.site
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-6 | Mix
-  network: tcp
-  port: 7800
-  reality-opts:
-    public-key: GDfuRpdZtjy5U6ReEAYHuXKQviqRH_iEei4b1RhX5jI
-    short-id: 8447e29c
-  server: 154.12.56.179
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e765764a-5f3c-403e-9e53-05f541309f67
-- name: 11,15|US_speednode_0141
+- name: 11|🇺🇸 US-7 | Mix
   port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
+  server: fan.596189.xyz
+  tls:
+    enabled: true
   type: http
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-8 | Mix
-  network: tcp
-  port: 5001
-  reality-opts:
-    public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -422,6 +410,13 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true

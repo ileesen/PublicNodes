@@ -7,14 +7,6 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- name: 9|🇫🇷157086 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 51.44.162.6
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   name: 10|🇫🇷 FR-1 | 8EB
   network: xhttp
@@ -29,9 +21,33 @@ proxies:
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: 141.94.16.4
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇫🇷 FR-1 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 8444
+  reality-opts:
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇫🇷 FR-2 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 8444
+  reality-opts:
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
