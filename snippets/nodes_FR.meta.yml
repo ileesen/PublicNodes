@@ -8,18 +8,22 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇫🇷 FR-1 | Mix
-  network: tcp
-  port: 29239
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: KGI60DoZFcBFTq4yrjFE5C4QitMypVH4HJlkM9VqB1M
-    short-id: fd7069bcd5853169
-  server: 104.105.202.38
-  servername: www.sony.com
+    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+    short-id: 812609fa663c57fb
+  server: 213.130.137.70
+  servername: panel.freesavesafe.com
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: 14155d8d-14f7-4105-984b-f477e3880943
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 443
+  server: 141.94.16.4
+  tls:
+    enabled: true
+  type: http

@@ -6,16 +6,21 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 1080
-  server: 8.210.31.250
-  type: socks
-  username: ODg4ODo4ODg4
-- name: 11|🇭🇰 HK-2 | Mix
-  port: 3060
-  server: 8.218.165.212
-  type: socks
-  username: MTIzOjEyMw
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 15003
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: 4c517b9e
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -40,15 +45,16 @@ proxies:
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 7674
+  server: 18.142.250.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|🇭🇰 香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 1103
-  server: 54.168.189
+  port: 2944
+  server: 35.78.206.14
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -62,11 +68,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 25982
-  server: 52.195.148.119
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan

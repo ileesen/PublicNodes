@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  extra: '{"xmux":{"maxConnections":1,"maxReuseTimes":0}}'
+  mode: stream-one
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: xhttp
+  port: 443
+  server: one.alpheratzz.org
+  servername: app-6a936d01.adhil.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+- client-fingerprint: firefox
+  extra: '{"xmux":{"maxConnections":1,"maxReuseTimes":0}}'
+  mode: stream-one
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: xhttp
+  port: 443
+  server: one.alpheratzz.org
+  servername: app-6a936c8a.adhil.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3

@@ -48,10 +48,71 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All | @BigSmoke_Config
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
-  tls: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  mode: auto
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: xhttp
+  port: 443
+  server: de.tutvpn.com
+  servername: de.tutvpn.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10,11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- allowInsecure: '1'
+  name: 10|🇩🇪 DE-4 | 8EB
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: nlb4.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb4.mangshe.xyz
   type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: 45.95.96.225
+  servername: germany.superbuba.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
