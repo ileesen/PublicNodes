@@ -1,31 +1,24 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 11|🇯🇵 JP-1 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-3 | Mix
   network: ws
-  port: 16622
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
   ws-opts:
     headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
     path: /
-- cipher: aes-256-cfb
-  name: 11|🇹🇭 TH-2 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 11|🇹🇼 TW-1 | Mix
-  password: 08986883-2781-4e41-b518-a561aab5de4a
-  port: 40013
-  server: w7k2mf.5tencent.asia
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

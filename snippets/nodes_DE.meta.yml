@@ -22,14 +22,6 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #3'
-  password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
-  port: 443
-  server: ndge4.whit3.net
-  skip-cert-verify: true
-  sni: ndge4.whit3.net
-  tls: false
-  type: hysteria2
 - name: '8,9|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -40,7 +32,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|德国 #4'
+- name: '8|德国 #3'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -48,7 +40,19 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All | @BigSmoke_Config
+- alpn:
+  - h3
+  name: 9|🇫🇮158099 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 4savc5ig1n3549e4
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '9|🇩🇪All | @BigSmoke_Config #1'
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
@@ -57,7 +61,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|-🇩🇪 @VConfing
+  name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -67,27 +71,19 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪157896 | ⚡️Telegram = t.me/S...
-  password: hysteria2_fastlane_qn9oi6zlt
-  port: 443
-  server: 2.27.28.106
-  skip-cert-verify: false
-  sni: de8.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #1'
+- name: '9|🇩🇪All | @BigSmoke_Config #2'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|26@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- name: 9|71@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 18.153.59.21
+  server: 91.196.32.163
   skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -119,9 +115,9 @@ proxies:
   type: vless
   udp: true
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-1 | Mix
+  name: 10,11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -158,26 +154,32 @@ proxies:
   type: vless
   udp: true
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 2087
-  server: 188.220.67.198
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
-  server: 5.83.129.124
-  servername: 50gport3.potatosubge20.org
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: 09ef88a6
+  server: app4.goonars.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: 09ef88a6
+  server: 88.216.190.206
+  servername: app4.goonars.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55

@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇸🇪 SE-1 | Mix
+  name: 10|🇸🇪 SE-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -9,6 +9,21 @@ proxies:
     short-id: 00bca5982f82d083
   server: 31.76.69.40
   servername: eu-central.cendora.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 11|🇸🇪 SE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
   skip-cert-verify: false
   tls: true
   type: vless

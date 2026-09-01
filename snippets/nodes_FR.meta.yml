@@ -21,6 +21,18 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  name: 9|🇫🇮158096 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 4savc5ig1n3549e4
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   name: '9|VCONFING #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -45,18 +57,3 @@ proxies:
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇫🇷 FR-1 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 8444
-  reality-opts:
-    public-key: U2BHsyRo3bF289dW-3sDOyBxgAicl2AgoMjLpyIjNRo
-  server: 158.178.198.63
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df

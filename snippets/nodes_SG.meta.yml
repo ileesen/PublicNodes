@@ -7,6 +7,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '8|新加坡 #1'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - name: 8|SG
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
@@ -32,7 +40,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '8|新加坡 #1'
+- name: '8|新加坡 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.229.82.184
@@ -40,7 +48,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '8|新加坡 #2'
+- name: '8|新加坡 #3'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.190.23
@@ -62,50 +70,6 @@ proxies:
   type: vless
   udp: true
   uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: 82.38.46.66
-  servername: www.adobe.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-2 | Mix
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-3 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

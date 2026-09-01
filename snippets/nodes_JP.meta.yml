@@ -1,12 +1,4 @@
 proxies:
-- name: 8|日本
-  password: a9081889-1949-49ba-a2aa-7054515716de
-  port: 3488
-  server: c2.bestai.beauty
-  skip-cert-verify: true
-  sni: c2.bestai.beauty
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -19,6 +11,28 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: 11|🇯🇵 JP-1 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-2 | Mix
+  network: tcp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: nian.001.url111.kcloud02.top
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
