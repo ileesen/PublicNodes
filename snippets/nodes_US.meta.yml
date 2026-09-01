@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  name: 8,10,11|🇺🇸 US-5 | Mix
+  name: 8,10|🇺🇸 US-7 | 8EB
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -27,7 +27,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
+- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -226,77 +226,95 @@ proxies:
   uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
   ws-opts:
     path: /api/user
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-1 | Mix
-  network: tcp
+- name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
   port: 443
-  reality-opts:
-    public-key: unoYKky1zvybmB8H3a4SbZLABSKl96rrWZWYeLiLxTQ
-    short-id: 2306d22aff497746
-  server: 38.244.20.31
-  servername: www.apple.com
-  skip-cert-verify: false
+  server: 104.21.71.47
+  servername: 9-m16.ChIaN-MAI-X.kDnS.fR
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 43ecb6db-829f-4e5b-9bd6-4bdd1c537395
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-2 | Mix
-  network: tcp
-  port: 10002
-  reality-opts:
-    public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
-    short-id: f61f173b
-  server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-m16.ChIaN-mAi-x.KDnS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
   port: 443
-  server: fan.226278.xyz
+  server: jgwynphotoarts.pro
   tls:
     enabled: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-8 | Mix
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: y0H3WXwfSsM7Ux1G8V0knwVRs8QTZ3RRM8X9lWKMj2o
-    short-id: 196313aca4449459
-  server: 192.243.114.176
-  servername: www.ibm.com
+- name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: 104.21.27.112
+  servername: 8-M16.PatTAya-8.kdnS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 8-m16.paTtAya-8.kdns.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.203
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 104.21.83.140
+  servername: 0-m16.ChIANG-maI2032.kdNS.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 104.219.236.83
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: web-production-5f54e.up.railway.app
+  servername: web-production-5f54e.up.railway.app
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c8f8b628-f984-4449-bfa1-481d865ac728
+  uuid: da8f7273-fd3c-47fd-8938-b47b8eb0bb1e
+  ws-opts:
+    headers:
+      Host: web-production-5f54e.up.railway.app
+    path: /ws/vless/da8f7273-fd3c-47fd-8938-b47b8eb0bb1e?ed
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

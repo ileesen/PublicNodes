@@ -17,19 +17,43 @@ proxies:
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
 - name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  port: 49152
-  server: qp.lichao0223.cn
-  servername: qp.lichao0223.cn
-  skip-cert-verify: true
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 31735
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  sni: jp31.lunartrace.io
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-3 | Mix
+  network: grpc
+  port: 10034
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp4-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
-  ws-opts:
-    path: /
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-4 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 443
+  reality-opts:
+    public-key: mdH4iLjSnLn6cxLVTWiDJm2LpXJ5-BfKG6KZEnT80VI
+    short-id: 0dbcbce110aa
+  server: vul2jp1.87544899.xyz
+  servername: reonpocket.sony.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

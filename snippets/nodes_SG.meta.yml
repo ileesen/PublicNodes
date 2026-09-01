@@ -70,86 +70,16 @@ proxies:
   type: vless
   udp: true
   uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-1 | Mix
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-2 | Mix
+- name: 11|🇸🇬 SG-1 | Mix
   network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: 82.38.46.66
-  servername: www.adobe.com
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: 14461
+  security: tls
+  server: adakv1-s02.sonofthewinds.com
+  servername: vs2.sonofthewinds.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 11|🇸🇬 SG-3 | Mix
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 11|🇸🇬 SG-4 | Mix
-  network: grpc
-  port: 10039
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg4-r.link-t7.com
-  servername: d1.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-5 | Mix
-  network: tcp
-  port: 10018
-  reality-opts:
-    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
-    short-id: 6cfa2459bb
-  server: family.bucket.zjs.s.1.kfc-520.com
-  servername: www.sap.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  sni: vs2.sonofthewinds.com
+  type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
