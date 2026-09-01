@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇸🇪 SE-1 | 8EB
+  name: 10,11|🇸🇪 SE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -14,23 +14,3 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 11|🇸🇪 SE-1 | Mix
-  port: 443
-  server: 79.142.77.63
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇸🇪 SE-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de48.tranzit-net.ru
-  servername: d.tranzit-net.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb

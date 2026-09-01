@@ -1,21 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇮🇳 IN-1 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   network: ws
-  port: 16626
+  port: 16622
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: b37accbd-e547-409b-9b99-b2b7e3888780
+  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
   ws-opts:
     headers:
-      Host: 013511f6a7570067f2dcfd8359e2885b.mobgslb.tbcache.com
+      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
     path: /
+- cipher: aes-256-cfb
+  name: 11|🇹🇭 TH-2 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 11|🇰🇿 KZ-1 | Mix
+  name: 11|🇹🇼 TW-1 | Mix
   password: 08986883-2781-4e41-b518-a561aab5de4a
-  port: 35204
+  port: 40013
   server: w7k2mf.5tencent.asia
   type: ss
   udp: true

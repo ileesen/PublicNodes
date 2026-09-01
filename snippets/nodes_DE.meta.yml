@@ -55,14 +55,14 @@ proxies:
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪157437 | ⚡️Telegram = t.me/S...
+- name: 9|93@oneclickvpnkeys
   obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   port: 443
-  server: 2.27.59.206
+  server: hy2-new.aspidnet.xyz
   skip-cert-verify: true
-  sni: de1.sferavpn.pro
+  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: '9|🇩🇪All | @BigSmoke_Config #1'
@@ -103,7 +103,7 @@ proxies:
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -140,3 +140,26 @@ proxies:
   type: vless
   udp: true
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 2087
+  server: 188.220.67.198
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  server: 5.83.129.124
+  servername: 50gport3.potatosubge20.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
