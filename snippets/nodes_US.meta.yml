@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: hysteria2
 - allowInsecure: '0'
-  name: 8,10|🇺🇸 US-7 | 8EB
+  name: 8,10,11|🇺🇸 US-5 | Mix
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -27,7 +27,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -226,118 +226,77 @@ proxies:
   uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
   ws-opts:
     path: /api/user
-- name: 11|🇺🇸 US-1 | Mix
-  password: None
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: unoYKky1zvybmB8H3a4SbZLABSKl96rrWZWYeLiLxTQ
+    short-id: 2306d22aff497746
+  server: 38.244.20.31
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43ecb6db-829f-4e5b-9bd6-4bdd1c537395
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 10002
+  reality-opts:
+    public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
+    short-id: f61f173b
+  server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.213
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-4 | Mix
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
+- name: 11|🇺🇸 US-6 | Mix
   port: 9002
   server: 138.199.35.197
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇺🇸 US-10 | Mix
-  network: grpc
-  port: 10242
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us5-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-11 | Mix
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg
-    short-id: a17b41ba
-  server: app3.goonars.com
-  servername: app3.goonars.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-- client-fingerprint: firefox
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-12 | Mix
+  name: 11|🇺🇸 US-8 | Mix
   network: tcp
-  packetEncoding: none
-  port: 5000
+  port: 50159
   reality-opts:
-    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
-    short-id: a1b2c3d4
-  server: 31.77.183.88
-  servername: max.ru
+    public-key: y0H3WXwfSsM7Ux1G8V0knwVRs8QTZ3RRM8X9lWKMj2o
+    short-id: 196313aca4449459
+  server: 192.243.114.176
+  servername: www.ibm.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
+  uuid: c8f8b628-f984-4449-bfa1-481d865ac728
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -397,6 +356,13 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club

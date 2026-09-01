@@ -14,18 +14,33 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: qq
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
+    public-key: GRxGFwibgoUjG9OL5Dl1OLyK56yw8WaG5BdFP8ifVgQ
+    short-id: 26f7082dd0e36ca1
+  server: 2.26.124.85
+  servername: cdn.jsdelivr.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: 30dab345-4de9-4b70-ad9f-8ebd5c66686f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇸🇪 SE-2 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0
+    short-id: e6bbe5cbfd3a1c9f
+  server: sw.deeplcdn.com
+  servername: tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
