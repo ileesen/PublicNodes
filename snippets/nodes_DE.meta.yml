@@ -42,18 +42,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|Channel : @Daily_Configs'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 4savc5ig1n3549e4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   fingerprint: chrome
   name: 9|dc-udp-🇪 Germany-Berlin
   obfs: salamander
@@ -74,38 +62,25 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #1'
+- name: 9|🇩🇪All | @BigSmoke_Config
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '9|-🇩🇪 @VConfing #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
+- name: 9|85@oneclickvpnkeys
+  password: b504a1c7-1bfe-461f-9329-cbc653deb3d7
+  port: 443
+  server: 144.31.217.201
+  sni: 144-31-217-201.sslip.io
   tls: false
   type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #2'
+- name: '9|🇩🇪All | @BigSmoke_Config #1'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|36@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: 5.83.129.11
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -139,7 +114,7 @@ proxies:
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-1 | Mix
+  name: 10|🇩🇪 DE-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -176,24 +151,11 @@ proxies:
   type: vless
   udp: true
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
+- name: 11|🇩🇪 DE-4 | Mix
+  password: 'null'
   port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 11|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 185.44.107.166
+  server: 141.17.83.73
   tls:
     enabled: true
   type: http
+  username: 'null'

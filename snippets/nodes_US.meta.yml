@@ -214,98 +214,56 @@ proxies:
   uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
   ws-opts:
     path: /api/user
-- name: 11|🇺🇸 US-1 | Mix
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CmZcK-NJ3i5iVDRiiBY3RpeiR2kooDbtJBOmPq29ABY
+    short-id: 0ccb4b57
+  server: 129.80.99.88
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 450ed4bd-fc3e-4aab-b50d-33f2cdfcfc18
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  server: 172.67.148.36
+  servername: 4-m13.aYuTtHaYa-x.KDNs.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  ws-opts:
+    headers:
+      Host: 4-M13.AyutthayA-x.KDns.Fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-3 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.213
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9443
-  server: 38.95.111.226
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-5 | Mix
-  network: ws
   port: 443
-  server: 104.21.41.228
-  servername: 3-aPi-gEWAy-m14.Xgh.ccWu.CC
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
-  ws-opts:
-    headers:
-      Host: 3-Api-geWAy-m14.Xgh.Ccwu.cC
-    path: /awsDCktnglce5OhBQMBK8JLBwh2V
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: berniesbodybla.fun
+  server: webdrone.club
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 443
-  server: 104.21.3.118
-  servername: ASSetS-dIsTrIBUtIoN-M14-1.WWw890604.dpDns.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
-  ws-opts:
-    headers:
-      Host: AsSets-diSTrIButIoN-m14-1.wwW890604.dpDNS.Org
-    path: /awsDCktnglce5OhBQMBK8JLBwh2V
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-8 | Mix
-  network: ws
-  port: 2096
-  server: 172.64.151.254
-  servername: oyue.rainfall0705.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: oyue.rainfall0705.cc.cd
-    path: /fp=chrome
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-9 | Mix
-  network: tcp
-  port: 25349
-  reality-opts:
-    public-key: N31z1jM2i1-b9eJ3Xkt2ibM6aXQN8qqWU25ZR12TSWI
-    short-id: c3005582c0fc496f
-  server: 148.135.184.46
-  servername: proxy11.h1guro.ovh
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62a05f8e-eedf-4500-8c79-c9315f565bcc
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

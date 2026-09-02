@@ -15,31 +15,6 @@ proxies:
   sni: sg1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 8|SG
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 8|🇸🇬SG
-  obfs: salamander
-  obfs-password: MBd0Kzj3ZcY3
-  password: VL0N0IPJ5Tqj672H7FsxYw==
-  port: 12451
-  server: 18.136.199.31
-  sni: c.hbapp.xyz
-  tls: false
-  type: hysteria2
-- name: '8|🇸🇬SG #1'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.54.166
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: '8|新加坡 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -70,32 +45,18 @@ proxies:
   type: vless
   udp: true
   uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-- cipher: aes-128-gcm
-  name: 11|🇸🇬 SG-1 | Mix
-  password: 07c79546-2bf5-446b-b817-0c0084ffb770
-  port: 40022
-  server: q5h8zr.5tencent.asia
-  type: ss
-  udp: true
-- name: 11|🇸🇬 SG-2 | Mix
-  port: 443
-  server: 154.26.139.24
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 11|🇸🇬 SG-3 | Mix
+  name: 11|🇸🇬 SG-2 | Mix
   network: grpc
-  packetEncoding: none
-  port: 10036
+  port: 10040
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
   serviceName: update
   skip-cert-verify: false
   tls: true
@@ -103,20 +64,41 @@ proxies:
   udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-4 | Mix
-  network: tcp
-  port: 443
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇸🇬 SG-3 | Mix
+  network: grpc
+  port: 10039
   reality-opts:
-    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
-    short-id: 8e5a820d
-  server: do2sg1xxx.87544899.xyz
-  servername: bod.changiairport.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇸🇬 SG-4 | Mix
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
