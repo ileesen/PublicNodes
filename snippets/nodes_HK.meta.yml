@@ -6,49 +6,45 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: 14438
-  security: tls
-  server: adakv1-h06.sonofthewinds.com
-  servername: vk6.sonofthewinds.com
-  skip-cert-verify: false
-  sni: vk6.sonofthewinds.com
-  type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 10023
+- client-fingerprint: chrome
+  name: 11|🇭🇰 HK-1 | Mix
+  network: grpc
+  port: 10136
   reality-opts:
-    public-key: sPNVi_cpk51PLxKVWAusfQBokEjYh69B3p5HhDbbLB4
-    short-id: fe
-  server: family.bucket.zjs.h.1.0.kfc-520.com
-  servername: www.hp.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- name: 11|🇭🇰 HK-2 | Mix
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
   mode: gun
   name: 11|🇭🇰 HK-3 | Mix
   network: grpc
-  port: 10129
+  packetEncoding: none
+  port: 10136
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk4-r.link-t7.com
+  server: hk6-r.link-t7.com
   servername: s0.awsstatic.com
   serviceName: movie
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
@@ -69,18 +65,17 @@ proxies:
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: movie
+    grpc-service-name: update
   mode: gun
   name: 11|🇭🇰 HK-5 | Mix
   network: grpc
-  packetEncoding: none
-  port: 10128
+  port: 10127
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk3-r.link-t7.com
+  server: hk2-r.link-t7.com
   servername: s0.awsstatic.com
-  serviceName: movie
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless

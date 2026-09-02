@@ -139,7 +139,7 @@ proxies:
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -176,3 +176,24 @@ proxies:
   type: vless
   udp: true
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 11|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 185.44.107.166
+  tls:
+    enabled: true
+  type: http

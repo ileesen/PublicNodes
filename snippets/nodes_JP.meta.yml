@@ -19,21 +19,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: tcp
   port: 15007
   reality-opts:
     public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
     short-id: 2c4d005b
-  server: nian.001.url111.kcloud02.top
+  server: 82.38.46.66
   servername: www.bing.com
   skip-cert-verify: false
   tls: true
@@ -41,21 +35,23 @@ proxies:
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-3 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 443
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-2 | Mix
+  network: grpc
+  port: 10035
   reality-opts:
-    public-key: mdH4iLjSnLn6cxLVTWiDJm2LpXJ5-BfKG6KZEnT80VI
-    short-id: 0dbcbce110aa
-  server: vul2jp1.87544899.xyz
-  servername: reonpocket.sony.co.jp
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

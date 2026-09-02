@@ -70,6 +70,53 @@ proxies:
   type: vless
   udp: true
   uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+- cipher: aes-128-gcm
+  name: 11|🇸🇬 SG-1 | Mix
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 40022
+  server: q5h8zr.5tencent.asia
+  type: ss
+  udp: true
+- name: 11|🇸🇬 SG-2 | Mix
+  port: 443
+  server: 154.26.139.24
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇸🇬 SG-3 | Mix
+  network: grpc
+  packetEncoding: none
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
+    short-id: 8e5a820d
+  server: do2sg1xxx.87544899.xyz
+  servername: bod.changiairport.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

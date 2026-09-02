@@ -1777,7 +1777,7 @@ proxies:
   type: hysteria2
   udp: true
 - flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -2262,29 +2262,27 @@ proxies:
   uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
   ws-opts:
     path: /api/user
-- name: 11,15|RO_speednode_0087
+- name: 11|🇳🇱 NL-1 | Mix
+  password: 'null'
   port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: 14438
-  security: tls
-  server: adakv1-h06.sonofthewinds.com
-  servername: vk6.sonofthewinds.com
-  skip-cert-verify: false
-  sni: vk6.sonofthewinds.com
-  type: trojan
-- name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.220
+  server: 84.17.47.146
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇭🇰 HK-1 | Mix
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 11|🇫🇮 FI-1 | Mix
@@ -2300,293 +2298,266 @@ proxies:
   type: vless
   udp: true
   uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-- name: 11|🇰🇷 KR-1 | Mix
-  network: grpc
-  port: 10048
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 11|🇨🇦 CA-1 | Mix
+  network: tcp
+  port: 8443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: SfFw8nx4WUjN5xs-4-al4coSfu31GWgWTpTJiwse420
+  server: 155.248.229.115
+  servername: tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- name: 11|🇮🇩 ID-1 | Mix
-  password: freeuser1
-  port: 9251
-  server: sr2-id.freeconnect.link
+  uuid: 92f06099-6112-422e-b0ed-fd4ce97227b3
+- cipher: aes-128-gcm
+  name: 11|🇸🇬 SG-1 | Mix
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 40022
+  server: q5h8zr.5tencent.asia
+  type: ss
+  udp: true
+- name: 11|🇭🇰 HK-2 | Mix
+  port: 443
+  server: fan.240104.xyz
   tls:
     enabled: true
   type: http
-  username: freeuser1
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: edge
+  name: 11|🇷🇺 RU-1 | Mix
+  network: ws
   port: 443
-  server: fan.571589.xyz
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
+- name: 11|🇺🇸 US-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.19
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|RO_speednode_0082
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.29
   tls:
     enabled: true
   type: http
 - flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-1 | Mix
   network: tcp
   port: 15007
   reality-opts:
     public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
     short-id: 2c4d005b
-  server: nian.001.url111.kcloud02.top
+  server: 82.38.46.66
   servername: www.bing.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 813d5c8b-96ea-4fa6-bebd-60ac67a062bc
-- name: 11|🇺🇸 US-2 | Mix
-  network: ws
-  port: 443
-  server: 172.67.206.64
-  servername: 3-m16.AyutthAyA2032.kDNS.FR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 3-M16.ayUTthAYa2032.kdNs.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇨🇴 CO-1 | Mix
-  network: tcp
-  port: 62145
-  server: 157.137.234.36
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: 172.67.177.68
-  servername: 5-M16.CHIAng-MaI2032.kDns.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.chIAng-mAi2032.kDNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 443
-  server: 172.67.220.153
-  servername: 2-M16.chianG-MaI2031.kDNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 10023
-  reality-opts:
-    public-key: sPNVi_cpk51PLxKVWAusfQBokEjYh69B3p5HhDbbLB4
-    short-id: fe
-  server: family.bucket.zjs.h.1.0.kfc-520.com
-  servername: www.hp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 443
-  server: 172.67.136.68
-  servername: EDGE-RoutiNG-m16-1.kAZaN.kDNs.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-6 | Mix
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: 14490
-  security: tls
-  server: adakv1-u01.sonofthewinds.com
-  servername: un1.sonofthewinds.com
-  skip-cert-verify: false
-  sni: un1.sonofthewinds.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- name: 11|🇳🇱 NL-1 | Mix
-  port: 23856
-  server: 51.159.225.196
+  port: 9002
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-5 | Mix
+  network: ws
+  port: 443
+  server: 104.21.41.228
+  servername: 3-aPi-gEWAy-m14.Xgh.ccWu.CC
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
+  ws-opts:
+    headers:
+      Host: 3-Api-geWAy-m14.Xgh.Ccwu.cC
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 11|🇳🇱 NL-3 | Mix
+  network: tcp
+  port: 62145
+  server: 143.47.177.80
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 11|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 185.44.107.166
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 11|🇨🇦 CA-2 | Mix
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SfFw8nx4WUjN5xs-4-al4coSfu31GWgWTpTJiwse420
+  server: 155.248.229.115
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 911a03bc-6628-43af-948d-cc092f3df78a
+- name: 11|🇸🇬 SG-2 | Mix
+  port: 443
+  server: 154.26.139.24
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.218
+  server: 193.176.84.23
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇫🇷 FR-1 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 51133
-  server: ip4.934618.xyz
-  sni: ip4.934618.xyz
-  type: anytls
-  udp: true
-- name: 11|🇰🇷 KR-2 | Mix
-  password: Og%3D%3D
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: Og%3D%3D
-- name: 11|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
+- name: 11|🇺🇸 US-7 | Mix
   network: ws
   port: 443
-  server: 172.67.139.130
-  servername: 9-M16.Chian-MaI-5.KDns.fr
+  server: 104.21.3.118
+  servername: ASSetS-dIsTrIBUtIoN-M14-1.WWw890604.dpDns.oRg
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
   ws-opts:
     headers:
-      Host: 9-M16.CHiAN-Mai-5.kdNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-10 | Mix
+      Host: AsSets-diSTrIButIoN-m14-1.wwW890604.dpDNS.Org
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
+- name: 11|🇺🇸 US-8 | Mix
   network: ws
-  port: 443
-  server: 104.21.45.198
-  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  port: 443
-  server: 172.67.221.200
-  servername: 5-M16.cHIAn-mAI-9.kDNS.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.chiaN-Mai-9.KdnS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 104.21.83.140
-  servername: 0-m16.ChIANG-maI2032.kdNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- alpn:
-  - http/1.1
-  name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  port: 443
-  server: web-production-5f54e.up.railway.app
-  servername: web-production-5f54e.up.railway.app
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: da8f7273-fd3c-47fd-8938-b47b8eb0bb1e
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
   ws-opts:
     headers:
-      Host: web-production-5f54e.up.railway.app
-    path: /ws/vless/da8f7273-fd3c-47fd-8938-b47b8eb0bb1e?ed
-- flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-3 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 443
+      Host: oyue.rainfall0705.cc.cd
+    path: /fp=chrome
+- grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇯🇵 JP-2 | Mix
+  network: grpc
+  port: 10035
   reality-opts:
-    public-key: mdH4iLjSnLn6cxLVTWiDJm2LpXJ5-BfKG6KZEnT80VI
-    short-id: 0dbcbce110aa
-  server: vul2jp1.87544899.xyz
-  servername: reonpocket.sony.co.jp
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
 - grpc-opts:
     grpc-service-name: movie
   mode: gun
   name: 11|🇭🇰 HK-3 | Mix
   network: grpc
-  port: 10129
+  packetEncoding: none
+  port: 10136
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk4-r.link-t7.com
+  server: hk6-r.link-t7.com
   servername: s0.awsstatic.com
   serviceName: movie
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇰🇷 KR-1 | Mix
+  network: grpc
+  packetEncoding: none
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
 - grpc-opts:
     grpc-service-name: movie
   mode: gun
@@ -2604,24 +2575,96 @@ proxies:
   type: vless
   udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 25349
+  reality-opts:
+    public-key: N31z1jM2i1-b9eJ3Xkt2ibM6aXQN8qqWU25ZR12TSWI
+    short-id: c3005582c0fc496f
+  server: 148.135.184.46
+  servername: proxy11.h1guro.ovh
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62a05f8e-eedf-4500-8c79-c9315f565bcc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-2 | Mix
+  network: tcp
+  port: 8443
+  server: 185.147.27.183
+  servername: user-6a917f32.noooo.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
 - grpc-opts:
-    grpc-service-name: movie
+    grpc-service-name: update
   mode: gun
   name: 11|🇭🇰 HK-5 | Mix
   network: grpc
-  packetEncoding: none
-  port: 10128
+  port: 10127
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk3-r.link-t7.com
+  server: hk2-r.link-t7.com
   servername: s0.awsstatic.com
-  serviceName: movie
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇸🇬 SG-3 | Mix
+  network: grpc
+  packetEncoding: none
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
+    short-id: 8e5a820d
+  server: do2sg1xxx.87544899.xyz
+  servername: bod.changiairport.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+- flow: xtls-rprx-vision
+  name: 11|🇳🇴 NO-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA
+    short-id: f576da5e05a1d4d2
+  server: 151.242.168.155
+  servername: kibi-institut.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43ca296b-321f-4b61-a12c-ddf8370b9761
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -3292,13 +3335,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0083
   port: 9002
   server: 193.176.84.25
@@ -3323,6 +3359,13 @@ proxies:
 - name: 15|RO_speednode_0086
   port: 9002
   server: 84.239.49.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|RO_speednode_0087
+  port: 9002
+  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
