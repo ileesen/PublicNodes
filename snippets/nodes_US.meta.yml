@@ -228,15 +228,15 @@ proxies:
     path: /api/user
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: 104.21.71.47
-  servername: 9-m16.ChIaN-MAI-X.kDnS.fR
+  server: 172.67.206.64
+  servername: 3-m16.AyutthAyA2032.kDNS.FR
   skip-cert-verify: true
   tls: true
   type: vless
@@ -244,19 +244,27 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 9-m16.ChIaN-mAi-x.KDnS.FR
+      Host: 3-M16.ayUTthAYa2032.kdNs.FR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-3 | Mix
+  network: ws
   port: 443
-  server: jgwynphotoarts.pro
-  tls:
-    enabled: true
-  type: http
+  server: 172.67.177.68
+  servername: 5-M16.CHIAng-MaI2032.kDns.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.chIAng-mAi2032.kDNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 443
-  server: 104.21.27.112
-  servername: 8-M16.PatTAya-8.kdnS.fR
+  server: 172.67.220.153
+  servername: 2-M16.chianG-MaI2031.kDNS.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -264,15 +272,90 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 8-m16.paTtAya-8.kdns.FR
+      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-5 | Mix
+  network: ws
+  port: 443
+  server: 172.67.136.68
+  servername: EDGE-RoutiNG-m16-1.kAZaN.kDNs.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-6 | Mix
+  network: tcp
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: 14490
+  security: tls
+  server: adakv1-u01.sonofthewinds.com
+  servername: un1.sonofthewinds.com
+  skip-cert-verify: false
+  sni: un1.sonofthewinds.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-7 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-6 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: 172.67.139.130
+  servername: 9-M16.Chian-MaI-5.KDns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-M16.CHiAN-Mai-5.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 104.21.45.198
+  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 443
+  server: 172.67.221.200
+  servername: 5-M16.cHIAn-mAI-9.kDNS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.chiaN-Mai-9.KdnS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
   server: 104.21.83.140
@@ -286,22 +369,10 @@ proxies:
     headers:
       Host: 0-m16.ChIAng-Mai2032.kdnS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-7 | Mix
-  port: 8443
-  server: 104.219.236.83
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 11|🇺🇸 US-9 | Mix
+  name: 11|🇺🇸 US-13 | Mix
   network: ws
   port: 443
   server: web-production-5f54e.up.railway.app

@@ -6,22 +6,7 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: CWYHeUE7Mo416w_cZEpIOknbKpYfS3VNz1pv4CYSAgs
-    short-id: 00d40d72
-  server: dcloudsbohk-g.orbit-links.com
-  servername: sns-video-qc.xhscdn.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3004a27c-c4d6-4b5f-862c-bcf9f9f2f8fd
-- name: 11|🇭🇰 HK-2 | Mix
+- name: 11|🇭🇰 HK-1 | Mix
   network: tcp
   password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
   port: 14438
@@ -31,6 +16,21 @@ proxies:
   skip-cert-verify: false
   sni: vk6.sonofthewinds.com
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 10023
+  reality-opts:
+    public-key: sPNVi_cpk51PLxKVWAusfQBokEjYh69B3p5HhDbbLB4
+    short-id: fe
+  server: family.bucket.zjs.h.1.0.kfc-520.com
+  servername: www.hp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
