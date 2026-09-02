@@ -1,6 +1,28 @@
 proxies:
+- name: 11|🇭🇰 HK-1 | Mix
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 15700
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk18.pulsarcore.site
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  name: 11|🇭🇰 HK-3 | Mix
   network: grpc
   port: 10136
   reality-opts:
@@ -12,26 +34,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-2 | Mix
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 11|🇭🇰 HK-3 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: grpc
   port: 10129
   reality-opts:
@@ -49,7 +57,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 11|🇭🇰 HK-4 | Mix
+  name: 11|🇭🇰 HK-5 | Mix
   network: grpc
   packetEncoding: none
   port: 10127
@@ -68,7 +76,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 11|🇭🇰 HK-5 | Mix
+  name: 11|🇭🇰 HK-6 | Mix
   network: grpc
   packetEncoding: none
   port: 10128
@@ -87,7 +95,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 11|🇭🇰 HK-6 | Mix
+  name: 11|🇭🇰 HK-7 | Mix
   network: grpc
   port: 10136
   reality-opts:
@@ -105,7 +113,7 @@ proxies:
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 11|🇭🇰 HK-7 | Mix
+  name: 11|🇭🇰 HK-8 | Mix
   network: grpc
   packetEncoding: none
   port: 10130
@@ -124,7 +132,7 @@ proxies:
   grpc-opts:
     grpc-service-name: update
   mode: gun
-  name: 11|🇭🇰 HK-8 | Mix
+  name: 11|🇭🇰 HK-9 | Mix
   network: grpc
   port: 10126
   reality-opts:

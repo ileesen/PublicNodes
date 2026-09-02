@@ -214,56 +214,133 @@ proxies:
   uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
   ws-opts:
     path: /api/user
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-1 | Mix
-  network: tcp
+- name: 11|🇺🇸 US-1 | Mix
+  password: None
   port: 443
-  reality-opts:
-    public-key: CmZcK-NJ3i5iVDRiiBY3RpeiR2kooDbtJBOmPq29ABY
-    short-id: 0ccb4b57
-  server: 129.80.99.88
-  servername: updates.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 450ed4bd-fc3e-4aab-b50d-33f2cdfcfc18
+  server: mmgr.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11|🇺🇸 US-3 | Mix
   network: ws
   port: 443
-  server: 172.67.148.36
-  servername: 4-m13.aYuTtHaYa-x.KDNs.fR
+  server: 172.67.177.227
+  servername: 9-m16.CHIan-mAI-7.kdnS.FR
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 4-M13.AyutthayA-x.KDns.Fr
-    path: /ED3ZQPu7lqyeDGD58KabZ
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-3 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
+      Host: 9-m16.ChiaN-Mai-7.KdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
+  network: ws
   port: 443
-  server: webdrone.club
+  server: 172.67.190.103
+  servername: 6-m16.CHIANG-rai2036.KDnS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 172.67.139.130
+  servername: 9-M16.Chian-MaI-5.KDns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-M16.CHiAN-Mai-5.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  port: 443
+  server: 172.67.177.68
+  servername: 5-M16.CHIAng-MaI2032.kDns.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.chIAng-mAi2032.kDNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 172.67.156.222
+  servername: 5-m16.CHiAn-Mai-6.KDNS.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.CHian-MAi-6.KDnS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: kimberlymilano.icu
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-12 | Mix
+  network: ws
+  port: 443
+  server: 104.21.36.81
+  servername: 3-M16.CHiaNG-RAI2036.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 3-M16.ChiANG-rai2036.KDNs.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

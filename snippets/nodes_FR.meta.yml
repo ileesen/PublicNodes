@@ -7,6 +7,42 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '9|VCONFING #1'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1w61o8j0slf0q9yj
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '9|Channel : @Daily_Configs #2'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 4savc5ig1n3549e4
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '9|VCONFING #3'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: clz08qwil91241w7
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   name: 10|🇫🇷 FR-1 | 8EB
   network: xhttp
@@ -21,17 +57,3 @@ proxies:
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 11|🇫🇷 FR-1 | Mix
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: U2BHsyRo3bF289dW-3sDOyBxgAicl2AgoMjLpyIjNRo
-  server: 158.178.198.63
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6b4b8524-3ad2-41e7-894c-3d1625c8c842
