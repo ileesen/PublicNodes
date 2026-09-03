@@ -2,121 +2,22 @@ proxies:
 - name: 8|英国
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
+  server: 103.246.248.234
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '8|英国 #1'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
   server: 138.124.0.168
   skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-1 | 8EB
-  network: tcp
-  port: 5001
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: a1b2c3d4
-  server: 31.76.4.128
-  servername: fi.aeternavpn.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-1 | 8EB
-  network: ws
+- name: 11|🇬🇧 GB-1 | Mix
   port: 443
-  server: 18.134.196.127
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgcNHgEHWksHVwMaDEcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-2 | 8EB
-  network: ws
-  port: 443
-  server: 213.1.145.50
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGUkBQXlRfDwBbElgaRgBHRkxIWksNVlkaWktBAUNIXhZZGllXBwMNTQ==
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-3 | 8EB
-  network: ws
-  port: 443
-  server: 193.31.30.105
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBQAbAgMYU10ASAUHDUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-4 | 8EB
-  network: ws
-  port: 443
-  server: 57.128.177.172
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgADHgIFV0sHVAQaB1QBEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-5 | 8EB
-  network: ws
-  port: 443
-  server: 57.128.182.27
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBgYbAQkDTFADSAYCAUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇺🇰 UK-6 | 8EB
-  network: ws
-  port: 8443
-  server: 57.128.183.59
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBwcbAgMGTFwMSAYFAkcZEkhCSxFBCR4ADwEe
-- name: 11|🇬🇧 GB-2 | Mix
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
+  server: 212.102.63.61
   tls:
     enabled: true
   type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d

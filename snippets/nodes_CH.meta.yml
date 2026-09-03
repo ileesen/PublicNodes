@@ -11,33 +11,18 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 10|🇨🇭 CH-1 | 8EB
-  network: ws
-  port: 2083
-  server: 167.17.183.183
-  servername: cc1359linuxdo5.pages.dev
+  network: tcp
+  port: 5001
+  reality-opts:
+    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
+    short-id: a1b2c3d4
+  server: 31.76.4.128
+  servername: fi.aeternavpn.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCw0bCAIYUFUbUwYWGUdFX0pZG19QBxoMRQ==
-- client-fingerprint: chrome
-  name: 10|🇨🇭 CH-2 | 8EB
-  network: ws
-  port: 443
-  server: 87.120.222.125
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgcBHgMYUFcESAUBF0kXQFdfTUdZABkDAEQ=
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52

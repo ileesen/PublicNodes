@@ -31,6 +31,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🇫🇷 AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nob86hyaj5rm0en
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '9|VCONFING #3'
@@ -43,138 +53,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
+- name: 11|🇫🇷 FR-1 | Mix
   port: 443
-  server: 109.120.179.99
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇫🇷 FR-2 | Mix
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  sni: jp10.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgcBHgMYUFcESAUBF0kXQFdfTUdZABkDAEQ=
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  port: 2053
-  server: 217.60.39.196
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBgYbAQkDTFADSAYCAUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  port: 443
-  server: 188.130.207.163
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBwcbAgMGTFwMSAYFAkcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-4 | 8EB
-  network: ws
-  port: 2053
-  server: 217.60.63.211
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgEBHgMBTFQAUxkFDFYXHBpdVhcXERcHDA5bUA==
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-5 | 8EB
-  network: ws
-  port: 2053
-  server: 31.56.48.63
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAg0BHgIHW0sHVwEaBFUDEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-6 | 8EB
-  network: ws
-  port: 8443
-  server: 45.39.255.27
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQcbAQQHTFEbUBUYFxVaQkwPA1ZXBBVJ
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-7 | 8EB
-  network: ws
-  port: 2053
-  server: 46.8.224.102
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCwYbAQUETFQDVxkGBVQXHBpdVhcXERcHDA5bUA==
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-8 | 8EB
-  network: ws
-  port: 443
-  server: 46.8.225.191
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgUbAQQATFQNVhkNBEcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-9 | 8EB
-  network: ws
-  port: 8443
-  server: 217.60.39.196
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBwEbAQgCTFcBVxkHDUcZEkhCSxFBCR4ADwEe

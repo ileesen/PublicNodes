@@ -41,296 +41,124 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 10|🇺🇸 US-1 | 8EB
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
-  port: 52683
-  server: jp.sofast.live
+  port: 443
+  reality-opts:
+    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
+    short-id: fd26d49a
+  server: 203.10.96.138
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2087
-  server: 178.95.170.83
+  uuid: bc648677-9fd4-46c4-bacf-d53a51bbdfbc
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  port: 26173
+  reality-opts:
+    public-key: ceH-f70gdrML2qf0pxeGKqSMMJNfsH0qaomEKI6xYhM
+    short-id: 704289a9
+  server: 216.167.29.150
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    path: /4bc027a44532
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
 - name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  server: 172.67.220.58
-  servername: 7-m17.kUWaIT.kDnS.Fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 7-M17.KuWAit.kdNS.fR
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  server: 188.255.156.143
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgMHHgIFV0sHVgUaBlQXHBpdVhcXERcHDA5bUA==
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 8443
-  server: 64.186.240.9
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgINHgEFWksHVg4aBFcMEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-6 | 8EB
-  network: ws
-  port: 8443
-  server: 64.186.254.109
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgUFHgUYVlEbVwYEF0kXQFdfTUdZABkDAEQ=
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 443
-  server: 207.246.97.245
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgYBHgIHW0sEUQIaBFYMEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 443
-  server: 172.233.131.218
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQcbAQQHTFEbUBUYFxVaQkwPA1ZXBBVJ
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 2096
-  server: 165.227.60.231
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCwYbAQUETFQDVxkGBVQXHBpdVhcXERcHDA5bUA==
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 443
-  server: 195.123.240.176
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgUbAQQATFQNVhkNBEcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 443
-  server: 172.235.51.42
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgQDHgEGVksASAUGBUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQUFHgEGV0sHVAEaB1AFEhQPSQoRRw8OCw1UFRw=
-- name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: 172.67.177.227
-  servername: 4-m16.cHiAN-mai-7.kdnS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 4-m16.ChIAn-mai-7.kDnS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
   network: tcp
   password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
   port: 8443
   security: tls
   server: 23.236.66.91
+  servername: www.apple.com
   skip-cert-verify: true
+  sni: www.apple.com
   type: trojan
-- name: 11|🇺🇸 US-9 | Mix
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 32578
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: us58.pulsarcore.site
-  type: anytls
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 36823
+  reality-opts:
+    public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
+  server: 216.167.123.207
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 11|🇺🇸 US-10 | Mix
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+- name: 11|🇺🇸 US-1 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
   password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 107.151.238.27
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  port: 443
+  server: 172.67.185.142
+  servername: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: 11|🇺🇸 US-8 | Mix
+  password: None
   port: 9002
   server: 138.199.35.218
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-12 | Mix
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-13 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-14 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gun
-  mode: gun
-  name: 11|🇺🇸 US-15 | Mix
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
-    short-id: 3fa234ea9feaa048
-  server: 85.155.178.96
-  servername: us03.glaveda.net
-  serviceName: gun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -390,13 +218,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club

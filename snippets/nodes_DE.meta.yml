@@ -7,7 +7,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- name: 8,9|🇩160612 | ⚡️Telegram = t.me/SO...
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
@@ -15,10 +15,11 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #2'
+- name: 8,9|🇩🇿160610 | ⚡️Telegram = t.me/S...
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
+  skip-cert-verify: true
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
@@ -30,6 +31,13 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 8|DE
+  password: dffb4c3d-1e84-4938-8881-cad917e8efb2
+  port: 443
+  server: de1.apexvpn.space
+  sni: de1.apexvpn.space
   tls: false
   type: hysteria2
 - name: '8|德国 #3'
@@ -52,6 +60,23 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|@Daily_Configs
+  password: 4savc5ig1n3549e4
+  port: 52023
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nob86hyaj5rm0en
+  port: 52022
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -61,16 +86,6 @@ proxies:
   password: 8f0gvz5eul6omhq4
   port: 52021
   server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -98,7 +113,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #1'
+- name: '9|🇩🇪All | @BigSmoke_Config #2'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
@@ -150,182 +165,42 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-2 | 8EB
+- name: 10|🇩🇪 DE-2 | 8EB
   network: ws
-  port: 443
-  server: 185.163.119.231
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
+  port: 2087
+  server: 163.8.195.241
   type: vless
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCwYbAQUETFQDVxkGBVQXHBpdVhcXERcHDA5bUA==
+    path: /29c8fed7ca22
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 93.95.24.62
-  servername: cc1359linuxdo4.pages.dev
+  reality-opts:
+    public-key: NUszayjBaw2LyjJtctsGRPzLltoafwwxO7xgEcDXWGk
+    short-id: 6ba85179e30d4fc2
+  server: 91.92.43.177
+  servername: expire.selfsteal.vip
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgUbAQQATFQNVhkNBEcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 2083
-  server: 178.17.48.188
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGUEZYHlFRCwlcHFZHUBdDWVtCFwYMXgNWShtPDxFXQxAPAlBQBAxI
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 8443
-  server: 64.226.88.144
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQcbAQQHTFEbUBUYFxVaQkwPA1ZXBBVJ
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: ws
+  uuid: 8fe8c95f-1840-42b8-bdf2-35c858eca4e9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
   port: 443
-  server: 194.233.167.212
-  servername: cc1359linuxdo5.pages.dev
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAAUbAQcYU1cESAUBF0kXQFdfTUdZABkDAEQ=
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-7 | 8EB
-  network: ws
-  port: 443
-  server: 185.250.180.68
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgUbAQQATFQNVhkNBEcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-8 | 8EB
-  network: ws
-  port: 443
-  server: 57.129.43.125
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgQDHgEGVksASAUGBUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-9 | 8EB
-  network: ws
-  port: 2053
-  server: 213.226.71.38
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAg0GHgEFVEsEVw4aB1AGEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-10 | 8EB
-  network: ws
-  port: 443
-  server: 64.226.95.244
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgQbBQMYUUsEXwEWGUdFX0pZG19QBxoMRQ==
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-11 | 8EB
-  network: ws
-  port: 443
-  server: 47.245.131.215
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCw0bCAIYUFUbUwYWGUdFX0pZG19QBxoMRQ==
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-12 | 8EB
-  network: ws
-  port: 443
-  server: 5.187.2.161
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGUkBQXlRfDwBbElgaRgBHRkxIWksNVlkaWktBAUNIXhZZGllXBwMNTQ==
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  password: 'null'
-  port: 443
-  server: 141.17.83.73
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd

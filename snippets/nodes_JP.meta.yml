@@ -1,5 +1,5 @@
 proxies:
-- name: '8|未命名 #1'
+- name: '8|未命名 #2'
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
   server: 138.3.208.26
@@ -8,6 +8,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: 8|日本
+  password: 4d6d97a82ddf959252e2ada36c3c3053
+  port: 50160
+  server: 138.2.8.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '8|日本 #1'
   password: a9081889-1949-49ba-a2aa-7054515716de
   port: 3488
   server: c2.bestai.beauty
@@ -18,7 +26,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇵 Japan-Tokyo
+  name: 9|dc-udp- Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -27,141 +35,39 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-1 | 8EB
+- name: 11|🇯🇵 JP-1 | Mix
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks
+  username: '123456'
+- alterId: 0
+  cipher: auto
+  name: 11|🇯🇵 JP-2 | Mix
   network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+- name: 11|🇯🇵 JP-3 | Mix
   port: 443
-  server: 137.220.225.111
-  servername: cc1359linuxdo6.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-4 | Mix
+  password: 9e98496a-0036-4cc6-8302-3929c29ba772
+  port: 35791
+  server: iijjp.mggl.wang
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: anytls
   udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgADHgIFV0sHVAQaB1QBEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
-  port: 8443
-  server: 160.191.40.63
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgMGHgICUUsEUBkGDUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  server: 154.83.95.129
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgINHgEFWksHVg4aBFcMEhQPSQoRRw8OCw1UFRw=
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 443
-  server: 202.182.114.28
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgUFHgUYVlEbVwYEF0kXQFdfTUdZABkDAEQ=
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: ws
-  port: 443
-  server: 172.104.86.229
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgQDHgEGVksASAUGBUcZEkhCSxFBCR4ADwEe
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-6 | 8EB
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: cc1359linuxdo2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo2.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCgQbBQMYUUsEXwEWGUdFX0pZG19QBxoMRQ==
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  port: 443
-  server: 141.98.197.42
-  servername: cc1359linuxdo5.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo5.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGCw0bCAIYUFUbUwYWGUdFX0pZG19QBxoMRQ==
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-8 | 8EB
-  network: ws
-  port: 443
-  server: 161.33.181.105
-  servername: cc1359linuxdo3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo3.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBgwbCQcYU1wDSAUFF0kXQFdfTUdZABkDAEQ=
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-9 | 8EB
-  network: ws
-  port: 8443
-  server: 158.101.132.216
-  servername: cc1359linuxdo4.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo4.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAhoHBAEYU1IHSAYABkcZEkhCSxFBCRUDDAoe
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

@@ -1,12 +1,27 @@
 proxies:
-- name: 11|🇺🇸 US-8 | Mix
+- name: 10|🇺🇸 US-3 | 8EB
   network: tcp
   password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
   port: 8443
   security: tls
   server: 23.236.66.91
+  servername: www.apple.com
   skip-cert-verify: true
+  sni: www.apple.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|🇯🇵 JP-2 | Mix
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
