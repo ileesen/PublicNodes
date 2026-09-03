@@ -1,163 +1,49 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   name: 10|🇭🇰 HK-1 | 8EB
   network: ws
-  port: 443
-  server: 103.158.117.226
-  servername: www.zyjdwz.cc.cd
+  port: 8443
+  server: 155.254.122.147
+  servername: cc1359linuxdo3.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
   ws-opts:
     headers:
-      Host: www.zyjdwz.cc.cd
-    path: /
-- client-fingerprint: random
+      Host: cc1359linuxdo3.pages.dev
+    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGBgwbCQcYU1wDSAUFF0kXQFdfTUdZABkDAEQ=
+- client-fingerprint: chrome
   name: 10|🇭🇰 HK-2 | 8EB
   network: ws
-  port: 443
-  server: 38.147.172.176
-  servername: www.zyjdwz.cc.cd
+  port: 2053
+  server: 23.133.52.10
+  servername: cc1359linuxdo3.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
   ws-opts:
     headers:
-      Host: www.zyjdwz.cc.cd
-    path: /
-- name: 11|🇭🇰 HK-1 | Mix
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks
-  username: admin
-- name: 11|🇭🇰 HK-2 | Mix
+      Host: cc1359linuxdo3.pages.dev
+    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgwGHgEHU0sEUAAaDVYXHBpdVhcXERcHDA5bUA==
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
   port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-3 | Mix
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks
-  username: '111'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-4 | Mix
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
+  server: 154.16.183.190
+  servername: cc1359linuxdo6.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 11|🇭🇰 HK-5 | Mix
-  network: grpc
-  packetEncoding: none
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-6 | Mix
-  network: grpc
-  packetEncoding: none
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-7 | Mix
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-8 | Mix
-  network: grpc
-  packetEncoding: none
-  port: 10130
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk5-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 11|🇭🇰 HK-9 | Mix
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
+  ws-opts:
+    headers:
+      Host: cc1359linuxdo6.pages.dev
+    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQUFHgEGV0sHVAEaB1AFEhQPSQoRRw8OCw1UFRw=
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
