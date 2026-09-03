@@ -215,26 +215,30 @@ proxies:
   ws-opts:
     path: /api/user
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
+  network: ws
   port: 443
-  server: mmgr.club
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  server: 172.67.155.189
+  servername: 8-M13.1B9390A5-6209-45bD-ba0E-057EBb2641C3.Kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  ws-opts:
+    headers:
+      Host: 8-M13.1B9390a5-6209-45Bd-ba0E-057EBb2641c3.KDns.Fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
 - name: 11|🇺🇸 US-2 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
+  port: 9002
+  server: 138.199.35.208
   tls:
     enabled: true
   type: http
-  username: testuser1
 - name: 11|🇺🇸 US-3 | Mix
   network: ws
   port: 443
   server: 172.67.177.227
-  servername: 9-m16.CHIan-mAI-7.kdnS.FR
+  servername: 4-m16.cHiAN-mai-7.kdnS.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -242,105 +246,57 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 9-m16.ChiaN-Mai-7.KdnS.fR
+      Host: 4-m16.ChIAn-mai-7.kDnS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
+  network: ws
+  port: 443
+  server: 172.67.173.191
+  servername: 4-m20.e00e.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 4-m20.e00e.ccwu.cc
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: 11,15|US_speednode_0143
   port: 9002
   server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-6 | Mix
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks
+  username: test123
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 443
-  server: 172.67.190.103
-  servername: 6-m16.CHIANG-rai2036.KDnS.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: 172.67.139.130
-  servername: 9-M16.Chian-MaI-5.KDns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 9-M16.CHiAN-Mai-5.kdNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 443
-  server: 172.67.177.68
-  servername: 5-M16.CHIAng-MaI2032.kDns.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.chIAng-mAi2032.kDNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 443
-  server: 172.67.156.222
-  servername: 5-m16.CHiAn-Mai-6.KDNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.CHian-MAi-6.KDnS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-11 | Mix
-  port: 443
-  server: kimberlymilano.icu
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 104.21.36.81
-  servername: 3-M16.CHiaNG-RAI2036.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 3-M16.ChiANG-rai2036.KDNs.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -517,13 +473,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

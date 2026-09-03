@@ -1,40 +1,22 @@
 proxies:
 - name: 11|🇭🇰 HK-1 | Mix
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 15700
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk18.pulsarcore.site
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-2 | Mix
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-3 | Mix
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks
+  username: admin
+- name: 11|🇭🇰 HK-2 | Mix
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇭🇰 HK-3 | Mix
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks
+  username: '111'
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
