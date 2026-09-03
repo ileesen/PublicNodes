@@ -95,53 +95,18 @@ proxies:
   udp: true
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
   port: 9002
   server: 138.199.35.219
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: 172.67.185.142
-  servername: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+  server: 172.67.173.191
+  servername: 4-m20.e00e.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
@@ -149,16 +114,113 @@ proxies:
   uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   ws-opts:
     headers:
-      Host: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+      Host: 4-m20.e00e.ccwu.cc
     path: /8qMLgNapWf6SBxo8fhQlVPYO
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   password: None
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 172.67.148.211
+  servername: 4-M19.sOUTh-afRIcA-cHaNNel.ccWu.Cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 4-m19.SouTh-afRiCa-ChAnneL.ccWU.CC
+    path: /CjBjB9sn5pCvaSwScc
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-7 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 172.67.177.68
+  servername: 5-M16.CHIAng-MaI2032.kDns.fR
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.chIAng-mAi2032.kDNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.203
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-12 | Mix
+  network: ws
+  port: 443
+  server: 172.67.220.153
+  servername: 2-M16.chianG-MaI2031.kDNS.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- client-fingerprint: firefox
+  name: 11|🇺🇸 US-13 | Mix
+  network: tcp
+  port: 47642
+  reality-opts:
+    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
+    short-id: 76ed3287
+  server: 38.246.229.58
+  servername: sega.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

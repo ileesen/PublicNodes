@@ -9,19 +9,13 @@ proxies:
   skip-cert-verify: true
   sni: www.apple.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-7 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
   udp: true
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-  ws-opts:
-    headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

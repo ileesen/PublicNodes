@@ -1,6 +1,15 @@
 proxies:
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VDJjOVBUbz06
+- client-fingerprint: firefox
+  name: 11|🇰🇷 KR-1 | Mix
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: k9narlSK7fUqy94_p0rrqKl52W35QLNsp3W8xaGq_Go
+    short-id: 37b4f3ae8bf23763
+  server: 151.245.106.49
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 579ac5bd-a43d-49d4-b83e-a9e3ddd1f706

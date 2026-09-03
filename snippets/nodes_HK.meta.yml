@@ -6,78 +6,27 @@ proxies:
   type: vless
   udp: true
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: 11|🇭🇰 HK-1 | Mix
+- client-fingerprint: chrome
+  name: 11|🇭🇰 HK-1 | Mix
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- name: 11|🇭🇰 HK-2 | Mix
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 27631
+  port: 35853
   server: yzany01.downapptwo.cc
-  sni: hk03.jdddyy01.cc
+  sni: hk01.pulsarcore.site
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-2 | Mix
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-3 | Mix
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-4 | Mix
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-5 | Mix
-  network: grpc
-  packetEncoding: none
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
