@@ -18,7 +18,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Japan-Tokyo
+  name: 9|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -27,6 +27,59 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 42635
+  reality-opts:
+    public-key: Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI
+    short-id: 542c8d39a816
+  server: rbalytavhhksrbgdx.jiedddym.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e76db4ef-c87f-408c-a7f6-d4a9b8e06cd8
+- name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  password: UQfj7bdfjibTjpUHfg72aew51S7fB32g
+  port: 443
+  security: tls
+  server: portal.buildtunnel.com
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.170.8.95
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 8443
+  server: 45.32.39.53
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
   server: fan.571589.xyz

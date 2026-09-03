@@ -1,4 +1,34 @@
 proxies:
+- client-fingerprint: random
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 443
+  server: 103.158.117.226
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 443
+  server: 38.147.172.176
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
 - name: 11|🇭🇰 HK-1 | Mix
   password: admin
   port: 1080

@@ -43,20 +43,36 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: random
   name: 10|🇫🇷 FR-1 | 8EB
-  network: xhttp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 213.130.137.70
-  servername: panel.freesavesafe.com
+  server: 217.60.252.115
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 443
+  server: 79.72.27.153
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
 - cipher: aes-256-cfb
   name: 11|🇫🇷 FR-1 | Mix
   password: 7eadc6dbe2ae

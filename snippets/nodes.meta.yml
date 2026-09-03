@@ -137,7 +137,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 8,9|5🔒@oneclickvpnkeys
+- name: 8|芬兰
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
   server: fin14qr.wwwinternetvideo.click
@@ -236,8 +236,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- allowInsecure: '0'
-  name: 8,10|🇺🇸 US-7 | 8EB
+- name: 8|US
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -245,7 +244,6 @@ proxies:
   sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
-  udp: true
 - name: '8|国 #3'
   password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
   port: 8080
@@ -309,12 +307,16 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🔒47@oneclickvpnkeys
-  password: 083417772bc618cd61f0cca23dd91680
-  port: 55443
-  server: 167.179.34.31
-  skip-cert-verify: true
-  sni: gorbachev-new-th.kvnfreetest.uk
+- alpn:
+  - h3
+  name: 9|-🇫🇮 @VConfing
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52029
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 9|@v2ray_phoenix
@@ -404,7 +406,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|-🇫🇮 @VConfing
+  name: '9|-🇫🇮 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1w61o8j0slf0q9yj
@@ -455,6 +457,14 @@ proxies:
   port: 52076
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|160099 | Telegram = t.me/SOSke...
+  password: 2_hysteria2_fastlane_g7i07kqdf
+  port: 443
+  server: 138.124.64.30
+  skip-cert-verify: false
+  sni: pl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -572,22 +582,6 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|🔒54@oneclickvpnkeys
-  password: 6f7a8009ecf6a12e10d03f9d88493c89
-  port: 55443
-  server: 167.179.34.13
-  skip-cert-verify: true
-  sni: gorbachev-th.kvnfreetest.uk
-  tls: false
-  type: hysteria2
-- name: 9|95@oneclickvpnkeys
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -625,7 +619,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Chile-Santiago
+  name: 9|dc-udp-🇱 Chile-Santiago
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -702,7 +696,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇫🇮 @VConfing #2'
+  name: '9|-🇫🇮 @VConfing #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -754,13 +748,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|159469 | ⚡Telegram = t.me/SOSk...
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
-  tls: false
-  type: hysteria2
 - name: 9|96@oneclickvpnkeys
   password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 443
@@ -776,6 +763,14 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
+  tls: false
+  type: hysteria2
+- name: 9|🇱160076 | ⚡️Telegram = t.me/SO...
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 205.237.109.174
+  skip-cert-verify: true
+  sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
 - alpn:
@@ -802,7 +797,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: 9|🇱 - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -893,7 +888,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇫🇮 @VConfing #3'
+  name: '9|-🇫🇮 @VConfing #4'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -957,12 +952,88 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇺159431 | ⚡️Telegram = t.me/SO...
-  password: dongtaiwang.com
-  port: 44356
-  server: 142.249.37.90
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160156 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52000
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160153 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52002
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160154 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52006
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮160162 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52023
+  server: giftcard.gateway-stream.com
   skip-cert-verify: false
-  sni: hy2.561891.xyz
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160152 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52028
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160155 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52029
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮160140 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: fmaznn1lrzys7ddy
+  port: 52050
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
@@ -1117,7 +1188,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Japan-Tokyo
+  name: 9|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -1146,13 +1217,6 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|👝35@oneclickvpnkeys
-  password: oCYFcbOo8s
-  port: 443
-  server: 201.51.24.4
-  sni: hys22.wba-pn.ru
-  tls: false
-  type: hysteria2
 - name: '9|@Daily_Configs #4'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -1161,14 +1225,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|🔒26@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.153.59.21
-  skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
   tls: false
   type: hysteria2
 - alpn:
@@ -1181,6 +1237,14 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
+  tls: false
+  type: hysteria2
+- name: 9|🇳🇱160078 | ⚡️Telegram = t.me/S...
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 46.229.243.152
+  skip-cert-verify: true
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: '9|@meliproxyy #2'
@@ -1201,45 +1265,16 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇮159510 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52008
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
+- name: 9|🇷🇺160103 | ⚡️Telegram = t.me/S...
+  password: uowQGj5hGoMerPtQE2sZV-ETleLUgimbKf3q8TWfijQ
+  port: 34444
+  server: give.internet-card.sbs
+  sni: wata.internet-card.sbs
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
-  name: 9|🇫🇮159512 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52009
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇮159514 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52016
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇫🇮159495 | ⚡️Telegram = t.me/S...
+  name: 9| ConfigV2RayNG 🇩🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vpwzu6ug7tpoprsq
@@ -1251,7 +1286,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇫🇮159496 | ⚡️Telegram = t.me/S...
+  name: '9| ConfigV2RayNG 🇩🇪 #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vpwzu6ug7tpoprsq
@@ -1263,37 +1298,13 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇫🇮159497 | ⚡️Telegram = t.me/S...
+  name: 9|ConfigV2RayNG 🇩🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vpwzu6ug7tpoprsq
   port: 52022
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇮159513 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52031
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇮159511 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52067
-  server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1359,443 +1370,571 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: germany.superbuba.top
-  servername: germany.superbuba.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-1 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.31
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇨🇭 CH-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: 159.200.230.117
-  servername: d.tranzit-net.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.81
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.161
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇸🇪 SE-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.76.69.40
-  servername: eu-central.cendora.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-4 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.41
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.11
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-6 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.151
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- alpn:
-  - h2
-  mode: auto
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: xhttp
-  port: 443
-  server: de.tutvpn.com
-  servername: de.tutvpn.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-7 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.111
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-8 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.91
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-9 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.121
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-10 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.51
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- name: 10|🇨🇴 CO-1 | 8EB
-  network: tcp
-  port: 62145
-  server: 157.137.214.227
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇨🇴 CO-2 | 8EB
-  network: tcp
-  port: 62145
-  server: 149.130.171.82
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇨🇴 CO-3 | 8EB
-  network: tcp
-  port: 62145
-  server: 149.130.180.150
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-11 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.101
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- name: 10|🇨🇴 CO-4 | 8EB
-  network: tcp
-  port: 62145
-  server: 157.137.232.6
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 10|🇷🇺 RU-1 | 8EB
+- client-fingerprint: random
+  name: 10|🇺🇸 US-1 | 8EB
   network: ws
-  port: 443
-  server: 194.55.239.20
-  servername: harknmav.fun
+  port: 2053
+  server: 104.18.37.133
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
-  ws-opts:
-    path: /live.stream.v1.Broadcast/
-- name: 10|🇨🇴 CO-5 | 8EB
-  network: tcp
-  port: 62145
-  server: 157.137.218.132
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: firefox
-  mode: auto
-  name: 10|🇬🇧 GB-12 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.71
-  servername: api-v2.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- allowInsecure: '0'
-  name: 10|🇳🇱 NL-1 | 8EB
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.148
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-  udp: true
-- flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- allowInsecure: '1'
-  name: 10|🇩🇪 DE-4 | 8EB
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: nlb4.mangshe.xyz
-  skip-cert-verify: true
-  sni: nlb4.mangshe.xyz
-  type: hysteria2
-  udp: true
-- client-fingerprint: unsafe
-  name: 10|🇳🇱 NL-2 | 8EB
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: holland.fqrrqfevk.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6ed49e74-b33b-46af-9b79-ef5e1429bfdf
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
   ws-opts:
     headers:
-      Host: holland.fqrrqfevk.top
-    path: /jSkSOxcaWoPMMU6Mp
-- flow: xtls-rprx-vision
-  name: 10|🇧🇬 BG-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 195.123.226.114
-  servername: eu-central.cendora.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: firefox
-  extra: '{"xmux":{"maxConnections":1,"maxReuseTimes":0}}'
-  mode: stream-one
-  name: 10|🇪🇪 EE-1 | 8EB
-  network: xhttp
-  port: 443
-  server: one.alpheratzz.org
-  servername: app-6a936d01.adhil.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
-- client-fingerprint: firefox
-  extra: '{"xmux":{"maxConnections":1,"maxReuseTimes":0}}'
-  mode: stream-one
-  name: 10|🇪🇪 EE-2 | 8EB
-  network: xhttp
-  port: 443
-  server: one.alpheratzz.org
-  servername: app-6a936c8a.adhil.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
-- client-fingerprint: firefox
-  extra: '{"scMaxEachPostBytes":1000000,"scMaxConcurrentPosts":100,"scMinPostsIntervalMs":30,"xPaddingBytes":"100-1000","noGRPCHeader":false}'
-  mode: auto
-  name: 10|🇰🇿 KZ-1 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: a3f9c2d4e8b1a7c6
-  server: ice.noooo.win
-  servername: sentry.allepal.ee
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
-- client-fingerprint: qq
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 5.253.29.234
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+      Host: www.zyjdwz.cc.cd
+    path: /
 - client-fingerprint: random
-  mode: packet-up
-  name: 10|🇨🇭 CH-2 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: ch-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 2083
+  server: 104.18.37.133
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-- client-fingerprint: firefox
-  mode: packet-up
-  name: 10|🇨🇭 CH-3 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: ch-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 2096
+  server: 104.18.37.133
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 8443
+  server: 104.18.37.133
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 2053
+  server: 104.21.88.220
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 2083
+  server: 104.21.88.220
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 2096
+  server: 104.21.88.220
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 8443
+  server: 104.21.88.220
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  port: 2053
+  server: 104.18.34.180
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 2083
+  server: 104.18.34.180
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 2096
+  server: 104.18.34.180
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 8443
+  server: 104.18.34.180
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 8443
+  server: 172.64.152.221
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 2053
+  server: 172.64.146.62
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 2083
+  server: 172.64.146.62
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 2096
+  server: 172.64.146.62
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 8443
+  server: 172.64.146.62
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 2083
+  server: 104.18.35.201
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  port: 2053
+  server: 104.18.46.128
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  port: 8443
+  server: 104.18.46.128
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  port: 2083
+  server: 172.64.145.131
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-22 | 8EB
+  network: ws
+  port: 2053
+  server: 104.18.47.244
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-23 | 8EB
+  network: ws
+  port: 2053
+  server: 172.64.157.16
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-24 | 8EB
+  network: ws
+  port: 2096
+  server: 172.64.157.16
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-25 | 8EB
+  network: ws
+  port: 2053
+  server: 104.17.156.124
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-26 | 8EB
+  network: ws
+  port: 2083
+  server: 104.17.156.124
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-27 | 8EB
+  network: ws
+  port: 2096
+  server: 104.17.156.124
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-28 | 8EB
+  network: ws
+  port: 8443
+  server: 104.17.156.124
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-29 | 8EB
+  network: ws
+  port: 2053
+  server: 104.25.243.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-30 | 8EB
+  network: ws
+  port: 2083
+  server: 104.25.243.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-31 | 8EB
+  network: ws
+  port: 2096
+  server: 104.25.243.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-32 | 8EB
+  network: ws
+  port: 8443
+  server: 104.25.243.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-33 | 8EB
+  network: ws
+  port: 2053
+  server: 104.25.242.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-34 | 8EB
+  network: ws
+  port: 2083
+  server: 104.25.242.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-35 | 8EB
+  network: ws
+  port: 2096
+  server: 104.25.242.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-36 | 8EB
+  network: ws
+  port: 8443
+  server: 104.25.242.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 42635
+  reality-opts:
+    public-key: Zasj_Tu2GbBtMqnYXrEFd6mE5OtRpna2EUWzaVoipjI
+    short-id: 542c8d39a816
+  server: rbalytavhhksrbgdx.jiedddym.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e76db4ef-c87f-408c-a7f6-d4a9b8e06cd8
+- name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  password: UQfj7bdfjibTjpUHfg72aew51S7fB32g
+  port: 443
+  security: tls
+  server: portal.buildtunnel.com
+  skip-cert-verify: false
+  type: trojan
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|🇳🇱 NL-3 | 8EB
+  name: 10|🇳🇱 NL-1 | 8EB
   network: tcp
   port: 8443
   reality-opts:
@@ -1807,339 +1946,1987 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  uuid: 6379673b-197f-4944-ba81-a45c66aefe9c
 - client-fingerprint: random
-  mode: packet-up
-  name: 10|🇳🇱 NL-4 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: nl-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-- grpc-opts:
-    grpc-service-name: trgrpc
-  mode: gun
-  name: 10|🇳🇱 NL-5 | 8EB
-  network: grpc
-  port: 443
-  server: ne1385.cdn-video.pro
-  serviceName: trgrpc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f980aecd-d243-4910-b231-db172d434541
-- client-fingerprint: firefox
-  name: 10|🇺🇸 US-1 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 80.76.44.135
-  servername: note.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  name: 10|🇺🇸 US-2 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 80.76.44.181
-  servername: note.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  name: 10|🇺🇸 US-3 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 80.76.44.182
-  servername: note.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: firefox
-  name: 10|🇺🇸 US-4 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 80.76.44.184
-  servername: note.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: random
-  mode: packet-up
-  name: 10|🇫🇮 FI-1 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: pl-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-- client-fingerprint: random
-  mode: packet-up
-  name: 10|🇫🇮 FI-2 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: fi-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇳🇱 NL-6 | 8EB
-  network: tcp
-  port: 8443
-  server: nl.alpheratzz.org
-  servername: vusr-6a936d01.alpheratzz.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇳🇱 NL-7 | 8EB
-  network: tcp
-  port: 8443
-  server: nl.alpheratzz.org
-  servername: vusr-6a936c8a.alpheratzz.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇹🇷 TR-1 | 8EB
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-  server: premium-tr.geodema.network
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78eb4455-0d07-4bc2-93e3-7c8654f11d74
-- client-fingerprint: safari
-  name: 10|🇺🇸 US-5 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: note.savesafe.run
-  servername: note.savesafe.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 8443
-  pqv: E42vfknxgnAw2HxlsvbSfFmObeAxWpmWH0ovTU1Qx21tF1TKoURBAsYXDCClmxNslLupYkkbpUileETwyDJj2tVlfv2k-wJpHbuacCe4ntpZ-vOQmM72-rORcV7RxTM63b9T-jX8PZ76iIO-JBBLmiix6gdXhSORbn3ouLbzBE6jLIl7sJxBAuyhBSG2KKVTFDeleZkmrlcico9tr88Q0q94OAc-VBzqHwJaWX9qB98k8ql2_fAGi3s56_WrHt7PNmT1y61Qm3MdJeiMw4tDKwtgLBwhssez_Eoxy2RB9zDf9pkm3e4V3dBI-8hIqquf-5qU1BJrDB9pXxLZ738CL3TaHa2fve-0ikqnKVDx6kuIqGlUuz_qZL8gkAScDdwEmYSgtARB7UQlBTMz14pqDb9k4bZi3BbbDk-oVAx6N1afLs67SVgp1FZczO5p9TaThuIcUjU4EiWPi77PWIhdzoKYy4MF3_Dz4TnQ6k4Maa9TW1oOPG-AClCXKQNdJAuDVxdFuudbFbSDk92-527QjaAO6EX2Y1j2twzrC9Zu888-BMCl0Y22vrRyFIgUpE9i0zfmt22w5UHZT863kpHsseIO4C6KcEPT1PoSst2GO0bbzwhe74OjD0ABGOI0V59EPloIxY-0tYcIQ05WYQbeqluK0vpZUmMpZR1TshgzWB-PXJn7HaekSmy6HmKMixbx9FxBWMN3GYTPaYtd78OKxqAI6ObnAHTJyRY7dDhg87jT3U745BMeP0uiMHyFk9W2k7qdtsil-gn01Z6nOPq404WXwoBffH2ScdZxBZegDqSQ4G4kYDBrD_HmOGVjlAQNknYupzNnSM-LPspg9Q6TVDU7o24xlEIP2Jf4qZFuvpGemAhvZgc_Z-e0wcIp1s9RR0RpAmmFlpwudq1D5QnRH10Y5nZ5zUfczPmvVwYcK6MJFHSyj8Gke_vnytPuXK1PWQPxMfIPs2I1gn40xTQJGAkBbIeazYPnsh8e0Xv_JV6joZoYMS4pJufzjZ4l85o_AMhaHrpmNKxMOCmnAPe8rpUSu4R69RJXIMLgpUJxYhpoZV4gJR8MFArKF2vVjMF8V3Ca6T4QR42UV1l0Blii5dBUuB2romIeLQXuSgwoU4mZr605-iA5fFk7ExMw4-X_hyY-dMYJsAjv_3aPiQVrDV3hWNb1mz-uBW-xyEmw1Aidy2zvsgkoKalDtt-mFSBTTZA8OT_rMsKwEnC1BOOQFvM6_wqR0b6ljs4qcg_LhTEN_zoDuW6kctK7nehzwHNSpBllyAEUxnUvg9GzA8ge1L3wbSRvCSQ0xbNfvud5q5SFeoteJLA9dGxfdhR6KiJgsAEgtMe4co8-OEPYcA6gyY_yN_zWJa9vxhnmKWupfefU--jSUF63uSM0d23E3emwK3BO5XArEye9yKCAAe22aSi9ngGC3OZaDwY5BJTFL1GpLJViESuSZyckiPIA6JPyi7TY4U64GYmH9ZcghUBrcc_nIdRudgNy9VHEIBhrwdjNKASWxeK07zhQcdoPnyIxosh96n0zmFjSscVe9q7WvKM3WnSH1M8PScTQ7RLXqoGpVgSMrKKoorEjdw9FGpRTcUaBIBLT1MN9ivgGOBkgGLCj1w_PYQG012e2tTQmL1wUZf2meu0QCER8YrVTqTikBhLenG8Er4cy-TVZdCxjNYj-AOtLcEsOlGShkl-7VDCUdFIRWPmjv2j4heCrxdMsQ2evTOxK1IVH3nSHh_iAvIQyhykY8T2LtpPPuXKO-zpems6sSou1aEr2A7W3LFZvZblOaFM_aWjPsiiDIcDNcpJv1ub8iQunp7vgFFnR2NEhfP5bxh7p-Sum8yPk2zDur8qC4CGET3IuY6gox7FxCSOxfctFtNwDzOFE8jpcQ9dJ_tNDTxmvCQFs4yv6aQHfPbjHHIkyENqx4Is4b5DLByzw9mKkdYG6jfTomnrWTdu6wLCY0yq2NErtWT46nDoNC4NmGdWLnqqw7stLwI-pgjarA8VmgE-ZYZ-qoX5Ov_PF2NPgJjNcfvgDAUUGPUHnf8wOLQaT4ESQ-JJkAPZeBsC1E7D1gfa6meM-4kTWCRfV4F7ptGIMGXBNaDlNh4QM4mB5XFu1oR8U5mhY2X9kCPw4NEZYf7fa9SVngwsgXIC4N72s4vJBuO0wlcUEDyZ-QMbUf6OvhWqPH6xVkkevM7qxUOF46FEqZIK9QXKtSExOa4LOz0ou5EuiMde8JrFjLu69Ig3z-0KxOz0Amv9enJgJDNxruUl5_-gcz43xyJVIRa828OXF-m0wMy-GzrHN9LOxcIP8lSmMckH_i3EJEqyuu_wd_iBHqpqsbfDIdlQxb_i_SjMPIhD2FiGW9qgwWT2W9xQncy5-1cOX6GpgzO7YxWMlFeBrHMKWNfPS5L7XlR41B10Dm1cgRD2k6aRc9lLi-cmTfkFvBhn75V8CuyCuyAWSUrmq0bTCYGOq30IqdZVfbVZGoIFI6eF3PgSeGh9FbCBgjUo5yjsZfXkYysHKw8L76rURmkZwPA3oBnKnH4_JneAp1KJ2PFVmDoegV3Tu2c0M1tzUjQ2dRnoF3uqNWRQKhT_DWqvl9PbR9H8
-  reality-opts:
-    public-key: -x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I
-    short-id: 4864db326f0b4b90
-  server: 207.241.173.146
-  servername: www.refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948b843b-3cc1-494c-9d49-a95a9539fa7c
-- client-fingerprint: random
-  mode: packet-up
-  name: 10|🇬🇧 GB-13 | 8EB
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: se-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-- allowInsecure: '0'
-  name: 10|🇮🇳 IN-1 | 8EB
-  password: 04d481ed-eb43-42de-ab4f-45049ab0e585
-  port: 443
-  server: india.nalkonici.com
-  sni: india.nalkonici.com
-  type: hysteria2
-  udp: true
-- name: 10|🇺🇸 US-8 | 8EB
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
-  port: 2082
-  server: 172.64.158.146
+  port: 2053
+  server: 23.133.52.10
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: www.zyjdwz.cc.cd
     path: /
-- name: 10|🇺🇸 US-9 | 8EB
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-2 | 8EB
   network: ws
-  port: 2086
-  server: 104.18.34.14
+  port: 443
+  server: 43.128.130.43
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 80
-  server: 108.162.198.178
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: www.zyjdwz.cc.cd
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-14 | 8EB
-  network: tcp
+- client-fingerprint: ios
+  name: 10|🇺🇸 US-37 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
-    short-id: 42171a632f3b99ed
-  server: 95.154.221.153
-  servername: strapi.io
+  server: 69.46.46.21
+  servername: willow-ember-a62e-production.up.railway.app
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6c245314-225b-4999-9051-180b8dba117c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: tcp
+  uuid: 7a434161-a605-38c0-1aa6-5ff7a879d5b5
+  ws-opts:
+    headers:
+      Host: willow-ember-a62e-production.up.railway.app
+    path: /ws/7a434161-a605-38c0-1aa6-5ff7a879d5b5
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-1 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: 45.95.96.225
-  servername: germany.superbuba.top
+  server: 104.17.158.253
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- client-fingerprint: firefox
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-2 | 8EB
+  network: ws
+  port: 443
+  server: 104.18.33.18
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-3 | 8EB
+  network: ws
+  port: 443
+  server: 104.18.33.79
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-4 | 8EB
+  network: ws
+  port: 443
+  server: 188.164.248.200
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-5 | 8EB
+  network: ws
+  port: 443
+  server: 188.164.248.40
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-6 | 8EB
+  network: ws
+  port: 443
+  server: 8.35.211.206
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-7 | 8EB
+  network: ws
+  port: 443
+  server: 104.26.11.166
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-8 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.64.246
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-9 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.65.58
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-10 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.71.3
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-11 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.73.189
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-12 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.77.18
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-13 | 8EB
+  network: ws
+  port: 443
+  server: 104.17.118.10
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-14 | 8EB
+  network: ws
+  port: 443
+  server: 104.17.151.50
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-15 | 8EB
+  network: ws
+  port: 443
+  server: 104.17.63.201
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-16 | 8EB
+  network: ws
+  port: 443
+  server: 172.66.3.216
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇫 CF-17 | 8EB
+  network: ws
+  port: 443
+  server: 91.193.58.248
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇱 AL-1 | 8EB
+  network: ws
+  port: 443
+  server: 89.125.139.115
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇷 AR-1 | 8EB
+  network: ws
+  port: 443
+  server: 131.255.6.88
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇪 AE-1 | 8EB
+  network: ws
+  port: 443
+  server: 45.86.228.104
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇪 AE-2 | 8EB
+  network: ws
+  port: 2083
+  server: 95.174.68.155
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇪 IE-1 | 8EB
+  network: ws
+  port: 2083
+  server: 198.55.102.68
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇹 AT-1 | 8EB
+  network: ws
+  port: 443
+  server: 152.53.100.13
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇹 AT-2 | 8EB
+  network: ws
+  port: 443
+  server: 152.53.45.7
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇷 BR-1 | 8EB
+  network: ws
+  port: 8443
+  server: 146.235.59.153
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇾 BY-1 | 8EB
+  network: ws
+  port: 443
+  server: 155.212.244.252
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇾 BY-2 | 8EB
+  network: ws
+  port: 443
+  server: 185.179.82.246
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇾 BY-3 | 8EB
+  network: ws
+  port: 8443
+  server: 91.149.167.147
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇬 BG-1 | 8EB
+  network: ws
+  port: 443
+  server: 45.137.201.143
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇪 BE-1 | 8EB
+  network: ws
+  port: 443
+  server: 194.71.227.213
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇧🇪 BE-2 | 8EB
+  network: ws
+  port: 443
+  server: 141.98.233.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇸 IS-1 | 8EB
+  network: ws
+  port: 8443
+  server: 89.147.108.16
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇸 IS-2 | 8EB
+  network: ws
+  port: 443
+  server: 89.147.109.212
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇵🇱 PL-1 | 8EB
+  network: ws
+  port: 8443
+  server: 80.211.250.20
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇵🇱 PL-2 | 8EB
+  network: ws
+  port: 443
+  server: 185.126.64.143
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇰 DK-1 | 8EB
+  network: ws
+  port: 443
+  server: 193.180.208.58
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇰 DK-2 | 8EB
+  network: ws
+  port: 443
+  server: 193.181.213.53
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇰 DK-3 | 8EB
+  network: ws
+  port: 443
+  server: 5.249.255.116
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇰 DK-4 | 8EB
+  network: ws
+  port: 443
+  server: 92.113.149.70
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: ws
+  port: 443
+  server: 45.146.202.145
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  port: 443
+  server: 64.188.106.254
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 443
+  server: 64.188.96.31
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: ws
+  port: 443
+  server: 212.192.14.28
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: ws
+  port: 443
+  server: 5.101.50.226
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-3 | 8EB
+  network: ws
+  port: 8443
+  server: 82.97.249.34
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-4 | 8EB
+  network: ws
+  port: 443
+  server: 155.212.216.144
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
   name: 10|🇫🇷 FR-1 | 8EB
-  network: xhttp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 213.130.137.70
-  servername: panel.freesavesafe.com
+  server: 217.60.252.115
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- name: 10|🇺🇸 US-11 | 8EB
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 443
+  server: 79.72.27.153
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇿 KZ-1 | 8EB
+  network: ws
+  port: 443
+  server: 31.130.153.158
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇿 KZ-2 | 8EB
+  network: ws
+  port: 443
+  server: 91.200.148.120
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: ws
+  port: 443
+  server: 144.24.73.232
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  port: 443
+  server: 43.131.225.115
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇳🇱 NL-2 | 8EB
+  network: ws
+  port: 443
+  server: 161.35.155.59
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇳🇱 NL-3 | 8EB
+  network: ws
+  port: 443
+  server: 167.71.10.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇬 KG-1 | 8EB
+  network: ws
+  port: 8443
+  server: 188.240.213.98
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: ios
+  name: 10|🇰🇭 KH-1 | 8EB
+  network: ws
+  port: 443
+  server: 38.54.4.209
+  servername: willow-ember-a62e-production.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a434161-a605-38c0-1aa6-5ff7a879d5b5
+  ws-opts:
+    headers:
+      Host: willow-ember-a62e-production.up.railway.app
+    path: /ws/7a434161-a605-38c0-1aa6-5ff7a879d5b5
+- client-fingerprint: random
+  name: 10|🇨🇿 CZ-1 | 8EB
+  network: ws
+  port: 443
+  server: 109.172.8.106
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇿 CZ-2 | 8EB
+  network: ws
+  port: 443
+  server: 185.253.46.235
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇿 CZ-3 | 8EB
+  network: ws
+  port: 443
+  server: 185.72.10.59
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇱🇻 LV-1 | 8EB
+  network: ws
+  port: 8443
+  server: 5.178.96.130
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇱🇹 LT-1 | 8EB
+  network: ws
+  port: 443
+  server: 194.135.91.96
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇱🇹 LT-2 | 8EB
+  network: ws
+  port: 443
+  server: 195.238.126.11
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇴 RO-1 | 8EB
+  network: ws
+  port: 443
+  server: 81.180.92.55
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇴 RO-2 | 8EB
+  network: ws
+  port: 443
+  server: 85.90.196.11
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇴 RO-3 | 8EB
+  network: ws
+  port: 8443
+  server: 45.13.38.174
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇾 MY-1 | 8EB
+  network: ws
+  port: 443
+  server: 166.88.7.117
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇾 MY-2 | 8EB
+  network: ws
+  port: 443
+  server: 216.173.67.119
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇾 MY-3 | 8EB
+  network: ws
+  port: 443
+  server: 23.27.200.223
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇾 MY-4 | 8EB
   network: ws
   port: 2087
-  server: 172.64.53.74
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  server: 47.250.81.46
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: www.zyjdwz.cc.cd
     path: /
-- name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 8080
-  server: 162.159.43.187
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 2082
-  server: 108.162.198.178
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /
-- alpn:
-  - http/1.1
-  name: 10|🇺🇸 US-14 | 8EB
+- client-fingerprint: random
+  name: 10|🇲🇩 MD-1 | 8EB
   network: ws
   port: 443
-  server: 72.56.40.152
-  servername: usa.korgivps.ru
+  server: 193.36.38.222
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
   ws-opts:
-    path: /api/user
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇩 MD-2 | 8EB
+  network: ws
+  port: 443
+  server: 194.180.191.123
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇩 MD-3 | 8EB
+  network: ws
+  port: 443
+  server: 93.185.165.175
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇲🇽 MX-1 | 8EB
+  network: ws
+  port: 8443
+  server: 216.238.79.83
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇿🇦 ZA-1 | 8EB
+  network: ws
+  port: 8443
+  server: 156.38.157.171
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇳🇴 NO-1 | 8EB
+  network: ws
+  port: 443
+  server: 194.68.32.99
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇳🇴 NO-2 | 8EB
+  network: ws
+  port: 443
+  server: 194.32.107.150
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.170.8.95
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 8443
+  server: 45.32.39.53
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇪 SE-1 | 8EB
+  network: ws
+  port: 443
+  server: 62.182.195.6
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇪 SE-2 | 8EB
+  network: ws
+  port: 443
+  server: 62.60.250.190
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-1 | 8EB
+  network: ws
+  port: 443
+  server: 103.63.30.19
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-2 | 8EB
+  network: ws
+  port: 443
+  server: 84.234.16.169
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-3 | 8EB
+  network: ws
+  port: 443
+  server: 194.154.29.81
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇸 RS-1 | 8EB
+  network: ws
+  port: 8443
+  server: 194.87.85.5
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇷🇸 RS-2 | 8EB
+  network: ws
+  port: 443
+  server: 195.133.18.146
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇾 CY-1 | 8EB
+  network: ws
+  port: 8443
+  server: 194.55.164.154
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇰 SK-1 | 8EB
+  network: ws
+  port: 8443
+  server: 5.35.103.185
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇰 SK-2 | 8EB
+  network: ws
+  port: 8443
+  server: 89.46.42.92
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇰 SK-3 | 8EB
+  network: ws
+  port: 8443
+  server: 91.242.163.179
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-1 | 8EB
+  network: ws
+  port: 443
+  server: 114.32.9.249
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-2 | 8EB
+  network: ws
+  port: 443
+  server: 140.235.38.206
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-3 | 8EB
+  network: ws
+  port: 443
+  server: 142.249.60.51
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-4 | 8EB
+  network: ws
+  port: 443
+  server: 23.146.248.149
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-5 | 8EB
+  network: ws
+  port: 443
+  server: 45.207.159.187
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-6 | 8EB
+  network: ws
+  port: 8443
+  server: 78.105.183.11
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-7 | 8EB
+  network: ws
+  port: 443
+  server: 78.105.183.40
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-8 | 8EB
+  network: ws
+  port: 443
+  server: 83.147.13.193
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇼 TW-9 | 8EB
+  network: ws
+  port: 443
+  server: 85.237.207.126
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇭 TH-1 | 8EB
+  network: ws
+  port: 443
+  server: 45.150.128.159
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇭 TH-2 | 8EB
+  network: ws
+  port: 443
+  server: 157.85.105.126
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇹🇭 TH-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.133.110.81
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇦 UA-1 | 8EB
+  network: ws
+  port: 443
+  server: 141.105.130.102
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇦 UA-2 | 8EB
+  network: ws
+  port: 8443
+  server: 185.86.77.181
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇦 UA-3 | 8EB
+  network: ws
+  port: 443
+  server: 91.218.212.223
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇬🇷 GR-1 | 8EB
+  network: ws
+  port: 443
+  server: 91.250.248.223
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 443
+  server: 103.158.117.226
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 443
+  server: 38.147.172.176
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 443
+  server: 128.199.82.20
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇭🇺 HU-1 | 8EB
+  network: ws
+  port: 443
+  server: 38.180.108.148
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇭🇺 HU-2 | 8EB
+  network: ws
+  port: 2053
+  server: 38.180.225.247
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇲 AM-1 | 8EB
+  network: ws
+  port: 443
+  server: 2.56.207.67
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇦🇲 AM-2 | 8EB
+  network: ws
+  port: 2053
+  server: 91.198.108.211
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇱 IL-1 | 8EB
+  network: ws
+  port: 443
+  server: 192.71.27.237
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇱 IL-2 | 8EB
+  network: ws
+  port: 443
+  server: 193.169.228.116
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇱 IL-3 | 8EB
+  network: ws
+  port: 8443
+  server: 64.176.170.68
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇱 IL-4 | 8EB
+  network: ws
+  port: 443
+  server: 64.177.68.51
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇹 IT-1 | 8EB
+  network: ws
+  port: 443
+  server: 31.77.154.69
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇹 IT-2 | 8EB
+  network: ws
+  port: 443
+  server: 83.229.6.134
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-1 | 8EB
+  network: ws
+  port: 8443
+  server: 20.219.46.208
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-2 | 8EB
+  network: ws
+  port: 443
+  server: 5.253.29.83
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-3 | 8EB
+  network: ws
+  port: 443
+  server: 5.253.30.229
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-4 | 8EB
+  network: ws
+  port: 8443
+  server: 172.232.246.133
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-5 | 8EB
+  network: ws
+  port: 443
+  server: 43.169.18.179
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇮🇳 IN-6 | 8EB
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: ws
+  port: 8443
+  server: 193.233.139.107
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: ws
+  port: 443
+  server: 138.68.158.50
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇻🇳 VN-1 | 8EB
+  network: ws
+  port: 443
+  server: 103.197.185.178
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇻🇳 VN-2 | 8EB
+  network: ws
+  port: 8443
+  server: 103.70.115.106
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 10|🇨🇱 CL-1 | 8EB
+  network: ws
+  port: 8443
+  server: 64.176.11.9
+  servername: www.zyjdwz.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /
 - name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 443
