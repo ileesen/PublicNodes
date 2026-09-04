@@ -98,33 +98,40 @@ proxies:
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
 - name: 11|🇺🇸 US-1 | Mix
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 53504
-  server: svip.skycon808.com
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
   skip-cert-verify: true
-  sni: us63.swiftrelay.cc
-  type: anytls
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-2 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
+  network: ws
+  port: 443
+  server: 172.67.190.103
+  servername: 6-m16.CHIANG-rai2036.KDnS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.213
@@ -132,83 +139,28 @@ proxies:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 443
-  server: 104.21.45.198
-  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  network: ws
-  port: 443
-  server: 172.67.139.130
-  servername: 0-M16.cHiAN-mai-5.KDNS.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-m16.chian-MAI-5.kdNS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  port: 8090
-  server: 209.148.53.153
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-12 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-13 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-14 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

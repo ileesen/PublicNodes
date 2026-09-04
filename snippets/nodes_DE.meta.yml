@@ -68,18 +68,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇪 Germany-Berlin
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -112,9 +100,9 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #2'
-  password: jbmuokj7p4kg4h4s
-  port: 52029
+- name: 9|@proxy_kafee
+  password: fmaznn1lrzys7ddy
+  port: 52050
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
@@ -160,47 +148,18 @@ proxies:
   type: vless
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 185.44.107.166
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+    short-id: bbe46bd8f6b96839
+  server: 144.31.50.236
+  servername: yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 11|🇩🇪 DE-3 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
-  network: tcp
-  port: 5005
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 80.253.249.193
-  servername: special.aeternavpn.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
