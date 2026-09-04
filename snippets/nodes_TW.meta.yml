@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇹🇼 TW-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇹🇼 TW-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: e6d59aff03e5b0
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
+- name: 11|🇹🇼 TW-1 | Mix
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls:
+    enabled: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=

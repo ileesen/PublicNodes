@@ -1,28 +1,34 @@
 proxies:
-- name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
-  port: 8443
-  security: tls
-  server: 23.236.66.91
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: trojan
-- name: 11|🇺🇸 US-3 | Mix
+- alpn:
+  - http/1.1
+  name: 10|🇯🇵 JP-6 | 8EB
   network: ws
-  password: 8oUrvxh0mGkzTknV
+  password: MiTiVPN
   port: 443
   security: tls
-  server: 172.66.44.113
-  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  skip-cert-verify: true
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
+      Host: mitivpn-mitivpn-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-2 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-13 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

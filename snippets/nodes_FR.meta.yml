@@ -1,12 +1,4 @@
 proxies:
-- name: 8|法国
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
-  server: dora4.api3-max.ru
-  skip-cert-verify: true
-  sni: dora4.api3-max.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '9|VCONFING #1'
@@ -31,16 +23,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇷 AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 7nob86hyaj5rm0en
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '9|VCONFING #3'
@@ -53,3 +35,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇫🇷 FR-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.62
+  servername: fi.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ba36a4e-9542-43d3-85c1-9f0177972231

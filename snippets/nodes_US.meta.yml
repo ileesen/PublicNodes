@@ -25,7 +25,7 @@ proxies:
   sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
+- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -33,79 +33,118 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '8|美国 #2'
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: faq.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: cabinet.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
-    short-id: fd26d49a
-  server: 203.10.96.138
-  servername: cdn-dynmedia-1.microsoft.com
+    public-key: 0_UOGGSOr0NZqCA-nQo-Ct0MjQPfghmBL_sh6XU5pW8
+    short-id: 8e218ca02a
+  server: us1.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
   skip-cert-verify: false
+  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: bc648677-9fd4-46c4-bacf-d53a51bbdfbc
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-2 | 8EB
   network: tcp
-  port: 26173
+  port: 443
   reality-opts:
-    public-key: ceH-f70gdrML2qf0pxeGKqSMMJNfsH0qaomEKI6xYhM
-    short-id: 704289a9
-  server: 216.167.29.150
-  servername: tesla.com
+    public-key: w5egR8fKNXrEJns2AfwStSzRQ9yHY_invtW7tnqm8Dk
+    short-id: 297842ea18bf
+  server: us2.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
   skip-cert-verify: false
+  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: 10|🇺🇸 US-3 | 8EB
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-3 | 8EB
   network: tcp
-  password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
-  port: 8443
-  security: tls
-  server: 23.236.66.91
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: dvXaj6cjjCxv1btRo7vHk93VR0BCQTF_xQClCjVZ1mM
+    short-id: 5cfd1c
+  server: us3.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-4 | 8EB
   network: tcp
-  port: 36823
+  port: 443
   reality-opts:
-    public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
-  server: 216.167.123.207
-  servername: www.nvidia.com
+    public-key: zyuUbkfNG5nWHUVIVjGCCYIs85gKcxho6vmHKXVMIWA
+    short-id: 2ad0cb03eb3fa5
+  server: us4.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
   skip-cert-verify: false
+  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
 - name: 11|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 53504
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: us63.swiftrelay.cc
+  type: anytls
   udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 11|🇺🇸 US-2 | Mix
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-2 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.206
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
   network: ws
   port: 443
-  server: 172.67.169.99
-  servername: 5-M16.PHukeT2035.Kdns.FR
+  server: 104.21.45.198
+  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
   skip-cert-verify: true
   tls: true
   type: vless
@@ -113,43 +152,15 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 5-m16.PHukeT2035.KDnS.FR
+      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  password: 8oUrvxh0mGkzTknV
+- name: 11|🇺🇸 US-8 | Mix
   port: 443
-  security: tls
-  server: 172.66.44.113
-  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  skip-cert-verify: true
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
-- name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 443
-  server: 172.67.212.195
-  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.220
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-6 | Mix
+- name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 443
   server: 172.67.139.130
@@ -163,54 +174,41 @@ proxies:
     headers:
       Host: 0-m16.chian-MAI-5.kdNS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11,15|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  server: 1340a9d6-tk7400-toh6wi-jx5r.se.oshuawei.com
-  tls:
-    enabled: true
-  type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
 - name: 11|🇺🇸 US-10 | Mix
-  network: ws
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-11 | Mix
+  port: 8090
+  server: 209.148.53.153
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-13 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-14 | Mix
   port: 443
-  server: 172.67.177.68
-  servername: 5-M16.CHIAng-MaI2032.kDns.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.chIAng-mAi2032.kDNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- client-fingerprint: firefox
-  name: 11|🇺🇸 US-11 | Mix
-  network: tcp
-  port: 47642
-  reality-opts:
-    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
-    short-id: 76ed3287
-  server: 38.246.229.58
-  servername: sega.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -274,6 +272,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

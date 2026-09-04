@@ -1,28 +1,18 @@
 proxies:
-- name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
-  port: 8443
-  security: tls
-  server: 23.236.66.91
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: trojan
-- name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  password: 8oUrvxh0mGkzTknV
-  port: 443
-  security: tls
-  server: 172.66.44.113
-  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  skip-cert-verify: true
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-2 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-13 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

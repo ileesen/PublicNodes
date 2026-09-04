@@ -15,11 +15,35 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 11|🇬🇧 GB-1 | Mix
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: tcp
   port: 443
-  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
-  tls:
-    enabled: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: d923
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91

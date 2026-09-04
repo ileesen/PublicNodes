@@ -1,4 +1,20 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
