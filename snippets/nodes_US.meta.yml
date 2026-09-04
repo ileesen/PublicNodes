@@ -98,69 +98,113 @@ proxies:
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
+  network: ws
+  port: 443
+  server: 104.21.37.55
+  servername: 6-m16.cHiaN-MAI-8.kDnS.Fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.chian-mAI-8.KdNs.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-2 | Mix
-  network: ws
   port: 443
-  server: 172.67.204.201
-  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-3 | Mix
-  network: ws
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
   port: 443
-  server: 172.67.190.103
-  servername: 6-m16.CHIANG-rai2036.KDnS.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  server: 1340a9d6-tk7400-toh6wi-jx5r.se.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
 - name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
   port: 9002
   server: 138.199.35.218
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  tls:
+    enabled: true
+  type: http
   username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: webdrone.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 8443
+  server: 104.219.236.83
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
+  network: ws
+  port: 443
+  server: 172.67.139.130
+  servername: 0-M16.cHiAN-mai-5.KDNS.fR
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-m16.chian-MAI-5.kdNS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: 104.21.91.102
+  servername: 4-M16.ayUtThaYa2031.KDNs.FR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

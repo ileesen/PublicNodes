@@ -107,7 +107,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
+- name: 10,11|🇩🇪 DE-3 | Mix
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -148,18 +148,50 @@ proxies:
   type: vless
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-4 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-    short-id: bbe46bd8f6b96839
-  server: 144.31.50.236
-  servername: yandex.ru
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: 88.216.190.205
+  servername: apiv91.jarvesitw.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-6 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: sv9.jarvesitw.ru
+  servername: apiv91.jarvesitw.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
