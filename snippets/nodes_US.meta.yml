@@ -95,76 +95,100 @@ proxies:
   udp: true
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
 - name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: 172.67.173.191
-  servername: 4-m20.e00e.ccwu.cc
+  server: 172.67.169.99
+  servername: 5-M16.PHukeT2035.Kdns.FR
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 4-m20.e00e.ccwu.cc
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+      Host: 5-m16.PHukeT2035.KDnS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|US_speednode_0133
+  network: ws
+  password: 8oUrvxh0mGkzTknV
   port: 443
-  server: fan.365747.xyz
+  security: tls
+  server: 172.66.44.113
+  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-6 | Mix
+  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
+- name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 443
-  server: 172.67.148.211
-  servername: 4-M19.sOUTh-afRIcA-cHaNNel.ccWu.Cc
+  server: 172.67.212.195
+  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
   ws-opts:
     headers:
-      Host: 4-m19.SouTh-afRiCa-ChAnneL.ccWU.CC
-    path: /CjBjB9sn5pCvaSwScc
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
+      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 172.67.139.130
+  servername: 0-M16.cHiAN-mai-5.KDNS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-m16.chian-MAI-5.kdNS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11,15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
   udp: true
 - name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 443
+  server: 1340a9d6-tk7400-toh6wi-jx5r.se.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+- name: 11|🇺🇸 US-10 | Mix
   network: ws
   port: 443
   server: 172.67.177.68
   servername: 5-M16.CHIAng-MaI2032.kDns.fR
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -173,42 +197,8 @@ proxies:
     headers:
       Host: 5-M16.chIAng-mAi2032.kDNS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-9 | Mix
-  port: 9002
-  server: 138.199.35.203
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 172.67.220.153
-  servername: 2-M16.chianG-MaI2031.kDNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - client-fingerprint: firefox
-  name: 11|🇺🇸 US-13 | Mix
+  name: 11|🇺🇸 US-11 | Mix
   network: tcp
   port: 47642
   reality-opts:
@@ -280,9 +270,10 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0134
+- name: 15|US_speednode_0133
   port: 443
-  server: voteshirleysew.club
+  server: fan.365747.xyz
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true

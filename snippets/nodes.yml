@@ -9,13 +9,20 @@ proxies:
   skip-cert-verify: true
   sni: www.apple.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
+- name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  password: 8oUrvxh0mGkzTknV
+  port: 443
+  security: tls
+  server: 172.66.44.113
+  servername: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  skip-cert-verify: true
+  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
