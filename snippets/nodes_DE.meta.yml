@@ -206,18 +206,27 @@ proxies:
   type: vless
   udp: true
   uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 141.17.83.73
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: gun
+  mode: gun
   name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
+  network: grpc
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
+    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+    short-id: 3fa234ea9feaa048
+  server: mageia.ubuntuhosting.host
+  servername: mageia.ubuntuhosting.host
+  serviceName: gun
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
