@@ -15,9 +15,97 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 11|🇬🇧 GB-1 | Mix
-  port: 8443
-  server: 5.101.149.245
-  tls:
-    enabled: true
-  type: http
+- name: 10,11|🇬🇧 GB-1 | Mix
+  network: ws
+  port: 2087
+  server: 45.95.184.120
+  type: vless
+  udp: true
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 51847
+  reality-opts:
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: 0eec442e7b34d2f2
+  server: 3.9.135.156
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+- name: 10,11|🇬🇧 GB-2 | Mix
+  network: ws
+  port: 2087
+  server: 45.95.184.90
+  type: vless
+  udp: true
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- name: 10|🇬🇧 GB-4 | 8EB
+  network: ws
+  port: 2087
+  server: 147.189.141.106
+  type: vless
+  udp: true
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- name: 10|🇬🇧 GB-5 | 8EB
+  network: ws
+  port: 2087
+  server: 147.189.141.114
+  type: vless
+  udp: true
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: d923
+  server: uk1.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
+    short-id: '20'
+  server: uk2.miyazono-kaori.com
+  servername: www.bp.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
+- client-fingerprint: chrome
+  name: 11|🇬🇧 GB-3 | Mix
+  network: tcp
+  port: 42546
+  reality-opts:
+    public-key: YYXAgMxWrqeSWpRqILvNRpjA4VFE_j9b3R0tYv0ULHI
+  server: 82.40.62.197
+  servername: amp-api-edge.apps.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea603be5-a2f6-4a4d-b97d-7c976d93ee0d

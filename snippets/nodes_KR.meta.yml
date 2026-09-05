@@ -1,7 +1,21 @@
 proxies:
 - client-fingerprint: chrome
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: grpc
+  port: 10048
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | Mix
+  name: 10|🇰🇷 KR-2 | 8EB
   network: tcp
   port: 50159
   reality-opts:
@@ -14,3 +28,76 @@ proxies:
   type: vless
   udp: true
   uuid: 23aa3d7e-039b-4c21-a8f7-0f7d1ddbbbb6
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-4 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: oBYxqt4GNTWrmvHRHM_6SAVj_yy95lXtQ0NLd1QWQDU
+    short-id: dea6d68a3f6f96e3
+  server: 129.154.192.50
+  servername: www.ibm.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48e84fcc-ecb1-48a3-a596-88fea84887f5
+- name: 11|🇰🇷 KR-1 | Mix
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 31433
+  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇰🇷 KR-2 | Mix
+  network: grpc
+  port: 10048
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇰🇷 KR-3 | Mix
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3

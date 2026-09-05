@@ -1,7 +1,14 @@
 proxies:
-- name: 11|🇫🇷 FR-1 | Mix
+- name: 10|🇫🇷 FR-1 | 8EB
+  port: 2080
+  server: 79.137.79.217
+  type: socks
+  username: Og
+- name: 10|🇫🇷 FR-2 | 8EB
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
+  udp: true
