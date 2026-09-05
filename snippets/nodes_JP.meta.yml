@@ -35,94 +35,46 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: df9232eff6
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
-    short-id: 21fa8a1ebf
-  server: jp2.miyazono-kaori.com
-  servername: www.capcom.co.jp
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
-    short-id: 912d2b581f59fb
-  server: jp3.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
-    short-id: f75fbd5b
-  server: jp4.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- name: 10|🇯🇵 JP-5 | 8EB
-  password: 9c5be37406b6584005b8de0ee3734dd9
-  port: 50160
-  server: 140.238.43.0
+- name: 10|🇯🇵 JP-1 | 8EB
+  password: 57301f03-9711-4a2d-828f-48f26ebfc15c
+  port: 51221
+  server: jp.miaolianyunapp.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: gtnnhndvssfchjfg05.com
+  type: anytls
   udp: true
-- alpn:
-  - http/1.1
-  name: 10|🇯🇵 JP-6 | 8EB
-  network: ws
-  password: MiTiVPN
-  port: 443
-  security: tls
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
+- name: 10|🇯🇵 JP-2 | 8EB
+  password: 57301f03-9711-4a2d-828f-48f26ebfc15c
+  port: 51222
+  server: jp.miaolianyunapp.com
+  skip-cert-verify: true
+  sni: gtnnhndvssfchjfg05.com
+  type: anytls
+  udp: true
+- name: 10|🇯🇵 JP-3 | 8EB
+  password: 57301f03-9711-4a2d-828f-48f26ebfc15c
+  port: 51223
+  server: jp.miaolianyunapp.com
+  skip-cert-verify: true
+  sni: gtnnhndvssfchjfg05.com
+  type: anytls
+  udp: true
+- name: 10|🇯🇵 JP-4 | 8EB
+  password: 57301f03-9711-4a2d-828f-48f26ebfc15c
+  port: 51224
+  server: jp.miaolianyunapp.com
+  skip-cert-verify: true
+  sni: gtnnhndvssfchjfg05.com
+  type: anytls
+  udp: true
+- name: 10|🇯🇵 JP-5 | 8EB
+  password: 57301f03-9711-4a2d-828f-48f26ebfc15c
+  port: 51225
+  server: jp.miaolianyunapp.com
+  skip-cert-verify: true
+  sni: gtnnhndvssfchjfg05.com
+  type: anytls
+  udp: true
 - name: 11|🇯🇵 JP-1 | Mix
   password: 'null'
   port: 443

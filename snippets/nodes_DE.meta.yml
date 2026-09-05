@@ -2,20 +2,12 @@ proxies:
 - name: 8|德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
-  server: 85.204.107.174
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '8|德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
   server: 85.204.107.178
   skip-cert-verify: true
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '8|德国 #2'
+- name: '8|德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
@@ -39,7 +31,7 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '8|德国 #3'
+- name: '8|德国 #2'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -61,16 +53,6 @@ proxies:
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
   port: 52023
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: bfmf6a05bp4fjwuh
-  port: 52022
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -104,38 +86,15 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
-    short-id: 56f276ac52
-  server: de1.miyazono-kaori.com
-  servername: www.siemens.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
+- name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  port: 2087
+  server: 163.8.195.241
   type: vless
   udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: 5a9ab320
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
 - name: 11|🇩🇪 DE-3 | Mix
   port: 443
   server: fan.973511.xyz
