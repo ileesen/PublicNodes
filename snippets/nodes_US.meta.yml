@@ -17,22 +17,6 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 8|US
-  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-  port: 443
-  server: ush2.shazamri.xyz
-  skip-cert-verify: true
-  sni: ush2.shazamri.xyz
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-1 | 8EB
@@ -100,8 +84,8 @@ proxies:
 - name: 11|🇺🇸 US-1 | Mix
   network: ws
   port: 443
-  server: 104.21.37.55
-  servername: 6-m16.cHiaN-MAI-8.kDnS.Fr
+  server: 104.21.27.112
+  servername: 8-M16.PatTAya-8.kdnS.fR
   skip-cert-verify: true
   tls: true
   type: vless
@@ -109,93 +93,70 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 6-M16.chian-mAI-8.KdNs.fR
+      Host: 8-m16.paTtAya-8.kdns.FR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-2 | Mix
+  network: ws
   port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
+  server: 172.67.156.222
+  servername: 5-m16.CHiAn-Mai-6.KDNS.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.CHian-MAi-6.KDnS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 11|🇺🇸 US-3 | Mix
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  server: 1340a9d6-tk7400-toh6wi-jx5r.se.oshuawei.com
+  port: 9002
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
 - name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.200
+  port: 8090
+  server: 209.148.53.153
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-9 | Mix
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-10 | Mix
-  port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-11 | Mix
-  port: 8443
-  server: 104.219.236.83
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
-  server: 172.67.139.130
-  servername: 0-M16.cHiAN-mai-5.KDNS.fR
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-m16.chian-MAI-5.kdNS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  port: 443
-  server: 104.21.91.102
-  servername: 4-M16.ayUtThaYa2031.KDNs.FR
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
   skip-cert-verify: true
   tls: true
   type: vless
@@ -203,7 +164,21 @@ proxies:
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 443
+  server: 172.67.190.103
+  servername: 9-M16.ChiaNG-RAI2036.KDNS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国2|@ripaojiedian

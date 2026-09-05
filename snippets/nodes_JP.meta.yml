@@ -131,20 +131,20 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: firefox
+- cipher: aes-256-cfb
   name: 11|🇯🇵 JP-2 | Mix
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
-    short-id: 3fa234ea9feaa048
-  server: 140.99.243.19
-  servername: jp03.glaveda.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
   udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+- name: 11|🇯🇵 JP-3 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

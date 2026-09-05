@@ -47,18 +47,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '9|Channel : @Daily_Configs'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 4savc5ig1n3549e4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|@Daily_Configs
   password: 4savc5ig1n3549e4
   port: 52023
@@ -68,7 +56,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -90,7 +78,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇩🇪 @VConfing #2'
+  name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -107,7 +95,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10,11|🇩🇪 DE-3 | Mix
+- name: 10|🇩🇪 DE-1 | 8EB
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -148,26 +136,17 @@ proxies:
   type: vless
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
-  network: tcp
+- name: 11|🇩🇪 DE-3 | Mix
   port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
 - alpn:
   - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-5 | Mix
+  name: 11|🇩🇪 DE-4 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -182,7 +161,7 @@ proxies:
   uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-6 | Mix
+  name: 11|🇩🇪 DE-5 | Mix
   network: tcp
   port: 443
   reality-opts:

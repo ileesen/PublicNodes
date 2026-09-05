@@ -89,36 +89,6 @@ proxies:
   type: vless
   udp: true
   uuid: 688c3928-eb3f-4e86-9e3a-6ada84e39b91
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-sg01.ziyoufly.xyz
-  servername: d1.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  port: 443
-  server: cfyes.ziyoufly.xyz
-  servername: cf-uh-sg01-2.23523463.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ceb8461-18ed-413e-958e-645c9fbf2abe
-  ws-opts:
-    headers:
-      Host: cf-uh-sg01-2.23523463.xyz
-    path: /ziyou
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
