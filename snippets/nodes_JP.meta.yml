@@ -110,12 +110,21 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-2 | Mix
+  network: tcp
+  port: 25892
+  reality-opts:
+    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
+    short-id: 9b0f012413fd
+  server: 52.68.64.80
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31d84170-673e-4653-afaf-0656656be6dc
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

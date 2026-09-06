@@ -83,17 +83,11 @@ proxies:
   server: 123.58.219.171
   type: socks
   username: Og
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 443
-  server: hk40.240104.xyz
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
   mode: gun
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   network: grpc
   port: 10136
   reality-opts:
