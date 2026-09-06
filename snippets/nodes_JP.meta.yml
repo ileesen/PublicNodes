@@ -26,7 +26,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Japan-Tokyo
+  name: 9|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -36,19 +36,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: 11|🇯🇵 JP-1 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
-- name: 11|🇯🇵 JP-2 | Mix
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 10808
-  server: 101.36.104.46
-  type: socks
+  username: bnVsbDpudWxs
+- name: 11|🇯🇵 JP-2 | Mix
+  obfs: salamander
+  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
+  password: 07a4fcf5553a80cf300374d325386038
+  port: 443
+  server: 141.147.151.58
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

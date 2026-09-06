@@ -254,13 +254,15 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '8|未命名 #8'
+- name: 8,11|🇪🇪 EE-1 | Mix
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: news.gazette.help
+  skip-cert-verify: true
   sni: news.gazette.help
   tls: false
   type: hysteria2
+  udp: true
 - name: '8|芬兰 #2'
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -340,16 +342,6 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 6mk75ho4jzef3uuj
-  port: 52022
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 9|ConfigV2RayNG
@@ -357,16 +349,6 @@ proxies:
   obfs-password: fuw2k1ddrouwxr3u
   password: 6mk75ho4jzef3uuj
   port: 52026
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇷@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 6mk75ho4jzef3uuj
-  port: 52030
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -493,14 +475,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 9|️97@oneclickvpnkeys
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.174
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -526,7 +500,7 @@ proxies:
   sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
-- name: '9|✅  @vistav2ray  👈👈کانال ما ✅ #2'
+- name: 9|@filembad
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -604,6 +578,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 9|🇱164021 | ⚡️Telegram = t.me/SO...
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
+  server: admin.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
 - name: '9|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -674,16 +656,6 @@ proxies:
   server: 2.27.249.79
   skip-cert-verify: false
   sni: nl1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: 9|5☺️@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: true
-  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
 - name: '9|@v2ray313 کانالمون  #2'
@@ -829,12 +801,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|☺️84@oneclickvpnkeys
-  password: kVfzhSpshc
-  port: 443
-  server: hys1.wba-pn.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -850,7 +816,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Japan-Tokyo
+  name: 9|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -939,7 +905,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|️16@oneclickvpnkeys
+- name: 9|⭐️16@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.141
@@ -957,7 +923,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇫🇮163835 | ⚡️Telegram = t.me/S...
+  name: 9|dc-udp-🇦🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -981,24 +947,59 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪1@JKVPN
+  name: '9|-🇩🇪 @VConfing #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52021
   server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇮163937 | ⚡️Telegram = t.me/SO...
+  name: 9|🇪2@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52026
   server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|@GozargahAzad|🇫🇮
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52029
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: ''
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮164110 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52029
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1026,6 +1027,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🇪@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52041
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -1038,7 +1049,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮163837 | ⚡️Telegram = t.me/S...
+- name: 9|Telegram 🆔@cnetvpn 🇱
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1087,7 +1098,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇫🇮163834 | ⚡️Telegram = t.me/S...
+  name: 9|dc-udp-🇬 Singapore-Singapore
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1099,7 +1110,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇷6@JKVPN
+  name: 9|🇹🇷6@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1108,10 +1119,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🇹🇷@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52067
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇫🇮163833 | ⚡️Telegram = t.me/S...
+  name: 9|dc-udp- Ukraine-Kyiv
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1146,6 +1167,30 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  name: 9|🇫🇮164068 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52086
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮164069 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52087
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   fingerprint: chrome
   name: 9|🇸9@JKVPN
   obfs: salamander
@@ -1165,7 +1210,7 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 9|@ConfigV2RayNG
+- name: '9|@FarazV2ray #1'
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -1175,7 +1220,7 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: 9|🇷🇺163909 | ⚡️Telegram = t.me/S...
+- name: 9|⭐️84@oneclickvpnkeys
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: 144.31.93.173
@@ -1241,7 +1286,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
+- name: 10,11|🇩🇪 DE-1 | Mix
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -1368,8 +1413,9 @@ proxies:
     headers:
       Host: www.zyjdwz.cc.cd
     path: /
-- flow: xtls-rprx-vision
-  name: 10|🇲🇩 MD-1 | 8EB
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10,11|🇲🇩 MD-1 | Mix
   network: tcp
   port: 9443
   reality-opts:
@@ -1520,7 +1566,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇩🇪 DE-6 | 8EB
+- name: 10,11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -1544,103 +1590,78 @@ proxies:
     headers:
       Host: ap-south.xhs152.shop
     path: /announcement
-- name: 11|🇺🇸 US-1 | Mix
-  network: ws
-  port: 443
-  server: 172.67.204.201
-  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 209.148.53.153
+- name: 11|🇮🇩 ID-1 | Mix
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
+  username: freeuser1
+- name: 11|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.203
   tls:
     enabled: true
   type: http
 - name: 11|🇯🇵 JP-1 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.23
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 62145
-  server: 152.70.56.139
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 11|🇯🇵 JP-2 | Mix
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
+  username: bnVsbDpudWxs
+- name: 11|🇳🇱 NL-1 | Mix
+  network: ws
+  port: 2087
+  server: 178.95.170.83
+  type: vless
+  udp: true
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    headers:
+      Host: Telegram-Leviko_v2ray
+    path: /4bc027a44532
+- name: 11,15|RO_speednode_0082
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-2 | Mix
   port: 9002
   server: 138.199.35.205
   tls:
     enabled: true
   type: http
-- cipher: aes-256-cfb
-  name: 11|🇹🇭 TH-1 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: 172.67.221.200
-  servername: 5-M16.cHIAn-mAI-9.kDNS.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 5-M16.chiaN-Mai-9.KdnS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇷🇴 RO-3 | Mix
+- name: 11|🇳🇱 NL-2 | Mix
+  password: 'null'
   port: 9002
-  server: 193.176.84.34
+  server: 84.17.47.146
   tls:
     enabled: true
   type: http
-- name: 11|🇮🇹 IT-1 | Mix
-  port: 443
-  server: 178.237.4.200
+  username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
@@ -1651,109 +1672,84 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 11|🇷🇴 RO-5 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-2 | Mix
-  network: grpc
-  port: 9894
+- flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  server: 188.68.216.203
-  servername: dl.google.com
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 443
-  server: 52.55.81.168
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11,15|NL_speednode_0009
+- name: 11|🇳🇱 NL-3 | Mix
+  network: tcp
+  port: 62145
+  server: 144.21.34.170
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 11,15|RO_speednode_0124
   port: 9002
-  server: 84.17.47.146
+  server: 193.176.84.32
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇵🇱 PL-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.kolhoz.fuck-rkn.xyz
-  servername: jobinvest.ru
-  skip-cert-verify: false
+- name: 11,15|RO_speednode_0041
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- name: 11|🇯🇵 JP-2 | Mix
+  obfs: salamander
+  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
+  password: 07a4fcf5553a80cf300374d325386038
+  port: 443
+  server: 141.147.151.58
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-1 | Mix
-  password: e4b72b531a2d10900519
   port: 443
-  server: 167.172.172.190
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
-  username: testuser1
-- name: 11|🇺🇸 US-9 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
-- name: 11|🇳🇱 NL-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.147
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 10808
-  server: 101.36.104.46
-  type: socks
-- name: 11|🇱🇻 LV-1 | Mix
-  port: 443
-  server: 109.248.147.66
-  tls:
-    enabled: true
-  type: http
-- grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇭🇰 HK-1 | Mix
-  network: grpc
-  port: 10136
+- flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-9 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 40444
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
+    public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+    short-id: b3f2a1c9
+  server: 5.253.38.67
+  servername: www.lovelive-anime.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  uuid: 996ae979-ec8b-4f0f-900c-3cbbe8010138
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1894,6 +1890,13 @@ proxies:
   password: None
   port: 9002
   server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|NL_speednode_0009
+  port: 9002
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
@@ -2117,13 +2120,6 @@ proxies:
 - name: 15|RO_speednode_0040
   port: 9002
   server: 84.239.49.185
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0041
-  port: 9002
-  server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
@@ -2413,13 +2409,6 @@ proxies:
 - name: 15|RO_speednode_0081
   port: 9002
   server: 84.239.49.238
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
@@ -2724,13 +2713,6 @@ proxies:
   password: None
   port: 9002
   server: 84.239.49.182
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0124
-  port: 9002
-  server: 193.176.84.32
   skip-cert-verify: true
   tls: true
   type: http

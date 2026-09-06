@@ -46,16 +46,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 6mk75ho4jzef3uuj
-  port: 52022
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 9|-🇩🇪 @VConfing
@@ -100,16 +90,27 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪1@JKVPN
+  name: '9|-🇩🇪 @VConfing #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52021
   server: giftcard.gateway-stream.com
+  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
+- name: 9|🇩🇪@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 10,11|🇩🇪 DE-1 | Mix
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -148,7 +149,7 @@ proxies:
     headers:
       Host: eu-central.xhs152.shop
     path: /announcement
-- name: 10|🇩🇪 DE-6 | 8EB
+- name: 10,11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -157,11 +158,18 @@ proxies:
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
-- name: 11|🇩🇪 DE-1 | Mix
-  password: e4b72b531a2d10900519
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
   port: 443
-  server: 167.172.172.190
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
