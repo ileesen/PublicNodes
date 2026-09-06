@@ -39,6 +39,13 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- name: 9|🇩🇪All⁴ | @BigSmoke_Config
+  password: 4savc5ig1n3549e4
+  port: 52023
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 9|🇩🇪@AZARBAYJAB1
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -71,7 +78,7 @@ proxies:
   sni: de.vpnjey.store
   tls: false
   type: hysteria2
-- name: 9|@Daily_Configs
+- name: 9|🇩🇪All | @BigSmoke_Config
   password: fmaznn1lrzys7ddy
   port: 52050
   server: giftcard.gateway-stream.com
@@ -90,6 +97,18 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇩🇪1@JKVPN
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52021
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 10|🇩🇪 DE-1 | 8EB
   network: ws
   port: 2087
@@ -99,138 +118,50 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 8443
-  server: 167.99.131.218
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-11 | 8EB
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-2 | 8EB
   network: ws
   port: 443
-  server: 172.236.220.250
-  servername: youxuan.xiaosa.kdns.fr
+  server: www.visa.com.hk
+  servername: eu-central.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
   ws-opts:
     headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-12 | 8EB
+      Host: eu-central.xhs152.shop
+    path: /announcement
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-3 | 8EB
   network: ws
   port: 443
-  server: 138.197.188.233
-  servername: youxuan.xiaosa.kdns.fr
+  server: ct.877774.xyz
+  servername: eu-central.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
   ws-opts:
     headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-13 | 8EB
-  network: ws
-  port: 443
-  server: 164.90.183.67
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-14 | 8EB
+      Host: eu-central.xhs152.shop
+    path: /announcement
+- name: 10|🇩🇪 DE-6 | 8EB
   network: ws
   port: 2087
-  server: 161.35.64.81
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
+  server: 163.8.195.241
   type: vless
   udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-15 | 8EB
-  network: ws
+    path: /29c8fed7ca22
+- name: 11|🇩🇪 DE-1 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: 185.207.133.161
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-16 | 8EB
-  network: ws
-  port: 443
-  server: 159.195.151.156
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-17 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: 5a9ab320
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1

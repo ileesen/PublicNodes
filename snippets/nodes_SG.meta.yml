@@ -15,66 +15,33 @@ proxies:
   sni: sg1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-2 | 8EB
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇫🇮163834 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52063
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-1 | 8EB
   network: ws
   port: 443
-  server: 139.59.127.117
-  servername: youxuan.xiaosa.kdns.fr
+  server: www.visa.com.hk
+  servername: ap-south.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
   ws-opts:
     headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  port: 443
-  server: 167.71.195.238
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  port: 26017
-  reality-opts:
-    public-key: cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA
-    short-id: af1c2e33b0c7dad7
-  server: 54.251.224.5
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d318cdac-0033-4b6e-98bf-35116e79c93f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-7 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
-    short-id: 5f2ca3da385c
-  server: sg2.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
+      Host: ap-south.xhs152.shop
+    path: /announcement
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

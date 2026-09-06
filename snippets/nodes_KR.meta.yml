@@ -1,59 +1,16 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: 10|🇰🇷 KR-1 | 8EB
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
+  network: ws
+  port: 443
+  server: 43.131.225.115
+  servername: www.zyjdwz.cc.cd
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: k8nAYo1-IaxhdMI4CLPK0BcjD7TiFoBCwpB0CqUSHg0
-    short-id: effd22907e2bf94f
-  server: 168.110.121.199
-  servername: www.ibm.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23aa3d7e-039b-4c21-a8f7-0f7d1ddbbbb6
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-3 | 8EB
-  network: grpc
-  port: 10046
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr1-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-4 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oBYxqt4GNTWrmvHRHM_6SAVj_yy95lXtQ0NLd1QWQDU
-    short-id: dea6d68a3f6f96e3
-  server: 129.154.192.50
-  servername: www.ibm.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48e84fcc-ecb1-48a3-a596-88fea84887f5
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  ws-opts:
+    headers:
+      Host: www.zyjdwz.cc.cd
+    path: /

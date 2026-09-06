@@ -35,88 +35,10 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇯🇵 JP-1 | 8EB
-  password: 9c5be37406b6584005b8de0ee3734dd9
-  port: 50160
-  server: 140.238.43.0
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: grpc
-  port: 40000
-  reality-opts:
-    public-key: bIgrybTEILwGmrQS956HzrdYjqzeUGK972q8Zevqrh8
-    short-id: e80d3a89
-  server: jp05.333210.best
-  servername: www.walmart.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e10af88b-44fb-444d-949a-5f3aa7fec457
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 56449
-  reality-opts:
-    public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
-    short-id: 25a9435577670327
-  server: 52.194.211.43
-  servername: www.intel.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 443
-  server: 66.245.219.95
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: df9232eff6
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-1 | Mix
-  network: tcp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-jp01.ziyoufly.xyz
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 832436b0-98c5-4822-8d9a-ee10bc840f82
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
 - name: 11|🇯🇵 JP-2 | Mix
   port: 443
   server: fan.571589.xyz
@@ -124,23 +46,9 @@ proxies:
     enabled: true
   type: http
 - name: 11|🇯🇵 JP-3 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-4 | Mix
-  obfs: salamander
-  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
-  password: 07a4fcf5553a80cf300374d325386038
-  port: 443
-  server: 141.147.151.58
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
+  port: 10808
+  server: 101.36.104.46
+  type: socks
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
