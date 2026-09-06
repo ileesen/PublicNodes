@@ -102,7 +102,28 @@ proxies:
   type: vless
   udp: true
   uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 55555
+  reality-opts:
+    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
+    short-id: af317506
+  server: uh-jp01.ziyoufly.xyz
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 832436b0-98c5-4822-8d9a-ee10bc840f82
+- name: 11|🇯🇵 JP-2 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-3 | Mix
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -110,21 +131,16 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-2 | Mix
-  network: tcp
-  port: 25892
-  reality-opts:
-    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
-    short-id: 9b0f012413fd
-  server: 52.68.64.80
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 11|🇯🇵 JP-4 | Mix
+  obfs: salamander
+  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
+  password: 07a4fcf5553a80cf300374d325386038
+  port: 443
+  server: 141.147.151.58
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-  uuid: 31d84170-673e-4653-afaf-0656656be6dc
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
