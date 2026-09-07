@@ -58,16 +58,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪ConfigV2RayNG
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: Telegram@vpnjey
-  port: 37009
-  server: 31.76.27.23
-  skip-cert-verify: false
-  sni: de.vpnjey.store
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config
   password: fmaznn1lrzys7ddy
   port: 52050
@@ -110,7 +100,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10,11|🇩🇪 DE-1 | Mix
+- name: 10|🇩🇪 DE-1 | 8EB
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -149,7 +139,7 @@ proxies:
     headers:
       Host: eu-central.xhs152.shop
     path: /announcement
-- name: 10,11|🇩🇪 DE-2 | Mix
+- name: 10,11|🇩🇪 DE-3 | Mix
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -158,9 +148,24 @@ proxies:
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: 9e4eced6e98ed4d4
+  server: 31.76.119.117
+  servername: de.orpheous.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55ed97fc-77d1-4802-baf3-acef70776331
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -173,3 +178,11 @@ proxies:
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: 11|🇩🇪 DE-4 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
