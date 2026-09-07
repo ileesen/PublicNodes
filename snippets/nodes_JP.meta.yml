@@ -36,7 +36,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp- Japan-Tokyo
+  name: 9|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -45,6 +45,94 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 2053
+  server: 172.237.5.208
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.170.8.95
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+    short-id: 2edcfbb7
+  server: pq.aws56.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 791b8875-db30-461f-9693-9ecce3da1001
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    short-id: f3b38af2
+  server: pq.aws52.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 791b8875-db30-461f-9693-9ecce3da1001
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE
+    short-id: 6a1faecb
+  server: pq.aws48.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 791b8875-db30-461f-9693-9ecce3da1001
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

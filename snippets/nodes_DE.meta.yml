@@ -31,6 +31,17 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
+- name: 8,10|🇩🇪 DE-12 | 8EB
+  obfs: salamander
+  obfs-password: f832485b7363626ee836f58576aad25f
+  password: f0098427ecce06a25089f5c18f4ac666
+  port: 443
+  server: 92.5.43.121
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+  udp: true
 - name: '8|德国 #2'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
@@ -39,15 +50,10 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇩🇪 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
+- name: 9|🇩🇪All⁴ | @BigSmoke_Config
+  password: 4savc5ig1n3549e4
   port: 52023
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -60,7 +66,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: nqlool6l2dnfg45q
@@ -73,7 +79,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|-🇩🇪 @VConfing #2'
+  name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -86,53 +92,14 @@ proxies:
 - name: 9|🇩🇪@AZARBAYJAB1
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
+  password: vz86jgszv4zszchv
   port: 52021
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 2087
-  server: 188.220.67.245
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: eu-central.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
-  ws-opts:
-    headers:
-      Host: eu-central.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: eu-central.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
-  ws-opts:
-    headers:
-      Host: eu-central.xhs152.shop
-    path: /announcement
-- name: 10,11|🇩🇪 DE-3 | Mix
+- name: 10|🇩🇪 DE-3 | 8EB
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -141,37 +108,169 @@ proxies:
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
+- name: 10|🇩🇪 DE-4 | 8EB
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: 9e4eced6e98ed4d4
-  server: 31.76.119.117
-  servername: de.orpheous.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: gta.internet-card.sbs
+  sni: gta.internet-card.sbs
+  type: hysteria2
   udp: true
-  uuid: 55ed97fc-77d1-4802-baf3-acef70776331
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
+  server: 38.180.100.80
+  servername: sni.868001.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 11|🇩🇪 DE-4 | Mix
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  password: MiTiVPN
+  port: 443
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: '>-'
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  port: 443
+  server: 79.137.206.195
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: ws
+  port: 443
+  server: 91.184.250.202
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-9 | 8EB
+  network: ws
+  port: 2083
+  server: 64.226.95.244
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-10 | 8EB
+  network: ws
+  port: 443
+  server: 85.137.167.21
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-11 | 8EB
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: eu-central.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 367d010d-e93f-46ba-a0c7-46d13ef4e9cd
+  ws-opts:
+    headers:
+      Host: eu-central.xhs152.shop
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-14 | 8EB
+  network: ws
+  port: 443
+  server: 45.80.230.2
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-15 | 8EB
+  network: ws
+  port: 2053
+  server: 82.117.245.170
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- client-fingerprint: chrome
+  name: 10,11|🇩🇪 DE-1 | Mix
+  network: ws
+  port: 443
+  server: 162.19.247.245
+  servername: sni.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  ws-opts:
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 443
+  server: 141.17.83.73
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-3 | Mix
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
