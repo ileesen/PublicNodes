@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: edge
+  name: 11|🇷🇺 RU-1 | Mix
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket

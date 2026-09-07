@@ -30,18 +30,43 @@ proxies:
     headers:
       Host: sni.868001.xyz
     path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 11|🇬🇧 GB-1 | Mix
-  network: raw
+  network: tcp
   port: 443
   reality-opts:
-    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
-    short-id: a9c4f17e3b62d8
-  server: 176.109.88.216
-  servername: api-maps.yandex.ru
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
+  servername: localhost
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 11|🇬🇧 GB-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.62
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇬🇧 GB-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: brightharbor.download
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
