@@ -11,59 +11,21 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  port: 8443
-  server: 143.198.87.50
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
 - client-fingerprint: random
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 443
-  server: ct.877774.xyz
+  server: www.visa.com.hk
   servername: ap-south.xhs152.shop
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 367d010d-e93f-46ba-a0c7-46d13ef4e9cd
+  uuid: 7b1897ec-afb5-425c-afbf-d79634b6b317
   ws-opts:
     headers:
       Host: ap-south.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  port: 8443
-  server: 5.223.93.126
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- name: 11|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+    path: /announcement
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

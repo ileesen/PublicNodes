@@ -1,16 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇷3@JKVPN
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52030
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|🇫🇷@AZARBAYJAB1
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -21,93 +9,9 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
+- name: 11|🇫🇷 FR-1 | Mix
   port: 443
-  server: 46.8.225.191
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  port: 2053
-  server: 31.59.121.156
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  port: 2053
-  server: 31.58.76.27
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-4 | 8EB
-  network: ws
-  port: 2053
-  server: 31.57.108.170
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-5 | 8EB
-  network: ws
-  port: 2053
-  server: 95.182.116.192
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-6 | 8EB
-  network: ws
-  port: 2053
-  server: 217.60.39.139
-  servername: sni.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
