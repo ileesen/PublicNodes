@@ -15,6 +15,14 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 9|53@oneclickvpnkeys
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: labs.frkn.org
+  skip-cert-verify: true
+  sni: labs.frkn.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 10|🇬🇧 GB-1 | 8EB
   network: ws
@@ -31,20 +39,7 @@ proxies:
       Host: sni.868001.xyz
     path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
 - client-fingerprint: chrome
-  name: 11|🇬🇧 GB-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 11|🇬🇧 GB-3 | Mix
+  name: 11|🇬🇧 GB-1 | Mix
   network: tcp
   port: 443
   reality-opts:

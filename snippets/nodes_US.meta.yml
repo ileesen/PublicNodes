@@ -137,16 +137,6 @@ proxies:
     headers:
       Host: cfvvv-ev1.pages.dev
     path: /
-- name: 10|🇺🇸 US-11 | 8EB
-  obfs: salamander
-  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
-  password: 975e9f98b4a1b01285ffdb8158ced798
-  port: 443
-  server: 107.172.76.105
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - name: 10|🇺🇸 US-12 | 8EB
   password: 791b8875-db30-461f-9693-9ecce3da1001
   port: 443
@@ -154,70 +144,83 @@ proxies:
   skip-cert-verify: true
   type: hysteria2
   udp: true
-- name: 11,15|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-2 | Mix
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-3 | Mix
+- name: 11|🇺🇸 US-1 | Mix
   port: 9002
   server: 138.199.35.200
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  server: 172.67.190.103
+  servername: 9-m16.chiAng-rAI2036.kDNS.Fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
+  username: Ok5vbmU=
 - name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.199
+  port: 443
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-7 | Mix
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: efr-marktplatz.club
+  port: 9002
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
-- name: 11,15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: zebpay.site
+  tls:
+    enabled: true
   type: http
-  udp: true
-  username: 'null'
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -253,6 +256,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
@@ -272,6 +284,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

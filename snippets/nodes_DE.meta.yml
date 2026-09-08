@@ -42,13 +42,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All⁴ | @BigSmoke_Config
-  password: 4savc5ig1n3549e4
-  port: 52023
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config
   password: fmaznn1lrzys7ddy
   port: 52050
@@ -250,28 +243,25 @@ proxies:
       Host: sni.868001.xyz
     path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
 - name: 11|🇩🇪 DE-1 | Mix
+  password: 'null'
   port: 443
-  server: 149.36.50.157
+  server: fan.973511.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 2087
-  server: 188.220.67.245
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: 1067b23f928e7618
+  server: 200.165.229.159
+  servername: flarora.ferreo.sbs
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
-- name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  type: vless
-  udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    headers:
-      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
-    path: /29c8fed7ca22
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4

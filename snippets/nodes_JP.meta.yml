@@ -38,7 +38,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-4 | Mix
+  name: 10,11|🇬🇧 GB-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -125,8 +125,12 @@ proxies:
   type: vless
   udp: true
   uuid: 791b8875-db30-461f-9693-9ecce3da1001
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
 - client-fingerprint: chrome
-  name: 11|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -138,27 +142,19 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
   name: 11|🇯🇵 JP-3 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- name: 11|🇯🇵 JP-4 | Mix
-  password: 'null'
+  network: tcp
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
