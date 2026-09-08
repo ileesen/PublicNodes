@@ -2,14 +2,6 @@ proxies:
 - name: 8|德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '8|德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
   server: 85.204.107.181
   sni: hopp-romania-new.roxa.org
   tls: false
@@ -42,7 +34,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: '8|德国 #2'
+- name: '8|德国 #1'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -108,13 +100,6 @@ proxies:
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
-- name: 10|🇩🇪 DE-4 | 8EB
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: gta.internet-card.sbs
-  sni: gta.internet-card.sbs
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   name: 10|🇩🇪 DE-5 | 8EB
   network: ws
