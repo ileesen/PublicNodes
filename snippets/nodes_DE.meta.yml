@@ -41,25 +41,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All | @BigSmoke_Config
-  password: fmaznn1lrzys7ddy
-  port: 52050
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇩🇪 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: nqlool6l2dnfg45q
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -73,7 +54,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -93,18 +74,71 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
-    short-id: 1067b23f928e7618
-  server: 200.165.229.159
-  servername: flarora.ferreo.sbs
+    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
+    short-id: 56f276ac52
+  server: de1.miyazono-kaori.com
+  servername: www.siemens.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: 5a9ab320
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+    short-id: 69cc4c0d5e
+  server: nl2.miyazono-kaori.com
+  servername: www.philips.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: eu-central.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+  ws-opts:
+    headers:
+      Host: eu-central.xhs152.shop
+    path: /announcement?ed=2048
+- name: 11|🇩🇪 DE-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1

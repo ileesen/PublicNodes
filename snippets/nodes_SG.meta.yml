@@ -1,4 +1,34 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+    short-id: 37c94ae25b69a93a
+  server: sg1.miyazono-kaori.com
+  servername: sg-hyp-api.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
+    short-id: 5f2ca3da385c
+  server: sg2.miyazono-kaori.com
+  servername: sg-hyp-api.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

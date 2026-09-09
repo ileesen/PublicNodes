@@ -21,19 +21,23 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇺🇸 US-1 | 8EB
-  obfs: salamander
-  obfs-password: 8c076142c9f5eaf115ec1522aa5bbade
-  password: 9da1fe49d6d788e865cb40113d2a4b9c
-  port: 443
-  server: 146.71.85.6
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10,11|🇯🇵 JP-1 | Mix
   network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
+  servername: localhost
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 10,11|🇬🇧 GB-2 | Mix
+  network: tcp
+  packetEncoding: none
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -44,31 +48,9 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 2082
-  server: 172.64.32.108
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 2052
-  server: 162.159.38.127
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - client-fingerprint: unsafe
   fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["5","94","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["109","1"],"delays":["1"],"maxSplit":"355"}}]}'
-  name: 10|🇺🇸 US-5 | 8EB
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
   port: 443
   server: 172.67.217.240
@@ -82,191 +64,119 @@ proxies:
     headers:
       Host: web-socket.tgdaosheng.ggff.net
     path: /proxyip=bpb.yousef.isegaro.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: w5egR8fKNXrEJns2AfwStSzRQ9yHY_invtW7tnqm8Dk
+    short-id: 297842ea18bf
+  server: us2.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
 - name: 10|🇺🇸 US-6 | 8EB
   network: ws
-  port: 8880
-  server: 172.64.32.108
+  port: 2087
+  server: 178.95.170.115
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
   ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 2086
-  server: 162.159.38.127
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 2086
-  server: 172.64.32.108
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-9 | 8EB
+    path: /4bc027a44532
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
-  server: 172.67.190.103
-  servername: 6-m16.CHIANG-rai2036.KDnS.fR
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-us01-2.23523463.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
   ws-opts:
     headers:
-      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 443
-  server: 172.67.190.103
-  servername: 9-M16.ChiaNG-RAI2036.KDNS.fR
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      Host: cf-uh-us01-2.23523463.xyz
+    path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
-  password: e4b72b531a2d10900519
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
   port: 443
-  server: 162.243.146.243
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.195
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-4 | Mix
+  network: tcp
   port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 8443
-  server: 104.219.236.83
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-12 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- client-fingerprint: random
-  name: 11|🇺🇸 US-13 | Mix
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement
-- name: 11|🇺🇸 US-14 | Mix
-  password: 'null'
-  port: 443
-  server: fan.596189.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  ed: '2560'
-  name: 11|🇺🇸 US-15 | Mix
-  network: ws
-  port: 2087
-  server: 104.19.214.97
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  reality-opts:
+    public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
+    short-id: 9c904d85ab262d50
+  server: 38.244.20.152
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
+  uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: 52.55.81.168
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -326,6 +236,13 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club
@@ -411,13 +328,6 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 15|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true
