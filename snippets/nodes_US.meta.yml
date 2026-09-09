@@ -9,6 +9,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇺🇸9@JKVPN
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52088
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 10|🇺🇸 US-1 | 8EB
   obfs: salamander
   obfs-password: 8c076142c9f5eaf115ec1522aa5bbade
@@ -20,7 +32,7 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-2 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -103,12 +115,12 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: 10,11|🇺🇸 US-1 | Mix
+- name: 10|🇺🇸 US-9 | 8EB
   network: ws
   port: 443
   server: 172.67.190.103
   servername: 6-m16.CHIANG-rai2036.KDnS.fR
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -131,66 +143,48 @@ proxies:
     headers:
       Host: 9-m16.chiAng-rAI2036.kDNS.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
 - name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
-- name: 11|🇺🇸 US-5 | Mix
-  password: None
   port: 9002
   server: 138.199.35.197
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.196
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: purposebydesig.club
   tls:
     enabled: true
   type: http
-  username: 'null'
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   port: 443
   server: purecambogiasl.live
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-10 | Mix
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
   password: None
   port: 9002
   server: 138.199.35.202
@@ -198,14 +192,81 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
+- name: 11|🇺🇸 US-8 | Mix
+  port: 8443
+  server: 104.219.236.83
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-12 | Mix
+  port: 443
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- client-fingerprint: random
+  name: 11|🇺🇸 US-13 | Mix
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement
+- name: 11|🇺🇸 US-14 | Mix
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
+  port: 2087
+  server: 104.19.214.97
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -265,13 +326,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club
