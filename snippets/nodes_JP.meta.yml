@@ -38,7 +38,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-3 | Mix
+  name: 10,11|🇬🇧 GB-4 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -51,27 +51,13 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
-    short-id: dfde4e821472fb98
-  server: 103.137.215.32
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
-- name: 11|🇯🇵 JP-3 | Mix
+- name: 11|🇯🇵 JP-1 | Mix
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
+  username: bnVsbDpudWxs
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

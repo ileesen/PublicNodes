@@ -22,8 +22,9 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇯🇵 JP-1 | Mix
+  name: 10,11|🇬🇧 GB-2 | Mix
   network: tcp
+  packetEncoding: none
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -35,7 +36,7 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-2 | Mix
+  name: 10,11|🇬🇧 GB-1 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -104,75 +105,66 @@ proxies:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-  password: 5fa748137b6d822308eea4611f474ad5
   port: 443
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
+  server: jewelscollecti.icu
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
 - name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-4 | Mix
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
-    short-id: 9c904d85ab262d50
-  server: 38.244.20.152
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
+  port: 52683
+  server: jp.sofast.live
   type: vless
   udp: true
-  uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 11|🇺🇸 US-3 | Mix
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: jgwynphotoarts.pro
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 443
+  server: crosscards.site
   tls:
     enabled: true
   type: http
@@ -328,6 +320,13 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
