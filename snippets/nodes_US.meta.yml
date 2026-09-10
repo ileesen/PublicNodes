@@ -22,7 +22,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-2 | Mix
+  name: 10,11|🇬🇧 GB-3 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -36,7 +36,7 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-1 | Mix
+  name: 10,11|🇬🇧 GB-2 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -105,66 +105,76 @@ proxies:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
+  password: None
   port: 443
-  server: jewelscollecti.icu
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
 - name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.209
+  port: 443
+  server: purposebydesig.club
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.202
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
   password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-7 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
   port: 443
-  server: jgwynphotoarts.pro
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
+  username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: 11|🇺🇸 US-10 | Mix
   password: None
   port: 443
-  server: crosscards.site
+  server: zebpay.site
   tls:
     enabled: true
   type: http

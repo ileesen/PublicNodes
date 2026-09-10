@@ -38,7 +38,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-4 | Mix
+  name: 10,11|🇬🇧 GB-5 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -57,7 +57,10 @@ proxies:
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
+- name: 11|🇯🇵 JP-2 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
