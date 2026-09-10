@@ -15,37 +15,3 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-1 | Mix
-  network: tcp
-  port: 30521
-  reality-opts:
-    public-key: TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8
-  server: 45.152.65.157
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6752712-f10c-4c8c-8308-d80b70a2b87a
-- name: 11|🇬🇧 GB-2 | Mix
-  port: 443
-  server: 212.102.63.61
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-3 | Mix
-  network: tcp
-  port: 11763
-  reality-opts:
-    public-key: V3mjjvp5OFn8TNw7WK0RR2p7l9sVX2v7Zr56ag3QkiQ
-  server: 45.152.64.9
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe564b09-1fd8-4053-934b-3106350e4272

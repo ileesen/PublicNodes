@@ -33,79 +33,41 @@ proxies:
   flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-1 | Mix
   network: tcp
-  port: 7506
+  port: 45643
   reality-opts:
-    public-key: SkF6myFIhvcfSKmogSeBMMldnr54U_4qu-aZEZzEpRk
-  server: 68.64.180.197
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1f5bbe4-e63c-4c07-a183-8767b2293e59
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 45140
-  reality-opts:
-    public-key: LV22cTxk34mYg42GDbCo1qW1laGh8LX_9mtpZ3P2U3Y
-  server: 207.57.131.115
-  servername: dash.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55e38df8-d960-44c2-9fe2-537765304eae
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-3 | Mix
-  network: tcp
-  port: 10766
-  reality-opts:
-    public-key: U9z66G173U5ROhQvuyRf7SmkViqn1juXjvsy88dWtEk
-  server: 45.144.137.55
+    public-key: iJ-HaZJleNLUNRws14Ud2veIdX8xdX0b97yWFQ0B33M
+  server: 207.57.133.226
   servername: www.paypal.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2b61c167-5563-43ab-94a0-7d02c0a27ca5
-- name: 11|🇭🇰 HK-4 | Mix
-  port: 10808
-  server: 123.58.219.171
-  type: socks
+  uuid: 87d6ec62-660b-430a-a89c-dcd85d5aff75
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-5 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 56439
+  port: 50437
   reality-opts:
-    public-key: aPioc-Rwi9TdjorJ0uqg7JXXeqZhaztKagc1eMuC2Dc
-  server: 207.57.134.109
+    public-key: PlDDOZUSEmHeKG43OjxAxUwR_LJCI5ojL1OWHkJRlm0
+  server: 68.64.181.175
   servername: www.ebay.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7a0388fd-2dc9-4af5-8515-d3649ec77d9b
+  uuid: 183013a5-1c01-4e36-ae9e-59a15d1bb0b5
+- name: 11|🇭🇰 HK-3 | Mix
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-6 | Mix
-  network: tcp
-  port: 51895
-  reality-opts:
-    public-key: Uz7IOZjbOsAGGacB7CVE8jkrIDAphwIIzjurkFx5Ckk
-  server: 38.207.178.244
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51fb4051-a146-45cd-b902-a24df5325b23
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-7 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: tcp
   port: 18830
   reality-opts:
@@ -117,6 +79,62 @@ proxies:
   type: vless
   udp: true
   uuid: 4ca5286a-05f1-476f-a5ff-e522a2f41b95
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-5 | Mix
+  network: tcp
+  port: 54785
+  reality-opts:
+    public-key: RqlCAwGrowPZDljm1O3c5jJJQmhwmSPOdgsopGTJMzE
+  server: 207.57.135.29
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 810493f7-4306-40f1-86e5-9fa7868b26b6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-6 | Mix
+  network: tcp
+  port: 64136
+  reality-opts:
+    public-key: yi2t6WsgV_77ANrZf2xcfrSaJihtFVDQ5O_Ddt0n9SE
+  server: 193.134.211.201
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-7 | Mix
+  network: tcp
+  port: 5585
+  reality-opts:
+    public-key: TUZZH3TKQjuwZc20BCT5SHvKbbeSUzAwB75ZDf_Vy3M
+  server: 38.207.178.88
+  servername: www.ebay.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 356d377d-2cdf-4a3f-8bc3-44452f9718b7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-8 | Mix
+  network: tcp
+  port: 41923
+  reality-opts:
+    public-key: 7YfjX8TsT3HL0ZzvovjEDOLCM142j3bFcorv-Gs-m2Y
+  server: 45.144.137.129
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b28936a7-c11a-4147-8806-b66efd1658a8
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

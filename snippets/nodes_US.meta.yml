@@ -22,7 +22,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-4 | Mix
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -35,7 +35,7 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 10,11|🇯🇵 JP-1 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -103,55 +103,32 @@ proxies:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
+  password: None
   port: 9002
   server: 138.199.35.217
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-3 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
 - name: 11|🇺🇸 US-4 | Mix
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
-- name: 11,15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: 172.67.139.129
-  servername: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  ws-opts:
-    headers:
-      Host: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -187,6 +164,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
