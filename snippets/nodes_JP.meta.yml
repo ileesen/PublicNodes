@@ -45,22 +45,24 @@ proxies:
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: freshjuniper.download
-  servername: freshjuniper.download
+  servername: localhost
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: 11|🇯🇵 JP-1 | Mix
+- name: 11|🇯🇵 JP-3 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
+- name: 11|🇯🇵 JP-4 | Mix
+  password: 'null'
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
+  username: 'null'
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

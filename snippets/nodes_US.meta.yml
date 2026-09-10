@@ -22,9 +22,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-3 | Mix
+  name: 10,11|🇬🇧 GB-4 | Mix
   network: tcp
-  packetEncoding: none
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -36,9 +35,8 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 10,11|🇬🇧 GB-2 | Mix
+  name: 10,11|🇯🇵 JP-1 | Mix
   network: tcp
-  packetEncoding: none
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -105,80 +103,55 @@ proxies:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
-  port: 443
-  server: fullmanfirm.icu
+  port: 9002
+  server: 138.199.35.217
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
+  port: 9002
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
-  username: testuser1
 - name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: kimberlymilano.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
   password: None
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
   port: 443
-  server: purecambogiasl.live
+  server: 52.55.81.168
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 172.67.139.129
+  servername: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -214,15 +187,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
