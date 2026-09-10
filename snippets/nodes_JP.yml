@@ -1,4 +1,24 @@
 proxies:
+- name: 11|🇯🇵 JP-3 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44029
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇯🇵 JP-4 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44002
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

@@ -29,7 +29,12 @@ proxies:
   udp: true
   uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
 - name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: T2clM0QlM0Q6T2clM0QlM0Q=
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44052
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan

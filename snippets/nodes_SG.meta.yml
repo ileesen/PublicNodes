@@ -29,6 +29,34 @@ proxies:
   type: vless
   udp: true
   uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- name: 11|🇸🇬 SG-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11|🇸🇬 SG-2 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44012
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇸🇬 SG-3 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44000
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

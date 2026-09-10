@@ -105,30 +105,114 @@ proxies:
 - name: 11|🇺🇸 US-1 | Mix
   password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.214
+  password: 'null'
+  port: 443
+  server: 52.55.81.168
   tls:
     enabled: true
   type: http
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-3 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
+  username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  port: 443
+  server: 52.55.81.168
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-10 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: 55ab5559e3a6d10a
+  server: 5.34.178.120
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+- name: 11|🇺🇸 US-11 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44006
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇺🇸 US-12 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44009
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇺🇸 US-13 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44001
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

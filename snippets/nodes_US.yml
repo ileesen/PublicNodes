@@ -1,11 +1,34 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-3 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
+- name: 11|🇺🇸 US-11 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44006
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇺🇸 US-12 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44009
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: 11|🇺🇸 US-13 | Mix
+  network: tcp
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44001
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

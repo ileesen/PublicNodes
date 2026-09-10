@@ -29,73 +29,29 @@ proxies:
   type: vless
   udp: true
   uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- name: 11|🇭🇰 HK-1 | Mix
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks
+  username: '111'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 45643
+  port: 32073
   reality-opts:
-    public-key: iJ-HaZJleNLUNRws14Ud2veIdX8xdX0b97yWFQ0B33M
-  server: 207.57.133.226
+    public-key: G7_z4XOqJImMhL0H8rBzN-VSR739_RsUGokfNuyadQc
+  server: 38.147.173.43
   servername: www.paypal.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 87d6ec62-660b-430a-a89c-dcd85d5aff75
+  uuid: b145ee79-42dd-4399-adcc-044660ad306f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 50437
-  reality-opts:
-    public-key: PlDDOZUSEmHeKG43OjxAxUwR_LJCI5ojL1OWHkJRlm0
-  server: 68.64.181.175
-  servername: www.ebay.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 183013a5-1c01-4e36-ae9e-59a15d1bb0b5
-- name: 11|🇭🇰 HK-3 | Mix
-  password: 'null'
-  port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-4 | Mix
-  network: tcp
-  port: 18830
-  reality-opts:
-    public-key: 8kiQCMpifYMlVORGI8KxqQixS7COb-Sa43Kkxs0kxUQ
-  server: 38.147.172.2
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ca5286a-05f1-476f-a5ff-e522a2f41b95
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-5 | Mix
-  network: tcp
-  port: 54785
-  reality-opts:
-    public-key: RqlCAwGrowPZDljm1O3c5jJJQmhwmSPOdgsopGTJMzE
-  server: 207.57.135.29
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 810493f7-4306-40f1-86e5-9fa7868b26b6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-6 | Mix
+  name: 11|🇭🇰 HK-3 | Mix
   network: tcp
   port: 64136
   reality-opts:
@@ -109,32 +65,28 @@ proxies:
   uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-7 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: tcp
-  port: 5585
+  port: 54785
   reality-opts:
-    public-key: TUZZH3TKQjuwZc20BCT5SHvKbbeSUzAwB75ZDf_Vy3M
-  server: 38.207.178.88
-  servername: www.ebay.com
+    public-key: RqlCAwGrowPZDljm1O3c5jJJQmhwmSPOdgsopGTJMzE
+  server: 207.57.135.29
+  servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 356d377d-2cdf-4a3f-8bc3-44452f9718b7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-8 | Mix
+  uuid: 810493f7-4306-40f1-86e5-9fa7868b26b6
+- name: 11|🇭🇰 HK-5 | Mix
   network: tcp
-  port: 41923
-  reality-opts:
-    public-key: 7YfjX8TsT3HL0ZzvovjEDOLCM142j3bFcorv-Gs-m2Y
-  server: 45.144.137.129
-  servername: dash.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b28936a7-c11a-4147-8806-b66efd1658a8
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44005
+  security: tls
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
