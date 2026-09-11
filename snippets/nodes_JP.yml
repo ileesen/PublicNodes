@@ -1,4 +1,22 @@
 proxies:
+- name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  password: i99Cef
+  port: 443
+  security: tls
+  server: 45.76.51.23
+  skip-cert-verify: true
+  type: trojan
+- name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  password: i99Cef
+  port: 27242
+  security: tls
+  server: 45.32.57.242
+  servername: download.windowsupdate.com
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

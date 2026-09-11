@@ -25,19 +25,74 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-2 | 8EB
+- name: 10|🇯🇵 JP-1 | 8EB
   network: tcp
+  password: i99Cef
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: freshjuniper.download
-  servername: freshjuniper.download
+  security: tls
+  server: 45.76.51.23
+  skip-cert-verify: true
+  type: trojan
+- name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  password: i99Cef
+  port: 27242
+  security: tls
+  server: 45.32.57.242
+  servername: download.windowsupdate.com
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- name: 10|🇯🇵 JP-3 | 8EB
+  port: 10808
+  server: 101.36.104.239
+  type: socks
+  username: Og
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-us01-2.23523463.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
+  ws-opts:
+    headers:
+      Host: cf-uh-us01-2.23523463.xyz
+    path: /ziyou
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  server: jp3.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: tcp
+  port: 55555
+  reality-opts:
+    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
+    short-id: af317506
+  server: uh-us01.ziyoufly.xyz
+  servername: d1.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

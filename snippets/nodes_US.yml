@@ -1,4 +1,68 @@
 proxies:
+- name: 10|🇺🇸 US-25 | 8EB
+  network: tcp
+  password: i99Cef
+  port: 27251
+  security: tls
+  server: 154.16.27.250
+  skip-cert-verify: true
+  type: trojan
+- name: 10|🇺🇸 US-28 | 8EB
+  network: tcp
+  password: 11f75919-38dd-47d2-bdf5-c93980317309
+  port: 28443
+  security: tls
+  server: 172.233.143.225
+  servername: vpn-node.internal
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+- name: 10|🇺🇸 US-30 | 8EB
+  network: tcp
+  password: WQSShTQIMW
+  port: 14166
+  security: tls
+  server: 212.18.104.164
+  servername: v.qq.com
+  skip-cert-verify: true
+  sni: v.qq.com
+  type: trojan
+- name: 10|🇺🇸 US-32 | 8EB
+  network: tcp
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  security: tls
+  server: 172.238.22.232
+  servername: vpn-node.internal
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+- name: 10|🇺🇸 US-33 | 8EB
+  network: tcp
+  password: i99Cef
+  port: 29739
+  security: tls
+  server: 207.246.97.36
+  servername: download.windowsupdate.com
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-34 | 8EB
+  network: ws
+  port: 443
+  server: www.shopify.com
+  tls:
+    enabled: true
+    server_name: guanwang.awsno.com
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

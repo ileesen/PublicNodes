@@ -83,6 +83,21 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 82.39.171.142
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
     public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
     short-id: 56f276ac52
   server: de1.miyazono-kaori.com
@@ -91,10 +106,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-2 | 8EB
+  name: 10|🇩🇪 DE-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -106,34 +121,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
+  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
+- name: 11|🇩🇪 DE-1 | Mix
   port: 443
-  reality-opts:
-    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-    short-id: 69cc4c0d5e
-  server: nl2.miyazono-kaori.com
-  servername: www.philips.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: eu-central.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
-  ws-opts:
-    headers:
-      Host: eu-central.xhs152.shop
-    path: /announcement?ed=2048
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
