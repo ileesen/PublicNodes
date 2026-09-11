@@ -103,36 +103,6 @@ proxies:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 443
   server: 38.28.193.188
@@ -140,37 +110,88 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
+- name: 11|🇺🇸 US-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
+  username: testuser1
+- name: 11|🇺🇸 US-3 | Mix
+  password: None
   port: 9002
   server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-9 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0133
   port: 443
-  server: 52.55.81.168
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 172.67.184.123
+  servername: 2-M13.35C73E3f-B0AE-4ae0-B41F-62dfD753a988.KdNS.Fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  ws-opts:
+    headers:
+      Host: 2-M13.35c73e3F-b0ae-4ae0-B41f-62dFd753A988.kdns.fR
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-10 | Mix
+  name: 11|🇺🇸 US-12 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -183,7 +204,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: 11|🇺🇸 US-11 | Mix
+- name: 11|🇺🇸 US-13 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44006
@@ -193,7 +214,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇺🇸 US-12 | Mix
+- name: 11|🇺🇸 US-14 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44009
@@ -203,7 +224,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇺🇸 US-13 | Mix
+- name: 11|🇺🇸 US-15 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44001
@@ -272,19 +293,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|US_speednode_0135

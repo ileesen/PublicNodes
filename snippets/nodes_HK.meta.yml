@@ -30,28 +30,34 @@ proxies:
   udp: true
   uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
 - name: 11|🇭🇰 HK-1 | Mix
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks
-  username: '111'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 32073
+  port: 35621
   reality-opts:
-    public-key: G7_z4XOqJImMhL0H8rBzN-VSR739_RsUGokfNuyadQc
-  server: 38.147.173.43
-  servername: www.paypal.com
+    public-key: wK6kCgPEjDA7KADag0eZUc8e523kdIOCh8Qavkb15nA
+  server: 207.57.135.123
+  servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b145ee79-42dd-4399-adcc-044660ad306f
+  uuid: 6f8acdfd-0ce0-4386-ba02-5040da4c6fea
+- name: 11|🇭🇰 HK-3 | Mix
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks
+  username: admin
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-3 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: tcp
   port: 64136
   reality-opts:
@@ -65,19 +71,19 @@ proxies:
   uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-4 | Mix
+  name: 11|🇭🇰 HK-5 | Mix
   network: tcp
-  port: 54785
+  port: 13809
   reality-opts:
-    public-key: RqlCAwGrowPZDljm1O3c5jJJQmhwmSPOdgsopGTJMzE
-  server: 207.57.135.29
-  servername: www.amazon.com
+    public-key: QiI98tjdsbG6y94RoptTgUmG-n6qRikKEE8Gpv-5EUo
+  server: 207.57.133.52
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 810493f7-4306-40f1-86e5-9fa7868b26b6
-- name: 11|🇭🇰 HK-5 | Mix
+  uuid: 0b95d6b2-f567-4c81-b298-1884c1f6ec27
+- name: 11|🇭🇰 HK-6 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44005

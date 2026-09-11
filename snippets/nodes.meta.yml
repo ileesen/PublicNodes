@@ -268,7 +268,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '8|芬兰 #2'
+- name: 8,9|🇫168311 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -397,6 +397,13 @@ proxies:
   server: 107.172.76.105
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 9|168302 | ⚡️Telegram = t.me/SOS...
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
 - name: '9|@V2ray_confiig #1'
@@ -632,7 +639,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇺@FreakConfig
+- name: 9|🇦🇺@FreakConfig
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: dmbbfqabkdu46mo3
@@ -873,7 +880,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Tel-@ProxyMtAlpha5
+- name: 9|Tel-@ProxyMtAlpha🫜5
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: nqlool6l2dnfg45q
@@ -932,13 +939,12 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|🇩🇪1@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52021
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -951,18 +957,6 @@ proxies:
   password: s6gt5e4mof43sfg8
   port: 52026
   server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇫 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52029
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1027,7 +1021,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|7@JKVPN
+  name: 9|🇸7@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1459,18 +1453,12 @@ proxies:
     headers:
       Host: cf-uh-us01-2.23523463.xyz
     path: /ziyou
-- name: 11|🇭🇰 HK-1 | Mix
-  password: '111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks
-  username: '111'
 - alterId: 0
   cipher: auto
   name: 11|🇩🇪 DE-1 | Mix
   network: ws
   port: 443
-  server: 212.43.156.143
+  server: 2.27.16.177
   tls:
     enabled: true
     server_name: renderer-stream-2-62.mirra.now
@@ -1481,41 +1469,9 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 32073
-  reality-opts:
-    public-key: G7_z4XOqJImMhL0H8rBzN-VSR739_RsUGokfNuyadQc
-  server: 38.147.173.43
-  servername: www.paypal.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b145ee79-42dd-4399-adcc-044660ad306f
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.16
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-3 | Mix
-  network: tcp
-  port: 64136
-  reality-opts:
-    public-key: yi2t6WsgV_77ANrZf2xcfrSaJihtFVDQ5O_Ddt0n9SE
-  server: 193.134.211.201
-  servername: dash.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: fan.571589.xyz
+  server: fan.587475.xyz
   tls:
     enabled: true
   type: http
@@ -1527,108 +1483,45 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇩🇪 DE-2 | Mix
+- name: 11|🇭🇰 HK-1 | Mix
   port: 443
-  server: 141.17.83.73
+  server: fan.240104.xyz
   tls:
     enabled: true
   type: http
-- name: 11,15|NL_speednode_0004
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 11|🇮🇪 IE-1 | Mix
-  password: amazonskr05
-  port: 443
-  server: 54.171.218.140
-  type: ss
-  udp: true
-- name: 11,15|NL_speednode_0008
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 11|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇸🇪 SE-1 | Mix
-  port: 443
-  server: 146.70.242.146
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇨🇭 CH-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
-    short-id: 19253fae84102271
-  server: 45.90.59.15
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-4 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 54785
+  port: 35621
   reality-opts:
-    public-key: RqlCAwGrowPZDljm1O3c5jJJQmhwmSPOdgsopGTJMzE
-  server: 207.57.135.29
+    public-key: wK6kCgPEjDA7KADag0eZUc8e523kdIOCh8Qavkb15nA
+  server: 207.57.135.123
   servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 810493f7-4306-40f1-86e5-9fa7868b26b6
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 11|🇺🇸 US-5 | Mix
+  uuid: 6f8acdfd-0ce0-4386-ba02-5040da4c6fea
+- name: 11|🇭🇰 HK-3 | Mix
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks
+  username: admin
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-4 | Mix
+  network: tcp
+  port: 64136
+  reality-opts:
+    public-key: yi2t6WsgV_77ANrZf2xcfrSaJihtFVDQ5O_Ddt0n9SE
+  server: 193.134.211.201
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb0d51da-de26-4e29-b3db-a7fbbf9a4b8c
+- name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 443
   server: 38.28.193.188
@@ -1636,36 +1529,143 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
+- name: 11|🇫🇮 FI-1 | Mix
+  port: 1080
+  server: 83.147.216.208
+  type: socks
+  username: Og==
+- name: 11|🇷🇴 RO-1 | Mix
   port: 9002
-  server: 138.199.35.205
+  server: 193.176.84.21
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
+- name: 11|🇯🇵 JP-3 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|RO_speednode_0126
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11|🇺🇸 US-3 | Mix
+  password: None
   port: 9002
   server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
+- name: 11|🇳🇱 NL-1 | Mix
+  password: 'null'
   port: 443
-  server: 52.55.81.168
+  server: 51.158.243.91
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: T2c9PTo=
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-10 | Mix
+  name: 11|🇭🇰 HK-5 | Mix
+  network: tcp
+  port: 13809
+  reality-opts:
+    public-key: QiI98tjdsbG6y94RoptTgUmG-n6qRikKEE8Gpv-5EUo
+  server: 207.57.133.52
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b95d6b2-f567-4c81-b298-1884c1f6ec27
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: purecambogiasl.live
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 172.67.184.123
+  servername: 2-M13.35C73E3f-B0AE-4ae0-B41F-62dfD753a988.KdNS.Fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  ws-opts:
+    headers:
+      Host: 2-M13.35c73e3F-b0ae-4ae0-B41f-62dFd753A988.kdns.fR
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-12 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -1678,7 +1678,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: 11|🇭🇰 HK-5 | Mix
+- name: 11|🇭🇰 HK-6 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44005
@@ -1698,7 +1698,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇺🇸 US-11 | Mix
+- name: 11|🇺🇸 US-13 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44006
@@ -1708,7 +1708,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇸🇬 SG-2 | Mix
+- name: 11|🇸🇬 SG-1 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44012
@@ -1718,7 +1718,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇯🇵 JP-3 | Mix
+- name: 11|🇯🇵 JP-4 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44029
@@ -1728,7 +1728,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇸🇬 SG-3 | Mix
+- name: 11|🇸🇬 SG-2 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44000
@@ -1738,7 +1738,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇯🇵 JP-4 | Mix
+- name: 11|🇯🇵 JP-5 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44002
@@ -1788,7 +1788,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇰🇷 KR-1 | Mix
+- name: 11|🇰🇷 KR-2 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44052
@@ -1798,7 +1798,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇺🇸 US-12 | Mix
+- name: 11|🇺🇸 US-14 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44009
@@ -1808,7 +1808,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 11|🇺🇸 US-13 | Mix
+- name: 11|🇺🇸 US-15 | Mix
   network: tcp
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44001
@@ -1985,6 +1985,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 15|NL_speednode_0004
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|NL_speednode_0005
   password: None
   port: 9002
@@ -2001,6 +2008,14 @@ proxies:
   type: http
   udp: true
 - name: 15|NL_speednode_0007
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|NL_speednode_0008
+  password: None
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -2858,13 +2873,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0126
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0127
   port: 9002
   server: 84.239.49.180
@@ -2923,19 +2931,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|US_speednode_0135
