@@ -25,18 +25,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇵 Japan-Tokyo
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52046
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-2 | 8EB
   network: tcp
@@ -50,46 +38,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-2 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-4 | Mix
-  network: tcp
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 44029
-  security: tls
-  server: 62.234.223.235
-  servername: baidu.com
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-- name: 11|🇯🇵 JP-5 | Mix
-  network: tcp
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 44002
-  security: tls
-  server: 62.234.223.235
-  servername: baidu.com
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
