@@ -77,9 +77,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 185.44.107.166
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇩🇪 DE-2 | Mix
   port: 443
-  server: fan.973511.xyz
+  server: 87.249.132.97
   tls:
     enabled: true
   type: http

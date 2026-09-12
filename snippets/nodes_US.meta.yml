@@ -36,7 +36,7 @@ proxies:
     path: /game/resources
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-1 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -79,66 +79,95 @@ proxies:
   udp: true
   uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.196
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
-- name: 11,15|US_speednode_0143
+- name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cQVJVttx2AX4QVuhlGTk8kHCc_9caNPVikUpIoZZMzk
-    short-id: 2534feee55b53de6
-  server: free.us5.laodavip.com
-  servername: free.us5.laodavip.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d960b4d0-c9ab-41c3-a451-2ae2dfd7f909
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-4 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo
-    short-id: 6591f200
-  server: cdn12usa.goonars.com
-  servername: cdn12usa.goonars.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: fullmanfirm.icu
+  port: 9002
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.210
+  password: 'null'
+  port: 443
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-12 | Mix
+  network: ws
+  port: 443
+  server: 172.67.131.46
+  servername: 2-m13.0943e131-87F4-4b7f-Bc60-9d984Cc0aDA2.KDNs.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  ws-opts:
+    headers:
+      Host: 2-M13.0943E131-87f4-4b7F-BC60-9d984Cc0Ada2.kdnS.fR
+    path: /ED3ZQPu7lqyeDGD58KabZ
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -174,15 +203,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
@@ -315,6 +335,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144
