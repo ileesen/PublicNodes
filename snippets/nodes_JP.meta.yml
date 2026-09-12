@@ -26,73 +26,60 @@ proxies:
   tls: false
   type: hysteria2
 - name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  password: i99Cef
-  port: 443
-  security: tls
-  server: 45.76.51.23
-  skip-cert-verify: true
-  type: trojan
-- name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  password: i99Cef
-  port: 27242
-  security: tls
-  server: 45.32.57.242
-  servername: download.windowsupdate.com
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-- name: 10|🇯🇵 JP-3 | 8EB
-  port: 10808
-  server: 101.36.104.239
-  type: socks
-  username: Og
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
   network: ws
+  password: 624209bb-8216-45fe-bbe0-50132ec63162
   port: 443
-  server: cfyes.ziyoufly.xyz
-  servername: cf-uh-us01-2.23523463.xyz
+  security: tls
+  server: ot2.hyas.space
+  servername: ot2.hyas.space
+  skip-cert-verify: false
+  sni: ot2.hyas.space
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ot2.hyas.space
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
+    short-id: df9232eff6
+  server: jp1.miyazono-kaori.com
+  servername: www.capcom.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
-  ws-opts:
-    headers:
-      Host: cf-uh-us01-2.23523463.xyz
-    path: /ziyou
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-5 | 8EB
+  name: 10|🇯🇵 JP-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
-    short-id: 912d2b581f59fb
-  server: jp3.miyazono-kaori.com
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
   servername: www.bandainamcoent.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-6 | 8EB
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-4 | 8EB
   network: tcp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-us01.ziyoufly.xyz
-  servername: d1.awsstatic.com
-  skip-cert-verify: false
+  port: 8444
+  server: connect3.nyxserver.ir
+  servername: connect3.nyxserver.ir
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
+  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
 - name: 11|🇯🇵 JP-1 | Mix
   password: 'null'
   port: 443

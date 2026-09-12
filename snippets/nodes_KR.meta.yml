@@ -1,17 +1,7 @@
 proxies:
-- name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  password: a196faa4-403e-4a8b-987a-d1789f379685
-  port: 49755
-  security: tls
-  server: 139.162.100.58
-  servername: vpn-node.internal
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-2 | 8EB
+  name: 10|🇰🇷 KR-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -23,4 +13,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+- name: 10|🇰🇷 KR-2 | 8EB
+  password: z4zi7wYc7s
+  port: 45534
+  server: 158.180.88.172
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  type: hysteria2
+  udp: true

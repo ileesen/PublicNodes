@@ -1,22 +1,18 @@
 proxies:
 - name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  password: i99Cef
+  network: ws
+  password: 624209bb-8216-45fe-bbe0-50132ec63162
   port: 443
   security: tls
-  server: 45.76.51.23
-  skip-cert-verify: true
+  server: ot2.hyas.space
+  servername: ot2.hyas.space
+  skip-cert-verify: false
+  sni: ot2.hyas.space
   type: trojan
-- name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  password: i99Cef
-  port: 27242
-  security: tls
-  server: 45.32.57.242
-  servername: download.windowsupdate.com
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
+  ws-opts:
+    headers:
+      Host: ot2.hyas.space
+    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

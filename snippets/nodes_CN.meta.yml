@@ -1,16 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇨🇳 CN-1 | 8EB
+- name: 10|🇨🇳 CN-1 | 8EB
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: xg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: hdlb1.mangshe.xyz
+  type: hysteria2
+  udp: true
+- name: 10|🇨🇳 CN-2 | 8EB
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: e6d59aff03e5b0
-  server: tw4.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
+  port: 58011
+  server: us22.sofast.live
   type: vless
   udp: true
-  uuid: dd3241b3-df4a-4d75-9bff-c73a3aa2481d
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: 10|🇨🇳 CN-3 | 8EB
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

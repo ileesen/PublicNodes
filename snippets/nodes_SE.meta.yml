@@ -1,18 +1,8 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 10|🇸🇪 SE-1 | 8EB
-  network: ws
-  port: 443
-  server: 87.121.82.237.vhubtest.ru
-  servername: 87.121.82.237.vhubtest.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49d39628-53cf-5345-a8d7-b31e0069b545
-  ws-opts:
-    headers:
-      Host: 87.121.82.237.vhubtest.ru
-    path: /websocket?ed=2560
+- name: 9|🇸🇪169485 | ️Telegram = t.me/SO...
+  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
+  port: 25443
+  server: se-node.rumedia-cdn.com
+  sni: cf2.rumedia-cdn.com
+  tls: false
+  type: hysteria2

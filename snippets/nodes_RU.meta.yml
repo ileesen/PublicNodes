@@ -1,23 +1,16 @@
 proxies:
-- name: 10|🇷🇺 RU-1 | 8EB
-  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
-  port: 443
-  server: fast.news.gazette.help
-  skip-cert-verify: true
-  sni: cz.h2.cleanersaz.help
-  type: hysteria2
-  udp: true
-- client-fingerprint: edge
-  name: 10|🇷🇺 RU-2 | 8EB
-  network: xhttp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: tcp
   port: 443
   reality-opts:
-    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
-    short-id: 2c9431dc7a306018
-  server: 84.38.187.134
-  servername: git.xpkg.ru
+    public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
+    short-id: c3248f699ea5d8d0
+  server: 5.35.91.96
+  servername: rus1.baboon.digital
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
