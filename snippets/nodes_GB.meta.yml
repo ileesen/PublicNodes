@@ -43,18 +43,9 @@ proxies:
     headers:
       Host: ehofhoe.bpuk2026.top
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇬🇧 GB-2 | Mix
-  network: tcp
+- name: 11|🇬🇧 GB-1 | Mix
   port: 443
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: 31.76.21.179
-  servername: fin.pinkmoon.pro
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  server: 212.102.63.31
+  tls:
+    enabled: true
+  type: http

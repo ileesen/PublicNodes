@@ -36,7 +36,7 @@ proxies:
     path: /game/resources
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -79,95 +79,105 @@ proxies:
   udp: true
   uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
+  obfs: salamander
+  obfs-password: maintell
+  password: maintell
+  port: 2053
+  server: 107.172.67.52
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
 - name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
-- name: 11,15|US_speednode_0131
+- name: 11|🇺🇸 US-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
+  server: 138.199.35.206
+  tls:
+    enabled: true
   type: http
-  udp: true
   username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.207
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
   port: 443
-  server: goedkoopgeluid.icu
+  server: 149.88.21.129
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-8 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.209
+  port: 443
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-10 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.208
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-11 | Mix
+  username: 'null'
+- name: 11,15|US_speednode_0133
   port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-12 | Mix
-  network: ws
-  port: 443
-  server: 172.67.131.46
-  servername: 2-m13.0943e131-87F4-4b7f-Bc60-9d984Cc0aDA2.KDNs.fR
+  server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-12 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: firefox
+  name: 11|🇺🇸 US-13 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 2053
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+    short-id: b5d625695ec82c7e
+  server: 198.251.78.29
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 2-M13.0943E131-87f4-4b7F-BC60-9d984Cc0Ada2.kdnS.fR
-    path: /ED3ZQPu7lqyeDGD58KabZ
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -203,6 +213,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
@@ -218,13 +237,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club
