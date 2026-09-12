@@ -1,64 +1,58 @@
 proxies:
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: 10|🇸🇬 SG-1 | 8EB
   network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  port: 80
+  server: mdk.mdmekjll.best
+  type: vmess
   udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
   ws-opts:
     headers:
-      Host: u.srilankangrill.online
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+      Host: mdk.mdmekjll.best
+    path: /game/resources
+- alterId: 0
+  cipher: auto
   name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-    short-id: 1dd8558159ecd0
-  server: sg4.miyazono-kaori.com
-  servername: www.changiairport.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  network: ws
+  port: 53437
+  server: az-1.linkaa.xyz
+  type: vmess
   udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
   port: 443
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: 37c94ae25b69a93a
-  server: sg1.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: light.bpsg2026.top
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /
+- name: 10|🇸🇬 SG-4 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
   port: 443
-  reality-opts:
-    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
-    short-id: 5f2ca3da385c
-  server: sg2.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: light.bpsg2026.top
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

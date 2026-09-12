@@ -21,9 +21,94 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 53751
+  server: az-1.linkaa.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10,11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  server: 82.118.19.153
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+- name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: px8r9i1b4k.bpusfaster2.top
+  skip-cert-verify: false
+  sni: px8r9i1b4k.bpusfaster2.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: px8r9i1b4k.bpusfaster2.top
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: Y0zCjvOLHuHWgv4HUyqb9O0lSMnTrl26XO8qwnWoQXw
+    short-id: b85875a13da4
+  server: 172.96.141.210
+  servername: room.rootvana.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+- name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cQVJVttx2AX4QVuhlGTk8kHCc_9caNPVikUpIoZZMzk
+    short-id: 2534feee55b53de6
+  server: free.us5.laodavip.com
+  servername: free.us5.laodavip.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d960b4d0-c9ab-41c3-a451-2ae2dfd7f909
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-4 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -36,167 +121,24 @@ proxies:
   type: vless
   udp: true
   uuid: 02722550-1915-4629-a653-cbe95e594f70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  port: 443
-  server: uk-dedic.failspace.top
-  servername: uk-dedic.failspace.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  port: 443
-  server: austria.moritech.net
-  servername: austria.moritech.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o
-    short-id: 8ece2039
-  server: cdn4ch.goonars.com
-  servername: apiv6.jarvesitw.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
-    short-id: 55ab5559e3a6d10a
-  server: 5.34.178.120
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: 10|🇺🇸 US-7 | 8EB
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  port: 50160
-  server: 129.159.156.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
+  port: 9002
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
-  username: testuser1
 - name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
+  port: 443
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-12 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-13 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -373,13 +315,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

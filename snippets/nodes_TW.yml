@@ -1,1 +1,96 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 10|🇹🇼 TW-1 | 8EB
+  network: ws
+  port: 53988
+  server: az-1.linkaa.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/js
+- alterId: 0
+  cipher: auto
+  name: 10|🇹🇼 TW-2 | 8EB
+  network: ws
+  port: 52300
+  server: hi.northcluster.info
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: hi.northcluster.info
+    path: /video
+- alterId: 0
+  cipher: auto
+  name: 10|🇹🇼 TW-3 | 8EB
+  network: ws
+  port: 52100
+  server: mdk.mdmekjll.best
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: mdk.mdmekjll.best
+    path: /video
+- name: 10|🇹🇼 TW-4 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: kfb9frqf0v.bpis2026.top
+  skip-cert-verify: false
+  sni: kfb9frqf0v.bpis2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfb9frqf0v.bpis2026.top
+    path: /
+- name: 10|🇹🇼 TW-5 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: kfb9frqf0v.bpis2026.top
+  skip-cert-verify: false
+  sni: kfb9frqf0v.bpis2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfb9frqf0v.bpis2026.top
+    path: /
+- name: 10|🇹🇼 TW-6 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: ttww11.bpca2026.top
+  servername: ttww11.bpca2026.top
+  skip-cert-verify: false
+  sni: ttww11.bpca2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttww11.bpca2026.top
+    path: /
+- name: 10|🇹🇼 TW-7 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: t2w2t2w2.bpca2026.top
+  servername: t2w2t2w2.bpca2026.top
+  skip-cert-verify: false
+  sni: t2w2t2w2.bpca2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t2w2t2w2.bpca2026.top
+    path: /

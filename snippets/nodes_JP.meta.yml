@@ -25,69 +25,89 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇯🇵 JP-1 | 8EB
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  password: 624209bb-8216-45fe-bbe0-50132ec63162
+  port: 53675
+  server: az-1.linkaa.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 53653
+  server: az-1.linkaa.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
   port: 443
   security: tls
-  server: ot2.hyas.space
-  servername: ot2.hyas.space
+  server: cdn1.bpcdn.cc
+  servername: jpefoaweho04.jptimecsgo.xyz
   skip-cert-verify: false
-  sni: ot2.hyas.space
+  sni: jpefoaweho04.jptimecsgo.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: ot2.hyas.space
+      Host: jpefoaweho04.jptimecsgo.xyz
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
+- name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
   port: 443
-  reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: df9232eff6
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: jpefoaweho04.jptimecsgo.xyz
+  skip-cert-verify: false
+  sni: jpefoaweho04.jptimecsgo.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jpefoaweho04.jptimecsgo.xyz
+    path: /
+- name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn3.bpcdn.cc
+  servername: baijofe6666.bpjp2027.top
+  skip-cert-verify: false
+  sni: baijofe6666.bpjp2027.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: baijofe6666.bpjp2027.top
+    path: /
+- client-fingerprint: safari
+  name: 11|🇯🇵 JP-1 | Mix
+  network: ws
+  port: 443
+  server: cfyes.7770006.xyz
+  servername: jp2-lx.7770006.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
-    short-id: f75fbd5b
-  server: jp4.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  port: 8444
-  server: connect3.nyxserver.ir
-  servername: connect3.nyxserver.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
-- name: 11|🇯🇵 JP-1 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: 0373d990-8ca4-4b25-9b4f-5d6bb2f80c2c
+  ws-opts:
+    headers:
+      Host: jp2-lx.7770006.xyz
+    path: /liangxin/data
 - name: 11|🇯🇵 JP-2 | Mix
   port: 443
   server: fan.571589.xyz

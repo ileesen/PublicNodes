@@ -1,16 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇷🇺 RU-1 | 8EB
-  network: tcp
+- name: 10|🇷🇺 RU-1 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
   port: 443
-  reality-opts:
-    public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
-    short-id: c3248f699ea5d8d0
-  server: 5.35.91.96
-  servername: rus1.baboon.digital
+  security: tls
+  server: aeryy5gfrp630ww1.lovebaipiao.net
+  servername: aeryy5gfrp630ww1.lovebaipiao.net
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
+  sni: aeryy5gfrp630ww1.lovebaipiao.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aeryy5gfrp630ww1.lovebaipiao.net
+    path: /

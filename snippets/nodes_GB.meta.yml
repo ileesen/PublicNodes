@@ -15,25 +15,52 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- name: 10|🇬🇧 GB-2 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: ehofhoe.bpuk2026.top
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: /
+- name: 10|🇬🇧 GB-3 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: ehofhoe.bpuk2026.top
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: /
+- name: 11|🇬🇧 GB-1 | Mix
+  port: 443
+  server: 37.120.233.50
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 11|🇬🇧 GB-2 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 31.76.20.209
+  servername: de.pinkmoon.pro
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-3 | 8EB
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5

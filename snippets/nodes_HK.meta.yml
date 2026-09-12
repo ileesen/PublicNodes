@@ -1,45 +1,151 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-    short-id: a273e9ee6ac0a466
-  server: hk5.miyazono-kaori.com
-  servername: www.hsbc.com.hk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
-    short-id: a2d13d677624197e
-  server: hk6.miyazono-kaori.com
-  servername: www.hsbc.com.hk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 10,14|香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 53838
+  server: az-1.linkaa.xyz
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 443
+  server: x4mod.basesphered.xyz
+  tls:
+    enabled: true
+    server_name: x4mod.basesphered.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: x4mod.basesphered.xyz
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  port: 443
+  server: cf1.linkmesh.info
+  tls:
+    enabled: true
+    server_name: jkk.packetflow.info
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: jkk.packetflow.info
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  port: 443
+  server: cf2.linkmesh.info
+  tls:
+    enabled: true
+    server_name: jkk.packetflow.info
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: jkk.packetflow.info
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: ws
+  port: 443
+  server: cf3.linkmesh.info
+  tls:
+    enabled: true
+    server_name: jkk.packetflow.info
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: jkk.packetflow.info
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: ws
+  port: 53689
+  server: az-1.linkaa.xyz
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- name: 10|🇭🇰 HK-7 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: baihkhk1.xn--ghqp68hvpn1ka.com
+  skip-cert-verify: false
+  sni: baihkhk1.xn--ghqp68hvpn1ka.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: baihkhk1.xn--ghqp68hvpn1ka.com
+    path: /
+- name: 10|🇭🇰 HK-8 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: baihkhk1.xn--ghqp68hvpn1ka.com
+  skip-cert-verify: false
+  sni: baihkhk1.xn--ghqp68hvpn1ka.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: baihkhk1.xn--ghqp68hvpn1ka.com
+    path: /
+- name: 10|🇭🇰 HK-9 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: oe4up9z5j9yntita.tkgogocsgo.top
+  skip-cert-verify: false
+  sni: oe4up9z5j9yntita.tkgogocsgo.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: oe4up9z5j9yntita.tkgogocsgo.top
+    path: /
+- client-fingerprint: safari
+  name: 11|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 443
+  server: cfyes.777078.xyz
+  servername: lx-hk5.7770008.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0373d990-8ca4-4b25-9b4f-5d6bb2f80c2c
+  ws-opts:
+    headers:
+      Host: lx-hk5.7770008.xyz
+    path: /liangxin/data/hk5
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -77,3 +183,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 14|香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

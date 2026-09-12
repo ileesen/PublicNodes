@@ -1,8 +1,29 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇬🇧 GB-3 | 8EB
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
+- name: 10|🇬🇧 GB-2 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn1.bpcdn.cc
+  servername: ehofhoe.bpuk2026.top
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: /
+- name: 10|🇬🇧 GB-3 | 8EB
+  network: ws
+  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  port: 443
+  security: tls
+  server: cdn2.bpcdn.cc
+  servername: ehofhoe.bpuk2026.top
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: /
