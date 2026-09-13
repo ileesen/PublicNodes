@@ -34,9 +34,9 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
     path: /game/resources
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-1 | Mix
+  name: 10,11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -79,6 +79,40 @@ proxies:
   udp: true
   uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
 - name: 11|🇺🇸 US-1 | Mix
+  port: 443
+  server: goedkoopgeluid.icu
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-6 | Mix
   obfs: salamander
   obfs-password: maintell
   password: maintell
@@ -88,83 +122,39 @@ proxies:
   sni: bing.com
   type: hysteria2
   udp: true
-- name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.196
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
   port: 9002
   server: 138.199.35.205
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: 149.88.21.129
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 443
-  server: fan.365747.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-10 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
+  network: ws
+  port: 8880
+  server: 172.67.207.26
+  type: vless
   udp: true
-- name: 11|🇺🇸 US-12 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
 - client-fingerprint: firefox
-  name: 11|🇺🇸 US-13 | Mix
+  name: 11|🇺🇸 US-11 | Mix
   network: tcp
   packetEncoding: none
   port: 2053

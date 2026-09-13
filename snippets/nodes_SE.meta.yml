@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 11|🇸🇪 SE-1 | Mix
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: 40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc
+    short-id: 32a37218722f0081
+  server: 171.22.129.56
+  servername: swe-one.quiet-rogue.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+- name: 11|🇸🇪 SE-2 | Mix
+  port: 443
+  server: 146.70.242.130
+  tls:
+    enabled: true
+  type: http
