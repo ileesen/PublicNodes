@@ -34,9 +34,9 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
     path: /game/resources
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-2 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -78,13 +78,130 @@ proxies:
   type: vless
   udp: true
   uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
-- name: 11|🇺🇸 US-1 | Mix
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
   port: 443
-  server: goedkoopgeluid.icu
+  server: bbb12x.pages.dev
+  servername: bbb12x.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 613a7576-c5b6-4cc8-af9f-86bca4d2a4ff
+  ws-opts:
+    headers:
+      Host: bbb12x.pages.dev
+    path: /
+- name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: 52.55.81.168
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: pwdern.pages.dev
+  servername: pwdern.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df4e2af6-5ba8-499b-816c-242fc572acc5
+  ws-opts:
+    headers:
+      Host: pwdern.pages.dev
+    path: /
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  password: 3DMpEHI94Ic7izl0YBXU
+  port: 8443
+  server: 38.207.163.44
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-11 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
+  port: 443
+  server: purposebydesig.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-13 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-14 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
+  port: 443
+  server: tytyo.pages.dev
+  servername: tytyo.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d25bfc5-9cef-4327-90e4-c6b9da8a09cf
+  ws-opts:
+    headers:
+      Host: tytyo.pages.dev
+    path: /
+- name: 11|🇺🇸 US-16 | Mix
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -92,82 +209,6 @@ proxies:
     enabled: true
   type: http
   username: testuser1
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: berniesbodybla.fun
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-6 | Mix
-  obfs: salamander
-  obfs-password: maintell
-  password: maintell
-  port: 2053
-  server: 107.172.67.52
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  port: 9002
-  server: 138.199.35.211
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 8880
-  server: 172.67.207.26
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: firefox
-  name: 11|🇺🇸 US-11 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 2053
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-    short-id: b5d625695ec82c7e
-  server: 198.251.78.29
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -227,6 +268,13 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club

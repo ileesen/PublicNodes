@@ -26,11 +26,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|@filembad
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+- name: 9|🇩🇪V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: V2RayyNGvpn&Telegram
+  password: V2RayyNGvpn
   port: 443
-  server: 162.249.125.133
-  sni: hy2-new.aspidnet.xyz
+  server: 91.107.140.154
+  skip-cert-verify: false
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -43,18 +46,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇩🇪170260 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: tivfkvoj305fvjb4
-  password: n1fgob9k4paxx9g3
-  port: 30740
-  server: 168.222.43.132
-  skip-cert-verify: false
-  sni: 168.222.43.132
   tls: false
   type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
@@ -89,9 +80,33 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 11|🇩🇪 DE-1 | Mix
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 6443
+  reality-opts:
+    public-key: HHz-2xJzux-wn53uLOnSpdjds9rnRZEI7sr6z5hYnis
+    short-id: '79245360'
+  server: 31.76.54.56
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
   port: 443
-  server: 141.17.83.73
-  tls:
-    enabled: true
-  type: http
+  reality-opts:
+    public-key: sL-WH6OA3-ed-5vxu5wWuTmQ-8Y4Fbfpx24kkgu3s1M
+    short-id: 17b3b79c
+  server: 77.90.52.36
+  servername: de5.wequ.host
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
