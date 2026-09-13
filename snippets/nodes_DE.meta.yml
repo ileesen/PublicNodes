@@ -26,6 +26,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: V2RayyNGvpn&Telegram
+  password: Ur0okuRxze
+  port: 443
+  server: 91.107.140.154
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 9|🇩🇪V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
@@ -80,9 +90,45 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
+    short-id: 56f276ac52
+  server: de1.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: 5a9ab320
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 6443
   reality-opts:
@@ -95,18 +141,9 @@ proxies:
   type: vless
   udp: true
   uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
+- name: 11|🇩🇪 DE-3 | Mix
   port: 443
-  reality-opts:
-    public-key: sL-WH6OA3-ed-5vxu5wWuTmQ-8Y4Fbfpx24kkgu3s1M
-    short-id: 17b3b79c
-  server: 77.90.52.36
-  servername: de5.wequ.host
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  server: 138.201.56.241
+  tls:
+    enabled: true
+  type: http

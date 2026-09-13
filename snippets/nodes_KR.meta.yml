@@ -1,1 +1,46 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: ws
+  port: 443
+  server: 110.10.178.240
+  servername: 368v1.urhc.arl.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 368v1.urhc.arl.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  port: 443
+  server: 140.245.65.122
+  servername: 368v1.urhc.arl.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 368v1.urhc.arl.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wrSzVpmEdnTU7oS5UbKuNnvP57Z7cJkOZRBwRqHM_Hk
+    short-id: 6132a3b8dd2d8c6b
+  server: 47.80.61.21
+  servername: www.logitech.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5851a6e-72da-4e4e-99b2-c79629149503

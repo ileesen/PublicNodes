@@ -21,78 +21,180 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 53751
-  server: az-1.linkaa.xyz
-  type: vmess
-  udp: true
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: az-1.linkaa.xyz
-    path: /game/resources
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  server: 82.118.19.153
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  password: baa7c987-b6ed-487f-8b18-e3e46a2e1498
-  port: 443
-  security: tls
-  server: cdn1.bpcdn.cc
-  servername: px8r9i1b4k.bpusfaster2.top
-  skip-cert-verify: false
-  sni: px8r9i1b4k.bpusfaster2.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: px8r9i1b4k.bpusfaster2.top
-    path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  mode: gun
+  name: 10,11|🇺🇸 US-11 | Mix
+  network: grpc
   port: 8443
   reality-opts:
-    public-key: Y0zCjvOLHuHWgv4HUyqb9O0lSMnTrl26XO8qwnWoQXw
-    short-id: b85875a13da4
-  server: 172.96.141.210
-  servername: room.rootvana.top
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+  server: 104.245.242.8
+  servername: download.nvidia.com
+  serviceName: TunService
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: baa7c987-b6ed-487f-8b18-e3e46a2e1498
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+- name: 10|🇺🇸 US-2 | 8EB
+  password: EkkoHY2_2024!
+  port: 8443
+  server: 198.46.159.171
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
-  name: 11|🇺🇸 US-1 | Mix
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0_UOGGSOr0NZqCA-nQo-Ct0MjQPfghmBL_sh6XU5pW8
+    short-id: 8e218ca02a
+  server: us1.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-4 | 8EB
   network: ws
   port: 443
-  server: bbb12x.pages.dev
-  servername: bbb12x.pages.dev
+  server: gostweb.pages.dev
+  servername: gostweb.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 613a7576-c5b6-4cc8-af9f-86bca4d2a4ff
+  uuid: 0fc8e846-71bc-4415-84f4-575fd9ddc375
   ws-opts:
     headers:
-      Host: bbb12x.pages.dev
+      Host: gostweb.pages.dev
     path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88b44962-7f99-4846-9113-6b0624b5a6a4
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 443
+  server: 104.21.62.234
+  servername: 5-M19.sudaN-parK.ccwU.cC
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 5-M19.sUdaN-PArK.ccWu.CC
+    path: /CjBjB9sn5pCvaSwScc
+- client-fingerprint: firefox
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88b44962-7f99-4846-9113-6b0624b5a6a4
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  mode: gun
+  name: 10|🇺🇸 US-8 | 8EB
+  network: grpc
+  port: 9460
+  reality-opts:
+    public-key: rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc
+  server: 91.193.17.234
+  servername: www.google.com
+  serviceName: TunService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+- name: 10|🇺🇸 US-9 | 8EB
+  password: Q3mAdf68GvbGEGqTAXkWjg
+  port: 8443
+  server: 173.249.210.76
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.182.133
+  servername: 2-M13.0Dcb525d-9bF8-452C-A465-5546541729D1.kdnS.FR
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  ws-opts:
+    headers:
+      Host: 2-M13.0DCb525D-9bF8-452c-a465-5546541729d1.kDns.fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 8443
+  server: 8.35.211.171
+  servername: mianfei-73q.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: 104.17.20.39
+  servername: mianfei-73q.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  ws-opts:
+    headers:
+      Host: mianfei-73q.pages.dev
+    path: /proxyip=154.3.33.43
+- name: 11|🇺🇸 US-1 | Mix
+  port: 443
+  server: purecambogiasl.live
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
   server: 52.55.81.168
@@ -100,115 +202,72 @@ proxies:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.208
+  password: None
+  port: 443
+  server: zebpay.site
   tls:
     enabled: true
   type: http
+  username: 'null'
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 11|🇺🇸 US-4 | Mix
-  network: ws
+  network: tcp
   port: 443
-  server: pwdern.pages.dev
-  servername: pwdern.pages.dev
+  reality-opts:
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: 55ab5559e3a6d10a
+  server: 5.34.178.120
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: df4e2af6-5ba8-499b-816c-242fc572acc5
-  ws-opts:
-    headers:
-      Host: pwdern.pages.dev
-    path: /
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
 - name: 11|🇺🇸 US-5 | Mix
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
+  password: None
+  port: 443
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 3DMpEHI94Ic7izl0YBXU
-  port: 8443
-  server: 38.207.163.44
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-9 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
   port: 443
-  server: crosscards.site
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-11 | Mix
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-12 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-13 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
   port: 443
   server: berniesbodybla.fun
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-14 | Mix
-  port: 443
-  server: fan.226278.xyz
+- name: 11|🇺🇸 US-10 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-15 | Mix
-  network: ws
-  port: 443
-  server: tytyo.pages.dev
-  servername: tytyo.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d25bfc5-9cef-4327-90e4-c6b9da8a09cf
-  ws-opts:
-    headers:
-      Host: tytyo.pages.dev
-    path: /
-- name: 11|🇺🇸 US-16 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
