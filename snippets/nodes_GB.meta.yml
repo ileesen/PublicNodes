@@ -7,21 +7,51 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-3 | 8EB
+  name: 10|🇬🇧 GB-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
+    public-key: JjHZYImPLSxYd-hVQ-jazFoAGoveZeb74nNFLH5dAnI
+    short-id: 9b272b275a043c2e
+  server: 31.56.150.8
+  servername: cs605123.vk.me
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
+  uuid: 90fa5ced-3ce8-4f44-b599-fc12efb26be6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: aVgexqDLnJJzvD2O_S-N6qDdzFxSliDEwRkvCUq-khY
+    short-id: 8ae4d97028c57401
+  server: 154.222.132.27
+  servername: cs605123.vk.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90fa5ced-3ce8-4f44-b599-fc12efb26be6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-3 | 8EB
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 3L3i_4b1jo-cCwx3TwIEjjOxQIMm6ysblH3AvTlvgBk
+    short-id: 6ab35813f22b9cea
+  server: 31.56.150.33
+  servername: cs605123.vk.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90fa5ced-3ce8-4f44-b599-fc12efb26be6
 - cipher: chacha20-ietf-poly1305
   name: 11|🇬🇧 GB-1 | Mix
   password: c58d16e593d44f42

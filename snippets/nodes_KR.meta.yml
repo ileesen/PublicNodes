@@ -1,46 +1,53 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: 10|🇰🇷 KR-1 | 8EB
   network: ws
   port: 443
-  server: 110.10.178.240
-  servername: 368v1.urhc.arl.hh.vavava.kdns.fr
+  server: 123.111.169.70
+  servername: vip.868068.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
   ws-opts:
     headers:
-      Host: 368v1.urhc.arl.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: vip.868068.xyz
+    path: /proxyip=us.xiabibi.cf
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇰🇷 KR-2 | 8EB
-  network: ws
-  port: 443
-  server: 140.245.65.122
-  servername: 368v1.urhc.arl.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 368v1.urhc.arl.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇰🇷 KR-3 | 8EB
-  network: tcp
-  port: 443
+  network: grpc
+  port: 10049
   reality-opts:
-    public-key: wrSzVpmEdnTU7oS5UbKuNnvP57Z7cJkOZRBwRqHM_Hk
-    short-id: 6132a3b8dd2d8c6b
-  server: 47.80.61.21
-  servername: www.logitech.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f5851a6e-72da-4e4e-99b2-c79629149503
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 11|🇰🇷 KR-1 | Mix
+  network: grpc
+  packetEncoding: none
+  port: 10048
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7

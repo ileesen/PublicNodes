@@ -1,14 +1,19 @@
 proxies:
-- name: 11|🇭🇰 HK-1 | Mix
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
   port: 443
-  server: hk40.240104.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-2 | Mix
-  port: 10808
-  server: 123.58.219.171
-  type: socks
+  server: 172.67.205.153
+  servername: 1-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 1-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
