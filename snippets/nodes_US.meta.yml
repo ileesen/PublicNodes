@@ -25,8 +25,9 @@ proxies:
   uuid: dc7b1d7a-23ae-436b-996d-23cbfbe8ab8d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-9 | Mix
+  name: 10,11|🇳🇱 NL-4 | Mix
   network: tcp
+  packetEncoding: none
   port: 61592
   reality-opts:
     public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
@@ -40,7 +41,7 @@ proxies:
   uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-17 | Mix
+  name: 10|🇺🇸 US-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -64,13 +65,6 @@ proxies:
   type: vless
   udp: true
   uuid: a4bec43e-8073-4725-b307-47edad331fee
-- name: 10|🇺🇸 US-5 | 8EB
-  password: 31329f25
-  port: 4443
-  server: 198.46.215.223
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
@@ -102,7 +96,7 @@ proxies:
   udp: true
   uuid: bfc203ab-e5b9-42e0-98ef-ca94fb71eb81
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-8 | 8EB
+  name: 10,11|🇺🇸 US-9 | Mix
   network: ws
   port: 443
   server: us15.zuoai.cf
@@ -148,9 +142,8 @@ proxies:
     path: /proxyip=us.xiabibi.cf
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-16 | Mix
+  name: 10|🇺🇸 US-11 | 8EB
   network: tcp
-  packetEncoding: none
   port: 443
   reality-opts:
     public-key: HR3BRJLZP0CBPG3r4aTXk0JhAzkyKoEW8WnW8xtHtCA
@@ -162,136 +155,77 @@ proxies:
   type: vless
   udp: true
   uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
+- name: 10|🇺🇸 US-12 | 8EB
+  password: CompanyHy2_2026!
+  port: 36712
+  server: 38.54.6.46
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
   port: 443
   server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-  username: T2s1dmJtVT06
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: 38.28.193.1
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 443
-  server: nl4.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 11|🇺🇸 US-8 | Mix
-  network: ws
-  port: 443
-  server: store.ubi.com
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 443
-  server: nexusmods.com
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 11|🇺🇸 US-11 | Mix
-  port: 9002
-  server: 138.199.35.203
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-12 | Mix
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-13 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-14 | Mix
-  password: 'null'
+- name: 11|🇺🇸 US-2 | Mix
   port: 443
   server: 52.55.81.168
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
   username: 'null'
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 11|🇺🇸 US-15 | Mix
-  network: grpc
-  packetEncoding: none
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: nsktoer.pages.dev
+  servername: nsktoer.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  uuid: bf96705c-ddd7-4631-9845-670051bae18d
+  ws-opts:
+    headers:
+      Host: nsktoer.pages.dev
+    path: /
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
