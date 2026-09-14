@@ -86,10 +86,16 @@ proxies:
   udp: true
   uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
 - name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-2 | Mix
   port: 10808
   server: 101.36.104.46
   type: socks
-- name: 11|🇯🇵 JP-2 | Mix
+- name: 11|🇯🇵 JP-3 | Mix
   port: 443
   server: fan.587475.xyz
   tls:

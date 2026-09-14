@@ -120,15 +120,9 @@ proxies:
   type: vless
   udp: true
   uuid: 461d2e66-ab97-4b5e-be21-be87e0ad61a6
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 138.201.56.241
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -143,7 +137,7 @@ proxies:
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -158,7 +152,7 @@ proxies:
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 443
   reality-opts:

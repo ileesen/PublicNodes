@@ -190,73 +190,18 @@ proxies:
       Host: mianfei-73q.pages.dev
     path: /proxyip=154.3.33.43
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
   port: 9002
   server: 138.199.35.212
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 7615
-  server: 47.90.206.169
+  port: 8443
+  server: 104.219.236.83
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  password: c2356e22-b026-4f12-8508-cf61f0b0c867
-  port: 4356
-  server: 107.174.255.14
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-7 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EHQEopoNqm2q8R2uu8ffAIpI-k2q-9Z5RUWafETWVGs
-    short-id: b7e4a1c9d3f60528
-  server: 154.84.56.198
-  servername: www.universityofcalifornia.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c44b1db-9b38-4d77-adec-7f549c1770a9
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.209
@@ -264,30 +209,47 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
   port: 9002
   server: 138.199.35.204
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-11 | Mix
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
   port: 9002
   server: 138.199.35.220
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-12 | Mix
-  port: 9002
-  server: 138.199.35.196
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-13 | Mix
+- name: 11|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.208
   tls:
     enabled: true
   type: http
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
