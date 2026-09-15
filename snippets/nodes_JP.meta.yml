@@ -100,19 +100,25 @@ proxies:
   type: vless
   udp: true
   uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-1 | Mix
+  network: ws
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
+  server: 207.148.99.230
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /test/company/library?ed=2560
 - name: 11|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
+  port: 10808
+  server: 101.36.104.239
+  type: socks
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

@@ -9,12 +9,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸172152 | ⚡️Telegram = t.me/S...
-  password: user1
+- name: 9|🇺🇸172415 | ⚡️Telegram = t.me/S...
+  password: 18bd49994f2eea74ff62798bd75fb7d1
   port: 443
-  server: 144.202.99.96
+  server: 107.175.219.48
   skip-cert-verify: true
-  sni: 144.202.99.96
+  sni: 107.175.219.48
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -33,9 +33,8 @@ proxies:
   uuid: dc7b1d7a-23ae-436b-996d-23cbfbe8ab8d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇳🇱 NL-2 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
-  packetEncoding: none
   port: 61592
   reality-opts:
     public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
@@ -73,6 +72,13 @@ proxies:
   type: vless
   udp: true
   uuid: a4bec43e-8073-4725-b307-47edad331fee
+- name: 10|🇺🇸 US-5 | 8EB
+  password: 31329f25
+  port: 4443
+  server: 198.46.215.223
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
@@ -104,7 +110,7 @@ proxies:
   udp: true
   uuid: bfc203ab-e5b9-42e0-98ef-ca94fb71eb81
 - client-fingerprint: chrome
-  name: 10,11|🇺🇸 US-9 | Mix
+  name: 10|🇺🇸 US-8 | 8EB
   network: ws
   port: 443
   server: us15.zuoai.cf
@@ -172,6 +178,100 @@ proxies:
   type: hysteria2
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 9I4kbgR2flpbRraCLQ-C0umbyQO26riRY3-GY-Tp9DE
+    short-id: e67d9a00676f15ac
+  server: us-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  port: 443
+  server: 38.28.193.1
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 11|🇺🇸 US-14 | Mix
   password: None
   port: 9002
   server: 138.199.35.198
@@ -179,54 +279,21 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
   port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
-- name: 11|🇺🇸 US-5 | Mix
-  port: 8443
-  server: 104.219.236.83
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  server: vf670.cc.cd
+  servername: somersby.pt.vf670.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b9ccc8-9a79-4c54-90a6-6b3c85a6f9ae
+  ws-opts:
+    headers:
+      Host: somersby.pt.vf670.cc.cd
+    path: /sg-cntb
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -262,15 +329,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
@@ -286,13 +344,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club
