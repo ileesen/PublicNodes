@@ -25,7 +25,7 @@ proxies:
   uuid: dc7b1d7a-23ae-436b-996d-23cbfbe8ab8d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇳🇱 NL-4 | Mix
+  name: 10,11|🇳🇱 NL-2 | Mix
   network: tcp
   packetEncoding: none
   port: 61592
@@ -164,68 +164,61 @@ proxies:
   type: hysteria2
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: fullmanfirm.icu
+  password: None
+  port: 9002
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: 52.55.81.168
+  port: 9002
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.207
+  port: 443
+  server: 38.28.193.188
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
 - name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
+  port: 8443
+  server: 104.219.236.83
   tls:
     enabled: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
+- name: 11|🇺🇸 US-6 | Mix
   port: 443
-  server: nsktoer.pages.dev
-  servername: nsktoer.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf96705c-ddd7-4631-9845-670051bae18d
-  ws-opts:
-    headers:
-      Host: nsktoer.pages.dev
-    path: /
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-7 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
   port: 9002
   server: 138.199.35.207
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

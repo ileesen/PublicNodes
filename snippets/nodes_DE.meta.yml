@@ -177,8 +177,16 @@ proxies:
   type: vless
   udp: true
   uuid: 1577b744-8004-4eef-862c-8cae0cd27ab9
+- name: 11|🇩🇪 DE-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
 - client-fingerprint: chrome
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: grpc
   port: 4443
   reality-opts:
@@ -191,3 +199,9 @@ proxies:
   type: vless
   udp: true
   uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+- name: 11|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 149.36.50.157
+  tls:
+    enabled: true
+  type: http

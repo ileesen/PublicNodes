@@ -634,7 +634,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #2'
+- name: 9|🇩🇪DE-@VPNine1
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -644,7 +644,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇺US-@VPNine1
+- name: 9|2🏀@oneclickvpnkeys
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: cze-02.node.lumixnet.com
@@ -960,7 +960,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇺🇸7@JKVPN
+  name: 9|🇺7@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1062,7 +1062,6 @@ proxies:
   flow: xtls-rprx-vision
   name: 10,11|🇹🇷 TR-1 | Mix
   network: tcp
-  packetEncoding: none
   port: 9443
   reality-opts:
     public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
@@ -1148,7 +1147,7 @@ proxies:
   udp: true
   uuid: 90fa5ced-3ce8-4f44-b599-fc12efb26be6
 - flow: xtls-rprx-vision
-  name: 10,11|🇳🇱 NL-4 | Mix
+  name: 10,11|🇳🇱 NL-2 | Mix
   network: tcp
   packetEncoding: none
   port: 61592
@@ -1478,7 +1477,7 @@ proxies:
     path: /proxyip=us.xiabibi.cf
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇯🇵 JP-1 | Mix
+  name: 10|🇯🇵 JP-5 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -1519,7 +1518,8 @@ proxies:
   type: vless
   udp: true
   uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
-- name: 10|🇳🇴 NO-2 | 8EB
+- client-fingerprint: firefox
+  name: 10,11|🇳🇴 NO-1 | Mix
   network: tcp
   port: 40443
   reality-opts:
@@ -1588,19 +1588,106 @@ proxies:
   type: vless
   udp: true
   uuid: df9f5aca-eda0-428f-a752-e53866153d12
+- name: 11|🇳🇱 NL-1 | Mix
+  network: ws
+  port: 14443
+  server: pr-media.pepro.site
+  servername: pr-media.pepro.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: /ws
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 11|🇫🇮 FI-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
+    short-id: 2de63d3fd7261b7e
+  server: app-ms-35.ecom-ai-solutions.com
+  servername: assets-ms-35.ecom-ai-solutions.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
+- name: 11|🇭🇰 HK-1 | Mix
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-1 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇯🇵 JP-2 | Mix
+  port: 443
+  server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: T2c9PTo=
+- name: 11|🇺🇸 US-5 | Mix
+  port: 8443
+  server: 104.219.236.83
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 11|🇺🇸 US-6 | Mix
   port: 443
   server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: 52.55.81.168
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
+- name: 11|🇺🇸 US-7 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.207
@@ -1608,15 +1695,35 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11,15|RO_speednode_0045
+- name: 11,15|RO_speednode_0042
   port: 9002
-  server: 193.176.84.17
+  server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+- name: 11|🇺🇸 US-8 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇩🇪 DE-2 | Mix
+  network: grpc
+  port: 4443
+  reality-opts:
+    public-key: nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM
+    short-id: e5f6a1b2
+  server: 5.35.81.60
+  servername: maps.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+- flow: xtls-rprx-vision
   name: 11|🇲🇩 MD-1 | Mix
   network: tcp
   port: 9443
@@ -1630,15 +1737,9 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: 11|🇺🇸 US-4 | Mix
+- name: 11,15|RO_speednode_0044
   port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|RO_speednode_0124
-  port: 9002
-  server: 193.176.84.32
+  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
@@ -1649,136 +1750,9 @@ proxies:
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  network: ws
+- name: 11|🇩🇪 DE-3 | Mix
   port: 443
-  server: nsktoer.pages.dev
-  servername: nsktoer.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf96705c-ddd7-4631-9845-670051bae18d
-  ws-opts:
-    headers:
-      Host: nsktoer.pages.dev
-    path: /
-- name: 11|🇳🇱 NL-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.150
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇩🇪 DE-1 | Mix
-  network: grpc
-  port: 4443
-  reality-opts:
-    public-key: nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM
-    short-id: e5f6a1b2
-  server: 5.35.81.60
-  servername: maps.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇦🇺 AU-1 | Mix
-  port: 443
-  server: 159.13.44.228
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇱🇻 LV-1 | Mix
-  port: 443
-  server: 109.248.147.66
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|NL_speednode_0005
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇨🇭 CH-1 | Mix
-  port: 443
-  server: 31.7.62.50
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Qe5e0FBZwuwYMRYikx8sH5iaowPQwdkn6kgIN8xrQHE
-    short-id: bd0040df20a53b36
-  server: 47.80.62.191
-  servername: www.logitech.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43e60b75-9920-450a-94ee-8762758ca49c
-- name: 11|🇳🇱 NL-3 | Mix
-  password: 'null'
-  port: 443
-  server: 51.158.243.91
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇷🇴 RO-3 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇵🇱 PL-1 | Mix
-  port: 443
-  server: 151.115.54.133
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 443
-  server: fan.587475.xyz
+  server: 149.36.50.157
   tls:
     enabled: true
   type: http
@@ -1917,6 +1891,14 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 15|NL_speednode_0004
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|NL_speednode_0005
+  password: None
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
@@ -2182,13 +2164,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0042
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0043
   port: 9002
   server: 84.239.49.199
@@ -2196,9 +2171,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0044
+- name: 15|RO_speednode_0045
   port: 9002
-  server: 193.176.84.35
+  server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
@@ -2771,6 +2746,13 @@ proxies:
   password: None
   port: 9002
   server: 84.239.49.182
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|RO_speednode_0124
+  port: 9002
+  server: 193.176.84.32
   skip-cert-verify: true
   tls: true
   type: http
