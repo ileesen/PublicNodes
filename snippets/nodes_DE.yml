@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  password: MITIVPN
+  port: 443
+  security: tls
+  server: 167.82.76.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /

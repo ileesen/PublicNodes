@@ -26,87 +26,27 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 207.148.112.220
-  servername: mia9.pages.dev
+  reality-opts:
+    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+    short-id: 21fa8a1ebf
+  server: jp2.miyazono-kaori.com
+  servername: www.capcom.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  ws-opts:
-    headers:
-      Host: mia9.pages.dev
-    path: /TG:@MiaChatChannel
+  uuid: 54e94ee2-22cd-4839-9c95-60d4536bd675
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   port: 443
-  server: auth0.com
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wrSzVpmEdnTU7oS5UbKuNnvP57Z7cJkOZRBwRqHM_Hk
-    short-id: 6132a3b8dd2d8c6b
-  server: 47.80.61.21
-  servername: www.logitech.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5851a6e-72da-4e4e-99b2-c79629149503
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
-    short-id: 41dd2ebdd7e0a61a
-  server: 103.76.85.156
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-- client-fingerprint: chrome
-  name: 11|🇯🇵 JP-1 | Mix
-  network: ws
-  port: 443
   server: 207.148.99.230
   servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -114,11 +54,107 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /test/company/library?ed=2560
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
+    path: /test/company/library
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
+    short-id: 28500ae15838f905
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3a14b3d-8995-4031-a207-32ba5707c1ba
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
+    short-id: 28500ae15838f905
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
+    short-id: 28500ae15838f905
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52e89791-cc65-4cdb-9d3a-7c06df9f6ebd
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
+    short-id: 28500ae15838f905
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
+    short-id: 28500ae15838f905
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: jp-osa.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21bc3d45-9071-44f5-b14b-8f30348a3010
+  ws-opts:
+    headers:
+      Host: jp-osa.xhs152.shop
+    path: /announcement?ed=2048
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 11|🇯🇵 JP-2 | Mix
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  type: vmess
+  udp: true
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

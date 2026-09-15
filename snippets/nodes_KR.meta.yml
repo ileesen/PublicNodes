@@ -1,34 +1,16 @@
 proxies:
-- client-fingerprint: random
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: vip.868068.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  ws-opts:
-    headers:
-      Host: vip.868068.xyz
-    path: /proxyip=us.xiabibi.cf
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: grpc
-  port: 10049
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  uuid: 54e94ee2-22cd-4839-9c95-60d4536bd675

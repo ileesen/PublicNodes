@@ -1,19 +1,102 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 443
-  server: 172.67.205.153
-  servername: 1-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: e3a14b3d-8995-4031-a207-32ba5707c1ba
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52e89791-cc65-4cdb-9d3a-7c06df9f6ebd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: ws
+  port: 443
+  server: 101.96.234.244
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
   ws-opts:
     headers:
-      Host: 1-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 11|🇭🇰 HK-1 | Mix
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
