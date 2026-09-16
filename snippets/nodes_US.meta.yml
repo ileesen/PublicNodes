@@ -9,6 +9,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|[ 🇺🇸 ] | @Cfox_SerVer
+  password: dongtaiwang.com
+  port: 44356
+  server: 142.249.37.90
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
 - client-fingerprint: random
   name: 10|🇺🇸 US-1 | 8EB
   network: ws
@@ -215,40 +223,70 @@ proxies:
     path: /announcement?ed=2048
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
+  port: 443
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: purecambogiasl.live
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
 - name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11,15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.217
+  tls:
+    enabled: true
   type: http
-  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -308,6 +346,13 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club

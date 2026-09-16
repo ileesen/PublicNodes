@@ -190,23 +190,30 @@ proxies:
     headers:
       Host: us-lax.xhs152.shop
     path: /announcement?ed=2048
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
+  reality-opts:
+    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
+    short-id: 01b4986b50245272
+  server: 8.209.217.129
+  servername: www.logitech.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
 - name: 11|🇯🇵 JP-2 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-3 | Mix
   port: 443
   server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-3 | Mix
+  port: 443
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
