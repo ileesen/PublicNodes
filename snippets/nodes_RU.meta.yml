@@ -1,21 +1,31 @@
 proxies:
-- name: 9|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: 9|[ 🇷🇺 ] | @Cfox_SerVer
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: ws
   port: 443
-  server: 144.31.49.138
+  server: 193.233.247.191
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
-  sni: ru1.sferavpn.pro🇷🇺@FreakConfig
-  tls: false
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: ws
+  port: 443
+  server: 104.64.59.22
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048

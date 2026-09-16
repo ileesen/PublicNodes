@@ -10,13 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: 8|DE
-  password: dffb4c3d-1e84-4938-8881-cad917e8efb2
-  port: 443
-  server: de1.apexvpn.space
-  sni: de1.apexvpn.space
-  tls: false
-  type: hysteria2
-- name: '8|DE #1'
   obfs: salamander
   obfs-password: f832485b7363626ee836f58576aad25f
   password: f0098427ecce06a25089f5c18f4ac666
@@ -26,10 +19,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
+- name: 9|@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   port: 443
   server: 162.249.125.133
+  skip-cert-verify: false
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
@@ -53,6 +49,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 2.27.59.206
+  skip-cert-verify: false
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: 9|-🇩🇪 @VConfing
@@ -65,22 +71,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🏀33@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 64.188.98.171
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - name: 9|🏀34@oneclickvpnkeys
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: 130.49.161.70
-  skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@AZARBAYJAB1
@@ -107,26 +111,109 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 54e94ee2-22cd-4839-9c95-60d4536bd675
-- name: 10|🇩🇪 DE-3 | 8EB
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-3 | 8EB
   network: ws
-  password: MITIVPN
   port: 443
-  security: tls
-  server: 167.82.76.7
-  servername: ssl.fastly.com
+  server: 162.159.198.1
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
   ws-opts:
     headers:
-      Host: ssl.fastly.com
-    path: /
-- name: 11|🇩🇪 DE-1 | Mix
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
   port: 443
-  server: 31.76.71.252
-  skip-cert-verify: true
-  sni: gta.internet-card.sbs
-  type: hysteria2
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: 5a9ab320
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
+    short-id: 69cc4c0d5e
+  server: nl2.miyazono-kaori.com
+  servername: www.philips.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  port: 443
+  server: 88.218.193.65
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-10 | 8EB
+  network: ws
+  port: 443
+  server: 185.210.154.123
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-11 | 8EB
+  network: ws
+  port: 2096
+  server: 64.226.95.244
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇩🇪 DE-12 | 8EB
+  network: ws
+  port: 443
+  server: 57.131.149.64
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048

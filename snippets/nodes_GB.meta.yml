@@ -1,54 +1,38 @@
 proxies:
-- name: 8,9|رای ال ای جوین شو TelegramID E...
+- name: 8|英国
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇹🇷 TR-1 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: 52ccb3687fe0b7ec
-  server: 200.165.235.78
-  servername: api8.eaglors.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.111
+  servername: jobinvest.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: tcp
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- client-fingerprint: random
+  name: 10|🇬🇧 GB-4 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
+  server: 77.68.16.137
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 54e94ee2-22cd-4839-9c95-60d4536bd675
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048

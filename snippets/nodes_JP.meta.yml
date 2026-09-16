@@ -31,123 +31,187 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
-    short-id: 21fa8a1ebf
-  server: jp2.miyazono-kaori.com
-  servername: www.capcom.co.jp
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  server: jp3.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 54e94ee2-22cd-4839-9c95-60d4536bd675
-- client-fingerprint: chrome
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- client-fingerprint: random
   name: 10|🇯🇵 JP-2 | 8EB
   network: ws
-  port: 443
-  server: 207.148.99.230
-  servername: cdn8848.776676.xyz
+  port: 2083
+  server: 167.148.6.161
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
   ws-opts:
     headers:
-      Host: cdn8848.776676.xyz
-    path: /test/company/library
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇯🇵 JP-3 | 8EB
   network: tcp
-  port: 20270
+  port: 443
   reality-opts:
-    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
-    short-id: 28500ae15838f905
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e3a14b3d-8995-4031-a207-32ba5707c1ba
-- client-fingerprint: chrome
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- client-fingerprint: random
   name: 10|🇯🇵 JP-4 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
-    short-id: 28500ae15838f905
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  network: ws
+  port: 2053
+  server: 172.237.5.208
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
-- client-fingerprint: chrome
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
-    short-id: 28500ae15838f905
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  network: ws
+  port: 443
+  server: 57.182.89.177
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 52e89791-cc65-4cdb-9d3a-7c06df9f6ebd
-- client-fingerprint: chrome
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: 10|🇯🇵 JP-6 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
-    short-id: 28500ae15838f905
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  network: ws
+  port: 443
+  server: 2.27.134.42
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
-- client-fingerprint: chrome
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: 10|🇯🇵 JP-7 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: l2Wjf_xR2rZYHYmST-zxaYDDj5QhiL9riXa1ozBSjEE
-    short-id: 28500ae15838f905
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  network: ws
+  port: 443
+  server: 101.142.129.72
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
 - client-fingerprint: random
   name: 10|🇯🇵 JP-8 | 8EB
   network: ws
   port: 443
-  server: www.visa.com.hk
-  servername: jp-osa.xhs152.shop
+  server: 82.108.198.121
+  servername: us-lax.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 21bc3d45-9071-44f5-b14b-8f30348a3010
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
   ws-opts:
     headers:
-      Host: jp-osa.xhs152.shop
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-9 | 8EB
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-10 | 8EB
+  network: ws
+  port: 2053
+  server: 103.31.77.108
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-11 | 8EB
+  network: ws
+  port: 443
+  server: 124.156.215.193
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
     path: /announcement?ed=2048
 - name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-2 | Mix
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇯🇵 JP-3 | Mix
   port: 443
   server: fan.587475.xyz
   tls:
     enabled: true
   type: http
 - client-fingerprint: chrome
-  name: 11|🇯🇵 JP-2 | Mix
+  name: 11|🇯🇵 JP-4 | Mix
   network: tcp
   port: 13779
   reality-opts:

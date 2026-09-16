@@ -1,100 +1,109 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e016d072-ed97-40d4-a83f-04c00f8df2a5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: random
   name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3a14b3d-8995-4031-a207-32ba5707c1ba
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52e89791-cc65-4cdb-9d3a-7c06df9f6ebd
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
-- name: 11|🇸🇬 SG-1 | Mix
+  network: ws
   port: 443
-  server: 154.26.139.24
-  tls:
-    enabled: true
-  type: http
+  server: 43.174.195.1
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 443
+  server: 139.162.17.105
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: ws
+  port: 443
+  server: 139.162.40.240
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: ws
+  port: 443
+  server: 172.93.186.166
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  server: 139.177.185.196
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-7 | 8EB
+  network: ws
+  port: 443
+  server: 152.175.67.191
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-8 | 8EB
+  network: ws
+  port: 443
+  server: 103.170.217.60
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

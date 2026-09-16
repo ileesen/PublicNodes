@@ -11,3 +11,48 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-1 | 8EB
+  network: ws
+  port: 443
+  server: 185.195.69.158
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-2 | 8EB
+  network: ws
+  port: 443
+  server: 199.68.196.67
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇨🇭 CH-3 | 8EB
+  network: ws
+  port: 443
+  server: 89.127.196.14
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
