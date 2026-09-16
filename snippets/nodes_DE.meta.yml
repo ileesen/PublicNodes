@@ -55,7 +55,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|@ICV2RAY
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -123,8 +123,10 @@ proxies:
       Host: ssl.fastly.com
     path: /
 - name: 11|🇩🇪 DE-1 | Mix
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
+  server: 31.76.71.252
+  skip-cert-verify: true
+  sni: gta.internet-card.sbs
+  type: hysteria2
+  udp: true

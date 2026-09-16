@@ -142,19 +142,24 @@ proxies:
     path: /announcement?ed=2048
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: fan.571589.xyz
+  server: fan.587475.xyz
   tls:
     enabled: true
   type: http
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 11|🇯🇵 JP-2 | Mix
-  network: http
-  port: 49432
-  server: 38.47.121.14
-  type: vmess
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 202.144.192.76
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
