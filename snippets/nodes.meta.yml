@@ -589,54 +589,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇩🇪 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|VCONFING
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇷 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52031
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '9|-🇷 @VConfing #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52067
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -2532,6 +2484,36 @@ proxies:
       Host: us-lax.xhs152.shop
     path: /announcement?ed=2048
 - client-fingerprint: random
+  name: 10|🇪🇸 ES-1 | 8EB
+  network: ws
+  port: 2053
+  server: 141.227.129.211
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇧🇬 BG-1 | 8EB
+  network: ws
+  port: 443
+  server: 91.215.153.143
+  servername: us-lax.xhs152.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  ws-opts:
+    headers:
+      Host: us-lax.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: 10|🇹🇼 TW-9 | 8EB
   network: ws
   port: 443
@@ -2951,6 +2933,12 @@ proxies:
     headers:
       Host: us-lax.xhs152.shop
     path: /announcement?ed=2048
+- name: 11|🇪🇸 ES-1 | Mix
+  port: 443
+  server: 130.195.250.34
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
   server: 138.199.35.212
@@ -2958,187 +2946,114 @@ proxies:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇧🇩 BD-1 | Mix
-  port: 443
-  server: 35.247.136.78
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.23
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇸🇪 SE-1 | Mix
-  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-  port: 25443
-  server: se-node.rumedia-cdn.com
-  skip-cert-verify: true
-  sni: cf2.rumedia-cdn.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 11|🇹🇼 TW-1 | Mix
-  network: ws
-  port: 443
-  server: 7dba81fc3a0b.oylfmxz.cn
-  tls:
-    enabled: true
-    server_name: 7dba81fc3a0b.oylfmxz.cn
-  type: vmess
-  udp: true
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  ws-opts:
-    headers:
-      Host: 7dba81fc3a0b.oylfmxz.cn
-    path: /
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 11|🇹🇷 TR-1 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
-    short-id: 01b4986b50245272
-  server: 8.209.217.129
-  servername: www.logitech.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
-- name: 11|🇵🇹 PT-1 | Mix
-  port: 443
-  server: 149.22.86.1
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|RO_speednode_0126
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.112
-  servername: jobinvest.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-1 | Mix
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks
-  username: admin
-- name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
   port: 9002
   server: 138.199.35.206
   tls:
     enabled: true
   type: http
+- name: 11,15|RO_speednode_0044
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
+- name: 11|🇷🇴 RO-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.16
+  tls:
+    enabled: true
+  type: http
   username: 'null'
-- name: 11|🇯🇵 JP-4 | Mix
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 202.144.192.76
-  servername: tesla.com
-  skip-cert-verify: false
+- name: 11|🇺🇸 US-3 | Mix
+  port: 443
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.38
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.23
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-7 | Mix
+  password: amazonskr05
+  port: 443
+  server: 3.148.253.102
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 23351
+  server: 185.217.108.229
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /help?ed=2560
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -3530,13 +3445,6 @@ proxies:
 - name: 15|RO_speednode_0043
   port: 9002
   server: 84.239.49.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0044
-  port: 9002
-  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
@@ -4130,6 +4038,13 @@ proxies:
 - name: 15|RO_speednode_0125
   port: 9002
   server: 84.239.49.227
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|RO_speednode_0126
+  port: 9002
+  server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http

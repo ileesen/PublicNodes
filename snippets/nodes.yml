@@ -1,20 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|🇹🇼 TW-1 | Mix
-  network: ws
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-7 | Mix
+  password: amazonskr05
   port: 443
-  server: 7dba81fc3a0b.oylfmxz.cn
-  tls:
-    enabled: true
-    server_name: 7dba81fc3a0b.oylfmxz.cn
-  type: vmess
+  server: 3.148.253.102
+  type: ss
   udp: true
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  ws-opts:
-    headers:
-      Host: 7dba81fc3a0b.oylfmxz.cn
-    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
