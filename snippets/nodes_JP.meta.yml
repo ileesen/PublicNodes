@@ -25,179 +25,109 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
-    short-id: 912d2b581f59fb
-  server: jp3.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 10|🇯🇵 JP-1 | 8EB
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
 - client-fingerprint: random
   name: 10|🇯🇵 JP-2 | 8EB
   network: ws
-  port: 2083
-  server: 167.148.6.161
-  servername: us-lax.xhs152.shop
+  port: 443
+  server: 103.115.18.54
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+      Host: nl-ams.xhs152.shop
+    path: /announcement
+- client-fingerprint: random
   name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
-    short-id: f75fbd5b
-  server: jp4.miyazono-kaori.com
-  servername: www.bandainamcoent.co.jp
+  network: ws
+  port: 2053
+  server: 103.31.77.108
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
+  ws-opts:
+    headers:
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇯🇵 JP-4 | 8EB
   network: ws
-  port: 2053
-  server: 172.237.5.208
-  servername: us-lax.xhs152.shop
+  port: 8443
+  server: 155.248.178.114
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇯🇵 JP-5 | 8EB
   network: ws
   port: 443
-  server: 57.182.89.177
-  servername: us-lax.xhs152.shop
+  server: 137.220.225.111
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
-  server: 2.27.134.42
-  servername: us-lax.xhs152.shop
+  server: 16.76.81.233
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
+      Host: nl-ams.xhs152.shop
+    path: /announcement
+- client-fingerprint: chrome
   name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  port: 443
-  server: 101.142.129.72
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-8 | 8EB
-  network: ws
-  port: 443
-  server: 82.108.198.121
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-9 | 8EB
-  network: ws
-  port: 443
-  server: 103.115.18.54
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-10 | 8EB
   network: ws
   port: 2053
   server: 103.31.77.108
-  servername: us-lax.xhs152.shop
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-11 | 8EB
-  network: ws
-  port: 443
-  server: 124.156.215.193
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: cdn8848.776676.xyz
+    path: /channels/act?ed=2560
 - name: 11|🇯🇵 JP-1 | Mix
-  password: 'null'
   port: 443
-  server: fan.571589.xyz
+  server: fan.587475.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

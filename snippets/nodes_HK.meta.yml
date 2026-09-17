@@ -1,169 +1,143 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: random
   name: 10|🇭🇰 HK-1 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-    short-id: a273e9ee6ac0a466
-  server: hk5.miyazono-kaori.com
-  servername: www.hsbc.com.hk
+  server: 103.101.0.73
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
+  ws-opts:
+    headers:
+      Host: nl-ams.xhs152.shop
+    path: /announcement
+- client-fingerprint: random
   name: 10|🇭🇰 HK-2 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
-    short-id: b81edf7fdee4
-  server: hk3.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
+  server: 103.143.81.178
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
+  ws-opts:
+    headers:
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   port: 443
-  server: 207.57.128.105
-  servername: us-lax.xhs152.shop
+  server: 151.245.90.160
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-4 | 8EB
   network: ws
   port: 443
-  server: 103.143.81.178
-  servername: us-lax.xhs152.shop
+  server: 2.27.132.136
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-5 | 8EB
   network: ws
   port: 443
-  server: 185.92.47.93
-  servername: us-lax.xhs152.shop
+  server: 207.57.131.117
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-6 | 8EB
   network: ws
   port: 8443
-  server: 116.49.177.246
-  servername: us-lax.xhs152.shop
+  server: 23.141.12.134
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-7 | 8EB
   network: ws
-  port: 8443
-  server: 47.76.171.37
-  servername: us-lax.xhs152.shop
+  port: 443
+  server: 193.134.209.123
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-8 | 8EB
   network: ws
   port: 443
-  server: 103.101.0.73
-  servername: us-lax.xhs152.shop
+  server: 38.147.171.13
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
 - client-fingerprint: random
   name: 10|🇭🇰 HK-9 | 8EB
   network: ws
-  port: 8443
-  server: 206.237.8.62
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-10 | 8EB
-  network: ws
   port: 443
-  server: 202.61.72.129
-  servername: us-lax.xhs152.shop
+  server: 209.33.166.49
+  servername: nl-ams.xhs152.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
   ws-opts:
     headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-11 | 8EB
-  network: ws
-  port: 443
-  server: 43.247.134.129
-  servername: us-lax.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-  ws-opts:
-    headers:
-      Host: us-lax.xhs152.shop
-    path: /announcement?ed=2048
+      Host: nl-ams.xhs152.shop
+    path: /announcement
+- name: 11|🇭🇰 HK-1 | Mix
+  port: 10808
+  server: 123.58.219.171
+  type: socks
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
