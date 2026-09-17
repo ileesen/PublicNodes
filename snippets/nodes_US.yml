@@ -1,11 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: amazonskr05
-  port: 443
-  server: 3.148.253.102
-  type: ss
-  udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+  port: 20230
+  security: tls
+  server: us004.421421.xyz
+  servername: www.alibaba.com
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: /
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

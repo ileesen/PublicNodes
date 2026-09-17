@@ -9,12 +9,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|[ 🇺🇸 ] | @Cfox_SerVer
-  password: dongtaiwang.com
-  port: 44356
-  server: 142.249.37.90
-  skip-cert-verify: false
-  sni: hy2.561891.xyz
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇺🇸9@RK_VPS
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52088
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - client-fingerprint: random
@@ -223,66 +227,94 @@ proxies:
     path: /announcement?ed=2048
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
   port: 443
-  server: carolinafreigh.fun
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+  port: 20230
+  security: tls
+  server: us004.421421.xyz
+  servername: www.alibaba.com
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: /
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http
   username: Ok5vbmU=
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: amazonskr05
-  port: 443
-  server: 3.148.253.102
-  type: ss
-  udp: true
 - name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
   password: None
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: jgwynphotoarts.pro
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 11|🇺🇸 US-12 | Mix
+  port: 443
+  server: tzoa.fun
+  tls:
+    enabled: true
+  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -318,15 +350,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
