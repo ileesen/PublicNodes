@@ -135,9 +135,27 @@ proxies:
       Host: nl-ams.xhs152.shop
     path: /announcement
 - name: 11|🇭🇰 HK-1 | Mix
-  port: 10808
-  server: 123.58.219.171
+  password: admin
+  port: 8899
+  server: 47.242.19.215
   type: socks
+  username: admin
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 11|🇭🇰 HK-2 | Mix
+  network: ws
+  port: 443
+  server: 8.222.70.238
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /mall/china/doc?ed=2560
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

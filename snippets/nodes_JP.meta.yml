@@ -9,22 +9,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #1'
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '8|日本 #2'
-  password: 4d6d97a82ddf959252e2ada36c3c3053
-  port: 50160
-  server: 138.2.8.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 10|🇯🇵 JP-1 | 8EB
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -124,10 +108,11 @@ proxies:
     path: /channels/act?ed=2560
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: fan.587475.xyz
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
+  username: bnVsbDpudWxs
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
