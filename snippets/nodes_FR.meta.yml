@@ -1,5 +1,7 @@
 proxies:
 - name: 11|🇫🇷 FR-1 | Mix
-  port: 1088
-  server: 51.178.49.241
-  type: socks
+  port: 443
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http

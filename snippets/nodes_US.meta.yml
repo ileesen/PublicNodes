@@ -1,5 +1,5 @@
 proxies:
-- name: 10,11|🇺🇸 US-4 | Mix
+- name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   password: sg-trojan-2026
   port: 443
@@ -39,50 +39,91 @@ proxies:
   type: vless
   udp: true
   uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+- name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-2 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: webdrone.club
+  tls:
+    enabled: true
+  type: http
+  username: T2s1dmJtVT06
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
   password: 'null'
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
   port: 9002
   server: 138.199.35.218
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-11 | Mix
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.195
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
+- name: 11|🇺🇸 US-13 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.216
   tls:
     enabled: true
   type: http

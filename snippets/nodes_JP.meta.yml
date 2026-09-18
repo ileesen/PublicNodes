@@ -41,29 +41,11 @@ proxies:
   uuid: 6c21e376-607b-45b0-b78d-9757ebfda252
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
   username: bnVsbDpudWxs
-- name: 11|🇯🇵 JP-3 | Mix
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 27102
-  server: jp1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: jp1.xiaoliyu.us
-  type: hysteria2
-  udp: true
-- name: 11|🇯🇵 JP-4 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
