@@ -1,97 +1,13 @@
 proxies:
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-9 | 8EB
-  network: ws
-  port: 443
-  server: 104.194.140.95
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-10 | 8EB
-  network: ws
-  port: 443
-  server: 185.146.234.91
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-11 | 8EB
-  network: ws
-  port: 443
-  server: 18.171.163.34
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-12 | 8EB
-  network: ws
-  port: 443
-  server: 78.141.239.13
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-13 | 8EB
-  network: ws
-  port: 443
-  server: 35.176.75.87
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇬🇧 GB-14 | 8EB
-  network: ws
-  port: 443
-  server: 77.68.16.137
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
 - name: 11|🇬🇧 GB-1 | Mix
+  port: 8443
+  server: 5.101.149.245
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇬🇧 GB-2 | Mix
   port: 443
-  server: 212.102.63.61
+  server: 37.120.233.18
   tls:
     enabled: true
   type: http

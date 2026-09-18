@@ -1,4 +1,21 @@
 proxies:
+- name: 10|🇺🇸 US-1 | 8EB
+  network: tcp
+  password: sg-trojan-2026
+  port: 443
+  security: tls
+  server: 43.173.90.202
+  servername: sg-proxy.local
+  skip-cert-verify: true
+  sni: sg-proxy.local
+  type: trojan
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-6 | Mix
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

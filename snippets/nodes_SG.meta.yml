@@ -1,184 +1,40 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  port: 8581
-  server: 23.249.18.144
-  servername: cdn8848.776676.xyz
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
+    short-id: 9ce6a1a5646c4b4a
+  server: vm02hk.icandrinkmore.beer
+  servername: vm02hk.icandrinkmore.beer
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /channels/act?ed=2560
-- client-fingerprint: random
+  uuid: 413b1c61-4b3d-4e55-9b20-f0f1136b7de6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇸🇬 SG-4 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 103.195.188.192
-  servername: nl-ams.xhs152.shop
+  reality-opts:
+    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
+    short-id: 3d4206ba
+  server: vm03hk.icandrinkmore.beer
+  servername: vm03hk.icandrinkmore.beer
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: ws
+  uuid: 0c4f1825-65c3-4066-9b28-6f5e37ec7c04
+- name: 11|🇸🇬 SG-2 | Mix
   port: 443
-  server: 165.22.99.110
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-6 | 8EB
-  network: ws
-  port: 8443
-  server: 172.104.60.181
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-7 | 8EB
-  network: ws
-  port: 443
-  server: 139.162.17.105
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /channels/act?ed=2560
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-8 | 8EB
-  network: ws
-  port: 8443
-  server: 172.104.186.18
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-9 | 8EB
-  network: ws
-  port: 443
-  server: 139.162.60.149
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /channels/act?ed=2560
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-10 | 8EB
-  network: ws
-  port: 443
-  server: 43.160.241.223
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-11 | 8EB
-  network: ws
-  port: 443
-  server: 89.28.239.43
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-12 | 8EB
-  network: ws
-  port: 443
-  server: 43.160.238.73
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-13 | 8EB
-  network: ws
-  port: 443
-  server: 139.162.41.109
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-14 | 8EB
-  network: ws
-  port: 443
-  server: 152.175.67.191
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
+  server: 154.26.139.24
+  tls:
+    enabled: true
+  type: http
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

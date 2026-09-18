@@ -9,111 +9,36 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇯🇵 JP-1 | 8EB
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
-  port: 443
-  server: 103.115.18.54
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 2053
-  server: 103.31.77.108
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 8443
-  server: 155.248.178.114
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: ws
-  port: 443
-  server: 137.220.225.111
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-6 | 8EB
-  network: ws
-  port: 443
-  server: 16.76.81.233
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
 - client-fingerprint: chrome
-  name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  port: 2053
-  server: 103.31.77.108
-  servername: cdn8848.776676.xyz
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EvZUNS8r5pTse1-wmW7yJSWtsJPvlaaoKckXhQClhTw
+    short-id: d371241af817
+  server: ev01sl.icandrinkmore.beer
+  servername: ev01sl.icandrinkmore.beer
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /channels/act?ed=2560
-- name: 11|🇯🇵 JP-1 | Mix
-  password: 'null'
+  uuid: ac23bacb-a327-4e9c-bedc-fe5cceb3ded6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  reality-opts:
+    public-key: XfHRnisu_jGlKMzQIJwpgWnENvKwxE48X8Sds7SGwQM
+    short-id: 75261f431223
+  server: 23.27.1.241
+  servername: www.shopify.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c21e376-607b-45b0-b78d-9757ebfda252
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

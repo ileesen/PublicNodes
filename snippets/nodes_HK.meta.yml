@@ -1,155 +1,40 @@
 proxies:
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 443
-  server: 103.101.0.73
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
-  port: 443
-  server: 103.143.81.178
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-3 | 8EB
-  network: ws
-  port: 443
-  server: 151.245.90.160
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-4 | 8EB
-  network: ws
-  port: 443
-  server: 2.27.132.136
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-5 | 8EB
-  network: ws
-  port: 443
-  server: 207.57.131.117
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-6 | 8EB
-  network: ws
-  port: 8443
-  server: 23.141.12.134
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-7 | 8EB
-  network: ws
-  port: 443
-  server: 193.134.209.123
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-8 | 8EB
-  network: ws
-  port: 443
-  server: 38.147.171.13
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇭🇰 HK-9 | 8EB
-  network: ws
-  port: 443
-  server: 209.33.166.49
-  servername: nl-ams.xhs152.shop
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc4e46d-9720-4355-93aa-ba7f892c857e
-  ws-opts:
-    headers:
-      Host: nl-ams.xhs152.shop
-    path: /announcement
 - client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  name: 11|🇭🇰 HK-1 | Mix
-  network: ws
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: tcp
   port: 443
-  server: 8.222.70.238
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  reality-opts:
+    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
+    short-id: 9ce6a1a5646c4b4a
+  server: vm02hk.icandrinkmore.beer
+  servername: vm02hk.icandrinkmore.beer
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /mall/china/doc?ed=2560
+  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
+    short-id: 3d4206ba
+  server: vm03hk.icandrinkmore.beer
+  servername: vm03hk.icandrinkmore.beer
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+- name: 11|🇭🇰 HK-1 | Mix
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks
+  username: '111'
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
