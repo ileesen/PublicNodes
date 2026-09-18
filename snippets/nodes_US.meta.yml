@@ -458,62 +458,86 @@ proxies:
     path: /channels/act?ed=2560
 - name: 11|🇺🇸 US-1 | Mix
   port: 443
-  server: berniesbodybla.fun
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
-  server: fullmanfirm.icu
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: 38.28.193.1
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-7 | Mix
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-4 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
   port: 443
-  server: crosscards.site
+  server: webdrone.club
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-10 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: zebpay.site
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -549,15 +573,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
