@@ -1,26 +1,5 @@
 proxies:
-- name: 9|🇺🇸US-@VPNine1
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  password: d4a705d40356ef719212045528e04594
-  port: 443
-  server: 45.149.172.80
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇺🇸9@RK_VPS
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52088
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 10|🇺🇸 US-1 | 8EB
+- name: 10,11|🇺🇸 US-4 | Mix
   network: tcp
   password: sg-trojan-2026
   port: 443
@@ -60,30 +39,18 @@ proxies:
   type: vless
   udp: true
   uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 7615
-  server: 47.90.206.169
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
@@ -91,52 +58,35 @@ proxies:
 - name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-6 | Mix
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.139
-  type: ss
-  udp: true
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  port: 443
-  server: tzoa.fun
-  tls:
-    enabled: true
-  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

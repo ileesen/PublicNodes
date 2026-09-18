@@ -29,12 +29,14 @@ proxies:
   type: vless
   udp: true
   uuid: 0c4f1825-65c3-4066-9b28-6f5e37ec7c04
-- name: 11|🇸🇬 SG-2 | Mix
-  port: 443
-  server: 154.26.139.24
-  tls:
-    enabled: true
-  type: http
+- name: 11|🇸🇬 SG-1 | Mix
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 2052
+  server: sg3.xiaoliyu.us
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.us
+  type: hysteria2
+  udp: true
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
