@@ -40,60 +40,64 @@ proxies:
   udp: true
   uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: fan.596189.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: webdrone.club
+- name: 11|🇺🇸 US-2 | Mix
+  port: 8090
+  server: 209.148.53.153
   tls:
     enabled: true
   type: http
-  username: T2s1dmJtVT06
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇺🇸 US-5 | Mix
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  port: 443
+  server: 107.174.88.128
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-9 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
@@ -101,29 +105,7 @@ proxies:
 - name: 11|🇺🇸 US-10 | Mix
   password: None
   port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  port: 9002
-  server: 138.199.35.210
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-12 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-13 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http

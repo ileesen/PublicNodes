@@ -24,3 +24,16 @@ proxies:
     headers:
       Host: turboo-server.com
     path: /
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 141.17.83.78
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-2 | Mix
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 31.76.71.252
+  sni: gta.internet-card.sbs
+  type: hysteria2
+  udp: true
