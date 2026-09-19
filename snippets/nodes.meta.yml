@@ -95,7 +95,7 @@ proxies:
   server: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '8|未命名 #3'
+- name: 8,11|🇩🇪 DE-1 | Mix
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: gta.internet-card.sbs
@@ -103,6 +103,7 @@ proxies:
   sni: gta.internet-card.sbs
   tls: false
   type: hysteria2
+  udp: true
 - name: '8|咕 #1'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -170,7 +171,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '9| @NOFiLTERING2 |     ش |  | '
+- name: '9| @NOFiLTERING2 | ️    ش | ⚡ | '
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -369,7 +370,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|♾️𝗝𝗼𝗶𝗻➠🆔️@ATLAS_V2VPN🆓️📶‎🛰️552...
+- name: 9|@V2ray_confiig
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -477,7 +478,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇮
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
@@ -487,423 +488,711 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇨🇦 CA-1 | 8EB
-  network: ws
-  port: 443
-  server: 104.21.4.201
-  servername: m16-3.cHiANG-maI2034.kDns.Fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: m16-3.cHiANG-maI2034.kDns.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 10|🇨🇦 CA-2 | 8EB
-  network: ws
-  port: 443
-  server: 172.67.136.68
-  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 199.232.237.79
-  servername: turboo-server.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  ws-opts:
-    headers:
-      Host: turboo-server.com
-    path: /
-- flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-1 | 8EB
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
-    short-id: 9ce6a1a5646c4b4a
-  server: vm02hk.icandrinkmore.beer
-  servername: vm02hk.icandrinkmore.beer
+    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
+    short-id: 848b53fea10a561e
+  server: 45.131.212.39
+  servername: us.lstu.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-2 | 8EB
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+- name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
-    short-id: 3d4206ba
-  server: vm03hk.icandrinkmore.beer
-  servername: vm03hk.icandrinkmore.beer
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+  server: 34.19.91.203
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- client-fingerprint: ios
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+- name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  server: onetrust.com
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇨🇱 CL-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+    short-id: d7676b6a468a03b3
+  server: 34.176.98.128
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.126.67.52
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff62004-b728-4be5-b7e9-5f5c85489921
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg
+    short-id: 2b145d99dc39e2cc
+  server: filetransver-pro.com
+  servername: filetransver-pro.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fa3ded2-4946-45ac-9f39-2a0e501e3d1f
+- grpc-opts:
+    grpc-service-name: vless
+  mode: multi
+  name: 10|🇨🇿 CZ-1 | 8EB
+  network: grpc
+  port: 2085
+  server: 194.87.59.104
+  serviceName: vless
+  type: vless
+  udp: true
+  uuid: 7b07d862-b698-47c1-884b-3e7dd6c8b862
+- client-fingerprint: random
   flow: xtls-rprx-vision
   name: 10|🇮🇳 IN-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
-  server: 150.251.141.28
-  servername: nolan.shhflow.xyz
+    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
+    short-id: d98e7afec9c0c359
+  server: estomin1.vodniki.monster
+  servername: estomin1.vodniki.monster
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-- name: 10|🇮🇳 IN-9 | 8EB
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- name: 10|🇮🇳 IN-4 | 8EB
   network: tcp
   port: 62145
-  server: 84.235.167.104
+  server: 144.21.43.119
   type: vless
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇮🇳 IN-10 | 8EB
-  network: tcp
-  port: 62145
-  server: 84.235.170.215
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 10|🇮🇳 IN-11 | 8EB
-  network: tcp
-  port: 62145
-  server: 84.235.175.116
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EvZUNS8r5pTse1-wmW7yJSWtsJPvlaaoKckXhQClhTw
-    short-id: d371241af817
-  server: ev01sl.icandrinkmore.beer
-  servername: ev01sl.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac23bacb-a327-4e9c-bedc-fe5cceb3ded6
-- flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XfHRnisu_jGlKMzQIJwpgWnENvKwxE48X8Sds7SGwQM
-    short-id: 75261f431223
-  server: 23.27.1.241
-  servername: www.shopify.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c21e376-607b-45b0-b78d-9757ebfda252
-- flow: xtls-rprx-vision
+- grpc-opts:
+    grpc-service-name: vless
+  mode: gun
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EvZUNS8r5pTse1-wmW7yJSWtsJPvlaaoKckXhQClhTw
-    short-id: d371241af817
-  server: ev01sl.icandrinkmore.beer
-  servername: ev01sl.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
+  network: grpc
+  port: 2085
+  server: 104.143.223.56
+  serviceName: vless
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- flow: xtls-rprx-vision
+  uuid: b41bac9b-17f7-469f-9df0-05b09140081b
+- grpc-opts:
+    grpc-service-name: vless
+  mode: gun
   name: 10|🇰🇷 KR-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XfHRnisu_jGlKMzQIJwpgWnENvKwxE48X8Sds7SGwQM
-    short-id: 75261f431223
-  server: 23.27.1.241
-  servername: www.shopify.com
-  skip-cert-verify: false
-  tls: true
+  network: grpc
+  port: 2085
+  server: 104.143.223.67
+  serviceName: vless
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+  uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
 - flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
+  name: 10|🇮🇳 IN-6 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
-    short-id: 9ce6a1a5646c4b4a
-  server: vm02hk.icandrinkmore.beer
-  servername: vm02hk.icandrinkmore.beer
+    public-key: wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8
+    short-id: 2997575f36da5a09
+  server: hyhhuh.mervi.icu
+  servername: hyhhuh.mervi.icu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 413b1c61-4b3d-4e55-9b20-f0f1136b7de6
-- flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
-    short-id: 3d4206ba
-  server: vm03hk.icandrinkmore.beer
-  servername: vm03hk.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c4f1825-65c3-4066-9b28-6f5e37ec7c04
-- name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  password: sg-trojan-2026
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: mitivpn
   port: 443
   security: tls
-  server: 43.173.90.202
-  servername: sg-proxy.local
+  server: 167.82.76.7
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: sg-proxy.local
+  sni: ssl.fastly.com
   type: trojan
-- flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Uz0xzgShyWGvZuEWiI-ZjZjvZnCu1decTX0ZoUfQ_1M
-    short-id: 660fb406fa8566
-  server: vt01sv.icandrinkmore.beer
-  servername: vt01sv.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- flow: xtls-rprx-vision
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: gPPY41--zmQc9awprD6ham87dCgMcROuvvGO1I6H2Ak
-    short-id: cf8401f51268ea
-  server: yy01la.icandrinkmore.beer
-  servername: yy01la.icandrinkmore.beer
+    public-key: wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8
+    short-id: 2997575f36da5a09
+  server: 89.125.43.121
+  servername: hyhhuh.mervi.icu
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇱🇻 LV-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw
+    short-id: 5029592ae5516948
+  server: ciccuc.mervi.icu
+  servername: ciccuc.mervi.icu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.38
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 62145
-  server: 144.21.35.31
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
+    path: /
+- name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 443
+  server: 157.66.26.194
+  servername: nb.lovecf.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  ws-opts:
+    headers:
+      Host: nb.lovecf.ggff.net
+    path: /proxyip=us.xiabibi.cf
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: mail.figmafound.org
+  servername: mail.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- name: 10|🇸🇬 SG-4 | 8EB
+  network: ws
+  port: 443
+  server: cdns.doon.eu.org
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: firefox
+  name: 10|🇮🇳 IN-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+    short-id: ca672c53fbbac555
+  server: 34.15.162.1
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-9 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
+    short-id: d98e7afec9c0c359
+  server: 5.181.201.36
+  servername: estomin1.vodniki.monster
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: 103.139.51.51
+  servername: cloud.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-10 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: 103.139.51.31
+  servername: api.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-11 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: cloud.figmafound.org
+  servername: cloud.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: api.figmafound.org
+  servername: api.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: 103.139.51.41
+  servername: mail.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- name: 10|🇦🇺 AU-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+    short-id: d725f0dd8cce210f
+  server: 34.87.244.111
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+- name: 10|🇸🇬 SG-5 | 8EB
+  network: ws
+  port: 443
+  server: www.wto.org
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇰🇷 KR-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+  server: 34.64.149.137
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+- name: 10|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  server: nrt.xxxxxxxx.nyc.mn
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇸🇬 SG-8 | 8EB
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  port: 443
+  server: 161.118.253.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 10|🇸🇬 SG-9 | 8EB
+  network: ws
+  port: 443
+  server: staticdelivery.nexusmods.com
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇻🇳 VN-1 | 8EB
+  network: ws
+  port: 443
+  server: 157.66.26.194
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /channels/act?ed=2560fp=chrome
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇮🇳 IN-12 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
+    short-id: d110331f200987ae
+  server: finkafsb.finiki.lol
+  servername: finkafsb.finiki.lol
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: 2e124af254a65e7c
+  server: 14ang88.snusoed.baby
+  servername: 14ang88.snusoed.baby
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  server: 2.27.210.32
+  servername: latisha.loozerp.wiki
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
 - name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 209.148.53.153
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 443
-  server: hk40.240104.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇷🇴 RO-2 | Mix
-  password: None
   port: 9002
-  server: 193.176.84.16
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
-  username: 'null'
+- name: 11|🇪🇸 ES-1 | Mix
+  port: 443
+  server: 130.195.250.18
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
   username: 'null'
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-5 | Mix
-  password: 063aee2ed1124285b5d8a8b049e24cba
+- name: 11,15|RO_speednode_0083
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  network: ws
   port: 443
-  server: 107.174.88.128
+  server: 172.67.212.195
+  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- name: 11|🇷🇺 RU-1 | Mix
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  sni: msk.frkn.org
+  type: hysteria2
+  udp: true
+- name: 11|🇭🇰 HK-1 | Mix
+  password: f4927789e58bcd24b6f6
+  port: 10444
+  server: h.zz2233.cyou
+  sni: h.zz2233.cyou
+  type: hysteria2
+  udp: true
+- name: 11|🇫🇮 FI-1 | Mix
+  port: 1080
+  server: 83.147.216.208
+  type: socks
+  username: T2c9PTo=
+- name: 11,15|RO_speednode_0045
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-5 | Mix
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
   type: ss
   udp: true
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.210
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 141.17.83.78
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 31.76.71.252
-  sni: gta.internet-card.sbs
-  type: hysteria2
-  udp: true
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 11|🇨🇿 CZ-1 | Mix
-  port: 443
-  server: 185.216.35.66
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇷🇴 RO-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.16
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
   port: 9002
   server: 138.199.35.201
   tls:
     enabled: true
   type: http
-  username: 'null'
-- alpn:
-  - h2
-  name: 11|🇫🇮 FI-1 | Mix
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- alpn:
-  - h2
-  name: 11|🇫🇮 FI-2 | Mix
-  network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- name: 11|🇦🇹 AT-1 | Mix
+- flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-7 | Mix
   network: tcp
-  port: 20610
+  port: 4443
   reality-opts:
-    public-key: lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI
-    short-id: 1d1a8f9fefeff5e6
-  server: g1.haxat.bestvbest.ir
-  servername: doctor-yab.ir
+    public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
+    short-id: a1b2c3d4e5f6a7b8
+  server: 45.159.79.71
+  servername: sentry.io
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d65a82af-a403-405e-8b7b-27a68b830511
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+- name: 11|🇺🇦 UA-1 | Mix
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
+  server: 104.245.240.9
+  servername: cdn.steamstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 1088
+  server: 51.178.49.241
+  type: socks
+- name: 11,15|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 11|🇸🇪 SE-1 | Mix
+  network: ws
+  port: 2053
+  server: 109.107.155.76
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /tv/member/auth?ed=2560
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1306,13 +1595,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0045
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0046
   port: 9002
   server: 84.239.49.192
@@ -1577,13 +1859,6 @@ proxies:
 - name: 15|RO_speednode_0082
   port: 9002
   server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0083
-  port: 9002
-  server: 193.176.84.25
   skip-cert-verify: true
   tls: true
   type: http
@@ -2049,13 +2324,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 15|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188

@@ -9,42 +9,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EvZUNS8r5pTse1-wmW7yJSWtsJPvlaaoKckXhQClhTw
-    short-id: d371241af817
-  server: ev01sl.icandrinkmore.beer
-  servername: ev01sl.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac23bacb-a327-4e9c-bedc-fe5cceb3ded6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XfHRnisu_jGlKMzQIJwpgWnENvKwxE48X8Sds7SGwQM
-    short-id: 75261f431223
-  server: 23.27.1.241
-  servername: www.shopify.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c21e376-607b-45b0-b78d-9757ebfda252
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

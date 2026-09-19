@@ -9,31 +9,62 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 199.232.237.79
-  servername: turboo-server.com
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  ws-opts:
-    headers:
-      Host: turboo-server.com
-    path: /
-- name: 11|🇩🇪 DE-1 | Mix
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
   port: 443
-  server: 141.17.83.78
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 31.76.71.252
-  sni: gta.internet-card.sbs
-  type: hysteria2
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: 103.139.51.51
+  servername: cloud.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: api.figmafound.org
+  servername: api.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24
+    short-id: 711ad7f475c35e5e
+  server: 103.139.51.41
+  servername: mail.figmafound.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6

@@ -1,114 +1,162 @@
 proxies:
-- name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  password: sg-trojan-2026
-  port: 443
-  security: tls
-  server: 43.173.90.202
-  servername: sg-proxy.local
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: Uz0xzgShyWGvZuEWiI-ZjZjvZnCu1decTX0ZoUfQ_1M
-    short-id: 660fb406fa8566
-  server: vt01sv.icandrinkmore.beer
-  servername: vt01sv.icandrinkmore.beer
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+  server: 34.19.91.203
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- client-fingerprint: chrome
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 167.82.76.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: gPPY41--zmQc9awprD6ham87dCgMcROuvvGO1I6H2Ak
-    short-id: cf8401f51268ea
-  server: yy01la.icandrinkmore.beer
-  servername: yy01la.icandrinkmore.beer
+    public-key: wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8
+    short-id: 2997575f36da5a09
+  server: 89.125.43.121
+  servername: hyhhuh.mervi.icu
   skip-cert-verify: false
+  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
+    path: /
 - name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 209.148.53.153
+  port: 9002
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
   username: 'null'
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-5 | Mix
-  password: 063aee2ed1124285b5d8a8b049e24cba
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
   port: 443
-  server: 107.174.88.128
+  server: 172.67.212.195
+  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-5 | Mix
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
   type: ss
   udp: true
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.210
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
-  password: None
   port: 9002
   server: 138.199.35.201
   tls:
     enabled: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-7 | Mix
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
+    short-id: a1b2c3d4e5f6a7b8
+  server: 45.159.79.71
+  servername: sentry.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
   username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -257,13 +305,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 15|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188

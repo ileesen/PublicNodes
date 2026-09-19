@@ -1,42 +1,117 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
-    short-id: 9ce6a1a5646c4b4a
-  server: vm02hk.icandrinkmore.beer
-  servername: vm02hk.icandrinkmore.beer
+  server: onetrust.com
+  servername: sg.hejmx.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 413b1c61-4b3d-4e55-9b20-f0f1136b7de6
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
-    short-id: 3d4206ba
-  server: vm03hk.icandrinkmore.beer
-  servername: vm03hk.icandrinkmore.beer
+  server: saas.sin.fan
+  servername: sg.hejmx.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0c4f1825-65c3-4066-9b28-6f5e37ec7c04
-- name: 11|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
   port: 443
-  server: 146.70.29.45
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+  server: cf.877774.xyz
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: ws
+  port: 443
+  server: cdns.doon.eu.org
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: ws
+  port: 443
+  server: www.wto.org
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: ws
+  port: 443
+  server: nrt.xxxxxxxx.nyc.mn
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
+- name: 10|🇸🇬 SG-8 | 8EB
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  port: 443
+  server: 161.118.253.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-9 | 8EB
+  network: ws
+  port: 443
+  server: staticdelivery.nexusmods.com
+  servername: sg.hejmx.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+  ws-opts:
+    headers:
+      Host: sg.hejmx.com
+    path: /ws-cdn
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

@@ -1,31 +1,46 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-1 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 104.21.4.201
-  servername: m16-3.cHiANG-maI2034.kDns.Fr
+  reality-opts:
+    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
+    short-id: 848b53fea10a561e
+  server: 45.131.212.39
+  servername: us.lstu.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: m16-3.cHiANG-maI2034.kDns.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- client-fingerprint: chrome
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-2 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 172.67.136.68
-  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+  reality-opts:
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: 2e124af254a65e7c
+  server: 14ang88.snusoed.baby
+  servername: 14ang88.snusoed.baby
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  server: 2.27.210.32
+  servername: latisha.loozerp.wiki
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b

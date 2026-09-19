@@ -1,19 +1,37 @@
 proxies:
-- name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  password: sg-trojan-2026
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: mitivpn
   port: 443
   security: tls
-  server: 43.173.90.202
-  servername: sg-proxy.local
+  server: 167.82.76.7
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: sg-proxy.local
+  sni: ssl.fastly.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 US-5 | Mix
-  password: 063aee2ed1124285b5d8a8b049e24cba
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  password: mitivpn
   port: 443
-  server: 107.174.88.128
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
+    path: /
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-5 | Mix
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
   type: ss
   udp: true
 - cipher: aes-256-gcm

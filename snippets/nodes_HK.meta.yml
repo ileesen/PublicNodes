@@ -1,40 +1,26 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-1 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: LuAgxjEaPHyHOwuf8VC41WjSva6TK0qkYd7SCvT_2DM
-    short-id: 9ce6a1a5646c4b4a
-  server: vm02hk.icandrinkmore.beer
-  servername: vm02hk.icandrinkmore.beer
+  server: 157.66.26.194
+  servername: nb.lovecf.ggff.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: y28EiIcfSShSD7md-W43wWw2pNg8zFpRdDJP-QZpIwo
-    short-id: 3d4206ba
-  server: vm03hk.icandrinkmore.beer
-  servername: vm03hk.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  ws-opts:
+    headers:
+      Host: nb.lovecf.ggff.net
+    path: /proxyip=us.xiabibi.cf
 - name: 11|🇭🇰 HK-1 | Mix
-  port: 443
-  server: hk40.240104.xyz
-  tls:
-    enabled: true
-  type: http
+  password: f4927789e58bcd24b6f6
+  port: 10444
+  server: h.zz2233.cyou
+  sni: h.zz2233.cyou
+  type: hysteria2
+  udp: true
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

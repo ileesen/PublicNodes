@@ -1,31 +1,37 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- grpc-opts:
+    grpc-service-name: vless
+  mode: gun
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EvZUNS8r5pTse1-wmW7yJSWtsJPvlaaoKckXhQClhTw
-    short-id: d371241af817
-  server: ev01sl.icandrinkmore.beer
-  servername: ev01sl.icandrinkmore.beer
-  skip-cert-verify: false
-  tls: true
+  network: grpc
+  port: 2085
+  server: 104.143.223.56
+  serviceName: vless
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  uuid: b41bac9b-17f7-469f-9df0-05b09140081b
+- grpc-opts:
+    grpc-service-name: vless
+  mode: gun
   name: 10|🇰🇷 KR-2 | 8EB
+  network: grpc
+  port: 2085
+  server: 104.143.223.67
+  serviceName: vless
+  type: vless
+  udp: true
+  uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: XfHRnisu_jGlKMzQIJwpgWnENvKwxE48X8Sds7SGwQM
-    short-id: 75261f431223
-  server: 23.27.1.241
-  servername: www.shopify.com
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+  server: 34.64.149.137
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 426efb2b-e6d9-45ed-8e4b-dc1a3bef3cc8
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
