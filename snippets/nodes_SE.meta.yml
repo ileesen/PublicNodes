@@ -1,17 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix
-  network: ws
-  port: 2053
-  server: 109.107.155.76
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+    short-id: fb442438e2223836
+  server: svvedko.nxxzxaw.beer
+  servername: svvedko.nxxzxaw.beer
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /tv/member/auth?ed=2560
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b

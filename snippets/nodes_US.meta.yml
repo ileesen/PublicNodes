@@ -58,105 +58,46 @@ proxies:
       Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
     path: /
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.196
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
+  port: 443
+  server: jgwynphotoarts.pro
   tls:
     enabled: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 443
-  server: 172.67.212.195
-  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-5 | Mix
-  password: amazonskr05
-  port: 443
-  server: 3.148.195.154
-  type: ss
-  udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-7 | Mix
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
-    short-id: a1b2c3d4e5f6a7b8
-  server: 45.159.79.71
-  servername: sentry.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-- name: 11|🇺🇸 US-8 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.217
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0140
+- name: 11|🇺🇸 US-7 | Mix
   password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
   type: http
-  udp: true
   username: 'null'
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -305,6 +246,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 15|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188

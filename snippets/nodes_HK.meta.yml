@@ -14,13 +14,36 @@ proxies:
     headers:
       Host: nb.lovecf.ggff.net
     path: /proxyip=us.xiabibi.cf
-- name: 11|🇭🇰 HK-1 | Mix
-  password: f4927789e58bcd24b6f6
-  port: 10444
-  server: h.zz2233.cyou
-  sni: h.zz2233.cyou
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
+    short-id: a273e9ee6ac0a466
+  server: hk5.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
