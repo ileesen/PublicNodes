@@ -81,12 +81,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|嘎嘎 #1'
+- name: 8,11|🇷🇺 RU-1 | Mix
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: true
   tls: false
   type: hysteria2
+  udp: true
 - name: '8|未命名 #3'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -118,7 +120,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '8|未命名 #6'
+- name: 8,9|176534 | ⚡️Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -134,6 +136,14 @@ proxies:
   port: 36758
   server: 91.142.73.159
   skip-cert-verify: true
+  sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 9|@awlix_ir
+  obfs-password: dzcb7hv6i2kx2zze
+  password: 5bcodmhjtyfyyrqh
+  port: 36758
+  server: awlix1.pcjxq.digital
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
@@ -187,15 +197,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|33@oneclickvpnkeys
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 151.247.197.253
-  skip-cert-verify: true
-  sni: 151.247.197.253
-  tls: false
-  type: hysteria2
-- name: '9|@proxy_kafee : کانال تلگرام'
+- name: 9|@filembad
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -444,7 +446,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇮
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
@@ -621,9 +623,8 @@ proxies:
   type: vless
   udp: true
   uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-5 | Mix
+- flow: xtls-rprx-vision
+  name: 10,11|🇺🇸 US-6 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -856,7 +857,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
-- name: 10,11|🇦🇺 AU-1 | Mix
+- name: 10|🇦🇺 AU-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -883,7 +884,7 @@ proxies:
     headers:
       Host: sg.hejmx.com
     path: /ws-cdn
-- name: 10,11|🇰🇷 KR-1 | Mix
+- name: 10|🇰🇷 KR-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -948,7 +949,7 @@ proxies:
     path: /channels/act?ed=2560fp=chrome
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 10|🇮🇳 IN-12 | 8EB
+  name: 10,11|🇫🇮 FI-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -992,16 +993,20 @@ proxies:
   udp: true
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.196
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
-- name: 11|🇫🇮 FI-1 | Mix
+  username: testuser1
+- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
-  port: 1080
-  server: 83.147.216.208
-  type: socks
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
   username: 'null'
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
@@ -1009,175 +1014,101 @@ proxies:
   tls:
     enabled: true
   type: http
-- name: 11|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 62145
-  server: 92.5.225.155
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 11|🇸🇪 SE-1 | Mix
-  network: tcp
+- name: 11|🇺🇸 US-3 | Mix
   port: 443
-  reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  server: svvedko.nxxzxaw.beer
-  servername: svvedko.nxxzxaw.beer
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- name: 11|🇨🇭 CH-1 | Mix
-  port: 443
-  server: 31.7.62.50
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
+- name: 11,15|RO_speednode_0045
   port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: 'null'
+  udp: true
 - flow: xtls-rprx-vision
   name: 11|🇯🇵 JP-2 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: RdPJ9Hi1_cAukHmStoK7t8SLI9jK8PauM-5SHOl4mUM
-    short-id: 54d32412739b2de5
-  server: 8.211.175.129
-  servername: www.logitech.com
+    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
+    short-id: 973bd4f3d8d217fd
+  server: 8.209.248.218
+  servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8779033b-a16a-4a7b-8767-d1980008d82a
-- name: 11|🇩🇪 DE-1 | Mix
-  network: grpc
-  port: 10443
-  reality-opts:
-    public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
-  server: shprcdn.quest
-  servername: shprcdn.quest
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: jgwynphotoarts.pro
+  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
+- name: 11|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
-- name: 11|🇦🇺 AU-2 | Mix
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 6103
+  server: 87.98.174.157
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇫🇮 FI-2 | Mix
+  port: 1080
+  server: 83.147.216.208
+  type: socks
+  username: bnVsbDpudWxs
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.26
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇳🇱 NL-1 | Mix
+  port: 9002
+  server: 84.17.47.147
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇦🇺 AU-1 | Mix
   port: 443
   server: 159.13.44.228
   tls:
     enabled: true
   type: http
-- flow: xtls-rprx-vision
-  name: 11|🇲🇾 MY-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
-    short-id: ed77ac35a310
-  server: my2.miyazono-kaori.com
-  servername: www.setel.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.216
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 11|🇹🇷 TR-1 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-3 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-    short-id: ea6b43
-  server: hk4.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-- flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-    short-id: ddcd71ec09e5893a
-  server: sg3.miyazono-kaori.com
-  servername: www.changiairport.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-    short-id: a273e9ee6ac0a466
-  server: hk5.miyazono-kaori.com
-  servername: www.hsbc.com.hk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
 - name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: lyra.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: 11|🇷🇴 RO-3 | Mix
   password: None
   port: 9002
-  server: 138.199.35.219
+  server: 193.176.84.33
   tls:
     enabled: true
   type: http
@@ -1595,13 +1526,6 @@ proxies:
 - name: 15|RO_speednode_0044
   port: 9002
   server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0045
-  port: 9002
-  server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http

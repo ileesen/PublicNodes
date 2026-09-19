@@ -58,47 +58,62 @@ proxies:
       Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
     path: /
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.196
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
+  username: testuser1
 - name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.213
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
   port: 443
-  server: jgwynphotoarts.pro
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-6 | Mix
+- name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
-  username: 'null'
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: lyra.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

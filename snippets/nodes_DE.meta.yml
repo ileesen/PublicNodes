@@ -9,16 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-@VPNine1
-  obfs: salamander
-  obfs-password: ue1s9nuqmy5fd9j5
-  password: hdgvcjrpa23fi9bk
-  port: 53033
-  server: mirage.ehsanazizi-speed-server.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-1 | 8EB
@@ -78,16 +68,3 @@ proxies:
   type: vless
   udp: true
   uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-1 | Mix
-  network: grpc
-  port: 10443
-  reality-opts:
-    public-key: KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k
-  server: shprcdn.quest
-  servername: shprcdn.quest
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30
