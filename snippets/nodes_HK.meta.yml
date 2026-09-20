@@ -16,7 +16,7 @@ proxies:
     path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-2 | 8EB
+  name: 10,11|🇭🇰 HK-4 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -44,84 +44,52 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
     path: /proxyip=us.xiabibi.cf
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 29827
-  reality-opts:
-    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
-  server: 45.144.137.215
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 11|🇭🇰 HK-1 | Mix
+  obfs: salamander
+  obfs-password: yalx0jCCiWDGCwK5WizqUr6N
+  password: yalx0jCCiWDGCwK5WizqUr6N
+  port: 51887
+  server: 103.158.117.74
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 45838
+  port: 24681
   reality-opts:
-    public-key: uXR_8HuoykVpZgv9r27qlbwUsL8dOIg5wFbnWybA5Fg
-  server: 45.145.229.198
+    public-key: t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4
+  server: 38.207.177.203
   servername: aws.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 01556b48-8cbc-47f6-8967-ff8f46cf7e77
+  uuid: 5d2a0ea5-9563-4778-aed4-c97ec0e5f2a8
 - name: 11|🇭🇰 HK-3 | Mix
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 52645
+  server: 82.152.160.221
   skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  type: anytls
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-4 | Mix
-  network: tcp
-  port: 54030
-  reality-opts:
-    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
-  server: 103.143.81.60
-  servername: www.ebay.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 322c0364-b447-45c2-a27c-250376170dc0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-5 | Mix
   network: tcp
-  port: 40229
+  port: 14738
   reality-opts:
-    public-key: NdYhIYluMQg_VZTxYc9DtlCWl6bNDXS421HBsTECaBE
-  server: 193.134.211.12
-  servername: www.cloudflare.com
+    public-key: 9fmJUGDBBcdT0WITLiZtF7mKKDnzfQ8kvBj0r5nIZyc
+  server: 68.64.180.244
+  servername: dash.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fd33946a-ad66-48bb-bece-36a19009a20e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-6 | Mix
-  network: tcp
-  port: 50045
-  reality-opts:
-    public-key: cxzKVlA9i0WAztJ9QJ0v4nactMJKLXDyzJd00hBFGQ4
-  server: 68.64.183.49
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72f59ca4-df5d-4ab1-af97-3e0a10ba56fd
+  uuid: 416c5142-667c-4213-a826-02185a3030b3
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

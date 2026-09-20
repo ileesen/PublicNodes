@@ -62,27 +62,9 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
     path: /
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 443
-  server: 149.36.50.157
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-3 | Mix
-  port: 9443
-  server: 87.249.132.97
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-4 | Mix
-  port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-5 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
