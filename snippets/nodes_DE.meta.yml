@@ -9,53 +9,89 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
-  port: 58004
-  reality-opts:
-    public-key: K0YqEx8WBYO11acXtUPCJSnmpmgEReVIVJ9-L7oFLS0
-    short-id: 112b3b17
-  server: www.aisearch66.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  port: 19128
-  reality-opts:
-    public-key: K0YqEx8WBYO11acXtUPCJSnmpmgEReVIVJ9-L7oFLS0
-    short-id: 112b3b17
-  server: 213.179.69.128
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- name: 10|🇩🇪 DE-3 | 8EB
-  password: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  port: 49021
-  server: germary.jpyh123.uk
+- name: 10|🇩🇪 DE-1 | 8EB
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.8
+  skip-cert-verify: true
+  sni: hopp-germany-new.ddnsguru.com
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: 4d14da19b19cfc8c
-  server: 162.55.242.208
-  servername: www.cloudflare.com
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-11 | 8EB
+  network: ws
+  port: 8443
+  server: 132.243.203.218
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /v?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-12 | 8EB
+  network: ws
+  port: 443
+  server: 103.109.234.61
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-13 | 8EB
+  network: ws
+  port: 8443
+  server: 150.241.101.102
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 443
+  server: 149.36.50.157
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-3 | Mix
+  port: 9443
+  server: 87.249.132.97
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-4 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-5 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: 59eee550a1014198
+  server: de10.delivery-4f1c.com
+  servername: de10.delivery-4f1c.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0

@@ -1,186 +1,212 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 23.149.60.45
-  servername: www.tesla.com
+  network: ws
+  port: 443
+  server: www.terence-tunnel.org
+  servername: www.terence-tunnel.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 23.149.60.57
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
+  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
+  ws-opts:
+    headers:
+      Host: www.terence-tunnel.org
+    path: /tunnel
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 8443
+  server: 45.62.106.145
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+  uuid: a3054186-5e1d-4c95-a849-a79ee1e447b2
+  ws-opts:
+    headers:
+      Host: 45.62.106.145
+    path: /vless-ws
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 23.149.60.220
-  servername: www.tesla.com
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+  uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-4 | 8EB
   network: tcp
-  port: 2053
+  port: 443
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 23.149.60.180
-  servername: www.tesla.com
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+  server: 34.85.179.6
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: safari
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-5 | 8EB
   network: tcp
-  port: 2053
+  port: 40443
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 166.0.17.114
-  servername: www.tesla.com
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: lyra.yokkastars.com
+  servername: deepl.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: edge
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: SUYwQs0-9DA2Cv2y5vkALqF1LF24lvXrASi9Um8LhVM
-    short-id: ba095252
-  server: 34.20.239.142
-  servername: www.tesla.com
+    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
+    short-id: 65557338e1cd5605
+  server: 45.152.113.206
+  servername: 1.ru.oncloudnineservicestreang.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+- client-fingerprint: ios
   name: 10|🇺🇸 US-7 | 8EB
   network: tcp
-  port: 16692
+  port: 8443
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  server: 103.72.5.57
-  servername: www.tesla.com
+    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
+    short-id: 407f4d9be75efc56
+  server: 31.77.7.122
+  servername: www.nokia.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
+- client-fingerprint: ios
+  name: 10,11|🇫🇮 FI-2 | Mix
+  network: tcp
+  port: 2087
+  reality-opts:
+    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
+    short-id: 407f4d9be75efc56
+  server: 31.77.7.122
+  servername: www.nokia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
+- name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  password: MiTIVPN
+  port: 443
+  security: tls
+  server: 151.101.56.56
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: kz3.zuoai.cf
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 52413
+  server: 108.181.6.53
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
 - name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.216
+  port: 443
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  skip-cert-verify: true
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-4 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - name: 11|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
   port: 9002
   server: 138.199.35.204
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  password: None
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 104.21.62.195
+  servername: 3.qq1-0.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb53f904-c979-454f-bf43-621990008148
+  ws-opts:
+    headers:
+      Host: 3.qq1-0.kdns.fr
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-10 | Mix
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -357,6 +383,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

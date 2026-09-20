@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇸🇪 SE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dAywk2CpVoA14GcQBWxgkamea0yaLkF6jUmy4--vHAU
+    short-id: fd
+  server: 185.231.103.20
+  servername: se.convexia.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89104901-966e-4c7e-8e83-99d8712c5417

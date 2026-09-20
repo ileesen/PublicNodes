@@ -1,31 +1,16 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇨🇦 CA-1 | 8EB
-  network: tcp
-  port: 13058
-  reality-opts:
-    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
-    short-id: 2ae5a06c
-  server: www.aisearch66.com
-  servername: www.cloudflare.com
+  network: ws
+  port: 2087
+  server: 172.64.53.60
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: tcp
-  port: 16666
-  reality-opts:
-    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
-    short-id: 2ae5a06c
-  server: 104.234.240.209
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /

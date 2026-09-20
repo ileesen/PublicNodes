@@ -1,93 +1,19 @@
 proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: sq7A8jP_GJvjihr99JE3RRsV3P3ICD-z96dM0iIc9Sw
-    short-id: 451f2fc6
-  server: 35.185.177.23
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: UadQYKUcYJNEsxcOo_SZ9BpCJsD3K2rOyTYxUCiRfC4
-    short-id: d652ff80
-  server: 136.85.69.11
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 3p7-kd_Di6CwEB48XfYReaMxfwQNxOL9M7kJVuadulo
-    short-id: f73d373e
-  server: 34.124.160.220
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-4 | 8EB
-  network: tcp
+- name: 10|🇸🇬 SG-1 | 8EB
+  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
   port: 443
-  reality-opts:
-    public-key: LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM
-    short-id: 0eb59680
-  server: xjptmp.deepfind.site
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 165.154.193.165
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: tcp
-  port: 14592
-  reality-opts:
-    public-key: LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM
-    short-id: 0eb59680
-  server: www.aisearch66.com
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 10|🇸🇬 SG-3 | 8EB
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  port: 443
+  server: 161.118.253.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 20003
-  reality-opts:
-    public-key: MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4
-    short-id: 43ebaa76bdeab867
-  server: 106.75.137.66
-  servername: cache.video.iqiyi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: efbd22e5-1fd7-4c50-a41d-279915d89b66
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

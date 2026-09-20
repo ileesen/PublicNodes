@@ -1,31 +1,17 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 10|🇹🇼 TW-1 | 8EB
-  network: tcp
-  port: 60531
-  reality-opts:
-    public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg
-    short-id: 1be9ffe7d5
-  server: www.aisearch66.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  network: ws
+  port: 443
+  server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  tls:
+    enabled: true
+    server_name: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  type: vmess
   udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇹🇼 TW-2 | 8EB
-  network: tcp
-  port: 60011
-  reality-opts:
-    public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg
-    short-id: 1be9ffe7d5
-  server: 210.79.155.98
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+    path: /
