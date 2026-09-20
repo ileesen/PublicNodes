@@ -16,7 +16,7 @@ proxies:
     path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-4 | Mix
+  name: 10|🇭🇰 HK-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -44,52 +44,34 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
     path: /proxyip=us.xiabibi.cf
-- name: 11|🇭🇰 HK-1 | Mix
-  obfs: salamander
-  obfs-password: yalx0jCCiWDGCwK5WizqUr6N
-  password: yalx0jCCiWDGCwK5WizqUr6N
-  port: 51887
-  server: 103.158.117.74
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-1 | Mix
   network: tcp
-  port: 24681
+  port: 30852
   reality-opts:
-    public-key: t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4
-  server: 38.207.177.203
-  servername: aws.amazon.com
+    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
+  server: 207.57.135.42
+  servername: www.paypal.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d2a0ea5-9563-4778-aed4-c97ec0e5f2a8
-- name: 11|🇭🇰 HK-3 | Mix
-  password: fcc91034-a05d-4da1-ab38-422b21987ff9
-  port: 52645
-  server: 82.152.160.221
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
+  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-5 | Mix
+  name: 11|🇭🇰 HK-2 | Mix
   network: tcp
-  port: 14738
+  port: 46042
   reality-opts:
-    public-key: 9fmJUGDBBcdT0WITLiZtF7mKKDnzfQ8kvBj0r5nIZyc
-  server: 68.64.180.244
+    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
+  server: 38.147.171.99
   servername: dash.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 416c5142-667c-4213-a826-02185a3030b3
+  uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

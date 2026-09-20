@@ -578,7 +578,7 @@ proxies:
     path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-4 | Mix
+  name: 10|🇭🇰 HK-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -774,7 +774,7 @@ proxies:
   uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-7 | Mix
+  name: 10|🇺🇸 US-5 | 8EB
   network: tcp
   port: 40443
   reality-opts:
@@ -1266,100 +1266,154 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.22
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: mmgr.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-1 | Mix
-  obfs: salamander
-  obfs-password: yalx0jCCiWDGCwK5WizqUr6N
-  password: yalx0jCCiWDGCwK5WizqUr6N
-  port: 51887
-  server: 103.158.117.74
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
+  password: None
+  port: 9002
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: T2c9PTo=
+- name: 11|🇪🇸 ES-1 | Mix
+  port: 1083
+  server: 161.35.90.93
+  type: socks
+- name: 11|🇯🇵 JP-2 | Mix
+  password: 'null'
   port: 443
-  server: purecambogiasl.live
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇩🇰 DK-1 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
   port: 443
-  server: 185.245.84.50
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.210
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 24681
-  reality-opts:
-    public-key: t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4
-  server: 38.207.177.203
-  servername: aws.amazon.com
+  server: 104.21.87.109
+  servername: 7-m16.PhUkEt2035.kdNS.fr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d2a0ea5-9563-4778-aed4-c97ec0e5f2a8
-- name: 11|🇺🇸 US-8 | Mix
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.PhUkEt2035.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-3 | Mix
   port: 9002
   server: 138.199.35.204
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-9 | Mix
-  password: fcc91034-a05d-4da1-ab38-422b21987ff9
-  port: 50979
-  server: 108.181.8.138
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
+- name: 11|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 30852
+  reality-opts:
+    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
+  server: 207.57.135.42
+  servername: www.paypal.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 11|🇺🇸 US-10 | Mix
+  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: gesmankos.sadiepinki.com
+  servername: gesmankos.sadiepinki.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 46042
+  reality-opts:
+    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
+  server: 38.147.171.99
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
+- name: 11|🇮🇹 IT-1 | Mix
+  port: 443
+  server: 93.42.177.250
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: random
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 2096
+  server: de3-node.rumedia-cdn.com
+  servername: st3f6d.rumedia-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  ws-opts:
+    headers:
+      Host: st3f6d.rumedia-cdn.com
+    path: /cdn/v3/live
+- flow: xtls-rprx-vision
+  name: 11|🇹🇷 TR-1 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+  server: 13.143.137.164
+  servername: plaincanvas.videoclothing.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+- alpn:
+  - http/1.1
+  name: 11|🇹🇼 TW-1 | Mix
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: 6ivh.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 11|🇺🇸 US-4 | Mix
   network: ws
   port: 443
   server: 104.21.62.195
-  servername: 5.qq1-0.kdns.fr
+  servername: 3.qq1-0.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
@@ -1367,74 +1421,18 @@ proxies:
   uuid: cb53f904-c979-454f-bf43-621990008148
   ws-opts:
     headers:
-      Host: 5.qq1-0.kdns.fr
+      Host: 3.qq1-0.kdns.fr
     path: /LNbYtR09FXg1AmmjhdiHvR8v
-- name: 11|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇷🇴 RO-3 | Mix
-  port: 9002
-  server: 193.176.84.21
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-3 | Mix
-  password: fcc91034-a05d-4da1-ab38-422b21987ff9
-  port: 52645
-  server: 82.152.160.221
+- name: 11|🇯🇵 JP-3 | Mix
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-11 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇷🇴 RO-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.17
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-12 | Mix
-  password: fcc91034-a05d-4da1-ab38-422b21987ff9
-  port: 50848
-  server: 108.181.5.1
-  skip-cert-verify: true
-  sni: www.bing.com
+  sni: www.microsoft.com
   type: hysteria2
   udp: true
 - flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-5 | Mix
-  network: tcp
-  port: 14738
-  reality-opts:
-    public-key: 9fmJUGDBBcdT0WITLiZtF7mKKDnzfQ8kvBj0r5nIZyc
-  server: 68.64.180.244
-  servername: dash.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 416c5142-667c-4213-a826-02185a3030b3
-- name: 11|🇳🇱 NL-1 | Mix
-  password: 2a3b101d-d8f9-40e7-9373-b0ef487c0035
-  port: 23443
-  server: 46.8.210.152
-  sni: disk.api-yandex.net
-  type: hysteria2
-  udp: true
-- flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-6 | Mix
   network: tcp
   port: 443
   reality-opts:
