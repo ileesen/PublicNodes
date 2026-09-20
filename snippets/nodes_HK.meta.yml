@@ -1,19 +1,94 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 443
-  server: 157.66.26.194
-  servername: nb.lovecf.ggff.net
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: tmp1.deepfind.site
+  servername: www.tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  ws-opts:
-    headers:
-      Host: nb.lovecf.ggff.net
-    path: /proxyip=us.xiabibi.cf
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: tcp
+  port: 19106
+  reality-opts:
+    public-key: hYb4wEKoSCy8rJqf7MUQ0virZWUoKBQbKT6Fbt96yEs
+    short-id: 63f6e09994d5
+  server: 87.83.109.106
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: tcp
+  port: 23198
+  reality-opts:
+    public-key: VMDDT8LM17r-nv3cE7y_lUSRdnIzfWys-96TTVmVfkM
+    short-id: c40b095a
+  server: 103.182.97.250
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: tcp
+  port: 2443
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: tmp.deepfind.site
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-5 | 8EB
+  network: tcp
+  port: 19246
+  reality-opts:
+    public-key: zHrps6IQU-eosDd7ikdvrxzpuduxtcqi6pPmFLL_GEo
+    short-id: 4dd1
+  server: 87.83.109.246
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-6 | 8EB
+  network: tcp
+  port: 11096
+  reality-opts:
+    public-key: HyMlyYJ68KV573OEioBe6hsxOcD9zb-Ia12Gr48MZwk
+    short-id: e8b2fd76
+  server: 87.83.109.6
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

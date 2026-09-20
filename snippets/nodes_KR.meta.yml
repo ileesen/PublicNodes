@@ -1,37 +1,16 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: vless
-  mode: gun
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 10|🇰🇷 KR-1 | 8EB
-  network: grpc
-  port: 2085
-  server: 104.143.223.56
-  serviceName: vless
-  type: vless
-  udp: true
-  uuid: b41bac9b-17f7-469f-9df0-05b09140081b
-- grpc-opts:
-    grpc-service-name: vless
-  mode: gun
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: grpc
-  port: 2085
-  server: 104.143.223.67
-  serviceName: vless
-  type: vless
-  udp: true
-  uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-3 | 8EB
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
-    short-id: 3fd0a8ddef3ae5c6
-  server: 34.64.149.137
-  servername: www.cloudflare.com
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: krtmp.deepfind.site
+  servername: www.tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f

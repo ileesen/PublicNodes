@@ -1,46 +1,31 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-1 | 8EB
   network: tcp
-  port: 443
+  port: 13058
   reality-opts:
-    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
-    short-id: 848b53fea10a561e
-  server: 45.131.212.39
-  servername: us.lstu.ru
+    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
+    short-id: 2ae5a06c
+  server: www.aisearch66.com
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-- client-fingerprint: random
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-2 | 8EB
   network: tcp
-  port: 443
+  port: 16666
   reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  server: 14ang88.snusoed.baby
-  servername: 14ang88.snusoed.baby
+    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
+    short-id: 2ae5a06c
+  server: 104.234.240.209
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  server: 2.27.210.32
-  servername: latisha.loozerp.wiki
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f

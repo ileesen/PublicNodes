@@ -1,62 +1,109 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-1 | 8EB
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-  server: 34.19.91.203
-  servername: www.cloudflare.com
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 23.149.60.45
+  servername: www.tesla.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  password: mitivpn
-  port: 443
-  security: tls
-  server: 167.82.76.7
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 23.149.60.57
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8
-    short-id: 2997575f36da5a09
-  server: 89.125.43.121
-  servername: hyhhuh.mervi.icu
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 23.149.60.220
+  servername: www.tesla.com
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-- name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  password: mitivpn
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 23.149.60.180
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 166.0.17.114
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
   port: 443
-  security: tls
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
-    path: /
+  reality-opts:
+    public-key: SUYwQs0-9DA2Cv2y5vkALqF1LF24lvXrASi9Um8LhVM
+    short-id: ba095252
+  server: 34.20.239.142
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 16692
+  reality-opts:
+    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
+    short-id: '85'
+  server: 103.72.5.57
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
   server: 138.199.35.219

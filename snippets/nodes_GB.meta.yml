@@ -1,4 +1,40 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-1 | 8EB
+  network: tcp
+  port: 15244
+  reality-opts:
+    public-key: m0rkDy6OrEXYtYxihYmaz6-ygVgwi15ibBo614utalM
+    short-id: c39b542cb7
+  server: www.aisearch66.com
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-2 | 8EB
+  network: tcp
+  port: 15244
+  reality-opts:
+    public-key: m0rkDy6OrEXYtYxihYmaz6-ygVgwi15ibBo614utalM
+    short-id: c39b542cb7
+  server: 51.241.140.182
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+- name: 10|🇬🇧 GB-3 | 8EB
+  password: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  port: 48364
+  server: uk.jpyh123.uk
+  type: hysteria2
+  udp: true
 - name: 11|🇬🇧 GB-2 | Mix
   port: 443
   server: 212.102.63.1
