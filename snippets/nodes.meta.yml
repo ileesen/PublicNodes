@@ -81,14 +81,12 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8,11|🇷🇺 RU-1 | Mix
+- name: '8|嘎嘎 #1'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: true
   tls: false
   type: hysteria2
-  udp: true
 - name: '8|未命名 #3'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -120,7 +118,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: 8,9|176534 | ⚡️Telegram = t.me/SOS...
+- name: 8,9|🇫🇮176534 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -197,7 +195,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@filembad
+- name: '9|@filembad #1'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -356,7 +354,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-@VPNine1
+- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: ue1s9nuqmy5fd9j5
   password: hdgvcjrpa23fi9bk
@@ -366,7 +364,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-🚀@VPNine1
+- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
   obfs: salamander
   obfs-password: ue1s9nuqmy5fd9j5
   password: hdgvcjrpa23fi9bk
@@ -624,7 +622,7 @@ proxies:
   udp: true
   uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
 - flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-6 | Mix
+  name: 10|🇮🇳 IN-6 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -857,7 +855,8 @@ proxies:
   type: vless
   udp: true
   uuid: 71b91642-93ed-4923-8cab-877e19bfc2d6
-- name: 10|🇦🇺 AU-1 | 8EB
+- client-fingerprint: qq
+  name: 10,11|🇦🇺 AU-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -992,18 +991,149 @@ proxies:
   type: vless
   udp: true
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- name: 11,15|RO_speednode_0110
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
+  port: 9002
+  server: 138.199.35.219
   tls:
     enabled: true
   type: http
-  username: testuser1
 - name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 20003
+  reality-opts:
+    public-key: MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4
+    short-id: 43ebaa76bdeab867
+  server: 106.75.137.66
+  servername: cache.video.iqiyi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: efbd22e5-1fd7-4c50-a41d-279915d89b66
+- name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 443
+  server: 104.21.71.47
+  servername: 0-M16.CHIaN-mai-x.kDnS.FR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-M16.CHIaN-mai-x.kDnS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇬🇧 GB-2 | Mix
+  port: 443
+  server: 212.102.63.1
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.40
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: firefox
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: 4d14da19b19cfc8c
+  server: 162.55.242.208
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+- name: 11|🇳🇱 NL-1 | Mix
+  port: 9002
+  server: 84.17.47.147
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|RO_speednode_0083
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇫🇮 FI-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
+    short-id: f129dcdbf64f
+  server: 94.156.79.93
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a5e7720-abf3-4b9b-bc9b-9a900a04b434
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
@@ -1014,105 +1144,17 @@ proxies:
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|RO_speednode_0045
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-    short-id: 973bd4f3d8d217fd
-  server: 8.209.248.218
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 6103
-  server: 87.98.174.157
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇮 FI-2 | Mix
+- name: 11|🇫🇮 FI-3 | Mix
   port: 1080
   server: 83.147.216.208
   type: socks
   username: bnVsbDpudWxs
-- name: 11|🇷🇴 RO-2 | Mix
+- name: 11|🇺🇸 US-10 | Mix
   port: 9002
-  server: 193.176.84.26
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇳🇱 NL-1 | Mix
-  port: 9002
-  server: 84.17.47.147
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇦🇺 AU-1 | Mix
-  port: 443
-  server: 159.13.44.228
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.220
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-8 | Mix
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- name: 11|🇷🇴 RO-3 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.33
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇱🇹 LT-1 | Mix
@@ -1530,6 +1572,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 15|RO_speednode_0045
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|RO_speednode_0046
   port: 9002
   server: 84.239.49.192
@@ -1798,13 +1847,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0083
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0084
   port: 9002
   server: 84.239.49.37
@@ -1994,13 +2036,6 @@ proxies:
   password: None
   port: 9002
   server: 84.239.49.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0110
-  port: 9002
-  server: 193.176.84.27
   skip-cert-verify: true
   tls: true
   type: http
@@ -2294,13 +2329,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - flow: xtls-rprx-vision
   name: 15|US_speednode_0144
   network: tcp
