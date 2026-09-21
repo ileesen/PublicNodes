@@ -1,19 +1,60 @@
 proxies:
-- name: 10|🇸🇬 SG-1 | 8EB
-  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
-  port: 443
-  server: 165.154.193.165
-  skip-cert-verify: true
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  port: 58979
+  reality-opts:
+    public-key: BMGv1azVuzaXicmRgvGIbDdRv-9tIjfvtSCKRh1EfVw
+  server: 207.57.135.37
+  servername: www.ebay.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 10|🇸🇬 SG-3 | 8EB
-  password: 1027576c-c4df-4277-b3ef-38d3213b6574
-  port: 443
-  server: 161.118.253.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  uuid: 99385d38-676e-4e21-8de5-bd3b0b57e2b6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  port: 59672
+  reality-opts:
+    public-key: MyT8CmpFM5SbEol-rsH-Gm-I8GJLAfRLQnGnyNCXrho
+  server: 207.57.134.242
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: d1ac7eb4-a6fd-481b-8c91-5c40680af484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  port: 16726
+  reality-opts:
+    public-key: Q4ZKxZyCgFw5odhLQpntELcGnSFjefn_pJBgPYV3CXM
+  server: 207.57.121.65
+  servername: www.ebay.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16e074a9-2489-4dd2-9eba-9f783e950b31
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10,11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 3139
+  reality-opts:
+    public-key: RYrYabqY07TQmF41ouUnBSjA6pDhUN4Ms7OKY-KrKh0
+  server: 103.143.81.124
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87ecd928-9831-416a-bf4d-25e441ffb4cf
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

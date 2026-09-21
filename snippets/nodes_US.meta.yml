@@ -1,146 +1,46 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: www.terence-tunnel.org
-  servername: www.terence-tunnel.org
+  flow: xtls-rprx-vision
+  name: 10,11|🇭🇰 HK-3 | Mix
+  network: tcp
+  port: 54030
+  reality-opts:
+    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
+  server: 103.143.81.60
+  servername: www.ebay.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  ws-opts:
-    headers:
-      Host: www.terence-tunnel.org
-    path: /tunnel
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 8443
-  server: 45.62.106.145
+  uuid: 322c0364-b447-45c2-a27c-250376170dc0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  port: 35559
+  reality-opts:
+    public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
+  server: 207.57.128.108
+  servername: www.ebay.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: a3054186-5e1d-4c95-a849-a79ee1e447b2
-  ws-opts:
-    headers:
-      Host: 45.62.106.145
-    path: /vless-ws
+  uuid: 6d7deb4c-d700-4e0f-bc17-122ccc564f28
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
   network: tcp
-  port: 443
+  port: 3077
   reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: c08efcd72d7e8389
-  server: 34.85.179.6
-  servername: www.cloudflare.com
+    public-key: 48zW4lXrGFUEbsQ1JSRrv2yLzmxMsWYSk9KACEG_eFk
+  server: 45.145.228.129
+  servername: aws.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-8 | Mix
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
-    short-id: 65557338e1cd5605
-  server: 45.152.113.206
-  servername: 1.ru.oncloudnineservicestreang.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
-- client-fingerprint: ios
-  name: 10|🇺🇸 US-7 | 8EB
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
-    short-id: 407f4d9be75efc56
-  server: 31.77.7.122
-  servername: www.nokia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
-- client-fingerprint: ios
-  name: 10,11|🇫🇮 FI-3 | Mix
-  network: tcp
-  port: 2087
-  reality-opts:
-    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
-    short-id: 407f4d9be75efc56
-  server: 31.77.7.122
-  servername: www.nokia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
-- name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  password: MiTIVPN
-  port: 443
-  security: tls
-  server: 151.101.56.56
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssl.fastly.com
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 443
-  server: kz3.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
+  uuid: 308afb3e-b0ce-41c8-9987-4023161fac75
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
   server: 138.199.35.204
@@ -195,6 +95,21 @@ proxies:
   tls:
     enabled: true
   type: http
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: lyra.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
