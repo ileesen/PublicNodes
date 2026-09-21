@@ -62,9 +62,15 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
     path: /
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 185.44.107.166
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -77,24 +83,9 @@ proxies:
   type: vless
   udp: true
   uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-- client-fingerprint: random
-  name: 11|🇩🇪 DE-4 | Mix
-  network: ws
-  port: 2096
-  server: de3-node.rumedia-cdn.com
-  servername: st3f6d.rumedia-cdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  ws-opts:
-    headers:
-      Host: st3f6d.rumedia-cdn.com
-    path: /cdn/v3/live
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-6 | Mix
+  name: 11|🇩🇪 DE-4 | Mix
   network: tcp
   port: 443
   reality-opts:

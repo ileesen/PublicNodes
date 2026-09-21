@@ -48,30 +48,38 @@ proxies:
   flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-1 | Mix
   network: tcp
-  port: 30852
+  port: 3139
   reality-opts:
-    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
-  server: 207.57.135.42
-  servername: www.paypal.com
+    public-key: RYrYabqY07TQmF41ouUnBSjA6pDhUN4Ms7OKY-KrKh0
+  server: 103.143.81.124
+  servername: aws.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
+  uuid: 87ecd928-9831-416a-bf4d-25e441ffb4cf
+- name: 11|🇭🇰 HK-2 | Mix
+  password: dCwrni
+  port: 7008
+  server: api.meituan88.com
+  skip-cert-verify: true
+  sni: globalnetworktraffic.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
+  name: 11|🇭🇰 HK-3 | Mix
   network: tcp
-  port: 46042
+  port: 54030
   reality-opts:
-    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
-  server: 38.147.171.99
-  servername: dash.cloudflare.com
+    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
+  server: 103.143.81.60
+  servername: www.ebay.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
+  uuid: 322c0364-b447-45c2-a27c-250376170dc0
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
