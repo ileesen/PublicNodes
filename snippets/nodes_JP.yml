@@ -1,4 +1,32 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 10|🇯🇵 JP-1 | 8EB
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇯🇵 JP-2 | 8EB
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 10|🇯🇵 JP-3 | 8EB
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇯🇵 JP-4 | 8EB
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  type: ss
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

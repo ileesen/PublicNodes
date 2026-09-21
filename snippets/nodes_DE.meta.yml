@@ -9,43 +9,136 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-1 | 8EB
   network: tcp
-  port: 2128
-  reality-opts:
-    public-key: 0zFniJLY80LQ5zKKB-X6r-tpHgAI6yqUVxJFQGG9SUM
-  server: 207.57.135.124
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 630630d0-35eb-41b1-a7e9-90ca7e5c897f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  port: 29417
-  reality-opts:
-    public-key: n9zqA9DrsO1bHnC_e2_e9MAxpyPdC_EA06Dm_rw4oWY
-  server: 193.134.211.247
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c1d0af7-c77b-4fb2-a1a4-fac03cc6c483
-- name: 11|🇩🇪 DE-1 | Mix
   port: 443
-  server: 185.44.107.166
-  tls:
-    enabled: true
-  type: http
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 82.39.171.142
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-2 | 8EB
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+  udp: true
+- name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    headers:
+      Host: 163.8.195.241
+    path: /29c8fed7ca22
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-4 | 8EB
+  password: kKEd0rBrd56Furjz
+  port: 80
+  server: 2.58.81.221
+  type: ss
+  udp: true
+- name: 10|🇩🇪 DE-5 | 8EB
+  network: ws
+  port: 2087
+  server: 82.24.203.20
+  type: vless
+  udp: true
+  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
+  ws-opts:
+    headers:
+      Host: 82.24.203.20
+    path: /fd5ba98a3970
+- name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  port: 80
+  server: ov-germany1.09vpn.com
+  type: vless
+  udp: true
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  ws-opts:
+    headers:
+      Host: OV-Germany1.09vpn.com
+    path: /vless/
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-3 | Mix
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 144.31.168.95
+  servername: eu-central.cendora.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-8 | 8EB
+  password: kKEd0rBrd56Furjz
+  port: 443
+  server: 2.58.81.221
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-9 | 8EB
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  mode: gun
+  name: 10|🇩🇪 DE-10 | 8EB
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g
+    short-id: d3b394558cfe0266
+  server: files.noneok.com
+  servername: files.noneok.com
+  serviceName: api.v1.StreamService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: e9bf2bffe4
+  mode: gun
+  name: 10|🇩🇪 DE-11 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: yrWGEL08vAohm7D5SB8zygATsagro3YL265rgZPjLgg
+    short-id: 5c687e4713991ed6
+  server: 217.60.183.29
+  servername: www.cloudflare.com
+  serviceName: e9bf2bffe4
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -60,16 +153,64 @@ proxies:
   uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
+  name: 11|🇩🇪 DE-2 | Mix
   network: tcp
-  port: 443
+  port: 42892
   reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: 59eee550a1014198
-  server: de10.delivery-4f1c.com
-  servername: de10.delivery-4f1c.com
+    public-key: GLKvvfUmBk3Y4fxmRCgvSaR73H2lE1eBGm2EwWPxtDY
+    short-id: a51c
+  server: 82.139.234.155
+  servername: www.amd.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  uuid: 53627d61-30b2-4333-9901-94cd457cbeaa
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-3 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 103.228.168.182
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  name: 11|🇩🇪 DE-4 | Mix
+  network: ws
+  port: 443
+  server: 138.124.25.25
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /group/outbound/topics?ed=2560
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-5 | Mix
+  network: ws
+  packetEncoding: none
+  port: 8443
+  server: 103.200.28.113
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /

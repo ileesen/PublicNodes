@@ -1,16 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 11|🇸🇪 SE-1 | Mix
-  network: tcp
+  network: ws
+  packetEncoding: none
   port: 443
-  reality-opts:
-    public-key: dAywk2CpVoA14GcQBWxgkamea0yaLkF6jUmy4--vHAU
-    short-id: fd
-  server: 185.231.103.20
-  servername: se.convexia.net
-  skip-cert-verify: false
+  server: 144.31.217.95
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 89104901-966e-4c7e-8e83-99d8712c5417
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /

@@ -1,1 +1,67 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: 5d67LPhAdb5qQz4mc1bcu00KDWEZxIR1cUJ8_N6xt0I
+    short-id: 8315f191292663bc
+  server: 94.183.239.49
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 50eb80c56e
+  mode: gun
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: CHO7f5BoT7GUblfBb3zuyYjOQ5WS_kBfsN9Tatg_LS4
+    short-id: 136f2fcef221b251
+  server: 94.183.239.49
+  servername: www.cloudflare.com
+  serviceName: 50eb80c56e
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 2e0c1c3ca4
+  mode: gun
+  name: 10|🇪🇪 EE-3 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: lvgY-QZ6xKUDusPI_2_DW7fyPDTGDezBf5-5ezqPcH0
+    short-id: bcab2c5fdb17be80
+  server: 94.183.239.34
+  servername: www.cloudflare.com
+  serviceName: 2e0c1c3ca4
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇪🇪 EE-1 | Mix
+  network: tcp
+  port: 20443
+  reality-opts:
+    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
+    short-id: 08
+  server: 89.106.88.6
+  servername: dest1.cdn-update.rutube.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145

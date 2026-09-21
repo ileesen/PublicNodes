@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-2 | 8EB
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-4 | 8EB
+  password: kKEd0rBrd56Furjz
+  port: 80
+  server: 2.58.81.221
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇩🇪 DE-8 | 8EB
+  password: kKEd0rBrd56Furjz
+  port: 443
+  server: 2.58.81.221
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇩🇪 DE-9 | 8EB
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+  udp: true

@@ -9,69 +9,117 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-128-gcm
   name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 4815
-  reality-opts:
-    public-key: toqN3-gRGsuegqtfwm4lu7CMQvvytYJPwdldFyqLYEQ
-  server: 207.57.133.221
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
   udp: true
-  uuid: 462c6593-54d0-410c-8464-088a8affd75f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-128-gcm
   name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 27948
-  reality-opts:
-    public-key: ZJbUs5ZBJacR5XKdOKz8rI7ovNMcq0ocdCvsA0Z3ul8
-  server: 83.229.127.18
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
   udp: true
-  uuid: 7010c0c4-ac62-4456-9f40-fead039d2be5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-128-gcm
   name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 29827
-  reality-opts:
-    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
-  server: 45.144.137.215
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
   udp: true
-  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
+- cipher: aes-256-gcm
+  name: 10|🇯🇵 JP-4 | 8EB
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  type: ss
+  udp: true
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
 - client-fingerprint: chrome
   name: 11|🇯🇵 JP-2 | Mix
   network: ws
+  packetEncoding: none
   port: 443
-  server: 64.204.49.68
-  servername: vp10.pages.dev
+  server: 161.33.29.51
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-3 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 45.202.254.133
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-4 | Mix
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+  server: jpga01.jumperservice.com
+  servername: www.speedtest.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-5 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 101.142.129.72
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   ws-opts:
     headers:
-      Host: vp10.pages.dev
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-6 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 35.72.179.15
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
     path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp

@@ -3,58 +3,72 @@ proxies:
   flow: xtls-rprx-vision
   name: 10|🇸🇬 SG-1 | 8EB
   network: tcp
-  port: 58979
+  port: 41688
   reality-opts:
-    public-key: BMGv1azVuzaXicmRgvGIbDdRv-9tIjfvtSCKRh1EfVw
-  server: 207.57.135.37
-  servername: www.ebay.com
+    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
+    short-id: 7f342137c20387
+  server: 54.169.200.246
+  servername: www.intel.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 99385d38-676e-4e21-8de5-bd3b0b57e2b6
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 10|🇸🇬 SG-2 | 8EB
   network: tcp
-  port: 59672
+  port: 19825
   reality-opts:
-    public-key: MyT8CmpFM5SbEol-rsH-Gm-I8GJLAfRLQnGnyNCXrho
-  server: 207.57.134.242
-  servername: www.amazon.com
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  server: 146.235.16.130
+  servername: sg2-8sb.6121999.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d1ac7eb4-a6fd-481b-8c91-5c40680af484
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- name: 11|🇸🇬 SG-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 16726
-  reality-opts:
-    public-key: Q4ZKxZyCgFw5odhLQpntELcGnSFjefn_pJBgPYV3CXM
-  server: 207.57.121.65
-  servername: www.ebay.com
-  skip-cert-verify: false
+  name: 11|🇸🇬 SG-2 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 103.195.188.206
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 16e074a9-2489-4dd2-9eba-9f783e950b31
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 3139
-  reality-opts:
-    public-key: RYrYabqY07TQmF41ouUnBSjA6pDhUN4Ms7OKY-KrKh0
-  server: 103.143.81.124
-  servername: aws.amazon.com
-  skip-cert-verify: false
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 216.173.67.159
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 87ecd928-9831-416a-bf4d-25e441ffb4cf
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
