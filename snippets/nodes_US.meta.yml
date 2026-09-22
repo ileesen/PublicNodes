@@ -1623,49 +1623,90 @@ proxies:
   udp: true
   uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - name: 11|🇺🇸 US-1 | Mix
-  port: 9443
-  server: 38.95.111.226
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
 - name: 11|🇺🇸 US-4 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-5 | Mix
-  network: grpc
-  port: 9873
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.109.104.195
-  servername: dl.google.com
+  network: ws
+  port: 443
+  server: 104.21.87.109
+  servername: 7-m16.PhUkEt2035.kdNS.fr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- name: 11|🇺🇸 US-6 | Mix
-  password: https://xship.best
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.PhUkEt2035.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 11|🇺🇸 US-5 | Mix
   port: 443
-  server: starlink-ft.251313.xyz
+  server: goedkoopgeluid.icu
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: 104.21.62.195
+  servername: 3.qq1-0.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb53f904-c979-454f-bf43-621990008148
+  ws-opts:
+    headers:
+      Host: 3.qq1-0.kdns.fr
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -1729,12 +1770,6 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

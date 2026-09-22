@@ -64,19 +64,9 @@ proxies:
   server: 51.77.225.200
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 11|🇬🇧 GB-1 | Mix
-  network: ws
-  packetEncoding: none
+- name: 11|🇬🇧 GB-1 | Mix
   port: 443
-  server: 104.128.190.209
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  server: 185.235.0.66
+  tls:
+    enabled: true
+  type: http

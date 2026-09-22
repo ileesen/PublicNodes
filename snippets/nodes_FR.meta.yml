@@ -25,20 +25,27 @@ proxies:
     headers:
       Host: ov-france1.09vpn.com
     path: /vless/
-- name: 11|🇫🇷 FR-1 | Mix
-  password: 'null'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  mode: gun
+  name: 11|🇫🇷 FR-1 | Mix
+  network: grpc
   port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  server: assets-fra.pleiades.codes
+  servername: assets-fra.pleiades.codes
+  serviceName: cdn.v1.AssetService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
 - client-fingerprint: chrome
   name: 11|🇫🇷 FR-2 | Mix
   network: ws
   packetEncoding: none
-  port: 443
-  server: 141.227.188.153
+  port: 8443
+  server: 104.194.84.188
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true

@@ -29,46 +29,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-- name: 11|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 103.195.188.206
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 11|🇸🇬 SG-3 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 216.173.67.159
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
