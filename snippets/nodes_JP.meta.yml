@@ -69,8 +69,18 @@ proxies:
     headers:
       Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 10808
+  server: 101.36.104.46
+  type: socks
+- name: 11|🇯🇵 JP-2 | Mix
+  port: 443
+  server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
-  name: 11|🇯🇵 JP-1 | Mix
+  name: 11|🇯🇵 JP-3 | Mix
   network: ws
   packetEncoding: none
   port: 8443
@@ -86,43 +96,11 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 45.76.100.75
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 11|🇯🇵 JP-3 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 140.83.87.85
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
   name: 11|🇯🇵 JP-4 | Mix
   network: ws
   packetEncoding: none
   port: 443
-  server: 66.245.219.95
+  server: 45.76.100.75
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
@@ -139,6 +117,22 @@ proxies:
   packetEncoding: none
   port: 443
   server: 168.138.52.221
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇯🇵 JP-6 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 66.245.219.95
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true

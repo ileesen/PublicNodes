@@ -30,9 +30,8 @@ proxies:
       Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 10,11|🇭🇰 HK-2 | Mix
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
-  packetEncoding: none
   port: 443
   server: 103.101.0.73
   servername: shuma.ccwu.cc
@@ -60,21 +59,13 @@ proxies:
     headers:
       Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-    short-id: ea6b43
-  server: hk4.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 11|🇭🇰 HK-1 | Mix
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: 31e66496-2172-431d-a927-3e7706f775d6
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
