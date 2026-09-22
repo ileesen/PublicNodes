@@ -9,33 +9,148 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-128-gcm
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇯🇵 JP-1 | 8EB
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
+  network: grpc
+  port: 10031
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp1-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇯🇵 JP-2 | 8EB
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇯🇵 JP-3 | 8EB
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  type: ss
+  network: grpc
+  port: 10033
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp3-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇯🇵 JP-4 | 8EB
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
+  network: grpc
+  port: 10034
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp4-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp6-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- name: 10|🇯🇵 JP-7 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 21164
+  server: jp6.dexlos.com
+  sni: jp6.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇯🇵 JP-8 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 21270
+  server: jp7.dexlos.com
+  sni: jp7.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇯🇵 JP-9 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 21459
+  server: jp8.dexlos.com
+  sni: jp8.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇯🇵 JP-10 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 21639
+  server: jp9.dexlos.com
+  sni: jp9.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇯🇵 JP-11 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 21817
+  server: jp10.dexlos.com
+  sni: jp10.dexlos.com
+  type: hysteria2
   udp: true
 - client-fingerprint: chrome
   name: 11|🇯🇵 JP-1 | Mix

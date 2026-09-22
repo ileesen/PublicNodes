@@ -1,34 +1,115 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  port: 41688
+  network: grpc
+  port: 10036
   reality-opts:
-    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
-    short-id: 7f342137c20387
-  server: 54.169.200.246
-  servername: www.intel.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  port: 19825
+  network: grpc
+  port: 10037
   reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  server: 146.235.16.130
-  servername: sg2-8sb.6121999.dpdns.org
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: grpc
+  port: 10039
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
+  name: 10|🇸🇬 SG-5 | 8EB
+  network: grpc
+  port: 10040
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
+  serviceName: update
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+- name: 10|🇸🇬 SG-6 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 20080
+  server: sg1.dexlos.com
+  sni: sg1.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇸🇬 SG-7 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 20210
+  server: sg2.dexlos.com
+  sni: sg2.dexlos.com
+  type: hysteria2
+  udp: true
+- name: 10|🇸🇬 SG-8 | 8EB
+  password: E87458F5-4186-41CA-A12C-8AF69A337A67
+  port: 20561
+  server: sg3.dexlos.com
+  sni: sg3.dexlos.com
+  type: hysteria2
+  udp: true
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
