@@ -1,115 +1,34 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
   name: 10|🇸🇬 SG-3 | 8EB
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
+  network: ws
+  port: 2096
+  server: 172.67.130.159
+  servername: cdn-sg.skyvora.app
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
+  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
+  ws-opts:
+    headers:
+      Host: cdn-sg.skyvora.app
+    path: /78bc8
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
   name: 10|🇸🇬 SG-4 | 8EB
-  network: grpc
-  port: 10039
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg4-r.link-t7.com
-  servername: d1.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
+  network: ws
+  port: 443
+  server: 47.131.189.221
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇸🇬 SG-5 | 8EB
-  network: grpc
-  port: 10040
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- name: 10|🇸🇬 SG-6 | 8EB
-  password: E87458F5-4186-41CA-A12C-8AF69A337A67
-  port: 20125
-  server: sg1.dexlos.com
-  sni: sg1.dexlos.com
-  type: hysteria2
-  udp: true
-- name: 10|🇸🇬 SG-7 | 8EB
-  password: E87458F5-4186-41CA-A12C-8AF69A337A67
-  port: 20303
-  server: sg2.dexlos.com
-  sni: sg2.dexlos.com
-  type: hysteria2
-  udp: true
-- name: 10|🇸🇬 SG-8 | 8EB
-  password: E87458F5-4186-41CA-A12C-8AF69A337A67
-  port: 20506
-  server: sg3.dexlos.com
-  sni: sg3.dexlos.com
-  type: hysteria2
-  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+    path: /?ed=2560
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

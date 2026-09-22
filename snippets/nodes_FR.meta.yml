@@ -1,25 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  mode: gun
   name: 11|🇫🇷 FR-1 | Mix
-  network: grpc
-  port: 443
-  server: assets-fra.pleiades.codes
-  servername: assets-fra.pleiades.codes
-  serviceName: cdn.v1.AssetService
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-- client-fingerprint: chrome
-  name: 11|🇫🇷 FR-2 | Mix
   network: ws
-  packetEncoding: none
-  port: 8443
-  server: 104.194.84.188
+  port: 443
+  server: 95.182.82.191
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
@@ -30,3 +14,66 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
     path: /
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-2 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 217.60.252.115
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-3 | Mix
+  network: ws
+  packetEncoding: none
+  port: 8443
+  server: 217.60.37.28
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-4 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 45.155.169.170
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-5 | Mix
+  network: ws
+  port: 2096
+  server: 104.21.8.201
+  servername: cdn-fr.skyvora.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
+  ws-opts:
+    headers:
+      Host: cdn-fr.skyvora.app
+    path: /9hf8a67dhf

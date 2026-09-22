@@ -1,205 +1,80 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
   name: 10|🇭🇰 HK-1 | 8EB
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 10|🇭🇰 HK-3 | 8EB
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 10|🇭🇰 HK-4 | 8EB
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 10|🇭🇰 HK-5 | 8EB
-  network: grpc
-  port: 10130
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk5-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 10|🇭🇰 HK-6 | 8EB
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇭🇰 HK-7 | 8EB
-  network: grpc
-  port: 10246
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk-isp-1.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇭🇰 HK-8 | 8EB
-  network: grpc
-  port: 10247
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk-isp-2.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇭🇰 HK-9 | 8EB
-  network: grpc
-  port: 10248
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk-isp-3.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇭🇰 HK-10 | 8EB
-  network: grpc
-  port: 10249
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk-isp-4.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: E87458F5-4186-41CA-A12C-8AF69A337A67
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇭🇰 HK-2 | Mix
   network: ws
-  port: 2087
-  server: 172.67.79.160
-  servername: cvhpyn.pages.dev
+  port: 443
+  server: 141.11.90.160
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: cvhpyn.pages.dev
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 443
+  server: 45.192.247.199
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10,11|🇭🇰 HK-2 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 103.101.0.73
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
     path: /
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  port: 443
+  server: 45.149.186.133
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31e66496-2172-431d-a927-3e7706f775d6
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
