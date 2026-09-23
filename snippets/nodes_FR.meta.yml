@@ -1,6 +1,13 @@
 proxies:
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 443
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-1 | Mix
+  name: 11|🇫🇷 FR-2 | Mix
   network: ws
   packetEncoding: none
   port: 8443
@@ -16,7 +23,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-2 | Mix
+  name: 11|🇫🇷 FR-3 | Mix
   network: ws
   packetEncoding: none
   port: 443
