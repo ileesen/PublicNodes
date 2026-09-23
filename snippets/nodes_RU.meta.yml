@@ -1,16 +1,140 @@
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇷🇺 RU-1 | Mix
-  network: tcp
+  grpc-opts:
+    grpc-service-name: Sosat
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: grpc
   port: 443
   reality-opts:
-    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
-    short-id: 65557338e1cd5605
-  server: 45.152.113.206
-  servername: 1.ru.oncloudnineservicestreang.com
+    public-key: wG3BS0H2EKpY2tpv9bWipTmafwIdXuUXPAZCpr1eZ0M
+  server: 201.24.50.94
+  servername: kerbal.mafioznik.xyz
+  serviceName: Sosat
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: Sosat
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: wG3BS0H2EKpY2tpv9bWipTmafwIdXuUXPAZCpr1eZ0M
+  server: 201.24.50.94
+  servername: kerbal.mafioznik.xyz
+  serviceName: Sosat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-3 | 8EB
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: DcAXpVZZ7_JtJqz9b6ax9gWWvkH_6icdC29j6keGPj8
+    short-id: c4e81a7b
+  server: 159.194.209.203
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6796f262-ca34-4b8e-b86e-6c175c081f2e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-4 | 8EB
+  network: tcp
+  port: 2087
+  reality-opts:
+    public-key: DcAXpVZZ7_JtJqz9b6ax9gWWvkH_6icdC29j6keGPj8
+    short-id: c4e81a7b
+  server: 159.194.209.203
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6796f262-ca34-4b8e-b86e-6c175c081f2e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-5 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: DcAXpVZZ7_JtJqz9b6ax9gWWvkH_6icdC29j6keGPj8
+    short-id: c4e81a7b
+  server: 159.194.209.203
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6796f262-ca34-4b8e-b86e-6c175c081f2e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
+    short-id: 7bb730e3e6616d31
+  server: 91.240.86.12
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+- client-fingerprint: chrome
+  name: 10|🇷🇺 RU-7 | 8EB
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    headers:
+      Host: media-se.compressor.work
+    path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-8 | 8EB
+  network: tcp
+  port: 2096
+  reality-opts:
+    public-key: DcAXpVZZ7_JtJqz9b6ax9gWWvkH_6icdC29j6keGPj8
+    short-id: c4e81a7b
+  server: 159.194.209.203
+  servername: 5post-gate.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6796f262-ca34-4b8e-b86e-6c175c081f2e
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 10|🇷🇺 RU-9 | 8EB
+  network: grpc
+  port: 9889
+  reality-opts:
+    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+    short-id: aabb
+  server: 213.171.25.29
+  servername: dl.google.com
+  serviceName: grpc-tunnel
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef

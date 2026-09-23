@@ -20,92 +20,90 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 20202
-  server: 209.38.238.229
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MldGYzZegwydL76HI_beMlXgD-4ZyCZjIX0sBVPjphY
+    short-id: abcd1234
+  server: 46.28.69.53
+  servername: de2.willo.help
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+  uuid: f2381f29-c724-4491-95a3-a17bd6eea47f
 - client-fingerprint: chrome
   name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 20202
-  server: 209.38.238.229
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: true
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: QfZFhjkNY2ge2uFOg9fxANKS1eLhhMTJMXFyaJMMSx0
+  server: 45.145.56.7
+  servername: gdr.horny-stalin.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUFRNVAMZUgABSgMNQRoaSVhfRhoOChkDDUs=
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 2053
-  server: 141.101.90.108
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwJUx8BQRoaSVhfRhoOChkDDUs=
-- client-fingerprint: chrome
+  uuid: b1813cbd-831f-4cb3-baf8-5bc0cc8298bc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 2053
-  server: 141.101.90.108
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: true
+  network: tcp
+  port: 57160
+  reality-opts:
+    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+    short-id: 77b5
+  server: 77.91.76.156
+  servername: funpay.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwJXB8KVwcaFRVdXUpAGxcHAQFZUA==
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 2053
-  server: 141.101.90.108
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwBVQgWUQMLGxsPQldGTQ8OBgJWFUU=
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-2 | Mix
-  network: ws
+  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: e9bf2bffe4
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: grpc
   port: 8443
-  server: 62.60.248.205
-  servername: shuma.ccwu.cc
+  reality-opts:
+    public-key: yrWGEL08vAohm7D5SB8zygATsagro3YL265rgZPjLgg
+    short-id: 5c687e4713991ed6
+  server: 217.60.183.29
+  servername: www.cloudflare.com
+  serviceName: e9bf2bffe4
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vie02-grpc-8e47a
+  name: 10|🇩🇪 DE-8 | 8EB
+  network: grpc
+  port: 9443
+  server: 193.8.215.96
+  servername: hub-vie-02.hanvpn.cc
+  serviceName: vie02-grpc-8e47a
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-9 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -XH2d9x4wRi--KvR6XTcZW9HXbikI2_262zfYDr1uFw
+    short-id: 690ec9207866c84e
+  server: 34.185.172.52
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3255d065-119c-4103-a422-ea9d301b0707

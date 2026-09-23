@@ -1,1 +1,48 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 2e0c1c3ca4
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: lvgY-QZ6xKUDusPI_2_DW7fyPDTGDezBf5-5ezqPcH0
+    short-id: bcab2c5fdb17be80
+  server: 94.183.239.34
+  servername: www.cloudflare.com
+  serviceName: 2e0c1c3ca4
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: KDSUEqv-3PLzq_HIWHTk1TxXk-JovF9VeWtrMY4S_yM
+    short-id: 836466be157f908f
+  server: 94.183.239.34
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇪🇪 EE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 98MNvJC4t0ZjK_xHlQjOx2WfLfAPluNDb71MzS9sPT8
+    short-id: 38018dde3e27335e
+  server: est1.loozerp.wiki
+  servername: est1.loozerp.wiki
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a

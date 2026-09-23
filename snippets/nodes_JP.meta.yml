@@ -9,70 +9,49 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 11|🇯🇵 JP-1 | Mix
-  network: ws
-  packetEncoding: none
-  port: 8443
-  server: 45.76.100.75
-  servername: shuma.ccwu.cc
+- name: 10|🇯🇵 JP-1 | 8EB
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: hysteria2
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  packetEncoding: none
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: tcp
   port: 443
-  server: 45.76.100.75
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
+  reality-opts:
+    public-key: KeIvEyXB-ftboKdIoaSDyUKJPQpmcZiVaqY2JndkX08
+    short-id: 55fbcc37
+  server: pq.aws57.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  uuid: 4e0d180e-a941-4192-93a7-26e4f189b97a
 - client-fingerprint: chrome
-  name: 11|🇯🇵 JP-3 | Mix
-  network: ws
-  packetEncoding: none
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
   port: 443
-  server: 168.138.52.221
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: 780152c21e234b5a
+  server: 34.84.126.188
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 11|🇯🇵 JP-4 | Mix
-  network: ws
-  packetEncoding: none
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+- name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: 66.245.219.95
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

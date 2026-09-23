@@ -1,40 +1,45 @@
 proxies:
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
 - client-fingerprint: chrome
-  name: 11|🇫🇷 FR-2 | Mix
-  network: ws
-  packetEncoding: none
-  port: 8443
-  server: 217.60.37.28
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: tcp
+  port: 57505
+  reality-opts:
+    public-key: iSaeShaeqtDvENOIputRF3d9-QR_IWccSL0CnxlcqmQ
+    short-id: 2bcb1e3382a66c60
+  server: fr.gmail.com.vipneninet.ir
+  servername: zoomila.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 11|🇫🇷 FR-3 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 95.182.82.191
-  servername: shuma.ccwu.cc
+  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
+- name: 10|🇫🇷 FR-2 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
   skip-cert-verify: true
+  sni: t.me
+  type: hysteria2
+  udp: true
+- name: 10|🇫🇷 FR-3 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: vk.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇫🇷 FR-4 | 8EB
+  network: tcp
+  port: 21757
+  reality-opts:
+    public-key: bfW8vPp9BnvyXWe-fGIZrDifaSNxLXKfd1bNnyOLO04
+    short-id: 1656aa5eae8ba05c
+  server: fr.gmail.com.vipneninet.ir
+  servername: Devrelate.io
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
