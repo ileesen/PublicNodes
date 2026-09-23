@@ -1,195 +1,124 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  port: 44444
-  reality-opts:
-    public-key: LZnkyLxA8cYoDAsmxGh0lOr1-auyZI5t_LSU-FNBkSs
-  server: 179.254.94.102
-  servername: www.iij.ad.jp
-  skip-cert-verify: false
+  network: ws
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ae2368cc-0fbe-4a06-a23e-fb73a4ac025a
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  ws-opts:
+    headers:
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlVXSwEDTQYISgMKVRQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-2 | 8EB
   network: ws
-  port: 443
-  server: 104.21.87.109
-  servername: 7-m16.PhUkEt2035.kdNS.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: 7-m16.PhUkEt2035.kdNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlJQSwYDUBwBUh8KWxQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
-  name: 10,11|🇺🇸 US-15 | Mix
+  name: 10|🇺🇸 US-3 | 8EB
   network: ws
-  packetEncoding: none
-  port: 443
-  server: 191.222.247.114
-  servername: shuma.ccwu.cc
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: shuma.ccwu.cc
-    path: /
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlVTSwAHTQQHSgAPUBQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-4 | 8EB
   network: ws
-  port: 8443
-  server: 179.253.233.55
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUVVbSwMFTQMIXR8PWhQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-5 | 8EB
   network: ws
-  port: 8443
-  server: 179.253.229.129
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HVFBNVAUATQMJVR8MWhQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
-  port: 443
-  server: 179.255.144.153
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUVVbSwMFTQMIUR8LVhQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-7 | 8EB
   network: ws
-  port: 8443
-  server: 179.253.242.15
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUVVbSwMFTQMIUR8LVRQUG0dCQEwWAx4AAg4c
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-8 | 8EB
   network: ws
-  port: 443
-  server: 179.253.246.55
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   ws-opts:
     headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  server: 179.255.109.171
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 8443
-  server: 179.255.98.66
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 443
-  server: ringcentral.com
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 443
-  server: woodsbagot.com
-  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 11429
-  server: dash.karmatel.ir
-  type: vless
-  udp: true
-  uuid: 05eb2454-6e9d-4f7e-874b-f2b944e0a7b1
-  ws-opts:
-    headers:
-      Host: play-apps-features.googleusercontent.com
-    path: /
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HVFdNXQYZUgIeVQMLQRoaSVhfRhoOChkDDUs=
 - name: 11|🇺🇸 US-1 | Mix
   port: 443
   server: fan.226278.xyz
@@ -369,6 +298,22 @@ proxies:
   packetEncoding: none
   port: 8443
   server: 77.110.123.82
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-15 | Mix
+  network: ws
+  packetEncoding: none
+  port: 443
+  server: 191.222.247.114
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
