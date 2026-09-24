@@ -1,45 +1,11 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: b58a1e2940
+- client-fingerprint: chrome
   name: 10|🇬🇧 GB-1 | 8EB
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: SW9zmLl7IOPgwf55QKT7Hlc6Ruv6KEwO_wEXdOLwIz8
-    short-id: 0d81677f74c9a6bf
-  server: 94.183.209.239
-  servername: www.cloudflare.com
-  serviceName: b58a1e2940
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: edge.v2.FeedService
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
-    short-id: 35d05b666e2c6cdf
-  server: 150.40.126.21
-  servername: rs3.univesalsrv.com
-  serviceName: edge.v2.FeedService
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-- client-fingerprint: chrome
-  name: 10|🇬🇧 GB-3 | 8EB
   network: ws
   port: 2096
   server: 172.67.130.159
   servername: cdn-de.skyvora.app
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -51,7 +17,8 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: stats.v2.PushService
-  name: 10|🇬🇧 GB-4 | 8EB
+  mode: gun
+  name: 10|🇬🇧 GB-2 | 8EB
   network: grpc
   port: 443
   reality-opts:

@@ -2,126 +2,10 @@ proxies:
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
   network: ws
-  port: 443
-  server: 172.64.53.215
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2052
-  server: 162.159.38.127
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 80
-  server: 162.159.24.131
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- client-fingerprint: unsafe
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  server: 104.21.70.21
-  servername: a.cwvps.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  ws-opts:
-    headers:
-      Host: a.cwvps.eu.org
-    path: /ws
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
-    short-id: f1955f72763eb2fb
-  server: 136.117.218.86
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
-    short-id: 992e5a9a
-  server: 179.254.111.0
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
-- name: 10|🇺🇸 US-7 | 8EB
-  password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
-  port: 443
-  server: de.i-love-russia.online
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-8 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: h7QhnEwH563RIEWqW9thv09tmOjD3f5cV1kedJduL3A
-    short-id: c2466b9944ea3d2f
-  server: 132.243.28.215
-  servername: 98fqyhewf8qe9hy.datahubfiles.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc47db0c-c6f2-4665-bdb2-8f717822ce9d
-- client-fingerprint: safari
-  name: 10|🇺🇸 US-10 | 8EB
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
-    short-id: 992e5a9a
-  server: 179.254.111.0
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
   port: 2096
   server: 172.67.130.159
   servername: cdn-fr.skyvora.app
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -130,155 +14,237 @@ proxies:
     headers:
       Host: cdn-fr.skyvora.app
     path: /9hf8a67dhf
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 2095
+  server: www.temu.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10,11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-7 | 8EB
+  password: 5fa748137b6d822308eea4611f474ad5
+  port: 443
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10,11|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10,11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  password: MITIVpN
+  port: 443
+  security: tls
+  server: 151.101.56.90
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /
+- name: 10|🇺🇸 US-15 | 8EB
+  network: tcp
+  port: 62145
+  server: 158.101.195.43
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: random
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: us-lax.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 617bcbdf-9b15-465c-8bab-f2c2a823b289
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-12 | 8EB
+  name: 11|🇺🇸 US-2 | Mix
   network: tcp
-  port: 8443
+  port: 30556
   reality-opts:
-    public-key: L817rvnreaFtFfcqfOizxgY7ZzFeSdtopH9HVrB56hk
-    short-id: 0b3bf761ca812ee9
-  server: 198.46.215.223
-  servername: www.intel.com
+    public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
+    short-id: d082f567
+  server: 137.175.82.40
+  servername: www.lovelive-anime.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 443
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  port: 443
-  server: 199.232.237.245
-  servername: global.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
-  ws-opts:
-    headers:
-      Host: Tirandazl.global.ssl.fastly.net
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: your-custom-path
-  name: 10|🇺🇸 US-16 | 8EB
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 77.110.104.125
-  servername: maps.apple.com
-  serviceName: your-custom-path
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-17 | 8EB
-  network: ws
-  port: 443
-  server: 140.248.185.253
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
-  ws-opts:
-    headers:
-      Host: trapbazi.global.ssl.fastly.net
-    path: /
-- name: 10|🇺🇸 US-18 | 8EB
-  network: ws
-  port: 80
-  server: 140.248.189.57
-  type: vless
-  udp: true
-  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
-  ws-opts:
-    headers:
-      Host: Tazia.global.ssl.fastly.net
-    path: /
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
+  uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
 - name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 11,15|US_speednode_0140
+  password: None
   port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
+  server: purposebydesig.club
+  tls: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
+  udp: true
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
   port: 9002
   server: 138.199.35.212
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 2095
+  server: www.wto.org
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 2095
+  server: openai.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 2095
+  server: www.csgo.net
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- name: 11|🇺🇸 US-12 | Mix
   password: 'null'
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
@@ -430,13 +396,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 15|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188

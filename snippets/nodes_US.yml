@@ -1,4 +1,18 @@
 proxies:
+- name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  password: MITIVpN
+  port: 443
+  security: tls
+  server: 151.101.56.90
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /
 - cipher: aes-256-gcm
   name: 13|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

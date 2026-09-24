@@ -1,40 +1,27 @@
 proxies:
-- name: 10|🇯🇵 JP-1 | 8EB
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KeIvEyXB-ftboKdIoaSDyUKJPQpmcZiVaqY2JndkX08
-    short-id: 55fbcc37
-  server: pq.aws57.yydjc.top
-  servername: updates.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e0d180e-a941-4192-93a7-26e4f189b97a
 - client-fingerprint: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
+  flow: xtls-rprx-vision
+  name: 10,11|🇯🇵 JP-2 | Mix
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-    short-id: 780152c21e234b5a
-  server: 34.84.126.188
-  servername: www.cloudflare.com
+  port: 28888
+  server: wax-gtm-sg.vam3cua2rx.xyz
+  servername: uej88p.huaweiyouxuan.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  uuid: 06417f0a-14f1-419b-8b39-c82c65eb1f8d
+- cipher: aes-256-gcm
+  name: 10|🇯🇵 JP-2 | 8EB
+  password: 665e00335bb2fb5f7ee8243952205e5e
+  port: 2087
+  server: 74.222.12.141
+  type: ss
+  udp: true
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

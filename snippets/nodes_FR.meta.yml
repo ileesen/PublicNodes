@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-1 | 8EB
-  network: tcp
-  port: 57505
-  reality-opts:
-    public-key: iSaeShaeqtDvENOIputRF3d9-QR_IWccSL0CnxlcqmQ
-    short-id: 2bcb1e3382a66c60
-  server: fr.gmail.com.vipneninet.ir
-  servername: zoomila.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
-- name: 10|🇫🇷 FR-2 | 8EB
+- name: 10|🇫🇷 FR-1 | 8EB
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -21,7 +7,7 @@ proxies:
   sni: t.me
   type: hysteria2
   udp: true
-- name: 10|🇫🇷 FR-3 | 8EB
+- name: 10|🇫🇷 FR-2 | 8EB
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -29,21 +15,23 @@ proxies:
   sni: vk.com
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-4 | 8EB
-  network: tcp
-  port: 21757
-  reality-opts:
-    public-key: bfW8vPp9BnvyXWe-fGIZrDifaSNxLXKfd1bNnyOLO04
-    short-id: 1656aa5eae8ba05c
-  server: fr.gmail.com.vipneninet.ir
-  servername: Devrelate.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 10,11|🇫🇷 FR-1 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: whatsapp.com
+  type: hysteria2
   udp: true
-  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
-- name: 11|🇫🇷 FR-1 | Mix
+- name: 10|🇫🇷 FR-4 | 8EB
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 10|🇫🇷 FR-5 | 8EB
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -51,18 +39,10 @@ proxies:
   sni: bing.com
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
-  name: 11|🇫🇷 FR-2 | Mix
-  network: ws
-  port: 2000
-  server: 82.41.119.45
-  servername: zalupa.gayvibe.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- name: 10|🇫🇷 FR-6 | 8EB
+  password: 488b2611852407f03a681927cb91804b
+  port: 8443
+  server: 107.149.159.190
+  sni: cf.shiranyu.xyz
+  type: hysteria2
   udp: true
-  uuid: cc3dfc2d-dead-41be-97bf-410a40891f38
-  ws-opts:
-    headers:
-      Host: zalupa.gayvibe.dpdns.org
-    path: /
