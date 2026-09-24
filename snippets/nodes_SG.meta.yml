@@ -1,4 +1,27 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 11|🇸🇬 SG-1 | Mix
+  password: 3234f051-172a-4d96-9f8d-2aeec41cd6a5
+  port: 10934
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-2 | Mix
+  network: ws
+  port: 8443
+  server: 154.194.0.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
