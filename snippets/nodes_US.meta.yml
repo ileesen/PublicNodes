@@ -234,60 +234,51 @@ proxies:
       Host: Tazia.global.ssl.fastly.net
     path: /
 - name: 11|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  password: None
   port: 9002
   server: 138.199.35.217
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.209
+  port: 443
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 8080
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: purposebydesig.club
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.203
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.204
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http

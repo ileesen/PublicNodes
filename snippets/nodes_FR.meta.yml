@@ -44,16 +44,25 @@ proxies:
   udp: true
   uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
 - name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇷 FR-2 | Mix
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: whatsapp.com
+  sni: bing.com
   type: hysteria2
   udp: true
+- client-fingerprint: firefox
+  name: 11|🇫🇷 FR-2 | Mix
+  network: ws
+  port: 2000
+  server: 82.41.119.45
+  servername: zalupa.gayvibe.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc3dfc2d-dead-41be-97bf-410a40891f38
+  ws-opts:
+    headers:
+      Host: zalupa.gayvibe.dpdns.org
+    path: /

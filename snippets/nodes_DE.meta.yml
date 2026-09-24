@@ -49,7 +49,7 @@ proxies:
   uuid: b1813cbd-831f-4cb3-baf8-5bc0cc8298bc
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 10,11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 57160
   reality-opts:
@@ -107,18 +107,15 @@ proxies:
   type: vless
   udp: true
   uuid: 3255d065-119c-4103-a422-ea9d301b0707
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇩🇪 DE-1 | Mix
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
-    short-id: 992e5a9a
-  server: 64.188.79.106
-  servername: yandex.ru
-  skip-cert-verify: false
+  port: 7443
+  server: dedicated.pivo.lol
+  servername: dedicated.pivo.lol
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
