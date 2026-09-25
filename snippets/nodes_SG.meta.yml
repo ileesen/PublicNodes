@@ -1,14 +1,98 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 11|🇸🇬 SG-1 | Mix
-  password: 3234f051-172a-4d96-9f8d-2aeec41cd6a5
-  port: 10934
-  server: mn.qwer-cn.org
-  type: ss
+- name: 11|🇸🇬 SG-1 | Mix
+  network: ws
+  port: 8880
+  server: 45.80.111.45
+  type: vless
   udp: true
+  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
+  ws-opts:
+    headers:
+      Host: cnd.singapure.mygold.stream
+    path: /cdn/assets/stream
 - client-fingerprint: chrome
   ed: '2560'
   name: 11|🇸🇬 SG-2 | Mix
+  network: ws
+  port: 8443
+  server: 185.158.133.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 8443
+  server: 80.93.202.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 8443
+  server: 185.135.9.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-5 | Mix
+  network: ws
+  port: 8443
+  server: 89.116.250.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 8443
+  server: 5.10.215.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-7 | Mix
   network: ws
   port: 8443
   server: 154.194.0.7
@@ -22,11 +106,173 @@ proxies:
     headers:
       Host: speed.dulacloud.store
     path: /dula?Telegram-WangCai2
-- name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 41142
-  server: 54.251.190.150
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-8 | Mix
+  network: ws
+  port: 8443
+  server: 45.80.108.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-9 | Mix
+  network: ws
+  port: 8443
+  server: 188.42.88.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-10 | Mix
+  network: ws
+  port: 8443
+  server: 185.156.19.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-11 | Mix
+  network: ws
+  port: 8443
+  server: 88.216.66.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-12 | Mix
+  network: ws
+  port: 8443
+  server: 88.216.67.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-13 | Mix
+  network: ws
+  port: 8443
+  server: 185.7.240.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-14 | Mix
+  network: ws
+  port: 8443
+  server: 46.202.30.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-15 | Mix
+  network: ws
+  port: 8443
+  server: 164.38.155.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-16 | Mix
+  network: ws
+  port: 8443
+  server: 139.64.235.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- client-fingerprint: chrome
+  ed: '2560'
+  name: 11|🇸🇬 SG-17 | Mix
+  network: ws
+  port: 8443
+  server: 185.207.199.7
+  servername: speed.dulacloud.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
+- cipher: aes-128-gcm
+  name: 13|🇸🇬 新加坡|@ripaojiedian
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
