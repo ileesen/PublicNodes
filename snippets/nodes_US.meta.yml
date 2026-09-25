@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-9 | Mix
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
   port: 47700
   reality-opts:
@@ -16,7 +16,7 @@ proxies:
   uuid: af24a0e4-f5a2-4b97-a678-992d45346147
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-13 | Mix
+  name: 10,11|🇺🇸 US-4 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -325,87 +325,65 @@ proxies:
   udp: true
   uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - name: 11|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
   password: 'null'
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: None
   port: 9002
   server: 138.199.35.198
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-3 | Mix
-  network: ws
+- name: 11|🇺🇸 US-7 | Mix
   port: 443
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- name: 11|🇺🇸 US-4 | Mix
-  network: tcp
-  password: 1ecc1f19-be75-4fb2-b765-84c6b55a4ba8
-  port: 54273
-  security: tls
-  server: ptxlv6-01.waimaosass.icu
-  servername: www.bing.com
+  server: zebpay.site
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 11|🇺🇸 US-8 | Mix
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
+  port: 443
+  server: 155.117.19.17
   skip-cert-verify: true
   sni: www.bing.com
-  type: trojan
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
-  port: 443
-  server: us02zl.poke-mon.xyz
-  skip-cert-verify: true
-  sni: bing.com
   type: hysteria2
   udp: true
 - client-fingerprint: random
-  name: 11|🇺🇸 US-11 | Mix
+  name: 11|🇺🇸 US-9 | Mix
   network: ws
   port: 443
   server: www.visa.com.hk
   servername: us-lax.862400.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -414,12 +392,6 @@ proxies:
     headers:
       Host: us-lax.862400.xyz
     path: /announcement
-- name: 11|🇺🇸 US-12 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe

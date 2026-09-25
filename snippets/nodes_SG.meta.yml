@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-1 | 8EB
+  name: 10,11|🇸🇬 SG-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -16,7 +16,7 @@ proxies:
   uuid: bda35755-c838-49c3-a19e-3712f2d54275
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 10,11|🇸🇬 SG-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -44,14 +44,6 @@ proxies:
   type: vless
   udp: true
   uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
-- name: 11|🇸🇬 SG-1 | Mix
-  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
-  port: 20000
-  server: sg02-hy.poke-mon.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - cipher: aes-128-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400

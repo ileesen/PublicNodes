@@ -9,7 +9,17 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #1'
+- name: 9|🇩🇪 V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: Telegram=V2RayyNGvpn
+  port: 443
+  server: 91.107.150.74
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #2'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -84,18 +94,11 @@ proxies:
   tls:
     enabled: true
   type: http
-- client-fingerprint: random
-  name: 11|🇩🇪 DE-2 | Mix
-  network: ws
+- name: 11|🇩🇪 DE-2 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: eu-central.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a16eac04-a9b0-441f-9d46-d24f5e16128a
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
