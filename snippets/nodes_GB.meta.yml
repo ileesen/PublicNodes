@@ -1,24 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇬🇧 GB-1 | 8EB
-  network: ws
-  port: 2096
-  server: 172.67.130.159
-  servername: cdn-de.skyvora.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 735b8344-0b95-464c-b687-1c5616138908
-  ws-opts:
-    headers:
-      Host: cdn-de.skyvora.app
-    path: /3cagtz3
-- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: stats.v2.PushService
   mode: gun
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 10|🇬🇧 GB-1 | 8EB
   network: grpc
   port: 443
   reality-opts:
@@ -32,3 +17,65 @@ proxies:
   type: vless
   udp: true
   uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 45.139.197.27
+  servername: angldril.pumpkinpie.study
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: angldril.pumpkinpie.study
+  servername: angldril.pumpkinpie.study
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-5 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X6gBZNZSv_k1pyvLmQaDD4LsYk7jIA1SObRR5r-4Ynk
+    short-id: fcfd621a2f36e3b6
+  server: polkakurvich.hohoterz.beer
+  servername: polkakurvich.hohoterz.beer
+  skip-cert-verify: false
+  spx: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X6gBZNZSv_k1pyvLmQaDD4LsYk7jIA1SObRR5r-4Ynk
+    short-id: fcfd621a2f36e3b6
+  server: 80.47.6.12
+  servername: polkakurvich.hohoterz.beer
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b

@@ -1,45 +1,53 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 2096
-  server: 172.67.130.159
-  servername: cdn-fr.skyvora.app
+  flow: xtls-rprx-vision
+  name: 10,11|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 47700
+  reality-opts:
+    public-key: GuS5do70boXjF2CVlS19J6pwNq1-BHDFYWc8ykj8gGw
+    short-id: bdb8101a
+  server: 108.186.180.148
+  servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
-  ws-opts:
-    headers:
-      Host: cdn-fr.skyvora.app
-    path: /9hf8a67dhf
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2095
-  server: www.temu.com
+  uuid: af24a0e4-f5a2-4b97-a678-992d45346147
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10,11|🇺🇸 US-13 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
+    short-id: befa80d97af98b74
+  server: 38.244.20.25
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
+  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GjzyBnCFWt9D3gtFsMKpvqcmUUYqPA3zNP0o3aNcNSg
+    short-id: e70046c27dae6aa7
+  server: 38.77.133.202
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
+  uuid: 4a215f09-e1f1-46a6-8e2f-7fb096fa6b1f
 - name: 10|🇺🇸 US-4 | 8EB
   network: ws
   port: 2095
-  server: cdnjs.com
+  server: developers.cloudflare.com
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -47,191 +55,371 @@ proxies:
     headers:
       Host: llm-api.sofurry.dpdns.org
     path: /
-- name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-6 | 8EB
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-7 | 8EB
-  password: 5fa748137b6d822308eea4611f474ad5
-  port: 443
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-10 | 8EB
-  network: ws
-  port: 2095
-  server: blog.cloudflare.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  password: MITIVpN
-  port: 443
-  security: tls
-  server: 151.101.56.90
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssl.fastly.com
-    path: /
-- name: 10|🇺🇸 US-15 | 8EB
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-5 | 8EB
   network: tcp
-  port: 62145
-  server: 158.101.195.43
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: random
-  name: 10|🇺🇸 US-16 | 8EB
-  network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
+  reality-opts:
+    public-key: NB_j6YyAs0xI5881v6cfx2jGUKb065ErIrHdOf8ZhVU
+    short-id: 1ac9bcc4e8fd
+  server: 154.9.241.28
+  servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 617bcbdf-9b15-465c-8bab-f2c2a823b289
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.211
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afa3956e-4a5c-4b8b-b461-9a45d5d3f714
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.209
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afa3956e-4a5c-4b8b-b461-9a45d5d3f714
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IaUPkZ9fjO_zqyTnJHG9C8cfFnCuhh0zabZK52c6-iQ
+    short-id: 824d6d15ff341618
+  server: 216.167.67.61
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9690371d-be77-4918-97b0-f587f10473d0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-9 | 8EB
+  network: tcp
+  port: 24422
+  reality-opts:
+    public-key: DK3tc68x2INXkRYSQBvnYHrkxGXVpG65h23F_RGCcXU
+    short-id: 74fb87ee
+  server: 45.32.128.44
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-10 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 50.7.245.212
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00a180ab-d71c-4d2b-b474-4617a0701e46
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-11 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: deccc6fac1ddb0ff
+  server: 67.159.49.35
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a903ef36-e015-4277-910a-7cbecaa13758
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-12 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 50.7.245.205
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00a180ab-d71c-4d2b-b474-4617a0701e46
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-13 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.208
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afa3956e-4a5c-4b8b-b461-9a45d5d3f714
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-14 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.212
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afa3956e-4a5c-4b8b-b461-9a45d5d3f714
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-15 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.210
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afa3956e-4a5c-4b8b-b461-9a45d5d3f714
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 2095
+  server: 45.32.128.44
+  type: vmess
+  udp: true
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 2086
+  server: 108.186.180.148
+  type: vmess
+  udp: true
+  uuid: af24a0e4-f5a2-4b97-a678-992d45346147
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: af24a0e4-f5a2-4b97-a678-992d45346147-vm
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-18 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
+    short-id: 4679f07417e9feb4
+  server: 47.253.144.114
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
+- name: 10|🇺🇸 US-19 | 8EB
+  network: tcp
+  port: 33017
+  server: usanewspeed1234554321.soft355.ir
+  type: vless
+  udp: true
+  uuid: a54166f2-56c7-44f6-abc5-24dbed940bc3
+- client-fingerprint: chrome
+  extra: '{"xPaddingBytes":"100-1000"}'
+  flow: xtls-rprx-vision
+  mode: auto
+  name: 10|🇺🇸 US-20 | 8EB
+  network: xhttp
+  port: 443
+  server: 199.232.79.166
+  servername: cdn.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b490f413-39d1-4f97-b714-1282277b98c2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  mode: gun
+  name: 10|🇺🇸 US-21 | 8EB
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  server: 77.110.104.125
+  servername: maps.apple.com
+  serviceName: your-custom-path
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: 10|🇺🇸 US-22 | 8EB
+  network: ws
+  port: 28058
+  server: roundhouse.proxy.rlwy.net
+  type: vless
+  udp: true
+  uuid: 5300170c-0c94-44d9-a276-a6af3fcc6d5f
+  ws-opts:
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-23 | 8EB
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- name: 11|🇺🇸 US-4 | Mix
+  network: tcp
+  password: 1ecc1f19-be75-4fb2-b765-84c6b55a4ba8
+  port: 54273
+  security: tls
+  server: ptxlv6-01.waimaosass.icu
+  servername: www.bing.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: purposebydesig.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
+  port: 443
+  server: us02zl.poke-mon.xyz
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: us-lax.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16eac04-a9b0-441f-9d46-d24f5e16128a
   ws-opts:
     headers:
       Host: us-lax.862400.xyz
     path: /announcement
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  password: None
-  port: 443
-  server: mmgr.club
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
+- name: 11|🇺🇸 US-12 | Mix
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-6 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 8880
-  server: 172.67.207.26
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -431,6 +619,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

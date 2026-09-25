@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dzPQ1iNRqiBG-HggNplf2hG5MN1HWjKy1F9mFPZktgs
+    short-id: 2ae3ce9e554d3a8f
+  server: 43.108.39.134
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b37018ff-721f-4a16-ac98-52aa945989e0
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: VDJjbE0wUWxNMFE2Og==
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IfHHOvL5aYfIX_FuDpggAGTMD-CbU567fxiTkBPyXmA
+    short-id: 0c30407d613f958a
+  server: 43.108.98.29
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8c16ec9-3574-46eb-a39a-fe09550710c1

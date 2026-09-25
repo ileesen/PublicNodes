@@ -9,6 +9,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #1'
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 443
+  server: 91.107.150.74
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: e9bf2bffe4
@@ -27,3 +37,65 @@ proxies:
   type: vless
   udp: true
   uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: 55986a94e2228791
+  server: 50.7.86.214
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce79d0ff-7810-4ecd-b5d6-766a8eaac8ee
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: 55986a94e2228791
+  server: 50.7.86.212
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce79d0ff-7810-4ecd-b5d6-766a8eaac8ee
+- name: 10|🇩🇪 DE-4 | 8EB
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: dfa4a78a-6170-4924-bf16-a2a7b292e623
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: random
+  name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: eu-central.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16eac04-a9b0-441f-9d46-d24f5e16128a
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement

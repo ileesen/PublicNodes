@@ -1,16 +1,76 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-1 | 8EB
-  network: ws
-  port: 2096
-  server: 172.67.130.159
-  servername: cdn.skyvora.app
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 198.255.87.230
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bdc5e450-3e2d-4001-928e-e3bc6cecb249
+  uuid: 0e391369-eedc-4589-865a-0f7578db6b02
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 198.255.87.218
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e391369-eedc-4589-865a-0f7578db6b02
+- client-fingerprint: safari
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 443
+  server: cos-cdn-a.alicdn.win
+  servername: mms-static-bklowz-e.oppocdn.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa626cbf-abce-4369-9ad3-c6886312c4fb
   ws-opts:
     headers:
-      Host: cdn.skyvora.app
-    path: /hux9duzm54
+      Host: mms-static-edio-e.oppocdn.sbs
+    path: /newlogin/login.do
+- fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇨🇦 CA-4 | 8EB
+  network: ws
+  port: 443
+  server: 162.159.192.125
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+- fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇨🇦 CA-5 | 8EB
+  network: ws
+  port: 443
+  server: 104.16.10.2
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
