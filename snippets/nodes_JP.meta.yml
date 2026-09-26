@@ -1,19 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-1 | Mix
-  network: tcp
+- name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  reality-opts:
-    public-key: EM6moxrvL3HUt-oyT_EBHE89RaAoNtGmdzqJaQNb5l0
-    short-id: 2660386111083ae9
-  server: 47.74.42.183
-  servername: learn.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5096da06-c8d2-4e79-957e-36563fd6134b
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-2 | Mix
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - cipher: aes-128-gcm
   name: 13|🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
