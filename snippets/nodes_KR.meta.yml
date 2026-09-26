@@ -14,18 +14,8 @@ proxies:
   type: vless
   udp: true
   uuid: b37018ff-721f-4a16-ac98-52aa945989e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VfrYrzfyQqgaVeMozagueBL7lvbbU1JB6RHfGJk4enU
-    short-id: 281c396bb44c48da
-  server: 43.108.18.193
-  servername: learn.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 809f043c-86cd-466d-9340-3769bc949e66
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: VkRKamJFMHdVV3hOTUZFMlZESmpiRTB3VVd4Tk1GRTlPZz09Og==

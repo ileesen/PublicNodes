@@ -16,7 +16,7 @@ proxies:
   uuid: af24a0e4-f5a2-4b97-a678-992d45346147
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-4 | Mix
+  name: 10|🇺🇸 US-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -327,71 +327,72 @@ proxies:
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
-  server: crosscards.site
+  server: kimberlymilano.icu
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-6 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-8 | Mix
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-  password: 5fa748137b6d822308eea4611f474ad5
-  port: 443
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 11|🇺🇸 US-9 | Mix
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: us-lax.862400.xyz
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 4433
+  reality-opts:
+    public-key: ptrxM_lwiuXte-ynRSfM7AyayGbWrfCzkV1gQ5EgeSw
+    short-id: 0fa5bc397af019a2
+  server: 107.149.159.190
+  servername: www.postgresql.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a16eac04-a9b0-441f-9d46-d24f5e16128a
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement
+  uuid: 443d55c9-9b78-4ad4-ac34-5ada5b98e97e
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
