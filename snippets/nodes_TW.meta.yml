@@ -1,20 +1,24 @@
 proxies:
-- name: 11|🇹🇼 TW-2 | Mix
+- client-fingerprint: chrome
+  name: 10|🇹🇼 TW-1 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.143.124
+  servername: M2-0.TaIwaN-Park.CcWu.CC
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60a8c59e-47ca-43e0-893d-9fa112178a32
+  ws-opts:
+    headers:
+      Host: m2-0.TaIwAn-PARK.cCwu.Cc
+    path: /2MWx7GNDdlaKK2fhtMLay
+- name: 11|🇹🇼 TW-1 | Mix
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
   server: 6ivh.pnuqcnp.cn
   skip-cert-verify: true
   sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 11|🇹🇼 TW-3 | Mix
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: 6ivh.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: 6ivh.pnuqcnp.cn
   type: anytls
   udp: true

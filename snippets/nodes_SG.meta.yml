@@ -1,19 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
+  flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
   port: 443
-  server: 159.65.15.18
-  servername: volexproxy.karjadidd.workers.dev
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: deccc6fac1ddb0ff
+  server: 67.159.49.37
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  ws-opts:
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-    path: /volexprosy
+  uuid: e8414039-5807-437f-9feb-6e3ff9b79bdc
 - cipher: aes-128-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
