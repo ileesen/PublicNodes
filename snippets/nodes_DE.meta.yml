@@ -9,16 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|25@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
-  port: 8443
-  server: 2.26.54.174
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪 V2RayyNGvpn 🇩🇪
+- name: '9|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: Telegram=V2RayyNGvpn
@@ -38,12 +29,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|28@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: '9|Channel : @Daily_Configs #2'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
+  server: 2.27.59.206
+  skip-cert-verify: false
+  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -65,43 +58,39 @@ proxies:
   udp: true
   uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce79d0ff-7810-4ecd-b5d6-766a8eaac8ee
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.212
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce79d0ff-7810-4ecd-b5d6-766a8eaac8ee
-- name: 10|🇩🇪 DE-4 | 8EB
   network: ws
-  port: 80
-  server: 146.75.119.82
+  port: 8443
+  server: 152.89.107.52
+  servername: volexproxy.karjadidd.workers.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: dfa4a78a-6170-4924-bf16-a2a7b292e623
+  uuid: 766f6c65-0000-4000-8000-787000000002
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+      Host: volexproxy.karjadidd.workers.dev
+    path: /volexprosy
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  port: 2096
+  server: 89.127.218.60
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http

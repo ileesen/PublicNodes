@@ -1,49 +1,19 @@
 proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -LuhwN_cSgNr7nYIfCcu_XAjviKVSGwVGHxmB-s1AD0
-    short-id: e3a4bdfe3d6fd8ec
-  server: 163.128.99.14
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda35755-c838-49c3-a19e-3712f2d54275
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10,11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4S52pKhsJA4gK-_MLW8_R8TTeZsS4pH7ef6St-aKVBQ
-    short-id: ab1df8505f6e0072
-  server: 163.128.99.57
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a049739-b873-4242-9a2b-239951eb2dd3
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: tcp
-  port: 3389
-  reality-opts:
-    public-key: s5t86eacAGCBMt6TWPF3Zhq8KFkBnmNZY3ZkKBrxHkY
-    short-id: a4115cac
-  server: 185.115.207.173
-  servername: www.ntu.edu.sg
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  server: 159.65.15.18
+  servername: volexproxy.karjadidd.workers.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+  uuid: 766f6c65-0000-4000-8000-787000000002
+  ws-opts:
+    headers:
+      Host: volexproxy.karjadidd.workers.dev
+    path: /volexprosy
 - cipher: aes-128-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400

@@ -1,4 +1,81 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 8030
+  server: 54.46.72.234
+  servername: spjd.cbc.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37665857-8b6e-4daa-8231-3e2927221558
+  ws-opts:
+    headers:
+      Host: spjd.cbc.qzz.io
+    path: /proxyip=ProxyIP.US.CMLiussss.net
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 8443
+  server: 23.141.12.134
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  port: 443
+  server: 143.20.156.116
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: ws
+  port: 8443
+  server: 129.211.188.184
+  servername: volexproxy.karjadidd.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 766f6c65-0000-4000-8000-787000000002
+  ws-opts:
+    headers:
+      Host: volexproxy.karjadidd.workers.dev
+    path: /volexprosy
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    short-id: 1bc2c1ef1c
+  server: hk01.alilago.org
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9fc428ed-70fd-4885-8964-636c4678044e
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

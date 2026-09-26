@@ -1,7 +1,371 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 10|🇨🇦 CA-1 | 8EB
+  network: ws
+  port: 8443
+  server: cf.090227.xyz
+  servername: aaa.abcai.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  ws-opts:
+    headers:
+      Host: aaa.abcai.online
+    path: /vless-argo
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-2 | 8EB
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-3 | 8EB
+  network: ws
+  port: 2096
+  server: cf.090227.xyz
+  servername: g.2n2n.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a709b602-de36-4637-9f06-c4c922ee8598
+  ws-opts:
+    headers:
+      Host: g.2n2n.ggff.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-4 | 8EB
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: oooyo.bi8bo.cyou
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  ws-opts:
+    headers:
+      Host: oooyo.bi8bo.cyou
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-5 | 8EB
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: edgetunnel-7w6.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  ws-opts:
+    headers:
+      Host: edgetunnel-7w6.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-6 | 8EB
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: gadeimao.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2a8e93b-5d7c-41b4-a6e2-0d9c4f8a31b7
+  ws-opts:
+    headers:
+      Host: gadeimao.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-7 | 8EB
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: styx.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
+  ws-opts:
+    headers:
+      Host: styx.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-8 | 8EB
+  network: ws
+  port: 8443
+  server: www.5199dy.com
+  servername: aaa.abcai.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  ws-opts:
+    headers:
+      Host: aaa.abcai.online
+    path: /vless-argo
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-9 | 8EB
+  network: ws
+  port: 443
+  server: www.5199dy.com
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-10 | 8EB
+  network: ws
+  port: 443
+  server: www.5199dy.com
+  servername: 819.18827466.bot.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-11 | 8EB
+  network: ws
+  port: 443
+  server: www.5199dy.com
+  servername: oooyo.bi8bo.cyou
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  ws-opts:
+    headers:
+      Host: oooyo.bi8bo.cyou
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-12 | 8EB
+  network: ws
+  port: 443
+  server: www.5199dy.com
+  servername: edgetunnel-7w6.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  ws-opts:
+    headers:
+      Host: edgetunnel-7w6.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-13 | 8EB
+  network: ws
+  port: 2096
+  server: cfip.xxxxxxxx.tk
+  servername: g.2n2n.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a709b602-de36-4637-9f06-c4c922ee8598
+  ws-opts:
+    headers:
+      Host: g.2n2n.ggff.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇨🇦 CA-14 | 8EB
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: yf.962456.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  ws-opts:
+    headers:
+      Host: yf.962456.xyz
+    path: /proxyip=kr.william.us.ci
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-15 | 8EB
+  network: ws
+  port: 8443
+  server: cf.877774.xyz
+  servername: aaa.abcai.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  ws-opts:
+    headers:
+      Host: aaa.abcai.online
+    path: /vless-argo
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-16 | 8EB
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: cf-8mr.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33fc9e3a-4f11-45cc-b048-1e0d7711d322
+  ws-opts:
+    headers:
+      Host: cf-8mr.pages.dev
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 10|🇨🇦 CA-17 | 8EB
+  network: ws
+  port: 2087
+  server: cf.877774.xyz
+  servername: die-5hi.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e30a2b08-4f3d-418d-bd52-f0b1e459c239
+  ws-opts:
+    headers:
+      Host: die-5hi.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-18 | 8EB
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-19 | 8EB
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 819.18827466.bot.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-20 | 8EB
+  network: ws
+  port: 8443
+  server: cf.130519.xyz
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-21 | 8EB
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 255038.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
+  ws-opts:
+    headers:
+      Host: 255038.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇨🇦 CA-22 | 8EB
+  network: ws
+  port: 2083
+  server: 172.67.208.166
+  servername: volexproxy.karjadidd.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 766f6c65-0000-4000-8000-787000000002
+  ws-opts:
+    headers:
+      Host: volexproxy.karjadidd.workers.dev
+    path: /volexprosy
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇨🇦 CA-23 | 8EB
+  network: ws
+  port: 443
+  server: 104.16.10.84
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: 10|🇨🇦 CA-24 | 8EB
+  network: ws
+  port: 80
+  server: 151.101.1.194
+  type: vless
+  udp: true
+  uuid: 5fb42b35-29e1-43c1-9c48-13b1b5e67e94
+  ws-opts:
+    headers:
+      Host: simorghfr.global.ssl.fastly.net
+    path: /
+- name: 10|🇨🇦 CA-25 | 8EB
+  network: httpupgrade
+  port: 2052
+  server: 172.67.221.237
+  type: vless
+  udp: true
+  uuid: 4b87c68d-762f-4969-9680-36bfb9daa858
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-26 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -13,64 +377,34 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 0e391369-eedc-4589-865a-0f7578db6b02
+  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇨🇦 CA-2 | 8EB
+  name: 10|🇨🇦 CA-27 | 8EB
   network: tcp
   port: 443
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 198.255.87.218
+  server: 198.255.87.229
   servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0e391369-eedc-4589-865a-0f7578db6b02
-- client-fingerprint: safari
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: ws
+  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇨🇦 CA-28 | 8EB
+  network: tcp
   port: 443
-  server: cos-cdn-a.alicdn.win
-  servername: mms-static-bklowz-e.oppocdn.sbs
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 198.255.87.228
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: aa626cbf-abce-4369-9ad3-c6886312c4fb
-  ws-opts:
-    headers:
-      Host: mms-static-edio-e.oppocdn.sbs
-    path: /newlogin/login.do
-- fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: ws
-  port: 443
-  server: 162.159.192.125
-  servername: a.cwvps.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  ws-opts:
-    headers:
-      Host: a.cwvps.eu.org
-    path: /ws
-- fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-  name: 10|🇨🇦 CA-5 | 8EB
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: a.cwvps.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  ws-opts:
-    headers:
-      Host: a.cwvps.eu.org
-    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1

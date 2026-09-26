@@ -1,23 +1,73 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
   name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  port: 81
-  server: 147.78.242.19
-  type: vmess
+  port: 8443
+  server: 154.31.114.162
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
-    path: /
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 443
+  server: 152.69.200.216
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cZ9MxrT-CYtdhBdbGeqzcQEvWvAuKw7fEfRbR8QrOlM
+    short-id: 37bb73b5
+  server: 108.160.128.46
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de241e4e-226e-46d5-aa79-602e11ef94d8
 - name: 11|🇯🇵 JP-1 | Mix
-  password: 'null'
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
+  username: bnVsbDpudWxs
 - cipher: aes-128-gcm
   name: 13|🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
