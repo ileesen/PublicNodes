@@ -1,4 +1,64 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  server: 103.170.217.60
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: ws
+  port: 443
+  server: 103.195.191.121
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: random
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: ws
+  port: 443
+  server: 134.185.91.72
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-4 | 8EB
+  network: ws
+  port: 443
+  server: 143.198.213.40
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
 - cipher: aes-128-gcm
   name: 13|🇸🇬 新加坡|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400

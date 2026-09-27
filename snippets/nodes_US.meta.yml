@@ -1,187 +1,336 @@
 proxies:
-- name: 10|🇺🇸 US-1 | 8EB
-  password: D7286728-678E-443B-B76B-B699654C66DD
-  port: 20100
-  server: us1.dexlos.com
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 443
+  server: 208.68.180.204
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: 216.40.87.253
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: 188.255.156.218
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: 77.73.8.226
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 8443
+  server: cf.3666888.xyz
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 443
+  server: 162.159.198.1
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xkbrpYiFSUXkkMW-ssHAOATD72tmVLU7jJcBRAA9M1o
+    short-id: ff31e03dd61f3d81
+  server: 192.220.25.133
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 157d6043-aaa6-471b-807b-19efe42af486
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  port: 2096
+  server: 8.39.125.213
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: 143.198.100.0
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 8443
+  server: 64.186.247.122
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 8443
+  server: 64.186.253.39
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: 40.116.88.35
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 8443
+  server: 179.253.241.241
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: unsafe
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 8443
+  server: 154.17.233.72
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: random
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 443
+  server: 192.241.231.137
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: random
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 2053
+  server: 104.248.68.179
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 443
+  server: 143.198.106.68
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
 - name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  port: 8880
+  server: codecanyon.net
+  type: vless
+  udp: true
+  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+  ws-opts:
+    headers:
+      Host: odd-darkness-57ce.334-a29.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.213
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-2 | Mix
-  network: ws
-  port: 443
-  server: 172.67.203.5
-  servername: YyY.222222.bOnd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
-  ws-opts:
-    headers:
-      Host: YYy.222222.BoNd
-    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-4 | Mix
-  network: ws
+  port: 9002
+  server: 138.199.35.203
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
   port: 443
-  server: 172.67.179.209
-  servername: HHHHHH.66666.boNd
+  server: tzoa.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
-  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
-  ws-opts:
-    headers:
-      Host: HhHHHh.66666.BoND
-    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-5 | Mix
-  network: ws
+- name: 11|🇺🇸 US-6 | Mix
   port: 443
-  server: 172.67.189.137
-  servername: QQQqq.huAngshaNg.HIDNs.CO
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
-  ws-opts:
-    headers:
-      Host: qqqQq.huANgSHaNG.HIDnS.CO
-    path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: 172.67.179.209
-  servername: AAAAA.66666.BOND
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
-  ws-opts:
-    headers:
-      Host: AaaAa.66666.BoND
-    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
+  server: 149.88.21.129
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
   name: 11|🇺🇸 US-7 | Mix
   network: ws
-  port: 443
-  server: 172.67.189.137
-  servername: mmmM.hUAngsHanG.HidNS.co
-  skip-cert-verify: true
+  port: 8443
+  server: cf.877774.xyz
+  servername: edgetunnel-4uw.pages.dev
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   ws-opts:
     headers:
-      Host: MmmM.HuAngSHaNg.HiDNs.co
-    path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.220
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-9 | Mix
-  network: ws
-  port: 443
-  server: 172.67.189.137
-  servername: nNNNNNn.huAngShAnG.hIDns.cO
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
-  ws-opts:
-    headers:
-      Host: NnnNnNN.HuAngShaNg.Hidns.CO
-    path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-10 | Mix
-  network: ws
-  port: 443
-  server: 172.67.189.137
-  servername: mMmMm.HUANGsHAng.hiDnS.Co
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
-  ws-opts:
-    headers:
-      Host: mmMmm.hUAnGshANG.hidNs.CO
-    path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-11 | Mix
-  network: ws
-  port: 443
-  server: 172.67.179.209
-  servername: F.66666.BOnD
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
-  ws-opts:
-    headers:
-      Host: F.66666.BoNd
-    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
-- name: 11|🇺🇸 US-12 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-13 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-14 | Mix
-  network: ws
-  port: 443
-  server: 172.67.179.209
-  servername: NNn.66666.BONd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
-  ws-opts:
-    headers:
-      Host: nnN.66666.BOND
-    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
-- name: 11|🇺🇸 US-15 | Mix
-  port: 8090
-  server: 209.148.53.153
-  tls:
-    enabled: true
-  type: http
+      Host: edgetunnel-4uw.pages.dev
+    path: /fp=chrome
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe

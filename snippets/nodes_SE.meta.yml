@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 10|🇸🇪 SE-1 | 8EB
+  network: tcp
+  port: 62145
+  server: 51.170.176.145
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: random
+  name: 10|🇸🇪 SE-2 | 8EB
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement

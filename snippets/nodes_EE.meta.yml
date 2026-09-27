@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  name: 10|🇪🇪 EE-1 | 8EB
+  network: ws
+  port: 443
+  server: 94.126.224.146
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- name: 10|🇪🇪 EE-2 | 8EB
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 77.239.126.219
+  sni: onecloudstream.com
+  type: hysteria2
+  udp: true
