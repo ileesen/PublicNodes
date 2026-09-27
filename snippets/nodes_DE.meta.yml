@@ -89,3 +89,18 @@ proxies:
     headers:
       Host: se-sto.862400.xyz
     path: /announcement
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-1 | Mix
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    headers:
+      Host: media-se.compressor.work
+    path: /ws

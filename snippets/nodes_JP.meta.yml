@@ -198,13 +198,52 @@ proxies:
     headers:
       Host: se-sto.862400.xyz
     path: /announcement
-- cipher: aes-256-cfb
-  name: 11|🇯🇵 JP-1 | Mix
-  password: amazonskr05
-  port: 443
-  server: 18.181.145.202
-  type: ss
+- name: 11|🇯🇵 JP-1 | Mix
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  type: hysteria2
   udp: true
+- name: 11|🇯🇵 JP-2 | Mix
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-3 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 23801
+  reality-opts:
+    public-key: 7ogEKTScQCeqqPGOaUgWZMwX5Xdizvk9JKtu5MMfJ1o
+    short-id: 274ab0bb
+  server: lbb-sanwang-youhua.lbbzz.com
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cad4134-f6f0-4e83-adca-53ae98c08852
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-4 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 23801
+  reality-opts:
+    public-key: 7ogEKTScQCeqqPGOaUgWZMwX5Xdizvk9JKtu5MMfJ1o
+    short-id: 274ab0bb
+  server: lbb-sanwang-youhua.lbbzz.com
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e29d3b64-c6c8-4b10-b6fe-b75bcc1891f4
 - cipher: aes-128-gcm
   name: 13|🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400

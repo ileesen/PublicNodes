@@ -1,5 +1,5 @@
 proxies:
-- name: 10|🇸🇪 SE-1 | 8EB
+- name: 10,11|🇳🇱 NL-4 | Mix
   network: tcp
   port: 62145
   server: 51.170.176.145
@@ -21,3 +21,41 @@ proxies:
     headers:
       Host: se-sto.862400.xyz
     path: /announcement
+- cipher: aes-256-cfb
+  name: 11|🇸🇪 SE-1 | Mix
+  password: amazonskr05
+  port: 443
+  server: 13.60.213.145
+  type: ss
+  udp: true
+- client-fingerprint: random
+  name: 11|🇸🇪 SE-2 | Mix
+  network: ws
+  packetEncoding: none
+  port: 2083
+  server: 103.177.249.40
+  servername: yf.962456.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  ws-opts:
+    headers:
+      Host: yf.962456.xyz
+    path: /proxyip=kr.william.us.ci
+- client-fingerprint: random
+  name: 11|🇸🇪 SE-3 | Mix
+  network: ws
+  port: 8443
+  server: 144.31.243.120
+  servername: yf.962456.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  ws-opts:
+    headers:
+      Host: yf.962456.xyz
+    path: /proxyip=kr.william.us.ci
