@@ -22,75 +22,55 @@ proxies:
   type: hysteria2
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
+  port: 9002
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- name: 11|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-6 | Mix
-  password: amazonskr05
-  port: 443
-  server: 54.234.217.115
-  type: ss
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: 172.67.212.195
-  servername: 7-m17.KuWAiT-AIrLiNE.kDns.Fr
+  server: 172.67.203.5
+  servername: YyY.222222.bOnd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
   ws-opts:
     headers:
-      Host: 7-M17.kUwaIt-AIrLInE.kDNS.fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+      Host: YYy.222222.BoNd
+    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 22222
+  server: 193.25.215.182
+  type: socks
+  username: 'null'
 - client-fingerprint: chrome
-  name: 11|🇺🇸 US-8 | Mix
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: 172.67.179.209
+  servername: HHHHHH.66666.boNd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
+  ws-opts:
+    headers:
+      Host: HhHHHh.66666.BoND
+    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-5 | Mix
   network: ws
   port: 443
   server: 172.67.189.137
-  servername: LlL.hUangShANg.hIDns.cO
+  servername: QQQqq.huAngshaNg.HIDNs.CO
   skip-cert-verify: true
   tls: true
   type: vless
@@ -98,28 +78,82 @@ proxies:
   uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
   ws-opts:
     headers:
-      Host: LLL.HUanGshANG.HiDnS.Co
+      Host: qqqQq.huANgSHaNG.HIDnS.CO
     path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- name: 11|🇺🇸 US-9 | Mix
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-6 | Mix
+  network: ws
+  port: 443
+  server: 172.67.179.209
+  servername: AAAAA.66666.BOND
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
+  ws-opts:
+    headers:
+      Host: AaaAa.66666.BoND
+    path: /trPpHaP4V3AWsSIDIeS85QbrKOd
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-7 | Mix
+  network: ws
+  port: 443
+  server: 172.67.189.137
+  servername: mmmM.hUAngsHanG.HidNS.co
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  ws-opts:
+    headers:
+      Host: MmmM.HuAngSHaNg.HiDNs.co
+    path: /FbLtzaav4GSW7GPL6LUGsEkZ
+- name: 11|🇺🇸 US-8 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
   username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: 172.67.189.137
+  servername: nNNNNNn.huAngShAnG.hIDns.cO
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  ws-opts:
+    headers:
+      Host: NnnNnNN.HuAngShaNg.Hidns.CO
+    path: /FbLtzaav4GSW7GPL6LUGsEkZ
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 172.67.189.137
+  servername: mMmMm.HUANGsHAng.hiDnS.Co
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  ws-opts:
+    headers:
+      Host: mmMmm.hUAnGshANG.hidNs.CO
+    path: /FbLtzaav4GSW7GPL6LUGsEkZ
 - client-fingerprint: chrome
   name: 11|🇺🇸 US-11 | Mix
   network: ws
   port: 443
   server: 172.67.179.209
-  servername: fFFf.66666.BONd
+  servername: F.66666.BOnD
   skip-cert-verify: true
   tls: true
   type: vless
@@ -127,22 +161,28 @@ proxies:
   uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
   ws-opts:
     headers:
-      Host: FfFF.66666.bond
+      Host: F.66666.BoNd
     path: /trPpHaP4V3AWsSIDIeS85QbrKOd
 - name: 11|🇺🇸 US-12 | Mix
   password: 'null'
-  port: 443
-  server: 38.28.193.188
+  port: 9002
+  server: 138.199.35.202
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-13 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
-  name: 11|🇺🇸 US-13 | Mix
+  name: 11|🇺🇸 US-14 | Mix
   network: ws
   port: 443
   server: 172.67.179.209
-  servername: dD.66666.boNd
+  servername: NNn.66666.BONd
   skip-cert-verify: true
   tls: true
   type: vless
@@ -150,8 +190,14 @@ proxies:
   uuid: 33f4a842-c3ae-4a53-9e64-368efa826518
   ws-opts:
     headers:
-      Host: dD.66666.bOnd
+      Host: nnN.66666.BOND
     path: /trPpHaP4V3AWsSIDIeS85QbrKOd
+- name: 11|🇺🇸 US-15 | Mix
+  port: 8090
+  server: 209.148.53.153
+  tls:
+    enabled: true
+  type: http
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
