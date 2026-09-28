@@ -1,5 +1,5 @@
 proxies:
-- name: 10,11|🇳🇱 NL-4 | Mix
+- name: 10,11|🇳🇱 NL-2 | Mix
   network: tcp
   port: 62145
   server: 51.170.176.145
@@ -21,15 +21,8 @@ proxies:
     headers:
       Host: se-sto.862400.xyz
     path: /announcement
-- cipher: aes-256-cfb
-  name: 11|🇸🇪 SE-1 | Mix
-  password: amazonskr05
-  port: 443
-  server: 13.60.213.145
-  type: ss
-  udp: true
 - client-fingerprint: random
-  name: 11|🇸🇪 SE-2 | Mix
+  name: 11|🇸🇪 SE-1 | Mix
   network: ws
   packetEncoding: none
   port: 2083
@@ -45,7 +38,7 @@ proxies:
       Host: yf.962456.xyz
     path: /proxyip=kr.william.us.ci
 - client-fingerprint: random
-  name: 11|🇸🇪 SE-3 | Mix
+  name: 11|🇸🇪 SE-2 | Mix
   network: ws
   port: 8443
   server: 144.31.243.120

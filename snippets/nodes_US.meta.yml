@@ -271,51 +271,134 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- name: 11|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
+- client-fingerprint: randomized
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
+  port: 443
+  server: 172.66.196.248
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
 - name: 11|🇺🇸 US-2 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-4 | Mix
+  network: ws
   port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
+  server: vl.cocopon.top
+  servername: vl.cocopon.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+  ws-opts:
+    headers:
+      Host: vl.cocopon.top
+    path: /
+- client-fingerprint: randomized
+  name: 11|🇺🇸 US-3 | Mix
+  network: ws
+  port: 443
+  server: 104.18.34.200
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 819.18827466.bot.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: /
+- name: 11,15|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
+  udp: true
+- name: 11,15|US_speednode_0131
   password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 43.174.195.1
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 443
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 104.17.213.125
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 2052
+  server: 154.12.46.41
+  type: vmess
+  udp: true
+  uuid: 2f2f58ea-c677-4757-81e1-06315c35a574
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 2f2f58ea-c677-4757-81e1-06315c35a574-vm
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-15 | Mix
   network: ws
   packetEncoding: none
   port: 443
@@ -330,49 +413,36 @@ proxies:
     headers:
       Host: w3.lianjieni.com
     path: /cdnws
-- name: 13,14|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 100.42.228.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,14|印尼
+  name: 13,14|美国|@ripaojiedian
   network: ws
   port: '443'
-  server: 24864168545164.oylfmxz.cn
-  servername: 24864168545164.oylfmxz.cn
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 24864168545164.oylfmxz.cn
-    path: /
-- cipher: aes-128-gcm
-  name: 13|🇺🇸 美国2-IEPL-GPT
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd2.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇺🇸 美国|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd.bjnet2.com
-  type: ss
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0130
@@ -388,15 +458,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0132
@@ -529,13 +590,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

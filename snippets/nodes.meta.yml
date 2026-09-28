@@ -15,15 +15,6 @@ proxies:
   sni: se.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 8|182609 | Telegram = t.me/SOSke...
-  obfs: salamander
-  obfs-password: WduP1W9fiqZLfRA93UKXRyN83l6
-  password: 879ec4ed-139e-4204-82c4-4488aaae4699
-  port: 4712
-  server: 104.222.222.222
-  sni: domin.com
-  tls: false
-  type: hysteria2
 - name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -34,7 +25,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|139909 | ⚡️Telegram = t.me/SOS...
+- name: 8|139909 | Telegram = t.me/SOSke...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -632,7 +623,7 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- name: 10,11|🇭🇰 HK-2 | Mix
+- name: 10,11|🇭🇰 HK-3 | Mix
   network: ws
   port: 2053
   server: cf.877774.xyz
@@ -794,7 +785,7 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- name: 10,11|🇺🇸 US-7 | Mix
+- name: 10,11|🇺🇸 US-12 | Mix
   network: ws
   port: 443
   server: 172.67.73.170
@@ -878,7 +869,7 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- name: 10,11|🇹🇼 TW-3 | Mix
+- name: 10,11|🇹🇼 TW-2 | Mix
   network: ws
   port: 8443
   server: 141.11.87.48
@@ -985,7 +976,7 @@ proxies:
   type: vless
   udp: true
   uuid: 157d6043-aaa6-471b-807b-19efe42af486
-- name: 10,11|🇺🇸 US-9 | Mix
+- name: 10,11|🇺🇸 US-14 | Mix
   network: ws
   port: 443
   server: 104.26.0.226
@@ -1073,7 +1064,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
-- name: 10,11|🇭🇰 HK-1 | Mix
+- name: 10,11|🇭🇰 HK-2 | Mix
   network: ws
   port: 443
   server: 104.17.150.17
@@ -1101,7 +1092,7 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- name: 10,11|🇺🇸 US-8 | Mix
+- name: 10,11|🇺🇸 US-13 | Mix
   network: ws
   port: 443
   server: 104.26.10.213
@@ -1439,7 +1430,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: 10,11|🇳🇱 NL-4 | Mix
+- name: 10,11|🇳🇱 NL-2 | Mix
   network: tcp
   port: 62145
   server: 51.170.176.145
@@ -2016,94 +2007,85 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: 11,15|RO_speednode_0110
+- name: 11,15|RO_speednode_0082
   port: 9002
-  server: 193.176.84.27
+  server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- cipher: aes-256-cfb
-  name: 11|🇸🇪 SE-1 | Mix
-  password: amazonskr05
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: T2clM0QlM0Q6
+- client-fingerprint: randomized
+  name: 11|🇺🇸 US-1 | Mix
+  network: ws
   port: 443
-  server: 13.60.213.145
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇵🇱 PL-1 | Mix
-  network: tcp
-  port: 2063
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: 31.77.13.19
-  servername: rusbid.de
+  server: 172.66.196.248
+  servername: pmpmppm.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- name: 11|🇬🇧 GB-1 | Mix
-  port: 443
-  server: 185.235.0.66
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.40
   tls:
     enabled: true
   type: http
-- name: 11|🇯🇵 JP-1 | Mix
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
-  type: hysteria2
-  udp: true
-- name: 11|🇳🇱 NL-1 | Mix
+- name: 11|🇺🇸 US-2 | Mix
+  network: ws
   port: 443
-  server: 149.36.51.129
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
+  server: vl.cocopon.top
+  servername: vl.cocopon.top
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 11|🇺🇸 US-2 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 11|🇹🇼 TW-1 | Mix
-  password: 9sK2mP8xQ7vL3nZ6
+  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+  ws-opts:
+    headers:
+      Host: vl.cocopon.top
+    path: /
+- client-fingerprint: randomized
+  name: 11|🇺🇸 US-3 | Mix
+  network: ws
   port: 443
-  server: 6ivh.pnuqcnp.cn
-  skip-cert-verify: true
-  type: anytls
+  server: 104.18.34.200
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇳 CN-1 | Mix
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  type: vmess
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
+- name: 11|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 819.18827466.bot.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 11|🇨🇭 CH-1 | Mix
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.239
-  skip-cert-verify: true
-  sni: hopp-swizland-new.mysynology.net
-  type: hysteria2
-  udp: true
-- name: 11,15|RO_speednode_0126
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: /
+- name: 11,15|US_speednode_0143
   port: 9002
-  server: 193.176.84.39
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
@@ -2113,95 +2095,148 @@ proxies:
   port: 14443
   server: 95.163.232.171
   servername: media-se.compressor.work
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   ws-opts:
-    headers:
-      Host: media-se.compressor.work
     path: /ws
-- name: 11|🇹🇼 TW-2 | Mix
+- name: 11|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.21
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- alpn:
+  - http/1.1
+  name: 11|🇹🇼 TW-1 | Mix
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+  server: 6ivh.pnuqcnp.cn
   skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+  sni: 6ivh.pnuqcnp.cn
   type: anytls
   udp: true
-- name: 11|🇯🇵 JP-2 | Mix
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 43.174.195.1
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 11|🇳🇱 NL-2 | Mix
-  password: 'null'
-  port: 443
-  server: 5.255.118.82
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇳🇱 NL-3 | Mix
-  password: None
-  port: 23856
-  server: 51.159.225.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VkRKak9WQlViejA2Og==
-- name: 11|🇫🇷 FR-1 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: whatsapp.com
-  type: hysteria2
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇸🇬 SG-1 | Mix
-  port: 443
-  server: 154.26.139.24
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 11|🇷🇴 RO-4 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 193.176.84.37
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
+- name: 11,15|RO_speednode_0124
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
   port: 443
-  server: carolinafreigh.fun
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-10 | Mix
+  username: 'null'
+- client-fingerprint: randomized
+  name: 11|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: 104.17.213.125
+  servername: pmpmppm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
+- name: 11|🇳🇱 NL-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.150
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-11 | Mix
+  network: ws
+  port: 2052
+  server: 154.12.46.41
+  type: vmess
+  udp: true
+  uuid: 2f2f58ea-c677-4757-81e1-06315c35a574
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 2f2f58ea-c677-4757-81e1-06315c35a574-vm
+- name: 11|🇭🇰 HK-1 | Mix
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11|🇯🇵 JP-2 | Mix
+  network: ws
+  port: 2083
+  server: cdn.sfacg.uk
+  tls:
+    enabled: true
+    server_name: or3.sfacg.uk
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-15 | Mix
   network: ws
   packetEncoding: none
   port: 443
@@ -2217,7 +2252,7 @@ proxies:
       Host: w3.lianjieni.com
     path: /cdnws
 - client-fingerprint: random
-  name: 11|🇸🇪 SE-2 | Mix
+  name: 11|🇸🇪 SE-1 | Mix
   network: ws
   packetEncoding: none
   port: 2083
@@ -2233,7 +2268,7 @@ proxies:
       Host: yf.962456.xyz
     path: /proxyip=kr.william.us.ci
 - client-fingerprint: random
-  name: 11|🇸🇪 SE-3 | Mix
+  name: 11|🇸🇪 SE-2 | Mix
   network: ws
   port: 8443
   server: 144.31.243.120
@@ -2248,7 +2283,7 @@ proxies:
       Host: yf.962456.xyz
     path: /proxyip=kr.william.us.ci
 - client-fingerprint: random
-  name: 11|🇭🇰 HK-3 | Mix
+  name: 11|🇭🇰 HK-4 | Mix
   network: ws
   port: 443
   server: 39.109.50.142
@@ -2262,7 +2297,7 @@ proxies:
     headers:
       Host: yf.962456.xyz
     path: /proxyip=kr.william.us.ci
-- name: 11|🇸🇬 SG-2 | Mix
+- name: 11|🇸🇬 SG-1 | Mix
   network: ws
   port: 2096
   server: 91.193.58.218
@@ -2276,7 +2311,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-3 | Mix
+- name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 2096
   server: 91.193.58.61
@@ -2290,7 +2325,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-4 | Mix
+- name: 11|🇸🇬 SG-3 | Mix
   network: ws
   port: 2096
   server: 91.193.58.108
@@ -2334,7 +2369,7 @@ proxies:
   type: vless
   udp: true
   uuid: e29d3b64-c6c8-4b10-b6fe-b75bcc1891f4
-- name: 11|🇸🇬 SG-5 | Mix
+- name: 11|🇸🇬 SG-4 | Mix
   network: ws
   port: 2096
   server: 91.193.58.118
@@ -2348,7 +2383,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-6 | Mix
+- name: 11|🇸🇬 SG-5 | Mix
   network: ws
   port: 2096
   server: 91.193.58.15
@@ -2362,7 +2397,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-7 | Mix
+- name: 11|🇸🇬 SG-6 | Mix
   network: ws
   port: 2096
   server: 91.193.58.45
@@ -2376,7 +2411,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-8 | Mix
+- name: 11|🇸🇬 SG-7 | Mix
   network: ws
   port: 2096
   server: 91.193.58.52
@@ -2390,7 +2425,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 11|🇸🇬 SG-9 | Mix
+- name: 11|🇸🇬 SG-8 | Mix
   network: ws
   port: 2096
   server: 91.193.58.57
@@ -2419,99 +2454,186 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 100.42.228.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,14|印尼
+  name: 13,14|香港3|@ripaojiedian
   network: ws
   port: '443'
-  server: 24864168545164.oylfmxz.cn
-  servername: 24864168545164.oylfmxz.cn
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  servername: ADncdOvLHR4M1P36.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 24864168545164.oylfmxz.cn
-    path: /
-- cipher: aes-128-gcm
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36602
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36602
-  server: gd2.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇨🇳 台湾|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36603
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇸🇬 新加坡|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36604
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇯🇵 日本|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36609
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇺🇸 美国2-IEPL-GPT
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd2.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 13|🇺🇸 美国|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd.bjnet2.com
-  type: ss
+      Host: ADncdOvLHR4M1P36.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|香港2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  servername: kBONDXW9liFCi4h4.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kBONDXW9liFCi4h4.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|香港4|@ripaojiedian
+  network: ws
+  port: '443'
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  servername: aZW0eunYVdvRe73k.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aZW0eunYVdvRe73k.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|香港5|@ripaojiedian
+  network: ws
+  port: '443'
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|日本|@ripaojiedian
+  network: ws
+  port: '443'
+  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|日本2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kQov7UKaDknXb8a3.v.3dns.vip
+  servername: kQov7UKaDknXb8a3.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kQov7UKaDknXb8a3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|日本3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kneNaKHeSXnZH259.v.3dns.vip
+  servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kneNaKHeSXnZH259.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|新加坡|@ripaojiedian
+  network: ws
+  port: '443'
+  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|韩国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 8nTzyR5KNivfabaT.v.3dns.vip
+  servername: 8nTzyR5KNivfabaT.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 8nTzyR5KNivfabaT.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -3085,13 +3207,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0083
   port: 9002
   server: 193.176.84.25
@@ -3292,6 +3407,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 15|RO_speednode_0110
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|RO_speednode_0111
   password: None
   port: 9002
@@ -3389,16 +3511,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0124
+- name: 15|RO_speednode_0125
   port: 9002
-  server: 193.176.84.32
+  server: 84.239.49.227
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0125
+- name: 15|RO_speednode_0126
   port: 9002
-  server: 84.239.49.227
+  server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http
@@ -3438,15 +3560,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 15|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - flow: xtls-rprx-vision
   name: 15|US_speednode_0132
   network: tcp
@@ -3574,13 +3687,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - flow: xtls-rprx-vision
   name: 15|US_speednode_0144
   network: tcp
