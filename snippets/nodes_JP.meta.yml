@@ -2,21 +2,65 @@ proxies:
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-1 | 8EB
   network: ws
-  port: 8443
-  server: 103.85.25.226
-  servername: edgetunnel-4uw.pages.dev
+  port: 443
+  server: 160.16.103.102
+  servername: shephe.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   ws-opts:
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: shephe.dpdns.org
     path: /
-- client-fingerprint: unsafe
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+- client-fingerprint: chrome
   name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
+  port: 443
+  server: 212.135.211.79
+  servername: shephe.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.170.8.95
+  servername: shephe.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: edge
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  server: 74.82.192.82
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: unsafe
+  name: 10|🇯🇵 JP-5 | 8EB
   network: ws
   port: 8443
   server: 154.31.114.162
@@ -30,87 +74,41 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  server: 216.23.122.125
-  servername: edgetunnel-4uw.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 443
-  server: 126.78.133.130
-  servername: edgetunnel-4uw.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: ws
-  port: 2053
-  server: 138.3.209.71
-  servername: edgetunnel-4uw.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- client-fingerprint: chrome
+- client-fingerprint: edge
   name: 10|🇯🇵 JP-6 | 8EB
   network: ws
   port: 443
-  server: 23.27.11.55
-  servername: edgetunnel-4uw.pages.dev
+  server: 18.166.216.113
+  servername: hk.152568.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   ws-opts:
     headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-7 | 8EB
   network: ws
   port: 443
-  server: 45.8.173.250
-  servername: edgetunnel-4uw.pages.dev
+  server: 137.220.225.56
+  servername: shephe.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   ws-opts:
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: shephe.dpdns.org
     path: /
 - client-fingerprint: unsafe
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
   name: 10|🇯🇵 JP-8 | 8EB
   network: ws
   port: 443
-  server: 45.251.240.125
+  server: 172.104.81.253
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -121,137 +119,34 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-9 | 8EB
-  network: ws
-  port: 443
-  server: 103.53.80.84
-  servername: edgetunnel-4uw.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 10|🇯🇵 JP-9 | 8EB
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- client-fingerprint: unsafe
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-  name: 10|🇯🇵 JP-10 | 8EB
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-11 | 8EB
-  network: ws
-  port: 443
-  server: 45.192.202.199
-  servername: edgetunnel-4uw.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-    path: /
-- client-fingerprint: unsafe
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-  name: 10|🇯🇵 JP-12 | 8EB
-  network: ws
-  port: 443
-  server: 103.197.210.198
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: random
-  name: 10|🇯🇵 JP-13 | 8EB
-  network: ws
-  port: 443
-  server: 103.53.80.239
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
 - name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- alterId: 0
-  cipher: auto
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 11|🇯🇵 JP-2 | Mix
-  network: ws
-  port: 2083
-  server: cdn.sfacg.uk
-  tls:
-    enabled: true
-    server_name: or3.sfacg.uk
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-3 | Mix
   network: tcp
-  packetEncoding: none
-  port: 23801
+  port: 38830
   reality-opts:
-    public-key: 7ogEKTScQCeqqPGOaUgWZMwX5Xdizvk9JKtu5MMfJ1o
-    short-id: 274ab0bb
-  server: lbb-sanwang-youhua.lbbzz.com
-  servername: www.amd.com
+    public-key: 5E5p5boHrgCyBlt5qZPX1XozU9I90JoBgS4zmXngllI
+    short-id: ac12ed79
+  server: 13.230.30.102
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9cad4134-f6f0-4e83-adca-53ae98c08852
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-4 | Mix
-  network: tcp
-  packetEncoding: none
-  port: 23801
-  reality-opts:
-    public-key: 7ogEKTScQCeqqPGOaUgWZMwX5Xdizvk9JKtu5MMfJ1o
-    short-id: 274ab0bb
-  server: lbb-sanwang-youhua.lbbzz.com
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e29d3b64-c6c8-4b10-b6fe-b75bcc1891f4
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
 - alterId: 0
   cipher: auto
   name: 13,14|日本|@ripaojiedian

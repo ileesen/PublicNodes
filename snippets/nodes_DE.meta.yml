@@ -19,51 +19,26 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: e9bf2bffe4
-  mode: gun
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: yrWGEL08vAohm7D5SB8zygATsagro3YL265rgZPjLgg
-    short-id: 5c687e4713991ed6
-  server: 217.60.183.29
-  servername: www.cloudflare.com
-  serviceName: e9bf2bffe4
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-5 | 8EB
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-1 | 8EB
   network: ws
   port: 443
-  server: 83.171.203.186
-  servername: se-sto.862400.xyz
+  server: bestcf.030101.xyz
+  servername: shephe.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   ws-opts:
     headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- name: 10|🇩🇪 DE-6 | 8EB
-  network: tcp
-  port: 62145
-  server: 134.98.147.203
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      Host: shephe.dpdns.org
+    path: /
 - client-fingerprint: chrome
-  name: 10|🇩🇪 DE-7 | 8EB
+  name: 10|🇩🇪 DE-2 | 8EB
   network: ws
   port: 443
-  server: 2.26.30.216
+  server: 162.159.197.1
   servername: edgetunnel-4uw.pages.dev
   skip-cert-verify: false
   tls: true
@@ -74,23 +49,98 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
     path: /
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-8 | 8EB
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-4 | 8EB
   network: ws
   port: 443
-  server: 88.198.82.151
-  servername: se-sto.862400.xyz
+  server: 64.188.118.137
+  servername: shephe.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   ws-opts:
     headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
+      Host: shephe.dpdns.org
+    path: /
 - client-fingerprint: chrome
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 10|🇩🇪 DE-6 | 8EB
+  network: ws
+  port: 8443
+  server: 109.122.198.83
+  servername: shephe.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-7 | 8EB
+  network: ws
+  port: 443
+  server: 2.26.17.128
+  servername: shephe.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: edge
+  name: 10|🇩🇪 DE-9 | 8EB
+  network: ws
+  port: 443
+  server: 45.147.48.28
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-10 | 8EB
+  network: ws
+  port: 443
+  server: 94.130.178.194
+  servername: shephe.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: edge
+  name: 10|🇩🇪 DE-11 | 8EB
+  network: ws
+  port: 443
+  server: 108.165.236.247
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: chrome
+  name: 11|🇩🇪 DE-2 | Mix
   network: ws
   port: 14443
   server: 95.163.232.171
@@ -101,8 +151,10 @@ proxies:
   udp: true
   uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   ws-opts:
+    headers:
+      Host: media-se.compressor.work
     path: /ws
-- name: 11|🇩🇪 DE-2 | Mix
+- name: 11|🇩🇪 DE-3 | Mix
   port: 443
   server: fan.973511.xyz
   tls:
