@@ -1,9 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10,11|🇫🇷 FR-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zcA1E7_aUxhHP1B4po52NeviW16smzEqcyb2qiQYaTc
+  server: 79.137.192.2
+  servername: cdn.cloudflare.steamstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2412bd96-925b-43f2-81d1-0ed4f0793699
 - name: 11|🇷🇺 RU-1 | Mix
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   port: 22443
   server: 91.240.86.70
   skip-cert-verify: true
-  sni: 91.240.86.70
   type: hysteria2
   udp: true

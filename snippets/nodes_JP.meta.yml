@@ -1,138 +1,34 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 160.16.103.102
-  servername: shephe.dpdns.org
+  reality-opts:
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  server: jp3.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
+  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 212.135.211.79
-  servername: shephe.dpdns.org
+  reality-opts:
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: edge
-  name: 10|🇯🇵 JP-4 | 8EB
-  network: ws
-  port: 443
-  server: 74.82.192.82
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: unsafe
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: ws
-  port: 8443
-  server: 154.31.114.162
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: edge
-  name: 10|🇯🇵 JP-6 | 8EB
-  network: ws
-  port: 443
-  server: 18.166.216.113
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-7 | 8EB
-  network: ws
-  port: 443
-  server: 137.220.225.56
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: unsafe
-  name: 10|🇯🇵 JP-8 | 8EB
-  network: ws
-  port: 443
-  server: 172.104.81.253
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- name: 10|🇯🇵 JP-9 | 8EB
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
+  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
 - alterId: 0
   cipher: auto
   name: 13,14|日本|@ripaojiedian

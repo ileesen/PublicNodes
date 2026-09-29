@@ -1,108 +1,56 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|🇺🇸 US-11 | Mix
+- client-fingerprint: unsafe
+  name: 10|🇨🇦 CA-1 | 8EB
   network: ws
-  packetEncoding: none
   port: 443
-  server: 172.67.79.81
-  servername: shephe.dpdns.org
+  server: 104.24.2.147
+  servername: a.cwvps.eu.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   ws-opts:
     headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
+      Host: a.cwvps.eu.org
+    path: /ws
+- client-fingerprint: unsafe
   name: 10|🇨🇦 CA-2 | 8EB
   network: ws
   port: 443
-  server: 104.17.148.175
-  servername: shephe.dpdns.org
+  server: 104.19.164.155
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
     headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10,11|🇭🇰 HK-3 | Mix
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: 10|🇨🇦 CA-3 | 8EB
   network: ws
-  port: 443
-  server: 104.18.33.120
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
+  port: 8080
+  server: www.whoer.net
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
   ws-opts:
     headers:
-      Host: shephe.dpdns.org
+      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
     path: /
 - client-fingerprint: chrome
   name: 10|🇨🇦 CA-4 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 104.16.154.133
-  servername: shephe.dpdns.org
+  reality-opts:
+    public-key: l4tGdE5Zn8ABfBQns3pRBcxy6CckHTLSIsw5JaBumTk
+    short-id: c9d4bf8d94ec8dab
+  server: 34.95.28.161
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10,11|🇨🇦 CA-1 | Mix
-  network: ws
-  packetEncoding: none
-  port: 443
-  server: 104.129.183.69
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇨🇦 CA-6 | 8EB
-  network: ws
-  port: 443
-  server: 140.238.144.211
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: edge
-  name: 10|🇨🇦 CA-7 | 8EB
-  network: ws
-  port: 443
-  server: 104.17.157.153
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
+  uuid: 448b76ac-c636-4303-bec1-0b2c22afee0c

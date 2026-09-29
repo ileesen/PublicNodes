@@ -1,81 +1,36 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-1 | 8EB
-  network: ws
-  port: 8443
-  server: 68.64.181.90
-  servername: shephe.dpdns.org
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: a2d13d677624197e
+  server: hk6.miyazono-kaori.com
+  servername: www.hsbc.com.hk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
+  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
+  network: tcp
   port: 443
-  server: 167.148.203.71
-  servername: shephe.dpdns.org
+  reality-opts:
+    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
+    short-id: 54fc3827c8
+  server: 89.185.26.250
+  servername: nono.hhhkkhktt.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: edge
-  name: 10|🇭🇰 HK-3 | 8EB
-  network: ws
-  port: 8443
-  server: 207.57.135.199
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: chrome
-  name: 10|🇭🇰 HK-4 | 8EB
-  network: ws
-  port: 443
-  server: 2.27.109.236
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇭🇰 HK-5 | 8EB
-  network: ws
-  port: 443
-  server: 103.101.0.73
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
+  uuid: c2cc86b4-4481-4807-ac9e-24e2d7041248
 - client-fingerprint: unsafe
-  name: 10|🇭🇰 HK-6 | 8EB
+  name: 10|🇭🇰 HK-3 | 8EB
   network: ws
   port: 8443
   server: 129.211.188.184
@@ -89,81 +44,43 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- client-fingerprint: unsafe
-  name: 10|🇭🇰 HK-7 | 8EB
-  network: ws
-  port: 443
-  server: 167.148.203.71
-  servername: jp3.yohototo.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10,11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 10202
+  reality-opts:
+    public-key: E0R7f_nEkbcnc97Z82aDMo2bUVGgcIzChCVYwsQmXnc
+    short-id: 88bd7f
+  server: family.bucket.x1.kfc-520.com
+  servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 10|🇭🇰 HK-8 | 8EB
-  network: ws
-  port: 443
-  server: 141.11.90.160
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: unsafe
-  name: 10|🇭🇰 HK-9 | 8EB
-  network: ws
-  port: 443
-  server: 207.57.123.31
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: unsafe
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-  name: 10|🇭🇰 HK-10 | 8EB
-  network: ws
-  port: 443
-  server: 45.152.65.100
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
 - name: 11|🇭🇰 HK-1 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https://t.me/wangcai2🇨🇳
+  sni: httpst.mewangcai2U0001F1E8U0001F1F3
   type: hysteria2
   udp: true
 - name: 11|🇭🇰 HK-2 | Mix
+  password: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  port: 60001
+  server: hk01.kfc-520.com
+  skip-cert-verify: true
+  sni: hk01.kfc-520.com
+  type: hysteria2
+  udp: true
+- name: 11|🇭🇰 HK-3 | Mix
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: httpst.mewangcai2
   type: hysteria2
   udp: true
 - alterId: 2

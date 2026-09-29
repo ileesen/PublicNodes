@@ -1,62 +1,20 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 10|🇫🇷 FR-1 | 8EB
-  network: ws
-  port: 443
-  server: 217.60.63.5
-  servername: shephe.dpdns.org
+  network: tcp
+  port: 52006
+  server: 31.77.227.6
+  servername: bigdick.gamegrow.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 10,11|🇫🇷 FR-3 | Mix
-  network: ws
-  port: 8443
-  server: 45.38.228.94
-  servername: shephe.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
+  uuid: bc659d88-a1e0-076c-a49a-7b51b26a7a7f
 - name: 11|🇫🇷 FR-1 | Mix
   password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: vk.com
-  type: hysteria2
+  port: 30099
+  server: ip5.934618.xyz
+  sni: ip5.934618.xyz
+  type: anytls
   udp: true
-- name: 11|🇫🇷 FR-2 | Mix
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: 173.212.201.85
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  mode: gun
-  name: 11|🇫🇷 FR-4 | Mix
-  network: grpc
-  port: 443
-  server: assets-fr4.pleiades.codes
-  servername: assets-fr4.pleiades.codes
-  serviceName: cdn.v1.AssetService
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
