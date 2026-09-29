@@ -54,15 +54,39 @@ proxies:
   type: vless
   udp: true
   uuid: b817f3f5-8cdc-4b96-8412-15ce44c46f90
-- name: 11|🇩🇪 DE-2 | Mix
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
   port: 443
-  server: 212.132.126.182
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
+  reality-opts:
+    public-key: Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM
+    short-id: 76309429d55d
+  server: 78.17.161.77
+  servername: ozone.nl
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM
+    short-id: c2798cd4032a02b8
+  server: 78.17.161.75
+  servername: www.nl.ozone.nl
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-4 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -75,21 +99,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2412bd96-925b-43f2-81d1-0ed4f0793699
-- name: 11|🇩🇪 DE-4 | Mix
-  port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- client-fingerprint: edge
-  name: 11|🇩🇪 DE-5 | Mix
-  network: grpc
-  port: 443
-  server: 72.4.65.116
-  servername: assets-de2.pleiades.codes
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b

@@ -15,12 +15,12 @@ proxies:
   udp: true
   uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1
 - name: 11|🇨🇭 CH-1 | Mix
-  port: 18080
-  server: 185.195.71.218
-  type: socks
-- name: 11|🇨🇭 CH-2 | Mix
-  port: 9443
-  server: 37.120.213.210
-  tls:
-    enabled: true
-  type: http
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
+  port: 443
+  server: 152.67.75.161
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
