@@ -75,8 +75,9 @@ proxies:
       Host: shephe.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 10,11|🇺🇸 US-9 | Mix
   network: ws
+  packetEncoding: none
   port: 443
   server: 104.26.11.253
   servername: shephe.dpdns.org
@@ -105,7 +106,7 @@ proxies:
   udp: true
   uuid: 61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-8 | 8EB
+  name: 10,11|🇹🇭 TH-2 | Mix
   network: ws
   port: 443
   server: 117.55.233.250
@@ -135,7 +136,7 @@ proxies:
   udp: true
   uuid: 1e6245c4-fb80-44fd-b354-c6b94a459203
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
+  name: 10,11|🇺🇸 US-10 | Mix
   network: ws
   port: 443
   server: 104.26.11.189
@@ -240,25 +241,63 @@ proxies:
       Host: hk.152568.xyz
     path: /cdn/packages/runtime-core.tar.gz
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
-  port: 443
-  server: voteshirleysew.club
+  port: 9002
+  server: 138.199.35.220
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 8090
-  server: 24.142.229.178
+- name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: tzoa.fun
   tls:
     enabled: true
   type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-5 | Mix
+  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
+  port: 55000
+  server: 156.229.160.253
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  port: 22222
+  server: 193.25.215.182
+  type: socks
+  username: Og==
+- name: 11|🇺🇸 US-8 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 13,14|美国|@ripaojiedian
@@ -328,13 +367,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club

@@ -15,7 +15,7 @@ proxies:
       Host: shephe.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 10|🇫🇷 FR-2 | 8EB
+  name: 10,11|🇫🇷 FR-3 | Mix
   network: ws
   port: 8443
   server: 45.38.228.94
@@ -30,8 +30,33 @@ proxies:
       Host: shephe.dpdns.org
     path: /
 - name: 11|🇫🇷 FR-1 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: vk.com
+  type: hysteria2
+  udp: true
+- name: 11|🇫🇷 FR-2 | Mix
+  password: gf1:gfhysteria2024
   port: 443
-  server: 82.66.235.221
-  tls:
-    enabled: true
-  type: http
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: 173.212.201.85
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  mode: gun
+  name: 11|🇫🇷 FR-4 | Mix
+  network: grpc
+  port: 443
+  server: assets-fr4.pleiades.codes
+  servername: assets-fr4.pleiades.codes
+  serviceName: cdn.v1.AssetService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b

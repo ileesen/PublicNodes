@@ -119,6 +119,26 @@ proxies:
     headers:
       Host: shephe.dpdns.org
     path: /
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: T2clM0QlM0Q6T2clM0QlM0Q=
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Cn5_Bic3VFQ2ONvH5_npnbMYZ-oxkl4BxawPKxoRdCQ
+    short-id: f8f2875b3b4cb65b
+  server: 61.111.247.80
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
 - alterId: 0
   cipher: auto
   name: 13,14|韩国|@ripaojiedian

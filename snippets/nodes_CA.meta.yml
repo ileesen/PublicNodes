@@ -1,7 +1,8 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇨🇦 CA-1 | 8EB
+  name: 10,11|🇺🇸 US-11 | Mix
   network: ws
+  packetEncoding: none
   port: 443
   server: 172.67.79.81
   servername: shephe.dpdns.org
@@ -30,7 +31,7 @@ proxies:
       Host: shephe.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 10|🇨🇦 CA-3 | 8EB
+  name: 10,11|🇭🇰 HK-3 | Mix
   network: ws
   port: 443
   server: 104.18.33.120
@@ -60,8 +61,9 @@ proxies:
       Host: shephe.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 10|🇨🇦 CA-5 | 8EB
+  name: 10,11|🇨🇦 CA-1 | Mix
   network: ws
+  packetEncoding: none
   port: 443
   server: 104.129.183.69
   servername: shephe.dpdns.org

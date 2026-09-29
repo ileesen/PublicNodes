@@ -105,7 +105,7 @@ proxies:
       Host: hk.152568.xyz
     path: /cdn/packages/runtime-core.tar.gz
 - client-fingerprint: chrome
-  name: 10|🇸🇬 SG-10 | 8EB
+  name: 10,11|🇸🇬 SG-5 | Mix
   network: ws
   port: 8443
   server: 132.243.238.192
@@ -196,10 +196,25 @@ proxies:
       Host: jp3.yohototo.top
     path: /tyxyws
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 20975
+  reality-opts:
+    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
+    short-id: 2bb0dc48
+  server: 18.136.119.69
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+- client-fingerprint: chrome
   name: 11|🇸🇬 SG-2 | Mix
   network: ws
   port: 2096
-  server: 91.193.58.118
+  server: 104.17.70.206
   servername: free-server.techsonic.dev
   skip-cert-verify: false
   tls: true
@@ -225,14 +240,26 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 11|🇸🇬 SG-4 | Mix
   network: ws
   port: 2096
-  server: 104.17.70.206
+  server: 91.193.58.118
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  name: 11|🇸🇬 SG-6 | Mix
+  network: ws
+  port: 2096
+  server: 91.193.58.218
   servername: free-server.techsonic.dev
   skip-cert-verify: false
   tls: true
