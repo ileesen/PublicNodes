@@ -46,7 +46,7 @@ proxies:
     path: /tyxyws
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇯🇵 JP-1 | Mix
+  name: 10|🇭🇰 HK-4 | 8EB
   network: tcp
   port: 10202
   reality-opts:
@@ -59,6 +59,67 @@ proxies:
   type: vless
   udp: true
   uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+- name: 11|🇭🇰 HK-1 | Mix
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https://t.me/wangcai2ð\x9F\x87¨ð\x9F\x87³
+  type: hysteria2
+  udp: true
+- name: 11|🇭🇰 HK-2 | Mix
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-3 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  server: china.letsconnectpoint.com
+  servername: china.letsconnectpoint.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 914f3806-07a1-4158-9624-e183de065a38
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  server: 139.28.168.201
+  servername: china.letsconnectpoint.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a368752a-32fc-42f3-980a-6b049218b23f
+- client-fingerprint: edge
+  name: 11|🇭🇰 HK-5 | Mix
+  network: ws
+  port: 8443
+  server: 85.149.211.28
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -70,9 +131,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13,14|香港3|@ripaojiedian
+  name: 13|🇭🇰 香港3|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
   servername: ADncdOvLHR4M1P36.v.3dns.vip
   skip-cert-verify: false
@@ -85,9 +146,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|香港2|@ripaojiedian
+  name: 13|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
   servername: kBONDXW9liFCi4h4.v.3dns.vip
   skip-cert-verify: false
@@ -100,9 +161,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|香港4|@ripaojiedian
+  name: 13|🇭🇰 香港4|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
   servername: aZW0eunYVdvRe73k.v.3dns.vip
   skip-cert-verify: false
@@ -115,9 +176,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|香港5|@ripaojiedian
+  name: 13|🇭🇰 香港5|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
   servername: syJ2gGUgMwBwQwQx.v.3dns.vip
   skip-cert-verify: false
@@ -138,3 +199,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|香港2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12103
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 14|香港3|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10115
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 14|香港4|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12107
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 14|香港5|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12102
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan

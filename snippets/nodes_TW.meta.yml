@@ -14,8 +14,8 @@ proxies:
   type: vless
   udp: true
   uuid: f568577d-e805-4039-a43c-d6c8dd51181a
-- client-fingerprint: safari
-  name: 10,11|🇹🇼 TW-2 | Mix
+- client-fingerprint: chrome
+  name: 10|🇹🇼 TW-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -28,12 +28,21 @@ proxies:
   type: vless
   udp: true
   uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
-- client-fingerprint: chrome
-  name: 11|🇹🇼 TW-3 | Mix
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 11|🇹🇼 TW-1 | Mix
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: 6ivh.pnuqcnp.cn
+  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
   skip-cert-verify: true
-  sni: 6ivh.pnuqcnp.cn
   type: anytls
   udp: true
+- name: 14|台湾|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12142
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan

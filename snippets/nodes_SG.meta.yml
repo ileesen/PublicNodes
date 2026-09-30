@@ -29,26 +29,11 @@ proxies:
   type: vless
   udp: true
   uuid: f568577d-e805-4039-a43c-d6c8dd51181a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-    short-id: ddcd71ec09e5893a
-  server: sg3.miyazono-kaori.com
-  servername: www.changiairport.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
 - alterId: 0
   cipher: auto
-  name: 13,14|新加坡|@ripaojiedian
+  name: 13|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
   servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
   skip-cert-verify: false
@@ -61,9 +46,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 13|🇸🇬 新加坡2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
   servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
   skip-cert-verify: false
@@ -74,3 +59,11 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
+- name: 14|新加坡|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10135
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan

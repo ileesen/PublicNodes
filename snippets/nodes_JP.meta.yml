@@ -29,15 +29,27 @@ proxies:
   type: vless
   udp: true
   uuid: f568577d-e805-4039-a43c-d6c8dd51181a
-- name: 11|🇯🇵 JP-2 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 20270
+  reality-opts:
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 976bf067-9865-4184-938a-204463938c09
 - alterId: 0
   cipher: auto
-  name: 13,14|日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
   servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
   skip-cert-verify: false
@@ -50,9 +62,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
   servername: kQov7UKaDknXb8a3.v.3dns.vip
   skip-cert-verify: false
@@ -65,9 +77,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|日本3|@ripaojiedian
+  name: 13|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
   servername: kneNaKHeSXnZH259.v.3dns.vip
   skip-cert-verify: false
@@ -78,3 +90,11 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
+- name: 14|日本2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10125
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan

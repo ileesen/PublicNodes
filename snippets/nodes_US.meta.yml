@@ -109,50 +109,60 @@ proxies:
   udp: true
   uuid: 9c44b1db-9b38-4d77-adec-7f549c1770a9
 - name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
+  port: 443
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
+- name: 11,15|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: 'null'
+  udp: true
+  username: bnVsbDpudWxs
 - name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
+  port: 443
+  server: 12.202.180.10
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-5 | Mix
   password: 'null'
-  port: 443
-  server: kimberlymilano.icu
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.216
   tls:
     enabled: true
   type: http
   username: 'null'
 - alterId: 0
   cipher: auto
-  name: 13,14|美国|@ripaojiedian
+  name: 13|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
   servername: 53vXOVarmgcreAsv.v.3dns.vip
   skip-cert-verify: false
@@ -165,9 +175,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 13,14|美国2|@ripaojiedian
+  name: 13|🇺🇸 美国2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
   servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
   skip-cert-verify: false
@@ -178,6 +188,22 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
+- name: 14|美国|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 14|美国2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0130
@@ -217,13 +243,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 15|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0134
   port: 443
   server: voteshirleysew.club
