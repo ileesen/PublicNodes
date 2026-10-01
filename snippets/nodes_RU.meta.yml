@@ -1,18 +1,79 @@
 proxies:
-- name: 10|🇷🇺 RU-1 | 8EB
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
-  type: hysteria2
+- client-fingerprint: firefox
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: ws
+  port: 443
+  server: shop.covwkfjpa.top
+  servername: shop.covwkfjpa.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 10|🇷🇺 RU-2 | 8EB
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: itsallproxy.quattro-tech.ru
-  type: hysteria2
+  uuid: 86583e54-ee9a-4747-9470-cf756c469ab0
+  ws-opts:
+    headers:
+      Host: shop.covwkfjpa.top
+    path: /t3zrxM9pTZfnSYV87Ls0cAWEX
+- client-fingerprint: random
+  name: 10|🇷🇺 RU-2 | 8EB
+  network: ws
+  port: 443
+  server: 62.182.102.93
+  servername: eu-central.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: acef49d1-f329-4732-820b-ec083dbd3674
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇷🇺 RU-3 | 8EB
+  network: ws
+  port: 8443
+  server: 91.149.167.147
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇷🇺 RU-4 | 8EB
+  network: ws
+  port: 443
+  server: 93.85.236.9
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇷🇺 RU-5 | 8EB
+  network: ws
+  port: 443
+  server: 104.64.59.22
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
 - name: 11|🇷🇺 RU-1 | Mix
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333

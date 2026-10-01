@@ -1,48 +1,691 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zkPIO05A0_tpRCfRTRIHKUCUoi7kCaxt_RDg-f9zVns
-    short-id: 06ba
-  server: hk3.569283.xyz
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: eadapatOPUV75uDTLPqrRHD1vAAmu_Y-SyQCbp9wgwM
-    short-id: f7a0cd272f3f20a7
-  server: us-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
+  uuid: 8a9b898d-5658-4f77-9fe9-5ff5b61fa107
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a9b898d-5658-4f77-9fe9-5ff5b61fa107
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91c35e01-00bf-41f5-94e4-71539222d255
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-6 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 484af701-34a8-4957-bf61-0f7bc3891e59
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 316f013e-4cf9-4a02-8415-73c22932594a
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3459840a-68e4-463b-a1f7-0b03e0ae3b79
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9760fa51-423f-4000-9dd8-15eccf811982
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3459840a-68e4-463b-a1f7-0b03e0ae3b79
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3459840a-68e4-463b-a1f7-0b03e0ae3b79
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-22 | 8EB
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d78a47b6-dbd2-4ed1-8749-17a22dbe8c3e
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-23 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-24 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-25 | 8EB
+  network: ws
+  port: 443
+  server: 151.101.201.242
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-26 | 8EB
+  network: ws
+  port: 443
+  server: 151.101.41.242
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-27 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1ae5c78-3b70-40e6-899d-9f3650208368
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-28 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-29 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-30 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d78a47b6-dbd2-4ed1-8749-17a22dbe8c3e
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-31 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-32 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-33 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: Th2whwnn3zQaHdImi5B1wYn8hxXz3JQs3_AQCuHfanQ
-    short-id: 76d093d99ceaf06a
-  server: 34.66.64.236
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  server: 31.77.114.114
+  servername: api.vk.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-34 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IdpEClCPDYsXitgvDe5WedR1-BIryffkpjyZyAsQCUk
+  server: 34.3.107.0
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac3a403e-f7f1-4804-8a25-23b0ffe458f9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-35 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Zli2oz4Y11pvkrGK71XDcbp1OWIPzK2FYhUXQvl1yiI
+  server: 31.77.114.212
+  servername: aken.nightfall.best
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
+- client-fingerprint: chrome
+  name: 10,11|🇨🇱 CL-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+    short-id: 2c2d919f5183d0b7
+  server: 34.176.187.219
   servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3893f05b-9b24-4bb1-a1dc-ba55509b0a01
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: rdamrwhuacfl
+  mode: gun
+  name: 10|🇺🇸 US-37 | 8EB
+  network: grpc
+  port: 443
+  server: aken.nightfall.best
+  servername: aken.nightfall.best
+  serviceName: rdamrwhuacfl
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
+- client-fingerprint: edge
+  name: 10|🇺🇸 US-38 | 8EB
+  network: ws
+  port: 2053
+  server: 104.252.19.29
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-39 | 8EB
+  network: ws
+  port: 443
+  server: 179.255.108.180
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+- client-fingerprint: random
+  name: 10|🇺🇸 US-40 | 8EB
+  network: ws
+  port: 443
+  server: 104.26.15.108
+  servername: eu-central.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: acef49d1-f329-4732-820b-ec083dbd3674
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-41 | 8EB
+  network: ws
+  port: 443
+  server: 104.26.4.255
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-42 | 8EB
+  network: ws
+  port: 443
+  server: 172.67.70.110
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+- client-fingerprint: edge
+  name: 10|🇺🇸 US-43 | 8EB
+  network: ws
+  port: 443
+  server: 137.184.11.137
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: edge
+  name: 10|🇺🇸 US-44 | 8EB
+  network: ws
+  port: 443
+  server: 167.99.7.192
+  servername: hk.152568.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: hk.152568.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- client-fingerprint: random
+  name: 10|🇺🇸 US-45 | 8EB
+  network: ws
+  port: 443
+  server: 165.22.32.120
+  servername: eu-central.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: acef49d1-f329-4732-820b-ec083dbd3674
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-46 | 8EB
+  network: ws
+  port: 8443
+  server: 179.255.102.66
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
 - name: 11|🇺🇸 US-1 | Mix
   port: 9002
   server: 138.199.35.203

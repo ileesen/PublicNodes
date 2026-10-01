@@ -1,49 +1,16 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-2 | 8EB
+  name: 10|🇬🇧 GB-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: iEIUvfQSP4eHihDkzb-qAQ-9zGaIINRJDvgwOrt6bkQ
-    short-id: 4c12aa04e8842266
-  server: 31.76.4.144
-  servername: edge-0cf004.cdn-edge-cache.art
+    public-key: I80mt8c1kRZwVPuHdYmm_2snW_BUTjrLmUEKxNuXhWE
+    short-id: 8bab58026280e6aa
+  server: 164.37.103.74
+  servername: free.halyard-online.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b817f3f5-8cdc-4b96-8412-15ce44c46f90
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: edge.v2.FeedService
-  mode: gun
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
-    short-id: 35d05b666e2c6cdf
-  server: 150.40.126.21
-  servername: rs3.univesalsrv.com
-  serviceName: edge.v2.FeedService
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-5 | 8EB
-  network: tcp
-  port: 43001
-  reality-opts:
-    public-key: tIL8mgcG0IWFA538K_cVma848BqVw-XOlNvXeDwDQ30
-    short-id: 6cdef1e8aaca616f
-  server: 2.26.93.246
-  servername: edge-57ed87.cdn-edge-cache.art
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b817f3f5-8cdc-4b96-8412-15ce44c46f90
+  uuid: e4306ea0-e11a-435c-9cf9-bf2c805b0c3b

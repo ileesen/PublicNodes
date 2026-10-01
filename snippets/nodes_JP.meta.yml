@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 20270
+  reality-opts:
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
 - name: 11|🇯🇵 JP-1 | Mix
   password: ee872217-9c78-402c-a002-6a2af50b0227
   port: 8843
