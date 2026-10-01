@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 10|🇷🇺 RU-1 | 8EB
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 22443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
+  type: hysteria2
+  udp: true
+- name: 10|🇷🇺 RU-2 | 8EB
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 22443
+  server: 91.240.86.70
+  sni: itsallproxy.quattro-tech.ru
+  type: hysteria2
+  udp: true
+- name: 11|🇷🇺 RU-1 | Mix
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru1.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true

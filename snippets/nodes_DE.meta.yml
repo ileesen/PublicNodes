@@ -1,1 +1,81 @@
-proxies: []
+proxies:
+- name: 8,9|@KAFING_2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9,10|🇮🇳 IN-8 | 8EB
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.102
+  skip-cert-verify: false
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+  udp: true
+- name: 11|🇩🇪 DE-1 | Mix
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.103
+  sni: grape-test-italy.dynuddns.net
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  mode: gun
+  name: 11|🇩🇪 DE-2 | Mix
+  network: grpc
+  port: 9881
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  server: 176.109.111.154
+  servername: dl.google.com
+  serviceName: grpc-tunnel
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  mode: gun
+  name: 11|🇩🇪 DE-3 | Mix
+  network: grpc
+  port: 9881
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  server: 176.108.245.167
+  servername: dl.google.com
+  serviceName: grpc-tunnel
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  mode: gun
+  name: 11|🇩🇪 DE-4 | Mix
+  network: grpc
+  port: 9881
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  server: 176.109.111.7
+  servername: dl.google.com
+  serviceName: grpc-tunnel
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
