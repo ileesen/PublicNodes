@@ -1,34 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: random
   name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-    short-id: 89fecfdaf45cd76d
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: jp-osa.862400.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇯🇵 JP-1 | Mix
-  network: tcp
-  port: 44966
-  reality-opts:
-    public-key: mq7Am_Ho-FOU0KJ3NYic0YX2eWvPaOhxzBvqUoGGvDU
-    short-id: 0743b6e72feba7ba
-  server: 3.113.215.96
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfd363a1-8db2-4e3d-b8f4-92090d0c5dd4
+  uuid: f5b4adf2-b603-4915-8bc9-98d98b27f7ad
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian

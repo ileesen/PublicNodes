@@ -1,61 +1,16 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇪🇪 EE-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lwKaUQ81wJUJRsqAPsfTPj5V_f9N50UYEwzRI_nuq2g
-    short-id: e88cb983f3c97528
-  server: 93.89.220.37
-  servername: ibm.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 185e2bb3-2934-48d0-bbd5-dd20d16e83ee
-- client-fingerprint: random
-  name: 10|🇪🇪 EE-2 | 8EB
   network: ws
   port: 443
   server: 150.241.74.200
-  servername: eu-central.862400.xyz
+  servername: www.nihaoyun.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: acef49d1-f329-4732-820b-ec083dbd3674
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
   ws-opts:
     headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
-- client-fingerprint: edge
-  name: 10|🇪🇪 EE-3 | 8EB
-  network: ws
-  port: 443
-  server: 5.189.254.168
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: chrome
-  name: 10|🇪🇪 EE-4 | 8EB
-  network: ws
-  port: 8443
-  server: 188.255.236.84
-  servername: qcswhj2.edge-cache.danfeng4.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qcswhj2.edge-cache.danfeng4.xyz
-    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
+      Host: www.nihaoyun.top
+    path: /

@@ -9,21 +9,24 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 443
-  server: 108.165.236.247
-  servername: hk.152568.xyz
+- name: 9|🇩🇪185949 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7
+  port: 5443
+  server: fastly.vexogf.ir
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪 DE-1 | 8EB
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
   udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
 - client-fingerprint: random
   name: 10|🇩🇪 DE-2 | 8EB
   network: ws
@@ -34,164 +37,65 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: acef49d1-f329-4732-820b-ec083dbd3674
+  uuid: f5b4adf2-b603-4915-8bc9-98d98b27f7ad
   ws-opts:
     headers:
       Host: eu-central.862400.xyz
     path: /announcement
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
+- name: 10|🇩🇪 DE-3 | 8EB
+  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
   port: 443
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: 5a9ab320
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: covers.pantera-radio.ru
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: f1d601f2-cc29-4fc2-bafc-7ac833af466a
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇩🇪 DE-4 | 8EB
-  network: tcp
-  port: 443
-  server: de-28544235.sishka.network
-  servername: de-28544235.sishka.network
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28e6c23b-c67e-49a0-a2dc-17375c3b09f2
-- client-fingerprint: edge
-  name: 10|🇩🇪 DE-8 | 8EB
   network: ws
   port: 443
-  server: 150.241.101.185
-  servername: hk.152568.xyz
+  server: 85.121.53.39
+  servername: www.nihaoyun.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
   ws-opts:
     headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
+      Host: www.nihaoyun.top
+    path: /
 - client-fingerprint: chrome
-  name: 10|🇩🇪 DE-9 | 8EB
-  network: ws
-  port: 443
-  server: 185.250.180.68
-  servername: qcswhj2.edge-cache.danfeng4.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qcswhj2.edge-cache.danfeng4.xyz
-    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
-- client-fingerprint: edge
-  name: 10|🇩🇪 DE-10 | 8EB
-  network: ws
-  port: 443
-  server: 142.93.164.200
-  servername: hk.152568.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-11 | 8EB
-  network: ws
-  port: 443
-  server: 2.26.251.55
-  servername: eu-central.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: acef49d1-f329-4732-820b-ec083dbd3674
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-12 | 8EB
+  name: 10|🇩🇪 DE-5 | 8EB
   network: ws
   port: 8443
-  server: 91.107.171.119
-  servername: qcswhj2.edge-cache.danfeng4.xyz
+  server: 85.121.124.65
+  servername: www.nihaoyun.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
   ws-opts:
     headers:
-      Host: qcswhj2.edge-cache.danfeng4.xyz
-    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  mode: gun
-  name: 11|🇩🇪 DE-1 | Mix
-  network: grpc
-  port: 9881
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
-  server: 176.109.111.154
-  servername: dl.google.com
-  serviceName: grpc-tunnel
-  skip-cert-verify: false
-  tls: true
-  type: vless
+      Host: www.nihaoyun.top
+    path: /
+- name: 10|🇩🇪 DE-6 | 8EB
+  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  port: 443
+  server: covers.pantera-radio.ru
+  skip-cert-verify: true
+  sni: covers.pantera-radio.ru
+  type: hysteria2
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  mode: gun
-  name: 11|🇩🇪 DE-2 | Mix
-  network: grpc
-  port: 9881
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
-  server: 176.108.245.167
-  servername: dl.google.com
-  serviceName: grpc-tunnel
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  mode: gun
-  name: 11|🇩🇪 DE-3 | Mix
-  network: grpc
-  port: 9881
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  server: 176.109.111.7
-  servername: dl.google.com
-  serviceName: grpc-tunnel
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 9002
+  server: 158.173.154.3
+  tls:
+    enabled: true
+  type: http

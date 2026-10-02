@@ -1,14 +1,84 @@
 proxies:
-- name: 11|🇮🇪 IE-1 | Mix
+- name: 10|🇵🇱 PL-2 | 8EB
   network: tcp
   password: Trojan@82164024
   port: 443
   security: tls
-  server: ie.tronsg.com
-  servername: ie.tronsg.com
-  skip-cert-verify: true
-  sni: ie.tronsg.com
+  server: pl.tronsg.com
+  servername: pl.tronsg.com
+  skip-cert-verify: false
+  sni: pl.tronsg.com
   type: trojan
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  security: tls
+  server: www.wto.org
+  servername: jiangjc.pages.dev
+  skip-cert-verify: false
+  sni: jiangjc.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: /
+- name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  password: eaf47668-5442-4355-8c92-12cc5cee8468
+  port: 2096
+  security: tls
+  server: x.com
+  servername: avengers5.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers5.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers5.yang-1989.xyz
+    path: /o42w
+- name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
+  port: 2053
+  security: tls
+  server: x.com
+  servername: avengers2.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers2.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers2.yang-1989.xyz
+    path: /9xg2
+- name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
+  port: 8443
+  security: tls
+  server: x.com
+  servername: avengers1.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers1.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers1.yang-1989.xyz
+    path: /hm4m
+- name: 11|🇹🇼 TW-1 | Mix
+  network: ws
+  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
+  port: 443
+  security: tls
+  server: t2w2t2w2.bpca2026.top
+  servername: t2w2t2w2.bpca2026.top
+  skip-cert-verify: true
+  sni: t2w2t2w2.bpca2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t2w2t2w2.bpca2026.top
+    path: /images
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

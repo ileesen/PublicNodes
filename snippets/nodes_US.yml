@@ -1,4 +1,60 @@
 proxies:
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  security: tls
+  server: www.wto.org
+  servername: jiangjc.pages.dev
+  skip-cert-verify: false
+  sni: jiangjc.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: /
+- name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  password: eaf47668-5442-4355-8c92-12cc5cee8468
+  port: 2096
+  security: tls
+  server: x.com
+  servername: avengers5.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers5.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers5.yang-1989.xyz
+    path: /o42w
+- name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
+  port: 2053
+  security: tls
+  server: x.com
+  servername: avengers2.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers2.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers2.yang-1989.xyz
+    path: /9xg2
+- name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
+  port: 8443
+  security: tls
+  server: x.com
+  servername: avengers1.yang-1989.xyz
+  skip-cert-verify: false
+  sni: avengers1.yang-1989.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: avengers1.yang-1989.xyz
+    path: /hm4m
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
