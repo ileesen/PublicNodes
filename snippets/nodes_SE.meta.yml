@@ -29,8 +29,20 @@ proxies:
     headers:
       Host: qcswhj2.edge-cache.danfeng4.xyz
     path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560
-- client-fingerprint: firefox
-  name: 11|🇸🇪 SE-1 | Mix
+- name: 11|🇸🇪 SE-1 | Mix
+  port: 8443
+  server: 77.221.136.60
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇸🇪 SE-2 | Mix
+  port: 8443
+  server: 45.142.141.5
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 11|🇸🇪 SE-3 | Mix
   network: tcp
   port: 443
   reality-opts:

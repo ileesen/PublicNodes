@@ -14,21 +14,21 @@ proxies:
   type: vless
   udp: true
   uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
-- name: 11|🇯🇵 JP-1 | Mix
-  password: ee872217-9c78-402c-a002-6a2af50b0227
-  port: 8843
-  server: 160.16.71.52
-  skip-cert-verify: true
-  sni: updates.cdn-apple.com
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 44966
+  reality-opts:
+    public-key: mq7Am_Ho-FOU0KJ3NYic0YX2eWvPaOhxzBvqUoGGvDU
+    short-id: 0743b6e72feba7ba
+  server: 3.113.215.96
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 11|🇯🇵 JP-2 | Mix
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
+  uuid: bfd363a1-8db2-4e3d-b8f4-92090d0c5dd4
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian
