@@ -13,6 +13,29 @@ proxies:
   type: vless
   udp: true
   uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+- name: 11|🇸🇬 SG-2 | Mix
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 443
+  server: trackydev.site
+  servername: trackydev.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  ws-opts:
+    headers:
+      Host: trackydev.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 新加坡|@ripaojiedian

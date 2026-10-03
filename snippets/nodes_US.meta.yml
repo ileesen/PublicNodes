@@ -72,9 +72,9 @@ proxies:
   type: vless
   udp: true
   uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-2 | Mix
+  name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 9443
   reality-opts:
@@ -89,7 +89,7 @@ proxies:
   uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 10,11|🇺🇸 US-9 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -287,50 +287,12 @@ proxies:
   type: anytls
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
-  server: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
+  server: 137.175.22.96
   tls:
     enabled: true
   type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: 11,15|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 172db2f1-9180-4e5b-b1f5-0dfd0a05d496
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -338,6 +300,44 @@ proxies:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: 149.34.248.65
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -515,6 +515,13 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true

@@ -33,6 +33,16 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 9|@meliproxyy
+  obfs: salamander
+  obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
+  password: 033dc6b532
+  port: 11592
+  server: 77.232.139.128
+  skip-cert-verify: false
+  sni: srv-8718e6.frd21.ru
+  tls: false
+  type: hysteria2
 - name: 9|@tootffarangi-2
   password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
   port: 443
@@ -51,7 +61,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '9|Telegram @cnetvpn '
+- name: 9|Telegram @cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -79,7 +89,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇸186009 | ⚡️Telegram = t.me/SO...
+- name: 9|@vmesskhodam
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 8A9905B7-801B-41AF-BFC9-2034212770F6
@@ -197,6 +207,14 @@ proxies:
   sni: api-test-udp-traffic.kaneki.cfd
   tls: false
   type: hysteria2
+- name: '9|@ICV2RAY #1'
+  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
+  port: 28015
+  server: 64.188.119.177
+  skip-cert-verify: false
+  sni: api-test-udp-trf.kaneki.cfd
+  tls: false
+  type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -264,16 +282,6 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: 9|🇩🇪185949 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 6ccfcef2e116b03ce9047333
-  password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7
-  port: 5443
-  server: fastly.vexogf.ir
-  skip-cert-verify: false
-  sni: tun-a-1.bexait.ir
-  tls: false
-  type: hysteria2
 - name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -335,7 +343,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8d65c8a7-4876-4556-bb6a-feccfb46ee81
-- name: 10|🇿🇦 ZA-2 | 8EB
+- name: 10,11|🇿🇦 ZA-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -469,9 +477,8 @@ proxies:
   type: vless
   udp: true
   uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-2 | Mix
+- flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 9443
   reality-opts:
@@ -485,7 +492,7 @@ proxies:
   udp: true
   uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
 - flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 10,11|🇺🇸 US-9 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -637,8 +644,7 @@ proxies:
     headers:
       Host: jp-osa.862400.xyz
     path: /announcement
-- client-fingerprint: safari
-  name: 10,11|🇮🇩 ID-1 | Mix
+- name: 10|🇮🇩 ID-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -963,154 +969,19 @@ proxies:
     headers:
       Host: www.nihaoyun.top
     path: /
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-1 | Mix
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
-  server: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
+  server: 137.175.22.96
   tls:
     enabled: true
   type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: 11|🇹🇼 TW-1 | Mix
-  network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  security: tls
-  server: t2w2t2w2.bpca2026.top
-  servername: t2w2t2w2.bpca2026.top
-  skip-cert-verify: true
-  sni: t2w2t2w2.bpca2026.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: t2w2t2w2.bpca2026.top
-    path: /images
-- name: 11|🇬🇧 GB-1 | Mix
-  network: grpc
-  port: 9881
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
-  server: 176.109.111.154
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- name: 11|🇳🇱 NL-1 | Mix
-  password: None
-  port: 443
-  server: 5.255.118.82
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 4443
+  server: 83.172.143.53
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.3
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇹🇼 TW-2 | Mix
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls:
-    enabled: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.34
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 172db2f1-9180-4e5b-b1f5-0dfd0a05d496
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VkRKak9WQlViejA2Og==
-- name: 11|🇹🇼 TW-3 | Mix
-  network: ws
-  port: 443
-  server: 59.125.69.23
-  servername: ty986gfazs.cainiaohub.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  ws-opts:
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: 11|🇹🇼 TW-4 | Mix
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  type: anytls
-  udp: true
-- name: 11,15|RO_speednode_0094
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 11,15|RO_speednode_0124
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-2 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -1118,6 +989,133 @@ proxies:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇷🇴 RO-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.30
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.22
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: 149.34.248.65
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇬🇧 GB-1 | Mix
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 11|🇫🇷 FR-2 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- name: 11|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 18.200.158.139
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇬🇪 GE-1 | Mix
+  port: 443
+  server: 195.54.178.210
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|RO_speednode_0124
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇸🇪 SE-1 | Mix
+  port: 443
+  server: 79.142.77.63
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇫🇮 FI-1 | Mix
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
+  type: hysteria2
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇸🇬 SG-2 | Mix
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
+    short-id: 29455a3a790acbd0
+  server: 177.1.186.44
+  servername: mcde.67resserv67.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
 - flow: xtls-rprx-vision
   name: 11|🇷🇺 RU-1 | Mix
   network: tcp
@@ -1131,6 +1129,20 @@ proxies:
   type: vless
   udp: true
   uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
+- name: 11|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 443
+  server: trackydev.site
+  servername: trackydev.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  ws-opts:
+    headers:
+      Host: trackydev.site
+    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -2065,6 +2077,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 15|RO_speednode_0094
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|RO_speednode_0095
   port: 9002
   server: 84.239.49.186
@@ -2443,6 +2463,13 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 15|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
