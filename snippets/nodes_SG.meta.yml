@@ -13,21 +13,16 @@ proxies:
   type: vless
   udp: true
   uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
+- name: 11|🇸🇬 SG-1 | Mix
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: C3TC3BxZM2ehdAprVXOSsL8R_O-G2Be0XqqZhoEQLD0
-    short-id: 1fda1fb3436cf8b0
-  server: 38.180.190.67
-  servername: www.apple.com
+  password: 5b140fc6a0a74e7f
+  port: 20008
+  security: tls
+  server: gsg192i.zxom.eu.org
+  servername: gsg192i.zxom.eu.org
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de83320d-9b23-473e-93f6-d66482124c06
+  sni: gsg192i.zxom.eu.org
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 新加坡|@ripaojiedian

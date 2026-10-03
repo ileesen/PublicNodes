@@ -51,28 +51,35 @@ proxies:
     headers:
       Host: www.nihaoyun.top
     path: /
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-1 | Mix
   network: tcp
-  port: 14343
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 14343
-  server: 27.155.117.209
-  servername: thuk.huaweiyouxuan.com
+  port: 443
+  reality-opts:
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 6d962e8d8a0dce
+  server: jumpernode.site
+  servername: p-nt-www-amazon-com-kalias.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
+- client-fingerprint: chrome
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  server: 34.92.16.7
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
 - flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-3 | Mix
   network: tcp
@@ -84,20 +91,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-4 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: 64b3f192fc0669e1
-  server: 34.96.188.243
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
