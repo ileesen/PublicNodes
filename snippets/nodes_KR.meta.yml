@@ -1,9 +1,18 @@
 proxies:
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VDJjbE0wUWxNMFE2Og==
+- client-fingerprint: chrome
+  name: 11|🇰🇷 KR-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
+    short-id: 8685f8b4d9f4f51e
+  server: 34.47.83.187
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷 韩国|@ripaojiedian

@@ -18,12 +18,57 @@ proxies:
   flow: xtls-rprx-vision
   name: 11|🇯🇵 JP-1 | Mix
   network: tcp
-  port: 46530
+  port: 51177
   reality-opts:
-    public-key: HyqKpSHY4gS8aE65sGpvUkWNJj0JgGRBjsS4MFzVbhA
-    short-id: 6cdfb8b5878caf8d
+    public-key: ztQ8VYq_dVDc3x-QM8LXjup2161CirYrIBE1F7loVzQ
+    short-id: 6772eb2b7a
   server: funagfr.alixxplay.com
-  servername: iosapps.itunes.apple.com
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: edge
+  name: 11|🇯🇵 JP-2 | Mix
+  network: ws
+  port: 8443
+  server: cf.kele.ge
+  servername: jp.520785.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 530d4b66-4a0f-46ba-afba-5ba7254f8964
+  ws-opts:
+    headers:
+      Host: jp.520785.xyz
+    path: /static/media/video-chunk.f4v
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-3 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 176.97.71.18
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-4 | Mix
+  network: tcp
+  port: 42433
+  reality-opts:
+    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
+    short-id: aae6d935
+  server: funagfr.alixxplay.com
+  servername: cdn-dynmedia-1.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless

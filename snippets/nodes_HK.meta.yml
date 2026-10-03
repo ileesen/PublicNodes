@@ -51,23 +51,53 @@ proxies:
     headers:
       Host: www.nihaoyun.top
     path: /
-- name: 11|🇭🇰 HK-1 | Mix
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks
-  username: abc123
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - flow: xtls-rprx-vision
   name: 11|🇭🇰 HK-2 | Mix
   network: tcp
   port: 14343
-  server: 14.17.78.146
+  server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-3 | Mix
+  network: tcp
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  name: 11|🇭🇰 HK-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+    short-id: 64b3f192fc0669e1
+  server: 34.96.188.243
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

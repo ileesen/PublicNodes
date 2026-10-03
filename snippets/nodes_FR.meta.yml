@@ -1,18 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 11|🇫🇷 FR-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-    short-id: ae682368818bd6c5
-  server: 34.155.221.142
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 4443
+  server: 83.172.143.53
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇫🇷 FR-2 | Mix
