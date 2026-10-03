@@ -1,14 +1,29 @@
 proxies:
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 4443
-  server: 83.172.143.53
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇷 FR-2 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 11|🇫🇷 FR-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: ae682368818bd6c5
+  server: 34.155.221.142
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇫🇷 FR-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.231
+  servername: sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048

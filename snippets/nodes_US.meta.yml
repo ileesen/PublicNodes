@@ -89,7 +89,7 @@ proxies:
   uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇺🇸 US-9 | Mix
+  name: 10|🇺🇸 US-7 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -288,53 +288,39 @@ proxies:
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
   port: 443
-  server: 137.175.22.96
+  server: 20.42.108.114
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
+  port: 443
+  server: 71.43.26.234
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 11|🇺🇸 US-4 | Mix
   port: 443
-  server: fan.226278.xyz
+  server: 44.239.226.15
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: 149.34.248.65
+  port: 8090
+  server: 24.142.229.178
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-6 | Mix
   port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: berniesbodybla.fun
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http

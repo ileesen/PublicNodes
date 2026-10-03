@@ -14,6 +14,21 @@ proxies:
     headers:
       Host: jp-osa.862400.xyz
     path: /announcement
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 46530
+  reality-opts:
+    public-key: HyqKpSHY4gS8aE65sGpvUkWNJj0JgGRBjsS4MFzVbhA
+    short-id: 6cdfb8b5878caf8d
+  server: funagfr.alixxplay.com
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian

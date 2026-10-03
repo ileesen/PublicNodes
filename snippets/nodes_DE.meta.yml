@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.143
-  skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: random
   name: 10|🇩🇪 DE-2 | 8EB
   network: ws
@@ -77,18 +69,3 @@ proxies:
   sni: covers.pantera-radio.ru
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
-    short-id: 29455a3a790acbd0
-  server: 177.1.186.44
-  servername: mcde.67resserv67.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
