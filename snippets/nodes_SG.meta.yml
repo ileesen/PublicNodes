@@ -1,5 +1,42 @@
 proxies:
-- name: 10|🇸🇬 SG-1 | 8EB
+- client-fingerprint: chrome
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: UX82473651
+  port: 443
+  security: tls
+  server: pet-antelope.rooster465.autos
+  servername: pet-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-antelope.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  port: 33102
+  server: 112.49.63.11
+  servername: sgg.knhqf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- name: 10|🇸🇬 SG-4 | 8EB
   network: tcp
   password: UX82473651
   port: 443
@@ -9,16 +46,43 @@ proxies:
   skip-cert-verify: true
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- name: 10|🇸🇬 SG-2 | 8EB
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-5 | 8EB
   network: tcp
-  password: UX82473651
   port: 443
-  security: tls
-  server: holy-lamb.rooster465.autos
-  servername: holy-lamb.rooster465.autos
-  skip-cert-verify: true
-  sni: holy-lamb.rooster465.autos
-  type: trojan
+  reality-opts:
+    public-key: C3TC3BxZM2ehdAprVXOSsL8R_O-G2Be0XqqZhoEQLD0
+    short-id: 1fda1fb3436cf8b0
+  server: 38.180.190.67
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de83320d-9b23-473e-93f6-d66482124c06
+- flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-6 | 8EB
+  network: tcp
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-7 | 8EB
+  network: tcp
+  port: 33102
+  server: 27.155.117.209
+  servername: sgg.knhqf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 11|🇸🇬 SG-1 | Mix

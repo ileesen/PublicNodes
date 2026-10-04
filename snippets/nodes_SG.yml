@@ -1,5 +1,15 @@
 proxies:
-- name: 10|🇸🇬 SG-1 | 8EB
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: UX82473651
+  port: 443
+  security: tls
+  server: pet-antelope.rooster465.autos
+  servername: pet-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-antelope.rooster465.autos
+  type: trojan
+- name: 10|🇸🇬 SG-4 | 8EB
   network: tcp
   password: UX82473651
   port: 443
@@ -8,16 +18,6 @@ proxies:
   servername: inviting-ferret.rooster465.autos
   skip-cert-verify: true
   sni: inviting-ferret.rooster465.autos
-  type: trojan
-- name: 10|🇸🇬 SG-2 | 8EB
-  network: tcp
-  password: UX82473651
-  port: 443
-  security: tls
-  server: holy-lamb.rooster465.autos
-  servername: holy-lamb.rooster465.autos
-  skip-cert-verify: true
-  sni: holy-lamb.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto

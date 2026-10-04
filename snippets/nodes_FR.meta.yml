@@ -1,17 +1,18 @@
 proxies:
+- name: 10,11|🇫🇷 FR-2 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
 - name: 11|🇫🇷 FR-1 | Mix
   port: 443
   server: 84.235.228.156
   tls:
     enabled: true
   type: http
-- name: 11|🇫🇷 FR-2 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 11|🇫🇷 FR-3 | Mix

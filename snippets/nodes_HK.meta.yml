@@ -1,23 +1,72 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-1 | Mix
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: ws
+  port: 443
+  server: 95.182.95.178
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 8443
+  server: 43.129.80.179
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 10|🇭🇰 HK-3 | 8EB
+  password: 27f54b06-45b6-4833-8b1a-a2970267e885
+  port: 40002
+  server: u5c9wb.5tencent.asia
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 10|🇭🇰 HK-4 | 8EB
+  network: tcp
+  port: 14343
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-5 | 8EB
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1003
+  server: o6uhrzkj.zf-mix.9999231.xyz
+  sni: hkfash.9999231.xyz
+  type: anytls
+  udp: true
+- name: 10|🇭🇰 HK-6 | 8EB
+  port: 6666
+  server: 61.142.113.42
+  type: socks
+  username: Og
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
   network: tcp
   port: 14343
   server: 27.44.143.169
   servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 14343
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

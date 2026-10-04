@@ -1,72 +1,93 @@
 proxies:
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 443
+  server: 143.198.76.78
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  password: 9da85a1b1b804a2a
+  port: 20002
+  security: tls
+  server: goodus.zxmm.eu.org
+  servername: goodus.zxmm.eu.org
+  skip-cert-verify: false
+  sni: goodus.zxmm.eu.org
+  type: trojan
+- client-fingerprint: chrome
+  name: 10,11|🇺🇸 US-4 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
-  server: 34.92.16.7
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+  server: 136.86.162.34
   servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 2087
-  server: 104.17.147.61
-  servername: helloapps.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: /
-- name: 10|🇺🇸 US-3 | 8EB
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+- name: 10|🇺🇸 US-4 | 8EB
   network: tcp
   password: UX82473651
   port: 443
   security: tls
   server: ultimate-jaguar.rooster465.autos
   servername: ultimate-jaguar.rooster465.autos
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ultimate-jaguar.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-4 | 8EB
+  name: 10|🇺🇸 US-5 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
-  server: 207.246.75.174
-  servername: googleapis.com
+    public-key: VL1ZiaWxae8teZWJeBAIHadbo7z1Ezu1KA2kIA1TDmk
+    short-id: 7dfdbf323c4ef0a8
+  server: 34.29.203.135
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
+  uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: ws
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
   port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+    short-id: d725f0dd8cce210f
+  server: 34.40.217.165
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a9c57d75-a2d3-47f7-9fd5-020a8c918b93
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10,11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 443
@@ -85,20 +106,6 @@ proxies:
   port: 1080
   server: 129.153.11.56
   type: socks
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-4 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-  server: 136.86.162.34
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
 - name: 11|🇺🇸 US-5 | Mix
   port: 8090
   server: 50.184.176.222

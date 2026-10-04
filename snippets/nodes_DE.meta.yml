@@ -11,39 +11,73 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   name: 10|🇩🇪 DE-1 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: PeS4xF85yQ_eE-gqFBQnq2ylysTtQIx5D6HZNyQJS1w
-    short-id: 9f5a01a37505cf29
-  server: ghatem.color-shop.ir
-  servername: vox-cdn.com
+  server: 130.17.12.35
+  servername: ccc.010304.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fdc1206a-9d2e-42b7-b615-9ccea8cf70ee
-- name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  password: UX82473651
-  port: 443
-  security: tls
-  server: meet-goshawk.rooster465.autos
-  servername: meet-goshawk.rooster465.autos
-  skip-cert-verify: true
-  sni: meet-goshawk.rooster465.autos
-  type: trojan
-- client-fingerprint: edge
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  port: 2083
+  server: 162.248.164.35
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
   name: 10|🇩🇪 DE-3 | 8EB
-  network: tcp
-  port: 4000
-  reality-opts:
-    public-key: gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE
-    short-id: 6d66b2bd572f34fb
-  server: lcxngh.gomqiro.ir
-  servername: play.googleapis.com
+  network: ws
+  port: 443
+  server: 157.230.101.36
+  servername: ccc.010304.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83db8840-0d41-4a23-9ec3-682380924eb5
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: 494afdc75f8c2fa8
+  server: 31.77.109.35
+  servername: d3-de1.cloud-cdn.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-5 | 8EB
+  network: tcp
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158

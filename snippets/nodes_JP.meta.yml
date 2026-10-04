@@ -1,28 +1,47 @@
 proxies:
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-1 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-    short-id: 780152c21e234b5a
-  server: 34.153.218.25
-  servername: www.cloudflare.com
+  server: 45.192.201.140
+  servername: argo6.5671234.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
-- name: 10|🇯🇵 JP-2 | 8EB
-  network: tcp
-  password: UX82473651
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  ws-opts:
+    headers:
+      Host: argo6.5671234.xyz
+    path: /e8e2cecb6188f7fb
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-2 | 8EB
+  network: ws
   port: 443
-  security: tls
-  server: accurate-frog.rooster465.autos
-  servername: accurate-frog.rooster465.autos
-  skip-cert-verify: true
-  sni: accurate-frog.rooster465.autos
-  type: trojan
+  server: 141.11.139.215
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-3 | 8EB
+  network: ws
+  port: 44002
+  server: 178.239.117.167
+  type: vmess
+  udp: true
+  uuid: f3d55fea-10fc-4790-be8f-d49c49e1b1bc
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: f3d55fea-10fc-4790-be8f-d49c49e1b1bc-vm
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian

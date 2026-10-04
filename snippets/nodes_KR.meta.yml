@@ -1,28 +1,34 @@
 proxies:
-- name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  password: UX82473651
-  port: 443
-  security: tls
-  server: delicate-buck.rooster465.autos
-  servername: delicate-buck.rooster465.autos
-  skip-cert-verify: true
-  sni: delicate-buck.rooster465.autos
-  type: trojan
 - client-fingerprint: chrome
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: tcp
+  name: 10|🇰🇷 KR-1 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
-    short-id: 4b414f69a06e1e81
-  server: 34.151.245.65
-  servername: www.cloudflare.com
+  server: 110.10.178.240
+  servername: argo6.5671234.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  ws-opts:
+    headers:
+      Host: argo6.5671234.xyz
+    path: /e8e2cecb6188f7fb
+- name: 10|🇰🇷 KR-2 | 8EB
+  port: 1020
+  server: 175.197.55.225
+  type: socks
+  username: Og
+- name: 10|🇰🇷 KR-3 | 8EB
+  network: tcp
+  password: 178c178666bb4ae5
+  port: 20007
+  security: tls
+  server: ikr100b.zxom.eu.org
+  servername: ikr100b.zxom.eu.org
+  skip-cert-verify: false
+  sni: ikr100b.zxom.eu.org
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷 韩国|@ripaojiedian
