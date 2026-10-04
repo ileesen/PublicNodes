@@ -56,7 +56,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 10,11|🇩🇪 DE-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -81,3 +81,13 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 87.106.223.158
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-3 | Mix
+  port: 32768
+  server: 149.28.195.13
+  type: socks

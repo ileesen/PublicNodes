@@ -25,7 +25,7 @@ proxies:
   sni: goodus.zxmm.eu.org
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|🇺🇸 US-4 | Mix
+  name: 10|🇺🇸 US-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -63,7 +63,7 @@ proxies:
   udp: true
   uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-7 | 8EB
+  name: 10,11|🇦🇺 AU-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -78,7 +78,7 @@ proxies:
   uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-2 | Mix
+  name: 10|🇺🇸 US-8 | 8EB
   network: tcp
   port: 14343
   server: 14.17.78.146
@@ -88,71 +88,33 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
+- cipher: aes-256-cfb
+  name: 11|🇺🇸 US-1 | Mix
+  password: amazonskr05
   port: 443
-  server: goedkoopgeluid.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  server: 54.208.227.172
+  type: ss
+  udp: true
 - name: 11|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 184.188.139.2
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 1080
-  server: 129.153.11.56
-  type: socks
-- name: 11|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 50.184.176.222
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 443
-  server: 52.55.81.168
+  password: None
+  port: 9002
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: /
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: jewelscollecti.icu
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.203
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
-- name: 11|🇺🇸 US-9 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-10 | Mix
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1002
-  server: rnb8vc76.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: anytls
-  udp: true
+- name: 11|🇺🇸 US-4 | Mix
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

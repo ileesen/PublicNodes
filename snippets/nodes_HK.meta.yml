@@ -37,12 +37,12 @@ proxies:
   type: ss
   udp: true
 - flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-4 | 8EB
+  name: 10,11|🇭🇰 HK-2 | Mix
   network: tcp
   port: 14343
   server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -71,6 +71,18 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- name: 11|🇭🇰 HK-3 | Mix
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇭🇰 HK-4 | Mix
+  port: 1080
+  server: 47.238.126.208
+  type: socks
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
