@@ -1,28 +1,39 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇸🇬 SG-1 | 8EB
+- name: 10|🇸🇬 SG-1 | 8EB
   network: tcp
+  password: UX82473651
   port: 443
+  security: tls
+  server: inviting-ferret.rooster465.autos
+  servername: inviting-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: inviting-ferret.rooster465.autos
+  type: trojan
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: UX82473651
+  port: 443
+  security: tls
+  server: holy-lamb.rooster465.autos
+  servername: holy-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: holy-lamb.rooster465.autos
+  type: trojan
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 57541
   reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: eb97ce837da2f6ad
-  server: 35.185.179.62
-  servername: www.cloudflare.com
+    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
+    short-id: 22b19630280c3f
+  server: funagfr.alixxplay.com
+  servername: www.lamer.com.sg
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-- name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  password: 5b140fc6a0a74e7f
-  port: 20008
-  security: tls
-  server: gsg192i.zxom.eu.org
-  servername: gsg192i.zxom.eu.org
-  skip-cert-verify: false
-  sni: gsg192i.zxom.eu.org
-  type: trojan
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 新加坡|@ripaojiedian

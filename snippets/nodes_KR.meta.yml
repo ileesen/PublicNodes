@@ -1,23 +1,28 @@
 proxies:
+- name: 10|🇰🇷 KR-1 | 8EB
+  network: tcp
+  password: UX82473651
+  port: 443
+  security: tls
+  server: delicate-buck.rooster465.autos
+  servername: delicate-buck.rooster465.autos
+  skip-cert-verify: true
+  sni: delicate-buck.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
-  name: 11|🇰🇷 KR-1 | Mix
+  name: 10|🇰🇷 KR-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
-    short-id: 3fd0a8ddef3ae5c6
-  server: 34.158.210.177
+    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
+    short-id: 4b414f69a06e1e81
+  server: 34.151.245.65
   servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
-- name: 11|🇰🇷 KR-2 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
+  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷 韩国|@ripaojiedian

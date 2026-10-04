@@ -1,13 +1,23 @@
 proxies:
-- name: 11|🇸🇬 SG-1 | Mix
+- name: 10|🇸🇬 SG-1 | 8EB
   network: tcp
-  password: 5b140fc6a0a74e7f
-  port: 20008
+  password: UX82473651
+  port: 443
   security: tls
-  server: gsg192i.zxom.eu.org
-  servername: gsg192i.zxom.eu.org
-  skip-cert-verify: false
-  sni: gsg192i.zxom.eu.org
+  server: inviting-ferret.rooster465.autos
+  servername: inviting-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: inviting-ferret.rooster465.autos
+  type: trojan
+- name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  password: UX82473651
+  port: 443
+  security: tls
+  server: holy-lamb.rooster465.autos
+  servername: holy-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: holy-lamb.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto

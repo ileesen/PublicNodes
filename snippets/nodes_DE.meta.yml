@@ -9,63 +9,41 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: eu-central.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5b4adf2-b603-4915-8bc9-98d98b27f7ad
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
-- name: 10|🇩🇪 DE-3 | 8EB
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-  port: 443
-  server: covers.pantera-radio.ru
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
   port: 443
-  server: 85.121.53.39
-  servername: www.nihaoyun.top
+  reality-opts:
+    public-key: PeS4xF85yQ_eE-gqFBQnq2ylysTtQIx5D6HZNyQJS1w
+    short-id: 9f5a01a37505cf29
+  server: ghatem.color-shop.ir
+  servername: vox-cdn.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 8443
-  server: 85.121.124.65
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- name: 10|🇩🇪 DE-6 | 8EB
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  uuid: fdc1206a-9d2e-42b7-b615-9ccea8cf70ee
+- name: 10|🇩🇪 DE-2 | 8EB
+  network: tcp
+  password: UX82473651
   port: 443
-  server: covers.pantera-radio.ru
+  security: tls
+  server: meet-goshawk.rooster465.autos
+  servername: meet-goshawk.rooster465.autos
   skip-cert-verify: true
-  sni: covers.pantera-radio.ru
-  type: hysteria2
+  sni: meet-goshawk.rooster465.autos
+  type: trojan
+- client-fingerprint: edge
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 4000
+  reality-opts:
+    public-key: gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE
+    short-id: 6d66b2bd572f34fb
+  server: lcxngh.gomqiro.ir
+  servername: play.googleapis.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 83db8840-0d41-4a23-9ec3-682380924eb5

@@ -1,356 +1,151 @@
 proxies:
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: 104.18.110.157
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  security: tls
-  server: www.wto.org
-  servername: jiangjc.pages.dev
-  skip-cert-verify: false
-  sni: jiangjc.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jiangjc.pages.dev
-    path: /
-- client-fingerprint: firefox
-  name: 10|🇺🇸 US-3 | 8EB
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: 6b2f4e6ac9b1d2f0
-  server: 188.68.218.37
-  servername: rumulti.federal-usa.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d13baced-948a-40d7-be31-7b44fa768552
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  server: 103.31.4.215
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-5 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: Ig8U3RBUF3X7KPeM13EvQwbqxkZMTKL4VHQrzJl1AWA
-    short-id: ff052ade
-  server: 173.242.126.20
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 38.180.254.125
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-7 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-8 | 8EB
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 156.229.162.171
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  server: 104.18.192.253
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-10 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: L1S0DpFtHPBeyENZUvJPcrFZIct6kcHUPxuzNaGXIFY
-    short-id: 4c69c4b51c580d60
-  server: 8.234.247.219
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  server: 34.92.16.7
   servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d6d58f01-b5ce-4d47-bce0-b8a806155852
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-11 | 8EB
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
+  port: 2087
+  server: 104.17.147.61
+  servername: helloapps.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: helloapps.cc.cd
+    path: /
+- name: 10|🇺🇸 US-3 | 8EB
+  network: tcp
+  password: UX82473651
   port: 443
-  server: 104.18.158.53
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 443
-  server: 104.17.205.184
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 443
-  server: 104.21.203.165
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-14 | 8EB
-  network: ws
-  port: 443
-  server: 104.17.174.152
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-15 | 8EB
-  network: ws
-  port: 8443
-  server: 188.255.156.112
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-16 | 8EB
-  network: ws
-  port: 8443
-  server: 179.255.120.31
-  servername: www.nihaoyun.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- name: 10|🇺🇸 US-17 | 8EB
-  network: ws
-  password: eaf47668-5442-4355-8c92-12cc5cee8468
-  port: 2096
   security: tls
-  server: x.com
-  servername: avengers5.yang-1989.xyz
-  skip-cert-verify: false
-  sni: avengers5.yang-1989.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: avengers5.yang-1989.xyz
-    path: /o42w
-- name: 10|🇺🇸 US-18 | 8EB
-  network: ws
-  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
-  port: 2053
-  security: tls
-  server: x.com
-  servername: avengers2.yang-1989.xyz
-  skip-cert-verify: false
-  sni: avengers2.yang-1989.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: avengers2.yang-1989.xyz
-    path: /9xg2
-- name: 10|🇺🇸 US-19 | 8EB
-  network: ws
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  security: tls
-  server: x.com
-  servername: avengers1.yang-1989.xyz
-  skip-cert-verify: false
-  sni: avengers1.yang-1989.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: avengers1.yang-1989.xyz
-    path: /hm4m
-- name: 10|🇺🇸 US-20 | 8EB
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+  server: ultimate-jaguar.rooster465.autos
+  servername: ultimate-jaguar.rooster465.autos
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  sni: ultimate-jaguar.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-4 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
+  server: 207.246.75.174
+  servername: googleapis.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9c57d75-a2d3-47f7-9fd5-020a8c918b93
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 443
-  server: voteshirleysew.club
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
+  port: 8090
+  server: 184.188.139.2
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
+  port: 1080
+  server: 129.153.11.56
+  type: socks
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-4 | Mix
+  network: tcp
   port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+  server: 136.86.162.34
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
 - name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: jgwynphotoarts.pro
+  port: 8090
+  server: 50.184.176.222
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
 - name: 11|🇺🇸 US-6 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.205
+  port: 443
+  server: 52.55.81.168
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /
 - name: 11|🇺🇸 US-8 | Mix
   port: 443
-  server: 137.175.22.85
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
+  username: Ok5vbmU=
 - name: 11|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
+  port: 443
+  server: zebpay.site
   tls:
     enabled: true
   type: http
-  username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-10 | Mix
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1002
+  server: rnb8vc76.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
