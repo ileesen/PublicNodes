@@ -1,6 +1,19 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   name: 10|🇺🇸 US-1 | 8EB
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+  server: 45.88.13.6
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8a9654f-252e-bc36-1ba0-d7b6691bff7d
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
   network: ws
   port: 443
   server: 143.198.76.78
@@ -14,71 +27,39 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /
-- name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
-  password: 9da85a1b1b804a2a
-  port: 20002
-  security: tls
-  server: goodus.zxmm.eu.org
-  servername: goodus.zxmm.eu.org
-  skip-cert-verify: false
-  sni: goodus.zxmm.eu.org
-  type: trojan
 - client-fingerprint: chrome
   name: 10|🇺🇸 US-3 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-  server: 136.86.162.34
-  servername: www.cloudflare.com
+  server: renqi.190417.xyz
+  servername: renqi.190417.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-- name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  password: UX82473651
-  port: 443
-  security: tls
-  server: ultimate-jaguar.rooster465.autos
-  servername: ultimate-jaguar.rooster465.autos
-  skip-cert-verify: false
-  sni: ultimate-jaguar.rooster465.autos
-  type: trojan
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  network: tcp
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: VL1ZiaWxae8teZWJeBAIHadbo7z1Ezu1KA2kIA1TDmk
-    short-id: 7dfdbf323c4ef0a8
-  server: 34.29.203.135
-  servername: www.cloudflare.com
+  server: ccs2g.pai50288.uk
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
-- client-fingerprint: chrome
-  name: 10,11|🇦🇺 AU-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-    short-id: d725f0dd8cce210f
-  server: 34.40.217.165
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  ws-opts:
+    headers:
+      Host: ccs2g.pai50288.uk
+    path: /pai50288
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-8 | 8EB
+  name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 14343
   server: 14.17.78.146
@@ -88,46 +69,454 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  password: b837a998138d4c0a
+  port: 20019
+  security: tls
+  server: sa245.moldscience.cc
+  servername: sa245.moldscience.cc
+  skip-cert-verify: false
+  sni: sa245.moldscience.cc
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: f1955f72763eb2fb
+  server: 34.187.170.146
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+  mode: gun
+  name: 10|🇺🇸 US-9 | 8EB
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: 4872856d5489c37d
+  server: 150.40.126.24
+  servername: rs5.univesalsrv.com
+  serviceName: gw.v1.ObjectService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gw.v2.RelayService
+  mode: gun
+  name: 10|🇺🇸 US-10 | 8EB
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw
+    short-id: 1a3102bb8e51399e
+  server: 45.9.156.42
+  servername: bg5.univesalsrv.com
+  serviceName: gw.v2.RelayService
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+- cipher: aes-256-cfb
+  name: 10|🇺🇸 US-11 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 18.208.223.39
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US-12 | 8EB
+  password: 8a6f95bf-b023-44c3-90b4-0eb5fd2eb94c
+  port: 21196
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: 147.182.242.22
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 8443
+  server: 23.224.69.117
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 443
+  server: 129.146.142.149
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-16 | 8EB
+  network: ws
+  port: 443
+  server: 45.61.135.162
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-17 | 8EB
+  network: ws
+  port: 8443
+  server: 179.253.254.66
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-18 | 8EB
+  network: ws
+  port: 443
+  server: 153.75.81.16
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-19 | 8EB
+  network: ws
+  port: 443
+  server: 99.63.206.163
+  servername: s3ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-20 | 8EB
+  network: ws
+  port: 443
+  server: 117.55.233.87
+  servername: s3ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-21 | 8EB
+  network: ws
+  port: 443
+  server: 163.47.133.115
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-22 | 8EB
+  network: ws
+  port: 443
+  server: 162.243.115.21
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-23 | 8EB
+  network: ws
+  port: 443
+  server: 117.55.224.251
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: random
+  name: 10|🇺🇸 US-24 | 8EB
+  network: ws
+  port: 2053
+  server: 104.238.152.102
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-25 | 8EB
+  network: ws
+  port: 443
+  server: yx.l110.us.ci
+  servername: v25.609929.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28c44e43-3584-4a04-9637-1684b5192558
+  ws-opts:
+    headers:
+      Host: v25.609929.xyz
+    path: /?ed=2560
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-26 | 8EB
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: v25.609929.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28c44e43-3584-4a04-9637-1684b5192558
+  ws-opts:
+    headers:
+      Host: v25.609929.xyz
+    path: /?ed=2560
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-27 | 8EB
+  network: ws
+  port: 443
+  server: cucc.cloudflare.seeck.cn
+  servername: v25.609929.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28c44e43-3584-4a04-9637-1684b5192558
+  ws-opts:
+    headers:
+      Host: v25.609929.xyz
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 10|🇺🇸 US-28 | 8EB
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: us-lax.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-29 | 8EB
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: jp-osa.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-30 | 8EB
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: nl-ams.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: nl-ams.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-31 | 8EB
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: ap-south.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: ap-south.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-32 | 8EB
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-33 | 8EB
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: eu-central.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement?ed=2048
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
-  port: 9002
-  server: 138.199.35.217
+  port: 443
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  password: 9sK2mP8xQ7vL3nZ6
   port: 443
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
 - name: 11|🇺🇸 US-4 | Mix
   port: 443
-  server: 52.15.98.63
+  server: 137.175.22.84
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-5 | Mix
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
   password: None
-  port: 9002
-  server: 138.199.35.205
+  port: 443
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http

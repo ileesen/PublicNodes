@@ -1,61 +1,28 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 10|🇨🇦 CA-1 | 8EB
   network: ws
   port: 443
-  server: 104.17.154.123
-  servername: ccc.010304.xyz
+  server: shopify.com
+  servername: v25.609929.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 28c44e43-3584-4a04-9637-1684b5192558
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /
+      Host: v25.609929.xyz
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 10|🇨🇦 CA-2 | 8EB
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  name: 11|🇨🇦 CA-1 | Mix
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1009
+  server: ybdkz3y4.zf-mix.9999231.xyz
+  sni: co-8ce91c.9999231.xyz
+  type: anytls
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇨🇦 CA-3 | 8EB
-  network: ws
-  port: 443
-  server: 104.26.4.2
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇨🇦 CA-4 | 8EB
-  network: ws
-  port: 443
-  server: 172.66.0.162
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /

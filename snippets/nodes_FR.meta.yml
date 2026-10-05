@@ -1,23 +1,31 @@
 proxies:
-- name: 10|🇫🇷 FR-1 | 8EB
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇫🇷 FR-2 | Mix
-  network: tcp
+- name: 9|🇫🇷187923 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.231
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 51.77.217.70
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 10|🇫🇷 FR-1 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 13.36.178.160
+  type: ss
   udp: true
-  uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048
+- cipher: aes-256-cfb
+  name: 10|🇫🇷 FR-2 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 35.181.55.52
+  type: ss
+  udp: true
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 443
+  server: 82.65.162.76
+  tls:
+    enabled: true
+  type: http

@@ -1,51 +1,146 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: 10|🇯🇵 JP-1 | 8EB
   network: ws
   port: 443
-  server: 45.192.201.140
-  servername: argo6.5671234.xyz
+  server: 13.114.101.22
+  servername: se-sto.862400.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
   ws-opts:
     headers:
-      Host: argo6.5671234.xyz
-    path: /e8e2cecb6188f7fb
+      Host: se-sto.862400.xyz
+    path: /announcement
 - client-fingerprint: chrome
   name: 10|🇯🇵 JP-2 | 8EB
   network: ws
   port: 443
-  server: 141.11.139.215
-  servername: ccc.010304.xyz
+  server: 167.179.103.224
+  servername: s3ws.ragingbull.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /
-- alterId: 0
-  cipher: auto
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
   name: 10|🇯🇵 JP-3 | 8EB
   network: ws
-  port: 44002
-  server: 178.239.117.167
-  type: vmess
+  port: 443
+  server: 138.2.52.92
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: f3d55fea-10fc-4790-be8f-d49c49e1b1bc
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: f3d55fea-10fc-4790-be8f-d49c49e1b1bc-vm
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-4 | 8EB
+  network: ws
+  port: 443
+  server: 154.19.187.39
+  servername: s3ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-5 | 8EB
+  network: ws
+  port: 443
+  server: 45.192.243.176
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-6 | 8EB
+  network: ws
+  port: 443
+  server: 45.202.254.133
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: random
+  name: 10|🇯🇵 JP-7 | 8EB
+  network: ws
+  port: 443
+  server: 64.176.60.226
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-8 | 8EB
+  network: ws
+  port: 443
+  server: 5.34.220.81
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-9 | 8EB
+  network: ws
+  port: 8443
+  server: 45.32.57.54
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
 - name: 11|🇯🇵 JP-1 | Mix
-  port: 1080
-  server: 153.226.138.221
-  type: socks
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian

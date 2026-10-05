@@ -1,15 +1,19 @@
 proxies:
-- name: 10|🇷🇺 RU-1 | 8EB
-  port: 2080
-  server: 95.170.122.80
-  type: socks
-  username: Og
-- name: 10|🇷🇺 RU-2 | 8EB
-  port: 1080
-  server: 95.139.43.12
-  type: socks
-  username: Og
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇷🇺 RU-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.63
+  servername: abuse.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
 - name: 11|🇷🇺 RU-1 | Mix
   port: 1080
-  server: 94.180.29.141
+  server: 213.79.5.192
   type: socks

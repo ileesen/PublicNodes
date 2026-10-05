@@ -1,40 +1,128 @@
 proxies:
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  mode: gun
   name: 10|🇰🇷 KR-1 | 8EB
-  network: ws
-  port: 443
-  server: 110.10.178.240
-  servername: argo6.5671234.xyz
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  serviceName: update
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  port: 443
+  server: 131.186.16.166
+  servername: renqi.190417.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
   ws-opts:
     headers:
-      Host: argo6.5671234.xyz
-    path: /e8e2cecb6188f7fb
-- name: 10|🇰🇷 KR-2 | 8EB
-  port: 1020
-  server: 175.197.55.225
-  type: socks
-  username: Og
-- name: 10|🇰🇷 KR-3 | 8EB
-  network: tcp
-  password: 178c178666bb4ae5
-  port: 20007
-  security: tls
-  server: ikr100b.zxom.eu.org
-  servername: ikr100b.zxom.eu.org
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: ws
+  port: 443
+  server: 43.155.208.254
+  servername: renqi.190417.xyz
   skip-cert-verify: false
-  sni: ikr100b.zxom.eu.org
-  type: trojan
-- name: 11|🇰🇷 KR-1 | Mix
-  password: Og%3D%3D
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: Og%3D%3D
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
+  ws-opts:
+    headers:
+      Host: renqi.190417.xyz
+    path: /
+- client-fingerprint: random
+  name: 10|🇰🇷 KR-4 | 8EB
+  network: ws
+  port: 443
+  server: 146.56.135.196
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-5 | 8EB
+  network: ws
+  port: 443
+  server: 161.118.153.136
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 10|🇰🇷 KR-6 | 8EB
+  network: ws
+  port: 8443
+  server: 64.110.79.66
+  servername: s3ws.ragingbull.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s3ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: random
+  name: 10|🇰🇷 KR-7 | 8EB
+  network: ws
+  port: 2083
+  server: 123.111.169.70
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f517dad7-c4db-4dce-a291-199cf119271f
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇰🇷 KR-1 | Mix
+  network: tcp
+  packetEncoding: none
+  port: 2053
+  reality-opts:
+    public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
+    short-id: 3c4041d3
+  server: 47.80.19.173
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷 韩国|@ripaojiedian
