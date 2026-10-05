@@ -71,19 +71,13 @@ proxies:
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-5 | 8EB
+  name: 10,11|🇭🇰 HK-2 | Mix
   network: tcp
   port: 14343
   server: 36.248.14.90
   servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 149.36.50.1
-  tls:
-    enabled: true
-  type: http
