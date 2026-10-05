@@ -63,7 +63,7 @@ proxies:
   udp: true
   uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
 - client-fingerprint: chrome
-  name: 10,11|🇦🇺 AU-1 | Mix
+  name: 10|🇺🇸 US-7 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -88,33 +88,61 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- cipher: aes-256-cfb
-  name: 11|🇺🇸 US-1 | Mix
-  password: amazonskr05
-  port: 443
-  server: 54.208.227.172
-  type: ss
+- name: 11|🇺🇸 US-1 | Mix
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  type: vless
   udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - name: 11|🇺🇸 US-2 | Mix
-  password: None
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: 12.202.180.10
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
   port: 9002
   server: 138.199.35.199
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.203
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

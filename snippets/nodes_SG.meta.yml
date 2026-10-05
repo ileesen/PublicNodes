@@ -31,7 +31,7 @@ proxies:
   port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -73,7 +73,7 @@ proxies:
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - flow: xtls-rprx-vision
-  name: 10,11|🇸🇬 SG-2 | Mix
+  name: 10|🇸🇬 SG-7 | 8EB
   network: tcp
   port: 33102
   server: 27.155.117.209
@@ -83,10 +83,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- name: 11|🇸🇬 SG-3 | Mix
-  port: 9999
-  server: 8.219.122.8
-  type: socks
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 新加坡|@ripaojiedian
