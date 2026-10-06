@@ -1,120 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  mode: gun
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: update
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: ws
-  port: 443
-  server: 131.186.16.166
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-3 | 8EB
-  network: ws
-  port: 443
-  server: 43.155.208.254
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: random
-  name: 10|🇰🇷 KR-4 | 8EB
-  network: ws
-  port: 443
-  server: 146.56.135.196
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-5 | 8EB
-  network: ws
-  port: 443
-  server: 161.118.153.136
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇰🇷 KR-6 | 8EB
-  network: ws
-  port: 8443
-  server: 64.110.79.66
-  servername: s3ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s3ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: random
-  name: 10|🇰🇷 KR-7 | 8EB
-  network: ws
-  port: 2083
-  server: 123.111.169.70
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
 - name: 11|🇰🇷 KR-1 | Mix
   port: 1090
   server: 121.169.46.116
   type: socks
-  username: T2clM0QlM0Q6
+  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
+- name: 11|🇰🇷 KR-2 | Mix
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  security: tls
+  server: kr.tronsg.com
+  servername: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-2 | Mix
+  name: 11|🇰🇷 KR-3 | Mix
   network: tcp
   packetEncoding: none
   port: 2053

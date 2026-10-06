@@ -9,8 +9,78 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 10|🇩🇪 DE-1 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇩🇪 DE-2 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 167.82.76.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 10|🇩🇪 DE-3 | 8EB
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 167.82.76.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
+    path: '>-'
+- name: 10,11|🇩🇪 DE-1 | Mix
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 167.82.76.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
+    path: /
+- name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  password: mitivpn
+  port: 443
+  security: tls
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: '>-'
 - client-fingerprint: chrome
-  name: 10,11|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: ws
   port: 2087
   server: 188.114.97.3
@@ -24,333 +94,3 @@ proxies:
     headers:
       Host: s4ws.ragingbull.de5.net
     path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  server: 188.114.96.7
-  servername: s3ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s3ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 443
-  server: 46.101.110.88
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: ws
-  port: 443
-  server: 144.31.192.167
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-7 | 8EB
-  network: ws
-  port: 443
-  server: 209.38.238.214
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-8 | 8EB
-  network: ws
-  port: 443
-  server: 38.180.219.68
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-9 | 8EB
-  network: ws
-  port: 8443
-  server: 85.121.124.65
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-10 | 8EB
-  network: ws
-  port: 443
-  server: 185.233.80.164
-  servername: s3ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s3ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-11 | 8EB
-  network: ws
-  port: 443
-  server: 206.81.17.2
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-12 | 8EB
-  network: ws
-  port: 8443
-  server: 57.129.41.117
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-13 | 8EB
-  network: ws
-  port: 2083
-  server: 159.195.5.79
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-14 | 8EB
-  network: ws
-  port: 443
-  server: 172.93.185.10
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-15 | 8EB
-  network: ws
-  port: 443
-  server: 134.255.247.200
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-16 | 8EB
-  network: ws
-  port: 443
-  server: 165.245.245.90
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-17 | 8EB
-  network: ws
-  port: 443
-  server: 209.38.225.184
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-18 | 8EB
-  network: ws
-  port: 443
-  server: 91.107.157.188
-  servername: s3ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s3ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-19 | 8EB
-  network: ws
-  port: 443
-  server: 172.86.95.200
-  servername: renqi.190417.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9583bc2e-3ea6-4db4-8718-3927bd9d2363
-  ws-opts:
-    headers:
-      Host: renqi.190417.xyz
-    path: /
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-20 | 8EB
-  network: ws
-  port: 443
-  server: 194.5.62.5
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-21 | 8EB
-  network: ws
-  port: 443
-  server: 162.248.166.161
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-22 | 8EB
-  network: ws
-  port: 443
-  server: 3.66.169.92
-  servername: se-sto.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f517dad7-c4db-4dce-a291-199cf119271f
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-23 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  server: 31.77.109.35
-  servername: d3-de1.cloud-cdn.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910

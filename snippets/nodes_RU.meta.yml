@@ -1,21 +1,20 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 10|🇷🇺 RU-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.63
-  servername: abuse.sellflow.org
+  server: 45.9.118.101
+  servername: sellflow.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
-- name: 11|🇷🇺 RU-1 | Mix
-  port: 443
-  server: 194.186.179.62
-  tls:
-    enabled: true
-  type: http
+  uuid: 44730b65-24d5-45f2-8b45-8be24015d1b9
+- name: 10|🇷🇺 RU-2 | 8EB
+  port: 11080
+  server: 79.104.196.6
+  type: socks
+  username: Og
