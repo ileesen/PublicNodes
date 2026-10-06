@@ -59,7 +59,7 @@ proxies:
     path: /pai50288
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-1 | Mix
+  name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 14343
   server: 14.17.78.146
@@ -471,27 +471,74 @@ proxies:
       Host: eu-central.862400.xyz
     path: /announcement?ed=2048
 - name: 11|🇺🇸 US-1 | Mix
-  password: d7340868-b74c-455a-8ce0-17a52afa43b7
-  port: 21333
-  server: 134.195.101.162
-  skip-cert-verify: true
-  sni: apple.com
-  type: anytls
-  udp: true
+  port: 443
+  server: 107.149.232.90
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-2 | Mix
-  port: 3001
-  server: 49.12.188.170
-  type: socks
-- name: 11|🇺🇸 US-3 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.220
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  port: 443
+  server: 137.175.22.89
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 44499
-  server: 45.61.188.134
-  type: socks
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: jgwynphotoarts.pro
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-6 | Mix
+  port: 8090
+  server: 50.76.211.251
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: 104.233.178.179
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
