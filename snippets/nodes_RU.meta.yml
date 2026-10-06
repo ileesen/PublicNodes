@@ -14,6 +14,24 @@ proxies:
   udp: true
   uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
 - name: 11|🇷🇺 RU-1 | Mix
+  port: 8443
+  server: 87.242.85.187
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇺 RU-2 | Mix
   port: 1080
-  server: 213.79.5.192
+  server: 5.165.215.212
+  type: socks
+- name: 11|🇷🇺 RU-3 | Mix
+  port: 2080
+  server: 85.30.222.99
+  type: socks
+- name: 11|🇷🇺 RU-4 | Mix
+  port: 1080
+  server: 95.64.159.130
+  type: socks
+- name: 11|🇷🇺 RU-5 | Mix
+  port: 1080
+  server: 77.37.203.137
   type: socks

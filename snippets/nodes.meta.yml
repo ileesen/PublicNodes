@@ -19,7 +19,7 @@ proxies:
   sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
-- name: 9|@meliproxyy
+- name: 9|Tel-@ProxyMtAlpha 2
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -64,6 +64,14 @@ proxies:
   server: 31.76.80.69
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
+  tls: false
+  type: hysteria2
+- name: 9|️93@oneclickvpnkeys
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  port: 443
+  server: streambox.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: streambox.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: 9|@vmesskhodam
@@ -143,7 +151,7 @@ proxies:
   sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9|🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -191,16 +199,6 @@ proxies:
   password: capadm96216165
   port: 443
   server: 208.69.78.217
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇷187923 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-  password: capadmbd5f18bd
-  port: 443
-  server: 51.77.217.70
   skip-cert-verify: true
   sni: vpn.local
   tls: false
@@ -271,14 +269,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 9|8
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.102
-  skip-cert-verify: false
-  sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
 - name: 9|🛠️15@oneclickvpnkeys
@@ -440,7 +430,7 @@ proxies:
     headers:
       Host: ccs2g.pai50288.uk
     path: /pai50288
-- name: 10|🇩🇪 DE-1 | 8EB
+- name: 10,11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2087
   server: 188.114.97.3
@@ -523,7 +513,7 @@ proxies:
   udp: true
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
 - flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
+  name: 10,11|🇭🇰 HK-1 | Mix
   network: tcp
   port: 14343
   server: 14.17.78.146
@@ -534,7 +524,7 @@ proxies:
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - flow: xtls-rprx-vision
-  name: 10|🇸🇬 SG-2 | 8EB
+  name: 10,11|🇸🇬 SG-1 | Mix
   network: tcp
   port: 33102
   server: 27.44.143.169
@@ -557,7 +547,7 @@ proxies:
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -572,7 +562,7 @@ proxies:
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 10|🇮🇳 IN-4 | 8EB
+  name: 10,11|🇳🇱 NL-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -1927,146 +1917,118 @@ proxies:
   type: vless
   udp: true
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-- flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 14343
-  server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - name: 11|🇷🇺 RU-1 | Mix
-  port: 1080
-  server: 213.79.5.192
-  type: socks
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-1 | Mix
   port: 8443
-  server: 91.107.219.205
+  server: 87.242.85.187
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11|🇷🇴 RO-1 | Mix
-  password: 'null'
+- name: 11,15|NL_speednode_0006
   port: 9002
-  server: 193.176.84.30
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇨🇦 CA-1 | Mix
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1009
-  server: ybdkz3y4.zf-mix.9999231.xyz
-  sni: co-8ce91c.9999231.xyz
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: 137.175.22.84
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: 82.65.162.76
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-2 | Mix
-  password: b0917015b656b3dd2286b5633af0c5c1
-  port: 50160
-  server: 31.57.248.176
-  skip-cert-verify: true
-  sni: 31.57.248.176
-  type: hysteria2
-  udp: true
-- name: 11|🇪🇸 ES-1 | Mix
-  port: 443
-  server: 82.102.17.178
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇭🇰 HK-3 | Mix
-  port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.4
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇵🇱 PL-1 | Mix
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1019
-  server: fux02f0q.zf-mix.9999231.xyz
-  sni: pl-house.9999231.xyz
-  type: anytls
-  udp: true
-- name: 11,15|RO_speednode_0126
-  port: 9002
-  server: 193.176.84.39
+  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 11|🇳🇱 NL-2 | Mix
+  port: 443
+  server: 185.4.114.7
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇺 RU-2 | Mix
+  port: 1080
+  server: 5.165.215.212
+  type: socks
+- name: 11|🇷🇺 RU-3 | Mix
+  port: 2080
+  server: 85.30.222.99
+  type: socks
+- name: 11|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.29
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-1 | Mix
+  password: d7340868-b74c-455a-8ce0-17a52afa43b7
+  port: 21333
+  server: 134.195.101.162
+  skip-cert-verify: true
+  sni: apple.com
+  type: anytls
+  udp: true
+- name: 11|🇺🇸 US-2 | Mix
+  port: 3001
+  server: 49.12.188.170
+  type: socks
+- name: 11|🇳🇱 NL-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.147
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇮🇱 IL-1 | Mix
+  port: 443
+  server: 62.90.77.30
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.26
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇻🇳 VN-1 | Mix
+  port: 1080
+  server: 160.187.0.89
+  type: socks
+- name: 11|🇭🇰 HK-2 | Mix
+  port: 1085
+  server: 43.163.81.35
+  type: socks
+- name: 11|🇺🇸 US-4 | Mix
+  port: 44499
+  server: 45.61.188.134
+  type: socks
+- name: 11|🇳🇱 NL-5 | Mix
+  port: 443
+  server: 185.238.168.20
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇺 RU-4 | Mix
+  port: 1080
+  server: 95.64.159.130
+  type: socks
+- name: 11|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.37
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|RO_speednode_0082
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇷🇺 RU-5 | Mix
+  port: 1080
+  server: 77.37.203.137
+  type: socks
 - flow: xtls-rprx-vision
   name: 11|🇰🇷 KR-1 | Mix
   network: tcp
@@ -2082,36 +2044,6 @@ proxies:
   type: vless
   udp: true
   uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
-- name: 11|🇭🇰 HK-4 | Mix
-  network: tcp
-  password: 80dd183b-0ca3-4039-bd18-e85b61a1d584
-  port: 443
-  security: tls
-  server: node1.luoye.ee
-  servername: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
-- name: 11|🇭🇰 HK-5 | Mix
-  network: tcp
-  password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
-  port: 443
-  security: tls
-  server: node1.luoye.ee
-  servername: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
-- name: 11|🇭🇰 HK-6 | Mix
-  network: tcp
-  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
-  port: 443
-  security: tls
-  server: node1.luoye.ee
-  servername: node1.luoye.ee
-  skip-cert-verify: false
-  sni: node1.luoye.ee
-  type: trojan
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -2408,13 +2340,6 @@ proxies:
   password: None
   port: 9002
   server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|NL_speednode_0006
-  port: 9002
-  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
@@ -2960,13 +2885,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0083
   port: 9002
   server: 193.176.84.25
@@ -3281,6 +3199,13 @@ proxies:
 - name: 15|RO_speednode_0125
   port: 9002
   server: 84.239.49.227
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|RO_speednode_0126
+  port: 9002
+  server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http

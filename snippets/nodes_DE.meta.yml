@@ -10,7 +10,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 10|🇩🇪 DE-1 | 8EB
+  name: 10,11|🇩🇪 DE-2 | Mix
   network: ws
   port: 2087
   server: 188.114.97.3
@@ -56,7 +56,7 @@ proxies:
     path: /wsrb7k2m
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-4 | 8EB
+  name: 10,11|🇩🇪 DE-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -354,15 +354,3 @@ proxies:
   type: vless
   udp: true
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 8443
-  server: 91.107.219.205
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.4
-  tls:
-    enabled: true
-  type: http
