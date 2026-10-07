@@ -54,19 +54,15 @@ proxies:
   type: socks
   username: Og
 - name: 11|🇭🇰 HK-1 | Mix
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks
-  username: admin
-- name: 11|🇭🇰 HK-2 | Mix
-  password: 'null'
+  network: tcp
+  password: 654d0888-1452-4e1b-8077-ab00b45409fb
   port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  security: tls
+  server: node1.luoye.ee
+  servername: node1.luoye.ee
+  skip-cert-verify: false
+  sni: node1.luoye.ee
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

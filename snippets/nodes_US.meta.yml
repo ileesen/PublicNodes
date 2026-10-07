@@ -49,7 +49,7 @@ proxies:
   server: 166.159.225.66
   type: socks
   username: Og
-- name: 10,11|🇺🇸 US-2 | Mix
+- name: 10|🇺🇸 US-7 | 8EB
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -58,42 +58,53 @@ proxies:
   type: anytls
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  port: 1080
-  server: 83.147.217.103
-  type: socks
+  port: 443
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: 162.244.227.36
-  tls:
-    enabled: true
-  type: http
+  port: 9080
+  server: 23.95.222.32
+  type: socks
 - name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: zebpay.site
+  port: 9002
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
 - name: 11|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 24.142.229.178
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 8090
-  server: 50.184.176.222
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
   password: 'null'
-  port: 443
-  server: kimberlymilano.icu
+  port: 9002
+  server: 138.199.35.196
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: 137.175.22.56
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: 137.175.22.72
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

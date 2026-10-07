@@ -65,33 +65,13 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: /
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
+- name: 11|🇩🇪 DE-1 | Mix
   port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- client-fingerprint: chrome
-  name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2087
-  server: 188.114.97.3
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
+  server: 194.67.110.12
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 10809
+  server: 91.107.179.68
+  type: socks

@@ -489,9 +489,8 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-1 | Mix
+- flow: xtls-rprx-vision
+  name: 10|🇬🇧 GB-3 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -626,9 +625,9 @@ proxies:
   server: 212.192.221.129
   type: ss
   udp: true
-- client-fingerprint: random
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 10,11|🇪🇪 EE-1 | Mix
+  name: 10|🇪🇪 EE-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -668,7 +667,7 @@ proxies:
   sni: ch-wy.9999231.xyz
   type: anytls
   udp: true
-- name: 10|🇷🇺 RU-2 | 8EB
+- name: 10,11|🇷🇺 RU-1 | Mix
   port: 11080
   server: 79.104.196.6
   type: socks
@@ -680,7 +679,7 @@ proxies:
   sni: se-house.9999231.xyz
   type: anytls
   udp: true
-- name: 10,11|🇺🇸 US-2 | Mix
+- name: 10|🇺🇸 US-7 | 8EB
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -702,173 +701,159 @@ proxies:
   sni: tw01.9999231.xyz
   type: anytls
   udp: true
+- name: 11|🇺🇸 US-1 | Mix
+  port: 443
+  server: carolinafreigh.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 194.67.110.12
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇳🇱 NL-1 | Mix
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9080
+  server: 23.95.222.32
+  type: socks
 - name: 11|🇯🇵 JP-1 | Mix
   port: 443
-  server: fan.587475.xyz
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇱🇻 LV-1 | Mix
+  username: bnVsbDpudWxs
+- name: 11|🇲🇩 MD-1 | Mix
   port: 1080
-  server: 195.135.255.98
+  server: 95.65.99.157
   type: socks
-- name: 11|🇮🇩 ID-1 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-1 | Mix
-  port: 1080
-  server: 83.147.217.103
-  type: socks
-- name: 11|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.23
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇷 FR-1 | Mix
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1012
-  server: 9crq2opn.zf-mix.9999231.xyz
-  sni: fr-house.9999231.xyz
-  type: anytls
-  udp: true
-- name: 11|🇭🇰 HK-1 | Mix
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks
-  username: admin
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: 162.244.227.36
+- name: 11|🇳🇱 NL-2 | Mix
+  port: 23856
+  server: 51.159.225.196
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 11|🇧🇷 BR-1 | Mix
-  port: 443
-  server: 134.65.17.77
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-2 | Mix
-  password: 'null'
-  port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 24.142.229.178
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  server: 157.228.150.34
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- name: 11|🇺🇸 US-6 | Mix
-  port: 8090
-  server: 50.184.176.222
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 443
-  server: kimberlymilano.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: 11|🇷🇴 RO-2 | Mix
-  password: None
   port: 9002
-  server: 193.176.84.27
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-2 | Mix
+  port: 10809
+  server: 91.107.179.68
+  type: socks
+- name: 11|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 34.249.214.108
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.19
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇦🇱 AL-1 | Mix
+  port: 1090
+  server: 82.114.86.173
+  type: socks
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: 137.175.22.56
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|RO_speednode_0044
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-2 | Mix
+  name: 11|🇵🇱 PL-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
-    short-id: f3c023cc
-  server: 2.27.39.233
+    public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8
+    short-id: 770618b6
+  server: 177.1.192.74
   servername: addons.mozilla.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- flow: xtls-rprx-vision
-  name: 11|🇰🇷 KR-1 | Mix
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
+- name: 11|🇳🇱 NL-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.150
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11,15|RO_speednode_0083
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: 137.175.22.72
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 443
+  server: 51.210.167.149
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇧🇪 BE-1 | Mix
+  port: 9101
+  server: 37.77.148.12
+  type: socks
+- name: 11|🇭🇰 HK-1 | Mix
   network: tcp
-  packetEncoding: none
-  port: 2053
-  reality-opts:
-    public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
-    short-id: 3c4041d3
-  server: 47.80.19.173
-  servername: gateway.icloud.com
+  password: 654d0888-1452-4e1b-8077-ab00b45409fb
+  port: 443
+  security: tls
+  server: node1.luoye.ee
+  servername: node1.luoye.ee
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
-- name: 11|🇩🇪 DE-3 | Mix
-  network: ws
-  port: 2087
-  server: 188.114.97.3
-  servername: s4ws.ragingbull.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
+  sni: node1.luoye.ee
+  type: trojan
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1442,13 +1427,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0044
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0045
   port: 9002
   server: 193.176.84.17
@@ -1720,13 +1698,6 @@ proxies:
 - name: 15|RO_speednode_0082
   port: 9002
   server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0083
-  port: 9002
-  server: 193.176.84.25
   skip-cert-verify: true
   tls: true
   type: http
