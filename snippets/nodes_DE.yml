@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: '>-'
-- name: 10,11|🇩🇪 DE-1 | Mix
+- name: 10|🇩🇪 DE-4 | 8EB
   network: ws
   password: mitivpn
   port: 443
@@ -55,17 +55,3 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: /
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  password: mitivpn
-  port: 443
-  security: tls
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-    path: '>-'

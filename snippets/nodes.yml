@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: '>-'
-- name: 10,11|🇩🇪 DE-1 | Mix
+- name: 10|🇩🇪 DE-4 | 8EB
   network: ws
   password: mitivpn
   port: 443
@@ -99,30 +99,6 @@ proxies:
   server: 13.36.167.227
   type: ss
   udp: true
-- name: 11|🇰🇷 KR-2 | Mix
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  security: tls
-  server: kr.tronsg.com
-  servername: kr.tronsg.com
-  skip-cert-verify: true
-  sni: kr.tronsg.com
-  type: trojan
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  password: mitivpn
-  port: 443
-  security: tls
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-    path: '>-'
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

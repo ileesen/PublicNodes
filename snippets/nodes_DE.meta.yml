@@ -51,7 +51,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: '>-'
-- name: 10,11|🇩🇪 DE-1 | Mix
+- name: 10|🇩🇪 DE-4 | 8EB
   network: ws
   password: mitivpn
   port: 443
@@ -65,20 +65,21 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: /
-- name: 11|🇩🇪 DE-2 | Mix
-  network: ws
-  password: mitivpn
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
   port: 443
-  security: tls
-  server: 199.232.78.160
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-    path: '>-'
+  tls: true
+  type: vless
+  udp: true
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: chrome
   name: 11|🇩🇪 DE-3 | Mix
   network: ws

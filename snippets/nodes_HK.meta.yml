@@ -53,14 +53,20 @@ proxies:
   server: 47.238.126.208
   type: socks
   username: Og
-- client-fingerprint: chrome
-  name: 11|🇭🇰 HK-1 | Mix
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1003
-  server: tiuq6doc.zf-mix.9999231.xyz
-  sni: hkfash.9999231.xyz
-  type: anytls
-  udp: true
+- name: 11|🇭🇰 HK-1 | Mix
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks
+  username: admin
+- name: 11|🇭🇰 HK-2 | Mix
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
