@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: random
   flow: xtls-rprx-vision
   name: 10|🇪🇪 EE-1 | 8EB
   network: tcp
@@ -14,3 +14,33 @@ proxies:
   type: vless
   udp: true
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- client-fingerprint: edge
+  mode: packet-up
+  name: 10|🇪🇪 EE-2 | 8EB
+  network: xhttp
+  port: 8443
+  reality-opts:
+    public-key: IGtnuAu6O-sJ4rxJiFDeolk8Sn08rNJbZIb0EBgzvDA
+    short-id: ba49f287f968d315
+  server: 178.214.116.19
+  servername: stream-fr1.deployr.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 137c0f55-4fea-4a44-86c6-ffbf0f840312
+- client-fingerprint: edge
+  mode: packet-up
+  name: 10|🇪🇪 EE-3 | 8EB
+  network: xhttp
+  port: 8443
+  reality-opts:
+    public-key: kCIAVMSDZLNmTEtYWUI6xrNkbclgVwsAvqeHeJzCtnI
+    short-id: 459847f6e3772ce8
+  server: 178.214.116.5
+  servername: static-fr.clipwave.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 137c0f55-4fea-4a44-86c6-ffbf0f840312

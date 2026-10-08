@@ -1,110 +1,128 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-1 | 8EB
   network: tcp
-  port: 14343
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
+  port: 443
+  reality-opts:
+    public-key: C8Qz7kuyHo9O0oBV9W7ltzL8aPLPzdb1vvt3UkJjtF0
+    short-id: ea29b7b15bb24d49
+  server: 154.21.94.246
+  servername: frost.sigy.me
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- client-fingerprint: chrome
+  uuid: ab1249da-9ac8-44c7-89a3-2d337ab25cb2
+- name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: 162.159.249.175
+  servername: c379b284.vs-494.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    path: /
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: 162.159.251.165
+  servername: c379b284.vs-494.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    path: /
+- flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  port: 443
+  server: s2317.kukuss.top
+  servername: u695098uf24555c7s2316.gogocs.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
+  name: 10|🇺🇸 US-6 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  server: 157.228.160.166
+  servername: addons.mozilla.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  port: 57933
-  server: 72.249.206.49
-  type: vmess
-  udp: true
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
-- client-fingerprint: chrome
-  name: 10|🇺🇸 US-5 | 8EB
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1002
-  server: aw5fat9k.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: anytls
-  udp: true
-- name: 10|🇺🇸 US-6 | 8EB
-  port: 1080
-  server: 166.159.225.66
-  type: socks
-  username: Og
-- name: 10|🇺🇸 US-7 | 8EB
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- cipher: aes-256-cfb
+  name: 10|🇺🇸 US-7 | 8EB
+  password: amazonskr05
+  port: 443
+  server: 107.21.80.138
+  type: ss
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-2 | Mix
   port: 9002
   server: 138.199.35.209
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9080
-  server: 23.95.222.32
-  type: socks
-- name: 11|🇺🇸 US-4 | Mix
+- name: 11,15|US_speednode_0143
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇺🇸 US-3 | Mix
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-5 | Mix
+- name: 11|🇺🇸 US-4 | Mix
   password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
   port: 9002
   server: 138.199.35.196
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
   port: 443
-  server: 137.175.22.56
+  server: tzoa.fun
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-7 | Mix
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-7 | Mix
+  network: ws
   port: 443
-  server: 137.175.22.72
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -307,13 +325,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 15|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0144

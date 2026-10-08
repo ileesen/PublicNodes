@@ -1,59 +1,19 @@
 proxies:
-- name: 10|🇭🇰 HK-1 | 8EB
-  network: tcp
-  port: 40543
-  server: 154.36.145.126
-  type: vless
-  udp: true
-  uuid: 01efb55c-1b88-415f-aa59-71293ab2fc6d
-- client-fingerprint: chrome
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
-  port: 8443
-  server: 146.56.221.148
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 10|🇭🇰 HK-3 | 8EB
-  network: ws
-  port: 8443
-  server: 129.211.188.184
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 10|🇭🇰 HK-4 | 8EB
-  network: tcp
-  port: 14343
-  server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 10|🇭🇰 HK-5 | 8EB
-  port: 1080
-  server: 47.238.126.208
-  type: socks
-  username: Og
 - name: 11|🇭🇰 HK-1 | Mix
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇭🇰 HK-2 | Mix
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks
+  username: abc123
+- name: 11|🇭🇰 HK-3 | Mix
   network: tcp
   password: 654d0888-1452-4e1b-8077-ab00b45409fb
   port: 443

@@ -1,20 +1,16 @@
 proxies:
-- client-fingerprint: ios
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
   name: 10|🇷🇺 RU-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.9.118.101
-  servername: sellflow.org
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 44730b65-24d5-45f2-8b45-8be24015d1b9
-- name: 10,11|🇷🇺 RU-1 | Mix
-  port: 11080
-  server: 79.104.196.6
-  type: socks
-  username: Og
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
