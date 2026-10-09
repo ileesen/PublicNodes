@@ -1,18 +1,202 @@
 proxies:
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10,11|🇯🇵 JP-1 | Mix
+  network: tcp
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇯🇵 JP-2 | Mix
-  password: 'null'
+  reality-opts:
+    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
+    short-id: cfffc6b65acb2ad3
+  server: jpga01.xyy123.bid
+  servername: shop.business.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05453546-201f-4e8d-97ae-fd70da0e951f
+- name: 10|🇯🇵 JP-2 | 8EB
   port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  server: japro02.xyy123.bid
+  type: vless
+  udp: true
+  uuid: e4cd263b-c5c7-4410-bf61-8893179ec429
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-3 | 8EB
+  port: 10001
+  server: tyo2.australiacaregroup.site
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-4 | 8EB
+  port: 10001
+  server: za.australiacaregroup.site
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 10|🇯🇵 JP-5 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: jp7.vatilon.cc
+  skip-cert-verify: true
+  type: hysteria2
+- name: 10|🇯🇵 JP-6 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: za.australiacaregroup.site
+  type: hysteria2
+- name: 10|🇯🇵 JP-7 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: tyo2.australiacaregroup.site
+  skip-cert-verify: true
+  type: hysteria2
+- name: 10|🇯🇵 JP-8 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: jp17.vatilon.cc
+  sni: jp17.vatilon.cc
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-9 | 8EB
+  port: 10002
+  server: jp17.vatilon.cc
+  servername: jp17.vatilon.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-10 | 8EB
+  port: 10001
+  server: jp17.vatilon.cc
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 10|🇯🇵 JP-11 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: jp17.vatilon.cc
+  type: hysteria2
+- name: 10|🇯🇵 JP-12 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 40003
+  server: sg.australiacaregroup.site
+  sni: za.australiacaregroup.site
+  type: trojan
+  udp: true
+- name: 10|🇯🇵 JP-13 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 40004
+  server: sg.australiacaregroup.site
+  sni: za.australiacaregroup.site
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-14 | 8EB
+  port: 3121
+  server: gz2.australiacaregroup.site
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 10|🇯🇵 JP-15 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 3323
+  server: gz2.australiacaregroup.site
+  sni: jp7.vatilon.cc
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-16 | 8EB
+  port: 22422
+  server: gz2.australiacaregroup.site
+  servername: tyo2.australiacaregroup.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 10|🇯🇵 JP-17 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 3123
+  server: gz2.australiacaregroup.site
+  sni: jp8.vatilon.cc
+  type: trojan
+  udp: true
+- name: 10|🇯🇵 JP-18 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 50004
+  server: gz2.vatilon.cc
+  sni: tyo1.australiacaregroup.site
+  type: hysteria2
+- name: 10|🇯🇵 JP-19 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 40024
+  server: gz2.australiacaregroup.site
+  sni: za.australiacaregroup.site
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-20 | 8EB
+  port: 50001
+  server: gz1.polymarket.party
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 10|🇯🇵 JP-21 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 40023
+  server: gz2.australiacaregroup.site
+  sni: za.australiacaregroup.site
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-22 | 8EB
+  port: 4422
+  server: gz2.australiacaregroup.site
+  servername: rb1211-3.vatilon.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 JP-23 | 8EB
+  port: 3141
+  server: sh.australiacaregroup.site
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-24 | 8EB
+  port: 3322
+  server: gz2.australiacaregroup.site
+  servername: jp7.vatilon.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-25 | 8EB
+  port: 3342
+  server: sh.australiacaregroup.site
+  servername: jp7.vatilon.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- client-fingerprint: chrome
+  name: 10|🇯🇵 JP-26 | 8EB
+  port: 6422
+  server: gz2.australiacaregroup.site
+  servername: jp64.australiacaregroup.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian

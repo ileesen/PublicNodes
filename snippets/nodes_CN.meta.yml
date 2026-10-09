@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳 CN-1 | 8EB
+  network: ws
+  port: 15901
+  server: gz1.polymarket.party
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  ws-opts:
+    headers:
+      Host: 159.australiacaregroup.site
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇳 CN-2 | 8EB
+  network: ws
+  port: 23801
+  server: gz1.polymarket.party
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  ws-opts:
+    headers:
+      Host: us4.australiacaregroup.site
+    path: /vmess

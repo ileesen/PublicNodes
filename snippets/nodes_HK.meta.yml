@@ -1,8 +1,23 @@
 proxies:
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 8443
-  server: 107.149.92.23
-  type: socks
+- name: 10|🇭🇰 HK-1 | 8EB
+  port: 443
+  server: 34.92.19.135
+  type: vless
+  udp: true
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+- name: 10|🇭🇰 HK-2 | 8EB
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 20203
+  server: sg.australiacaregroup.site
+  sni: hk.australiacaregroup.site
+  type: trojan
+  udp: true
+- name: 10|🇭🇰 HK-3 | 8EB
+  port: 443
+  server: t4.qifei.app
+  type: vless
+  udp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
