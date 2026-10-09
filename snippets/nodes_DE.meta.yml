@@ -38,34 +38,3 @@ proxies:
   server: 63.177.230.112
   type: ss
   udp: true
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: 177.1.187.251
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 8443
-  server: 188.120.225.125
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 149.36.50.129
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-4 | Mix
-  port: 9090
-  server: 202.4.116.146
-  type: socks

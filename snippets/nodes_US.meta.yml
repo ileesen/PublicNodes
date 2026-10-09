@@ -72,6 +72,28 @@ proxies:
   type: ss
   udp: true
 - name: 11|🇺🇸 US-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: 71.43.26.234
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
   password: None
   port: 9002
   server: 138.199.35.206
@@ -79,60 +101,40 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9443
-  server: 38.95.111.226
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.211
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
 - name: 11|🇺🇸 US-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-7 | Mix
-  port: 443
-  server: jgwynphotoarts.pro
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-9 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.218
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: 137.175.22.72
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-9 | Mix
+  port: 443
+  server: 137.175.77.35
+  tls:
+    enabled: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
