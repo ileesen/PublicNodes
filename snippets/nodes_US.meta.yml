@@ -854,48 +854,43 @@ proxies:
   uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - name: 11|🇺🇸 US-1 | Mix
   port: 443
-  server: efr-marktplatz.club
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
-  server: 137.175.22.72
+  server: 137.175.22.89
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
   port: 443
-  server: 137.175.22.74
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 8443
-  server: 129.212.181.253
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-5 | Mix
-  network: tcp
-  port: 26490
-  reality-opts:
-    public-key: f4aZkLbmSLe874qztsQi5UPJq-9wonTRqOpHnQdiIm8
-  server: 172.190.134.233
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 US-4 | Mix
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: 40032
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: 03e52750-0c85-42c1-a30b-b2e35da7abbb
-- name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.212
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: 38.28.193.1
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

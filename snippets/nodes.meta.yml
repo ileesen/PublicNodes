@@ -193,7 +193,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|Telegram 🆔@cnetvpn '
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
   password: 8z2e26xkqsa598s3
@@ -331,16 +331,6 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 9|🇫190916 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-  password: capadmbd5f18bd
-  port: 443
-  server: 51.77.217.70
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
 - name: 9|kurdconfig
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -468,7 +458,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn 🇪
+- name: '9|Telegram 🆔@cnetvpn 🇪 #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -538,17 +528,9 @@ proxies:
   server: 104.165.205.21
   sni: onecloudstream.com
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: 10,11|🇩🇪 DE-2 | Mix
-  network: tcp
+- name: 10|🇮🇳 IN-4 | 8EB
   port: 443
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
   server: ge-s-1.pythonmakemigreat.wiki
-  servername: ge-s-1.pythonmakemigreat.wiki
-  skip-cert-verify: false
-  tls: true
   type: vless
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
@@ -1795,9 +1777,17 @@ proxies:
     headers:
       Host: us4.australiacaregroup.site
     path: /vmess
-- name: 10|🇳🇱 NL-1 | 8EB
+- flow: xtls-rprx-vision
+  name: 10,11|🇳🇱 NL-1 | Mix
+  network: tcp
   port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
   server: 157.228.160.166
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
   uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
@@ -1807,173 +1797,160 @@ proxies:
   type: vless
   udp: true
   uuid: 4758aee6-6d1a-4306-b460-2398b5af4e35
+- name: 11|🇺🇸 US-1 | Mix
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇮🇱 IL-1 | Mix
+  port: 443
+  server: 62.90.77.30
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: Og%3D%3D
+- name: 11|🇨🇦 CA-1 | Mix
+  port: 443
+  server: 206.223.183.16
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇨🇦 CA-2 | Mix
+  port: 9443
+  server: 198.44.157.19
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: 137.175.22.89
+  tls:
+    enabled: true
+  type: http
+- cipher: aes-256-gcm
+  name: 11|🇯🇵 JP-1 | Mix
+  password: 9c51ca33-a332-4de5-8677-5624e940097c
+  port: 22069
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- name: 11|🇮🇶 IQ-1 | Mix
+  port: 1080
+  server: 130.193.165.54
+  type: socks
 - name: 11|🇷🇴 RO-1 | Mix
   password: 'null'
   port: 9002
-  server: 193.176.84.38
+  server: 193.176.84.35
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: 11|🇺🇸 US-1 | Mix
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 11|🇹🇷 TR-1 | Mix
-  network: tcp
-  port: 40286
-  reality-opts:
-    public-key: dDf2TcDNn3Kk8pAp4EnNC4ZUAmGkzAapRFGFe-41IEk
-    short-id: 86f6705960e3e3
-  server: 2610sgdodo.volkvpn.com
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: 137.175.22.72
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇸🇪 SE-1 | Mix
+- name: 11|🇫🇷 FR-1 | Mix
   port: 1080
-  server: 171.25.158.95
+  server: 213.199.47.140
   type: socks
-- name: 11|🇹🇼 TW-1 | Mix
-  network: tcp
-  password: cdb97a9f-35a0-4f36-8791-798b9415c851
-  port: 50023
-  security: tls
-  server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.886.onl
-  servername: www.h3yun.com
-  skip-cert-verify: true
-  sni: www.h3yun.com
-  type: trojan
-- name: 11|🇭🇰 HK-1 | Mix
-  port: 6666
-  server: 61.142.113.42
+- name: 11|🇷🇺 RU-1 | Mix
+  port: 1080
+  server: 88.206.38.64
   type: socks
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: 137.175.22.74
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇷🇴 RO-2 | Mix
+- name: 11|🇳🇱 NL-2 | Mix
   password: 'null'
   port: 9002
-  server: 193.176.84.37
+  server: 84.17.47.125
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇮🇩 ID-1 | Mix
+- name: 11|🇺🇸 US-3 | Mix
   port: 443
-  server: 103.86.117.202
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 8443
-  server: 129.212.181.253
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇦🇹 AT-1 | Mix
-  port: 443
-  server: 146.70.244.2
-  tls:
-    enabled: true
-  type: http
-- name: 11,15|RO_speednode_0094
-  password: None
+- name: 11,15|RO_speednode_0044
   port: 9002
-  server: 193.176.84.31
+  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-5 | Mix
-  network: tcp
-  port: 26490
-  reality-opts:
-    public-key: f4aZkLbmSLe874qztsQi5UPJq-9wonTRqOpHnQdiIm8
-  server: 172.190.134.233
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03e52750-0c85-42c1-a30b-b2e35da7abbb
-- name: 11|🇨🇦 CA-1 | Mix
+- name: 11|🇳🇱 NL-3 | Mix
   port: 443
-  server: 23.169.224.34
+  server: 185.238.168.20
   tls:
     enabled: true
   type: http
-- name: 11|🇳🇱 NL-1 | Mix
-  port: 9090
-  server: 202.4.123.220
-  type: socks
-- flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  server: 157.228.150.34
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-128-gcm
+  name: 11|🇴🇲 OM-1 | Mix
+  password: 9c51ca33-a332-4de5-8677-5624e940097c
+  port: 35016
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- name: 11|🇭🇷 HR-1 | Mix
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 US-4 | Mix
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: 40032
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 11|🇨🇱 CL-1 | Mix
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 35032
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- name: 11|🇺🇸 US-5 | Mix
   port: 443
-  server: 154.47.29.174
+  server: 38.28.193.1
   tls:
     enabled: true
   type: http
+- name: 11|🇸🇬 SG-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- cipher: aes-256-gcm
+  name: 11|🇯🇵 JP-2 | Mix
+  password: 9c51ca33-a332-4de5-8677-5624e940097c
+  port: 22034
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- name: 11|🇳🇱 NL-4 | Mix
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+- cipher: aes-256-gcm
+  name: 11|🇯🇵 JP-3 | Mix
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: 22073
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
 - name: 11|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇭🇰 HK-2 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: fan.240104.xyz
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
+  username: testuser1
 - flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-3 | Mix
+  name: 11|🇳🇱 NL-5 | Mix
   network: tcp
   port: 8443
   server: alb1.keepverify.net
@@ -2556,13 +2533,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0044
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0045
   port: 9002
   server: 193.176.84.17
@@ -2913,6 +2883,14 @@ proxies:
   password: None
   port: 9002
   server: 84.239.49.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|RO_speednode_0094
+  password: None
+  port: 9002
+  server: 193.176.84.31
   skip-cert-verify: true
   tls: true
   type: http
