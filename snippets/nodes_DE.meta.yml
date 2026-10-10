@@ -10,8 +10,18 @@ proxies:
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 DE-1 | 8EB
-  port: 443
-  server: defrnode.xyy123.bid
-  type: vless
+  password: ce3de0e0-9a00-4735-9a89-ebacbb669472
+  port: 23333
+  security: tls
+  server: ae33-hy2-c1b8917d.1111133333.store
+  sni: ae33-hy2-c1b8917d.1111133333.store
+  type: hysteria2
   udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+- name: 10|🇩🇪 DE-2 | 8EB
+  password: ce3de0e0-9a00-4735-9a89-ebacbb669472
+  port: 23333
+  security: tls
+  server: ae33-hy2-0a3d9f11.1111133333.store
+  sni: ae33-hy2-0a3d9f11.1111133333.store
+  type: hysteria2
+  udp: true
