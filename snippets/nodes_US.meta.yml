@@ -39,7 +39,7 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: safari
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   mode: multi
   name: 10|🇺🇸 US-4 | 8EB
@@ -55,7 +55,7 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   mode: multi
   name: 10|🇺🇸 US-5 | 8EB
@@ -87,7 +87,7 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   mode: multi
   name: 10|🇺🇸 US-7 | 8EB
@@ -103,7 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   mode: multi
   name: 10|🇺🇸 US-8 | 8EB
@@ -119,7 +119,7 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: ios
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: multi
   name: 10|🇺🇸 US-9 | 8EB
@@ -135,45 +135,69 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- name: 11|🇺🇸 US-1 | Mix
+- name: 11,15|US_speednode_0140
+  password: None
   port: 443
-  server: fan.596189.xyz
-  tls:
-    enabled: true
+  server: purposebydesig.club
+  tls: true
   type: http
+  udp: true
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: 137.175.22.89
+  port: 9002
+  server: 138.199.35.214
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: fan.226278.xyz
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
   tls:
     enabled: true
   type: http
-- cipher: aes-128-gcm
+  username: 'null'
+- client-fingerprint: chrome
   name: 11|🇺🇸 US-4 | Mix
-  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
-  port: 40032
-  server: ruot.ayucloudservices.nl
-  type: ss
+  network: ws
+  port: 443
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    headers:
+      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
 - name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: 38.28.193.1
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-6 | Mix
-  password: e4b72b531a2d10900519
   port: 443
-  server: 147.182.216.4
+  server: zebpay.site
   tls:
     enabled: true
   type: http
-  username: testuser1
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 8443
+  server: 44.229.69.166
+  tls:
+    enabled: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -347,13 +371,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 15|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188
