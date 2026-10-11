@@ -136,51 +136,86 @@ proxies:
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
 - name: 11|🇺🇸 US-1 | Mix
-  port: 8443
-  server: 54.190.176.228
+  password: None
+  port: 9002
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  port: 9002
+  server: 138.199.35.203
   tls:
     enabled: true
   type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
 - name: 11|🇺🇸 US-3 | Mix
+  port: 443
+  server: webdrone.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: mmgr.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 11|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 45.145.73.240
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: 137.175.22.16
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: 148.135.10.80
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-12 | Mix
   password: test123
   port: 1080
   server: 185.145.99.41
   type: socks
   username: test123
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: 137.175.22.40
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-5 | Mix
-  port: 44499
-  server: 45.61.188.134
-  type: socks
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

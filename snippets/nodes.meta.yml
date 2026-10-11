@@ -736,73 +736,100 @@ proxies:
   sni: ae33-hy2-d7665f40.1111133333.store
   type: hysteria2
   udp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  server: 157.228.160.166
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- name: 11|🇯🇵 JP-1 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
+- name: 11|🇺🇸 US-1 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-1 | Mix
-  port: 8443
-  server: 54.190.176.228
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 8081
-  server: 31.32.19.111
-  tls:
-    enabled: true
-  type: http
 - name: 11|🇺🇸 US-2 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  tls:
-    enabled: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 11|🇨🇦 CA-1 | Mix
-  port: 443
-  server: 206.223.183.16
+  port: 9002
+  server: 138.199.35.203
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
-- name: 11|🇩🇪 DE-1 | Mix
   port: 443
-  server: 193.233.75.115
+  server: webdrone.club
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: 137.175.22.40
+  password: 'null'
+  port: 9002
+  server: 138.199.35.208
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
+  port: 443
+  server: mmgr.club
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 11|🇷🇴 RO-1 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.37
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇷🇺 RU-1 | Mix
+  port: 443
+  server: 194.186.179.62
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.21
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 45.145.73.240
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
+- name: 11|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 11|🇨🇳 CN-1 | Mix
@@ -812,11 +839,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 11|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇳🇴 NO-1 | Mix
+  port: 9443
+  server: 146.70.170.210
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇫🇮 FI-1 | Mix
   network: tcp
-  port: 8443
+  port: 13443
   reality-opts:
     public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
     short-id: d2061bb1
@@ -827,103 +868,59 @@ proxies:
   type: vless
   udp: true
   uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VDJjbE0wUWxNMFE2VDJjbE0wUWxNMFE9Og==
-- flow: xtls-rprx-vision
-  name: 11|🇹🇷 TR-1 | Mix
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 11|🇳🇱 NL-1 | Mix
   network: tcp
-  port: 9443
+  port: 443
   reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.169
-  servername: plaincanvas.videoclothing.xyz
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  server: 157.228.150.34
+  servername: addons.mozilla.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- cipher: aes-256-gcm
-  name: 11|🇯🇵 JP-2 | Mix
-  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
-  port: 22044
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- name: 11|🇷🇴 RO-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.17
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: 137.175.22.16
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-11 | Mix
+  port: 443
+  server: 148.135.10.80
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇦 UA-1 | Mix
-  port: 8443
-  server: 198.105.124.180
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-2 | Mix
-  port: 443
-  server: 185.238.168.20
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇮🇹 IT-1 | Mix
-  port: 443
-  server: 109.116.41.154
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-3 | Mix
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: 5k0dtOSzmshCubdYeKppsUdHU4i2ghaB9uSJSzGjHW4
-    short-id: 6dbf4931096f9890
-  server: 31.59.210.37
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- name: 11|🇺🇸 US-5 | Mix
-  port: 44499
-  server: 45.61.188.134
-  type: socks
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇧🇪 BE-1 | Mix
-  port: 443
-  server: 146.70.176.242
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇷🇺 RU-1 | Mix
   port: 1080
-  server: 83.237.11.138
+  server: 193.200.85.129
   type: socks
-- name: 11|🇳🇱 NL-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.150
+- name: 11|🇮🇱 IL-1 | Mix
+  port: 443
+  server: 62.90.77.30
   tls:
     enabled: true
   type: http
-  username: 'null'
+- name: 11|🇺🇸 US-12 | Mix
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
 - flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-5 | Mix
+  name: 11|🇳🇱 NL-2 | Mix
   network: tcp
   port: 8443
   server: alb1.keepverify.net

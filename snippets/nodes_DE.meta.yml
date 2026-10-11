@@ -33,24 +33,18 @@ proxies:
   sni: ae33-hy2-0a3d9f11.1111133333.store
   type: hysteria2
   udp: true
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 193.233.75.115
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-2 | Mix
+  name: 11|🇩🇪 DE-1 | Mix
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: d2061bb1
-  server: gw1.edgemedia.lol
-  servername: ya.ru
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386

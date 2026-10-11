@@ -10,6 +10,8 @@ proxies:
   tls: false
   type: hysteria2
 - name: 11|🇷🇺 RU-1 | Mix
-  port: 1080
-  server: 83.237.11.138
-  type: socks
+  port: 443
+  server: 194.186.179.62
+  tls:
+    enabled: true
+  type: http
