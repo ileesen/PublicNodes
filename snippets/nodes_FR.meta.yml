@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 10|🇫🇷 FR-1 | 8EB
+  network: ws
+  port: 11443
+  server: 205.237.105.31
+  servername: f4.vimeostream.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
+  ws-opts:
+    headers:
+      Host: f4.vimeostream.online
+    path: /api/v2/stream/ws

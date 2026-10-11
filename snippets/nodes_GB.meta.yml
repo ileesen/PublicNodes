@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 10|🇬🇧 GB-1 | 8EB
+  port: 1080
+  server: 185.27.135.75
+  type: socks
+  username: Og
+- name: 11|🇬🇧 GB-1 | Mix
+  port: 443
+  server: 185.164.138.156
+  tls:
+    enabled: true
+  type: http

@@ -1,221 +1,192 @@
 proxies:
-- name: 10|🇺🇸 US-1 | 8EB
-  password: ce3de0e0-9a00-4735-9a89-ebacbb669472
-  port: 23333
-  security: tls
-  server: ae33-hy2-897c8fe4.1111133333.store
-  sni: ae33-hy2-897c8fe4.1111133333.store
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  mode: multi
-  name: 10|🇺🇸 US-2 | 8EB
-  network: tcp
+- client-fingerprint: random
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-d02b91aa.1111133333.store
-  servername: www.icloud.com
+  server: freev2.cloudflare.182682.xyz
+  servername: us-lax.862400.xyz
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: qq
+  uuid: 084cbecb-54d3-4da0-8c06-61758a147c47
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  password: 745A6079-6A61-423D-BDD9-B344C1D26E62
+  port: 10251
+  server: 38.65.9.60
+  sni: us-any-1.dexlos.com
+  type: anytls
+  udp: true
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  mode: multi
   name: 10|🇺🇸 US-3 | 8EB
   network: tcp
-  port: 443
+  port: 9443
   reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-59dc644c.1111133333.store
-  servername: www.icloud.com
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.157.24
+  servername: www.amazon.com
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  mode: multi
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-aecdf2d7.1111133333.store
-  servername: www.icloud.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  mode: multi
-  name: 10|🇺🇸 US-5 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-105aa7b2.1111133333.store
-  servername: www.icloud.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
+  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: multi
+  name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-efaffe44.1111133333.store
-  servername: www.icloud.com
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  mode: multi
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   name: 10|🇺🇸 US-7 | 8EB
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-dc83d992.1111133333.store
-  servername: www.icloud.com
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: false
-  spx: /
   tls: true
   type: vless
   udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  mode: multi
-  name: 10|🇺🇸 US-8 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: ae33-vless-69e829df.1111133333.store
-  servername: www.icloud.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  mode: multi
-  name: 10|🇺🇸 US-9 | 8EB
-  network: tcp
-  port: 23018
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-  server: go.7777799999.shop
-  servername: www.icloud.com
-  skip-cert-verify: false
-  spx: /
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- name: 10|🇺🇸 US-8 | 8EB
+  port: 44499
+  server: 45.61.188.134
+  type: socks
+  username: Og
+- name: 10|🇺🇸 US-9 | 8EB
+  port: 1080
+  server: 107.174.30.94
+  type: socks
+  username: Og
 - name: 11|🇺🇸 US-1 | Mix
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.213
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: webdrone.club
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: mmgr.club
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-7 | Mix
-  port: 8443
-  server: 45.145.73.240
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
-  password: 'null'
   port: 9002
   server: 138.199.35.200
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  tls:
+    enabled: true
+  type: http
   username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: jgwynphotoarts.pro
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-7 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: 68.235.56.59
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-9 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.219
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-10 | Mix
-  port: 443
-  server: 137.175.22.16
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 11|🇺🇸 US-11 | Mix
   port: 443
   server: 148.135.10.80
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-12 | Mix
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks
-  username: test123
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

@@ -9,42 +9,48 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪191753 | ⚡️Telegram = t.me/S...
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
-  password: ce3de0e0-9a00-4735-9a89-ebacbb669472
-  port: 23333
-  security: tls
-  server: ae33-hy2-c1b8917d.1111133333.store
-  sni: ae33-hy2-c1b8917d.1111133333.store
-  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-1 | 8EB
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  server: 13.143.137.206
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 10|🇩🇪 DE-2 | 8EB
-  password: ce3de0e0-9a00-4735-9a89-ebacbb669472
-  port: 23333
-  security: tls
-  server: ae33-hy2-0a3d9f11.1111133333.store
-  sni: ae33-hy2-0a3d9f11.1111133333.store
-  type: hysteria2
-  udp: true
+  uuid: 8ff3db5a-5f41-4f25-a8a4-7fbf00f1c319
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 10|🇩🇪 DE-2 | 8EB
   network: tcp
   port: 443
   reality-opts:
     public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
     short-id: 4be4110078ebed4a
-  server: de2.srv.vbuste.ru
+  server: 177.1.187.251
   servername: de2.srv.vbuste.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇩🇪 DE-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
+    short-id: bdf5852d1423e694
+  server: fi.pythonsetupbib.online
+  servername: fi.pythonsetupbib.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
