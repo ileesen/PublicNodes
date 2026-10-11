@@ -1,4 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|🇨🇳 CN-1 | Mix
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: 11|🇯🇵 JP-2 | Mix
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: 22044
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05

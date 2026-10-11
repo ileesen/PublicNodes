@@ -135,69 +135,52 @@ proxies:
   type: vless
   udp: true
   uuid: ce3de0e0-9a00-4735-9a89-ebacbb669472
-- name: 11,15|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 11|🇺🇸 US-4 | Mix
-  network: ws
-  port: 443
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  ws-opts:
-    headers:
-      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-- name: 11|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-8 | Mix
+- name: 11|🇺🇸 US-1 | Mix
   port: 8443
-  server: 44.229.69.166
+  server: 54.190.176.228
   tls:
     enabled: true
   type: http
+- name: 11|🇺🇸 US-2 | Mix
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: 11|🇺🇸 US-3 | Mix
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks
+  username: test123
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: 137.175.22.40
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  port: 44499
+  server: 45.61.188.134
+  type: socks
+- name: 11|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-7 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian
@@ -371,6 +354,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 15|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: 15|US_speednode_0141
   port: 443
   server: 38.28.193.188

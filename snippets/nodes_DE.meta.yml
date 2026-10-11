@@ -9,6 +9,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪191753 | ⚡️Telegram = t.me/S...
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.178
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
 - name: 10|🇩🇪 DE-1 | 8EB
   password: ce3de0e0-9a00-4735-9a89-ebacbb669472
   port: 23333
@@ -25,3 +33,24 @@ proxies:
   sni: ae33-hy2-0a3d9f11.1111133333.store
   type: hysteria2
   udp: true
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 193.233.75.115
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  server: gw1.edgemedia.lol
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
