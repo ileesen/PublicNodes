@@ -14,3 +14,15 @@ proxies:
     headers:
       Host: f4.vimeostream.online
     path: /api/v2/stream/ws
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 443
+  server: 62.210.70.194
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇫🇷 FR-2 | Mix
+  port: 9443
+  server: 138.199.47.247
+  tls:
+    enabled: true
+  type: http
