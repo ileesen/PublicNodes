@@ -1,19 +1,68 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 10|🇰🇷 KR-1 | 8EB
-  network: tcp
-  port: 37874
-  reality-opts:
-    public-key: JIyJDLrlP1RoxI10J-J85vuY7HjeD7SybLWc5RPYHD0
-    short-id: 67a6bb5096652aa8
-  server: 144.24.77.185
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  network: ws
+  port: 443
+  server: zxXyQjXjw7UqO742.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: zxXyQjXjw7UqO742.v.3dns.vip
+  type: vmess
   udp: true
-  uuid: e21a8428-f769-419c-a1b0-7254c975fbc0
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: zxXyQjXjw7UqO742.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 KR-2 | 8EB
+  network: ws
+  port: 443
+  server: FseccMcgHIqfKOwR.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: FseccMcgHIqfKOwR.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: FseccMcgHIqfKOwR.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 KR-3 | 8EB
+  network: ws
+  port: 443
+  server: WIDkzavxwwjiXsNk.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: WIDkzavxwwjiXsNk.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+  ws-opts:
+    headers:
+      Host: WIDkzavxwwjiXsNk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 KR-4 | 8EB
+  network: ws
+  port: 443
+  server: Uf3qqTppwTSGqenQ.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: Uf3qqTppwTSGqenQ.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Uf3qqTppwTSGqenQ.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷 韩国|@ripaojiedian

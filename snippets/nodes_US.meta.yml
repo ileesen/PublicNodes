@@ -1,115 +1,93 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
   network: ws
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: us-lax.862400.xyz
+  server: ccs2g.pai50288.uk
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 084cbecb-54d3-4da0-8c06-61758a147c47
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: chrome
+    path: /pai50288
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-2 | 8EB
-  password: 745A6079-6A61-423D-BDD9-B344C1D26E62
-  port: 10251
-  server: 38.65.9.60
-  sni: us-any-1.dexlos.com
-  type: anytls
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  server: 13.143.137.206
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- client-fingerprint: random
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
   network: tcp
-  port: 9443
+  port: 8443
   reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.207.157.24
-  servername: www.amazon.com
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  server: gw1.edgemedia.lol
+  servername: ya.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
-- client-fingerprint: chrome
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+- cipher: aes-128-gcm
   name: 10|🇺🇸 US-4 | 8EB
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+  port: 40030
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-- client-fingerprint: chrome
+- cipher: aes-128-gcm
   name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+  port: 40031
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
   port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: be8idg1PMgQRxsQC.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: be8idg1PMgQRxsQC.v.3dns.vip
+  type: vmess
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
+      Host: be8idg1PMgQRxsQC.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸 US-7 | 8EB
   network: ws
   port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: kH6ZsSgowNwQEYND.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: kH6ZsSgowNwQEYND.v.3dns.vip
+  type: vmess
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- name: 10|🇺🇸 US-8 | 8EB
-  port: 44499
-  server: 45.61.188.134
-  type: socks
-  username: Og
-- name: 10|🇺🇸 US-9 | 8EB
-  port: 1080
-  server: 107.174.30.94
-  type: socks
-  username: Og
+      Host: kH6ZsSgowNwQEYND.v.3dns.vip
+    path: /ws-vmess
 - name: 11|🇺🇸 US-1 | Mix
   password: None
   port: 9002
