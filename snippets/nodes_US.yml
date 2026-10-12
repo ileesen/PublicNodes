@@ -1,50 +1,75 @@
 proxies:
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-1 | 8EB
+  network: ws
+  port: 443
+  server: YczCBGJbXo7AhCdl.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: YczCBGJbXo7AhCdl.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+  ws-opts:
+    headers:
+      Host: YczCBGJbXo7AhCdl.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: lR1LOhFyiCNPvy1N.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: lR1LOhFyiCNPvy1N.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+  ws-opts:
+    headers:
+      Host: lR1LOhFyiCNPvy1N.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸 US-4 | 8EB
-  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
-  port: 40030
-  server: ruot.ayucloudservices.nl
-  type: ss
+  network: ws
+  port: 443
+  server: Z0acVaXU1gA4vUtn.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: Z0acVaXU1gA4vUtn.v.3dns.vip
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: 10|🇺🇸 US-5 | 8EB
-  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
-  port: 40031
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
+  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+  ws-opts:
+    headers:
+      Host: Z0acVaXU1gA4vUtn.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
   port: 443
-  server: be8idg1PMgQRxsQC.v.3dns.vip
+  server: Gy80zyPFLVlLsTJF.v.3dns.vip
   tls:
     enabled: true
-    server_name: be8idg1PMgQRxsQC.v.3dns.vip
+    server_name: Gy80zyPFLVlLsTJF.v.3dns.vip
   type: vmess
   udp: true
   uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
   ws-opts:
     headers:
-      Host: be8idg1PMgQRxsQC.v.3dns.vip
+      Host: Gy80zyPFLVlLsTJF.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-7 | 8EB
-  network: ws
-  port: 443
-  server: kH6ZsSgowNwQEYND.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: kH6ZsSgowNwQEYND.v.3dns.vip
-  type: vmess
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 US-4 | Mix
+  password: c2fe9024-d253-401a-b868-97421f6eb9e0
+  port: 40034
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
-  ws-opts:
-    headers:
-      Host: kH6ZsSgowNwQEYND.v.3dns.vip
-    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

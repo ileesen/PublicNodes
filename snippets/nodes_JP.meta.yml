@@ -1,79 +1,45 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-1 | 8EB
-  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
-  port: 22044
-  server: ruot.ayucloudservices.nl
-  type: ss
+- name: 10|🇯🇵 JP-1 | 8EB
+  network: ws
+  port: 8880
+  server: 172.67.209.127
+  type: vless
   udp: true
-- cipher: aes-256-gcm
+  uuid: 3e553ebf-db9d-4858-b608-03d6ff615a41
+  ws-opts:
+    headers:
+      Host: rapid-waterfall-7270.255-22b.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
   name: 10|🇯🇵 JP-2 | 8EB
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22073
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-3 | 8EB
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22069
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-4 | 8EB
-  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
-  port: 22073
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-5 | 8EB
-  network: tcp
-  port: 41563
-  reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-  server: 43.247.132.85
-  servername: iosapps.itunes.apple.com
+  network: ws
+  port: 443
+  server: 162.159.128.96
+  servername: ws-japan-ga-01.xyy123.bid
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-6 | 8EB
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-  port: 22069
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-7 | 8EB
-  password: 63c25762-2c70-47f8-ae18-45c7dce2c2d6
-  port: 40021
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|🇯🇵 JP-8 | 8EB
-  password: 63c25762-2c70-47f8-ae18-45c7dce2c2d6
-  port: 22038
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-9 | 8EB
+  uuid: f90e2825-6433-46b0-91a2-971f335b887a
+  ws-opts:
+    headers:
+      Host: ws-japan-ga-01.xyy123.bid
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-3 | 8EB
   network: tcp
-  password: Trojan@82164024
-  port: 443
-  security: tls
-  server: jp.tronsg.com
-  servername: jp.tronsg.com
+  port: 20004
+  reality-opts:
+    public-key: zVIESiLSczwOhE1qKC6yX-bIGMp5WrGGcKxE7X7_8TA
+    short-id: 686a51fda2f48e40
+  server: relay.xiaomans.com
+  servername: www.cloudflare.com
   skip-cert-verify: false
-  sni: jp.tronsg.com
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e6cd021-d3ac-48fc-b2fd-203862ed9712
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian
