@@ -141,14 +141,69 @@ proxies:
       Host: piracy-android.video-streams.org
     path: /ws
 - name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.195
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
+  port: 1080
+  server: 83.147.217.103
+  type: socks
+- name: 11|🇺🇸 US-3 | Mix
+  port: 443
+  server: 38.28.193.1
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 11080
+  server: 172.247.27.29
+  type: socks
+- name: 11|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 45.145.73.240
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 443
+  server: jewelscollecti.icu
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-9 | Mix
+  port: 443
+  server: tzoa.fun
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-10 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-11 | Mix
   password: 'null'
   port: 9002
   server: 138.199.35.199
@@ -156,33 +211,21 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-3 | Mix
-  port: 8443
-  server: 45.150.164.18
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 US-4 | Mix
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-  port: 40034
-  server: ruot.ayucloudservices.nl
-  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-12 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 38.180.137.143
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 11|🇺🇸 US-5 | Mix
-  port: 443
-  server: 96.5.129.85
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

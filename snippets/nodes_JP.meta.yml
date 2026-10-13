@@ -40,6 +40,24 @@ proxies:
   type: vless
   udp: true
   uuid: 5e6cd021-d3ac-48fc-b2fd-203862ed9712
+- name: 11|🇯🇵 JP-1 | Mix
+  port: 1080
+  server: 217.142.236.180
+  type: socks
+- name: 11|🇯🇵 JP-2 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-3 | Mix
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.bid
+  skip-cert-verify: true
+  sni: open.2ml.bid
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian
