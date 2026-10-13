@@ -1,60 +1,7 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 10|🇫🇷 FR-1 | 8EB
-  password: c2fe9024-d253-401a-b868-97421f6eb9e0
-  port: 35016
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-2 | 8EB
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a723d18-813e-43e1-a665-323cbbf294d9
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-3 | 8EB
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a723d18-813e-43e1-a665-323cbbf294d9
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- client-fingerprint: chrome
-  name: 10|🇫🇷 FR-4 | 8EB
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a723d18-813e-43e1-a665-323cbbf294d9
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 443
-  server: fan.132031.xyz
+- name: 11|🇫🇷 FR-2 | Mix
+  port: 9443
+  server: 213.139.9.142
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=

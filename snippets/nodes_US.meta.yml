@@ -1,38 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: YczCBGJbXo7AhCdl.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: YczCBGJbXo7AhCdl.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
-  ws-opts:
-    headers:
-      Host: YczCBGJbXo7AhCdl.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 443
-  server: lR1LOhFyiCNPvy1N.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: lR1LOhFyiCNPvy1N.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
-  ws-opts:
-    headers:
-      Host: lR1LOhFyiCNPvy1N.v.3dns.vip
-    path: /ws-vmess
 - client-fingerprint: chrome
-  name: 10|🇺🇸 US-3 | 8EB
+  name: 10|🇺🇸 US-1 | 8EB
   network: ws
   port: 443
   server: 162.159.130.234
@@ -46,135 +14,238 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- alterId: 0
-  cipher: auto
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad6a20fb-5484-4c59-b745-662afe232270
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad6a20fb-5484-4c59-b745-662afe232270
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 10|🇺🇸 US-4 | 8EB
   network: ws
   port: 443
-  server: Z0acVaXU1gA4vUtn.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: Z0acVaXU1gA4vUtn.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
-  ws-opts:
-    headers:
-      Host: Z0acVaXU1gA4vUtn.v.3dns.vip
-    path: /ws-vmess
-- name: 10|🇺🇸 US-5 | 8EB
-  network: ws
-  port: 8880
-  server: 104.16.107.139
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  uuid: ad6a20fb-5484-4c59-b745-662afe232270
   ws-opts:
     headers:
-      Host: dry-sunset-f3c4.282.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- alterId: 0
-  cipher: auto
+      Host: piracy-android.video-streams.org
+    path: /ws
+- client-fingerprint: random
+  name: 10|🇺🇸 US-5 | 8EB
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: nl-ams.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
+  ws-opts:
+    headers:
+      Host: nl-ams.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: 10|🇺🇸 US-6 | 8EB
   network: ws
   port: 443
-  server: Gy80zyPFLVlLsTJF.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: Gy80zyPFLVlLsTJF.v.3dns.vip
-  type: vmess
+  server: freev2.cloudflare.182682.xyz
+  servername: ap-south.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
+  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
   ws-opts:
     headers:
-      Host: Gy80zyPFLVlLsTJF.v.3dns.vip
+      Host: ap-south.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
+  name: 10|🇺🇸 US-7 | 8EB
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: se-sto.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-8 | 8EB
+  network: ws
+  port: 443
+  server: PcIQBjrJTtz8lPOf.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: PcIQBjrJTtz8lPOf.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
+  ws-opts:
+    headers:
+      Host: PcIQBjrJTtz8lPOf.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
+  port: 443
+  server: i1OqmkRvrB7nsYzz.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: i1OqmkRvrB7nsYzz.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
+  ws-opts:
+    headers:
+      Host: i1OqmkRvrB7nsYzz.v.3dns.vip
+    path: /ws-vmess
+- name: 10|🇺🇸 US-10 | 8EB
+  port: 443
+  server: 31.77.19.92
+  type: socks
+  username: Og
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  server: kBd17k34BR3HAOJ2.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: kBd17k34BR3HAOJ2.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
+  ws-opts:
+    headers:
+      Host: kBd17k34BR3HAOJ2.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: 108.186.158.241
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe15a643-4c5e-e133-f560-3b79074162da
+  ws-opts:
+    headers:
+      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
 - name: 11|🇺🇸 US-1 | Mix
   password: None
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 1080
-  server: 83.147.217.103
-  type: socks
-- name: 11|🇺🇸 US-3 | Mix
-  port: 443
-  server: 38.28.193.1
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-5 | Mix
   port: 9002
   server: 138.199.35.200
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 11080
-  server: 172.247.27.29
-  type: socks
-- name: 11|🇺🇸 US-7 | Mix
+  username: 'null'
+- name: 11|🇺🇸 US-2 | Mix
+  port: 443
+  server: purposebydesig.club
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 11|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-5 | Mix
   port: 8443
   server: 45.145.73.240
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 11|🇺🇸 US-9 | Mix
-  port: 443
-  server: tzoa.fun
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-10 | Mix
+- name: 11|🇺🇸 US-6 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.212
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-11 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
+- name: 11|🇺🇸 US-7 | Mix
+  password: None
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-12 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 38.180.137.143
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

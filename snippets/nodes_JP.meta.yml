@@ -1,63 +1,16 @@
 proxies:
-- name: 10|🇯🇵 JP-1 | 8EB
-  network: ws
-  port: 8880
-  server: 172.67.209.127
-  type: vless
-  udp: true
-  uuid: 3e553ebf-db9d-4858-b608-03d6ff615a41
-  ws-opts:
-    headers:
-      Host: rapid-waterfall-7270.255-22b.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 10|🇯🇵 JP-2 | 8EB
-  network: ws
-  port: 443
-  server: 162.159.128.96
-  servername: ws-japan-ga-01.xyy123.bid
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90e2825-6433-46b0-91a2-971f335b887a
-  ws-opts:
-    headers:
-      Host: ws-japan-ga-01.xyy123.bid
-    path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-3 | 8EB
-  network: tcp
-  port: 20004
-  reality-opts:
-    public-key: zVIESiLSczwOhE1qKC6yX-bIGMp5WrGGcKxE7X7_8TA
-    short-id: 686a51fda2f48e40
-  server: relay.xiaomans.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e6cd021-d3ac-48fc-b2fd-203862ed9712
 - name: 11|🇯🇵 JP-1 | Mix
-  port: 1080
-  server: 217.142.236.180
-  type: socks
+  port: 443
+  server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇯🇵 JP-2 | Mix
   port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
-- name: 11|🇯🇵 JP-3 | Mix
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.bid
-  skip-cert-verify: true
-  sni: open.2ml.bid
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本|@ripaojiedian
