@@ -301,612 +301,327 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10|🇸🇬 SG-1 | 8EB
-  password: 745A6079-6A61-423D-BDD9-B344C1D26E62
-  port: 20177
-  server: sg1.dexlos.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: 10|🇬🇧 GB-1 | 8EB
-  password: amazonskr05
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
   port: 443
-  server: 13.135.199.253
-  type: ss
-  udp: true
-- name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 10|🇬🇧 GB-2 | 8EB
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1027
-  server: tv6sfkdw.zf-mix.9999231.xyz
-  sni: dk-wy.9999231.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: eu-central.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement?ed=2048
-- name: 10|🇬🇧 GB-3 | 8EB
-  port: 1080
-  server: 52.128.241.107
-  type: socks
-  username: Og
-- flow: xtls-rprx-vision
-  name: 10,11|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 32134
   reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: 6c6c7c97
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
+    public-key: ybBxu1pW3O9Me954LCDfXgHW6lIYepAbnla82yaZ5HE
+    short-id: 6a1faecb
+  server: pq.aws48.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-2 | 8EB
   port: 443
-  server: xcWBH1Kr0wwfXG24.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: xcWBH1Kr0wwfXG24.v.3dns.vip
-  type: vmess
+  reality-opts:
+    public-key: zMagqZuHMMpbYO2aciR2tBAjzBVLeXe0N205r4YCY14
+    short-id: 1a92a625
+  server: pq.aws49.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: efe82ebc-46b3-4242-b612-b652b8fbc870
-  ws-opts:
-    headers:
-      Host: xcWBH1Kr0wwfXG24.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: random
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-3 | 8EB
+  port: 443
+  reality-opts:
+    public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc
+    short-id: a6115a2c
+  server: pq.aws50.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-4 | 8EB
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    short-id: f3b38af2
+  server: pq.aws51.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-5 | 8EB
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    short-id: f3b38af2
+  server: pq.aws52.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-6 | 8EB
+  port: 443
+  reality-opts:
+    public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc
+    short-id: a6115a2c
+  server: pq.aws53.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-7 | 8EB
+  port: 443
+  reality-opts:
+    public-key: ePEdL0MQGHT0BGkhSprooNXTYHgp_mdaxEaOkGTKO3k
+    short-id: 195c371d
+  server: pq.aws54.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-8 | 8EB
+  port: 443
+  reality-opts:
+    public-key: Zzn7SxtTRMANwRwOvn87ZpNQ8zjjzcKOznE_sG_7UQU
+    short-id: 6b584a0d
+  server: pq.aws55.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-9 | 8EB
+  port: 443
+  reality-opts:
+    public-key: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+    short-id: 2edcfbb7
+  server: pq.aws56.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-10 | 8EB
+  port: 443
+  reality-opts:
+    public-key: KeIvEyXB-ftboKdIoaSDyUKJPQpmcZiVaqY2JndkX08
+    short-id: 55fbcc37
+  server: pq.aws57.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
+  port: 443
+  reality-opts:
+    public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
+    short-id: 436299c6
+  server: pq.aws63.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
+  reality-opts:
+    public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+    short-id: e2e15173
+  server: pq.aws64.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048
-- cipher: aes-256-cfb
-  name: 10|🇨🇦 CA-1 | 8EB
-  password: amazonskr05
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
   port: 443
-  server: 15.175.220.220
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  name: 10|🇬🇧 GB-4 | 8EB
-  network: ws
-  port: 443
-  server: 103.137.250.68
-  servername: rnxq-1lpi3m.linmeisoft.com
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  ws-opts:
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- alpn:
-  - http/1.1
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-4 | 8EB
+  port: 443
+  reality-opts:
+    public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
+    short-id: 289c74e0
+  server: pq.aws66.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-5 | 8EB
+  port: 443
+  reality-opts:
+    public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+    short-id: 8b6e932c
+  server: pq.aws67.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-1 | 8EB
+  port: 443
+  reality-opts:
+    public-key: XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA
+    short-id: 79f44f5c
+  server: pq.us01.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-2 | 8EB
-  network: ws
   port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
+  reality-opts:
+    public-key: AzQlCUikY30iQK5pgK2nW_AiYJkvi2Lm5rDjWGHvzUo
+    short-id: 182dc224
+  server: pq.us02.yydjc.top
+  servername: updates.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ad6a20fb-5484-4c59-b745-662afe232270
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-3 | 8EB
-  network: ws
   port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
+  reality-opts:
+    public-key: -Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns
+    short-id: f0dc50e8
+  server: pq.us03.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ad6a20fb-5484-4c59-b745-662afe232270
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-4 | 8EB
-  network: ws
   port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
+  reality-opts:
+    public-key: 20zgmuoZYL5ngyWwzwJSaNpfaRAOhX2UdND6RVVswm0
+    short-id: 71c05500
+  server: pq.us04.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ad6a20fb-5484-4c59-b745-662afe232270
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- client-fingerprint: random
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-5 | 8EB
-  network: ws
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: nl-ams.862400.xyz
+  reality-opts:
+    public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE
+    short-id: 2546d239
+  server: pq.us05.yydjc.top
+  servername: www.mi.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: nl-ams.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: random
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-6 | 8EB
-  network: ws
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: ap-south.862400.xyz
+  reality-opts:
+    public-key: GRpUsIrhrxRKshbSbWFs1YmTyWzhTQXjAyjpRIFo1zs
+    short-id: beadc711
+  server: pq.us06.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: random
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 10|🇺🇸 US-7 | 8EB
-  network: ws
   port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: se-sto.862400.xyz
+  reality-opts:
+    public-key: CQqGVFQ65FCLJsqx2xb0RkfjZ6veJNaCsqazSYVvfgQ
+    short-id: d574526d
+  server: pq.us07.yydjc.top
+  servername: www.mi.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement?ed=2048
-- client-fingerprint: firefox
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 10|🇮🇳 IN-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
-    short-id: d98e7afec9c0c359
-  server: zahvatpribaltovonline.vvzzkontaktezzvv.garden
-  servername: zahvatpribaltovonline.vvzzkontaktezzvv.garden
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-- flow: xtls-rprx-vision
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zvLIiZsAqG2Uz9FEBPJ1q2P6lUmG4SBv-M7vlDuqEFo
-    short-id: 421880b82d
-  server: 64.188.119.73
-  servername: ocd1.global-media-cache.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d1752a5-2832-4981-878d-f4aca87d6f86
-- name: 10|🇳🇱 NL-1 | 8EB
-  network: grpc
-  port: 444
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  server: nl.srv.vbuste-bot.com
-  servername: nl.srv.vbuste-bot.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- grpc-opts:
-    grpc-service-name: nl-grpc
-  mode: gun
-  name: 10|🇳🇱 NL-2 | 8EB
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-  server: nl-1-6.unturned-rust-dead.lol
-  servername: nl-1-6.unturned-rust-dead.lol
-  serviceName: nl-grpc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-- name: 10|🇬🇧 GB-5 | 8EB
-  network: ws
-  port: 443
-  server: 103.195.190.94
-  servername: rnxq-1lpi3m.linmeisoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  ws-opts:
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- name: 10|🇬🇧 GB-6 | 8EB
-  network: ws
-  port: 443
-  server: 141.133.174.59
-  servername: rnxq-1lpi3m.linmeisoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  ws-opts:
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- name: 10|🇬🇧 GB-7 | 8EB
-  network: ws
-  port: 443
-  server: 45.194.66.88
-  servername: rnxq-1lpi3m.linmeisoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  ws-opts:
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- name: 10|🇮🇳 IN-2 | 8EB
-  network: ws
-  port: 443
-  server: 43.174.193.1
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- name: 10|🇮🇳 IN-3 | 8EB
-  port: 1080
-  server: 5.255.117.250
-  type: socks
-  username: Og
-- alterId: 0
-  cipher: auto
-  name: 10|🇰🇷 KR-1 | 8EB
-  network: ws
-  port: 443
-  server: KggmExDzPgl7qL4z.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: KggmExDzPgl7qL4z.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
-  ws-opts:
-    headers:
-      Host: KggmExDzPgl7qL4z.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇰🇷 KR-2 | 8EB
-  network: ws
-  port: 443
-  server: baBfGGlhjs86aTxZ.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: baBfGGlhjs86aTxZ.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
-  ws-opts:
-    headers:
-      Host: baBfGGlhjs86aTxZ.v.3dns.vip
-    path: /ws-vmess
-- name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
-  port: 443
-  server: tongue-expects-begins-old.trycloudflare.com
-  servername: tongue-expects-begins-old.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
-  ws-opts:
-    headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸 US-8 | 8EB
-  network: ws
-  port: 443
-  server: PcIQBjrJTtz8lPOf.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: PcIQBjrJTtz8lPOf.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: PcIQBjrJTtz8lPOf.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 10|🇮🇳 IN-4 | 8EB
-  network: tcp
   port: 443
   reality-opts:
-    public-key: III2StgFziJtisbaKDYlEF2qYwBHJZnzZH5DHdwuFQ8
-    short-id: d110331f200987ae
-  server: finaluty.loknietotop.digital
-  servername: finaluty.loknietotop.digital
+    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
+    short-id: fd26d49a
+  server: 203.10.96.138
+  servername: cdn-dynmedia-1.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-- alterId: 0
-  cipher: auto
-  name: 10|🇮🇳 IN-5 | 8EB
-  network: ws
-  port: 443
-  server: qqpyARLVdfPzKz9l.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: qqpyARLVdfPzKz9l.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
-  ws-opts:
-    headers:
-      Host: qqpyARLVdfPzKz9l.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  server: i1OqmkRvrB7nsYzz.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: i1OqmkRvrB7nsYzz.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
-  ws-opts:
-    headers:
-      Host: i1OqmkRvrB7nsYzz.v.3dns.vip
-    path: /ws-vmess
-- name: 10|🇺🇸 US-10 | 8EB
-  port: 443
-  server: 31.77.19.92
-  type: socks
-  username: Og
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 US-11 | 8EB
-  network: ws
-  port: 443
-  server: kBd17k34BR3HAOJ2.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: kBd17k34BR3HAOJ2.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: kBd17k34BR3HAOJ2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇩🇪 DE-3 | 8EB
-  network: ws
-  port: 443
-  server: fnBpCHLVSPVtoxI1.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: fnBpCHLVSPVtoxI1.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: fnBpCHLVSPVtoxI1.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇩🇪 DE-4 | 8EB
-  network: ws
-  port: 443
-  server: 4vJWBUhtW5vKHytB.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: 4vJWBUhtW5vKHytB.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: 4vJWBUhtW5vKHytB.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇩🇪 DE-5 | 8EB
-  network: ws
-  port: 443
-  server: Qmh49RE8c0DCqpFU.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: Qmh49RE8c0DCqpFU.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: Qmh49RE8c0DCqpFU.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇩🇪 DE-6 | 8EB
-  network: ws
-  port: 443
-  server: l4SMShjrt47c2H0i.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: l4SMShjrt47c2H0i.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: l4SMShjrt47c2H0i.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 10|🇰🇷 KR-3 | 8EB
-  network: ws
-  port: 443
-  server: 8nTzyR5KNivfabaT.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: 8nTzyR5KNivfabaT.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: 8nTzyR5KNivfabaT.v.3dns.vip
-    path: /ws-vmess
-- name: 10|🇹🇭 TH-1 | 8EB
-  network: ws
-  port: 443
-  server: 179.253.255.27
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- name: 10|🇺🇸 US-12 | 8EB
-  network: ws
-  port: 443
-  server: 108.186.158.241
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: unsafe
-  name: 10|🇳🇱 NL-3 | 8EB
-  network: ws
-  password: humanity
-  port: 443
-  security: tls
-  server: 31.57.190.34
-  servername: www.pleadcourt.org
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: 10|🇺🇸 US-13 | 8EB
-  network: ws
-  port: 443
-  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe15a643-4c5e-e133-f560-3b79074162da
-  ws-opts:
-    headers:
-      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
-- name: 10|🇩🇪 DE-7 | 8EB
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  type: hysteria2
-  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
 - name: 11|🇲🇽 MX-1 | Mix
   port: 40002
   server: 103.88.234.239
@@ -1037,6 +752,20 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
 - flow: xtls-rprx-vision
   name: 11|🇸🇬 SG-1 | Mix
   network: tcp

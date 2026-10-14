@@ -1,40 +1,74 @@
 proxies:
-- name: 10|🇸🇬 SG-1 | 8EB
-  password: 745A6079-6A61-423D-BDD9-B344C1D26E62
-  port: 20177
-  server: sg1.dexlos.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d54856d-f842-4121-8571-6136e8e6e642
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048
 - client-fingerprint: chrome
-  name: 10|🇸🇬 SG-3 | 8EB
-  network: ws
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
   port: 443
-  server: tongue-expects-begins-old.trycloudflare.com
-  servername: tongue-expects-begins-old.trycloudflare.com
+  reality-opts:
+    public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
+    short-id: 436299c6
+  server: pq.aws63.yydjc.top
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
-  ws-opts:
-    headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-2 | 8EB
+  port: 443
+  reality-opts:
+    public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+    short-id: e2e15173
+  server: pq.aws64.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  port: 443
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-4 | 8EB
+  port: 443
+  reality-opts:
+    public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
+    short-id: 289c74e0
+  server: pq.aws66.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-5 | 8EB
+  port: 443
+  reality-opts:
+    public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+    short-id: 8b6e932c
+  server: pq.aws67.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11|🇸🇬 SG-1 | Mix
