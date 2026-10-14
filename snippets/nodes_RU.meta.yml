@@ -1,19 +1,34 @@
 proxies:
-- name: 9|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇷🇺 RU-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: ba4b2afa9e7193ea
+  server: 50.7.87.122
+  servername: edge-fr.extazy.net
   skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: 11|🇷🇺 RU-1 | Mix
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
+- name: 11|🇷🇺 RU-2 | Mix
+  port: 1080
+  server: 78.107.58.51
+  type: socks
+- name: 11|🇷🇺 RU-3 | Mix
   password: 9jkvAVV-9ufV6IGd
-  port: 36074
+  port: 20416
   server: chalo-ru.nexorcdn.com
   tls:
     enabled: true
   type: http
   username: ef37886e2aacd6fa622e3de3810299c2
+- name: 11|🇷🇺 RU-4 | Mix
+  port: 443
+  server: 194.186.179.62
+  tls:
+    enabled: true
+  type: http
