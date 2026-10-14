@@ -1,131 +1,207 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 10|🇺🇸 US-1 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA
-    short-id: 79f44f5c
-  server: pq.us01.yydjc.top
-  servername: updates.cdn-apple.com
+  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-2 | 8EB
-  port: 443
-  reality-opts:
-    public-key: AzQlCUikY30iQK5pgK2nW_AiYJkvi2Lm5rDjWGHvzUo
-    short-id: 182dc224
-  server: pq.us02.yydjc.top
-  servername: updates.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
+  uuid: fe15a643-4c5e-e133-f560-3b79074162da
+  ws-opts:
+    headers:
+      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
+- name: 10|🇺🇸 US-2 | 8EB
+  network: ws
+  port: 14430
+  server: 193.233.130.118
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-3 | 8EB
-  port: 443
-  reality-opts:
-    public-key: -Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns
-    short-id: f0dc50e8
-  server: pq.us03.yydjc.top
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
+  uuid: dfc3077e-b013-4fcb-a500-df3e210e88b0
+  ws-opts:
+    headers:
+      Host: 193.233.130.118
+    path: /vless
+- name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 14430
+  server: 193.233.130.119
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+  ws-opts:
+    headers:
+      Host: 193.233.130.119
+    path: /vless
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-4 | 8EB
-  port: 443
+  network: tcp
+  port: 10444
   reality-opts:
-    public-key: 20zgmuoZYL5ngyWwzwJSaNpfaRAOhX2UdND6RVVswm0
-    short-id: 71c05500
-  server: pq.us04.yydjc.top
-  servername: iosapps.itunes.apple.com
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 193.233.130.119
+  servername: video.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-5 | 8EB
-  port: 443
-  reality-opts:
-    public-key: ptYLYuVba16lu-OtadiE8Wd-cGHHVZh0XkxVUqrhmDE
-    short-id: 2546d239
-  server: pq.us05.yydjc.top
-  servername: www.mi.com
-  skip-cert-verify: false
-  tls: true
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+- name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  port: 10443
+  server: 193.233.130.119
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 10|🇺🇸 US-6 | 8EB
-  port: 443
+  network: tcp
+  port: 10444
   reality-opts:
-    public-key: GRpUsIrhrxRKshbSbWFs1YmTyWzhTQXjAyjpRIFo1zs
-    short-id: beadc711
-  server: pq.us06.yydjc.top
-  servername: iosapps.itunes.apple.com
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 193.233.130.118
+  servername: video.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+  uuid: dfc3077e-b013-4fcb-a500-df3e210e88b0
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 10|🇺🇸 US-7 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: CQqGVFQ65FCLJsqx2xb0RkfjZ6veJNaCsqazSYVvfgQ
-    short-id: d574526d
-  server: pq.us07.yydjc.top
-  servername: www.mi.com
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 10|🇺🇸 US-8 | 8EB
+  network: ws
   port: 443
-  reality-opts:
-    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
-    short-id: fd26d49a
-  server: 203.10.96.138
-  servername: cdn-dynmedia-1.microsoft.com
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afe7cc81-dd87-461d-9993-35a7312d3225
-- name: 11|🇺🇸 US-1 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
-- name: 11|🇺🇸 US-2 | Mix
+  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-9 | 8EB
+  network: ws
   port: 443
-  server: jewelscollecti.icu
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- name: 11|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-3 | Mix
+- name: 11|🇺🇸 US-2 | Mix
+  password: None
   port: 443
-  server: 38.247.141.135
+  server: webdrone.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.207
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: 148.135.10.80
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 11|🇺🇸 US-6 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 443
+  server: 149.88.21.129
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-8 | Mix
+  network: ws
+  port: 443
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: Dv9bYFLawYZl3oU9.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: Dv9bYFLawYZl3oU9.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
+  ws-opts:
+    headers:
+      Host: Dv9bYFLawYZl3oU9.v.3dns.vip
+    path: /ws-vmess
+- name: 11|🇺🇸 US-10 | Mix
+  port: 443
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http

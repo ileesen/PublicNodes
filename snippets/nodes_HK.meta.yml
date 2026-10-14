@@ -1,7 +1,55 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 11|🇭🇰 HK-1 | Mix
+  name: 10|🇭🇰 HK-1 | 8EB
+  network: tcp
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 213.176.92.168
+  servername: video.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+- name: 10|🇭🇰 HK-2 | 8EB
+  network: ws
+  port: 14430
+  server: 213.176.92.168
+  type: vless
+  udp: true
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+  ws-opts:
+    headers:
+      Host: 213.176.92.168
+    path: /vless
+- client-fingerprint: chrome
+  name: 10|🇭🇰 HK-3 | 8EB
+  network: ws
+  port: 443
+  server: 149.104.31.208
+  servername: tongue-expects-begins-old.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
+  ws-opts:
+    headers:
+      Host: tongue-expects-begins-old.trycloudflare.com
+    path: /
+- name: 11|🇭🇰 HK-1 | Mix
+  password: e7438b3190e185e1a0e529673fc0588efc85070295f51a893a44b8ce7812c235
+  port: 443
+  server: 34.150.46.137
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -14,6 +62,26 @@ proxies:
   type: vless
   udp: true
   uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- alterId: 0
+  cipher: auto
+  name: 11|🇭🇰 HK-3 | Mix
+  network: ws
+  port: 443
+  server: rhHiErkwRf6fHs2H.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: rhHiErkwRf6fHs2H.v.3dns.vip
+  type: vmess
+  udp: true
+  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
+  ws-opts:
+    headers:
+      Host: rhHiErkwRf6fHs2H.v.3dns.vip
+    path: /ws-vmess
+- name: 11|🇭🇰 HK-4 | Mix
+  port: 10808
+  server: 123.58.219.171
+  type: socks
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

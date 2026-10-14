@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 11|🇷🇺 RU-1 | Mix
+  name: 10|🇷🇺 RU-1 | 8EB
   network: tcp
   port: 443
   reality-opts:
@@ -14,21 +14,3 @@ proxies:
   type: vless
   udp: true
   uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
-- name: 11|🇷🇺 RU-2 | Mix
-  port: 1080
-  server: 78.107.58.51
-  type: socks
-- name: 11|🇷🇺 RU-3 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 20416
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- name: 11|🇷🇺 RU-4 | Mix
-  port: 443
-  server: 194.186.179.62
-  tls:
-    enabled: true
-  type: http
