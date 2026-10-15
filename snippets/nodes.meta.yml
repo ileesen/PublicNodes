@@ -32,18 +32,6 @@ proxies:
   sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9| @MDvpnSEC
-  obfs: salamander
-  obfs-password: 8foko94vimvype1w
-  password: 2iv39iey4nw13btu
-  port: 53423
-  server: 185.83.112.145
-  skip-cert-verify: false
-  sni: 185.83.112.145
-  tls: false
-  type: hysteria2
 - name: '9|@v2ray_configs_pools  '
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
@@ -52,6 +40,13 @@ proxies:
   server: 109.104.153.124
   skip-cert-verify: false
   sni: srv-0e5387.frd21.ru
+  tls: false
+  type: hysteria2
+- name: 9|62@oneclickvpnkeys
+  password: 43212c32-01f2-4356-b216-67dc1c178262
+  port: 5443
+  server: ees92.shhflow.xyz
+  sni: ees92.shhflow.xyz
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -72,6 +67,13 @@ proxies:
   server: giftcard.gisora.ir
   skip-cert-verify: false
   sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
+- name: 9|67@oneclickvpnkeys
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: 9|Telegram:@v2rayng3
@@ -192,7 +194,17 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 9|🇨🇭192087 | ⚡️Telegram = t.me/v...
+- name: 9|🍂33@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+  password: capadm54312235
+  port: 443
+  server: 51.15.16.68
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: 9|192087 | ⚡️Telegram = t.me/v2r...
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
@@ -222,6 +234,13 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🍂45@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -230,6 +249,16 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 9|🇷194831 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: 3b0dp6qtizuawbln
+  password: qtow1x9l2i2zst0q
+  port: 9099
+  server: 45.74.158.237
+  skip-cert-verify: false
+  sni: 45.74.158.237
   tls: false
   type: hysteria2
 - alpn:
@@ -272,14 +301,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|[ 🇨🇭 ] | @Cfox_SerVer
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.237
-  skip-cert-verify: false
-  sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
 - name: 9|Telegram 🆔@cnetvpn 🇮
@@ -356,267 +377,248 @@ proxies:
     headers:
       Host: hui666.eu.cc
     path: /assets/js/main.js
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-1 | Mix
-  network: ws
+- name: 11,15|RO_speednode_0087
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  name: 11|🇹🇼 TW-1 | Mix
+  password: ec74bb6a86c2
   port: 443
-  server: 9d3bQSFxJk72LuXg.v.3dns.vip
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 11|🇩🇪 DE-1 | Mix
+  network: ws
+  port: 14430
+  server: 77.221.157.213
+  type: vless
+  udp: true
+  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  ws-opts:
+    path: /vless
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 11|🇬🇧 GB-1 | Mix
+  network: tcp
+  port: 20009
+  reality-opts:
+    public-key: lKhzz-7fA5uyFxSoPPp3r-iIPk7D67bT-r6U-MB5kH8
+    short-id: 69a1fc81c267e44a
+  server: 103.180.20.132
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 635ae9d5-9043-4c2f-8487-60f5aa7a325b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 33939
+  reality-opts:
+    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
+    short-id: b20abd16cda27eeb
+  server: funagfrdfs.alixxplay.com
+  servername: www.otto.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.29
   tls:
     enabled: true
-    server_name: 9d3bQSFxJk72LuXg.v.3dns.vip
+  type: http
+- name: 11,15|RO_speednode_0082
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇫🇷 FR-1 | Mix
+  port: 8090
+  server: 80.124.109.22
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇯🇵 JP-1 | Mix
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 57541
+  reality-opts:
+    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
+    short-id: 22b19630280c3f
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alterId: 0
+  cipher: auto
+  name: 11|🇨🇳 CN-1 | Mix
+  network: ws
+  port: 10086
+  server: 39.108.113.127
   type: vmess
   udp: true
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
+  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
   ws-opts:
-    headers:
-      Host: 9d3bQSFxJk72LuXg.v.3dns.vip
-    path: /ws-vmess
+    path: /
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- name: 11,15|RO_speednode_0042
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
-  server: mmgr.club
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-2 | Mix
-  network: ws
-  port: 443
-  server: TnmXPIFVwfvyFZvf.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: TnmXPIFVwfvyFZvf.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
-  ws-opts:
-    headers:
-      Host: TnmXPIFVwfvyFZvf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: YhMYBIrXpxJfdqIT.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: YhMYBIrXpxJfdqIT.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: YhMYBIrXpxJfdqIT.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬 SG-1 | Mix
-  network: ws
-  port: 443
-  server: 2dmlvPPB7ETVqdMQ.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: 2dmlvPPB7ETVqdMQ.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: 2dmlvPPB7ETVqdMQ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇰🇷 KR-1 | Mix
-  network: ws
-  port: 443
-  server: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
-  ws-opts:
-    headers:
-      Host: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-    path: /ws-vmess
-- name: 11|🇭🇰 HK-1 | Mix
-  password: ec74bb6a86c2
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-3 | Mix
-  network: ws
-  port: 443
-  server: 4a4aaCHSdTQzORBM.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: 4a4aaCHSdTQzORBM.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
-  ws-opts:
-    headers:
-      Host: 4a4aaCHSdTQzORBM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 443
-  server: VYuew6yE3HBX4Tsp.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: VYuew6yE3HBX4Tsp.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
-  ws-opts:
-    headers:
-      Host: VYuew6yE3HBX4Tsp.v.3dns.vip
-    path: /ws-vmess
-- name: 11|🇷🇴 RO-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.33
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇸🇪 SE-1 | Mix
-  port: 9090
-  server: 202.4.119.226
-  type: socks
-- name: 11|🇦🇱 AL-1 | Mix
-  port: 9443
-  server: 31.171.155.210
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇬🇧 GB-1 | Mix
-  port: 9443
-  server: 84.17.50.129
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11,15|NL_speednode_0004
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
+- flow: xtls-rprx-vision
+  name: 11|🇩🇪 DE-3 | Mix
+  network: tcp
+  port: 1984
+  reality-opts:
+    public-key: ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0
+    short-id: 0f00666a
+  server: 177.1.187.139
+  servername: ruori.ai
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 11|🇺🇸 US-9 | Mix
-  password: None
+  uuid: d9eb02da-a469-44a7-a393-ba1c5fbbc8c4
+- name: 11|🇮🇹 IT-1 | Mix
+  port: 443
+  server: 185.183.105.146
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-4 | Mix
+  port: 443
+  server: 213.177.229.161
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-3 | Mix
+  port: 8090
+  server: 98.101.229.212
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-5 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 193.176.84.37
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-6 | Mix
+  port: 9002
+  server: 193.176.84.21
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-4 | Mix
-  network: ws
-  port: 443
-  server: pO6PBZ8gPVBUX3ar.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: pO6PBZ8gPVBUX3ar.v.3dns.vip
-  type: vmess
+- flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
-  ws-opts:
-    headers:
-      Host: pO6PBZ8gPVBUX3ar.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-5 | Mix
-  network: ws
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇳🇱 NL-1 | Mix
+  network: tcp
   port: 443
-  server: EDzxRVTar32m9aRi.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: EDzxRVTar32m9aRi.v.3dns.vip
-  type: vmess
+  reality-opts:
+    public-key: vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk
+    short-id: adcbde41b1cf27ba
+  server: 31.59.140.188
+  servername: nl1.aiage.work
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: EDzxRVTar32m9aRi.v.3dns.vip
-    path: /ws-vmess
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 1080
-  server: 213.199.47.140
-  type: socks
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬 SG-2 | Mix
-  network: ws
-  port: 443
-  server: LXdZqKPLKTJJaj3H.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: LXdZqKPLKTJJaj3H.v.3dns.vip
-  type: vmess
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+- name: 11|🇺🇸 US-5 | Mix
+  network: tcp
+  port: 8888
+  reality-opts:
+    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
+  server: zorusx861.233874.xyz
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
-  ws-opts:
-    headers:
-      Host: LXdZqKPLKTJJaj3H.v.3dns.vip
-    path: /ws-vmess
+  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: gdd-grpc
   mode: gun
-  name: 11|🇩🇪 DE-1 | Mix
+  name: 11|🇩🇪 DE-5 | Mix
   network: grpc
   port: 443
   reality-opts:
@@ -914,6 +916,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 15|NL_speednode_0004
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|NL_speednode_0005
   password: None
   port: 9002
@@ -1177,13 +1186,6 @@ proxies:
 - name: 15|RO_speednode_0041
   port: 9002
   server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0042
-  port: 9002
-  server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
@@ -1470,13 +1472,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 15|RO_speednode_0083
   port: 9002
   server: 193.176.84.25
@@ -1501,13 +1496,6 @@ proxies:
 - name: 15|RO_speednode_0086
   port: 9002
   server: 84.239.49.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|RO_speednode_0087
-  port: 9002
-  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http

@@ -2,88 +2,44 @@ proxies:
 - name: 11|🇺🇸 US-1 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 11|🇺🇸 US-2 | Mix
   port: 443
-  server: mmgr.club
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-3 | Mix
-  network: ws
-  port: 443
-  server: YhMYBIrXpxJfdqIT.v.3dns.vip
+- name: 11|🇺🇸 US-3 | Mix
+  port: 8090
+  server: 98.101.229.212
   tls:
     enabled: true
-    server_name: YhMYBIrXpxJfdqIT.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: YhMYBIrXpxJfdqIT.v.3dns.vip
-    path: /ws-vmess
+  type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 US-5 | Mix
-  network: ws
-  port: 443
-  server: VYuew6yE3HBX4Tsp.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: VYuew6yE3HBX4Tsp.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
-  ws-opts:
-    headers:
-      Host: VYuew6yE3HBX4Tsp.v.3dns.vip
-    path: /ws-vmess
-- name: 11|🇺🇸 US-6 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-7 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-8 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-9 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+- client-fingerprint: chrome
+  name: 11|🇺🇸 US-5 | Mix
+  network: tcp
+  port: 8888
+  reality-opts:
+    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
+  server: zorusx861.233874.xyz
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

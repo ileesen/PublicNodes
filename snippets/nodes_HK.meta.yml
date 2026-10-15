@@ -66,14 +66,36 @@ proxies:
     headers:
       Host: hui666.eu.cc
     path: /assets/js/main.js
-- name: 11|🇭🇰 HK-1 | Mix
-  password: ec74bb6a86c2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-1 | Mix
+  network: tcp
   port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11|🇭🇰 HK-2 | Mix
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian

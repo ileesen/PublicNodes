@@ -1,5 +1,7 @@
 proxies:
 - name: 11|🇫🇷 FR-1 | Mix
-  port: 1080
-  server: 213.199.47.140
-  type: socks
+  port: 8090
+  server: 80.124.109.22
+  tls:
+    enabled: true
+  type: http
