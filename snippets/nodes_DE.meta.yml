@@ -7,32 +7,6 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 14430
-  server: 77.221.157.213
-  type: vless
-  udp: true
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  ws-opts:
-    headers:
-      Host: 77.221.157.213
-    path: /vless
-- client-fingerprint: chrome
-  name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 103.160.59.198
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: gdd-grpc

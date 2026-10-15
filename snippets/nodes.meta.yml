@@ -54,15 +54,6 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
-- name: 9|66@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
-  password: 56ff50da-a238-4646-95ab-dd159634bd87
-  port: 17701
-  server: 37.9.4.112
-  sni: ru03.arpanet-cdn.com
-  tls: false
-  type: hysteria2
 - name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -301,438 +292,70 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 10|🇹🇼 TW-1 | 8EB
-  network: ws
-  port: 443
-  server: fujrdt.d6f54hd1j.cc
-  tls:
-    enabled: true
-    server_name: fujrdt.d6f54hd1j.cc
-  type: vmess
-  udp: true
-  uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
-  ws-opts:
-    headers:
-      Host: fujrdt.d6f54hd1j.cc
-    path: /
-- name: 10|🇸🇬 SG-1 | 8EB
-  network: ws
-  port: 8443
-  server: 149.118.55.215
-  servername: tongue-expects-begins-old.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
-  ws-opts:
-    headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
-- name: 10|🇮🇳 IN-1 | 8EB
-  network: ws
-  port: 14430
-  server: 13.140.56.100
-  type: vless
-  udp: true
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  ws-opts:
-    headers:
-      Host: 13.140.56.100
-    path: /vless
-- name: 10|🇩🇪 DE-1 | 8EB
-  network: ws
-  port: 14430
-  server: 77.221.157.213
-  type: vless
-  udp: true
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  ws-opts:
-    headers:
-      Host: 77.221.157.213
-    path: /vless
-- name: 10|🇮🇳 IN-2 | 8EB
-  network: ws
-  port: 14430
-  server: 91.196.163.140
-  type: vless
-  udp: true
-  uuid: e86a3662-9b31-4d59-bc80-9e8644749b95
-  ws-opts:
-    headers:
-      Host: 91.196.163.140
-    path: /vless
-- name: 10|🇺🇸 US-1 | 8EB
-  network: ws
-  port: 443
-  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe15a643-4c5e-e133-f560-3b79074162da
-  ws-opts:
-    headers:
-      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 10|🇷🇺 RU-1 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
-    short-id: ba4b2afa9e7193ea
-  server: 50.7.87.122
-  servername: edge-fr.extazy.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: 10|🇭🇰 HK-1 | 8EB
   network: tcp
-  port: 10444
+  port: 443
   reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  server: 213.176.92.168
-  servername: video.yandex.ru
+    public-key: 47s4FgS31TNLS4nyxyTeBThjSGoDeiOwm98d1oV2qHY
+    short-id: 98ed67ffc2e70d4a
+  server: hui666.eu.cc
+  servername: www.bing.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-- name: 10|🇮🇳 IN-3 | 8EB
-  network: ws
-  port: 14430
-  server: 193.188.21.253
-  type: vless
-  udp: true
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-  ws-opts:
-    headers:
-      Host: 193.188.21.253
-    path: /vless
-- name: 10|🇺🇸 US-2 | 8EB
-  network: ws
-  port: 14430
-  server: 193.233.130.118
-  type: vless
-  udp: true
-  uuid: dfc3077e-b013-4fcb-a500-df3e210e88b0
-  ws-opts:
-    headers:
-      Host: 193.233.130.118
-    path: /vless
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇮🇳 IN-4 | 8EB
-  network: tcp
-  port: 10444
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  server: 193.188.21.253
-  servername: video.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-- name: 10|🇮🇳 IN-5 | 8EB
-  network: ws
-  port: 14430
-  server: 45.137.43.168
-  type: vless
-  udp: true
-  uuid: b4cc503a-c352-4775-85ad-fc982086884a
-  ws-opts:
-    headers:
-      Host: 45.137.43.168
-    path: /vless
-- name: 10|🇭🇰 HK-2 | 8EB
-  network: ws
-  port: 14430
-  server: 213.176.92.168
-  type: vless
-  udp: true
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-  ws-opts:
-    headers:
-      Host: 213.176.92.168
-    path: /vless
-- name: 10|🇮🇳 IN-6 | 8EB
-  network: ws
-  port: 14430
-  server: 45.144.234.157
-  type: vless
-  udp: true
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  ws-opts:
-    headers:
-      Host: 45.144.234.157
-    path: /vless
-- name: 10|🇮🇳 IN-7 | 8EB
-  network: tcp
-  port: 10443
-  server: 45.137.43.168
-  type: vless
-  udp: true
-  uuid: b4cc503a-c352-4775-85ad-fc982086884a
-- name: 10|🇺🇸 US-3 | 8EB
-  network: ws
-  port: 14430
-  server: 193.233.130.119
-  type: vless
-  udp: true
-  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
-  ws-opts:
-    headers:
-      Host: 193.233.130.119
-    path: /vless
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-4 | 8EB
-  network: tcp
-  port: 10444
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  server: 193.233.130.119
-  servername: video.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
 - flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-1 | 8EB
+  name: 10|🇭🇰 HK-2 | 8EB
   network: tcp
-  port: 2061
+  port: 2087
   reality-opts:
-    public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
-    short-id: c77f719b082817e4
-  server: 103.41.7.43
-  servername: www.apple.com
+    public-key: 47s4FgS31TNLS4nyxyTeBThjSGoDeiOwm98d1oV2qHY
+    short-id: 98ed67ffc2e70d4a
+  server: 64.90.19.100
+  servername: www.bing.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
-- flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-2 | 8EB
-  network: tcp
-  port: 2062
-  reality-opts:
-    public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
-    short-id: be61aab9c7ffd106
-  server: 103.41.7.43
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d83592a3-a94f-4f7e-b105-b3deedde2a7a
-- flow: xtls-rprx-vision
-  name: 10|🇬🇧 GB-3 | 8EB
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zvLIiZsAqG2Uz9FEBPJ1q2P6lUmG4SBv-M7vlDuqEFo
-    short-id: 421880b82d
-  server: 64.188.119.73
-  servername: ocd1.global-media-cache.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d1752a5-2832-4981-878d-f4aca87d6f86
-- name: 10|🇺🇸 US-5 | 8EB
-  network: tcp
-  port: 10443
-  server: 193.233.130.119
-  type: vless
-  udp: true
-  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
-- name: 10|🇮🇳 IN-8 | 8EB
-  network: ws
-  port: 14430
-  server: 5.178.109.174
-  type: vless
-  udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    headers:
-      Host: 5.178.109.174
-    path: /vless
-- name: 10|🇮🇳 IN-9 | 8EB
-  network: ws
-  port: 14430
-  server: 185.253.116.33
-  type: vless
-  udp: true
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  ws-opts:
-    headers:
-      Host: 185.253.116.33
-    path: /vless
-- name: 10|🇦🇪 AE-1 | 8EB
-  network: ws
-  port: 443
-  server: 146.70.37.253
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 10|🇮🇳 IN-10 | 8EB
-  network: tcp
-  port: 10443
-  server: 138.124.90.177
-  type: vless
-  udp: true
-  uuid: 3a0e4040-67cc-43e0-a9fb-98e15ddb0526
-- name: 10|🇸🇬 SG-2 | 8EB
-  network: ws
-  port: 443
-  server: tongue-expects-begins-old.trycloudflare.com
-  servername: tongue-expects-begins-old.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
-  ws-opts:
-    headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
-- name: 10|🇮🇳 IN-11 | 8EB
-  network: ws
-  port: 14430
-  server: 95.174.68.188
-  type: vless
-  udp: true
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  ws-opts:
-    headers:
-      Host: 95.174.68.188
-    path: /vless
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 10|🇺🇸 US-6 | 8EB
-  network: tcp
-  port: 10444
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  server: 193.233.130.118
-  servername: video.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc3077e-b013-4fcb-a500-df3e210e88b0
-- name: 10|🇩🇪 DE-2 | 8EB
-  network: ws
-  port: 443
-  server: 103.160.59.198
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 10|🇮🇳 IN-12 | 8EB
-  network: ws
-  port: 443
-  server: 103.107.53.42
-  servername: tongue-expects-begins-old.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
-  ws-opts:
-    headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
+  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
 - name: 10|🇭🇰 HK-3 | 8EB
   network: ws
-  port: 443
-  server: 149.104.31.208
-  servername: tongue-expects-begins-old.trycloudflare.com
+  port: 2083
+  server: hui666.eu.cc
+  servername: hui666.eu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
+  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
   ws-opts:
     headers:
-      Host: tongue-expects-begins-old.trycloudflare.com
-    path: /
-- alpn:
-  - http/1.1
-  name: 10|🇺🇸 US-7 | 8EB
+      Host: hui666.eu.cc
+    path: /3f8a2c91
+- name: 10|🇭🇰 HK-4 | 8EB
   network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 64.90.19.100
   type: vless
   udp: true
-  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
+  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
   ws-opts:
     headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 10|🇺🇸 US-8 | 8EB
+      Host: hui666.eu.cc
+    path: /assets/js/main.js
+- name: 10|🇭🇰 HK-5 | 8EB
   network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: false
-  tls: true
+  port: 2052
+  server: 64.90.19.100
   type: vless
   udp: true
-  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
+  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
   ws-opts:
     headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 10|🇺🇸 US-9 | 8EB
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73b8a623-b708-423f-a718-86b7f85f6c50
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
+      Host: hui666.eu.cc
+    path: /assets/js/main.js
 - alterId: 0
   cipher: auto
   name: 11|🇮🇩 ID-1 | Mix
