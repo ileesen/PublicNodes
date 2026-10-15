@@ -1,45 +1,289 @@
 proxies:
-- name: 11|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-3 | Mix
-  port: 8090
-  server: 98.101.229.212
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
-  name: 11|🇺🇸 US-5 | Mix
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-1 | 8EB
   network: tcp
-  port: 8888
+  port: 443
   reality-opts:
-    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
-  server: zorusx861.233874.xyz
-  servername: addons.mozilla.org
+    public-key: JdZlPgvzG8oRNexe9zaTxJ8XPSoh75o-n9mJn_JDAgQ
+    short-id: eaf9853bfeb68b4a
+  server: 72.249.201.128
+  servername: www.amd.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
+  uuid: c689cdd0-8da2-4a5a-8771-5f4a4638cea7
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-2 | 8EB
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- client-fingerprint: random
+  name: 10|🇺🇸 US-3 | 8EB
+  network: ws
+  port: 443
+  server: 144.34.171.49
+  servername: vpn.pokertool.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e8ad642-c786-489a-b9b1-22379821fce8
+  ws-opts:
+    headers:
+      Host: vpn.pokertool.site
+    path: /ws-70a22f9c78d4cfa9
+- name: 10|🇺🇸 US-4 | 8EB
+  network: ws
+  port: 14430
+  server: 45.138.100.248
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  ws-opts:
+    headers:
+      Host: 45.138.100.248
+    path: /vless
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-5 | 8EB
+  network: tcp
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 45.138.100.248
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- name: 10|🇺🇸 US-6 | 8EB
+  network: tcp
+  port: 10443
+  server: 45.138.100.248
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-7 | 8EB
+  network: tcp
+  port: 47832
+  reality-opts:
+    public-key: hDRm-rHVu-ClNhBhPfp-JUGtFM91NGjlhVf-JjnPCnI
+    short-id: 058ea2b1
+  server: 216.234.140.15
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b042879-f382-46ce-8965-866186eb7e33
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-8 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: H-jO-7NT8LAkA9o8SOpFC-GeEqk-Jhpesmx5jJ_3n14
+    short-id: 312d6625929ec3df
+  server: 23.94.251.190
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a54f9e1-1cb0-4873-8f35-38bcf1650966
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇺🇸 US-9 | 8EB
+  network: tcp
+  port: 20543
+  reality-opts:
+    public-key: 0ZRIRi3Wr7XpWfOPc06yi7TIzl-ccP5fyS6RC2mDakI
+    short-id: 2ba1d452414f40ba
+  server: 104.244.94.21
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4222e71c-9934-4d31-902d-ce178e8b9a54
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-10 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82f3314c-971d-49c4-acd0-acb4edc6fdc9
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-11 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82f3314c-971d-49c4-acd0-acb4edc6fdc9
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-12 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82f3314c-971d-49c4-acd0-acb4edc6fdc9
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-13 | 8EB
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7ebdd04-3c92-4d70-8632-3236b3b86e92
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-14 | 8EB
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7ebdd04-3c92-4d70-8632-3236b3b86e92
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 10|🇺🇸 US-15 | 8EB
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7ebdd04-3c92-4d70-8632-3236b3b86e92
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 11|🇺🇸 US-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 11|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.218
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 47672
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 11|🇺🇸 US-4 | Mix
+  port: 443
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-5 | Mix
+  port: 8090
+  server: 173.42.49.102
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-6 | Mix
+  port: 443
+  server: goedkoopgeluid.icu
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-8 | Mix
+  port: 11080
+  server: 172.247.27.29
+  type: socks
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

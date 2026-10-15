@@ -1,12 +1,57 @@
 proxies:
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-1 | 8EB
+  network: tcp
+  port: 20007
+  reality-opts:
+    public-key: h67BY8lUGUOtatqfbLJ8pgxS-bYXqODnS_aBIRUrIDw
+    short-id: 22b82cf5d70ea10e
+  server: 103.180.20.132
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4fcd1f98-0f62-467e-9516-8df807386953
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-2 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: 1dd8558159ecd0
+  server: sg4.oh-node.com
+  servername: www.changiairport.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 10|🇸🇬 SG-3 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+    short-id: 37c94ae25b69a93a
+  server: sg1.oh-node.com
+  servername: sg-hyp-api.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 11|🇸🇬 SG-1 | Mix
   network: tcp
-  port: 57541
+  port: 46105
   reality-opts:
-    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
-    short-id: 22b19630280c3f
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
   server: funagfrdfs.alixxplay.com
   servername: www.lamer.com.sg
   skip-cert-verify: false

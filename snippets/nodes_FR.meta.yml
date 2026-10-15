@@ -1,7 +1,21 @@
 proxies:
-- name: 11|🇫🇷 FR-1 | Mix
-  port: 8090
-  server: 80.124.109.22
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  name: 10,11|🇹🇼 TW-1 | Mix
+  password: ec74bb6a86c2
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 10|🇫🇷 FR-2 | 8EB
+  network: ws
+  port: 14430
+  server: 138.124.70.41
+  type: vless
+  udp: true
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  ws-opts:
+    headers:
+      Host: 138.124.70.41
+    path: /vless

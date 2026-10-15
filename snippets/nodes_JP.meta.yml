@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 10|🇯🇵 JP-1 | 8EB
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: 1a
+  server: t5.qifei.app
+  servername: s3.ap-east-1.amazonaws.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
 - name: 11|🇯🇵 JP-1 | Mix
   password: 'null'
   port: 443
