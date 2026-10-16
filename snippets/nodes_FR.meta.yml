@@ -1,16 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: 0|🇫🇷FR_1|2.4MB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
 - name: 0|@v2ray_configs_pools 🇫🇷 ⚡️
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
@@ -22,21 +10,20 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '0|🇫🇷 法国 | FRA #1'
+  name: 0|🇫🇷[www.v2nodes.com] vless-FR-1...
   network: ws
   port: 443
   server: 199.232.78.170
   servername: Speedtest.net
   tls: true
   type: vless
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
 - encryption: none
-  name: 0|🇫🇷[www.v2nodes.com] vless-FR-1...
+  name: '0|🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   network: ws
   port: 20016
   server: 51.75.118.149
@@ -51,18 +38,6 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 185.255.179.166
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #1'
-  network: ws
-  password: humanity
-  port: 443
   server: 185.220.100.168
   skip-cert-verify: false
   sni: www.calmlunch.com
@@ -73,7 +48,7 @@ proxies:
     path: /assignment
 - alpn:
   - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #1'
   network: ws
   password: humanity
   port: 8443
@@ -85,7 +60,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #3'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   network: ws
   password: humanity
   port: 443
@@ -97,7 +72,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #4'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #3'
   network: ws
   password: humanity
   port: 443
@@ -108,19 +83,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #5'
-  network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #6'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #4'
   network: ws
   password: humanity
   port: 443
@@ -132,14 +95,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #5'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #8'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #6'
   network: ws
   password: humanity
   port: 443
@@ -151,7 +114,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #9'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #7'
   network: ws
   password: humanity
   port: 443
@@ -163,7 +126,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #10'
+- name: '0|🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   network: ws
   password: humanity
   port: 443
@@ -174,40 +137,43 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 0|🇫🇷FR_2|2.1MB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 0|🇫🇷FR_3|1.7MB/s
+- name: 0|🇫🇷FR_1|1007KB/s
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇫🇷FR_4|2.7MB/s
-  port: 6103
-  server: 87.98.174.157
+- name: 0|🇫🇷FR_2|1.6MB/s
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇫🇷FR_5|1.1MB/s
+- client-fingerprint: firefox
+  name: '0|🇫🇷 法国 | FRA #1'
+  network: ws
   port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  server: 31.57.108.207
+  servername: cdn.topingr.ir
   tls: true
-  type: http
-- name: 0|🇫🇷FR_6|1.9MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 0|🇫🇷FR_7|3.1MB/s
+  type: vless
+  udp: true
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  ws-opts:
+    headers:
+      Host: cdn.topingr.ir
+    path: /gropcdn
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇫🇷 法国 | FRA 2
+  network: tcp
   port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: api.videopereval.cc
+  servername: api.videopereval.cc
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
