@@ -1,1 +1,50 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰HK香港丨
+  network: tcp
+  port: '800'
+  server: 47.83.247.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
+- alterId: 0
+  cipher: auto
+  name: '0|🇭🇰HK香港丨 #1'
+  network: ws
+  port: '443'
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
+- name: '0|🇭🇰HK香港丨yoyapai.com #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 0|香港 29
+  network: tcp
+  password: XuMweB2PWs
+  port: 45464
+  server: 2.27.109.179
+  sni: 2.27.109.179.sslip.io
+  type: trojan
+- name: 0|香港 58
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: full-ox.rooster465.autos
+  skip-cert-verify: true
+  sni: full-ox.rooster465.autos
+  type: trojan

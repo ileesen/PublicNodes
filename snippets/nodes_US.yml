@@ -1,1 +1,274 @@
-proxies: []
+proxies:
+- name: 0|美國丨yoyapai.com
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 US美國
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: '0|美國丨yoyapai.com #1'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: false
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'
+- alpn:
+  - http/1.1
+  name: 0|🇺🇸US美国丨yoyapai.com
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #37'
+  network: tcp
+  port: '10001'
+  server: rb1211-5.vatilon.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #39'
+  network: tcp
+  port: '10001'
+  server: jp2.vatilon.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #40'
+  network: tcp
+  port: '10001'
+  server: jp2.australiacaregroup.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: '0|US美国(mibei77.com 米贝节点分享) #43'
+  network: ws
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: my1.australiacaregroup.site
+  sni: my1.australiacaregroup.site
+  type: trojan
+  ws-opts:
+    headers:
+      Host: my1.australiacaregroup.site
+    path: '%2Ftrojan'
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #44'
+  network: ws
+  port: '10001'
+  server: my1.australiacaregroup.site
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  ws-opts:
+    headers:
+      Host: my1.australiacaregroup.site
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #45'
+  network: tcp
+  port: '10001'
+  server: jp-x2.vatilon.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #54'
+  network: tcp
+  port: '10001'
+  server: us.australiacaregroup.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: '0|US美国(mibei77.com 米贝节点分享) #56'
+  network: tcp
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: jp2.australiacaregroup.site
+  sni: jp2.australiacaregroup.site
+  type: trojan
+- name: '0|US美国(mibei77.com 米贝节点分享) #57'
+  network: tcp
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: us.australiacaregroup.site
+  sni: us.australiacaregroup.site
+  type: trojan
+- name: '0|US美国(mibei77.com 米贝节点分享) #58'
+  network: tcp
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: rb1211-5.vatilon.cc
+  sni: rb1211-5.vatilon.cc
+  type: trojan
+- name: '0|US美国(mibei77.com 米贝节点分享) #59'
+  network: tcp
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: sg4.vatilon.cc
+  sni: sg4.vatilon.cc
+  type: trojan
+- name: '0|US美国(mibei77.com 米贝节点分享) #60'
+  network: tcp
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: jp-x2.vatilon.cc
+  sni: jp-x2.vatilon.cc
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #63'
+  network: ws
+  port: '10001'
+  server: cn42.vatilon.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  ws-opts:
+    headers:
+      Host: cn42.vatilon.cc
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '0|US美国(mibei77.com 米贝节点分享) #64'
+  network: tcp
+  port: '10001'
+  server: sg2.australiacaregroup.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: '0|US美国(mibei77.com 米贝节点分享) #70'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 0|未知 TROJAN-104 | free-nodes
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: 34.94.125.227
+  sni: mxlo.wsone.icu
+  type: trojan
+- name: 0|🇺🇸US_451|439KB/s|S004-260618 0...
+  network: tcp
+  password: 8bdfa4e8dac99c57decdd8bf55d2da4c
+  port: 10443
+  server: 107.149.159.190
+  sni: cf.shiranyu.xyz
+  type: trojan
+- name: 0|🇺🇸US_387|493KB/s|A004-260618 0...
+  network: raw
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-ferret.rooster465.autos
+  type: trojan
+- name: 0|🇺🇸US_429|77KB/s|P002-260618 01
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: us3-2.998998.best
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat3.xxai.dpdns.org
+    path: /anyway
+- name: 0|未知 TROJAN-147 | free-nodes
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: pro-mako.rooster465.autos
+  skip-cert-verify: true
+  sni: pro-mako.rooster465.autos
+  type: trojan
+- name: 0|未知 TROJAN-117 | free-nodes
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: alert-titmouse.rooster465.autos
+  skip-cert-verify: true
+  sni: alert-titmouse.rooster465.autos
+  type: trojan
+- name: 0|🇺🇸US_450|238KB/s|F003-260618 0...
+  network: tcp
+  password: trj-qWC4DKUemeUYWSKA1xx7okumSKKw0QSX
+  port: 9443
+  server: 38.181.42.136
+  sni: www.jqyverse.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸_US_美国
+  network: tcp
+  port: 443
+  server: 165.140.217.2
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '0|🇺🇸_US_美国 #2'
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: guanwang.awsno.com
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8

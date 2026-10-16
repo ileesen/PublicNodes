@@ -1,1 +1,82 @@
-proxies: []
+proxies:
+- name: '0|🇩🇪DE德国丨yoyapai.com #16'
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 0|🇩🇪DE_43|3.4MB/s|R002-260618 01
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: dggg.wsone.icu
+  skip-cert-verify: true
+  sni: dggg.wsone.icu
+  type: trojan
+- name: 0|🇩🇪DE_73|1.2MB/s|A004-260618 01
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: actual-squid.rooster465.autos
+  skip-cert-verify: true
+  sni: actual-squid.rooster465.autos
+  type: trojan
+- name: 0|🇩🇪DE_77|1.1MB/s|B007-260618 01
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: 3.120.109.26
+  sni: actual-squid.rooster465.autos
+  type: trojan
+- name: 0|🇩🇪DE_97|808KB/s|A004-260618 01
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: pleased-albacore.rooster465.autos
+  skip-cert-verify: true
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
+- name: 0|未知 TROJAN-136 | free-nodes
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: meet-goshawk.rooster465.autos
+  skip-cert-verify: true
+  sni: meet-goshawk.rooster465.autos
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 0|🇩🇪DE_102|2.2MB/s|B007-260618 0...
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  sni: cz-musicc.moritech.net
+  type: trojan
+- name: 0|🇩🇪DE_120|490KB/s|S004-260618 0...
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: 63.178.198.94
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
+- name: 0|🇩🇪DE_155|652KB/s|S004-260618 0...
+  network: tcp
+  password: UX82473651
+  port: 443
+  server: 3.75.93.113
+  sni: meet-goshawk.rooster465.autos
+  type: trojan
+- name: 0|🇩🇪DE_179|1.0MB/s|S004-260618 0...
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: 443
+  server: ger1.fytpn.com
+  sni: ger1.fytpn.com
+  type: trojan
