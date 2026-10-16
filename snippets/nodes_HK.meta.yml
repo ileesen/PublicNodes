@@ -1,1 +1,58 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 0|HK VLESS-593 | free-nodes
+  network: tcp
+  port: 443
+  server: s151.gogocs.xyz
+  servername: u695098u54d73951s298.kukuss.top
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 54d73951s298.kukuss.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 0|HK VLESS-617 | free-nodes
+  network: tcp
+  port: 443
+  server: s299.kukuss.top
+  servername: u695098u54d73951s298.kukuss.top
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 54d73951s298.kukuss.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 0|HK VLESS-624 | free-nodes
+  network: tcp
+  port: 443
+  server: 212.192.15.191
+  servername: u695098u54d73951s298.kukuss.top
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 54d73951s298.kukuss.top
+    path: ''
