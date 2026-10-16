@@ -1,36 +1,455 @@
 proxies:
-- name: 0|🇪DE_1|1003KB/s
+- name: 0|🇩🇪 德国 | DEU
+  network: ws
+  port: 14430
+  server: 77.221.157.213
+  servername: 77.221.157.213
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  ws-opts:
+    headers:
+      Host: 77.221.157.213
+    path: /vless
+- name: 0|🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 10443
+  server: 77.221.157.213
+  servername: 77.221.157.213
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  ws-opts:
+    path: /
+- name: 0|🇩🇪192088 | ⚡️Telegram = t.me/v...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 79.127.156.177
+  server: 35.158.96.132
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 0|Telegram 🆔@cnetvpn 🇩🇪
+  obfs: salamander
+  obfs-password: 6cmj1dymhm79hopl
+  password: 8z2e26xkqsa598s3
+  port: 52000
+  server: gift-catalog.aroonia.ir
+  skip-cert-verify: false
+  sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 0|🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 2087
+  server: hoert1rert.localip.ir
+  servername: hoert1rert.localip.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: hoert1rert.localip.ir
+    path: /hokm
+- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  port: 443
+  server: de2.balancer.vbuste-bot.com
+  tls: false
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  network: ws
+  port: 2083
+  server: 31.59.216.162
+  servername: crt.onecloudstream.com
+  tls: true
+  type: vless
+  uuid: ce29a04d-c95a-4451-9518-bae0c074e0d7
+  ws-opts:
+    path: /vless-ws
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: ws
+  port: 2087
+  server: fert1qswdfegrthy.localip.ir
+  servername: fert1qswdfegrthy.localip.ir
+  tls: true
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+    path: /hokm
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  network: ws
+  port: 2087
+  server: tuyiuoyuthgfdbf.localip.ir
+  servername: tuyiuoyuthgfdbf.localip.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+    path: /hokm
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  network: ws
+  port: 2087
+  server: fert6.localip.ir
+  servername: fert6.localip.ir
+  tls: true
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: fert6.localip.ir
+    path: /hokm
+- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  port: 2443
+  server: 144.31.238.115
+  tls: false
+  type: vless
+  uuid: b8df3f50-ffef-4c7e-9ef3-d5b156a47c02
+- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+  port: 2083
+  server: 140.225.208.50
+  tls: false
+  type: vless
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    path: /vless-ws
+- name: 0|🇩🇪DE_1|1.3MB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 0|🇪DE_2|2.0MB/s
+- name: 0|🇩🇪DE_2|1.1MB/s
+  port: 80
+  server: 57.131.128.2
+  type: http
+- name: 0|🇩🇪DE_3|3.5MB/s
   port: 443
-  server: 87.249.132.97
+  server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 0|🇪DE_3|1.1MB/s
+- name: 0|🇩🇪DE_4|3.0MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇩🇪DE_5|1.8MB/s
+  password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 0|🇪DE_4|1.3MB/s
+- name: 0|🇩🇪DE_6|3.4MB/s
   port: 443
-  server: 149.36.50.129
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 0|🇪DE_5|2.7MB/s
-  port: 443
+- name: 0|🇩🇪DE_7|2.0MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇩🇪DE_8|2.6MB/s
+  port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
+- name: 0|🇩🇪DE_9|2.0MB/s
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 0|🇩🇪DE_10|2.7MB/s
+  network: ws
+  port: 443
+  server: 103.160.59.198
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '0|🇩🇪 德国 | DEU #2'
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: '0|🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 443
+  server: v.toe.dpdns.org
+  servername: pw.gams.dpdns.org
+  tls: true
+  type: vless
+  uuid: 1c11b130-085c-407a-9c54-c537eabf2681
+  ws-opts:
+    headers:
+      Host: pw.gams.dpdns.org
+    path: /vplaetshs
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '0|🇩🇪 德国 | DEU #4'
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+- http-opts:
+    headers:
+      Host:
+      - aparat.com
+    method: GET
+    path:
+    - /
+  name: '0|🇩🇪 德国 | DEU #5'
+  network: http
+  port: 443
+  server: 167.71.48.226
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '0|🇩🇪 德国 | DEU #7'
+  network: ws
+  port: 443
+  server: 199.232.239.239
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3f3f34c-cbcd-427d-9894-5330738ac0da
+  ws-opts:
+    headers:
+      Host: mr_anonoijji.global.ssl.fastly.net
+    path: /?ed=2056?/RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '0|🇩🇪 德国 | DEU #10'
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '0|🇩🇪 德国 | DEU #11'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- client-fingerprint: unsafe
+  name: '0|🇩🇪 德国 | DEU #12'
+  network: ws
+  port: 443
+  server: 157.230.127.28
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- name: 0|🇩🇪 德国 | DEU 3
+  network: ws
+  port: 2082
+  server: fcmadrid.ehsanazizi-speed-server.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: b9591e7a-de65-4082-a3ae-03e6acdad152
+  ws-opts:
+    headers:
+      Host: fcmadrid.ehsanazizi-speed-server.com
+    path: /lorden7
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 0|🇩🇪 德国 | DEU 4
+  network: ws
+  port: 443
+  server: 43.249.72.255
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
+  ws-opts:
+    headers:
+      Host: henzoo.global.ssl.fastly.net
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.vOW-Gf8Ldj3D2_2pEnA5BUbhjZsq2v7aS58OfwlRWk8
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 6
+  network: xhttp
+  port: 443
+  server: fe56fc9c.bilibiliapp.cn
+  servername: 546473e8.m3u8.dfgilocfgoa.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: fe56fc9c.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 0|🇩🇪 德国 | DEU 7
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.77.57.250
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.pgiJ8qZOx3y6vIiIrsWxhU02Fz46iOTwBxQ4_0eziGE
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 8
+  network: xhttp
+  port: 443
+  server: 2d761c59.bilibiliapp.cn
+  servername: 61eedcfb.m3u8.fdcsacga.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 2d761c59.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+  server: 37.46.199.138
+  servername: key-master-saver.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 741809be-e44e-0004-b411-bf66f0ae3860
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 10
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: 7pr2qWG1_3TjBDCidQWJ2lnbEf72lOcse4Gca8anwEo
+    short-id: 57f0eca7ae6be8
+  server: 157.173.27.138
+  servername: travel.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6dadd84-7d7b-4e67-9577-7ede6300368a
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 0|🇩🇪 德国 | DEU 12
+  network: xhttp
+  port: 2087
+  server: de.ehsanazizi-speed-server.com
+  servername: de.ehsanazizi-speed-server.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9591e7a-de65-4082-a3ae-03e6acdad152
+  xhttp-opts:
+    host: de.ehsanazizi-speed-server.com
+    mode: stream-one
+    path: /speed
+    x-padding-bytes: 100-1000
