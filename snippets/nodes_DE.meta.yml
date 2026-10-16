@@ -89,27 +89,24 @@ proxies:
   uuid: 9f44d517-29f2-4c6d-cc06-a1268f13da58
 - name: 11|🇩🇪 DE-1 | Mix
   port: 9002
-  server: 158.173.154.5
+  server: 158.173.154.4
   tls:
     enabled: true
   type: http
 - name: 11|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.2
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 79.76.126.155
-  tls:
-    enabled: true
-  type: http
+  network: ws
+  port: 14430
+  server: 77.221.157.213
+  type: vless
+  udp: true
+  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  ws-opts:
+    path: /vless
 - alpn:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   packetEncoding: none
   port: 443

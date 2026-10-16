@@ -313,7 +313,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 10,11|🇹🇼 TW-1 | Mix
+- name: 10|🇫🇷 FR-1 | 8EB
   password: ec74bb6a86c2
   port: 443
   server: er8u54dh.df6h451rh.xin
@@ -780,7 +780,7 @@ proxies:
   uuid: 635ae9d5-9043-4c2f-8487-60f5aa7a325b
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 10,11|🇯🇵 JP-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -1008,84 +1008,57 @@ proxies:
     headers:
       Host: bounded-crammed.video-streams.org
     path: /ws
-- name: 11|🇷🇺 RU-1 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 41560
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- alterId: 0
-  cipher: auto
-  name: 11|🇮🇩 ID-1 | Mix
-  network: ws
-  port: 443
-  server: LNPM7RzopdokZv7a.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: LNPM7RzopdokZv7a.v.3dns.vip
-  type: vmess
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 38.180.201.12
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
-  ws-opts:
-    headers:
-      Host: LNPM7RzopdokZv7a.v.3dns.vip
-    path: /ws-vmess
-- name: 11|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
-- alpn:
-  - http/1.1
-  name: 11|🇺🇸 US-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 11|🇳🇱 NL-1 | Mix
-  network: ws
-  port: 33736
-  server: nl-2a972c8052.shamanapp.online
-  type: vmess
-  udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    path: /vmess-ws
-- name: 11|🇯🇵 JP-1 | Mix
+  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
+- name: 11|🇺🇸 US-1 | Mix
   password: 'null'
-  port: 443
-  server: fan.571589.xyz
+  port: 9002
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.218
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇱🇹 LT-1 | Mix
-  port: 443
-  server: 89.124.11.9
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-3 | Mix
+  name: 11|🇹🇭 TH-1 | Mix
   network: tcp
-  port: 47672
+  port: 56415
   reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: cbd39bea0805e2
+  server: funagfrdfs.alixxplay.com
+  servername: www.kaidee.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 11|🇳🇱 NL-1 | Mix
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 11|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
@@ -1093,101 +1066,124 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 11|🇳🇱 NL-2 | Mix
-  network: tcp
+- name: 11|🇹🇼 TW-1 | Mix
+  password: ec74bb6a86c2
   port: 443
-  reality-opts:
-    public-key: vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk
-    short-id: adcbde41b1cf27ba
-  server: 31.59.140.189
-  servername: nl1.aiage.work
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
   udp: true
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 11|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 11|🇩🇪 DE-1 | Mix
-  port: 9002
-  server: 158.173.154.5
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.2
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇸🇪 SE-1 | Mix
-  port: 443
-  server: 149.50.216.65
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 79.76.126.155
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇳🇱 NL-3 | Mix
+- name: 11|🇯🇵 JP-2 | Mix
   password: 'null'
-  port: 9002
-  server: 84.17.47.150
+  port: 443
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 11|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
+- name: 11|🇭🇺 HU-1 | Mix
   port: 443
-  server: goedkoopgeluid.icu
+  server: 146.70.203.18
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-7 | Mix
+- name: 11|🇺🇸 US-3 | Mix
+  port: 8443
+  server: 129.212.181.253
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇿🇦 ZA-1 | Mix
+  port: 443
+  server: 197.242.159.23
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇺🇸 US-4 | Mix
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.217
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 11080
-  server: 172.247.27.29
-  type: socks
+- name: 11|🇫🇷 FR-2 | Mix
+  port: 8090
+  server: 80.124.109.22
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇺 RU-1 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 35694
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 11|🇳🇱 NL-2 | Mix
+  port: 443
+  server: 89.150.35.94
+  tls:
+    enabled: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 11|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 19825
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  server: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- name: 11|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇩🇪 DE-1 | Mix
+  port: 9002
+  server: 158.173.154.4
+  tls:
+    enabled: true
+  type: http
+- name: 11,15|NL_speednode_0009
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 11|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 14430
+  server: 77.221.157.213
+  type: vless
+  udp: true
+  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  ws-opts:
+    path: /vless
+- name: 11|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+- name: 11|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.26
+  tls:
+    enabled: true
+  type: http
 - alpn:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 11|🇩🇪 DE-4 | Mix
+  name: 11|🇩🇪 DE-3 | Mix
   network: tcp
   packetEncoding: none
   port: 443
@@ -1516,13 +1512,6 @@ proxies:
   password: None
   port: 9002
   server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 15|NL_speednode_0009
-  port: 9002
-  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http

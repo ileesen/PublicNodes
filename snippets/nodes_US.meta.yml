@@ -224,31 +224,22 @@ proxies:
     headers:
       Host: bounded-crammed.video-streams.org
     path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 11|🇺🇸 US-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 11|🇺🇸 US-2 | Mix
+- name: 11|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
-- client-fingerprint: ios
+  username: 'null'
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11|🇺🇸 US-3 | Mix
+  name: 11|🇺🇸 US-2 | Mix
   network: tcp
-  port: 47672
+  port: 34379
   reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
@@ -256,34 +247,24 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 11|🇺🇸 US-3 | Mix
+  port: 8443
+  server: 129.212.181.253
+  tls:
+    enabled: true
+  type: http
 - name: 11|🇺🇸 US-4 | Mix
-  port: 443
-  server: crosscards.site
+  port: 9002
+  server: 138.199.35.217
   tls:
     enabled: true
   type: http
 - name: 11|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-6 | Mix
-  port: 443
-  server: goedkoopgeluid.icu
-  tls:
-    enabled: true
-  type: http
-- name: 11|🇺🇸 US-7 | Mix
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
-- name: 11|🇺🇸 US-8 | Mix
-  port: 11080
-  server: 172.247.27.29
-  type: socks
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 美国|@ripaojiedian

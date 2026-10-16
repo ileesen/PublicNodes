@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 10|🇯🇵 JP-1 | 8EB
+  name: 10,11|🇯🇵 JP-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +14,22 @@ proxies:
   type: vless
   udp: true
   uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-- name: 11|🇯🇵 JP-1 | Mix
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 11|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 38.180.201.12
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
+- name: 11|🇯🇵 JP-2 | Mix
   password: 'null'
   port: 443
   server: fan.571589.xyz
