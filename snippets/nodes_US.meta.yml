@@ -1,1 +1,591 @@
-proxies: []
+proxies:
+- name: 0|🇺🇸_US_美国
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  port: 443
+  server: 23.106.44.14
+  skip-cert-verify: true
+  sni: sj6.freeguard.org
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸_US_美国_1
+  network: ws
+  port: 443
+  server: guanwang.awsno.com
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: 0|🇺🇸139909 | ⚡️Telegram = t.me/S...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 0|🇺🇸[www.v2nodes.com] vless-US-1...
+  network: ws
+  port: 80
+  server: platform101.golnamakcert.top
+  tls: false
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform101.halalkhor.info
+    path: /platform101
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '0|🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  network: ws
+  port: 443
+  server: 104.21.70.22
+  servername: luminouspetal.cyou
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  ws-opts:
+    headers:
+      Host: luminouspetal.cyou
+    path: /raccoonwsvless
+- alpn:
+  - h3
+  - http/1.1
+  client-fingerprint: chrome
+  name: '0|🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  network: ws
+  port: 443
+  server: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+  servername: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+  tls: true
+  type: vless
+  uuid: b8e59255-d392-c427-535d-bc1f8f444c4e
+  ws-opts:
+    headers:
+      Host: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+    path: /ws/b8e59255-d392-c427-535d-bc1f8f444c4e
+- name: '0|🇺🇸 美国 | USA #11'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 美国|@ripaojiedian
+  network: ws
+  port: 443
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 美国2|@ripaojiedian
+  network: ws
+  port: 443
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
+- name: 0|美国|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 0|美国2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- auth: a34f3990b69f44bfa0d32385
+  name: 0|🇦🇺 澳大利亚 | AUS 2
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 192.9.175.191
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+- name: 0|🇺🇸US_1|1.6MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_2|1.5MB/s
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|🇺🇸US_3|2.3MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸US_4|2.5MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸US_5|1.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_6|3.5MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|🇺🇸US_7|1.6MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_8|1.0MB/s
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_9|1.6MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_10|2.5MB/s
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_11|1.8MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_12|3.4MB/s
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- auth: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  name: 0|🇺🇸US_13|2.3MB/s
+  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  port: 443
+  server: 179.255.104.98
+  skip-cert-verify: true
+  sni: dl1.yuanshicheng.com
+  type: hysteria2
+  udp: true
+- name: 0|🇺🇸US_14|1.1MB/s
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_15|1.3MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_16|2.8MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_17|2.3MB/s
+  port: 8443
+  server: 129.212.181.253
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_18|1.1MB/s
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_19|1.5MB/s
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇺🇸US_20|1.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '0|🇦🇺 澳大利亚 | AUS #1'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-au-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 0|🇺🇸 美国 | USA 2
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '0|🇺🇸 美国 | USA #2'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip
+- cipher: chacha20-ietf-poly1305
+  name: '0|🇺🇸 美国 | USA #3'
+  password: '!!str 123456'
+  port: 46006
+  server: 95.169.3.45
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '0|🇺🇸 美国 | USA #4'
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7ebdd04-3c92-4d70-8632-3236b3b86e92
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- client-fingerprint: random
+  name: '0|🇺🇸 美国 | USA #5'
+  network: ws
+  port: 443
+  server: 144.34.171.49
+  servername: vpn.pokertool.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e8ad642-c786-489a-b9b1-22379821fce8
+  ws-opts:
+    headers:
+      Host: vpn.pokertool.site
+    path: /ws-70a22f9c78d4cfa9
+- name: 0|ProxyPool | 🇺🇸 美国 | USA 2
+  network: tcp
+  port: 10443
+  server: 45.138.100.248
+  servername: 45.138.100.248
+  tls: false
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '0|🇺🇸 美国 | USA #8'
+  password: '!!str 123456'
+  port: 46007
+  server: 95.169.3.45
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '0|🇺🇸 美国 | USA #10'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn
+- client-fingerprint: chrome
+  name: '0|🇺🇸 美国 | USA #12'
+  network: ws
+  port: 8443
+  server: 172.67.155.65
+  servername: lucasjow.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip=108.160.132.132
+- cipher: chacha20-ietf-poly1305
+  name: '0|🇺🇸 美国 | USA #15'
+  password: '!!str 123456'
+  port: 46009
+  server: 95.169.3.45
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '0|🇺🇸 美国 | USA #16'
+  password: '!!str 123456'
+  port: 46005
+  server: 95.169.3.45
+  type: ss
+  udp: true
+- name: '0|🇺🇸 美国 | USA #18'
+  network: ws
+  port: 14430
+  server: 45.138.100.248
+  servername: 45.138.100.248
+  tls: false
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  ws-opts:
+    headers:
+      Host: 45.138.100.248
+    path: /vless
+- name: 0|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 0|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- name: 0|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 0|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇦🇺 澳大利亚 | AUS
+  network: ws
+  port: 443
+  server: 172.67.197.71
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
+  ws-opts:
+    headers:
+      Host: aus.lovehk.xyz
+    path: /Sydney3
+- auth: 633bc3be486b646190661ac2387c150a
+  name: 0|ProxyPool | 🇦🇺 澳大利亚 | AUS 2
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.CQsyEyLlBhdRTEs9124YrBcfIXVmHGHcSMX-FS6HWiM
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 美国 | USA
+  network: xhttp
+  port: 443
+  server: f23a3081.bilibiliapp.cn
+  servername: 0d7ca617.m3u8.acgadjc.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: f23a3081.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.-XMpE73LfZHVP2Fa_VV980VFCNlm-8Lx8ygpqk9GzEI
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 美国 | USA 3
+  network: xhttp
+  port: 443
+  server: cmb.kokk.cn
+  servername: 038093e4.m3u8.laacsa.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: cmb.kokk.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- name: 0|🇺🇸 美国 | USA 4
+  network: ws
+  port: 2082
+  server: 104.18.35.86
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 美国 | USA 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0
+    short-id: ccaf7283610c6fa8
+  server: freeus.aiage.work
+  servername: freeus.aiage.work
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 美国 | USA 7
+  network: tcp
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 45.138.100.248
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- client-fingerprint: chrome
+  name: 0|🇺🇸 美国 | USA 10
+  network: ws
+  port: 443
+  server: 172.67.139.229
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  ws-opts:
+    headers:
+      Host: usa.lovehk.xyz
+    path: /Dallas1
