@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- name: 1|🇨🇳 CN-1 | Sub3
+  network: ws
+  port: 443
+  server: 60.248.219.76
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c400197-b3ed-4335-b73e-6f1562413ffb
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇨🇳 CN-2 | Sub3
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.158.133
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52d5defc-88f6-4c2c-9b1f-c19bf3e99778
