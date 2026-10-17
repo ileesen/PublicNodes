@@ -1,16 +1,22 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 0|🇸🇬 SG-1 | Mix
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
+  network: tcp
+  port: 46105
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇸🇬 SG-2 | Mix
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  type: socks
+  username: '8888'

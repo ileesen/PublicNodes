@@ -1,80 +1,60 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: kimberlymilano.icu
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 20.42.108.114
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: 162.217.114.50
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
   password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-7 | Mix
-  password: 'null'
   port: 9002
   server: 138.199.35.206
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-8 | Mix
-  password: None
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 47672
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-9 | Mix
-  port: 443
-  server: purposebydesig.club
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 0|🇺🇸 US-10 | Mix
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
-  port: 443
-  server: webdrone.club
+- name: 0|🇺🇸 US-7 | Mix
+  port: 9090
+  server: 202.4.119.226
+  type: socks
+- name: 0|🇺🇸 US-8 | Mix
+  port: 8090
+  server: 50.76.211.251
   tls:
     enabled: true
   type: http
