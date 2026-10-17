@@ -1,90 +1,166 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.213
+- name: 0|🇸🇪 SE-1 | Mix
+  port: 8443
+  server: 77.221.136.60
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 116.202.172.99
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇸🇬 SG-1 | Mix
-  port: 9443
-  server: 149.88.99.209
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇫🇷 FR-1 | Mix
-  port: 443
-  server: 51.210.167.149
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇺 RU-1 | Mix
-  port: 1080
-  server: 176.215.246.216
-  type: socks
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-2 | Mix
+  name: 0|🇻🇳 VN-1 | Mix
   network: tcp
-  port: 33939
+  port: 55688
   reality-opts:
-    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
-    short-id: b20abd16cda27eeb
+    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
+    short-id: a46bb5972cf50671
   server: funagfrdfs.alixxplay.com
-  servername: www.otto.de
+  servername: bilibili-vn.biliimg.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇺🇸 US-3 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  server: 152.233.71.81
-  servername: brointelengence.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 443
-  server: 185.238.170.10
+- name: 0|🇷🇺 RU-1 | Mix
+  port: 8443
+  server: 87.242.85.187
   tls:
     enabled: true
   type: http
-- name: 0|🇨🇦 CA-1 | Mix
+- name: 0|🇳🇱 NL-1 | Mix
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-1 | Mix
   port: 443
-  server: 206.223.183.16
+  server: kimberlymilano.icu
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇦🇺 AU-1 | Mix
+  port: 443
+  server: 159.13.44.228
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.22
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.19
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇷 HR-1 | Mix
+  port: 443
+  server: 154.47.29.174
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  password: 'null'
+  port: 443
+  server: 5.255.118.82
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-3 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.20
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇸🇪 SE-2 | Mix
+  port: 8443
+  server: 138.16.163.249
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-1 | Mix
+  port: 343
+  server: 133.18.200.207
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇱🇻 LV-1 | Mix
+  port: 443
+  server: 185.219.159.16
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇵🇱 PL-1 | Mix
+  port: 443
+  server: 151.115.54.133
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇸🇪 SE-3 | Mix
+  port: 8443
+  server: 185.209.31.2
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.35
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 22222
+  server: 193.25.215.182
+  type: socks
+- name: 0|🇷🇴 RO-5 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.29
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇺 RU-2 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 12318
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇺🇸 US-5 | Mix
+  port: 443
+  server: 149.22.88.65
   tls:
     enabled: true
   type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-1 | Mix
+  name: 0|🇯🇵 JP-2 | Mix
   network: tcp
+  packetEncoding: none
   port: 56656
   reality-opts:
     public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
@@ -96,67 +172,3 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇸🇪 SE-1 | Mix
-  port: 8443
-  server: 77.221.136.60
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 64.98.50.100
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-3 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇷🇺 RU-2 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 41560
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- name: 0|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇮🇪 IE-1 | Mix
-  port: 443
-  server: 18.200.158.139
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 8443
-  server: 45.145.73.240
-  tls:
-    enabled: true
-  type: http

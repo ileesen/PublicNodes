@@ -1,55 +1,29 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.213
+  port: 443
+  server: kimberlymilano.icu
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: fullmanfirm.icu
+  port: 9002
+  server: 138.199.35.196
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
-- name: 0|🇺🇸 US-4 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.198
   tls:
     enabled: true
   type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 22222
+  server: 193.25.215.182
+  type: socks
 - name: 0|🇺🇸 US-5 | Mix
   port: 443
-  server: 64.98.50.100
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.214
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 8443
-  server: 45.145.73.240
+  server: 149.22.88.65
   tls:
     enabled: true
   type: http

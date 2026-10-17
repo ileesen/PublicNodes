@@ -1,8 +1,15 @@
 proxies:
+- name: 0|🇯🇵 JP-1 | Mix
+  port: 343
+  server: 133.18.200.207
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-1 | Mix
+  name: 0|🇯🇵 JP-2 | Mix
   network: tcp
+  packetEncoding: none
   port: 56656
   reality-opts:
     public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc

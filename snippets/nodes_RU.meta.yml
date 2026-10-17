@@ -1,11 +1,13 @@
 proxies:
 - name: 0|🇷🇺 RU-1 | Mix
-  port: 1080
-  server: 176.215.246.216
-  type: socks
+  port: 8443
+  server: 87.242.85.187
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇷🇺 RU-2 | Mix
   password: 9jkvAVV-9ufV6IGd
-  port: 41560
+  port: 12318
   server: chalo-ru.nexorcdn.com
   tls:
     enabled: true
