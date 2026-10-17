@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 116.202.172.99
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 DE-2 | Mix
+  network: tcp
+  port: 33939
+  reality-opts:
+    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
+    short-id: b20abd16cda27eeb
+  server: funagfrdfs.alixxplay.com
+  servername: www.otto.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇩🇪 DE-3 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1

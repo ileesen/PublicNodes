@@ -1,8 +1,16 @@
 proxies:
-- name: 0|🇭🇰 HK-1 | Mix
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇭🇰 HK-1 | Mix
+  network: tcp
   port: 443
-  server: fan.240104.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
