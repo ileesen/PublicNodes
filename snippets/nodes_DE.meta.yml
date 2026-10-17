@@ -17,23 +17,27 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
+- encryption: none
   name: 0|🇩🇪[www.v2nodes.com] vless-DE-1...
   network: ws
   port: 2083
-  server: 31.59.216.162
-  servername: crt.onecloudstream.com
+  server: sino.bestsellers1.site
+  servername: sino.bestsellers1.site
   tls: true
   type: vless
-  uuid: ce29a04d-c95a-4451-9518-bae0c074e0d7
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
   ws-opts:
-    path: /vless-ws
+    path: /
+- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  port: 443
+  server: de2.balancer.vbuste-bot.com
+  tls: false
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - alpn:
   - http/1.1
   encryption: none
-  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #2'
   network: ws
   port: 2087
   server: tuyiuoyuthgfdbf.localip.ir
@@ -46,7 +50,7 @@ proxies:
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
     path: /hokm
-- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #3'
   port: 2087
   server: fert6.localip.ir
   tls: false
@@ -54,12 +58,6 @@ proxies:
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   ws-opts:
     path: /hokm
-- name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #3'
-  port: 2443
-  server: 144.31.238.115
-  tls: false
-  type: vless
-  uuid: b8df3f50-ffef-4c7e-9ef3-d5b156a47c02
 - name: '0|🇩🇪[www.v2nodes.com] vless-DE-1... #4'
   port: 2083
   server: 140.225.208.50
@@ -68,73 +66,50 @@ proxies:
   uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   ws-opts:
     path: /vless-ws
-- name: 0|🇩🇪DE_1|1003KB/s
+- name: '0|🇩🇪 德国 | DEU #1'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+  udp: true
+- name: 0|🇩🇪DE_1|1.9MB/s
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇩🇪DE_2|2.0MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 0|🇩🇪DE_3|1.1MB/s
+- name: 0|🇩🇪DE_2|3.4MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇩🇪DE_4|1.3MB/s
+- name: 0|🇩🇪DE_3|3.8MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇩🇪DE_5|2.7MB/s
-  port: 443
+- name: 0|🇩🇪DE_4|3.5MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 0|🇩🇪DE_5|2.6MB/s
+  port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: '0|🇩🇪 德国 | DEU #1'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '0|🇩🇪 德国 | DEU #2'
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: '0|🇩🇪 德国 | DEU #4'
+  name: '0|🇩🇪 德国 | DEU #3'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -148,39 +123,52 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
 - alpn:
-  - /--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/1.1
+  - h3
+  - h2
   client-fingerprint: chrome
-  name: '0|🇩🇪 德国 | DEU #5'
+  name: '0|🇩🇪 德国 | DEU #4'
   network: ws
   port: 443
-  server: cdn.topingr.ir
-  servername: cdn.topingr.ir
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: cdn.topingr.ir
-    path: /gropcdn
-- client-fingerprint: firefox
-  name: 0|🇩🇪 德国 | DEU 3
-  network: tcp
-  port: 25208
-  reality-opts:
-    public-key: t7Ja5Wnzg5-vtS2ebmyBZzPI7-CbiGRjny1sNZ9WdV4
-    short-id: 3974c4eacd299c12
-  server: 179.254.115.245
-  servername: www.microsoft.com
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.pgiJ8qZOx3y6vIiIrsWxhU02Fz46iOTwBxQ4_0eziGE
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU
+  network: xhttp
+  port: 443
+  server: f8c80a57.bilibiliapp.cn
+  servername: 361a1ba3.m3u8.fdcsacga.pay.cfcndns.pp.ua
   tls: true
   type: vless
   udp: true
-  uuid: d54a7512-dda3-4218-8ae7-c591d300fd7c
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: f8c80a57.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: GunService
-  name: 0|🇩🇪 德国 | DEU 6
+  name: 0|🇩🇪 德国 | DEU 2
   network: grpc
   port: 8444
   reality-opts:
@@ -191,3 +179,173 @@ proxies:
   type: vless
   udp: true
   uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EqN5QtvWGccdkmL5ZNVDBRxRhWgr6g_vr3ABT8Q2dW4
+    short-id: ff0ddf949624ef2a
+  server: freefl.aiage.work
+  servername: freefl.aiage.work
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jQC3Kmmbu-CfUKlQaeuSn4I8dbqAZhpgihZhWu1SvBk
+    short-id: 6b69118a7847c4c3
+  server: 31.76.11.243
+  servername: seal-de1.bypassme.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: e625f8ef-f935-4c7d-a259-0f154b6842fd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jQC3Kmmbu-CfUKlQaeuSn4I8dbqAZhpgihZhWu1SvBk
+    short-id: 6b69118a7847c4c3
+  server: seal-de1.bypassme.online
+  servername: seal-de1.bypassme.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: e625f8ef-f935-4c7d-a259-0f154b6842fd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
+    short-id: 4c188683e2c14a3c
+  server: 31.76.227.60
+  servername: assets-mi-29.spbstudentlife.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.vOW-Gf8Ldj3D2_2pEnA5BUbhjZsq2v7aS58OfwlRWk8
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 7
+  network: xhttp
+  port: 443
+  server: 25043f39.bilibiliapp.cn
+  servername: b7d4bf45.m3u8.dfgilocfgoa.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 25043f39.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.X67lTngdNFx0VeDXw-BNtD9-csg-Aeyd9tJlKwtD1Rw
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 8
+  network: xhttp
+  port: 443
+  server: ctb.kokk.cn
+  servername: 25cf1665.m3u8.dxacgavas.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: ctb.kokk.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.13UWHaqYts7GNvoHKEyjNp-hyQwrZgguPhsNH4sd_gk
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 9
+  network: xhttp
+  port: 443
+  server: 15b842dd.bilibiliapp.cn
+  servername: 6b3a79c6.m3u8.cdvncacga.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 15b842dd.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.X67lTngdNFx0VeDXw-BNtD9-csg-Aeyd9tJlKwtD1Rw
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 德国 | DEU 11
+  network: xhttp
+  port: 443
+  server: cma.kokk.cn
+  servername: 32a7bce0.m3u8.dxacgavas.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: cma.kokk.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: 0|🇩🇪 德国 | DEU 12
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET

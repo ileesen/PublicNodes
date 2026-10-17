@@ -12,8 +12,16 @@ proxies:
     headers:
       Host: rnxq-1lpi3m.linmeisoft.com
     path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+- name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #1'
+  port: 443
+  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  tls: false
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
 - client-fingerprint: chrome
-  name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #1'
+  encryption: none
+  name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #2'
+  network: tcp
   port: 8443
   server: node-uk.connectsuite.org
   skip-cert-verify: false
@@ -23,7 +31,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #2'
+  name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #3'
   port: 443
   server: 186.190.211.188
   servername: 186.190.211.188
@@ -31,6 +39,20 @@ proxies:
   tls: true
   type: vless
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- encryption: none
+  name: '0|🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+  network: ws
+  port: 443
+  server: 159.65.51.189
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chrome
 - cipher: aes-128-gcm
   name: 0|🇬🇧[www.v2nodes.com] ss-GB-1451...
   password: shadowsocks
@@ -40,7 +62,7 @@ proxies:
 - cipher: aes-256-gcm
   name: 0|🇬🇧[www.v2nodes.com] ss-GB-1292...
   password: g5h5jleTRSyO3Rk4
-  port: 443
+  port: 80
   server: 149.102.132.184
   type: ss
 - cipher: aes-256-gcm
@@ -49,7 +71,7 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- name: 0|🇬🇧GB_1|2.0MB/s|R002-260618
+- name: 0|🇬🇧GB_1|3.3MB/s|R002-260618
   password: None
   port: 443
   server: 37.120.233.18
@@ -58,22 +80,28 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|🇬🇧GB_2|1.1MB/s
-  password: None
+- name: 0|🇬🇧GB_2|2.9MB/s
   port: 443
-  server: 212.102.63.61
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 0|🇬🇧GB_3|1.3MB/s
-  port: 9443
-  server: 84.17.50.129
+- name: 0|🇬🇧 英国 | GBR
+  network: ws
+  password: humanity
+  port: 443
+  server: 178.128.45.156
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: '0|🇬🇧 英国 | GBR #1'
+  name: '0|🇬🇧 英国 | GBR #2'
   network: ws
   port: 443
   server: 172.67.137.209
@@ -87,3 +115,135 @@ proxies:
     headers:
       Host: ukl.lovehk.xyz
     path: /London31
+- name: '0|🇬🇧 英国 | GBR #1'
+  password: humanity
+  port: 443
+  server: 178.128.45.156
+  skip-cert-verify: true
+  sni: www.pleadcourt.org
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
+  flow: xtls-rprx-vision
+  name: 0|ProxyPool | 🇬🇧 英国 | GBR
+  network: xhttp
+  port: 443
+  server: fcb30f9f.bilibiliapp.cn
+  servername: 125bc47e.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: fcb30f9f.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧 英国 | GBR 2
+  network: xhttp
+  port: 443
+  server: 0e8f937e.bilibiliapp.cn
+  servername: 337456c1.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 0e8f937e.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧 英国 | GBR 3
+  network: xhttp
+  port: 443
+  server: 9c3a8e55.bilibiliapp.cn
+  servername: baeafa85.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 9c3a8e55.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧 英国 | GBR 4
+  network: xhttp
+  port: 443
+  server: 78a12cc9.bilibiliapp.cn
+  servername: ce454ea1.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: 78a12cc9.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧 英国 | GBR 5
+  network: xhttp
+  port: 443
+  server: dd8cfc04.bilibiliapp.cn
+  servername: cc75247e.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5556fce-cc34-4df9-b1ff-755b02a3fc9a
+  xhttp-opts:
+    host: dd8cfc04.bilibiliapp.cn
+    mode: auto
+    no-grpc-header: false
+    no-sse-header: false
+    path: /zones
+    sc-max-buffered-posts: 60
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 5
+    sc-stream-up-server-secs: 5-10
+    x-padding-bytes: 100-1000
