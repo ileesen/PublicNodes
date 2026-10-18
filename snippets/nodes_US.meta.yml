@@ -1,13 +1,28 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-1 | Mix
+  network: tcp
+  port: 47672
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-2 | Mix
+  name: 0|🇺🇸 US-3 | Mix
   network: tcp
   port: 34379
   reality-opts:
@@ -20,48 +35,34 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  name: 0|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 8888
-  reality-opts:
-    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
-  server: zorusx861.233874.xyz
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
 - name: 0|🇺🇸 US-4 | Mix
-  port: 8090
-  server: 24.142.229.178
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
+  password: 'null'
   port: 443
   server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-8 | Mix
+  username: 'null'
+- name: 0|🇺🇸 US-5 | Mix
+  password: 'null'
   port: 443
-  server: fan.365747.xyz
+  server: jgwynphotoarts.pro
   tls:
     enabled: true
   type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-6 | Mix
+  network: tcp
+  port: 50443
+  reality-opts:
+    public-key: HI0EyjPOcXSfjScfy3y_Vlan9vsWqjejh2_NjqTyLQo
+    short-id: d27ffd0579fd79bb
+  server: 69.42.222.160
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20cdcc5b-d7d7-429e-afe3-e6aaf3664993
