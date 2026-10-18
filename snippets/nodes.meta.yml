@@ -1,164 +1,191 @@
 proxies:
-- name: 0|🇸🇪 SE-1 | Mix
-  port: 8443
-  server: 77.221.136.60
+- alpn:
+  - http/1.1
+  name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 0|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-- client-fingerprint: firefox
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 9443
+  server: 138.199.47.247
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 443
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 0|🇷🇴 RO-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.40
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 0|🇻🇳 VN-1 | Mix
+  name: 0|🇺🇸 US-2 | Mix
   network: tcp
-  port: 55688
+  port: 34379
   reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
   server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
+  servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇷🇺 RU-1 | Mix
-  port: 8443
-  server: 87.242.85.187
+- name: 0|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 8888
+  reality-opts:
+    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
+  server: zorusx861.233874.xyz
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 159.69.94.125
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇵🇱 PL-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: api.mediapolyana.cc
+  servername: api.mediapolyana.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- flow: xtls-rprx-vision
+  name: 0|🇸🇬 SG-1 | Mix
+  network: raw
+  port: 19825
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+  server: sg2-8sb.6121999.dpdns.org
+  servername: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 0|🇹🇭 TH-1 | Mix
+  network: tcp
+  port: 56415
+  reality-opts:
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: cbd39bea0805e2
+  server: funagfrdfs.alixxplay.com
+  servername: www.kaidee.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-4 | Mix
+  port: 8090
+  server: 24.142.229.178
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-3 | Mix
+  port: 443
+  server: 82.66.235.221
   tls:
     enabled: true
   type: http
 - name: 0|🇳🇱 NL-1 | Mix
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-1 | Mix
   port: 443
-  server: kimberlymilano.icu
+  server: 161.129.60.66
   tls:
     enabled: true
   type: http
-- name: 0|🇦🇺 AU-1 | Mix
-  port: 443
-  server: 159.13.44.228
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.19
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇭🇷 HR-1 | Mix
-  port: 443
-  server: 154.47.29.174
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-2 | Mix
-  password: 'null'
-  port: 443
-  server: 5.255.118.82
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-3 | Mix
+- name: 0|🇺🇸 US-5 | Mix
   password: None
   port: 9002
-  server: 193.176.84.20
+  server: 138.199.35.217
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇸🇪 SE-2 | Mix
-  port: 8443
-  server: 138.16.163.249
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
+- name: 0|🇺🇸 US-6 | Mix
   port: 9002
   server: 138.199.35.198
   tls:
     enabled: true
   type: http
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 343
-  server: 133.18.200.207
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇱🇻 LV-1 | Mix
+- name: 0|🇺🇸 US-7 | Mix
   port: 443
-  server: 185.219.159.16
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
-- name: 0|🇵🇱 PL-1 | Mix
+- name: 0|🇹🇼 TW-2 | Mix
+  password: ec74bb6a86c2
   port: 443
-  server: 151.115.54.133
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.31
   tls:
     enabled: true
   type: http
-- name: 0|🇸🇪 SE-3 | Mix
-  port: 8443
-  server: 185.209.31.2
+- name: 0|🇸🇪 SE-1 | Mix
+  port: 443
+  server: 146.70.242.130
   tls:
     enabled: true
   type: http
-- name: 0|🇷🇴 RO-4 | Mix
+- name: 0|🇺🇸 US-8 | Mix
+  port: 443
+  server: fan.365747.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
+  password: 'null'
   port: 9002
   server: 193.176.84.35
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-- name: 0|🇷🇴 RO-5 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.29
-  tls:
-    enabled: true
-  type: http
   username: 'null'
-- name: 0|🇷🇺 RU-2 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 12318
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 149.22.88.65
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-2 | Mix
+  name: 0|🇯🇵 JP-1 | Mix
   network: tcp
   packetEncoding: none
   port: 56656

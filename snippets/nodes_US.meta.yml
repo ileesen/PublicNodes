@@ -1,29 +1,67 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: kimberlymilano.icu
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-3 | Mix
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-3 | Mix
+  network: tcp
+  port: 8888
+  reality-opts:
+    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
+  server: zorusx861.233874.xyz
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
+- name: 0|🇺🇸 US-4 | Mix
+  port: 8090
+  server: 24.142.229.178
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-6 | Mix
   port: 9002
   server: 138.199.35.198
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-- name: 0|🇺🇸 US-5 | Mix
+- name: 0|🇺🇸 US-7 | Mix
   port: 443
-  server: 149.22.88.65
+  server: jewelscollecti.icu
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 443
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
