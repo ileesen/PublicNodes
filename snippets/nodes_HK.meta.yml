@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- name: 0|🇭🇰 HK-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true

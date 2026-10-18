@@ -1,117 +1,140 @@
 proxies:
-- name: 0|🇫🇷 FR-1 | Mix
-  port: 8090
-  server: 217.181.201.254
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 47672
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇷🇺 RU-1 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 12318
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 0|🇫🇮 FI-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
-    short-id: 4c188683e2c14a3c
-  server: 31.76.227.60
-  servername: assets-mi-29.spbstudentlife.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
 - name: 0|🇹🇼 TW-1 | Mix
   password: ec74bb6a86c2
   port: 443
   server: 684616s4.df6h451rh.xin
   skip-cert-verify: true
-  sni: px.ads.linkedin.com
   type: anytls
   udp: true
+- name: 0|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.197
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
 - name: 0|🇷🇴 RO-1 | Mix
   port: 9002
-  server: 193.176.84.31
+  server: 193.176.84.29
   tls:
     enabled: true
   type: http
-- name: 0|🇷🇺 RU-2 | Mix
-  port: 1446
-  server: 46.29.166.134
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|🇵🇱 PL-1 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.116.18
-  servername: api.mediapolyana.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
 - name: 0|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 0|🇦🇹 AT-1 | Mix
-  network: tcp
+- name: 0|🇸🇪 SE-1 | Mix
   port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: api.mediakaskad.cc
-  servername: api.mediakaskad.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  server: 146.70.242.130
+  tls:
+    enabled: true
+  type: http
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-3 | Mix
+  name: 0|🇸🇬 SG-1 | Mix
   network: tcp
-  port: 34379
+  port: 46105
   reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
   server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
+  servername: www.lamer.com.sg
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇳🇱 NL-1 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 9443
+  server: 154.47.25.78
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇮🇹 IT-1 | Mix
+  port: 443
+  server: 95.229.15.89
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 0|🇳🇱 NL-2 | Mix
+  password: None
+  port: 23856
+  server: 51.159.225.196
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 34.249.214.108
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇰 HK-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 0|🇬🇧 GB-1 | Mix
+  port: 9443
+  server: 84.233.178.33
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 0|🇹🇭 TH-1 | Mix
@@ -127,76 +150,27 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-1 | Mix
-  network: tcp
-  port: 56656
-  reality-opts:
-    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
-    short-id: aae6d935
-  server: funagfrdfs.alixxplay.com
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- alterId: 0
-  cipher: auto
-  name: 0|🇨🇳 CN-1 | Mix
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 0|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 0|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 443
-  server: jgwynphotoarts.pro
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-6 | Mix
-  network: tcp
-  port: 50443
-  reality-opts:
-    public-key: HI0EyjPOcXSfjScfy3y_Vlan9vsWqjejh2_NjqTyLQo
-    short-id: d27ffd0579fd79bb
-  server: 69.42.222.160
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20cdcc5b-d7d7-429e-afe3-e6aaf3664993
 - name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 31.77.19.92
-  type: socks
+  port: 9002
+  server: 158.173.154.5
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 4443
+  server: 83.172.143.53
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  network: ws
+  packetEncoding: none
+  port: 2095
+  server: www.epicgames.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: openapi.pure-ai.us.ci
+    path: /

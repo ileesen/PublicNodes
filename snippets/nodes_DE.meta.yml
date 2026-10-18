@@ -1,5 +1,7 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 31.77.19.92
-  type: socks
+  port: 9002
+  server: 158.173.154.5
+  tls:
+    enabled: true
+  type: http

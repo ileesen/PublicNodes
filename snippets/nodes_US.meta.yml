@@ -1,68 +1,51 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-1 | Mix
-  network: tcp
-  port: 47672
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.197
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-2 | Mix
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.215
   tls:
     enabled: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: jewelscollecti.icu
+  port: 9443
+  server: 154.47.25.78
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-5 | Mix
-  password: 'null'
-  port: 443
-  server: jgwynphotoarts.pro
+  password: None
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-6 | Mix
-  network: tcp
-  port: 50443
-  reality-opts:
-    public-key: HI0EyjPOcXSfjScfy3y_Vlan9vsWqjejh2_NjqTyLQo
-    short-id: d27ffd0579fd79bb
-  server: 69.42.222.160
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
+- name: 0|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.196
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  network: ws
+  packetEncoding: none
+  port: 2095
+  server: www.epicgames.com
   type: vless
   udp: true
-  uuid: 20cdcc5b-d7d7-429e-afe3-e6aaf3664993
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: openapi.pure-ai.us.ci
+    path: /
