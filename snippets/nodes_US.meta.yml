@@ -1,43 +1,44 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.208
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.215
+  port: 443
+  server: 96.5.129.85
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
   port: 9443
-  server: 154.47.25.78
+  server: 38.95.111.226
   tls:
     enabled: true
   type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-4 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 0|🇺🇸 US-5 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
   network: ws
   packetEncoding: none
   port: 2095

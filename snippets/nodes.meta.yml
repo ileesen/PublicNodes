@@ -1,107 +1,53 @@
 proxies:
-- name: 0|🇹🇼 TW-1 | Mix
-  password: ec74bb6a86c2
+- name: 0|🇫🇷 FR-1 | Mix
   port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.197
+  server: fan.132031.xyz
   tls:
     enabled: true
   type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
+- name: 0|🇵🇱 PL-1 | Mix
   port: 443
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  server: 152.233.71.81
-  servername: brointelengence.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-- name: 0|🇷🇴 RO-1 | Mix
+  server: 31.186.220.204
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-1 | Mix
   port: 9002
-  server: 193.176.84.29
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇷 HR-1 | Mix
+  port: 443
+  server: 154.47.29.174
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 149.36.50.129
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇸🇪 SE-1 | Mix
   port: 443
-  server: 146.70.242.130
+  server: 96.5.129.85
   tls:
     enabled: true
   type: http
-- flow: xtls-rprx-vision
-  name: 0|🇸🇬 SG-1 | Mix
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇧🇷 BR-1 | Mix
+  port: 443
+  server: 134.65.17.77
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.36
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇳🇱 NL-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9443
-  server: 154.47.25.78
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇮🇹 IT-1 | Mix
-  port: 443
-  server: 95.229.15.89
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇹🇼 TW-2 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- name: 0|🇳🇱 NL-2 | Mix
   password: None
   port: 23856
   server: 51.159.225.196
@@ -109,60 +55,96 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇮🇪 IE-1 | Mix
-  port: 443
-  server: 34.249.214.108
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇭🇰 HK-2 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 0|🇬🇧 GB-1 | Mix
+- name: 0|🇷🇴 RO-2 | Mix
   port: 9443
-  server: 84.233.178.33
+  server: 169.150.199.1
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.30
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 443
+  server: 159.69.94.125
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇨🇿 CZ-1 | Mix
+  port: 443
+  server: 193.35.104.196
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-3 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 443
+  server: 152.53.107.196
   tls:
     enabled: true
   type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 0|🇹🇭 TH-1 | Mix
+  name: 0|🇺🇸 US-4 | Mix
   network: tcp
-  port: 56415
+  port: 34379
   reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: cbd39bea0805e2
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
   server: funagfrdfs.alixxplay.com
-  servername: www.kaidee.com
+  servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇩🇪 DE-1 | Mix
+- name: 0|🇷🇴 RO-4 | Mix
   port: 9002
-  server: 158.173.154.5
+  server: 193.176.84.17
   tls:
     enabled: true
   type: http
+- name: 0|🇳🇱 NL-3 | Mix
+  port: 443
+  server: 185.238.168.20
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇨🇦 CA-1 | Mix
+  port: 443
+  server: 206.223.183.16
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇺 RU-1 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 41560
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
 - name: 0|🇫🇷 FR-2 | Mix
-  port: 4443
-  server: 83.172.143.53
+  port: 9443
+  server: 213.139.9.142
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-7 | Mix
+- name: 0|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.205
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
   network: ws
   packetEncoding: none
   port: 2095

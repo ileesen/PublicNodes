@@ -1,7 +1,13 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
-  port: 9002
-  server: 158.173.154.5
+  port: 443
+  server: 149.36.50.129
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 443
+  server: 159.69.94.125
   tls:
     enabled: true
   type: http
