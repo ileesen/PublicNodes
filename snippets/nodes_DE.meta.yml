@@ -1,13 +1,22 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
   port: 443
-  server: 176.94.74.21
+  server: 193.233.75.115
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇪 DE-2 | Mix
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 DE-2 | Mix
+  network: tcp
   port: 443
-  server: 194.67.110.12
-  tls:
-    enabled: true
-  type: http
+  reality-opts:
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  server: 64.188.66.181
+  servername: ge-s-1.pythonmakemigreat.wiki
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
