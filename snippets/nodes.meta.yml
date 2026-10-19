@@ -1,43 +1,7 @@
 proxies:
-- name: 0|🇫🇷 FR-1 | Mix
+- name: 0|🇮🇹 IT-1 | Mix
   port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇵🇱 PL-1 | Mix
-  port: 443
-  server: 31.186.220.204
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.208
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇭🇷 HR-1 | Mix
-  port: 443
-  server: 154.47.29.174
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 149.36.50.129
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: 96.5.129.85
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇧🇷 BR-1 | Mix
-  port: 443
-  server: 134.65.17.77
+  server: 95.229.15.89
   tls:
     enabled: true
   type: http
@@ -47,47 +11,45 @@ proxies:
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-1 | Mix
-  password: None
-  port: 23856
-  server: 51.159.225.196
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9443
-  server: 169.150.199.1
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-3 | Mix
+- name: 0|🇺🇸 US-1 | Mix
   port: 9002
-  server: 193.176.84.30
+  server: 138.199.35.219
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇪 DE-2 | Mix
+- name: 0|🇮🇹 IT-2 | Mix
   port: 443
-  server: 159.69.94.125
+  server: 94.177.163.156
   tls:
     enabled: true
   type: http
-- name: 0|🇨🇿 CZ-1 | Mix
-  port: 443
-  server: 193.35.104.196
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 8090
+  server: 80.124.109.22
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  port: 8443
+  server: 44.248.167.117
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
-  port: 9443
-  server: 38.95.111.226
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-2 | Mix
+- name: 0|🇳🇱 NL-1 | Mix
   port: 443
-  server: 152.53.107.196
+  server: 157.22.183.72
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.32
   tls:
     enabled: true
   type: http
@@ -95,10 +57,10 @@ proxies:
   flow: xtls-rprx-vision
   name: 0|🇺🇸 US-4 | Mix
   network: tcp
-  port: 34379
+  port: 47672
   reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
@@ -106,45 +68,109 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇷🇴 RO-4 | Mix
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 443
+  server: 176.94.74.21
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 443
+  server: 51.158.243.91
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 0|🇺🇸 US-6 | Mix
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 443
+  server: 194.67.110.12
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
   port: 9002
   server: 193.176.84.17
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-3 | Mix
-  port: 443
-  server: 185.238.168.20
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇨🇦 CA-1 | Mix
-  port: 443
-  server: 206.223.183.16
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇺 RU-1 | Mix
-  password: 9jkvAVV-9ufV6IGd
-  port: 41560
-  server: chalo-ru.nexorcdn.com
-  tls:
-    enabled: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- name: 0|🇫🇷 FR-2 | Mix
-  port: 9443
-  server: 213.139.9.142
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
+- name: 0|🇺🇸 US-7 | Mix
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.201
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-6 | Mix
+- name: 0|🇬🇧 GB-1 | Mix
+  port: 9443
+  server: 84.17.50.214
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 443
+  server: webdrone.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-10 | Mix
+  network: tcp
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
+  server: funagfrdfs.alixxplay.com
+  servername: m.media-amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇳🇱 NL-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.146
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-11 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 443
+  server: 141.94.16.4
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-12 | Mix
   network: ws
   packetEncoding: none
   port: 2095
