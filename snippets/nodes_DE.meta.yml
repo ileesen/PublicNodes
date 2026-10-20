@@ -1,39 +1,18 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
-  password: e4b72b531a2d10900519
   port: 443
-  server: 167.172.172.190
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
+  server: 31.77.19.92
+  type: socks
 - name: 0|🇩🇪 DE-2 | Mix
-  password: 'null'
   port: 443
-  server: fan.973511.xyz
+  server: 149.36.50.129
   tls:
     enabled: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-3 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
-  server: 64.188.66.181
-  servername: ge-s-1.pythonmakemigreat.wiki
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 0|🇩🇪 DE-4 | Mix
+  name: 0|🇩🇪 DE-3 | Mix
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
