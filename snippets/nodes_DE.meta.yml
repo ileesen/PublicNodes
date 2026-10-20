@@ -1,13 +1,23 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: 193.233.75.115
+  server: 167.172.172.190
   tls:
     enabled: true
   type: http
+  username: testuser1
+- name: 0|🇩🇪 DE-2 | Mix
+  password: 'null'
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-2 | Mix
+  name: 0|🇩🇪 DE-3 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -20,3 +30,16 @@ proxies:
   type: vless
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 0|🇩🇪 DE-4 | Mix
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  security: tls
+  server: de7.dedushka.top
+  servername: de7.dedushka.top
+  skip-cert-verify: false
+  sni: de7.dedushka.top
+  type: trojan

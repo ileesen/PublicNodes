@@ -1,61 +1,75 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
+  port: 443
+  server: jewelscollecti.icu
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
   password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-3 | Mix
   port: 9002
   server: 138.199.35.207
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: 149.34.248.65
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
 - name: 0|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 8443
-  server: 129.212.181.253
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 8443
-  server: 44.248.167.117
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
   port: 443
   server: 38.247.141.135
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
+- name: 0|🇺🇸 US-5 | Mix
+  port: 8443
+  server: 44.248.167.117
   tls:
     enabled: true
   type: http
-  username: 'null'
+- name: 0|🇺🇸 US-6 | Mix
+  port: 443
+  server: goedkoopgeluid.icu
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-7 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-8 | Mix
+  network: tcp
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
+  server: funagfrdfs.alixxplay.com
+  servername: m.media-amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-9 | Mix
+  port: 8443
+  server: 35.84.133.236
+  tls:
+    enabled: true
+  type: http
