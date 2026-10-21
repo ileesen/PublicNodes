@@ -1,37 +1,16 @@
 proxies:
-- name: 0|🇭🇰 HK-1 | Mix
-  port: 10039
-  server: 118.25.131.160
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: 1bc2c1ef1c
-  server: pccw01.fualta.org
-  servername: www.apple.com
+- client-fingerprint: firefox
+  name: 0|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 2083
+  server: 172.67.76.230
+  servername: edge-fef90023.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 285c4b67-5c15-3317-b2b1-d2ffac34d1e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-3 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.202.248.173
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  ws-opts:
+    headers:
+      Host: edge-fef90023.pages.dev
+    path: /

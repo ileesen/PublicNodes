@@ -1,20 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪 DE-1 | Mix
-  network: ws
+- name: 0|🇩🇪 DE-1 | Mix
+  password: 'null'
   port: 443
-  server: AUSbEb7vTjqR13wy.v.3dns.vip
+  server: fan.973511.xyz
   tls:
     enabled: true
-    server_name: AUSbEb7vTjqR13wy.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: AUSbEb7vTjqR13wy.v.3dns.vip
-    path: /ws-vmess
+  type: http
+  username: 'null'
 - alpn:
   - http/1.1
   client-fingerprint: firefox

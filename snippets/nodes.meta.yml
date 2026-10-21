@@ -1,266 +1,178 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 0|🇹🇼 TW-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇭🇰 HK-1 | Mix
-  port: 10039
-  server: 118.25.131.160
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇨🇦 CA-1 | Mix
-  port: 9443
-  server: 198.44.157.27
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 0|🇹🇭 TH-1 | Mix
-  network: tcp
-  port: 56415
-  reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: cbd39bea0805e2
-  server: funagfrdfs.alixxplay.com
-  servername: www.kaidee.com
+- client-fingerprint: firefox
+  name: 0|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 2083
+  server: 172.67.76.230
+  servername: edge-fef90023.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
+  uuid: fceb3200-2516-47d2-8e28-d04ecde9427a
+  ws-opts:
+    headers:
+      Host: edge-fef90023.pages.dev
+    path: /
 - name: 0|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷 KR-1 | Mix
-  network: ws
-  port: 443
-  server: ugklUlR10zFoYPRf.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: ugklUlR10zFoYPRf.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: ugklUlR10zFoYPRf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪 DE-1 | Mix
-  network: ws
-  port: 443
-  server: AUSbEb7vTjqR13wy.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: AUSbEb7vTjqR13wy.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: AUSbEb7vTjqR13wy.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 0|🇮🇩 ID-1 | Mix
-  network: ws
-  port: 443
-  server: pO6PBZ8gPVBUX3ar.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: pO6PBZ8gPVBUX3ar.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: pO6PBZ8gPVBUX3ar.v.3dns.vip
-    path: /ws-vmess
-- name: 0|🇯🇵 JP-1 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: 121.127.34.82
-  tls:
-    enabled: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 US-3 | Mix
-  network: ws
-  port: 8037
-  server: 120.232.202.14
-  type: vmess
-  udp: true
-  uuid: 506cf8a1-d80b-4c7c-9c36-449e258e9b25
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-- alterId: 0
-  cipher: auto
-  name: 0|🇮🇩 ID-2 | Mix
-  network: ws
-  port: 443
-  server: 9d3bQSFxJk72LuXg.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: 9d3bQSFxJk72LuXg.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 9d3bQSFxJk72LuXg.v.3dns.vip
-    path: /ws-vmess
-- name: 0|🇸🇪 SE-1 | Mix
-  port: 443
-  server: 217.210.129.243
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 0|🇯🇵 JP-2 | Mix
-  port: 1080
-  server: 217.142.236.180
-  type: socks
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 443
-  server: 5.255.118.82
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-5 | Mix
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇺🇸 US-6 | Mix
+  password: None
   port: 9002
   server: 138.199.35.209
   tls:
     enabled: true
   type: http
-- name: 0|🇰🇷 KR-2 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
-- alterId: 0
-  cipher: auto
-  name: 0|🇮🇩 ID-3 | Mix
-  network: ws
-  port: 443
-  server: TnmXPIFVwfvyFZvf.v.3dns.vip
+  username: 'null'
+- name: 0|🇦🇱 AL-1 | Mix
+  port: 9443
+  server: 31.171.154.66
   tls:
     enabled: true
-    server_name: TnmXPIFVwfvyFZvf.v.3dns.vip
-  type: vmess
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇩🇪 DE-1 | Mix
+  password: 'null'
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-3 | Mix
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 8090
+  server: 184.188.139.2
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-6 | Mix
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-7 | Mix
+  port: 443
+  server: berniesbodybla.fun
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 443
+  server: 38.28.185.130
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-10 | Mix
+  port: 8443
+  server: 54.190.176.228
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-11 | Mix
+  network: ws
+  port: 8880
+  server: 199.181.197.40
+  type: vless
   udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: TnmXPIFVwfvyFZvf.v.3dns.vip
-    path: /ws-vmess
-- flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-2 | Mix
-  network: tcp
+      Host: vms.lifetime19.workers.dev
+    path: /
+- name: 0|🇺🇸 US-12 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-13 | Mix
   port: 443
+  server: 38.28.193.1
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-14 | Mix
+  port: 9002
+  server: 138.199.35.203
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-15 | Mix
+  port: 443
+  server: 38.28.185.224
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇷 HR-1 | Mix
+  port: 443
+  server: 154.47.29.161
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇻🇳 VN-1 | Mix
+  port: 1083
+  server: 113.22.224.63
+  type: socks
+- cipher: aes-256-gcm
+  name: 0|🇺🇸 US-16 | Mix
+  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+  port: 22039
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- name: 0|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 18.200.158.139
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 0|🇦🇺 AU-1 | Mix
+  network: tcp
+  port: 54528
   reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: 1bc2c1ef1c
-  server: pccw01.fualta.org
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  server: funagfrdfs.alixxplay.com
   servername: www.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 285c4b67-5c15-3317-b2b1-d2ffac34d1e0
-- alterId: 0
-  cipher: auto
-  name: 0|🇮🇩 ID-4 | Mix
-  network: ws
-  port: 443
-  server: nnC6qmd3wukHOkWb.v.3dns.vip
-  tls:
-    enabled: true
-    server_name: nnC6qmd3wukHOkWb.v.3dns.vip
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: nnC6qmd3wukHOkWb.v.3dns.vip
-    path: /ws-vmess
-- flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-3 | Mix
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.202.248.173
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 US-7 | Mix
-  network: ws
-  port: 8039
-  server: 120.232.202.14
-  type: vmess
-  udp: true
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - alpn:
   - http/1.1
   client-fingerprint: firefox
