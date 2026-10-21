@@ -1,33 +1,26 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.195
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 0|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 8090
-  server: 184.188.139.2
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
   password: None
   port: 9002
   server: 138.199.35.208
@@ -35,81 +28,67 @@ proxies:
     enabled: true
   type: http
   username: 'null'
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2087
+  server: saas.sin.fan
+  servername: vp2.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp2.1145678.xyz
+    path: /out
 - name: 0|🇺🇸 US-6 | Mix
   password: None
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 0|🇺🇸 US-7 | Mix
+  password: 'null'
   port: 443
-  server: berniesbodybla.fun
+  server: goedkoopgeluid.icu
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 0|🇺🇸 US-8 | Mix
   port: 443
-  server: 38.28.185.130
+  server: 149.22.88.65
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-10 | Mix
-  port: 8443
-  server: 54.190.176.228
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-9 | Mix
   network: ws
-  port: 8880
-  server: 199.181.197.40
+  port: 2053
+  server: saas.sin.fan
+  servername: vp2.1145678.xyz
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: vms.lifetime19.workers.dev
-    path: /
-- name: 0|🇺🇸 US-12 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-13 | Mix
+      Host: vp2.1145678.xyz
+    path: /gif
+- name: 0|🇺🇸 US-10 | Mix
   port: 443
-  server: 38.28.193.1
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-14 | Mix
-  port: 9002
-  server: 138.199.35.203
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-15 | Mix
-  port: 443
-  server: 38.28.185.224
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-256-gcm
-  name: 0|🇺🇸 US-16 | Mix
-  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
-  port: 22039
-  server: ruot.ayucloudservices.nl
-  type: ss
-  udp: true
