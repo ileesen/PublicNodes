@@ -1,14 +1,8 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 0|🇩🇪 DE-2 | Mix
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  security: tls
-  server: de7.dedushka.top
-  servername: de7.dedushka.top
-  skip-cert-verify: false
-  sni: de7.dedushka.top
-  type: trojan
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-1 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
