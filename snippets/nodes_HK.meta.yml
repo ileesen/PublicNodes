@@ -1,7 +1,27 @@
 proxies:
-- name: 0|🇭🇰 HK-1 | Mix
-  port: 10007
-  server: 118.25.131.160
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇭🇰 HK-1 | Mix
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 154.83.86.85
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+- name: 0|🇭🇰 HK-2 | Mix
+  port: 10808
+  server: 123.58.219.171
+  type: socks
+- name: 0|🇭🇰 HK-3 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 654968169.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
