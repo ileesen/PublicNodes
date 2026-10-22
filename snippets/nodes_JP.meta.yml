@@ -1,7 +1,15 @@
 proxies:
 - name: 0|🇯🇵 JP-1 | Mix
   port: 443
+  server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-2 | Mix
+  password: 'null'
+  port: 443
   server: fan.571589.xyz
   tls:
     enabled: true
   type: http
+  username: 'null'
