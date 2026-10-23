@@ -1,79 +1,43 @@
 proxies:
+- name: 0|🇯🇵 JP-1 | Mix
+  port: 443
+  server: fan.587475.xyz
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.219
+  port: 443
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-2 | Mix
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇷🇴 RO-1 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.29
+- name: 0|🇺🇸 US-2 | Mix
+  port: 8090
+  server: 66.153.187.90
   tls:
     enabled: true
   type: http
-  username: 'null'
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-1 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
+- name: 0|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 34.249.214.108
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-1 | Mix
+  port: 443
+  server: 185.238.168.20
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-3 | Mix
-  port: 9002
-  server: 138.199.35.216
+  port: 443
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: 137.175.22.40
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇺🇸 US-6 | Mix
   port: 9002
-  server: 138.199.35.197
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 9090
-  server: 202.4.123.220
-  type: socks
-- name: 0|🇺🇸 US-7 | Mix
-  port: 443
-  server: fan.596189.xyz
+  server: 138.199.35.219
   tls:
     enabled: true
   type: http
@@ -83,30 +47,72 @@ proxies:
   tls:
     enabled: true
   type: http
+- name: 0|🇺🇸 US-5 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  port: 443
+  server: 23.133.176.14
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.22
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-8 | Mix
-  port: 8443
-  server: 45.150.164.18
+  port: 9002
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
-- name: 0|🇹🇼 TW-1 | Mix
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.37
   tls:
     enabled: true
   type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 0|🇺🇸 US-9 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
+  port: 8443
+  server: 44.229.69.166
+  tls:
+    enabled: true
+  type: http
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-1 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
   udp: true
-- name: 0|🇩🇪 DE-2 | Mix
+- name: 0|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-11 | Mix
   port: 443
-  server: fan.973511.xyz
+  server: 148.135.10.80
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 9002
+  server: 84.17.47.125
   tls:
     enabled: true
   type: http
@@ -118,49 +124,32 @@ proxies:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-10 | Mix
-  network: ws
+- name: 0|🇺🇸 US-12 | Mix
+  password: 'null'
   port: 443
-  server: saas.sin.fan
-  servername: vp5.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp5.1145678.xyz
-    path: /service
-- name: 0|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 87.106.223.158
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-4 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.21
+  server: 38.28.193.188
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇷🇴 RO-5 | Mix
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-2 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- name: 0|🇺🇸 US-13 | Mix
+  password: None
   port: 9002
-  server: 193.176.84.37
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
-- name: 0|🇸🇬 SG-1 | Mix
-  password: '8888'
-  port: 1080
-  server: 47.236.168.243
-  type: socks
-  username: '8888'
+  username: 'null'
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-4 | Mix
+  name: 0|🇩🇪 DE-1 | Mix
   network: tcp
   port: 1932
   reality-opts:
