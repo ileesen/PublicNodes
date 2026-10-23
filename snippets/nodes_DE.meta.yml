@@ -1,7 +1,23 @@
 proxies:
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9090
+  server: 202.4.123.220
+  type: socks
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 443
+  server: fan.973511.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 87.106.223.158
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-1 | Mix
+  name: 0|🇩🇪 DE-4 | Mix
   network: tcp
   port: 1932
   reality-opts:

@@ -1,37 +1,48 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.219
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  port: 1088
-  server: 67.207.92.87
-  type: socks
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-2 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 137.175.22.45
+  port: 9002
+  server: 138.199.35.216
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
   port: 443
-  server: 129.153.93.183
+  server: 137.175.22.40
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-5 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: efr-marktplatz.club
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
+  username: testuser1
 - name: 0|🇺🇸 US-6 | Mix
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.197
   tls:
     enabled: true
   type: http
@@ -41,3 +52,31 @@ proxies:
   tls:
     enabled: true
   type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 8443
+  server: 45.150.164.18
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-9 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-10 | Mix
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp5.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp5.1145678.xyz
+    path: /service
