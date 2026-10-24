@@ -1,151 +1,170 @@
 proxies:
-- name: 0|🇮🇹 IT-1 | Mix
-  port: 443
-  server: 91.243.118.217
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇸🇬 SG-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 104.248.148.240
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-2 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- name: 0|🇹🇼 TW-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
 - name: 0|🇺🇸 US-1 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇭🇰 HK-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.211
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.23
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 87.106.223.158
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 0|🇫🇷 FR-1 | Mix
-  port: 8090
-  server: 83.206.1.225
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇮🇹 IT-3 | Mix
-  port: 1088
-  server: 212.77.75.25
-  type: socks
-- name: 0|🇰🇷 KR-1 | Mix
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: vp6.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp6.1145678.xyz
-    path: /photos/url/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFVeAVUCDVxbAEpYElFeVhQDWV0SQwEWQlpGWRoNA1YdDhk=
-- name: 0|🇹🇼 TW-2 | Mix
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls:
-    enabled: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇨🇭 CH-1 | Mix
-  port: 9090
-  server: 202.4.117.245
-  type: socks
-- name: 0|🇺🇸 US-4 | Mix
   port: 443
   server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-- name: 0|🇭🇰 HK-2 | Mix
-  password: 0324fbc29561
+- name: 0|🇳🇱 NL-1 | Mix
   port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 0|🇭🇷 HR-1 | Mix
-  port: 443
-  server: 154.47.29.174
+  server: 185.238.170.10
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: None
+- name: 0|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 8081
+  server: 31.32.19.111
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-1 | Mix
+  password: 'null'
   port: 443
-  server: purposebydesig.club
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 1088
-  server: 51.15.20.32
-  type: socks
-- name: 0|🇫🇮 FI-1 | Mix
-  port: 8080
-  server: 65.109.179.56
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 0|🇷🇴 RO-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.32
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  port: 443
+  server: 137.175.22.85
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 443
+  server: 38.247.141.135
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.24
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.219
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-4 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.26
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇮🇩 ID-1 | Mix
+  port: 443
+  server: 178.248.73.58
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-9 | Mix
+  port: 443
+  server: voteshirleysew.club
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 4443
+  server: 83.172.143.53
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 9443
+  server: 149.36.51.161
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9002
+  server: 158.173.154.5
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇰 HK-1 | Mix
+  network: ws
+  port: 8443
+  server: 103.180.20.176
+  servername: tse1.mm.bing.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: tse1.mm.bing.net
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 0|🇺🇸 US-11 | Mix
+  port: 443
+  server: 38.28.185.152
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-5 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-6 | Mix
+  port: 9002
+  server: 193.176.84.38
   tls:
     enabled: true
   type: http
