@@ -1,28 +1,13 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
   port: 443
-  server: fan.973511.xyz
+  server: 87.106.223.158
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
-- name: 0|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: firefox.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-    path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-3 | Mix
+  name: 0|🇩🇪 DE-2 | Mix
   network: tcp
   port: 1932
   reality-opts:
