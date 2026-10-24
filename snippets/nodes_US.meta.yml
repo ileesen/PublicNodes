@@ -1,85 +1,74 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: fan.596189.xyz
-  tls:
-    enabled: true
-  type: http
+  port: 1088
+  server: 67.207.92.87
+  type: socks
 - name: 0|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 66.153.187.90
+  port: 9002
+  server: 138.199.35.209
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
   port: 443
-  server: efr-marktplatz.club
+  server: 137.175.22.45
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
 - name: 0|🇺🇸 US-5 | Mix
-  password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-7 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: 23.133.176.14
+  server: 162.243.146.243
   tls:
     enabled: true
   type: http
+  username: testuser1
 - name: 0|🇺🇸 US-8 | Mix
-  port: 9002
-  server: 138.199.35.197
+  port: 443
+  server: purposebydesig.club
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 8443
-  server: 44.229.69.166
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-9 | Mix
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp5.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp5.1145678.xyz
+    path: /service
 - name: 0|🇺🇸 US-10 | Mix
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: 148.135.10.80
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-12 | Mix
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-13 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  username: testuser1

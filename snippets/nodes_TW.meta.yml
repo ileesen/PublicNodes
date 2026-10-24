@@ -1,1 +1,32 @@
-proxies: []
+proxies:
+- name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇹🇼 TW-3 | Mix
+  network: ws
+  port: 443
+  server: 60.248.219.54
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
