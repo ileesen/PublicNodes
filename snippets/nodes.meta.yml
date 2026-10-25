@@ -1,169 +1,206 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-1 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 52804
+  reality-opts:
+    public-key: cCwvNI8D-LX-kLH1IDuBZwnKkkyMPJm_0sJXsxz-_mA
+    short-id: 68c4f6b0
+  server: pyygg0769.sys-metric-report.com
+  servername: japp.cfastcdn.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 2c8c4c3b-4616-400c-a2d4-f3669ea18fe9
 - name: 0|🇷🇴 RO-1 | Mix
   port: 9002
-  server: 193.176.84.32
+  server: 193.176.84.26
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 50001
-  server: 101.32.8.251
-  type: vmess
-  udp: true
-  uuid: 5706beb5-479b-475d-b557-00309327e9cc
-- name: 0|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇮🇹 IT-2 | Mix
-  port: 443
-  server: 95.229.15.89
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.40
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-3 | Mix
-  port: 9002
-  server: 193.176.84.37
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp7.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp7.1145678.xyz
-    path: /question/watch
-- name: 0|🇳🇱 NL-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.147
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  port: 443
-  server: 162.217.114.50
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
-  username: T2clM0QlM0Q6
-- name: 0|🇮🇩 ID-1 | Mix
-  port: 443
-  server: 178.248.73.58
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 8090
-  server: 66.153.187.90
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 8443
-  server: 44.217.145.28
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 443
-  server: 38.28.185.152
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-10 | Mix
-  port: 443
-  server: 137.175.22.45
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇰🇷 KR-2 | Mix
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: vp6.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp6.1145678.xyz
-    path: /courses/drama/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFtUBFMGAlJbBkpYElFeVhQDWV0SQwEWQlpGWRoNC1wYSw==
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-11 | Mix
+  name: 0|🇺🇸 US-1 | Mix
   network: tcp
-  port: 34379
+  port: 47691
   reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
   server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
+  servername: m.media-amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.22
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.19
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇻🇳 VN-1 | Mix
+  network: tcp
+  port: 55688
+  reality-opts:
+    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
+    short-id: a46bb5972cf50671
+  server: funagfrdfs.alixxplay.com
+  servername: bilibili-vn.biliimg.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-2 | Mix
+  port: 443
+  server: 137.175.22.29
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-1 | Mix
+  port: 9002
+  server: 84.17.47.148
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇱🇹 LT-1 | Mix
+  port: 443
+  server: 89.124.11.9
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇬🇧 GB-1 | Mix
+  port: 443
+  server: 84.17.50.193
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-3 | Mix
+  port: 443
+  server: 185.238.168.20
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵 JP-2 | Mix
+  network: tcp
+  port: 35544
+  reality-opts:
+    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+    short-id: 25c79e5856c7
+  server: funagfrdfs.alixxplay.com
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇳🇱 NL-4 | Mix
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.33
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-5 | Mix
+  port: 9002
+  server: 84.17.47.150
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇰 HK-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 0|🇭🇰 HK-2 | Mix
+  network: ws
+  port: 8443
+  server: 103.148.73.173
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 0|🇺🇸 US-4 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇸 RS-1 | Mix
+  port: 443
+  server: 146.70.221.34
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇱🇰 LK-1 | Mix
+  network: ws
+  port: 80
+  server: support.zoom.us
+  type: vless
+  udp: true
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  ws-opts:
+    headers:
+      Host: free.sahanwickramasinghe.me
+    path: /
+- name: 0|🇩🇰 DK-1 | Mix
+  port: 9443
+  server: 185.245.84.50
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇧🇬 BG-1 | Mix
+  port: 443
+  server: 109.204.88.17
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇵🇱 PL-1 | Mix
+  port: 443
+  server: 151.115.54.133
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 0|🇩🇪 DE-1 | Mix

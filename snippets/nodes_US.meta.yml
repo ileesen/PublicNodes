@@ -1,89 +1,34 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: fan.226278.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-4 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- client-fingerprint: chrome
-  name: 0|🇺🇸 US-5 | Mix
-  network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp7.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp7.1145678.xyz
-    path: /question/watch
-- name: 0|🇺🇸 US-6 | Mix
-  port: 443
-  server: 162.217.114.50
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 8090
-  server: 66.153.187.90
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 8443
-  server: 44.217.145.28
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 443
-  server: 38.28.185.152
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-10 | Mix
-  port: 443
-  server: 137.175.22.45
-  tls:
-    enabled: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-11 | Mix
+  name: 0|🇺🇸 US-1 | Mix
   network: tcp
-  port: 34379
+  port: 47691
   reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
   server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
+  servername: m.media-amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-2 | Mix
+  port: 443
+  server: 137.175.22.29
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 9443
+  server: 38.95.111.226
+  tls:
+    enabled: true
+  type: http
