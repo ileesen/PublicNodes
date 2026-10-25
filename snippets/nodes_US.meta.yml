@@ -1,24 +1,66 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 443
-  server: webdrone.club
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 0|🇺🇸 US-2 | Mix
-  password: e4b72b531a2d10900519
   port: 443
-  server: 162.243.146.243
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
-  username: testuser1
+  username: bnVsbDpudWxs
+- name: 0|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-4 | Mix
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-5 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
-  name: 0|🇺🇸 US-3 | Mix
+  name: 0|🇺🇸 US-8 | Mix
   network: ws
-  port: 2053
+  port: 2096
   server: saas.sin.fan
-  servername: vp7.1145678.xyz
+  servername: vp6.1145678.xyz
   skip-cert-verify: false
   tls: true
   type: vless
@@ -26,66 +68,11 @@ proxies:
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: vp7.1145678.xyz
-    path: /question/watch
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9443
-  server: 38.95.111.226
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 443
-  server: 137.175.22.56
-  tls:
-    enabled: true
-  type: http
+      Host: vp6.1145678.xyz
+    path: /test
 - name: 0|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-10 | Mix
   port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇺🇸 US-12 | Mix
-  port: 9002
-  server: 138.199.35.203
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http

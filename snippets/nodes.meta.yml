@@ -1,44 +1,140 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 443
-  server: webdrone.club
+  server: fan.365747.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇨🇭 CH-1 | Mix
+  port: 9090
+  server: 202.4.117.245
+  type: socks
+- client-fingerprint: firefox
+  name: 0|🇫🇮 FI-1 | Mix
+  network: ws
+  port: 2096
+  server: 144.31.34.146
+  servername: fi1.merky.one
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  ws-opts:
+    headers:
+      Host: fi1.merky.one
+    path: /mky-ws-4f19c8a7
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9002
+  server: 158.173.154.4
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇵🇹 PT-1 | Mix
+  port: 443
+  server: 149.22.86.1
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-1 | Mix
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.35
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
-  password: e4b72b531a2d10900519
   port: 443
-  server: 162.243.146.243
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
-  username: testuser1
-- flow: xtls-rprx-vision
-  name: 0|🇭🇰 HK-1 | Mix
+  username: bnVsbDpudWxs
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 9002
+  server: 84.17.47.123
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇵🇱 PL-1 | Mix
+  port: 443
+  server: 151.115.54.133
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-2 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.29
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-4 | Mix
   network: tcp
-  port: 9443
+  port: 34379
   reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.207.157.8
-  servername: www.amazon.com
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-1 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- name: 0|🇺🇸 US-3 | Mix
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 0|🇺🇸 US-5 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 9002
+  server: 158.173.154.5
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇨🇦 CA-1 | Mix
+  port: 443
+  server: 142.44.210.129
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 9002
+  server: 138.199.35.213
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.209
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
   network: ws
-  port: 2053
+  port: 2096
   server: saas.sin.fan
-  servername: vp7.1145678.xyz
+  servername: vp6.1145678.xyz
   skip-cert-verify: false
   tls: true
   type: vless
@@ -46,135 +142,26 @@ proxies:
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: vp7.1145678.xyz
-    path: /question/watch
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9443
-  server: 38.95.111.226
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.196
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 443
-  server: 137.175.22.56
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.30
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.37
-  tls:
-    enabled: true
-  type: http
+      Host: vp6.1145678.xyz
+    path: /test
 - name: 0|🇺🇸 US-9 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
+  port: 443
+  server: efr-marktplatz.club
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-10 | Mix
-  port: 443
-  server: zebpay.site
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 159.69.94.125
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 9002
-  server: 84.17.47.125
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 8090
+  server: 82.96.128.175
   tls:
     enabled: true
   type: http
 - name: 0|🇷🇴 RO-3 | Mix
   port: 9002
-  server: 193.176.84.23
+  server: 193.176.84.40
   tls:
     enabled: true
   type: http
-- name: 0|🇮🇪 IE-1 | Mix
-  port: 443
-  server: 149.88.96.12
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-2 | Mix
-  port: 443
-  server: 87.106.223.158
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-12 | Mix
-  port: 9002
-  server: 138.199.35.203
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.25
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- flow: xtls-rprx-vision
-  name: 0|🇻🇳 VN-1 | Mix
-  network: tcp
-  port: 55688
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
-  server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 0|🇩🇪 DE-3 | Mix
