@@ -1,19 +1,13 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
-  port: 9002
-  server: 158.173.154.4
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.5
+  port: 443
+  server: 116.202.172.99
   tls:
     enabled: true
   type: http
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-3 | Mix
+  name: 0|🇩🇪 DE-2 | Mix
   network: tcp
   port: 1932
   reality-opts:
