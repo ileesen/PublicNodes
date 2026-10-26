@@ -2,7 +2,55 @@ proxies:
 - client-fingerprint: chrome
   name: 0|🇺🇸 US-1 | Mix
   network: ws
+  port: 2053
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /drama
+- name: 0|🇺🇸 US-2 | Mix
+  port: 9002
+  server: 138.199.35.201
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-3 | Mix
   port: 443
+  server: kimberlymilano.icu
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 9002
+  server: 138.199.35.215
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2087
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /thread
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-6 | Mix
+  network: ws
+  port: 2083
   server: saas.sin.fan
   servername: vp7.1145678.xyz
   skip-cert-verify: false
@@ -13,53 +61,28 @@ proxies:
   ws-opts:
     headers:
       Host: vp7.1145678.xyz
-    path: /images
-- name: 0|🇺🇸 US-2 | Mix
-  port: 1088
-  server: 67.207.92.87
-  type: socks
-- name: 0|🇺🇸 US-3 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
-- name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 129.153.93.183
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
+    path: /events/class
 - name: 0|🇺🇸 US-7 | Mix
-  port: 8443
-  server: 44.229.69.166
+  port: 443
+  server: 12.221.146.147
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-8 | Mix
-  password: 'null'
   port: 443
-  server: 38.28.193.188
+  server: voteshirleysew.club
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-9 | Mix
   port: 443
-  server: fan.365747.xyz
+  server: jgwynphotoarts.pro
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
+- name: 0|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
