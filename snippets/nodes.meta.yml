@@ -1,193 +1,212 @@
 proxies:
-- name: 0|🇳🇱 NL-1 | Mix
+- name: 0|🇺🇸 US-1 | Mix
   port: 9002
-  server: 84.17.47.150
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
 - name: 0|🇷🇴 RO-1 | Mix
-  port: 9443
-  server: 135.136.1.2
+  port: 9002
+  server: 193.176.84.23
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-1 | Mix
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇱🇻 LV-1 | Mix
+  port: 443
+  server: 185.219.159.15
   tls:
     enabled: true
   type: http
 - name: 0|🇷🇴 RO-2 | Mix
   port: 9002
-  server: 193.176.84.24
+  server: 193.176.84.35
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-1 | Mix
+- name: 0|🇸🇪 SE-1 | Mix
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 60005
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 443
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  port: 443
+  server: tzoa.fun
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.36
+  tls:
+    enabled: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 0|🇨🇳 CN-1 | Mix
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 0|🇭🇰 HK-1 | Mix
   network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp6.1145678.xyz
-  skip-cert-verify: false
+  port: 8443
+  server: 103.180.20.176
+  servername: tse1.mm.bing.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   ws-opts:
     headers:
-      Host: vp6.1145678.xyz
-    path: /drama
-- name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.201
-  tls:
-    enabled: true
-  type: http
+      Host: tse1.mm.bing.net
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - name: 0|🇺🇸 US-3 | Mix
   port: 443
-  server: kimberlymilano.icu
+  server: jewelscollecti.icu
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.215
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇹🇼 TW-1 | Mix
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls:
-    enabled: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇳🇱 NL-2 | Mix
-  password: None
+  password: 'null'
   port: 443
-  server: 51.158.243.91
+  server: 38.28.193.188
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-4 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.25
   tls:
     enabled: true
   type: http
   username: 'null'
 - name: 0|🇺🇸 US-5 | Mix
-  network: ws
-  port: 2087
-  server: saas.sin.fan
-  servername: vp6.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp6.1145678.xyz
-    path: /thread
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9443
+  server: 79.127.156.177
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-6 | Mix
-  network: ws
-  port: 2083
-  server: saas.sin.fan
-  servername: vp7.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp7.1145678.xyz
-    path: /events/class
-- name: 0|🇳🇱 NL-3 | Mix
-  port: 9090
-  server: 202.4.116.146
-  type: socks
-- name: 0|🇷🇴 RO-3 | Mix
-  password: 'null'
+  port: 8443
+  server: 44.217.145.28
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-5 | Mix
   port: 9002
-  server: 193.176.84.20
+  server: 193.176.84.30
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇵🇱 PL-1 | Mix
-  port: 443
-  server: 151.115.54.133
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇦🇱 AL-1 | Mix
-  port: 443
-  server: 87.120.103.242
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇰🇷 KR-1 | Mix
-  port: 1090
-  server: 121.169.46.116
-  type: socks
 - name: 0|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 45.150.164.18
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇮🇹 IT-1 | Mix
   port: 443
-  server: 12.221.146.147
+  server: 95.229.15.89
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-8 | Mix
-  port: 443
-  server: voteshirleysew.club
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 443
-  server: jgwynphotoarts.pro
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: fan.973511.xyz
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 0|🇰🇷 KR-2 | Mix
+  username: 'null'
+- name: 0|🇹🇼 TW-1 | Mix
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: vp6.1145678.xyz
+  server: 60.248.219.54
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 0|🇷🇴 RO-6 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  server: 47.251.108.158
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp6.1145678.xyz
-    path: /courses/drama/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFtUBFMGAlJbBkpYElFeVhQDWV0SQwEWQlpGWRoNC1wYSw==
-- name: 0|🇷🇴 RO-4 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-10 | Mix
-  port: 9002
-  server: 138.199.35.216
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-4 | Mix
-  port: 9002
-  server: 84.17.47.125
-  tls:
-    enabled: true
-  type: http
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
 - flow: xtls-rprx-vision
   name: 0|🇷🇺 RU-1 | Mix
   network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.128.78.176
-  servername: ozon.ru
+  server: 193.160.141.27
+  servername: abuse.ozon.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+- flow: xtls-rprx-vision
+  name: 0|🇱🇻 LV-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
+    short-id: 5c256336e3b673fa
+  server: 195.123.213.28
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
