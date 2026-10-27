@@ -1,15 +1,10 @@
 proxies:
-- name: 0|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 8443
-  server: 103.180.20.176
-  servername: tse1.mm.bing.net
+- client-fingerprint: chrome
+  name: 0|🇭🇰 HK-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  ws-opts:
-    headers:
-      Host: tse1.mm.bing.net
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530

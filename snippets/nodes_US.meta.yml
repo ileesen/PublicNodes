@@ -1,70 +1,91 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.199
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
   port: 443
-  server: tzoa.fun
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
   port: 443
-  server: jewelscollecti.icu
+  server: 23.133.176.14
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-5 | Mix
   password: e4b72b531a2d10900519
   port: 443
-  server: 162.243.146.243
+  server: 147.182.216.4
   tls:
     enabled: true
   type: http
   username: testuser1
-- name: 0|🇺🇸 US-6 | Mix
-  port: 8443
-  server: 44.217.145.28
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 8443
-  server: 45.150.164.18
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  password: 'null'
+- name: 0|🇺🇸 US-5 | Mix
+  password: None
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.205
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 0|🇺🇸 US-6 | Mix
+  port: 8090
+  server: 184.188.139.2
+  tls:
+    enabled: true
+  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-9 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  server: 47.251.108.158
-  servername: www.cloudflare.com
+  name: 0|🇺🇸 US-7 | Mix
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /test
+- name: 0|🇺🇸 US-8 | Mix
+  port: 9002
+  server: 138.199.35.214
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-9 | Mix
+  password: 'null'
+  port: 443
+  server: jgwynphotoarts.pro
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-10 | Mix
+  port: 9002
+  server: 138.199.35.212
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-11 | Mix
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /service/blog/out

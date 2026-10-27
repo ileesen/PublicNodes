@@ -1,7 +1,13 @@
 proxies:
 - name: 0|🇫🇷 FR-1 | Mix
-  port: 443
-  server: fan.132031.xyz
+  port: 8081
+  server: 31.32.19.111
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 8090
+  server: 82.96.128.175
   tls:
     enabled: true
   type: http
