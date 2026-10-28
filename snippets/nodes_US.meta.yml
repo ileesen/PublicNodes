@@ -1,102 +1,68 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks
-  username: test123
+  port: 9002
+  server: 138.199.35.202
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 443
-  server: 129.153.93.183
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-3 | Mix
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.199
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-6 | Mix
-  network: tcp
-  port: 47691
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: 2905326a
-  server: funagfrdfs.alixxplay.com
-  servername: m.media-amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 0|🇺🇸 US-7 | Mix
-  port: 443
-  server: voteshirleysew.club
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 0|🇺🇸 US-9 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-  username: Ok5vbmU=
-- name: 0|🇺🇸 US-10 | Mix
-  port: 8443
-  server: 44.217.145.28
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-11 | Mix
-  password: 'null'
   port: 9002
   server: 138.199.35.205
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-12 | Mix
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: kimberlymilano.icu
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: fullmanfirm.icu
+  tls:
+    enabled: true
+  type: http
+  username: Ok5vbmU=
+- name: 0|🇺🇸 US-5 | Mix
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.198
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 443
+  server: fan.226278.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 8090
+  server: 50.184.176.222
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-9 | Mix
+  port: 8443
+  server: 44.217.145.28
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-10 | Mix
+  port: 443
+  server: 137.175.22.120
   tls:
     enabled: true
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-13 | Mix
+  name: 0|🇺🇸 US-11 | Mix
   network: tcp
   port: 443
   reality-opts:
