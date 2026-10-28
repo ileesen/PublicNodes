@@ -1,165 +1,255 @@
 proxies:
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 443
-  server: 185.238.170.10
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.36
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.32
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-3 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.38
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇳🇱 NL-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.150
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.33
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.202
-  tls:
-    enabled: true
-  type: http
 - alterId: 0
   cipher: auto
   name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 50001
-  server: 101.32.8.251
+  network: ws
+  port: 443
+  server: rhHiErkwRf6fHs2H.v.3dns.vip
+  tls:
+    enabled: true
+    server_name: rhHiErkwRf6fHs2H.v.3dns.vip
   type: vmess
   udp: true
-  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
+  ws-opts:
+    headers:
+      Host: rhHiErkwRf6fHs2H.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇮🇳 IN-1 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  server: 5.253.28.240
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+- name: 0|🇺🇸 US-1 | Mix
+  port: 44499
+  server: 45.61.188.134
+  type: socks
 - name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.205
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇯🇵 JP-1 | Mix
+  password: None
   port: 443
-  server: fan.587475.xyz
+  server: tzoa.fun
   tls:
     enabled: true
   type: http
-- name: 0|🇷🇸 RS-1 | Mix
+  username: 'null'
+- name: 0|🇩🇪 DE-1 | Mix
   port: 443
-  server: 146.70.221.34
+  server: 185.44.107.166
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇰 DK-1 | Mix
-  port: 9443
-  server: 185.245.84.50
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 8090
+  server: 83.206.1.225
   tls:
     enabled: true
   type: http
+- alpn:
+  - http/1.1
+  name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
 - name: 0|🇺🇸 US-3 | Mix
   port: 443
-  server: kimberlymilano.icu
+  server: zebpay.site
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
+  password: 'null'
+  port: 443
+  server: zebpay.site
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2053
+  server: saas.sin.fan
+  servername: vp21.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp21.1145678.xyz
+    path: /items/downloads
+- name: 0|🇰🇷 KR-1 | Mix
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp26.1145678.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp26.1145678.xyz
+    path: /trade/map/page/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFVfAlUHA1BUAEpYElFeVhQDWV0SQwEWQlpGWRoNA1IaBRk=
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 0|🇮🇳 IN-2 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  server: 5.253.28.224
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+- flow: xtls-rprx-vision
+  name: 0|🇫🇷 FR-2 | Mix
+  network: tcp
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 213.152.180.104
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+- name: 0|🇺🇸 US-6 | Mix
+  password: 'null'
   port: 443
   server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
-- name: 0|🇺🇸 US-5 | Mix
-  port: 9002
-  server: 138.199.35.198
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
+  username: 'null'
+- name: 0|🇱🇻 LV-1 | Mix
   port: 443
-  server: fan.226278.xyz
+  server: 185.219.159.16
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 8090
-  server: 50.184.176.222
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇷🇴 RO-5 | Mix
-  port: 9002
-  server: 193.176.84.19
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇬🇧 GB-1 | Mix
-  port: 443
-  server: 84.17.50.193
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 8443
-  server: 44.217.145.28
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-10 | Mix
-  port: 443
-  server: 137.175.22.120
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 0|🇺🇸 US-11 | Mix
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|🇦🇹 AT-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  server: 47.251.108.158
-  servername: www.cloudflare.com
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+  server: tau1.freerunet.online
+  servername: tau1.freerunet.online
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+- name: 0|🇺🇸 US-7 | Mix
+  port: 8443
+  server: 44.229.69.166
+  tls:
+    enabled: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 0|🇸🇬 SG-1 | Mix
+  network: tcp
+  port: 19825
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+  server: sg2-8sb.6121999.dpdns.org
+  servername: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- name: 0|🇮🇹 IT-1 | Mix
+  password: None
+  port: 443
+  server: 93.42.177.250
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇭🇰 HK-2 | Mix
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks
+  username: admin
+- name: 0|🇺🇸 US-8 | Mix
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: 155.117.232.61
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-10 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: node-usa.blok-signalon.top
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- name: 0|🇪🇪 EE-1 | Mix
+  network: tcp
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.232
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2

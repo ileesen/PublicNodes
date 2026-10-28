@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 8090
+  server: 83.206.1.225
+  tls:
+    enabled: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇫🇷 FR-2 | Mix
+  network: tcp
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 213.152.180.104
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
