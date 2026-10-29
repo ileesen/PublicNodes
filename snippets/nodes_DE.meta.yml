@@ -1,16 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪 DE-1 | Mix
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.180.104
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 372af4ce-2153-4061-822c-b657172308f6
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9443
+  server: 79.127.156.177
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-2 | Mix
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 0|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 217.92.132.233
+  tls:
+    enabled: true
+  type: http
