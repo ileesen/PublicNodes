@@ -1,32 +1,89 @@
 proxies:
-- name: 0|🇷🇸 RS-1 | Mix
+- name: 0|🇺🇸 US-1 | Mix
+  password: 'null'
   port: 443
-  server: 146.70.221.18
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇹🇼 TW-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇳🇱 NL-1 | Mix
-  password: None
-  port: 23856
-  server: 51.159.225.196
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 9443
-  server: 79.127.156.177
+- name: 0|🇮🇪 IE-1 | Mix
+  port: 443
+  server: 18.200.158.139
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇪 DE-2 | Mix
+- name: 0|🇳🇱 NL-1 | Mix
+  port: 9002
+  server: 84.17.47.146
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-1 | Mix
+  port: 443
+  server: 84.235.228.156
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇮🇱 IL-1 | Mix
+  port: 443
+  server: 62.90.77.30
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  port: 8443
+  server: 54.190.176.228
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇺 RU-1 | Mix
+  port: 443
+  server: 194.186.179.62
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇱🇹 LT-1 | Mix
+  port: 443
+  server: 89.124.11.9
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: 137.175.22.89
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.149
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇳🇱 NL-3 | Mix
+  password: 'null'
+  port: 443
+  server: 185.238.170.10
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇬🇪 GE-1 | Mix
+  port: 443
+  server: 195.54.178.210
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: 38.247.141.135
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-1 | Mix
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -34,124 +91,71 @@ proxies:
     enabled: true
   type: http
   username: testuser1
-- name: 0|🇫🇷 FR-1 | Mix
-  port: 9443
-  server: 213.139.9.142
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-1 | Mix
+- name: 0|🇺🇸 US-5 | Mix
   port: 443
-  server: 96.5.129.85
+  server: 137.175.22.98
   tls:
     enabled: true
   type: http
-- name: 0|🇯🇵 JP-1 | Mix
+- name: 0|🇩🇪 DE-2 | Mix
   password: 'null'
   port: 443
-  server: fan.571589.xyz
+  server: 79.76.126.155
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇮🇪 IE-1 | Mix
+- name: 0|🇺🇸 US-6 | Mix
+  password: 'null'
   port: 443
-  server: 149.88.96.1
+  server: fan.365747.xyz
   tls:
     enabled: true
   type: http
-- name: 0|🇬🇪 GE-1 | Mix
+  username: 'null'
+- name: 0|🇺🇸 US-7 | Mix
   port: 443
-  server: 195.54.178.210
+  server: fan.596189.xyz
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-2 | Mix
-  network: ws
-  port: 443
-  server: 172.64.152.241
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chromefp=chrome
-- flow: xtls-rprx-vision
-  name: 0|🇦🇹 AT-1 | Mix
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬 SG-1 | Mix
   network: tcp
-  port: 443
+  port: 19825
   reality-opts:
-    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
-    short-id: 4a7b1c8d
-  server: tau1.freerunet.online
-  servername: tau1.freerunet.online
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  server: sg2-8sb.6121999.dpdns.org
+  servername: sg2-8sb.6121999.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
-- name: 0|🇺🇸 US-3 | Mix
-  password: 'null'
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- name: 0|🇺🇸 US-8 | Mix
   port: 443
-  server: 38.28.193.188
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇺🇸 US-4 | Mix
-  port: 8443
-  server: 54.190.176.228
+- name: 0|🇩🇪 DE-3 | Mix
+  port: 9002
+  server: 158.173.154.3
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-2 | Mix
+- name: 0|🇳🇱 NL-4 | Mix
+  password: 'null'
   port: 443
   server: 185.93.106.214
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: carolinafreigh.fun
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 217.92.132.233
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇫🇷 FR-2 | Mix
-  port: 443
-  server: 51.210.167.149
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇨🇦 CA-1 | Mix
-  port: 443
-  server: 142.44.210.129
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇮🇪 IE-2 | Mix
-  port: 443
-  server: 149.88.96.12
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 8443
-  server: 44.248.167.117
-  tls:
-    enabled: true
-  type: http
+  username: 'null'
 - flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-2 | Mix
+  name: 0|🇯🇵 JP-1 | Mix
   network: tcp
   port: 9443
   reality-opts:

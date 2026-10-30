@@ -1,47 +1,53 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: 96.5.129.85
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  network: ws
-  port: 443
-  server: 172.64.152.241
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chromefp=chrome
-- name: 0|🇺🇸 US-3 | Mix
   password: 'null'
   port: 443
-  server: 38.28.193.188
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-4 | Mix
+- name: 0|🇺🇸 US-2 | Mix
   port: 8443
   server: 54.190.176.228
   tls:
     enabled: true
   type: http
+- name: 0|🇺🇸 US-3 | Mix
+  port: 443
+  server: 137.175.22.89
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: 38.247.141.135
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-5 | Mix
   port: 443
-  server: carolinafreigh.fun
+  server: 137.175.22.98
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-6 | Mix
-  port: 8443
-  server: 44.248.167.117
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇺🇸 US-7 | Mix
+  port: 443
+  server: fan.596189.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-8 | Mix
+  port: 443
+  server: fan.226278.xyz
   tls:
     enabled: true
   type: http
