@@ -1,15 +1,15 @@
 proxies:
-- name: 0|🇩🇪 DE-1 | Mix
-  password: 'null'
-  port: 8443
-  server: 188.120.225.125
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.5
-  tls:
-    enabled: true
-  type: http
+- client-fingerprint: chrome
+  name: 0|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: de15.h1cloud.net
+  servername: www.chip.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c

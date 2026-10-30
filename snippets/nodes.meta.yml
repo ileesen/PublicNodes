@@ -1,26 +1,80 @@
 proxies:
-- name: 0|🇨🇭 CH-1 | Mix
-  port: 443
-  server: 31.7.62.50
+- name: 0|🇭🇰 HK-1 | Mix
+  port: 1080
+  server: 47.238.126.208
+  type: socks
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.32
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-1 | Mix
-  password: 'null'
   port: 443
-  server: jewelscollecti.icu
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-2 | Mix
+  password: 'null'
+  port: 8443
+  server: 44.248.167.117
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
+- name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
   port: 443
-  server: 149.88.21.129
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇷🇸 RS-1 | Mix
+  port: 443
+  server: 146.70.221.18
   tls:
     enabled: true
   type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
+- name: 0|🇺🇸 US-3 | Mix
+  port: 8443
+  server: 45.145.72.122
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-4 | Mix
+  port: 443
+  server: 68.235.56.51
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇺 RU-1 | Mix
+  port: 443
+  server: 178.219.43.226
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇰🇷 KR-1 | Mix
+  port: 1090
+  server: 121.169.46.116
+  type: socks
+  username: VDJjbE0wUWxNMFE2VDJjbE0wUWxNMFE9Og==
+- name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- flow: xtls-rprx-vision
   name: 0|🇸🇬 SG-1 | Mix
   network: tcp
   port: 19825
@@ -34,118 +88,57 @@ proxies:
   type: vless
   udp: true
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-- name: 0|🇮🇱 IL-1 | Mix
-  password: 'null'
-  port: 443
-  server: 62.90.77.30
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
 - name: 0|🇩🇪 DE-1 | Mix
-  password: 'null'
-  port: 8443
-  server: 188.120.225.125
+  network: tcp
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: de15.h1cloud.net
+  servername: www.chip.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- name: 0|🇨🇿 CZ-1 | Mix
+  port: 443
+  server: 193.35.104.196
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇮🇪 IE-1 | Mix
+- name: 0|🇫🇷 FR-1 | Mix
   port: 443
-  server: 34.249.214.108
+  server: fan.132031.xyz
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 0|🇺🇸 US-6 | Mix
+  port: 8090
+  server: 173.42.49.102
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 9443
+  server: 213.139.9.142
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇺 RU-2 | Mix
+  port: 8083
+  server: 188.232.115.151
+  type: socks
+- name: 0|🇱🇻 LV-1 | Mix
+  port: 443
+  server: 109.248.149.34
   tls:
     enabled: true
   type: http
 - name: 0|🇳🇱 NL-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- alpn:
-  - http/1.1
-  name: 0|🇹🇼 TW-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- name: 0|🇳🇱 NL-2 | Mix
   port: 9002
-  server: 84.17.47.126
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-3 | Mix
-  port: 443
-  server: 185.93.106.214
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇭🇰 HK-1 | Mix
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 0|🇩🇪 DE-2 | Mix
-  port: 9002
-  server: 158.173.154.5
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇱🇹 LT-1 | Mix
-  port: 443
-  server: 89.124.11.9
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇨🇦 CA-1 | Mix
-  port: 9443
-  server: 149.88.98.81
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇻🇳 VN-1 | Mix
-  password: db62309c-486a-4fd5-abc4-4e91ac495d38
-  port: 12686
-  server: user01.godvpn.lol
-  skip-cert-verify: true
-  sni: user01.godvpn.lol
-  type: anytls
-  udp: true
-- name: 0|🇱🇺 LU-1 | Mix
-  port: 9443
-  server: 185.221.132.226
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  password: 'null'
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-  username: 'null'
-- name: 0|🇳🇱 NL-4 | Mix
-  port: 443
-  server: 51.158.243.91
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: fan.365747.xyz
+  server: 84.17.47.147
   tls:
     enabled: true
   type: http
