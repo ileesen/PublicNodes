@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇸🇪 SE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
+    short-id: 51079f144d661484
+  server: s12.bsh-net.ru
+  servername: s12.bsh-net.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
+- name: 0|🇸🇪 SE-2 | Mix
+  port: 8443
+  server: 77.221.136.60
+  tls:
+    enabled: true
+  type: http
