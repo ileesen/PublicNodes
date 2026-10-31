@@ -1,10 +1,8 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: crosscards.site
-  tls:
-    enabled: true
-  type: http
+  port: 22222
+  server: 193.25.215.182
+  type: socks
 - name: 0|🇺🇸 US-2 | Mix
   password: 'null'
   port: 8443
@@ -14,28 +12,48 @@ proxies:
   type: http
   username: 'null'
 - name: 0|🇺🇸 US-3 | Mix
-  port: 8443
-  server: 45.145.72.122
+  port: 8090
+  server: 24.142.229.178
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-4 | Mix
   port: 443
-  server: 68.235.56.51
+  server: 12.202.180.118
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-5 | Mix
-  password: None
   port: 443
-  server: efr-marktplatz.club
+  server: 137.175.22.84
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  port: 8443
+  server: 44.229.69.166
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-7 | Mix
+  password: 'null'
+  port: 443
+  server: tzoa.fun
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  port: 8090
-  server: 173.42.49.102
+- name: 0|🇺🇸 US-8 | Mix
+  port: 443
+  server: 12.202.180.10
   tls:
     enabled: true
   type: http
+- name: 0|🇺🇸 US-9 | Mix
+  password: None
+  port: 443
+  server: crosscards.site
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
