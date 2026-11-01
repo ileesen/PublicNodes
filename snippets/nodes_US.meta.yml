@@ -1,35 +1,35 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
-  server: fullmanfirm.icu
+  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
   tls:
     enabled: true
   type: http
-  username: bnVsbDpudWxs
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 US-2 | Mix
-  network: ws
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: 0|🇺🇸 US-2 | Mix
+  password: None
   port: 443
-  server: cf.0sm.com
+  server: mmgr.club
   tls:
     enabled: true
-    server_name: vmess.lbw666.dpdns.org
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
+  type: http
+  username: 'null'
 - name: 0|🇺🇸 US-3 | Mix
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-  username: Ok5vbmU=
+  port: 443
+  server: 137.175.22.116
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-4 | Mix
   port: 443
-  server: zebpay.site
+  server: 20.42.108.114
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.200
   tls:
     enabled: true
   type: http

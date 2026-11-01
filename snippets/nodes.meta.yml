@@ -1,81 +1,52 @@
 proxies:
-- name: 0|🇷🇺 RU-1 | Mix
-  password: 'null'
-  port: 8443
-  server: 87.242.85.187
+- name: 0|🇱🇻 LV-1 | Mix
+  port: 443
+  server: 185.219.159.16
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 10808
-  server: 101.36.104.46
-  type: socks
-- name: 0|🇯🇵 JP-2 | Mix
-  port: 40583
-  server: 120.232.204.58
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 0|🇷🇺 RU-2 | Mix
+- name: 0|🇵🇱 PL-1 | Mix
   network: tcp
-  port: 8443
+  port: 27591
   reality-opts:
-    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
-    short-id: a1b2c3d4e5f6a7b8
-  server: 178.236.242.254
-  servername: xnod13x.artemida.live
+    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+    short-id: 6c5c7900406a1ae7
+  server: 79.182.39.37
+  servername: www.samsung.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇦🇪 AE-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9MgNwdrftjPf18DG8qYo6iHJw7IG7uSnULScDQ0WDy4
+    short-id: 0123456789abcdef
+  server: dubai-cdn-keno.keno.su
+  servername: dubai-cdn-keno.keno.su
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
 - name: 0|🇷🇴 RO-1 | Mix
+  port: 9443
+  server: 135.136.1.2
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-2 | Mix
   port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-1 | Mix
-  port: 443
-  server: 89.150.35.94
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇺 RU-3 | Mix
-  port: 1080
-  server: 83.237.11.138
-  type: socks
-- name: 0|🇦🇱 AL-1 | Mix
-  port: 443
-  server: 87.120.103.226
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: fullmanfirm.icu
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 0|🇮🇪 IE-1 | Mix
-  password: 'null'
-  port: 443
-  server: 34.249.214.108
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇳🇱 NL-2 | Mix
-  port: 23856
-  server: 51.159.225.196
+  server: 193.176.84.22
   tls:
     enabled: true
   type: http
 - flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-3 | Mix
+  name: 0|🇯🇵 JP-1 | Mix
   network: tcp
   port: 443
   reality-opts:
@@ -88,104 +59,145 @@ proxies:
   type: vless
   udp: true
   uuid: ef857676-6b00-4c1b-8d98-712dd355230a
-- name: 0|🇦🇹 AT-1 | Mix
-  port: 443
-  server: 146.70.244.2
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇭🇺 HU-1 | Mix
-  port: 443
-  server: 146.70.203.18
-  tls:
-    enabled: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 US-2 | Mix
-  network: ws
-  port: 443
-  server: cf.0sm.com
-  tls:
-    enabled: true
-    server_name: vmess.lbw666.dpdns.org
-  type: vmess
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-1 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
   udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- name: 0|🇵🇱 PL-1 | Mix
-  password: 'null'
+- name: 0|🇺🇸 US-1 | Mix
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
-  server: 151.115.54.133
+  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: 0|🇯🇵 JP-2 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-3 | Mix
+  password: None
+  port: 9002
+  server: 193.176.84.40
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇨🇿 CZ-1 | Mix
+- name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
   port: 443
-  server: 193.35.104.196
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 0|🇺🇸 US-2 | Mix
+  password: None
+  port: 443
+  server: mmgr.club
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇨🇭 CH-1 | Mix
+  port: 9443
+  server: 149.88.27.46
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-3 | Mix
-  port: 22222
-  server: 193.25.215.182
-  type: socks
-  username: Ok5vbmU=
+  port: 443
+  server: 137.175.22.116
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 0|🇵🇹 PT-1 | Mix
+  port: 443
+  server: 149.22.86.14
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-4 | Mix
   port: 443
-  server: zebpay.site
+  server: 20.42.108.114
   tls:
     enabled: true
   type: http
-- name: 0|🇩🇪 DE-1 | Mix
+- name: 0|🇺🇸 US-5 | Mix
+  port: 9002
+  server: 138.199.35.200
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.35
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-3 | Mix
+  password: 'null'
   port: 443
-  server: 116.202.172.99
+  server: fan.571589.xyz
   tls:
     enabled: true
   type: http
+  username: 'null'
 - flow: xtls-rprx-vision
-  name: 0|🇦🇹 AT-2 | Mix
+  name: 0|🇦🇱 AL-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
-    short-id: 4a7b1c8d
-  server: tau1.freerunet.online
-  servername: tau1.freerunet.online
+    public-key: trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI
+    short-id: 8718c58d3d51db59
+  server: 151.123.187.198
+  servername: al2.magazinnarubeva.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
-- name: 0|🇳🇱 NL-3 | Mix
-  network: ws
-  password: humanity
+  uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
+- name: 0|🇱🇹 LT-1 | Mix
   port: 443
-  security: tls
-  server: 46.174.142.238
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- client-fingerprint: firefox
-  name: 0|🇹🇭 TH-1 | Mix
-  network: tcp
+  server: 89.124.11.9
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-5 | Mix
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇯🇵 JP-4 | Mix
+  port: 10808
+  server: 101.36.104.46
+  type: socks
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: vlgrpc
+  mode: gun
+  name: 0|🇷🇺 RU-1 | Mix
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: dN2EhTLZsQ1RsO4rCdoIBIi7mFtmqsC2iekPft3MPnY
-    short-id: '1835'
-  server: 141.193.154.234
-  servername: cloudflare.com
+  server: 201.24.121.243
+  servername: kk-ru24a1.testkknegr.online
+  serviceName: vlgrpc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 80fdddb8-3eb8-41ad-9916-fbb42c442e6e
+  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
