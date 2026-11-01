@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 US-2 | Mix
+  network: ws
+  port: 443
+  server: cf.0sm.com
+  tls:
+    enabled: true
+    server_name: vmess.lbw666.dpdns.org
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- name: 0|🇳🇱 NL-3 | Mix
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 46.174.142.238
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
