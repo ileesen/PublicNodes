@@ -1,35 +1,65 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-1 | Mix
+  network: ws
   port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  tls:
-    enabled: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
 - name: 0|🇺🇸 US-2 | Mix
-  password: None
   port: 443
   server: mmgr.club
   tls:
     enabled: true
   type: http
-  username: 'null'
 - name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: 137.175.22.116
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: 20.42.108.114
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
   port: 9002
   server: 138.199.35.200
   tls:
     enabled: true
   type: http
+- client-fingerprint: firefox
+  name: 0|🇺🇸 US-4 | Mix
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- name: 0|🇺🇸 US-5 | Mix
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 0|🇺🇸 US-6 | Mix
+  port: 443
+  server: voteshirleysew.club
+  tls:
+    enabled: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 0|🇺🇸 US-7 | Mix
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
