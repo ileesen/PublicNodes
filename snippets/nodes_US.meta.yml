@@ -1,59 +1,21 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 38182
-  server: 69.55.49.177
-  type: socks
+  port: 9443
+  server: 198.44.135.19
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.213
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
-  port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- client-fingerprint: chrome
-  name: 0|🇺🇸 US-4 | Mix
   network: ws
   port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  skip-cert-verify: false
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 752e7b64-09bd-4aa6-8ac0-116a45457458
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
   ws-opts:
     headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 38.247.141.135
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 443
-  server: 129.153.93.183
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 443
-  server: berniesbodybla.fun
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  tls:
-    enabled: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /

@@ -1,12 +1,21 @@
 proxies:
-- client-fingerprint: safari
-  name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 31884
-  server: hk010.zestapp778.com
-  servername: hk010.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 0|🇭🇰 HK-1 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 0|🇭🇰 HK-2 | Mix
+  port: 443
+  server: fan.240104.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇰 HK-3 | Mix
+  port: 3128
+  server: 119.28.24.235
+  tls:
+    enabled: true
+  type: http

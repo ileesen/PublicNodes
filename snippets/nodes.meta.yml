@@ -1,133 +1,63 @@
 proxies:
-- client-fingerprint: safari
-  name: 0|🇭🇰 HK-1 | Mix
-  network: tcp
-  port: 31884
-  server: hk010.zestapp778.com
-  servername: hk010.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 0|🇮🇳 IN-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 139.59.87.113
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇷🇺 RU-1 | Mix
-  port: 8443
-  server: 87.242.85.187
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇸🇪 SE-1 | Mix
-  port: 9090
-  server: 202.4.116.146
-  type: socks
-- name: 0|🇷🇴 RO-1 | Mix
-  port: 9002
-  server: 193.176.84.25
-  tls:
-    enabled: true
-  type: http
 - name: 0|🇺🇸 US-1 | Mix
-  port: 38182
-  server: 69.55.49.177
-  type: socks
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|🇳🇱 NL-1 | Mix
-  network: tcp
-  port: 444
-  server: ams2.shtil.io
-  servername: ams2.shtil.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-- name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.213
+  port: 9443
+  server: 198.44.135.19
   tls:
     enabled: true
   type: http
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-1 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.34
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-3 | Mix
+- name: 0|🇭🇰 HK-1 | Mix
+  password: 0324fbc29561
   port: 443
-  server: webdrone.club
-  tls:
-    enabled: true
-  type: http
-  username: bnVsbDpudWxs
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-2 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-- name: 0|🇺🇸 US-4 | Mix
+- name: 0|🇺🇸 US-2 | Mix
   network: ws
   port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  skip-cert-verify: false
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 752e7b64-09bd-4aa6-8ac0-116a45457458
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
   ws-opts:
     headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 38.247.141.135
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /
+- name: 0|🇷🇺 RU-1 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 36074
+  server: chalo-ru.nexorcdn.com
   tls:
     enabled: true
   type: http
-- name: 0|🇫🇷 FR-1 | Mix
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇳🇱 NL-1 | Mix
   port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  server: 51.158.243.91
   tls:
     enabled: true
   type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|🇱🇻 LV-1 | Mix
-  network: tcp
+- name: 0|🇳🇱 NL-2 | Mix
   port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 72.56.52.248
-  servername: lv.dexlen.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
-- name: 0|🇺🇸 US-6 | Mix
+  server: 89.150.35.94
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇺 RU-2 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 27402
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇭🇰 HK-2 | Mix
   port: 443
-  server: 129.153.93.183
+  server: fan.240104.xyz
   tls:
     enabled: true
   type: http
@@ -138,39 +68,94 @@ proxies:
     enabled: true
   type: http
   username: bnVsbDpudWxs
-- cipher: aes-256-gcm
-  name: 0|🇮🇹 IT-3 | Mix
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
+- name: 0|🇷🇺 RU-3 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 44008
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇸🇪 SE-1 | Mix
+  port: 443
+  server: 217.210.129.243
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.34
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇭🇰 HK-3 | Mix
+  port: 3128
+  server: 119.28.24.235
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇹🇼 TW-2 | Mix
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
   udp: true
-- name: 0|🇺🇸 US-7 | Mix
+- name: 0|🇦🇹 AT-1 | Mix
   port: 443
-  server: berniesbodybla.fun
+  server: 146.70.244.2
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-8 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+- name: 0|🇩🇪 DE-2 | Mix
+  port: 9002
+  server: 158.173.154.3
   tls:
     enabled: true
   type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 0|🇧🇪 BE-1 | Mix
+- client-fingerprint: firefox
+  name: 0|🇳🇱 NL-3 | Mix
+  network: ws
   port: 443
-  server: 146.70.176.242
+  server: 178.130.46.211
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- name: 0|🇧🇬 BG-1 | Mix
+  port: 9443
+  server: 169.150.237.1
   tls:
     enabled: true
   type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇮🇳 IN-1 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  server: 5.253.28.224
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: vlgrpc
   mode: gun
-  name: 0|🇷🇺 RU-2 | Mix
+  name: 0|🇷🇺 RU-4 | Mix
   network: grpc
   port: 443
   server: 201.24.121.243

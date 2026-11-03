@@ -1,17 +1,35 @@
 proxies:
 - name: 0|🇷🇺 RU-1 | Mix
-  port: 8443
-  server: 87.242.85.187
+  password: 9jkvAVV-9ufV6IGd
+  port: 36074
+  server: chalo-ru.nexorcdn.com
   tls:
     enabled: true
   type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇷🇺 RU-2 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 27402
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇷🇺 RU-3 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 44008
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
 - alpn:
   - h2
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vlgrpc
   mode: gun
-  name: 0|🇷🇺 RU-2 | Mix
+  name: 0|🇷🇺 RU-4 | Mix
   network: grpc
   port: 443
   server: 201.24.121.243
