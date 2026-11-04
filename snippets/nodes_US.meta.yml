@@ -1,63 +1,38 @@
 proxies:
 - name: 0|🇺🇸 US-1 | Mix
-  port: 8443
-  server: 45.145.73.240
+  port: 443
+  server: 137.175.22.85
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-2 | Mix
-  port: 9002
-  server: 138.199.35.212
+  password: 'null'
+  port: 443
+  server: berniesbodybla.fun
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 0|🇺🇸 US-3 | Mix
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   port: 443
-  server: fan.226278.xyz
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   tls:
     enabled: true
   type: http
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
 - name: 0|🇺🇸 US-4 | Mix
+  port: 38182
+  server: 69.55.49.177
+  type: socks
+- name: 0|🇺🇸 US-5 | Mix
   port: 443
-  server: 38.247.141.135
+  server: 23.133.176.14
   tls:
     enabled: true
   type: http
 - client-fingerprint: chrome
-  name: 0|🇺🇸 US-5 | Mix
-  network: ws
-  port: 2096
-  server: saas.sin.fan
-  servername: vp9.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp9.1145678.xyz
-    path: /thread/list
-- name: 0|🇺🇸 US-6 | Mix
-  port: 443
-  server: jewelscollecti.icu
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-7 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-8 | Mix
-  port: 443
-  server: efr-marktplatz.club
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: chrome
-  name: 0|🇺🇸 US-9 | Mix
+  name: 0|🇺🇸 US-6 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
