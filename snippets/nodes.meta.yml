@@ -1,174 +1,134 @@
 proxies:
-- name: 0|🇷🇴 RO-1 | Mix
+- name: 0|🇳🇱 NL-1 | Mix
   password: 'null'
-  port: 9002
-  server: 193.176.84.19
+  port: 443
+  server: 5.2.73.112
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-1 | Mix
+- name: 0|🇷🇸 RS-1 | Mix
   port: 443
-  server: 137.175.22.85
+  server: 146.70.221.18
   tls:
     enabled: true
   type: http
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 443
-  server: fan.571589.xyz
+- name: 0|🇸🇪 SE-1 | Mix
+  port: 8443
+  server: 77.221.136.60
   tls:
     enabled: true
   type: http
 - name: 0|🇩🇪 DE-1 | Mix
-  port: 443
-  server: 149.36.50.129
+  port: 9002
+  server: 158.173.154.3
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-1 | Mix
-  password: 'null'
+- name: 0|🇬🇧 GB-1 | Mix
+  password: e4b72b531a2d10900519
   port: 443
-  server: 5.255.118.82
+  server: 206.189.118.214
+  tls:
+    enabled: true
+  type: http
+  username: testuser1
+- name: 0|🇷🇺 RU-1 | Mix
+  password: 9jkvAVV-9ufV6IGd
+  port: 44008
+  server: chalo-ru.nexorcdn.com
+  tls:
+    enabled: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 0|🇺🇸 US-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 0|🇷🇺 RU-2 | Mix
+  port: 1080
+  server: 46.172.125.101
+  type: socks
 - name: 0|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 443
-  server: berniesbodybla.fun
+  password: None
+  port: 9002
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇫🇮 FI-1 | Mix
-  port: 8443
-  server: 176.124.206.150
+- name: 0|🇩🇪 DE-2 | Mix
+  password: 'null'
+  port: 443
+  server: 213.109.163.119
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇨🇿 CZ-1 | Mix
+  port: 443
+  server: 193.35.104.196
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇸🇬 SG-2 | Mix
+  port: 443
+  server: 156.146.56.97
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-2 | Mix
+  port: 1080
+  server: 5.255.113.177
   type: socks
+- name: 0|🇨🇦 CA-1 | Mix
+  port: 9443
+  server: 198.44.157.19
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-3 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  server: fullmanfirm.icu
   tls:
     enabled: true
   type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 0|🇫🇷 FR-1 | Mix
-  password: 'null'
+- name: 0|🇷🇴 RO-1 | Mix
+  port: 9002
+  server: 193.176.84.23
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇰 DK-1 | Mix
   port: 443
-  server: fan.132031.xyz
+  server: 185.245.84.50
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.18
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-3 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-4 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.35
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇯🇵 JP-2 | Mix
-  port: 443
-  server: fan.587475.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-5 | Mix
-  port: 9002
-  server: 193.176.84.19
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: qq
-  name: 0|🇵🇱 PL-1 | Mix
-  network: tcp
-  port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-1 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
   udp: true
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
-- name: 0|🇷🇴 RO-6 | Mix
-  password: None
-  port: 9002
-  server: 193.176.84.40
+- name: 0|🇦🇹 AT-1 | Mix
+  port: 443
+  server: 146.70.244.2
   tls:
     enabled: true
   type: http
-  username: 'null'
-- name: 0|🇭🇰 HK-1 | Mix
-  port: 6666
-  server: 218.77.50.79
-  type: socks
+- name: 0|🇳🇱 NL-3 | Mix
+  port: 443
+  server: 5.255.97.220
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-4 | Mix
-  port: 38182
-  server: 69.55.49.177
-  type: socks
-- name: 0|🇷🇴 RO-7 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.24
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇮🇱 IL-1 | Mix
-  port: 443
-  server: 62.90.77.30
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇫🇷 FR-2 | Mix
-  password: None
-  port: 443
-  server: fan.132031.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 23.133.176.14
-  tls:
-    enabled: true
-  type: http
-- client-fingerprint: firefox
-  name: 0|🇳🇱 NL-2 | Mix
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
-    short-id: 50ad5564
-  server: 186.246.9.29
-  servername: wordpress.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
-- name: 0|🇱🇻 LV-1 | Mix
-  port: 443
-  server: 185.219.159.15
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-6 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
