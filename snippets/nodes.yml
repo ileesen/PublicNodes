@@ -1,12 +1,15 @@
 proxies:
-- name: 0|🇩🇪 DE-2 | Mix
-  network: tcp
-  password: happybirthdaydaniel
-  port: 25267
-  security: tls
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇨🇳 CN-1 | Mix
+  network: ws
+  port: 10086
+  server: 120.48.133.162
+  type: vmess
+  udp: true
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  ws-opts:
+    path: /
 - name: 0|🇺🇸 US-10 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a

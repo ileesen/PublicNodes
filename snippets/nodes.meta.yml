@@ -1,189 +1,166 @@
 proxies:
-- name: 0|🇵🇱 PL-1 | Mix
-  network: ws
-  port: 28449
-  server: 84.23.52.120
-  servername: pl.sparxiecn.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
-  ws-opts:
-    headers:
-      Host: 84.23.52.120
-    path: /lovelive
-- name: 0|🇮🇱 IL-1 | Mix
-  port: 443
-  server: 169.150.248.17
+- name: 0|🇳🇱 NL-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 84.17.47.147
   tls:
     enabled: true
   type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-1 | Mix
+  password: 'null'
+  port: 9002
+  server: 193.176.84.37
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇯🇵 JP-1 | Mix
+  port: 7000
+  server: 58.32.16.138
+  type: socks
 - name: 0|🇺🇸 US-1 | Mix
-  port: 443
-  server: fullmanfirm.icu
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
   tls:
     enabled: true
   type: http
-  username: Ok5vbmU=
-- name: 0|🇬🇧 GB-1 | Mix
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 206.189.118.214
-  tls:
-    enabled: true
-  type: http
-  username: testuser1
-- name: 0|🇭🇰 HK-1 | Mix
-  network: ws
-  port: 8443
-  server: 154.19.186.229
-  servername: hk1.1am.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2377a148-5e9b-431f-93f4-a1bbaa3dabe9
-  ws-opts:
-    headers:
-      Host: hk1.1am.cc.cd
-    path: /69258b95124b5273
+  username: 'null'
 - name: 0|🇩🇪 DE-1 | Mix
   password: 'null'
   port: 9002
-  server: 158.173.154.5
+  server: 158.173.154.4
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  port: 8090
-  server: 173.42.49.102
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-1 | Mix
+- name: 0|🇱🇻 LV-1 | Mix
+  port: 1080
+  server: 195.135.255.98
+  type: socks
+- alpn:
+  - http/1.1
+  name: 0|🇹🇼 TW-1 | Mix
+  password: 0324fbc29561
   port: 443
-  server: 51.158.243.91
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇵🇱 PL-2 | Mix
-  port: 443
-  server: 31.186.220.204
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-2 | Mix
-  network: tcp
-  password: happybirthdaydaniel
-  port: 25267
-  security: tls
-  server: de-bots4.h1cloud.net
+  server: er8u54dh.df6h451rh.xin
   skip-cert-verify: true
-  type: trojan
-- client-fingerprint: firefox
-  name: 0|🇺🇸 US-3 | Mix
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
-    short-id: '04'
-  server: 87.232.88.27
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: px.ads.linkedin.com
+  type: anytls
   udp: true
-  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
-- name: 0|🇺🇸 US-4 | Mix
-  port: 9002
-  server: 138.199.35.209
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇸🇪 SE-1 | Mix
-  port: 8443
-  server: 77.221.136.60
-  tls:
-    enabled: true
-  type: http
 - name: 0|🇫🇷 FR-1 | Mix
+  port: 8081
+  server: 31.32.19.111
+  tls:
+    enabled: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 0|🇨🇳 CN-1 | Mix
+  network: ws
+  port: 10086
+  server: 120.48.133.162
+  type: vmess
+  udp: true
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  ws-opts:
+    path: /
+- name: 0|🇺🇸 US-2 | Mix
   password: 'null'
   port: 443
-  server: 82.66.235.221
+  server: 66.64.100.66
   tls:
     enabled: true
   type: http
   username: 'null'
+- name: 0|🇺🇸 US-3 | Mix
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇯🇵 JP-2 | Mix
+  port: 10808
+  server: 101.36.104.239
+  type: socks
+- name: 0|🇺🇸 US-4 | Mix
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  tls:
+    enabled: true
+  type: http
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: 0|🇫🇷 FR-2 | Mix
+  port: 443
+  server: 82.65.162.76
+  tls:
+    enabled: true
+  type: http
 - name: 0|🇺🇸 US-5 | Mix
-  port: 8090
-  server: 98.101.229.212
+  port: 443
+  server: 162.244.227.36
   tls:
     enabled: true
   type: http
 - name: 0|🇮🇩 ID-1 | Mix
-  password: None
+  password: 'null'
   port: 443
-  server: fullmanfirm.icu
+  server: 178.248.73.58
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇮🇹 IT-1 | Mix
-  port: 1088
-  server: 212.77.75.25
-  type: socks
-- name: 0|🇧🇬 BG-1 | Mix
-  port: 9443
-  server: 169.150.237.1
+- name: 0|🇦🇹 AT-1 | Mix
+  port: 443
+  server: 146.70.244.2
   tls:
     enabled: true
   type: http
-- name: 0|🇺🇸 US-6 | Mix
-  port: 9002
-  server: 138.199.35.219
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
+- name: 0|🇳🇱 NL-2 | Mix
   password: 'null'
   port: 9002
-  server: 193.176.84.18
+  server: 84.17.47.123
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇧🇷 BR-1 | Mix
-  port: 443
-  server: 134.65.17.77
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.31
-  tls:
-    enabled: true
-  type: http
+- name: 0|🇺🇸 US-6 | Mix
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 0|🇺🇸 US-7 | Mix
-  port: 7615
-  server: 47.90.206.169
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 0|🇺🇸 US-8 | Mix
-  port: 443
-  server: purposebydesig.club
+  port: 8443
+  server: 45.145.73.240
   tls:
     enabled: true
   type: http
 - name: 0|🇺🇸 US-9 | Mix
+  port: 38182
+  server: 69.55.49.177
+  type: socks
+- name: 0|🇮🇹 IT-1 | Mix
+  password: 'null'
   port: 443
-  server: 198.44.135.27
+  server: 93.42.177.250
   tls:
     enabled: true
   type: http
+  username: 'null'
 - name: 0|🇺🇸 US-10 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
