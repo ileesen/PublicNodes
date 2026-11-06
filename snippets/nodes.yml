@@ -1,16 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇨🇳 CN-1 | Mix
+  name: 0|🇩🇪 DE-2 | Mix
   network: ws
-  port: 10086
-  server: 120.48.133.162
+  port: 16644
+  server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  uuid: 545ee947-78b4-4c47-9c01-7a1d983273f8
   ws-opts:
+    headers:
+      Host: 8b6efbd394b2946b0781661c2a1ba8f1.mobgslb.tbcache.com
     path: /
-- name: 0|🇺🇸 US-10 | Mix
+- name: 0|🇺🇸 US-5 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443

@@ -1,167 +1,177 @@
 proxies:
-- name: 0|🇳🇱 NL-1 | Mix
+- name: 0|🇩🇪 DE-1 | Mix
+  port: 9443
+  server: 79.127.156.177
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-1 | Mix
   password: 'null'
+  port: 9002
+  server: 193.176.84.39
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- name: 0|🇷🇴 RO-2 | Mix
+  port: 9002
+  server: 193.176.84.26
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇺 RU-1 | Mix
+  password: 'null'
+  port: 443
+  server: 178.219.43.226
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 16644
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 545ee947-78b4-4c47-9c01-7a1d983273f8
+  ws-opts:
+    headers:
+      Host: 8b6efbd394b2946b0781661c2a1ba8f1.mobgslb.tbcache.com
+    path: /
+- name: 0|🇷🇴 RO-3 | Mix
+  port: 9002
+  server: 193.176.84.31
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-4 | Mix
+  port: 9002
+  server: 193.176.84.22
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇳🇱 NL-1 | Mix
+  password: None
   port: 9002
   server: 84.17.47.147
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇷🇴 RO-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.37
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇯🇵 JP-1 | Mix
-  port: 7000
-  server: 58.32.16.138
-  type: socks
-- name: 0|🇺🇸 US-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇩🇪 DE-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 158.173.154.4
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇱🇻 LV-1 | Mix
-  port: 1080
-  server: 195.135.255.98
-  type: socks
-- alpn:
-  - http/1.1
-  name: 0|🇹🇼 TW-1 | Mix
-  password: 0324fbc29561
+- name: 0|🇩🇪 DE-3 | Mix
   port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- name: 0|🇫🇷 FR-1 | Mix
-  port: 8081
-  server: 31.32.19.111
+  server: 213.177.229.161
   tls:
     enabled: true
   type: http
-- alterId: 0
-  cipher: auto
-  name: 0|🇨🇳 CN-1 | Mix
-  network: ws
-  port: 10086
-  server: 120.48.133.162
-  type: vmess
+- name: 0|🇩🇪 DE-4 | Mix
+  port: 9090
+  server: 202.4.119.226
+  type: socks
+- name: 0|🇷🇴 RO-5 | Mix
+  port: 9002
+  server: 193.176.84.24
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇺🇸 US-1 | Mix
+  port: 9002
+  server: 138.199.35.195
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇷🇴 RO-6 | Mix
+  port: 9002
+  server: 193.176.84.16
+  tls:
+    enabled: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 0|🇯🇵 JP-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YSklMc171NEC2B6m8INRbVpRCPIZbO9ekgx53IgyXAs
+    short-id: 19a26f04a348e35b
+  server: 66.42.40.136
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    path: /
+  uuid: bb9f102d-f023-4d66-8ae3-2245e2904960
+- name: 0|🇯🇵 JP-2 | Mix
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+  username: 'null'
 - name: 0|🇺🇸 US-2 | Mix
   password: 'null'
-  port: 443
-  server: 66.64.100.66
+  port: 8090
+  server: 184.188.139.2
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇺🇸 US-3 | Mix
+- name: 0|🇯🇵 JP-3 | Mix
+  port: 443
+  server: fan.571589.xyz
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-5 | Mix
   password: 'null'
   port: 9002
-  server: 138.199.35.216
+  server: 158.173.154.2
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇯🇵 JP-2 | Mix
-  port: 10808
-  server: 101.36.104.239
-  type: socks
-- name: 0|🇺🇸 US-4 | Mix
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: 0|🇧🇷 BR-1 | Mix
   port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  server: 134.65.17.77
   tls:
     enabled: true
   type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 0|🇫🇷 FR-2 | Mix
+- flow: xtls-rprx-vision
+  name: 0|🇨🇿 CZ-1 | Mix
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: cz-prg.dontblockmepls.com
+  servername: rusbid.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- name: 0|🇺🇸 US-3 | Mix
   port: 443
-  server: 82.65.162.76
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
-  port: 443
-  server: 162.244.227.36
+  server: 38.28.193.1
   tls:
     enabled: true
   type: http
 - name: 0|🇮🇩 ID-1 | Mix
   password: 'null'
   port: 443
-  server: 178.248.73.58
+  server: 103.86.117.202
   tls:
     enabled: true
   type: http
   username: 'null'
-- name: 0|🇦🇹 AT-1 | Mix
+- name: 0|🇺🇸 US-4 | Mix
   port: 443
-  server: 146.70.244.2
+  server: 167.88.60.242
   tls:
     enabled: true
   type: http
-- name: 0|🇳🇱 NL-2 | Mix
-  password: 'null'
-  port: 9002
-  server: 84.17.47.123
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-6 | Mix
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 0|🇺🇸 US-7 | Mix
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-8 | Mix
-  port: 8443
-  server: 45.145.73.240
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-9 | Mix
-  port: 38182
-  server: 69.55.49.177
-  type: socks
-- name: 0|🇮🇹 IT-1 | Mix
-  password: 'null'
-  port: 443
-  server: 93.42.177.250
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-10 | Mix
+- name: 0|🇺🇸 US-5 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443

@@ -1,8 +1,37 @@
 proxies:
 - name: 0|🇩🇪 DE-1 | Mix
+  port: 9443
+  server: 79.127.156.177
+  tls:
+    enabled: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪 DE-2 | Mix
+  network: ws
+  port: 16644
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 545ee947-78b4-4c47-9c01-7a1d983273f8
+  ws-opts:
+    headers:
+      Host: 8b6efbd394b2946b0781661c2a1ba8f1.mobgslb.tbcache.com
+    path: /
+- name: 0|🇩🇪 DE-3 | Mix
+  port: 443
+  server: 213.177.229.161
+  tls:
+    enabled: true
+  type: http
+- name: 0|🇩🇪 DE-4 | Mix
+  port: 9090
+  server: 202.4.119.226
+  type: socks
+- name: 0|🇩🇪 DE-5 | Mix
   password: 'null'
   port: 9002
-  server: 158.173.154.4
+  server: 158.173.154.2
   tls:
     enabled: true
   type: http
