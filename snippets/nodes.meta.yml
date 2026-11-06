@@ -1,183 +1,561 @@
 proxies:
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 9443
-  server: 79.127.156.177
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-1 | Mix
-  password: 'null'
-  port: 9002
-  server: 193.176.84.39
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇷🇴 RO-2 | Mix
-  port: 9002
-  server: 193.176.84.26
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇺 RU-1 | Mix
-  password: 'null'
-  port: 443
-  server: 178.219.43.226
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 16644
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 545ee947-78b4-4c47-9c01-7a1d983273f8
-  ws-opts:
-    headers:
-      Host: 8b6efbd394b2946b0781661c2a1ba8f1.mobgslb.tbcache.com
-    path: /
-- name: 0|🇷🇴 RO-3 | Mix
-  port: 9002
-  server: 193.176.84.31
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-4 | Mix
-  port: 9002
-  server: 193.176.84.22
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇳🇱 NL-1 | Mix
-  password: None
-  port: 9002
-  server: 84.17.47.147
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇩🇪 DE-3 | Mix
-  port: 443
-  server: 213.177.229.161
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-4 | Mix
-  port: 9090
-  server: 202.4.119.226
-  type: socks
-- name: 0|🇷🇴 RO-5 | Mix
-  port: 9002
-  server: 193.176.84.24
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇷🇴 RO-6 | Mix
-  port: 9002
-  server: 193.176.84.16
-  tls:
-    enabled: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 0|🇯🇵 JP-1 | Mix
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-1 | Mix
   network: tcp
   port: 443
   reality-opts:
-    public-key: YSklMc171NEC2B6m8INRbVpRCPIZbO9ekgx53IgyXAs
-    short-id: 19a26f04a348e35b
-  server: 66.42.40.136
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: ru11.oshost.network
+  servername: ru11.oshost.network
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- name: 0|🇺🇸 US-1 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-1 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬 SG-1 | Mix
+  network: ws
+  port: 30330
+  server: sg-transit-3.nebulacloud.win
+  tls:
+    enabled: true
+    server_name: sg-transit-3.nebulacloud.win
+  type: vmess
+  udp: true
+  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
+  ws-opts:
+    headers:
+      Host: sg-transit-3.nebulacloud.win
+    path: /ca/getData
+- ech: ip.gs+udp://8.8.8.8
+  name: 0|🇺🇸 US-2 | Mix
+  network: ws
+  password: humanity
+  port: 443
+  security: tls
+  server: 141.193.213.172
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  name: 0|🇺🇸 US-3 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.201
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  name: 0|🇸🇬 SG-2 | Mix
+  network: ws
+  port: 2083
+  server: 206.238.239.20
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  name: 0|🇺🇸 US-4 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- flow: xtls-rprx-vision
+  name: 0|🇨🇾 CY-1 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  server: hydra.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+- name: 0|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2083
+  server: 209.206.51.236
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  name: 0|🇺🇸 US-6 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.47
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- name: 0|🇰🇿 KZ-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
+  server: 46.8.43.125
+  servername: kz-central.v8x2b.lol
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
+- name: 0|🇺🇸 US-7 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.201
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- name: 0|🇸🇬 SG-3 | Mix
+  network: ws
+  port: 2083
+  server: 206.238.239.245
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- name: 0|🇺🇸 US-8 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.214
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: 213.159.209.66
+  servername: ru11.oshost.network
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- flow: xtls-rprx-vision
+  name: 0|🇧🇾 BY-1 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _J2iVrDDgPShx9YYjTxVc_HrL3mrBcP8K-TyyyvHQlU
+    short-id: a1b2c3d4e5f60718
+  server: here-we-go-soocer.keno.su
+  servername: here-we-go-soocer.keno.su
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a66ad35-93ce-4fd2-831f-bcaa63cdac1e
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-2 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: 155.117.232.61
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇷 GR-1 | Mix
+  password: x2A6AsyZ-rAllz0wbKHzWA
+  port: 8388
+  server: ams1.rvpn.app
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 0|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  server: dorado.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-3 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-4 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- name: 0|🇫🇷 FR-1 | Mix
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  port: 443
+  server: 195.177.94.166
+  skip-cert-verify: true
+  sni: fr2-cl3.happy-glonaris.top
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  grpc-opts:
+    grpc-service-name: beru-uk
+  mode: gun
+  name: 0|🇷🇺 RU-3 | Mix
+  network: grpc
+  port: 8444
+  server: ru3.radiolumens.uk
+  servername: ru3.radiolumens.uk
+  serviceName: beru-uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+- name: 0|🇮🇱 IL-1 | Mix
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  security: tls
+  server: 64.176.163.182
+  servername: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  skip-cert-verify: true
+  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+  server: tau1.freerunet.online
+  servername: tau1.freerunet.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-5 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-6 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-7 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-8 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- name: 0|🇷🇺 RU-5 | Mix
+  network: tcp
+  port: 25387
+  reality-opts:
+    public-key: _nrnGiJUdyeLv2afSwe6P4j02AMayY34WFMjUJp5Kwc
+    short-id: 9608a9c65d315d52
+  server: se3.h1cloud.net
   servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bb9f102d-f023-4d66-8ae3-2245e2904960
-- name: 0|🇯🇵 JP-2 | Mix
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 8090
-  server: 184.188.139.2
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇯🇵 JP-3 | Mix
-  port: 443
-  server: fan.571589.xyz
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 158.173.154.2
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇧🇷 BR-1 | Mix
-  port: 443
-  server: 134.65.17.77
-  tls:
-    enabled: true
-  type: http
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-9 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
 - flow: xtls-rprx-vision
-  name: 0|🇨🇿 CZ-1 | Mix
+  name: 0|🇩🇪 DE-2 | Mix
   network: tcp
-  port: 2063
+  port: 443
   reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: cz-prg.dontblockmepls.com
-  servername: rusbid.de
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: ba4b2afa9e7193ea
+  server: de.puflino.com
+  servername: edge-fr.extazy.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- name: 0|🇺🇸 US-3 | Mix
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+- cipher: aes-256-gcm
+  name: 0|🇮🇹 IT-10 | Mix
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-10 | Mix
+  network: tcp
   port: 443
-  server: 38.28.193.1
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇮🇩 ID-1 | Mix
-  password: 'null'
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: node-usa.blok-signalon.top
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- name: 0|🇮🇱 IL-2 | Mix
+  network: tcp
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: ee.h1cloud.net
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- grpc-opts:
+    grpc-service-name: grpc-se-3
+  mode: gun
+  name: 0|🇸🇪 SE-1 | Mix
+  network: grpc
   port: 443
-  server: 103.86.117.202
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-4 | Mix
+  reality-opts:
+    public-key: qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo
+    short-id: 11d37dd92940329e
+  server: 136.148.211.243
+  servername: se1-cl3.vless-fiberstasis.top
+  serviceName: grpc-se-3
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- name: 0|🇮🇱 IL-3 | Mix
+  network: tcp
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.232
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-6 | Mix
+  network: tcp
   port: 443
-  server: 167.88.60.242
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-5 | Mix
+  reality-opts:
+    public-key: 2iedjEliJfyf7VYxQjSHRiY0RY9ylwj-GtO4MCfuQhg
+    short-id: a50534e181896415
+  server: 193.233.221.86
+  servername: capableconjuretarnish.clarionconsult.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37ca5f34-2531-4fda-a781-20f3845fea88
+- name: 0|🇫🇷 FR-2 | Mix
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  port: 443
+  server: fr2-cl3.happy-glonaris.top
+  skip-cert-verify: true
+  sni: fr2-cl3.happy-glonaris.top
+  type: hysteria2
+  udp: true
+- name: 0|🇺🇸 US-11 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   security: tls
-  server: 169.197.140.218
-  servername: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  server: 66.163.122.7
+  servername: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: false
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
+- grpc-opts:
+    grpc-service-name: grpc-nl-stream
+  mode: multi
+  name: 0|🇳🇱 NL-1 | Mix
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
+    short-id: 724d6cab
+  server: nl-all.vless-bitrhythmia.top
+  servername: nl-all.vless-bitrhythmia.top
+  serviceName: grpc-nl-stream
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- grpc-opts:
+    grpc-service-name: grpc-nl-stream
+  mode: gun
+  name: 0|🇳🇱 NL-2 | Mix
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
+    short-id: 724d6cab
+  server: 74.0.48.173
+  servername: nl-all.vless-bitrhythmia.top
+  serviceName: grpc-nl-stream
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- cipher: aes-256-gcm
+  name: 0|🇯🇵 JP-1 | Mix
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  type: ss
+  udp: true
+- name: 0|🇺🇸 US-12 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.47
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- name: 0|🇸🇬 SG-4 | Mix
+  network: ws
+  port: 2083
+  server: 206.238.237.25
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /

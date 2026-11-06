@@ -1,38 +1,172 @@
 proxies:
-- name: 0|🇺🇸 US-1 | Mix
-  port: 9002
-  server: 138.199.35.195
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-2 | Mix
-  password: 'null'
-  port: 8090
-  server: 184.188.139.2
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
-- name: 0|🇺🇸 US-3 | Mix
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-1 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- ech: ip.gs+udp://8.8.8.8
+  name: 0|🇺🇸 US-2 | Mix
+  network: ws
+  password: humanity
   port: 443
-  server: 38.28.193.1
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇺🇸 US-4 | Mix
-  port: 443
-  server: 167.88.60.242
-  tls:
-    enabled: true
-  type: http
+  security: tls
+  server: 141.193.213.172
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 0|🇺🇸 US-3 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.201
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 0|🇺🇸 US-4 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
 - client-fingerprint: chrome
   name: 0|🇺🇸 US-5 | Mix
+  network: ws
+  port: 2083
+  server: 209.206.51.236
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 0|🇺🇸 US-6 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.47
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-7 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.201
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-8 | Mix
+  network: ws
+  port: 2083
+  server: 198.202.24.214
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-9 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: 155.117.232.61
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸 US-10 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: node-usa.blok-signalon.top
+  servername: node-usa.blok-signalon.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- name: 0|🇺🇸 US-11 | Mix
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   security: tls
-  server: 169.197.140.218
-  servername: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  server: 66.163.122.7
+  servername: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: false
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
+- client-fingerprint: chrome
+  name: 0|🇺🇸 US-12 | Mix
+  network: ws
+  port: 2083
+  server: 209.94.90.47
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    path: /

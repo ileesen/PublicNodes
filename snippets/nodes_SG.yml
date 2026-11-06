@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬 SG-1 | Mix
+  network: ws
+  port: 30330
+  server: sg-transit-3.nebulacloud.win
+  tls:
+    enabled: true
+    server_name: sg-transit-3.nebulacloud.win
+  type: vmess
+  udp: true
+  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
+  ws-opts:
+    headers:
+      Host: sg-transit-3.nebulacloud.win
+    path: /ca/getData

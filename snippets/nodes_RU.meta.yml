@@ -1,9 +1,93 @@
 proxies:
-- name: 0|🇷🇺 RU-1 | Mix
-  password: 'null'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-1 | Mix
+  network: tcp
   port: 443
-  server: 178.219.43.226
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: ru11.oshost.network
+  servername: ru11.oshost.network
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-2 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: 213.159.209.66
+  servername: ru11.oshost.network
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: beru-uk
+  mode: gun
+  name: 0|🇷🇺 RU-3 | Mix
+  network: grpc
+  port: 8444
+  server: ru3.radiolumens.uk
+  servername: ru3.radiolumens.uk
+  serviceName: beru-uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-4 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+  server: tau1.freerunet.online
+  servername: tau1.freerunet.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+- client-fingerprint: chrome
+  name: 0|🇷🇺 RU-5 | Mix
+  network: tcp
+  port: 25387
+  reality-opts:
+    public-key: _nrnGiJUdyeLv2afSwe6P4j02AMayY34WFMjUJp5Kwc
+    short-id: 9608a9c65d315d52
+  server: se3.h1cloud.net
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺 RU-6 | Mix
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2iedjEliJfyf7VYxQjSHRiY0RY9ylwj-GtO4MCfuQhg
+    short-id: a50534e181896415
+  server: 193.233.221.86
+  servername: capableconjuretarnish.clarionconsult.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37ca5f34-2531-4fda-a781-20f3845fea88

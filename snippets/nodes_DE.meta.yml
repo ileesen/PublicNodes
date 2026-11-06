@@ -1,38 +1,31 @@
 proxies:
-- name: 0|🇩🇪 DE-1 | Mix
-  port: 9443
-  server: 79.127.156.177
-  tls:
-    enabled: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪 DE-2 | Mix
-  network: ws
-  port: 16644
-  server: m.cnmjin.net
-  type: vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 DE-1 | Mix
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  server: dorado.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 545ee947-78b4-4c47-9c01-7a1d983273f8
-  ws-opts:
-    headers:
-      Host: 8b6efbd394b2946b0781661c2a1ba8f1.mobgslb.tbcache.com
-    path: /
-- name: 0|🇩🇪 DE-3 | Mix
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪 DE-2 | Mix
+  network: tcp
   port: 443
-  server: 213.177.229.161
-  tls:
-    enabled: true
-  type: http
-- name: 0|🇩🇪 DE-4 | Mix
-  port: 9090
-  server: 202.4.119.226
-  type: socks
-- name: 0|🇩🇪 DE-5 | Mix
-  password: 'null'
-  port: 9002
-  server: 158.173.154.2
-  tls:
-    enabled: true
-  type: http
-  username: 'null'
+  reality-opts:
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: ba4b2afa9e7193ea
+  server: de.puflino.com
+  servername: edge-fr.extazy.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
